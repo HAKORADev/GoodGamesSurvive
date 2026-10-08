@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/style.css?v=9">
 </head>
 <body>
 <div class="crt" aria-hidden="true">
@@ -17,16 +17,24 @@
   <div class="crt-vignette"></div>
 </div>
 
-<header class="page-head">
+<header class="site-head">
   <a class="logo" href="../" aria-label="WA?D — home">
-    <span class="logo-diamond" aria-hidden="true" style="width:52px;height:52px">
-      <span class="pos pos-t" style="width:15px;height:15px;font-size:8px">W</span>
-      <span class="pos pos-l" style="width:15px;height:15px;font-size:8px">A</span>
-      <span class="pos pos-b" style="width:15px;height:15px;font-size:8px">?</span>
-      <span class="pos pos-r" style="width:15px;height:15px;font-size:8px">D</span>
+    <span class="logo-diamond" aria-hidden="true">
+      <span class="pos pos-t">W</span>
+      <span class="pos pos-l">A</span>
+      <span class="pos pos-b">?</span>
+      <span class="pos pos-r">D</span>
     </span>
+    <span class="logo-word">GOODGAMES<em>SURVIVE</em></span>
   </a>
-  <span class="crumb"><a href="../">GOODGAMES SURVIVE</a> / <b>GAMES</b></span>
+  <nav class="site-nav">
+    <a class="here" href="../pages/games.html">GAMES <span class="count">(3)</span></a>
+    <span class="dead">SOFTWARE <span class="count">(0)</span></span>
+    <span class="dead">MODS+PATCHES <span class="count">(0)</span></span>
+  </nav>
+  <form class="head-search" action="search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="search the catalogue" aria-label="search the catalogue">
+  </form>
 </header>
 
 <main class="page-wrap">
@@ -35,18 +43,27 @@
     <h2 class="sec-title">THE GAMES — 3 PAGES DUG UP SO FAR</h2>
     <div class="dir">
       <a class="dir-row" href="game/hitman-blood-money.html">
-        <span class="dir-name">Hitman: Blood Money</span>
-        <span class="dir-meta">2006 · IO Interactive · stealth action · still sold</span>
+        <span class="dir-thumb"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg" alt="Hitman: Blood Money cover" loading="lazy"></span>
+        <span class="dir-main">
+          <span class="dir-name">Hitman: Blood Money</span>
+          <span class="dir-meta">2006 · IO Interactive · stealth action · still sold</span>
+        </span>
         <span class="dir-go">OPEN &#8594;</span>
       </a>
       <a class="dir-row" href="game/chicken-invaders-5.html">
-        <span class="dir-name">Chicken Invaders 5: Cluck of the Dark Side</span>
-        <span class="dir-meta">2014 · InterAction studios · shoot 'em up · single + co-op</span>
+        <span class="dir-thumb"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/353090/header.jpg" alt="Chicken Invaders 5 cover" loading="lazy"></span>
+        <span class="dir-main">
+          <span class="dir-name">Chicken Invaders 5: Cluck of the Dark Side</span>
+          <span class="dir-meta">2014 · InterAction studios · shoot 'em up · single + co-op</span>
+        </span>
         <span class="dir-go">OPEN &#8594;</span>
       </a>
       <a class="dir-row" href="game/diner-dash.html">
-        <span class="dir-name">Diner Dash</span>
-        <span class="dir-meta">2003 · gameLab · PlayFirst · time management · un-buyable</span>
+        <span class="dir-thumb"><img src="../assets/media/diner-dash-cover.jpg" alt="Diner Dash cover" loading="lazy"></span>
+        <span class="dir-main">
+          <span class="dir-name">Diner Dash</span>
+          <span class="dir-meta">2003 · gameLab · PlayFirst · time management · un-buyable</span>
+        </span>
         <span class="dir-go">OPEN &#8594;</span>
       </a>
     </div>

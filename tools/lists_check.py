@@ -7,7 +7,7 @@
 #   4. regenerate work/lists/games/name-check/games-added.txt from games.json
 #   5. write work/lists/games/counts.json + print a summary
 # exit 1 on hard errors (bad json, slug collision, missing fields).
-import json, os, sys
+import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REQUIRED = ("title", "slug", "list", "series", "content_walls",
@@ -87,6 +87,44 @@ def main():
     cpath = os.path.join(ROOT, "work", "lists", "games", "counts.json")
     json.dump({"_meta": {"updated_by": "tools/lists_check.py"}, **counts},
               open(cpath, "w", encoding="utf-8"), indent=1)
+
+    # site search index: page-backed slugs auto-detected from pages/game/*.html,
+    # thumbs auto-pulled from each page's game-cover img (no bookkeeping).
+    gdir = os.path.join(ROOT, "pages", "game")
+    page_slugs = {}
+    if os.path.isdir(gdir):
+        for f in sorted(os.listdir(gdir)):
+            if f.endswith(".html"):
+                html = open(os.path.join(gdir, f), encoding="utf-8").read()
+                m = re.search(r'<div class="game-cover">\s*<img src="([^"]+)"',
+                              html)
+                page_slugs[f[:-5]] = m.group(1) if m else None
+    idx = []
+    for g in games:
+        rel = g.get("release") or ""
+        idx.append({
+            "t": g.get("title", ""),
+            "s": g.get("slug", ""),
+            "y": rel[:4] if rel[:4].isdigit() else None,
+            "c": g.get("category"),
+            "ser": g.get("series"),
+            "l": g.get("list", ""),
+            "p": "pages/game/%s.html" % g["slug"] if g["slug"] in page_slugs
+                 else None,
+            "th": page_slugs.get(g["slug"]),
+            "b": bool(g.get("big_size")),
+            "w": g.get("content_walls") or [],
+            "v": g.get("confidence") == "verified",
+        })
+    idx.sort(key=lambda r: r["t"].casefold())
+    ipath = os.path.join(ROOT, "data", "search-index.json")
+    json.dump({"_meta": {"updated_by": "tools/lists_check.py",
+                         "rows": len(idx)},
+               "rows": idx},
+              open(ipath, "w", encoding="utf-8"),
+              indent=None, separators=(",", ":"), ensure_ascii=False)
+    print("search index: %d rows (%d page-backed)"
+          % (len(idx), len(page_slugs)))
 
     print("counts:", json.dumps({k: v for k, v in counts.items()
                                  if k != "duplicate_titles"}))
