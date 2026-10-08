@@ -1,0 +1,8 @@
+{
+ "_meta": {
+  "schema": "ggs.v1",
+  "updated": "2026-10-09",
+  "note": "empty until the mods pass. fields and rules in README.md beside this file."
+ },
+ "mods": []
+}

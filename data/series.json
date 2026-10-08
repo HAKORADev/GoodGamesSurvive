@@ -1,0 +1,144 @@
+{
+ "_meta": {
+  "schema": "ggs.v1",
+  "updated": "2026-10-09",
+  "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/."
+ },
+ "series": [
+  {
+   "key": "chicken-invaders",
+   "members": [
+    {
+     "title": "Chicken Invaders",
+     "slug": "chicken-invaders",
+     "part": 1
+    },
+    {
+     "title": "Chicken Invaders 2: The Next Wave",
+     "slug": "chicken-invaders-2-the-next-wave",
+     "part": 2
+    },
+    {
+     "title": "Chicken Invaders 3: Revenge of the Yolk",
+     "slug": "chicken-invaders-3-revenge-of-the-yolk",
+     "part": 3
+    },
+    {
+     "title": "Chicken Invaders 4: Ultimate Omelette",
+     "slug": "chicken-invaders-4-ultimate-omelette",
+     "part": 4
+    },
+    {
+     "title": "Chicken Invaders 5: Cluck of the Dark Side",
+     "slug": "chicken-invaders-5-cluck-of-the-dark-side",
+     "part": 5
+    },
+    {
+     "title": "Chicken Invaders Universe",
+     "slug": "chicken-invaders-universe",
+     "part": 6
+    }
+   ]
+  },
+  {
+   "key": "diner-dash",
+   "members": [
+    {
+     "title": "Diner Dash",
+     "slug": "diner-dash",
+     "part": 1
+    },
+    {
+     "title": "Diner Dash 2: Restaurant Rescue",
+     "slug": "diner-dash-2-restaurant-rescue",
+     "part": 2
+    },
+    {
+     "title": "Diner Dash: Flo on the Go",
+     "slug": "diner-dash-flo-on-the-go",
+     "part": 3
+    },
+    {
+     "title": "Diner Dash: Hometown Hero",
+     "slug": "diner-dash-hometown-hero",
+     "part": 4
+    },
+    {
+     "title": "Diner Dash: Flo Through Time",
+     "slug": "diner-dash-flo-through-time",
+     "part": 4.1
+    },
+    {
+     "title": "Diner Dash 5: Boom!",
+     "slug": "diner-dash-5-boom",
+     "part": 5
+    },
+    {
+     "title": "Diner Dash (2015)",
+     "slug": "diner-dash-2015",
+     "part": 6
+    },
+    {
+     "title": "Diner DASH Adventures",
+     "slug": "diner-dash-adventures",
+     "part": 7
+    },
+    {
+     "title": "SpongeBob Diner Dash",
+     "slug": "spongebob-diner-dash",
+     "part": null
+    },
+    {
+     "title": "SpongeBob Diner Dash 2: Two Times the Trouble",
+     "slug": "spongebob-diner-dash-2-two-times-the-trouble",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "hitman",
+   "members": [
+    {
+     "title": "Hitman: Codename 47",
+     "slug": "hitman-codename-47",
+     "part": 1
+    },
+    {
+     "title": "Hitman 2: Silent Assassin",
+     "slug": "hitman-2-silent-assassin",
+     "part": 2
+    },
+    {
+     "title": "Hitman 3: Contracts",
+     "slug": "hitman-3-contracts",
+     "part": 3
+    },
+    {
+     "title": "Hitman: Blood Money",
+     "slug": "hitman-blood-money",
+     "part": 4
+    },
+    {
+     "title": "Hitman: Absolution",
+     "slug": "hitman-absolution",
+     "part": null
+    }
+   ],
+   "upgrades": [
+    {
+     "title": "HITMAN (World of Assassination)",
+     "release": "2016-03-11"
+    },
+    {
+     "title": "HITMAN 2",
+     "release": "2018-11-13"
+    },
+    {
+     "title": "HITMAN III",
+     "release": "2021-01-20"
+    }
+   ],
+   "upgrades_note": "modern WOA trilogy is the upgrade path for the classics; heavy for haswell iGPUs, listed as upgrades, not archive targets"
+  }
+ ]
+}

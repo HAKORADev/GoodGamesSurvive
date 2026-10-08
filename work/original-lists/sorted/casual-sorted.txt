@@ -1,0 +1,205 @@
+===================================================================
+  CASUAL — SORTED (mechanical sort of the as-is file)
+  one line per owner entry, alphabetical inside each section.
+  grouping of a line is the owner's; sorting does not re-group.
+===================================================================
+
+[ UNSORTED ]
+- CASUAL GAMES VAULT (2000s CLASSICS)
+
+[ ⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS ]
+- Alice Greenfingers 2
+- Bloom: A Bouquet for Everyone
+- Booty Farm #+18
+- Burger Shop 1 & 2
+- Cake Mania 1, 2 & 3
+- Cake Queen / Baking Bustle
+- Carrie the Caregiver 3: Camp Funshine
+- Casino Chaos / Travel Agency
+- Cathie's Caribbean Club / Paradise Beach 2
+- Chocolatier Series (Chocolatier 1, Chocolatier 2: Secret Agent, Chocolatier: Decadence by Design)
+- Claire's Cruisin' Cafe 1, 2 & 3
+- Coffee Rush
+- Country Fair / Sunshine Acres / Summer Rush / Success Story
+- Dress Up Rush
+- Farm for Your Life / My Farm / African Farm / Green Ranch / My Little Farmies
+- Farm Frenzy Series (1-4, Farm Frenzy: Gone Fishing)
+- Farming Fever Series / Farm Land
+- Farm Mania 2 / Ranch Rush 1 & 2
+- Garage Inc. / Dream Cars
+- Gardenscapes / Garden Dreams
+- Golden Hearts Juice Bar
+- Home Sweet Home 1 & 2
+- Hospital Hustle / Hospital Haste
+- Hotel Mogul
+- Huru Beach Party / Tiki Bar
+- Ice Cream Mania
+- Insaniquarium Deluxe
+- Jane's Series (Jane's Hotel, Jane's Hotel Mania, Jane's Zoo)
+- Jo's Dream: Organic Coffee 1 & 2
+- Kingdoms and Castles
+- Kitchen Brigade / Lovely Kitchen / Dead Hungry Diner
+- Leeloo Talent Agency
+- Magic Farm 1, 2 & 3
+- Megaplex Madness: Now Playing
+- Milky Bear: Lunch Frenzy
+- Miss Management
+- My Farm Life 1 & 2
+- Mystic Emporium
+- Mystic Inn (2006)
+- Nanny Mania 2 / Baby Blimp
+- Pageant Princess / Princess of Tavern
+- Papa's Deluxe Series (Papa's Freezeria Deluxe, Papa's Pizzeria Deluxe, Papa's Mocharia Deluxe)
+- Party Down / Party Planner
+- Pastry Passion / Vogue Tales / Exotic Farm
+- Pizza Chief 1 & 2
+- Plantasia (2006)
+- Posh Boutique 1 & 2 / Posh Shop
+- Project Rescue: Africa
+- Royal Envoy 2 / Royal Envoy Series
+- Sally's Series (Sally's Salon, Sally's Studio, Sally's Quick Clips)
+- Sara's Super Spa Deluxe
+- Shopmania
+- Spa Mania
+- Stand O'Food 1, 2 & 3
+- Stardew Valley
+- Supermarket Management 1 & 2
+- Supermarket Mania 1 & 2
+- Sushi Frenzy
+- Tasty Bite / Cooking Academy 2 / Cooking Fever
+- The Dash Universe (Diner Dash, Hotel Dash, Doggie Dash, SpongeBob Diner Dash 1 & 2, Delicious 1 & 2, Garden Dash, DinerTown Tycoon)
+- Turbo Series (Turbo Pizza, Turbo Fiesta, Turbo Subs)
+- TV Farm 1 & 2
+- Wendy's Wellness
+- Youda Series (Youda Farmer 1-3, Youda Fisherman, Youda Survivor 2)
+
+[ 🛡️ TOWER DEFENSE, ROGUELITE & TACTICAL CASUAL ]
+- Bloons TD 6
+- Bug Bits
+- Dead Cells
+- Garden Rescue
+- Kingdom Rush Series
+- Medieval Defenders
+- Plants vs. Zombies
+- Rampage Knights
+- Royal Defense / Royal Defense: Ancient Menace
+- SNKRX
+- Strikeforce Kitty
+- Super Virus Defense
+- The Binding of Isaac: Rebirth
+- Toy Defense 2
+- Vampire Survivors
+- Zombie Apocalypse
+
+[ 🏃 PHYSICS, PUZZLE, ARCADE, PLATFORMERS & GROWTH ]
+- 3D Frog Frenzy / Moorhuhn Series (including Crazy Chicken Sky Botz)
+- Action Ball 1 & 2 / ThinkTanks / Teddy Factory / Neverball
+- Ape Out
+- Ballance (2004) / Hopmon / Iggle Pop! / Digging Jim
+- Braid
+- Cactus Bruce and the Corporate Monkeys
+- Captain Claw / Alex Gordon / Supercow / Turtix
+- CheboMan
+- Chicken Chase / Worms Blast / Switchball
+- Chuzzle / Dynomite Deluxe / Sven Bømwøllen Series
+- Geometry Dash
+- Gumboy: Crazy Adventures / Mage Bros / Zak & Jack / NinjaBread Man
+- Home Sheep Home
+- How Many Dudes
+- Incredible Jack / Rosso Rabbit in Trouble
+- Jazz Jackrabbit 2
+- Mad Dojo / Bear Bill / Ziggy's Chase / Ultimate Solid / Cattch / Spring Boy
+- Magic Ball 3 / Turtle Odyssey 1 & 2 / Turtle Bay
+- Neighbours from Hell 1 & 2 / Smoke Attack / AirXonix / Axy Snake / Hamsterball
+- Noah's Ark
+- Octogeddon / Brotato / Overcooked!
+- Ostrich Runner / Chromadrome 1 & 2 / Clash 'N Slash
+- Peggle / Peggle Nights
+- People Playground
+- Plumeboom: The First Chapter
+- Puzzle Hero
+- Santa Claus in Trouble
+- Smiling Pasta / Last Samurai Exam
+- Snowy the Bear Collection (Snowy Space Trip, Fish Frenzy, Lunch Rush, Treasure Hunt 1-3, Puzzle Islands)
+- Spiderz / Space Strike / Slumberfish / Sky Kingdoms
+- Stick Fight
+- Super Granny (1-6)
+- Super Saurio Fly
+- Super Smasher / Jump Jelly Reactor
+- Talismania
+- Tasty Planet / Tasty Planet: Back for the Seconds / Tasty Blue
+- Terraria
+- Wik and the Fable of Souls / Beetle Bug 3 / Snail Mail / Icy Tower
+
+[ 🕹 FLASH & WEB BROWSER CLASSICS ]
+- Flashpoint Archive
+- YetiSports Collection
+
+[ 🔮 MARBLE POPPERS, MATCH-3, BUBBLES & CARDS ]
+- 4 Elements II / Adventure Inlay / Chainz 2: Relinked
+- 7 Wonders Series (7 Wonders II, Magical Mystery Tower)
+- AstroPop Deluxe / Atomica Deluxe / Pixelus Deluxe / Qbeez 2
+- Banana Bugs
+- Bookworm Adventures 1 & 2
+- BreakQuest
+- Bubble Fish Bob
+- Candy Crush Saga (Appx)
+- Danny Phantom's Ghost Frenzy
+- Dynasty
+- Eets: Hunger It's Emotional
+- Egyptian Builder: Ancient Egypt / Camellia's Locket / Charma
+- Fishdom 3 / Fishdom Series
+- Green Valley: Fun on the Farm / Butterfly Escape / Tumblebugs / Pirate Poppers / Beetle Bomp
+- Luxor / Bejeweled 3
+- Mad Caps / Big Money! Deluxe / Cosmic Bugs / Bug Attack
+- Microsoft Solitaire / Casual Cards Collection / Hoyle Board Games 2005
+- Penguin's Journey / Aquapolis
+- Rocket Mania!
+- Rose Riddle: Fairy Tale Detective
+- Seven Seas Deluxe / TipTop Deluxe / Venice Deluxe
+- Sparkle / Sparkle Unleashed / Svetlogard / Karu
+- Yu-Gi-Oh! Battle City Finals v2
+- Yu-Gi-Oh! Power of Chaos Trilogy (Yugi, Kaiba, Joey)
+- Zuma Deluxe / Zuma's Revenge!
+
+[ 🔫 LIGHT-GUN, VEHICULAR, RUNNERS & SHOOT 'EM UPS ]
+- Beach Head 2002
+- Cannon Blast / Rescue Frenzy / System Mania / Glowfish
+- Chicken Attack / Chicken's Revenge
+- Chicken Invaders Series (1-5 & Chicken Invaders Universe)
+- Heavy Weapon
+- Hotline Miami 1 & 2
+- Hungry Shark (Appx / Classic)
+- Monster Mash / Garden Defense / Magic Maze / Magus: In Search of Adventure
+- Pocket Tanks
+- Recoil (1999) / Super Stardust / HyperBowl Arcade Edition
+- Ricochet / Ricochet Xtreme / Ricochet Lost Worlds
+- Terminator 2D: No Fate
+- The House of the Dead 1, 2 & 3
+- Twisted Metal 2 / Zombie Derby / Hatred / Granny 3
+- Wipeout XL / Minion Rush / Badington Run / Funny Miners
+- Zombie Bowl-O-Rama
+- Zombie Shooter 1 & 2
+
+[ 🏎️ ARCADE RACING, SPORTS & SIDE-SCROLLERS ]
+- Atomic Bomberman / Star Defender 4
+- Beach Buggy Racing 2 / Hydro Thunder / Riptide GP: Renegade
+- Crazy Taxi 3: High Roller
+- Doubler Gold
+- Feeding Frenzy 1 & 2
+- Fishing Craze
+- Hill Climb Racing (Appx)
+- Mario Forever / Metal Slug X / Crazy Frog Racer 2
+- M&M's: Lost Formulas / Urban Freestyle Soccer
+- NASCAR Racers
+- Strike Ball 3 / Smash Frenzy / Gold Miner Vegas
+- TailsMania Deluxe
+
+[ 🐾 PETS, SIMS & VIRTUAL WORLD ]
+- Abandoned Archive
+- Angry Birds 2 (Appx)
+- Best Friends Forever / Pet Playground / Pet Fun House
+- Dub Redhead: The Time Chase
+- Happyville: Quest for the Extra-Inning / Happy Hour / Making Mr. Right
+- Photo Mania / Piggly / Plant Tycoon
+- Yumsters! / Yummi Drink Factory

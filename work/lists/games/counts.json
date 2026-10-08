@@ -1,0 +1,13 @@
+{
+ "_meta": {
+  "updated_by": "tools/lists_check.py"
+ },
+ "games": 693,
+ "verified": 52,
+ "owner_listed": 641,
+ "big_size": 18,
+ "content_walls": 10,
+ "tested": 0,
+ "series": 87,
+ "duplicate_titles": {}
+}

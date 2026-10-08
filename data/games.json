@@ -1,1 +1,169 @@
-{"schema": "ggs.v0", "updated": "2026-10-09", "games": []}
+{
+ "_meta": {
+  "schema": "ggs.v1",
+  "updated": "2026-10-09",
+  "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/."
+ },
+ "count": 3,
+ "games": [
+  {
+   "title": "Hitman: Blood Money",
+   "slug": "hitman-blood-money",
+   "list": "non-casual",
+   "class": "normal",
+   "category": "EXPANSION - hitman-classics",
+   "series": "hitman",
+   "series_part": 4,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2006-05-26",
+   "developers": [
+    "IO Interactive"
+   ],
+   "publishers": [
+    "Eidos Interactive"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "research:bloodmoney_facts"
+   ],
+   "notes": "EU 2006-05-26 / NA 2006-05-30",
+   "page_url": "pages/game/hitman-blood-money.html",
+   "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg",
+   "gallery": {
+    "images": [
+     "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg"
+    ],
+    "videos": []
+   },
+   "links": [
+    {
+     "label": "Steam store",
+     "url": "https://store.steampowered.com/app/6860/",
+     "kind": "anyway"
+    },
+    {
+     "label": "GOG store",
+     "url": "https://www.gog.com/en/game/hitman_blood_money",
+     "kind": "anyway"
+    }
+   ]
+  },
+  {
+   "title": "Chicken Invaders 5: Cluck of the Dark Side",
+   "slug": "chicken-invaders-5-cluck-of-the-dark-side",
+   "list": "casual",
+   "class": "normal",
+   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "series": "chicken-invaders",
+   "series_part": 5,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2014-11-21",
+   "developers": [
+    "InterAction studios"
+   ],
+   "publishers": [
+    "InterAction studios"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "research:chicken wiki + steam"
+   ],
+   "notes": "Steam 2015-03-13; Halloween 2015 / Christmas 2016 editions",
+   "page_url": "pages/game/chicken-invaders-5.html",
+   "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/353090/header.jpg",
+   "gallery": {
+    "images": [
+     "https://cdn.cloudflare.steamstatic.com/steam/apps/353090/header.jpg",
+     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_c07245b0a21d2c1281562b9b66bc0749759397b5.1920x1080.jpg?t=1776692786",
+     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_28b723ea6cbf97252e4d4ed27bda5bdaf4e63d75.1920x1080.jpg?t=1776692786",
+     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_583c9a23a92db9b8543f21474da4dc7ed6bc7998.1920x1080.jpg?t=1776692786",
+     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_1a620d14187b9e90c0f3c5bb6f7761b0a4755282.1920x1080.jpg?t=1776692786",
+     "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_e7c4a89ed9398161a4555d5babd1fbcdd22efdc6.1920x1080.jpg?t=1776692786"
+    ],
+    "videos": []
+   },
+   "links": [
+    {
+     "label": "Steam store",
+     "url": "https://store.steampowered.com/app/353090/",
+     "kind": "anyway"
+    }
+   ]
+  },
+  {
+   "title": "Diner Dash",
+   "slug": "diner-dash",
+   "list": "casual",
+   "class": "normal",
+   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "series": "diner-dash",
+   "series_part": 1,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2003-12-03",
+   "developers": [
+    "gameLab"
+   ],
+   "publishers": [
+    "PlayFirst"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "research:dinerdash_facts2 + wikis"
+   ],
+   "notes": "root of the Dash franchise; Glu Mobile owns it now",
+   "page_url": "pages/game/diner-dash.html",
+   "gallery": {
+    "images": [],
+    "videos": []
+   }
+  }
+ ]
+}

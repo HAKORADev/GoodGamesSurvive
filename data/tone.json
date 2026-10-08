@@ -1,1 +1,13 @@
-{"schema": "ggs.v0", "updated": "2026-10-09", "active": "neutral", "tones": {"neutral": {}}}
+{
+ "_meta": {
+  "schema": "ggs.v1",
+  "updated": "2026-10-09",
+  "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/."
+ },
+ "active": "neutral",
+ "tones": {
+  "neutral": "plain dry description, no hype, no slop",
+  "dry": "shorter, colder, terminal-flavored",
+  "hype": "warmer, more excited, still no slop"
+ }
+}

@@ -1,0 +1,204 @@
+===================================================================
+  NON-CASUAL — SORTED (mechanical sort of the as-is file)
+  one line per owner entry, alphabetical inside each section.
+  grouping of a line is the owner's; sorting does not re-group.
+===================================================================
+
+[ UNSORTED ]
+- NON-CASUAL NOSTALGIA GAME VAULT
+
+[ 🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE ]
+- Alien Shooter 2 / Airfix Dogfighter / Army Men RTS / Cabela's Big Game Hunter 2012
+- Area 51 (2005) / Land of the Dead: Day of the Zombie
+- Battlefield 2 / Killing Floor / Starship Troopers (2005)
+- BioShock 1
+- Borderlands 1 (Cel-Shaded)
+- Bullet Runner
+- Call of Duty: Modern Warfare 2 (2009) `#big-size` / Medal of Honor: Airborne
+- Crysis 2
+- Cuphead (2017)
+- Dead Rising 1
+- Dead Space 2
+- Duke Nukem: Manhattan Project
+- Earth Defense Force: Insect Armageddon / Prey (2006)
+- Fallout 3
+- Far Cry 2 / Crysis / S.T.A.L.K.E.R.: Shadow of Chernobyl
+- Far Cry 3 `#big-size`
+- F.E.A.R. (FEAR 1 & Expansions)
+- Gears of War 1
+- Half-Life 2 / Portal / Portal 2
+- Hitman: Absolution `#big-size`
+- James Bond 007: Nightfire / Splinter Cell: Conviction
+- Leisure Suit Larry: Magna Cum Laude #+18
+- Lucius 1 & 2
+- Made Man / Reservoir Dogs / The Mummy (2000)
+- Mass Effect (Mass Effect 1 / Collection)
+- Max Payne 2 / Hitman Series (Hitman 2, Contracts, Blood Money)
+- Max Payne 3 `#big-size`
+- Mohrta
+- Painkiller Series / Dead Island (2011)
+- Postal 2 (Full Collection / Apocalypse Weekend)
+- Quake 4 / I.G.I.-2: Covert Strike
+- Resident Evil 4 & 5 / Left 4 Dead 2
+- Rogue Trooper / Freedom Fighters / Dead to Rights I & II
+- Rogue Warrior / Halo: Combat Evolved & Halo 2 / Dead Space
+- Sexy Beach 3 #+18
+- Shadow Man (1999) / Dark Earth (1997) / Project Nomads / Archangel
+- Silent Hill 4: The Room / Obscure (2004)
+- Silent Hill: Homecoming
+- Silent Hill: Shattered Memories (PS2/PSP)
+- State of Decay 1
+- Stubbs the Zombie in Rebel Without a Pulse / BloodRayne 2
+- The Punisher (2005)
+- The Thing (2002) / The Suffering (2004) / Dreamkiller / Bloodline 100
+- ULTRAKILL
+- Vivisector: Beast Within / Condemned: Criminal Origins / Saw: The Video Game
+- Watch Dogs 1 `#big-size`
+- Wolfenstein (2009)
+- Worms 4: Mayhem / Worms Forts: Under Siege
+
+[ ⚔️ HACK 'N SLASH, ROGUELIKES, PLATFORMERS & MUSOU ]
+- Assassin's Creed Series (AC 1, Ezio Collection, AC III, AC IV: Black Flag `#big-size`)
+- Battle Engine Aquila (2003) / Future Cop: L.A.P.D. / War World
+- BoneTown / BoneCraft / Goat Simulator (2014)
+- Collapse (2008) / The Club (2008) / Manhunt 2 / Devil May Cry 4
+- Deadpool / X-Men Origins: Wolverine (Uncaged) / Castlevania: Lords of Shadow 2
+- Devil May Cry Trilogy (DMC 1, 2, 3)
+- Dragon's Dogma: Dark Arisen (Dragon's Dogma 1)
+- Dust: An Elysian Tail / Overlord II / Orcs Must Die! 2
+- Dynasty Warriors 6 / Samurai Warriors
+- Evil Dead: Regeneration / Blood Omen 2: Legacy of Kain
+- Fallen Tear: The Ascension
+- Fighting Force 1 & 2
+- Giants: Citizen Kabuto / Get Medieval / The Incredible Hulk (2008) / Hulk (2003)
+- Hades (Hades 1)
+- Knights of the Temple I & II / TMNT (Ubisoft 2007)
+- Metal Gear Rising: Revengeance (2013) `#big-size`
+- Muramasa: The Demon Blade (Wii)
+- No More Heroes 2: Desperate Struggle (Wii)
+- Okami
+- Oni (Bungie 2001)
+- Onimusha 3: Demon Siege / Peter Jackson's King Kong
+- Pirates of the Caribbean: At World's End (Captain Jack)
+- Prince of Persia: The Forgotten Sands / Shank 2 / Mini Ninjas
+- Prototype 1 & 2 / Total Overdose / Shade: Wrath of Angels / Chaos Legion
+- Psychonauts (2005) / Beyond Good & Evil (2003)
+- Sonic Adventure 2
+- Sonic Adventure DX / LEGO Marvel Super Heroes / Dark Souls / Darksiders II
+- Star Wars: The Force Unleashed II / Asterix & Obelix XXL 2
+- The Amazing Spider-Man 2 / TMNT: Out of the Shadows
+- The Legend of Korra / Ninja Blade / Ninja Gaiden Sigma 2 / Tenchu Z
+- The Lord of the Rings: Conquest
+- The Lord of the Rings: The Return of the King / Mega Man X6 / Nightmare Creatures I & II
+- The Lord of the Rings: War in the North
+- Transformers: Devastation (Cel-Shaded)
+- Transformers: War for Cybertron / Red Faction: Guerrilla
+- Trine (2009) / Rayman Origins / Rayman Raving Rabbids
+- Ultimate Spider-Man (Cel-Shaded) / Tomb Raider: Underworld
+- Watchmen: The End Is Nigh / Spider-Man: Web of Shadows
+- Wheelman / Samurai Warriors 2 / Pirates: Legend of the Black Buccaneer
+
+[ 🏰 STRATEGY, TACTICS, SIMULATION & JRPGs ]
+- Age of Empires III / Emergency 4 / Cities XXL / SimSafari / TES V: Skyrim
+- Company of Heroes 1 (with Opposing Fronts & Tales of Valor)
+- Desperados 2: Cooper's Revenge
+- Diablo II / Diablo II: Lord of Destruction
+- Dragon Age: Origins
+- Dragon Ball Z: Kakarot `#big-size`
+- Neverwinter Nights (2002) / Dungeon Siege II / Sacrifice (2000)
+- Ni no Kuni: Wrath of the White Witch
+- ParaWorld (2006) / Blitzkrieg 2 / Command & Conquer: Red Alert 2 - Yuri's Revenge
+- Playboy: The Mansion #+18 / 7 Sins (2005) #+18
+- RollerCoaster Tycoon 3 / Zoo Tycoon 1 & 2 / Mall Tycoon 4 / Restaurant Empire 2
+- Slay the Spire 2
+- Star Wars: Knights of the Old Republic (KOTOR)
+- Stronghold Crusader 1 (and HD / Extreme)
+- Stronghold Crusader 2 / Westward IV: All Aboard
+- Tales of Berseria
+- Tales of Zestiria
+- Warcraft III: Reign of Chaos / The Frozen Throne
+- Xenoblade Chronicles (Wii)
+
+[ 🏙️ OPEN WORLD, CRIME & NARRATIVE ACTION ]
+- Akiba's Trip: Undead & Undressed
+- Batman: Arkham City
+- Bully (Scholarship Edition) / Grand Theft Auto: San Andreas & Vice City
+- Grand Theft Auto V `#big-size`
+- Just Cause 2
+- L.A. Noire (2011) / Sleeping Dogs (2012) `#big-size` / Grand Theft Auto IV
+- Red Dead Redemption 1 (RDR1)
+- Saints Row 2 / Just Cause / The Godfather: The Game
+- Saints Row IV (Saints Row 4)
+- Saints Row: The Third (Saints Row 3)
+- Scarface: The World Is Yours (2006)
+- The Godfather II
+- The Saboteur / Mercenaries 2: World in Flames / Mafia II
+- The Simpsons: Hit & Run / Enter the Matrix / Path of Neo
+
+[ 🏎 RACING & VEHICULAR ACTION ]
+- Auto Modellista (PS2 - Cel-Shaded)
+- Beach Stunt Racer
+- Blur / Re-Volt / Rollcage Stage II / Turok (2008)
+- BMX XXX #+18
+- Burnout Paradise / Need for Speed: Most Wanted (2005), Underground 1, Carbon
+- FlatOut 2 (2006)
+- Monster Jam (2007) / Split/Second / Need for Speed: Underground 2
+- Need for Speed: Most Wanted (2012) / Hot Wheels: Stunt Track Challenge
+- New York Race (2001)
+- Shipwreckers! (Overboard! 1997)
+- Sonic Riders (2006/2008) / Downhill Domination / Driver: San Francisco
+- Walt Disney World Quest: Magical Racing Tour / Earn to Die 2
+
+[ 🎬 ANIMATED, MOVIE & TV ADAPTATIONS ]
+- Arthur and the Invisibles / Scooby-Doo! and the Spooky Swamp / Barnyard / Winx Club
+- Barbie Fashion Show / Lemony Snicket's A Series of Unfortunate Events
+- Ben 10: Power Trip
+- Catwoman / Taz: Wanted / Charlie and the Chocolate Factory / Brother Bear
+- Disney's Aladdin in Nasira's Revenge (PS1/PC)
+- Evil Twin: Cyprien's Chronicles / Piglet's Big Game / Kim Possible: What's the Switch?
+- Flushed Away / Shark Tale / Open Season / Angry Birds Collection
+- Kung Fu Panda / Over the Hedge / Robots / Bee Movie Game / The Incredibles
+- Meet the Robinsons / Cloudy with a Chance of Meatballs / SpongeBob: Battle for Bikini Bottom
+- Monsters vs. Aliens / Toy Story 3 / Monsters, Inc. Scare Island / Pink Panther
+- Power Rangers: Super Legends / Transformers: The Game (2007)
+- Ratatouille / Ice Age 3 / The Penguins of Madagascar 1 & 2 / TMNT (2003) & TMNT 2
+- Sitting Ducks / Ed, Edd n Eddy: The Mis-Edventures / Finn & Jake's Epic Quest
+- Spider-Man: Friend or Foe / Superman Returns / James Cameron's Avatar: The Game
+- WALL-E / Iron Man (2008) / Batman: Arkham Asylum / Shrek the Third
+
+[ 🥊 FIGHTING GAMES, MUGEN & ARENA BRAWLERS ]
+- Battle Raper 2 #+18
+- Bleach: Brave Souls
+- Bloody Roar 2 / Bayonetta / Tekken 3 / Tekken 5 / Mortal Kombat X
+- Guilty Gear XX Accent Core Plus R
+- Skullgirls 2nd Encore
+- The Queen of Fighters (Naked MUGEN Edition) #+18
+- Tom and Jerry in Fists of Furry
+- Ultra Street Fighter IV / BlazBlue: Calamity Trigger / KOF XII & '98 UM
+
+[ 🕹️ PSP & HANDHELD EXCLUSIVES ]
+- Bleach: Heat the Soul 7 / Naruto Shippuden: Ultimate Ninja Heroes 3 & Akatsuki Rising
+- God of War: Chains of Olympus & Ghost of Sparta / The 3rd Birthday
+- Kingdom Hearts Birth by Sleep / Dante's Inferno / Shinobido: Tales of the Ninja
+- Soulcalibur: Broken Destiny / Tekken 6
+
+[ 🐬 DOLPHIN EMU EXCLUSIVES (WII / GAMECUBE) ]
+- Bleach: Shattered Blade
+- Donkey Kong Country Returns (Wii)
+- New Super Mario Bros. Wii
+- Super Mario Galaxy 2 (Wii)
+- The Legend of Zelda: Twilight Princess & Skyward Sword
+
+[ 🎮 PS2 / CONSOLE EXCLUSIVES ]
+- Ben 10 Ultimate Alien: Cosmic Destruction (PS2)
+- Crash Twinsanity (PS2)
+- God of War (PS2) & God of War II
+- Jackie Chan Adventures / Tom and Jerry in House Trap
+- Monster House / Ben 10: Protector of Earth / SSX on Tour / B-Boy
+- Pirates of the Caribbean: The Legend of Jack Sparrow / Ghost Rider / Fantastic Four
+- Shadow of the Colossus / Yakuza 2 / Shinobido: Way of the Ninja
+- Stuart Little 3: Big Photo Adventure / Kingdom Hearts II
+- The Grim Adventures of Billy & Mandy / Scaler / Family Guy Video Game!
+
+[ 💻 PC LIFE SIMULATION ]
+- The Sims 3 Complete Collection `#big-size`
