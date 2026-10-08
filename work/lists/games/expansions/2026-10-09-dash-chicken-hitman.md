@@ -102,3 +102,13 @@ unverified = null), Chessmaster Challenge (2005).
   racing section) look like the same PopCap game. both rows kept;
   name-check will surface the collision. owner decides.
 - "Sonic Riders (2006/2008)" kept as one row with both years in the notes.
+
+## resolved 2026-10-09 (owner decision)
+
+- "Talismania" + "TailsMania Deluxe" = the same game listed twice.
+  owner: it is tailsmania deluxe only, maybe this is the only mistake i did?
+  web verdict: the real title is "Talismania Deluxe" — Steam 3460 (still
+  sold), Metacritic (release 2006-08-30, publisher PopCap), MobyGames,
+  IMDb all agree; nothing findable under "TailsMania". one row kept:
+  talismania-deluxe (confidence verified, buyable, download_kind anyway).
+  list spelling "TailsMania Deluxe" was the owner's typo. rows 693 -> 692.

@@ -3593,8 +3593,8 @@
    "notes": ""
   },
   {
-   "title": "Talismania",
-   "slug": "talismania",
+   "title": "Talismania Deluxe",
+   "slug": "talismania-deluxe",
    "list": "casual",
    "class": "normal",
    "category": "🏃 PHYSICS, PUZZLE, ARCADE, PLATFORMERS & GROWTH",
@@ -3603,9 +3603,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2006-08-30",
+   "developers": [
+    "PopCap Games"
+   ],
+   "publishers": [
+    "PopCap Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -3615,14 +3619,18 @@
     "multiplayer": false,
     "max_local": 1
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "anyway",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
-   "notes": ""
+   "confidence": "verified",
+   "sources": [
+    "https://store.steampowered.com/app/3460/",
+    "https://www.metacritic.com/game/talismania-deluxe/",
+    "https://www.mobygames.com/game/23139/talismania-deluxe/"
+   ],
+   "notes": "owner listed it twice (casual 95 'Talismania' + 186 'TailsMania Deluxe'); 2026-10-09 owner resolved: one game. spelling verified vs Steam 3460/Metacritic/MobyGames. King Midas coin-path puzzle; still sold -> anyway links."
   },
   {
    "title": "Ape Out",
@@ -8941,38 +8949,6 @@
   {
    "title": "Doubler Gold",
    "slug": "doubler-gold",
-   "list": "casual",
-   "class": "normal",
-   "category": "🏎️ ARCADE RACING, SPORTS & SIDE-SCROLLERS",
-   "series": null,
-   "series_part": null,
-   "content_walls": [],
-   "big_size": false,
-   "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [
-    "windows"
-   ],
-   "players": {
-    "single": true,
-    "coop": false,
-    "multiplayer": false,
-    "max_local": 1
-   },
-   "buyable": null,
-   "download_kind": null,
-   "test_status": "not-tested",
-   "target_os": "windows-10",
-   "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
-   "notes": ""
-  },
-  {
-   "title": "TailsMania Deluxe",
-   "slug": "tailsmania-deluxe",
    "list": "casual",
    "class": "normal",
    "category": "🏎️ ARCADE RACING, SPORTS & SIDE-SCROLLERS",

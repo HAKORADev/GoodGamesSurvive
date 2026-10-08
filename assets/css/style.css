@@ -287,3 +287,38 @@ a:hover{color:var(--ink-white)}
 }
 .page-foot a{color:var(--ink-dim)}
 .page-foot a:hover{color:var(--ink-white)}
+
+/* top bar nav — honest: links only where real content exists, counts are real */
+.site-nav{
+  display:flex;align-items:baseline;gap:26px;
+  margin-left:auto;
+  font-family:var(--font-pixel);font-size:11px;letter-spacing:.14em;
+}
+.site-nav .count{color:var(--ink-faint);font-size:10px}
+.site-nav a{border-bottom:1px solid var(--line-strong);padding-bottom:3px}
+.site-nav a:hover{color:var(--ink-white);border-bottom-color:var(--ink-dim)}
+.site-nav .dead{color:var(--ink-faint)}
+
+/* dir — the games index: plain rows, one per real page */
+.dir{border:1px solid var(--line);background:var(--panel)}
+.dir-row{
+  display:flex;align-items:baseline;gap:18px;
+  padding:18px 20px;border-bottom:1px solid var(--line);
+}
+.dir-row:last-child{border-bottom:none}
+.dir-row:hover{background:var(--panel-raised)}
+.dir-name{font-family:var(--font-slab);font-size:clamp(17px,2.6vw,22px);color:var(--ink-white)}
+.dir-meta{color:var(--ink-dim);font-size:13px}
+.dir-go{margin-left:auto;font-family:var(--font-pixel);font-size:11px;color:var(--ink-faint);white-space:nowrap}
+.dir-row:hover .dir-go{color:var(--ink)}
+.dir-note{
+  color:var(--ink-faint);font-size:12px;
+  font-family:var(--font-pixel);letter-spacing:.08em;
+}
+
+@media (max-width:700px){
+  .site-head{flex-wrap:wrap;row-gap:14px}
+  .site-nav{width:100%;gap:18px}
+  .dir-row{flex-wrap:wrap;gap:6px 14px;padding:14px 16px}
+  .dir-go{margin-left:0}
+}
