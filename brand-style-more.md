@@ -33,14 +33,14 @@ four keycaps in a row, drawn like keyboard keys, each standing for a direction:
 - built in pure HTML/CSS (no image), arrows are inline SVG triangles. the `?` key occasionally flickers revealing a `↓` underneath (CSS animation `remember`) — the memory flashes, then buries again.
 - favicon: single keycap with `?` (inline SVG data URI).
 
-### the brand mark — WASTED → IT
-the hero visual, referencing the death screen:
+### the brand mark — WASTED → WAS( IT )
+the hero visual, referencing the death screen (owner's spec, verbatim mechanic):
 
 1. the word **WASTED** in big slab serif (Alfa Slab One), letterspaced, faint white glow.
-2. **scratch gouges** cut across it — SVG diagonal strokes in the background color, so they only appear where they tear the letters. two thin light "glint" hairlines alongside.
-3. a stamped **IT** on top — rotated ~-7°, white border, dark fill, stamps in with a scale-bounce animation on load.
+2. **only the "TED" part gets scratched** — an X of SVG gouge strokes in the background color across the right half, so they only appear where they tear the letters. two thin light "glint" hairlines alongside. "WAS" stays readable.
+3. a stamp **IT** sits over the scratched zone — rotated ~-8°, white border, dark fill, stamps in with a scale-bounce animation on load.
 
-meaning: they pronounced it *wasted*. we scratched it and stamped *IT*. the game didn't die — it survived. this mark is the whole site thesis in one image.
+reading: **WAS + IT** — "instead of wasted, it was it." past tense (WAS) buried inside the death word, present tense (IT) stamped on top. the survival story in five letters.
 
 ### tagline options (rotate, don't hardcode one)
 - "not wasted. IT survived."
