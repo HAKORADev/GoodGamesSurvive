@@ -182,7 +182,7 @@ def collections_strip(eng, sec, depth):
         cards.append('<a class="col-card" href="' + rel("", eng.collection_url(c["slug"]), depth) + '">'
                      '<span class="col-title">' + esc(c["title"]) + '</span>'
                      '<span class="col-cap">' + esc(c.get("caption") or "") + '</span>'
-                     '<span class="col-n">' + str(c["n_pages"]) + ' pages' + ((' · ' + str(len(c.get("catalogued") or [])) + ' non-ready') if c.get("catalogued") else '') + '</span>'
+                     '<span class="col-n">' + str(c["n_pages"]) + ' page' + ('s' if c["n_pages"] != 1 else '') + ((' · ' + str(len(c.get("catalogued") or [])) + ' non-ready') if c.get("catalogued") else '') + '</span>'
                      '<span class="dir-go">OPEN &#8594;</span></a>')
     for m in eng.multis:
         if m.get("_sec") != sec:
@@ -352,7 +352,7 @@ def collection_page(eng, c):
             '<a href="' + rel("", "pages/%s.html" % sec, depth) + '">' + sec_label + '</a> / '
             '<a href="' + rel("", "pages/%s/collections.html" % sec, depth) + '">COLLECTIONS</a> / <b>' + esc(c["title"]) + '</b></p>',
             '<div class="game-title"><h1>' + esc(c["title"]) + '</h1><p class="game-caption">' + esc(c.get("caption") or "") + '</p>',
-            '<p class="game-meta">' + str(c["n_pages"]) + ' pages' + ((' · ' + str(len(c["catalogued"])) + ' non-ready pages') if c.get("catalogued") else '') + '</p></div>',
+            '<p class="game-meta">' + str(c["n_pages"]) + ' page' + ('s' if c["n_pages"] != 1 else '') + ((' · ' + str(len(c["catalogued"])) + ' non-ready page' + ('s' if len(c["catalogued"]) != 1 else '')) if c.get("catalogued") else '') + '</p></div>',
             '<section><h2 class="sec-title">ABOUT THIS COLLECTION</h2>' + "".join('<p class="about-p">' + esc(a) + '</p>' for a in (c.get("about") or [])) + '</section>',
             '<section><h2 class="sec-title">THE SHELF - ' + str(c["n_pages"]) + ' PAGES</h2><div class="dir">' + "".join(items) + '</div></section>']
     if plain:
