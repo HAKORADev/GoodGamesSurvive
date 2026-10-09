@@ -1,0 +1,65 @@
+{
+ "slug": "terraria",
+ "caption": "dig, build, fight - the 2d sandbox whose update line outlived a decade of expectations.",
+ "genres": [
+  "arcade",
+  "puzzle",
+  "platformer"
+ ],
+ "subgenres": [
+  "physics"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - light 2d sandbox; the bar holds 1080p with huge headroom."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Terraria",
+    "url": "https://store.steampowered.com/app/105600/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Terraria is the 2d sandbox survival game: dig through a procedurally layered world, build what the materials suggest, and fight a boss ladder whose tiers re-shape the world - the eye, the wall of flesh's hardmode pivot, plantera, the moon lord. The crafting tree is enormous, the building freedom is the quiet appeal, and re-logic's post-release update decade became its own legend.",
+  "Re-logic shipped it in may 2011, and the steam listing is the current official door at a low price with the 1.4 update line. The windows build is the original platform.",
+  "A light 2d game - the haswell igpu bar holds it at 1080p with huge headroom. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_8c03886f214d2108cafca13845533eaa3d87d83f.1920x1080.jpg?t=1769844435",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_ae168a00ab08104ba266dc30232654d4b3c919e5.1920x1080.jpg?t=1769844435",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_9edd98caaf9357c2f40758f354475a56e356e8b0.1920x1080.jpg?t=1769844435",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_75ea9a7e39eb34b40efa1e6dfd2536098dc4734b.1920x1080.jpg?t=1769844435",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_782374517c1792debd74d24856203b876eba3a5d.1920x1080.jpg?t=1769844435",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_04dd9f0a5773b686a452ba480b951f83b3ed5061.1920x1080.jpg?t=1769844435",
+   "https://i.ytimg.com/vi/bepQu0MFJ_A/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/bepQu0MFJ_A/sddefault.jpg",
+   "https://i.ytimg.com/vi/bepQu0MFJ_A/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "bepQu0MFJ_A",
+    "title": "Terraria - Relaxing Longplay Gameplay (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "BMjBxsCTnuA",
+    "title": "Terraria 1.4.5 - Full Gameplay Walkthrough (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "cGeNthanxCo",
+    "title": "Terraria | Gameplay Walkthrough Full Game 4K UHD - No commentary"
+   }
+  ]
+ }
+}

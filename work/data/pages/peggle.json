@@ -1,0 +1,65 @@
+{
+ "slug": "peggle",
+ "caption": "popcap's pachinko-popper - the unicorn ode, the bucket and the last-ball miracle.",
+ "genres": [
+  "arcade",
+  "puzzle",
+  "platformer"
+ ],
+ "subgenres": [
+  "physics"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2007 casual 2d; the bar is a formality."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Peggle Deluxe",
+    "url": "https://store.steampowered.com/app/3480/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Peggle is popcap's pachinko-cum-marble-popper: clear the orange pegs with a bouncing ball, ten peggle masters each bending the physics with their power, and the free-ball bucket at the bottom turning luck into streaks. Extreme fever, the ode to joy blast and the last-ball slow-motion are the franchise's signature drama.",
+  "Popcap shipped peggle deluxe in 2007 and it still lists on steam under the popcap label with a live price - one of the surviving originals from the studio's prime. Official route, archive not needed.",
+  "A 2007 casual 2d at the bottom of the ladder; the bar is a formality. Not-tested until a run confirms install and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3480/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3480/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3480/0000001531.1920x1080.jpg?t=1777394376",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3480/0000001532.1920x1080.jpg?t=1777394376",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3480/0000001533.1920x1080.jpg?t=1777394376",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3480/0000001534.1920x1080.jpg?t=1777394376",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3480/0000001535.1920x1080.jpg?t=1777394376",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3480/0000001536.1920x1080.jpg?t=1777394376",
+   "https://i.ytimg.com/vi/yORk7q9-xGI/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/yORk7q9-xGI/sddefault.jpg",
+   "https://i.ytimg.com/vi/yORk7q9-xGI/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "yORk7q9-xGI",
+    "title": "Peggle Deluxe - Full Game / No commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "Z9Y40K7IH3s",
+    "title": "Peggle - Longplay Full Game Playthrough (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "IG-51VYsrIk",
+    "title": "Peggle Deluxe - Full Walkthrough (Silent, 4K 60FPS)"
+   }
+  ]
+ }
+}

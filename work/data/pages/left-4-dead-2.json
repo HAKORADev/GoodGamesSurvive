@@ -1,0 +1,64 @@
+{
+ "slug": "left-4-dead-2",
+ "caption": "the co-op zombie benchmark - four survivors, the director and a decade of community campaigns.",
+ "genres": [
+  "action",
+  "shooter"
+ ],
+ "subgenres": [
+  "survival"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - source 2009; trivially under the bar."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Left 4 Dead 2",
+    "url": "https://store.steampowered.com/app/550/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Left 4 dead 2 is the co-op shooter whose ai director still defines the genre: four survivors run panic-and-barricade campaigns while the director scripts the pressure - special infected spawns, item economy, crescendo events. Melee weapons, new special infected and realism modes layered on the 2008 formula, and the workshop's community campaigns keep the content flow alive.",
+  "Valve shipped it in november 2009, and the steam listing is the current official door at a token price with active maintenance. It remains one of the store's most-played co-op fixtures.",
+  "Source 2009 is trivially under the haswell igpu bar at native settings. Not-tested stands until a run confirms install, launch and the co-op path end to end."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_2eae29fbdfe8e5e8999b96d8bb28c5db70507968.1920x1080.jpg?t=1772742214",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_29b3b4f2a3994c889f6fc12e0781d9d4726ef33f.1920x1080.jpg?t=1772742214",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_9488e329bb42d792a059fb44cb7135d25b6262f5.1920x1080.jpg?t=1772742214",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_6ec4ee04d4924b099e25ce79f3d6571c3b623b3b.1920x1080.jpg?t=1772742214",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_73ad69168a263ce585e4823d9607d901719ca3c5.1920x1080.jpg?t=1772742214",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/ss_a9c1227ffe8a1968e234b3ebda08e773fc619e37.1920x1080.jpg?t=1772742214",
+   "https://i.ytimg.com/vi/-HOhGiekrWM/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/-HOhGiekrWM/sddefault.jpg",
+   "https://i.ytimg.com/vi/-HOhGiekrWM/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "-HOhGiekrWM",
+    "title": "LEFT 4 DEAD 2  Full Gameplay Walkthrough / No Commentary【FULL GAME】4K Ultra HD"
+   },
+   {
+    "kind": "youtube",
+    "id": "o7R9F8fL4EQ",
+    "title": "Left 4 Dead 2 - FULL GAME Expert Walkthrough Gameplay No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "a5s38mxeXEU",
+    "title": "Left 4 Dead 2 - FULL GAME (4K 60FPS) Walkthrough Gameplay No Commentary"
+   }
+  ]
+ }
+}

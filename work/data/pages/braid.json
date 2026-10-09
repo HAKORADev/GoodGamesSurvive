@@ -1,0 +1,67 @@
+{
+ "slug": "braid",
+ "caption": "time-bending puzzle platformer - tim, the princess and the rewind that rewrote the indie era.",
+ "genres": [
+  "arcade",
+  "puzzle",
+  "platformer"
+ ],
+ "subgenres": [
+  "physics"
+ ],
+ "characters": [
+  "Tim"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below - 2d painted platformer of the lightest class; the bar is far above it."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Braid",
+    "url": "https://store.steampowered.com/app/26800/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Braid is the puzzle-platformer that helped start the indie wave: tim runs left through a story about a princess, and each world rewrites time's rules - simple rewind, objects immune to it, time tied to horizontal position, slowed bubbles, and a finale where the rewind itself is the plot twist. The puzzles are hand-laid and unsolvable by reflex; every piece exists to be understood.",
+  "Jonathan blow shipped it on xbox live arcade in 2008 and number none brought the windows build to steam in april 2009. The listing still carries a price, which makes this one of the era-defining indies still officially obtainable rather than archived.",
+  "It is a 2d painted-style platformer of the lightest technical class - the haswell igpu bar is far above its needs. Not-tested holds until a run confirms the install and the save structure."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26800/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26800/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26800/0000007887.1920x1080.jpg?t=1734027955",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26800/0000007889.1920x1080.jpg?t=1734027955",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26800/0000007885.1920x1080.jpg?t=1734027955",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26800/0000007890.1920x1080.jpg?t=1734027955",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26800/0000007892.1920x1080.jpg?t=1734027955",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/26800/0000007894.1920x1080.jpg?t=1734027955",
+   "https://i.ytimg.com/vi/OWGCqfa3lcE/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/OWGCqfa3lcE/sddefault.jpg",
+   "https://i.ytimg.com/vi/OWGCqfa3lcE/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "OWGCqfa3lcE",
+    "title": "Braid FULL GAME Walkthrough No Commentary (Longplay)"
+   },
+   {
+    "kind": "youtube",
+    "id": "LGi-0Zs1d-I",
+    "title": "Braid Anniversary Edition Full Gameplay / Walkthrough 4K (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "fVvx74CUKbQ",
+    "title": "Braid Anniversary Edition FULL GAME 100% Puzzle Pieces & Stars Gameplay Walkthro"
+   }
+  ]
+ }
+}

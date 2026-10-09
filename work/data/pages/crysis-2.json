@@ -1,0 +1,66 @@
+{
+ "slug": "crysis-2",
+ "caption": "new york under the cephalopod siege - the nanosuit sequel that made crysis a console-generation word.",
+ "genres": [
+  "action",
+  "shooter"
+ ],
+ "subgenres": [
+  "survival"
+ ],
+ "characters": [
+  "Alcatraz"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at - cryengine 3 2011; the bar holds 720p-900p with reduced settings."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Crysis 2 - Maximum Edition",
+    "url": "https://store.steampowered.com/app/108800/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Crysis 2 moves the fight to new york: the nanosuit's armor, stealth and power modes drive both the gunplay and the route through a city occupied by the cell corporation and torn apart by cephalopod invaders. The campaign's set pieces run from flooded subway lines to central park's finale, and the suit's cloak-and-switch rhythm is the reason the game survives its era's shooter comparison.",
+  "Crytek shipped it in march 2011, and the steam listing is the maximum edition - the current official door carrying the base campaign with its content batch. It still sells, so the page documents an official route rather than an archive rescue.",
+  "The 2011 cryengine 3 build sits right at the haswell igpu bar: 720p-900p playable with reduced settings, scaling well above. Not-tested stands until a real run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108800/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108800/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108800/ss_a0edd5147fe318d37e4a9c466020038c524852f9.1920x1080.jpg?t=1777495315",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108800/ss_1c4bfc3a5a613f879a426eeb54a5d92dbb166638.1920x1080.jpg?t=1777495315",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108800/ss_7ff06912ee1742c290ce12459786e0984af29c08.1920x1080.jpg?t=1777495315",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108800/ss_d9cfdfd43c4061f45304eeef81a93d976fb8c5c7.1920x1080.jpg?t=1777495315",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108800/ss_a4e291a72b348e25f919a3f47250351def7e61ae.1920x1080.jpg?t=1777495315",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108800/ss_5eca759a6dadb87f5687f2c960951251b0368a9d.1920x1080.jpg?t=1777495315",
+   "https://i.ytimg.com/vi/iHsqqgvwUxk/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/iHsqqgvwUxk/sddefault.jpg",
+   "https://i.ytimg.com/vi/iHsqqgvwUxk/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "iHsqqgvwUxk",
+    "title": "CRYSIS 2 REMASTERED Gameplay Walkthrough Part 1 FULL GAME [4K 60FPS PC RTX] - No"
+   },
+   {
+    "kind": "youtube",
+    "id": "lxgUBz9vwh8",
+    "title": "Crysis 2 Remastered - Stealth - No Damage - Post Human Warrior - Full Game"
+   },
+   {
+    "kind": "youtube",
+    "id": "6Bm7UkaH3sg",
+    "title": "Crysis 2 Maximum Edition Walkthrough Part 8 [1080p HD]- No Commentary"
+   }
+  ]
+ }
+}

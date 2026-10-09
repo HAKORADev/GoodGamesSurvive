@@ -1,0 +1,67 @@
+{
+ "slug": "dead-cells",
+ "caption": "the prisoner's roguelite-vania - cells, doors and a castle that rearranges itself every run.",
+ "genres": [
+  "strategy",
+  "casual"
+ ],
+ "subgenres": [
+  "tower defense",
+  "roguelite"
+ ],
+ "characters": [
+  "The Beheaded"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below - light 2d pixel action; the bar holds 1080p60 with headroom."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Dead Cells",
+    "url": "https://store.steampowered.com/app/588650/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Dead cells fuses roguelite structure with metroidvania routes: every run through the castle, sewers, ramps and clock tower re-rolls the map while the meta-progression - cells, permanent unlock trees, item pools - keeps growing. The combat is fast and commitment-based, with mutation builds, shields-as-parry weapons and cursed chests trading power for risk.",
+  "Motion twin shipped it in august 2018 after an early-access year, and the steam listing is the current official door with the full dlc roster attached. It still sells, keeping the page in the official lane.",
+  "It is a light 2d pixel-art game - the haswell igpu bar holds it at 1080p60 with headroom. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/ss_ac28000ade40cc2fe5c128f32ac98ba33c008a7a.1920x1080.jpg?t=1779086887",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/ss_7bde51ea6c8f6289e85ea1d8c1c941e1f8bfee91.1920x1080.jpg?t=1779086887",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/ss_e87e72a247918d8493892e035d5e1b4b84470d2f.1920x1080.jpg?t=1779086887",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/ss_a099416b9f3e09d47c42f87667e6ad6f394ba652.1920x1080.jpg?t=1779086887",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/ss_a8b0439ad7750cab1bdec86ecef0daa280e9f93f.1920x1080.jpg?t=1779086887",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/ss_21c61aca6a66745a2abb3f72b93553398fc7fe32.1920x1080.jpg?t=1779086887",
+   "https://i.ytimg.com/vi/fpCX5TzsGQU/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/fpCX5TzsGQU/sddefault.jpg",
+   "https://i.ytimg.com/vi/fpCX5TzsGQU/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "fpCX5TzsGQU",
+    "title": "DEAD CELLS Gameplay Walkthrough FULL GAME (4K 60FPS) No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "nb84OJuiqxM",
+    "title": "Dead Cells Gameplay (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "axW8nnFtUs0",
+    "title": "Dead Cells Gameplay (No Commentary)"
+   }
+  ]
+ }
+}

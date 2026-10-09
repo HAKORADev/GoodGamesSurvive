@@ -1,0 +1,65 @@
+{
+ "slug": "saints-row-the-third-saints-row-3",
+ "caption": "steelport's full-circle absurdity - the third street saints as celebrities with a tiger in the elevator.",
+ "genres": [
+  "action",
+  "adventure"
+ ],
+ "subgenres": [
+  "open world",
+  "crime"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at - 2011 build, mid-weight; reduced settings at the bar."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Saints Row: The Third",
+    "url": "https://store.steampowered.com/app/55230/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Saints row: the third is the series' pivot into full absurdity: the saints are celebrities, steelport is the syndicate's city, and the missions run from a freefall gunfight onto a skyscraper to a tiger kept in an elevator. Upgrades slide from gang ops into tank-airstrike absurdity, and the tone shift defined the franchise's later identity.",
+  "Volition shipped it in november 2011, and the steam listing is the current official door at a live price, still sold. The windows build is the original platform.",
+  "The 2011 build is mid-weight - the haswell igpu bar means reduced settings with 1080p above. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/55230/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/55230/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/55230/ss_e861c75bec732e56378e13209a8a402476891c67.1920x1080.jpg?t=1764671029",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/55230/ss_718766019fb13440e16fc8801ef8a76a0d4c690a.1920x1080.jpg?t=1764671029",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/55230/ss_3b69a3456e60b01debe1968cf26d1b7681b69d52.1920x1080.jpg?t=1764671029",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/55230/ss_32ff71cd7d725f29c224d0554456b26fc532c4da.1920x1080.jpg?t=1764671029",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/55230/ss_744ad5d262b950ac37084d48fdbd48ca72302dcc.1920x1080.jpg?t=1764671029",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/55230/ss_c750d085934a63a4cbc88aeca3cf7a03dc27c3fb.1920x1080.jpg?t=1764671029",
+   "https://i.ytimg.com/vi/KovxEGYBIHs/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/KovxEGYBIHs/sddefault.jpg",
+   "https://i.ytimg.com/vi/KovxEGYBIHs/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "KovxEGYBIHs",
+    "title": "Saints Row The Third - FULL GAME Walkthrough Gameplay No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "Pf5_WyBRa_s",
+    "title": "Saints Row: The Third - Full Game Playthrough | Pure Gameplay (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "kq-dUY9QB1A",
+    "title": "Saints Row: The Third Remastered | Full Gameplay (No Commentary)"
+   }
+  ]
+ }
+}

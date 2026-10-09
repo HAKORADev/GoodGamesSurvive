@@ -1,0 +1,66 @@
+{
+ "slug": "ultrakill",
+ "caption": "blood is fuel - hakita's style-hungry retro fps where hell ranks your aggression.",
+ "genres": [
+  "action",
+  "shooter"
+ ],
+ "subgenres": [
+  "survival"
+ ],
+ "characters": [
+  "V1"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below - light retro 3d; the bar holds high framerates."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - ULTRAKILL",
+    "url": "https://store.steampowered.com/app/1229490/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Ultrakill is the retro fps built around one law: blood is fuel. V1 sprints through hell's layers with a weapon roster whose coin-flip ricoshots, shotgun-jump parries and nailgun overheat loops reward aggression with health, while the style meter grades the chaos like a character-action game. The secret levels and the terminarch fights made it the modern boomer-shooter benchmark.",
+  "Arsi hakita patala shipped it in early access in september 2020, and the steam listing is the current official door with the update line active. The windows build is the original platform.",
+  "A light retro-styled 3d renderer - the haswell igpu bar holds it at high framerates with headroom. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_8c743b6de2d6124bd583d8764f28cafe2b7ecb3f.1920x1080.jpg?t=1783942574",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_7a5692d56ec4115252980fed4ad5536d1e401e04.1920x1080.jpg?t=1783942574",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_bc7a00fadbcde4a6c6dcb95d8e464ad5ffc06e3c.1920x1080.jpg?t=1783942574",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_21e8e9c78b24c73451c8d9ed1d17e21e43f3adb7.1920x1080.jpg?t=1783942574",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_2f2213d07fd390f3f612dd60ec07c03ceab42e40.1920x1080.jpg?t=1783942574",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_7460a480b1deb03f64cbfff0173445fb50d0c514.1920x1080.jpg?t=1783942574",
+   "https://i.ytimg.com/vi/3K3iG-VFCL0/sddefault.jpg",
+   "https://i.ytimg.com/vi/3K3iG-VFCL0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/f8ZrE5lhgAo/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "3K3iG-VFCL0",
+    "title": "Ultrakill /// PRE-REVAMP gameplay  FULL GAME (BRUTAL) no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "f8ZrE5lhgAo",
+    "title": "ULTRAKILL | Full Game - No Commentary (2025 Gameplay, Early Access)"
+   },
+   {
+    "kind": "youtube",
+    "id": "VZ72u0gMxAc",
+    "title": "ULTRAKILL FULL PLAYTHROUGH | VIOLENT DIFFICULTY"
+   }
+  ]
+ }
+}

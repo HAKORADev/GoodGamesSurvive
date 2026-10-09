@@ -390,6 +390,24 @@
      "y": "2011"
     }
    ]
+  },
+  {
+   "key": "zuma",
+   "title": "Zuma",
+   "members": [
+    {
+     "slug": "zuma-deluxe",
+     "title": "Zuma Deluxe",
+     "part": 1,
+     "y": "2006"
+    },
+    {
+     "slug": "zuma-s-revenge",
+     "title": "Zuma's Revenge!",
+     "part": 2,
+     "y": "2009"
+    }
+   ]
   }
  ],
  "members_sort_law": "order by part, then y, then title - kind remaster/rebrand rides without a part"

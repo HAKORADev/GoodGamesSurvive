@@ -1,0 +1,66 @@
+{
+ "slug": "stronghold-crusader-1-and-hd-extreme",
+ "caption": "the desert crusader rts - firefly's castle sim and skirmish grinding in hd.",
+ "genres": [
+  "strategy",
+  "simulation",
+  "rpg"
+ ],
+ "subgenres": [
+  "tactics",
+  "jrpg"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2002 2d rts; the bar is irrelevant."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Stronghold Crusader HD (2012)",
+    "url": "https://store.steampowered.com/app/40970/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Stronghold crusader hd is firefly's desert-era castle game: the economy sim of the original stronghold - food chains, taxes, popularity - married to skirmish-style crusader lord matches across arabian maps. The unit roster trades the original's european flavor for camel archers, slingers and assassin stealth, and the ai lord roster remains the game's long-game.",
+  "Firefly shipped the original in 2002; the hd edition (2012-era refresh) is the steam listing - the current official door, still sold. The hd remaster is the pc line's living build; the 2002 original rides beneath it.",
+  "A 2002 2d rts of trivial weight - the haswell igpu bar is irrelevant. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/ss_b2da292b97471df65e7db87ef15b84ae53799be0.1920x1080.jpg?t=1776692098",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/ss_9b06199ee9165fff5cb5fe682c2cbb41016afaaf.1920x1080.jpg?t=1776692098",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/ss_85a9e4eea5b61ffa0adbfcb434c98aa7fc9361ce.1920x1080.jpg?t=1776692098",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/ss_1697adcf07a1465bf520d2d233e57bdcd18fe141.1920x1080.jpg?t=1776692098",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/ss_b95e9d4f017ce31d28ec039f7e6037da1287a21c.1920x1080.jpg?t=1776692098",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/ss_a655b85dd498087bc8046a5fa7354fe4776926bc.1920x1080.jpg?t=1776692098",
+   "https://i.ytimg.com/vi/AflmrH5utG0/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/AflmrH5utG0/sddefault.jpg",
+   "https://i.ytimg.com/vi/AflmrH5utG0/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "AflmrH5utG0",
+    "title": "Stronghold HD Campaign Walkthrough - No Commentary 1080p [PC]"
+   },
+   {
+    "kind": "youtube",
+    "id": "a7cpICErVcU",
+    "title": "Stronghold Crusader HD # 1 mission, walkthrough no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "JUEfBFOUDO4",
+    "title": "Stronghold HD Walkthrough Mission 1 [No commentary]"
+   }
+  ]
+ }
+}

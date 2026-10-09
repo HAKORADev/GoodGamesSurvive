@@ -1,0 +1,66 @@
+{
+ "slug": "bayonetta",
+ "caption": "the witch with four guns - platinumgames' climax-action landmark, stylish combat judged by pure combo craft.",
+ "genres": [
+  "fighting"
+ ],
+ "subgenres": [
+  "arena brawler",
+  "mugen"
+ ],
+ "characters": [
+  "Bayonetta"
+ ],
+ "req": {
+  "tier": "above",
+  "note": "at - 2017 hd port of a 2009 console action game; the haswell igpu bar holds playable settings at 720p-900p."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Bayonetta",
+    "url": "https://store.steampowered.com/app/460790/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Bayonetta is platinumgames' character-action landmark: the witch fights with four pistols - two in her hands, two on her heels - and the entire game is built around dodge-offset combat, witch-time slow motion on perfect dodges and combo scoring that grades every fight. The bestiary runs from angelic grunts to colossus bosses, and the set pieces stay deliberately absurd: a missile ride down a skyscraper, a fight on a falling fighter jet, a summon-vs-summon finale on a satellite.",
+  "The game shipped in 2009 on consoles and reached windows in april 2017 in this hd port, with platinumgames handling the pc version - one of the studio's better-known ports, with unlocked frame rates, 4k support and controller prompts. The steam listing carries the price today and the port's reputation survived the years intact, which is why it stays the current official door for the pc build.",
+  "Technically the port is the same 2009 game wearing a modern coat - the target bar sits at the haswell igpu line for playable settings, and anything above it runs the unlocked framerate. The page runs not-tested until a real run confirms install, launch and saves end to end."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/ss_f8e45201f2f31c973a5405572a4367ddcffba359.1920x1080.jpg?t=1763677459",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/ss_438168c4effdc8a3affef680e33efeb52fc372eb.1920x1080.jpg?t=1763677459",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/ss_106a6a9c6c3c5a312ce0d17b8caf637233eeeb51.1920x1080.jpg?t=1763677459",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/ss_0cd01ff7a241f80343e0852150ef9f55b4a5b424.1920x1080.jpg?t=1763677459",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/ss_a3852437d6ed699e01b78ac63dcab7cb62ca314d.1920x1080.jpg?t=1763677459",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/ss_27a8826e1569dbe1cc291a97dd4f58d5e96bd4fe.1920x1080.jpg?t=1763677459",
+   "https://i.ytimg.com/vi/jH9oZwHTUJE/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/jH9oZwHTUJE/sddefault.jpg",
+   "https://i.ytimg.com/vi/jH9oZwHTUJE/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "jH9oZwHTUJE",
+    "title": "BAYONETTA 1 Gameplay Walkthrough FULL GAME (4K 60FPS) No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "4QogCkfeifM",
+    "title": "BAYONETTA  Full Gameplay Walkthrough / No Commentary【FULL GAME】4K Ultra HD"
+   },
+   {
+    "kind": "youtube",
+    "id": "YF0Wn1cMgcw",
+    "title": "Bayonetta | Full Game Walkthrough | No Commentary"
+   }
+  ]
+ }
+}

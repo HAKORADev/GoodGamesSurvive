@@ -1,0 +1,69 @@
+{
+ "slug": "devil-may-cry-4",
+ "caption": "nero's arm and dante's legacy - the special edition of capcom's stylish-action bridge entry.",
+ "genres": [
+  "action",
+  "platformer"
+ ],
+ "subgenres": [
+  "hack 'n slash",
+  "roguelike",
+  "musou"
+ ],
+ "characters": [
+  "Dante",
+  "Nero"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at - mt framework 2015 se; reduced settings under the bar, scales above."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Devil May Cry 4 Special Edition",
+    "url": "https://store.steampowered.com/app/329050/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Devil may cry 4 bridges the series' classic era and its reboot: nero's devil bringer arm redefines the combo grammar while dante's playable switch-weapon style set carries the back half. The mission loop runs from fortuna castle to the savior, and the special edition adds vergil, trish and lady as playable fighters with their own move sets.",
+  "Capcom shipped the original in 2008 and the special edition in june 2015; the steam listing is the special edition - the current official door for the pc build, still sold. The page documents that door honestly: the se is what the store carries, with the roster expansion as its distinguishing content.",
+  "The mt framework build runs under the haswell igpu bar at reduced settings and scales up hard above it. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/329050/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/329050/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/329050/ss_330f547c2e9f8e3149090caade6ea3544c98e98a.1920x1080.jpg?t=1785808952",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/329050/ss_b258f3874668d8c28980f966fe66448758118877.1920x1080.jpg?t=1785808952",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/329050/ss_4d7a27ab8787e3c202d3a519bff3d555bfcc36e1.1920x1080.jpg?t=1785808952",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/329050/ss_94031c298634f8549eb0618da1f6d0bdb48a0ae8.1920x1080.jpg?t=1785808952",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/329050/ss_c18d0390dcce60addecaac877bcce1f2aae8573c.1920x1080.jpg?t=1785808952",
+   "https://i.ytimg.com/vi/H-eewdMXYd0/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/H-eewdMXYd0/sddefault.jpg",
+   "https://i.ytimg.com/vi/H-eewdMXYd0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/t0QuNi_Urp0/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "H-eewdMXYd0",
+    "title": "Devil May Cry 4 Special Edition | Full Game Walkthrough | No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "t0QuNi_Urp0",
+    "title": "DEVIL MAY CRY 4 REMASTERED Gameplay Walkthrough FULL GAME (4K 60FPS) PS5/PC/Seri"
+   },
+   {
+    "kind": "youtube",
+    "id": "fqFc3JTo9Ak",
+    "title": "Devil May Cry 4 Special Edition - Story Mode - (60fps＋DMC3SE)"
+   }
+  ]
+ }
+}

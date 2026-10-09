@@ -1,0 +1,68 @@
+{
+ "slug": "okami",
+ "caption": "amaterasu in ink - the celestial brush adventure's hd door on pc.",
+ "genres": [
+  "action",
+  "platformer"
+ ],
+ "subgenres": [
+  "hack 'n slash",
+  "roguelike",
+  "musou"
+ ],
+ "characters": [
+  "Amaterasu"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below - light 3d hd port; the bar holds 1080p60 with headroom."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Okami HD",
+    "url": "https://store.steampowered.com/app/587620/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Okami casts you as amaterasu the sun goddess in wolf form, restoring a celestial-blighted nippon with the celestial brush - pause the world and paint suns, cherry bombs, vines and slashes into it. The sumi-e art direction is the game's identity, the dungeon-and-sidequest structure is classical zelda grammar, and the brush gimmick never runs out of applications.",
+  "Clover's original shipped on ps2 in 2006; capcom's okami hd port reached steam in december 2017 and is the current official door for pc, still sold. The page documents the hd door honestly: the 2006 original never shipped on windows, so this port is the platform's only route.",
+  "The hd port is a light 3d renderer - the haswell igpu bar holds it at 1080p60 with headroom. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587620/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587620/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587620/ss_3da8f9bf08227a90ecf03819f391a49ba18d521a.1920x1080.jpg?t=1733787035",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587620/ss_21797469f5b8a59e5013944931b111b39af37401.1920x1080.jpg?t=1733787035",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587620/ss_71f6af1f989df2aa6bc4e07a9ae407609c264b2e.1920x1080.jpg?t=1733787035",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587620/ss_cd53a4f4e19997789b43d4ffbfae495a338da93e.1920x1080.jpg?t=1733787035",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587620/ss_710d81600bb11d79bb0f9335a408f5c242183ec2.1920x1080.jpg?t=1733787035",
+   "https://i.ytimg.com/vi/UnPgnTW7OfY/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/UnPgnTW7OfY/sddefault.jpg",
+   "https://i.ytimg.com/vi/UnPgnTW7OfY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/brHilCDUTC0/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "UnPgnTW7OfY",
+    "title": "OKAMI Gameplay Walkthrough FULL GAME (4K 60FPS) No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "brHilCDUTC0",
+    "title": "ŌKAMI HD Gameplay Walkthrough FULL GAME (4K 60FPS) No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "z7QKEwzNQ2A",
+    "title": "OKAMI HD Gameplay Walkthrough Part 1 | PC (no commentary)"
+   }
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "insaniquarium-deluxe",
+ "caption": "popcap's fish-tank feed loop - guppies, aliens and the aquarium that started a studio's streak.",
+ "genres": [
+  "casual",
+  "time management",
+  "simulation"
+ ],
+ "subgenres": [
+  "farming",
+  "tycoon"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2006 casual 2d; the bar is a formality."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Insaniquarium Deluxe",
+    "url": "https://store.steampowered.com/app/3320/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Insaniquarium deluxe is the popcap oddity that preceded the studio's biggest hits: feed guppies, collect coins, buy pets whose passive powers re-shape each tank, and fight the alien waves that crash the aquarium on a timer. The economy loop is pure popcap - feed, earn, upgrade, defend - and the pet roster is the game's build-craft layer.",
+  "Popcap shipped the deluxe windows build in 2006 after its 2001 web origins, and it still lists on steam with a live price under the popcap label. Official route, archive not needed.",
+  "A 2006 casual 2d at the bottom of the ladder. The bar is a formality here; not-tested until a run confirms install and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3320/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3320/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3320/0000000530.1920x1080.jpg?t=1615205929",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3320/0000000531.1920x1080.jpg?t=1615205929",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3320/0000000532.1920x1080.jpg?t=1615205929",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3320/0000000533.1920x1080.jpg?t=1615205929",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3320/0000000534.1920x1080.jpg?t=1615205929",
+   "https://i.ytimg.com/vi/U04weIAra20/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/U04weIAra20/sddefault.jpg",
+   "https://i.ytimg.com/vi/U04weIAra20/hqdefault.jpg",
+   "https://i.ytimg.com/vi/iIMLLmzEJsk/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "U04weIAra20",
+    "title": "Insaniquarium Deluxe - Full Game 1080p60 HD Walkthrough - No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "iIMLLmzEJsk",
+    "title": "Insaniquarium Deluxe (2004) - (HD No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "HmuRcEkuG8M",
+    "title": "Insaniquarium Deluxe Full Game Walkthrough | All Levels + Final Boss Battle! 🐟👾 "
+   }
+  ]
+ }
+}

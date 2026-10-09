@@ -1,0 +1,65 @@
+{
+ "slug": "chuzzle",
+ "caption": "popcap's fuzzy match-3 - rows of googly-eyed fuzzballs that lock, explode and multiply.",
+ "genres": [
+  "arcade",
+  "puzzle",
+  "platformer"
+ ],
+ "subgenres": [
+  "physics"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2006 casual 2d; the bar is a formality."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Chuzzle Deluxe",
+    "url": "https://store.steampowered.com/app/3310/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Chuzzle is popcap's match-3 variant where the board is filled with googly-eyed fuzzballs that slide in whole rows rather than swap in pairs. Locks, super chuzzles and cascades give it a physics-y puzzle rhythm distinct from bejeweled, and the modes split into classic, speed, zen and puzzles - the last being hand-laid brainteasers rather than endless boards.",
+  "Popcap shipped the deluxe windows build in 2006, and it still sits on steam under the popcap label with a live price - one of the surviving popcap originals that never fell out of the store. The page stays in the official-route lane.",
+  "It is a 2006 casual 2d at the bottom of the requirements ladder - the target bar is a formality here. The honest state: not-tested until a run confirms install and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310/0000000535.1920x1080.jpg?t=1729270121",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310/0000000536.1920x1080.jpg?t=1729270121",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310/0000000537.1920x1080.jpg?t=1729270121",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310/0000000538.1920x1080.jpg?t=1729270121",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310/0000000539.1920x1080.jpg?t=1729270121",
+   "https://i.ytimg.com/vi/gI_X3liR40c/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/gI_X3liR40c/sddefault.jpg",
+   "https://i.ytimg.com/vi/gI_X3liR40c/hqdefault.jpg",
+   "https://i.ytimg.com/vi/5u63UTxaI6s/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "gI_X3liR40c",
+    "title": "Chuzzle Deluxe (PC) - Gameplay | No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "5u63UTxaI6s",
+    "title": "Chuzzle Deluxe - Classic Chuzzle Normal (2005)"
+   },
+   {
+    "kind": "youtube",
+    "id": "enkLFUiBQ_o",
+    "title": "Chuzzle Deluxe (Classic & Speed Modes) Gameplay Walkthrough"
+   }
+  ]
+ }
+}

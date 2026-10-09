@@ -1,0 +1,65 @@
+{
+ "slug": "geometry-dash",
+ "caption": "one-button rhythm platformer - jump, die, memorize, repeat at the beat's mercy.",
+ "genres": [
+  "arcade",
+  "puzzle",
+  "platformer"
+ ],
+ "subgenres": [
+  "physics"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2d one-button platformer of trivial weight."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Geometry Dash",
+    "url": "https://store.steampowered.com/app/322170/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Geometry dash is the one-button rhythm platformer taken to its logical extreme: a cube (later ship, ball, wave and more) auto-runs through user-designed levels synced to electronic tracks, and the entire skill tree is muscle memory - jump timing, orb taps, portal switches. The level editor turned it into a platform: millions of community levels, from beginner-friendly to levels that take months of attempts.",
+  "Robtop shipped it in december 2014 and the steam listing is the full version with the editor and the community level browser, still sold. The mobile line rides the same design, but the pc build is the creator's home turf.",
+  "It is a 2d game of trivial engine weight - the haswell igpu bar is irrelevant to it. Not-tested stands until a run confirms install and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/ss_05cb182b93131a5faf0516232a7ad27c83f2c0e8.1920x1080.jpg?t=1775300400",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/ss_5aa7c52b6f29b138712c0e89c7f9f2791ec289a9.1920x1080.jpg?t=1775300400",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/ss_267a8eff67ed643e4f1d49054da5102a07b7ffae.1920x1080.jpg?t=1775300400",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/ss_0e841fa6622be28851d8aa9624bb0d727c533029.1920x1080.jpg?t=1775300400",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/ss_1e5328e6955e4037c4e1dfbe761dbb34f3d293da.1920x1080.jpg?t=1775300400",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/ss_d542f0b64117d289239b068582b7f94f2764063c.1920x1080.jpg?t=1775300400",
+   "https://i.ytimg.com/vi/CTgwqKxh5AI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/m-7RDO7RFcQ/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/m-7RDO7RFcQ/sddefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "CTgwqKxh5AI",
+    "title": "geometry dash 2.2 | Full game + all coins | Longplay no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "m-7RDO7RFcQ",
+    "title": "Geometry Dash [All Levels & Coins] — Walkthrough (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "LBSo2ri9BOs",
+    "title": "Geometry Dash 2.2 - All Levels 1-22 + All Coins (No Commentary)"
+   }
+  ]
+ }
+}

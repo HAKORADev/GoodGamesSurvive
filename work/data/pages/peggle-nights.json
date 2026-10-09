@@ -1,0 +1,65 @@
+{
+ "slug": "peggle-nights",
+ "caption": "the peggle sequel under the moon - new masters, same orange-peg obsession.",
+ "genres": [
+  "arcade",
+  "puzzle",
+  "platformer"
+ ],
+ "subgenres": [
+  "physics"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2008 casual 2d; the bar is a formality."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Peggle™ Nights",
+    "url": "https://store.steampowered.com/app/3540/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Peggle nights is peggle's direct sequel: the same clear-the-orange-pegs core with a new roster of masters and dream-stage themes for each, keeping the bucket miracles and fever drama intact. It exists for the players who finished the first board set and wanted another fifty.",
+  "Popcap shipped it in october 2008 and it still lists on steam under the popcap label at a live price. Official route, standing beside the original rather than replacing it.",
+  "A 2008 casual 2d at the bottom of the requirements ladder; not-tested until a real run."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540/0000005571.1920x1080.jpg?t=1777484454",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540/0000005572.1920x1080.jpg?t=1777484454",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540/0000005570.1920x1080.jpg?t=1777484454",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540/0000005573.1920x1080.jpg?t=1777484454",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540/0000005574.1920x1080.jpg?t=1777484454",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540/0000005575.1920x1080.jpg?t=1777484454",
+   "https://i.ytimg.com/vi/22Jx02tJ69c/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/22Jx02tJ69c/sddefault.jpg",
+   "https://i.ytimg.com/vi/22Jx02tJ69c/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "22Jx02tJ69c",
+    "title": "Longplay: Peggle Nights - Adventure Mode - All ACE Scores! (2008) | 4K/60"
+   },
+   {
+    "kind": "youtube",
+    "id": "LoSVByLF6yo",
+    "title": "Peggle Nights - All Missions | Full game"
+   },
+   {
+    "kind": "youtube",
+    "id": "RwYjx4VPzx0",
+    "title": "Plants vs. Zombies: Battle for Neighborville™ Official Launch Trailer"
+   }
+  ]
+ }
+}

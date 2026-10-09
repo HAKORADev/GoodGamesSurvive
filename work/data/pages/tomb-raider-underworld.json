@@ -1,0 +1,68 @@
+{
+ "slug": "tomb-raider-underworld",
+ "caption": "lara's underworld chapter - thor's gauntlets, niflheim dives and crystal dynamics' trilogy closer.",
+ "genres": [
+  "action",
+  "platformer"
+ ],
+ "subgenres": [
+  "hack 'n slash",
+  "roguelike",
+  "musou"
+ ],
+ "characters": [
+  "Lara Croft"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at - 2008 build, mid-weight; reduced settings at the bar."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Tomb Raider: Underworld",
+    "url": "https://store.steampowered.com/app/8140/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Tomb raider: underworld closes crystal dynamics' lara trilogy: thors' gauntlets and hammer power the traversal, the mediterranean-to-mexico-to-niflheim run ties the trilogy's myth arc off, and the free-climbing, grapple-swing grammar is the trilogy's maturest form. The mystery of amelia and the hammer of thor give the campaign its spine.",
+  "Crystal dynamics shipped it in november 2008, and the steam listing is the current official door at a discount-tier price, still sold. The windows build is the original platform.",
+  "The 2008 build is mid-weight for its year - the haswell igpu bar holds reduced settings with 1080p above. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8140/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8140/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8140/0000005727.1920x1080.jpg?t=1729009496",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8140/0000005728.1920x1080.jpg?t=1729009496",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8140/0000005729.1920x1080.jpg?t=1729009496",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8140/0000005730.1920x1080.jpg?t=1729009496",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8140/0000005731.1920x1080.jpg?t=1729009496",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8140/0000005732.1920x1080.jpg?t=1729009496",
+   "https://i.ytimg.com/vi/DrxxWqneJKc/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/DrxxWqneJKc/sddefault.jpg",
+   "https://i.ytimg.com/vi/DrxxWqneJKc/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "DrxxWqneJKc",
+    "title": "Tomb Raider Underworld [Full Game] Walkthrough (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "fSJHhIzIhsQ",
+    "title": "TOMB RAIDER UNDERWORLD Gameplay Walkthrough FULL GAME (4K 60FPS) No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "FX1fBdBvbmw",
+    "title": "Tomb Raider: Underworld (PC) Playthrough (No Commentary)"
+   }
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "slug": "bioshock-1",
+ "caption": "rapture under the fathoms - the 2007 immersive shooter that made would-you-kindly a genre phrase.",
+ "genres": [
+  "action",
+  "shooter"
+ ],
+ "subgenres": [
+  "survival"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at - 2007 unreal 2.5 shooter; haswell igpu holds playable 720p-900p."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - BioShock™",
+    "url": "https://store.steampowered.com/app/7670/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "BioShock drops you into rapture, andrew ryan's failed objectivist city at the bottom of the atlantic, and hands you plasmids and firearms in equal measure. The loop is immersive-shooter craft - hacking turrets, camera-researched damage bonuses, adam economy and little sister choices - and splicer chatter plus audio diaries carry one of gaming's most quoted scripts to its would-you-kindly twist.",
+  "2K boston and 2K australia shipped it in august 2007, and the steam listing is the current official pc door, still carrying a price. The 2007 build remains the real pc version - the 2016 remaster rides the same store page as a separate executable, which makes the original the archive-truth build this page documents.",
+  "The 2007 build runs comfortably at the haswell igpu bar for 720p-900p settings, with dx10 extras above it. The status box carries the honest state: not-tested until a real run confirms install, launch, patches and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/0000002508.1920x1080.jpg?t=1730172622",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/0000002509.1920x1080.jpg?t=1730172622",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/0000002510.1920x1080.jpg?t=1730172622",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/0000002511.1920x1080.jpg?t=1730172622",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/0000002512.1920x1080.jpg?t=1730172622",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/0000002513.1920x1080.jpg?t=1730172622",
+   "https://i.ytimg.com/vi/UWaV_1a90gI/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/UWaV_1a90gI/sddefault.jpg",
+   "https://i.ytimg.com/vi/UWaV_1a90gI/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "UWaV_1a90gI",
+    "title": "BIOSHOCK Full Gameplay Walkthrough / No Commentary 【FULL GAME】4K 60FPS Ultra HD"
+   },
+   {
+    "kind": "youtube",
+    "id": "5AkYix-enbQ",
+    "title": "BioShock Remastered | 4K | Full Game Longplay Walkthrough No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "7c-IjhaCeFo",
+    "title": "Bioshock 1 Remastered │ 100% Cinematic Longplay │ Survivor, No Hit, All Achievem"
+   }
+  ]
+ }
+}

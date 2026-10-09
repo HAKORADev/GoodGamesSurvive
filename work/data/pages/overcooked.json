@@ -1,0 +1,65 @@
+{
+ "slug": "overcooked",
+ "caption": "the co-op kitchen chaos origin - orders, hobs and the counter that ruins friendships.",
+ "genres": [
+  "arcade",
+  "puzzle",
+  "platformer"
+ ],
+ "subgenres": [
+  "physics"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - light 3d co-op sim; the bar holds 1080p60."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Overcooked",
+    "url": "https://store.steampowered.com/app/448510/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Overcooked is the couch co-op kitchen sim: orders queue while the crew chops, cooks, washes and plates across kitchens designed to fall apart - moving trucks, splitting islands, haunted bread. The local co-op focus is the point, and the campaign's star thresholds turn a full crew's panic into a scoring sport.",
+  "Ghost town games shipped it in august 2016, and the steam listing is the current official door, still sold with the local co-op flags the design demands. The gourmet edition bundles the dlc separately - the listing here is the base campaign package.",
+  "A light 3d game of modest weight - the haswell igpu bar holds it comfortably at 1080p60. Not-tested stands until a run confirms install, launch and the couch co-op path."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/ss_11cb84e3a78ffd9ed0b5f65a8306fe80f363587a.1920x1080.jpg?t=1788969012",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/ss_2a35c15c78f06dd4f23dab8a1e1917a835d0062d.1920x1080.jpg?t=1788969012",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/ss_9d46372cef71acf4e85306c82c8005491f27b714.1920x1080.jpg?t=1788969012",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/ss_0f5e9b48f8cf604d10e83af1160b5d87cbea3167.1920x1080.jpg?t=1788969012",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/ss_058c688a6f07a4624b4f775b3e71df8037ef4df2.1920x1080.jpg?t=1788969012",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/ss_c307c59c18be77c920050a2d70d76929a2295879.1920x1080.jpg?t=1788969012",
+   "https://i.ytimg.com/vi/JJhkVX8iMvk/sddefault.jpg",
+   "https://i.ytimg.com/vi/JJhkVX8iMvk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JV6_vQmDk1o/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "JJhkVX8iMvk",
+    "title": "Overcooked (Gameplay) [NO COMMENTARY]"
+   },
+   {
+    "kind": "youtube",
+    "id": "JV6_vQmDk1o",
+    "title": "Overcooked: Gameplay Walkthrough Campaign Full Game [4K UHD] No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "HxNxYDhBRrw",
+    "title": "Overcooked - Longplay Full Game (2 Player Co-op) 100% All Stars Walkthrough (No "
+   }
+  ]
+ }
+}

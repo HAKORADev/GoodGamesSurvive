@@ -1,0 +1,66 @@
+{
+ "slug": "stardew-valley",
+ "caption": "one farmer, one valley - the Harvest-moon-informed life sim that one person built.",
+ "genres": [
+  "casual",
+  "time management",
+  "simulation"
+ ],
+ "subgenres": [
+  "farming",
+  "tycoon"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - light 2d pixel game; far under the bar."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Stardew Valley",
+    "url": "https://store.steampowered.com/app/413150/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Stardew valley is the farming life sim built by one person: inherit the grandfather's plot, clear it, plant it, and let the valley's seasons structure the years - crops and livestock for income, the mines for combat, and a town whose friendship arcs, festivals and marriage candidates fill every week. The community center bundles and joja's alternative route give the progression its fork.",
+  "Concernedape shipped it in february 2016 and still maintains it; the steam listing is the current official door at full price with the 1.6 update line. The windows build is the original platform.",
+  "A light 2d pixel game - the haswell igpu bar is far above its needs. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.1920x1080.jpg?t=1786554168",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_4fa0866709ede3753fdf2745349b528d5e8c4054.1920x1080.jpg?t=1786554168",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_d836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e.1920x1080.jpg?t=1786554168",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_10628b4a811c0a925a1433d4323f78c7017dbbe4.1920x1080.jpg?t=1786554168",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_6422d297347258086b389e3d5d9c0e0c698312e4.1920x1080.jpg?t=1786554168",
+   "https://i.ytimg.com/vi/_XfffJIzEtI/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/_XfffJIzEtI/sddefault.jpg",
+   "https://i.ytimg.com/vi/_XfffJIzEtI/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "_XfffJIzEtI",
+    "title": "Stardew Valley - Relaxing Longplay Fall (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "27k3O7pLjvk",
+    "title": "Stardew Valley 1.6 No Commentary Longplay 🌿 Cozy Gameplay for Sleep, Study, & Wo"
+   },
+   {
+    "kind": "youtube",
+    "id": "aPVmyMxPZjU",
+    "title": "Stardew Valley - Relaxing Longplay Summer (No Commentary)"
+   }
+  ]
+ }
+}

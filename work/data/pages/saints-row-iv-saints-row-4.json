@@ -1,0 +1,65 @@
+{
+ "slug": "saints-row-iv-saints-row-4",
+ "caption": "the boss in the simulation - superpowers, the white house and deep silver volition's fullest comedy.",
+ "genres": [
+  "action",
+  "adventure"
+ ],
+ "subgenres": [
+  "open world",
+  "crime"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at - 2013 build, mid-weight; reduced settings at the bar, 1080p above."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Saints Row IV: Re-Elected",
+    "url": "https://store.steampowered.com/app/206420/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Saints row iv drops the boss into a virtual steelport simulation: super speed, super jumps and telekinesis replace the cars-and-guns loop of the earlier rows, dubstep guns and shredder easter eggs ride the comedy, and keith david playing keith david is the tone in one sentence. The re-elected package carries all the dlc arcs including the gat out of hell setup.",
+  "Volition shipped it in august 2013; the steam listing is the re-elected edition - the current official door carrying the base campaign plus its content, still sold under deep silver.",
+  "The 2013 build is mid-weight for its year - the haswell igpu bar means reduced settings, 1080p above. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/ss_10f32f4ca88b479648cc08a4b7af269f3cb905ca.1920x1080.jpg?t=1764670979",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/ss_92e54253c19f9536c3932caa7b8b581cea74e665.1920x1080.jpg?t=1764670979",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/ss_3750989bb2f99fb0ab07da509441bf47f1c88c7b.1920x1080.jpg?t=1764670979",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/ss_34178411d350c6895c2a21554db1b0f17e1381bc.1920x1080.jpg?t=1764670979",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/ss_ccb7413366f9a3eab3d7870ff8ca25aa15fa20ac.1920x1080.jpg?t=1764670979",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/ss_c06ff90946fdc8b192023fe8309d21e8b3bf0137.1920x1080.jpg?t=1764670979",
+   "https://i.ytimg.com/vi/qdnW8Ej1fEs/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/qdnW8Ej1fEs/sddefault.jpg",
+   "https://i.ytimg.com/vi/qdnW8Ej1fEs/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "qdnW8Ej1fEs",
+    "title": "SAINTS ROW IV RE-ELECTED - 100% Walkthrough No Commentary (PS4)"
+   },
+   {
+    "kind": "youtube",
+    "id": "zEo0QgYJAb0",
+    "title": "Saints Row IV: Re-Elected (PC) - Gameplay | No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "n-zVUj8G_Ic",
+    "title": "Saints Row IV Re-Elected [No Commentary] Part 1"
+   }
+  ]
+ }
+}

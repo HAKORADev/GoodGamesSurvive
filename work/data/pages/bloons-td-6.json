@@ -1,0 +1,65 @@
+{
+ "slug": "bloons-td-6",
+ "caption": "ninja kiwi's tower-defense juggernaut - monkeys, tiers of upgrades and boss balloons by the hundred.",
+ "genres": [
+  "strategy",
+  "casual"
+ ],
+ "subgenres": [
+  "tower defense",
+  "roguelite"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "at - light 3d tactics; the bar holds it comfortably."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Bloons TD 6",
+    "url": "https://store.steampowered.com/app/960090/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Bloons TD 6 is the modern peak of the tower-defense formula: monkey towers across dart, magic, military, support and ice classes, each with three five-tier upgrade paths, fighting balloon waves that escalate from reds to boss-grade blimps. The maps layer line-of-sight and elevation into placement math, and co-op play turns the whole thing into a shared board.",
+  "Ninja kiwi shipped it in december 2018 and the windows build on steam is the current, actively updated version - the same build the mobile line rides. The steam door stays live with a price, so this page is an official-route entry, not an archive rescue.",
+  "It is a 3d-rendered but light tactical game - the haswell igpu bar holds it at playable settings, and the honest state is not-tested until a run confirms the install and the co-op pathing."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/ss_a20e85177d96408281e0672927f8e9137c1f423a.1920x1080.jpg?t=1782123772",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/ss_c8525f327db944b0c0b9cedeeeca15c5c55797a2.1920x1080.jpg?t=1782123772",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/ss_4134980ce3fd32fa19b0cb9bc0ecd25674a92a90.1920x1080.jpg?t=1782123772",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/ss_4267806278ff810e3dd04a63b732b1b89019d57d.1920x1080.jpg?t=1782123772",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/ss_cc8f0bb7f660dca501806b1853e62664bd26e30b.1920x1080.jpg?t=1782123772",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/ss_ab05c1ce749ecc1a6e76a8efc4d4dd21f534d091.1920x1080.jpg?t=1782123772",
+   "https://i.ytimg.com/vi/4-cT9n8QNAk/sddefault.jpg",
+   "https://i.ytimg.com/vi/4-cT9n8QNAk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PIOofEukl6g/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "4-cT9n8QNAk",
+    "title": "Bloons TD 6 - Downstream [Hard] Gameplay (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "PIOofEukl6g",
+    "title": "Bloons TD 6: Spa Pits | Gameplay Walkthrough FULL MAP | No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "KDUSfFEyGLE",
+    "title": "Bloons TD 6: Monkey Meadow | Gameplay Walkthrough FULL MAP | No Commentary"
+   }
+  ]
+ }
+}

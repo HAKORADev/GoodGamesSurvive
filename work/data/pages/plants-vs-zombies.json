@@ -1,0 +1,67 @@
+{
+ "slug": "plants-vs-zombies",
+ "caption": "popcap's lawn defense landmark - sunflowers, peashooters and the zombie apocalypse's friendliest face.",
+ "genres": [
+  "strategy",
+  "casual"
+ ],
+ "subgenres": [
+  "tower defense",
+  "roguelite"
+ ],
+ "characters": [
+  "Crazy Dave"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below - casual 2d line; the bar holds both the classic and the remaster."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Plants vs. Zombies™: Replanted",
+    "url": "https://store.steampowered.com/app/3654560/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Plants vs. Zombies is the tower-defense crossover hit: a five-lane lawn, a sun economy, and a plant roster from peashooter to winter melon holding off doc zu's waves of zombies. The minigames, the zen garden and the roof levels carried a campaign whose humor and readability made it popcap's best-known property.",
+  "Popcap shipped it in may 2009; the current steam door is the replanted remaster (october 2025), the refreshed official release carrying the classic with hd redrawn art. The page documents the 2009 classic line with the remaster as its living door.",
+  "The original 2009 build is trivially under the haswell igpu bar; the replanted remaster holds 1080p at the bar easily. Not-tested stands until a run confirms install and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/c91b72b9b68246a609e8e8eae208cff42d24ebaa/ss_c91b72b9b68246a609e8e8eae208cff42d24ebaa.1920x1080.jpg?t=1763401327",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/01cb3a736faab7db3b0049c4f44f219c149be678/ss_01cb3a736faab7db3b0049c4f44f219c149be678.1920x1080.jpg?t=1763401327",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/a93fc3c20ad60320734eadb2b5821d7e0429587f/ss_a93fc3c20ad60320734eadb2b5821d7e0429587f.1920x1080.jpg?t=1763401327",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/4b1c782b3dd53bf98b06001a1027a0468049854c/ss_4b1c782b3dd53bf98b06001a1027a0468049854c.1920x1080.jpg?t=1763401327",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/37f055a991ab29b79a99ede0d4f46155e5e1dd3e/ss_37f055a991ab29b79a99ede0d4f46155e5e1dd3e.1920x1080.jpg?t=1763401327",
+   "https://i.ytimg.com/vi/jo4KMCcy-Yo/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/jo4KMCcy-Yo/sddefault.jpg",
+   "https://i.ytimg.com/vi/jo4KMCcy-Yo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/KMGYZnfqKag/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "jo4KMCcy-Yo",
+    "title": "Plants vs Zombies Replanted - Full Game Walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "KMGYZnfqKag",
+    "title": "Plants vs Zombies Replanted - Full Game Walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "hzYcXrK9bxE",
+    "title": "Plants vs. Zombies: Replanted [PC] [2 Player] Co-Op Full Walkthrough [Leaked Bet"
+   }
+  ]
+ }
+}

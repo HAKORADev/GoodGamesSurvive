@@ -1,0 +1,66 @@
+{
+ "slug": "far-cry-3",
+ "caption": "the rook islands' descent - outposts, takedowns and the shooter that defined the open-world formula's next decade.",
+ "genres": [
+  "action",
+  "shooter"
+ ],
+ "subgenres": [
+  "survival"
+ ],
+ "characters": [
+  "Jason Brody"
+ ],
+ "req": {
+  "tier": "above",
+  "note": "at - dunia 2012; reduced settings under the bar, scales above."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Far Cry 3",
+    "url": "https://store.steampowered.com/app/220240/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Far cry 3 is the open-world shooter whose structure became the template: radio-tower unlocks, outpost liberations, hunting crafts and skill trees wrapped around jason brody's descent from tourist to knife-first island fighter. Vaas's monologues and the rite-of-passage framing carried the campaign's reputation far past its mechanics.",
+  "Ubisoft montreal and massive shipped it in november 2012, and the steam listing is the current official door, still sold. The classic edition naming matters: the store's entry is the base campaign plus its co-op, not the 2021 classic dlc bundle sold inside far cry 6's ecosystem.",
+  "The 2012 dunia build is comfortable at the haswell igpu bar with reduced settings and scales well above. Not-tested holds until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/91ca9b48ef5a3095281cd7eceb40d2daeffb0454/ss_91ca9b48ef5a3095281cd7eceb40d2daeffb0454.1920x1080.jpg?t=1785282057",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/d2cc64ad335dd754966a8a41e755be44ecf9d5df/ss_d2cc64ad335dd754966a8a41e755be44ecf9d5df.1920x1080.jpg?t=1785282057",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/1c4a54582fefd79dbc5fa0bd81d20a5ab66ad4e3/ss_1c4a54582fefd79dbc5fa0bd81d20a5ab66ad4e3.1920x1080.jpg?t=1785282057",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/0f29b4edb75369ed716453ebac5c9decd8fa771b/ss_0f29b4edb75369ed716453ebac5c9decd8fa771b.1920x1080.jpg?t=1785282057",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/07a887e5eab5e2a98aa7bacda6b2b489cc6d2e74/ss_07a887e5eab5e2a98aa7bacda6b2b489cc6d2e74.1920x1080.jpg?t=1785282057",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/21fa3fb592d0d1519716b12dc8fd192fe7bd687d/ss_21fa3fb592d0d1519716b12dc8fd192fe7bd687d.1920x1080.jpg?t=1785282057",
+   "https://i.ytimg.com/vi/3lBujASAMEM/sddefault.jpg",
+   "https://i.ytimg.com/vi/3lBujASAMEM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ckOhlNZ1yqY/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "3lBujASAMEM",
+    "title": "Far Cry 3 Full Walkthrough Gameplay - No Commentary (PC Longplay)"
+   },
+   {
+    "kind": "youtube",
+    "id": "ckOhlNZ1yqY",
+    "title": "FAR CRY 3 Gameplay Walkthrough Part 1 FULL GAME [4K 60FPS PC] - No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "ZCuY_iYQH4Q",
+    "title": "FAR CRY 3 Gameplay Walkthrough FULL GAME [4K 60FPS PS5 PRO] - No Commentary"
+   }
+  ]
+ }
+}

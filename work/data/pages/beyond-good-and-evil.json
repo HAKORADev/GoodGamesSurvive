@@ -1,0 +1,68 @@
+{
+ "slug": "beyond-good-and-evil",
+ "caption": "ubisoft's investigative action-adventure - jade, the camera and a population of hybrids on the run.",
+ "genres": [
+  "action",
+  "platformer"
+ ],
+ "subgenres": [
+  "hack 'n slash",
+  "roguelike",
+  "musou"
+ ],
+ "characters": [
+  "Jade"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below - 2008 port of a 2003 game; the bar sits far above its needs."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Beyond Good and Evil™",
+    "url": "https://store.steampowered.com/app/15130/"
+   }
+  ],
+  "official_note": "the steam listing stands, but purchase is closed - no official route sells this pc build today.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Beyond Good & Evil puts you in jade's boots - a photojournalist on the mining colony of Hillys who investigates the alpha sections' disappearances with a camera, a hovercraft and a crew of hybrids. The loop mixes zelda-style dungeons, photography puzzles, racing and stealth, and its 2003 story about manufactured truth is the reason the title never left the conversation.",
+  "Ubisoft montpellier's windows port reached steam in may 2008. The listing stands today, but the purchase door is closed - ubisoft pulled the buy option as the franchise pivoted to the 2024 twentieth-anniversary edition, so the original pc build now sits in the un-buyable lane with the store page as its headstone.",
+  "The port is a 2008 build of a 2003 console game - single-digit-GB territory on the estimate ladder, and playable settings well under the haswell igpu bar. No archive route is attached yet; the slot stays empty until a real one turns up."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15130/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15130/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15130/0000004058.1920x1080.jpg?t=1718743204",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15130/0000004059.1920x1080.jpg?t=1718743204",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15130/0000004060.1920x1080.jpg?t=1718743204",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15130/0000004061.1920x1080.jpg?t=1718743204",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15130/0000004062.1920x1080.jpg?t=1718743204",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15130/0000004063.1920x1080.jpg?t=1718743204",
+   "https://i.ytimg.com/vi/vBcWD9AKSoA/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/vBcWD9AKSoA/sddefault.jpg",
+   "https://i.ytimg.com/vi/vBcWD9AKSoA/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "vBcWD9AKSoA",
+    "title": "BEYOND GOOD & EVIL PS5 Gameplay Walkthrough FULL GAME (4K 60FPS) No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "OArsU4wXvWM",
+    "title": "Beyond Good & Evil - FULL GAME Playthrough 4K / Linux Mint (GOG Version) - No Co"
+   },
+   {
+    "kind": "youtube",
+    "id": "JVywqFx0GdE",
+    "title": "Detroit Become Human - FULL GAME Walkthrough Gameplay No Commentary (Everyone Su"
+   }
+  ]
+ }
+}

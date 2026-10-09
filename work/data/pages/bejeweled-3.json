@@ -1,0 +1,66 @@
+{
+ "slug": "bejeweled-3",
+ "caption": "popcap's match-3 at its peak - eight modes from the zen corridor to the lightning hour.",
+ "genres": [
+  "puzzle",
+  "casual"
+ ],
+ "subgenres": [
+  "match-3",
+  "marble popper",
+  "card"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2010 casual 2d; runs on anything, target bar far above it."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Bejeweled® 3",
+    "url": "https://store.steampowered.com/app/78000/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Bejeweled 3 is popcap's third and deepest match-3: the classic swap-and-match core sits inside eight modes - classic, zen, lightning, ice storm, gold rush, butterfly, poker and quest - each one a different reading of the same three-gem rule. The zen mode is the series' most famous detour: an endless, configurable corridor with breathing exercises and ambient tracks built in.",
+  "Popcap released it in december 2010, and the windows build on steam is the original popcap-era release, sold under the popcap label the studio carried before the ea fold-in. The listing still carries a price, which keeps it one of the match-3 shelf's live official doors rather than an archive rescue.",
+  "It is a 2010 casual 2d in the lowest requirements class - the haswell igpu bar is irrelevant to it, and the honest unknowns are the ones the status box carries: not-tested until a real run confirms the install and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/78000/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/78000/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/78000/ss_b2eb4ba6d54f1d7fbff69d7050c6d4eda34767fd.1920x1080.jpg?t=1725652822",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/78000/ss_dffe2d8170a18c0f630d922fb8781aae5bb394be.1920x1080.jpg?t=1725652822",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/78000/ss_ba14b972a9088a3749556162af72f548c778fc13.1920x1080.jpg?t=1725652822",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/78000/ss_4fbe3fbc122d8896cdae924454d91db7971ae903.1920x1080.jpg?t=1725652822",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/78000/ss_150b3fe80fb78bc94f43ae67d3efdc3272efbacb.1920x1080.jpg?t=1725652822",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/78000/ss_3c3406b30702bb0109b91c647d1851bf54326a58.1920x1080.jpg?t=1725652822",
+   "https://i.ytimg.com/vi/fI-ElM6X14U/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/fI-ElM6X14U/sddefault.jpg",
+   "https://i.ytimg.com/vi/fI-ElM6X14U/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "fI-ElM6X14U",
+    "title": "Bejeweled 3: PC Full Gameplay Walkthrough - All Game Modes (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "f1r7RwRlhws",
+    "title": "Bejeweled 3 Gameplay HD (PC) | NO COMMENTARY"
+   },
+   {
+    "kind": "youtube",
+    "id": "27rygPiERFc",
+    "title": "Bejeweled 3 - Classic Mode (PC)(Steam)(No Commentary)"
+   }
+  ]
+ }
+}

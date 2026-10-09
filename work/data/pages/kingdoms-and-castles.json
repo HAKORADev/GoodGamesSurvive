@@ -1,0 +1,66 @@
+{
+ "slug": "kingdoms-and-castles",
+ "caption": "a medieval city builder with viking winters - lion shield's grid of towers, farms and prayers.",
+ "genres": [
+  "casual",
+  "time management",
+  "simulation"
+ ],
+ "subgenres": [
+  "farming",
+  "tycoon"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "at - light 3d builder; the bar holds 1080p with settings to spare."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Kingdoms and Castles",
+    "url": "https://store.steampowered.com/app/569480/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Kingdoms and castles is a city builder with a medieval core: raise a town from a keep and a granary into walled districts, balance food chains against viking raids and winters, and grow the skyline in a tax-and-happiness economy that reads clearly at a glance. The building aesthetic is stylized-low-poly, which keeps the grid readable as the town scales.",
+  "Lion shield shipped it in july 2017 after a kickstarter, and the steam listing is the current official door with the active update line. It still sells, so the page is an official-route entry.",
+  "It is a light 3d builder - the haswell igpu bar holds it at 1080p with settings to spare. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/ss_c720d04f507059f75d1f5dc040e5123dcf36826b.1920x1080.jpg?t=1776710220",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/ss_8edcd3c9cb93ee1e38df6ad676166ff567d4a7cb.1920x1080.jpg?t=1776710220",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/ss_b352f28aa3450b0813fab1a4f94e9eadd87a0be8.1920x1080.jpg?t=1776710220",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/ss_cf083ffaa79178888ee345cbbfb6a01e92584280.1920x1080.jpg?t=1776710220",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/ss_a0e16d2a2bcdfbed5494b7985c879dfa3ce044b4.1920x1080.jpg?t=1776710220",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/ss_af7361cb88294d6515bd7cb85b94c90dc3e070ec.1920x1080.jpg?t=1776710220",
+   "https://i.ytimg.com/vi/ByG4XE4HnYA/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/ByG4XE4HnYA/sddefault.jpg",
+   "https://i.ytimg.com/vi/ByG4XE4HnYA/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "ByG4XE4HnYA",
+    "title": "Kingdoms and Castles LONG PLAY {No Commentary}"
+   },
+   {
+    "kind": "youtube",
+    "id": "aA9X_YE3qSg",
+    "title": "Kingdoms and Castles - 250 Years on Survival / Full Game / Part 1 - No Commentar"
+   },
+   {
+    "kind": "youtube",
+    "id": "Swhga_ABN04",
+    "title": "Kingdoms and Castles - Full Game / 250 Years (Falle) + Dragons / Part 1 - No Com"
+   }
+  ]
+ }
+}

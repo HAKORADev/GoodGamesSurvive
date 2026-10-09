@@ -1,0 +1,66 @@
+{
+ "slug": "quake-4",
+ "caption": "the strogg war's ground campaign - raven's id-tech 4 squad shooter and the stroggification chair.",
+ "genres": [
+  "action",
+  "shooter"
+ ],
+ "subgenres": [
+  "survival"
+ ],
+ "characters": [
+  "Matthew Kane"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at - id-tech 4 2005; native-ish settings at the bar."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Quake 4",
+    "url": "https://store.steampowered.com/app/2210/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Quake 4 continues the strogg war from quake 2's ending: matthew kane's rhino squad fights planet-wide while the campaign's centerpiece - matthew's half-stroggification - re-tools the story into cyborg identity horror. The gunplay is id-tech 4 grounded: squad sections, vehicle rides, and the hardcore strogg arenas between them.",
+  "Raven and id shipped it in october 2005; the steam listing is the current official door, still sold. The pc build is the original platform, and the page documents it as such.",
+  "Id-tech 4 2005 sits comfortably at the haswell igpu bar for native-ish settings. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210/0000006643.1920x1080.jpg?t=1664372514",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210/0000006644.1920x1080.jpg?t=1664372514",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210/0000006645.1920x1080.jpg?t=1664372514",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210/0000006646.1920x1080.jpg?t=1664372514",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210/0000006647.1920x1080.jpg?t=1664372514",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210/0000006648.1920x1080.jpg?t=1664372514",
+   "https://i.ytimg.com/vi/MV_m-ZfThOQ/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/MV_m-ZfThOQ/sddefault.jpg",
+   "https://i.ytimg.com/vi/MV_m-ZfThOQ/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "MV_m-ZfThOQ",
+    "title": "Quake 4 │ 100% Cinematic Longplay │ General Difficulty │ No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "6davNQyFoSw",
+    "title": "Quake 4 Full Walkthrough Gameplay - No Commentary (PC Longplay)"
+   },
+   {
+    "kind": "youtube",
+    "id": "HH9RU2Tv8M4",
+    "title": "Quake 4 - Gameplay Playthrough Full Game (PC ULTRA 1080P 60FPS) No Commentary"
+   }
+  ]
+ }
+}

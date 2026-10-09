@@ -1,0 +1,68 @@
+{
+ "slug": "psychonauts",
+ "caption": "double fine's mind-crawling platformer - raz, summer camp and the brains of the neighborhood.",
+ "genres": [
+  "action",
+  "platformer"
+ ],
+ "subgenres": [
+  "hack 'n slash",
+  "roguelike",
+  "musou"
+ ],
+ "characters": [
+  "Raz"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below - 2005 3d platformer; holds native settings under the bar."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Psychonauts",
+    "url": "https://store.steampowered.com/app/3830/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Psychonauts sends raz into other people's minds: every brain is a hand-built platformer world - the meat circus, the lungfish's kaiju reel, fred bonaparte's board-game war - with figments, vaults and emotional baggage as the collectible grammar. The summer-camp hub ties the levels together, and the writing made it double fine's identity piece.",
+  "Double fine shipped it in april 2005 on windows through a publishing chain that left the pc build orphaned for years; the steam listing revived it and is the current official door at a friendly price. Still sold, officially obtainable again since 2011.",
+  "A 2005 3d platformer of modest weight - the haswell igpu bar holds it at native settings. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/ss_e7d658420d90fdcc0b4711527ec8d4c006664788.1920x1080.jpg?t=1787713000",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/ss_5beccac535ddee6bbd65791b040c7618c27c2fc3.1920x1080.jpg?t=1787713000",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/ss_38562cc9e710c7e2c6f69778708865e64345e865.1920x1080.jpg?t=1787713000",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/ss_2aabca4649fe4e650c3606b981bf824db79b4144.1920x1080.jpg?t=1787713000",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/ss_71b9c9a56ca7baadc4476a46f00d5988a0489707.1920x1080.jpg?t=1787713000",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/ss_2d4b2a5d5341f732fa1bbd5549b522cd88171e00.1920x1080.jpg?t=1787713000",
+   "https://i.ytimg.com/vi/HxtFsjS7-ok/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/HxtFsjS7-ok/sddefault.jpg",
+   "https://i.ytimg.com/vi/HxtFsjS7-ok/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "HxtFsjS7-ok",
+    "title": "PSYCHONAUTS Full Gameplay Walkthrough / No Commentary 【FULL GAME】4K 60FPS UHD"
+   },
+   {
+    "kind": "youtube",
+    "id": "0pjsxNSwSSA",
+    "title": "Psychonauts - FULL GAME walkthrough | Longplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "kg-3sBmjh5E",
+    "title": "Psychonauts FULL GAME 100% Longplay (PS4, XBOX, PC)"
+   }
+  ]
+ }
+}

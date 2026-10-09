@@ -17,27 +17,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2016-02-26",
+   "developers": [
+    "ConcernedApe"
+   ],
+   "publishers": [
+    "ConcernedApe"
+   ],
    "platforms": [
     "windows"
    ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_coop": true,
+    "online_coop": true,
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/413150"
+   ],
    "notes": "",
    "genres": [
     "casual",
@@ -63,9 +68,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2017-07-20",
+   "developers": [
+    "Lion Shield, LLC"
+   ],
+   "publishers": [
+    "Lion Shield, LLC"
+   ],
    "platforms": [
     "windows"
    ],
@@ -74,16 +83,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/569480"
+   ],
    "notes": "",
    "genres": [
     "casual",
@@ -3055,9 +3065,14 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2006-08-30",
+   "developers": [
+    "PopCap Games, Inc."
+   ],
+   "publishers": [
+    "PopCap Games, Inc.",
+    "Electronic Arts"
+   ],
    "platforms": [
     "windows"
    ],
@@ -3066,16 +3081,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/3320"
+   ],
    "notes": "",
    "genres": [
     "casual",
@@ -4159,9 +4175,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2018-08-06",
+   "developers": [
+    "Motion Twin"
+   ],
+   "publishers": [
+    "Motion Twin"
+   ],
    "platforms": [
     "windows"
    ],
@@ -4170,16 +4190,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/588650"
+   ],
    "notes": "",
    "genres": [
     "strategy",
@@ -4204,9 +4225,14 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2014-11-04",
+   "developers": [
+    "Nicalis, Inc.",
+    "Edmund McMillen"
+   ],
+   "publishers": [
+    "Nicalis, Inc."
+   ],
    "platforms": [
     "windows"
    ],
@@ -4214,17 +4240,18 @@
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/250900"
+   ],
    "notes": "",
    "genres": [
     "strategy",
@@ -4384,27 +4411,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2018-12-17",
+   "developers": [
+    "Ninja Kiwi"
+   ],
+   "publishers": [
+    "Ninja Kiwi"
+   ],
    "platforms": [
     "windows"
    ],
    "players": {
     "single": true,
     "local_coop": false,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/960090"
+   ],
    "notes": "",
    "genres": [
     "strategy",
@@ -4429,27 +4461,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2022-10-20",
+   "developers": [
+    "poncle"
+   ],
+   "publishers": [
+    "poncle"
+   ],
    "platforms": [
     "windows"
    ],
    "players": {
     "single": true,
     "local_coop": false,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/1794680"
+   ],
    "notes": "",
    "genres": [
     "strategy",
@@ -4879,27 +4916,33 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2025-10-23",
+   "developers": [
+    "PopCap Games",
+    "The Lost Pixels"
+   ],
+   "publishers": [
+    "Electronic Arts"
+   ],
    "platforms": [
     "windows"
    ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_coop": true,
+    "online_coop": true,
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/3654560"
+   ],
    "notes": "",
    "genres": [
     "strategy",
@@ -4924,27 +4967,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2011-05-16",
+   "developers": [
+    "Re-Logic"
+   ],
+   "publishers": [
+    "Re-Logic"
+   ],
    "platforms": [
     "windows"
    ],
    "players": {
     "single": true,
     "local_coop": false,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/105600"
+   ],
    "notes": "",
    "genres": [
     "arcade",
@@ -4969,9 +5017,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2014-12-22",
+   "developers": [
+    "RobTop Games"
+   ],
+   "publishers": [
+    "RobTop Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -4980,16 +5032,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/322170"
+   ],
    "notes": "",
    "genres": [
     "arcade",
@@ -5472,9 +5525,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2009-04-10",
+   "developers": [
+    "Number None"
+   ],
+   "publishers": [
+    "Number None"
+   ],
    "platforms": [
     "windows"
    ],
@@ -5483,16 +5540,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/26800"
+   ],
    "notes": "",
    "genres": [
     "arcade",
@@ -5967,9 +6025,14 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2007-03-06",
+   "developers": [
+    "PopCap Games, Inc."
+   ],
+   "publishers": [
+    "PopCap Games, Inc.",
+    "Electronic Arts"
+   ],
    "platforms": [
     "windows"
    ],
@@ -5978,16 +6041,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/3480"
+   ],
    "notes": "",
    "genres": [
     "arcade",
@@ -6012,9 +6076,14 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2008-10-15",
+   "developers": [
+    "PopCap Games, Inc."
+   ],
+   "publishers": [
+    "PopCap Games, Inc.",
+    "Electronic Arts"
+   ],
    "platforms": [
     "windows"
    ],
@@ -6023,16 +6092,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/3540"
+   ],
    "notes": "",
    "genres": [
     "arcade",
@@ -6102,27 +6172,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2023-06-23",
+   "developers": [
+    "Blobfish"
+   ],
+   "publishers": [
+    "Blobfish"
+   ],
    "platforms": [
     "windows"
    ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_coop": true,
+    "online_coop": true,
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/1942280"
+   ],
    "notes": "",
    "genres": [
     "arcade",
@@ -6147,27 +6222,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2016-08-03",
+   "developers": [
+    "Ghost Town Games Ltd."
+   ],
+   "publishers": [
+    "Team17 Digital Ltd"
+   ],
    "platforms": [
     "windows"
    ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_coop": true,
+    "online_coop": true,
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/448510"
+   ],
    "notes": "",
    "genres": [
     "arcade",
@@ -7812,9 +7892,14 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2006-08-30",
+   "developers": [
+    "PopCap Games, Inc."
+   ],
+   "publishers": [
+    "PopCap Games, Inc.",
+    "Electronic Arts"
+   ],
    "platforms": [
     "windows"
    ],
@@ -7823,16 +7908,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/3310"
+   ],
    "notes": "",
    "genres": [
     "arcade",
@@ -7857,9 +7943,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2006-08-30",
+   "developers": [
+    "PopCap Games, Inc."
+   ],
+   "publishers": [
+    "Electronic Arts"
+   ],
    "platforms": [
     "windows"
    ],
@@ -7868,16 +7958,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/3380"
+   ],
    "notes": "",
    "genres": [
     "arcade",
@@ -8842,9 +8933,14 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2006-08-30",
+   "developers": [
+    "PopCap Games, Inc."
+   ],
+   "publishers": [
+    "PopCap Games, Inc.",
+    "Electronic Arts"
+   ],
    "platforms": [
     "windows"
    ],
@@ -8853,16 +8949,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/3330"
+   ],
    "notes": "",
    "genres": [
     "puzzle",
@@ -8888,9 +8985,14 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2009-09-15",
+   "developers": [
+    "PopCap Games, Inc."
+   ],
+   "publishers": [
+    "PopCap Games, Inc.",
+    "Electronic Arts"
+   ],
    "platforms": [
     "windows"
    ],
@@ -8899,16 +9001,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/3620"
+   ],
    "notes": "",
    "genres": [
     "puzzle",
@@ -10958,9 +11061,14 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2010-12-07",
+   "developers": [
+    "PopCap Games, Inc."
+   ],
+   "publishers": [
+    "PopCap Games, Inc.",
+    "Electronic Arts"
+   ],
    "platforms": [
     "windows"
    ],
@@ -10969,16 +11077,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/78000"
+   ],
    "notes": "",
    "genres": [
     "puzzle",
@@ -11234,9 +11343,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2006-08-30",
+   "developers": [
+    "PopCap Games, Inc."
+   ],
+   "publishers": [
+    "PopCap Games, Inc."
+   ],
    "platforms": [
     "windows"
    ],
@@ -11245,16 +11358,17 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/3410"
+   ],
    "notes": "",
    "genres": [
     "shooter",
@@ -14135,25 +14249,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2020-09-03",
+   "developers": [
+    "Arsi \"Hakita\" Patala"
+   ],
+   "publishers": [
+    "New Blood Interactive"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/1229490"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -14164,7 +14285,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "F.E.A.R. (FEAR 1 & Expansions)",
@@ -14219,25 +14340,33 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2007-08-21",
+   "developers": [
+    "2K Boston",
+    "2K Australia"
+   ],
+   "publishers": [
+    "2K"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/7670"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -14248,7 +14377,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "Borderlands 1 (Cel-Shaded)",
@@ -14261,25 +14390,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2023-08-31",
+   "developers": [
+    "Gearbox Software"
+   ],
+   "publishers": [
+    "2K"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/8980"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -14290,7 +14426,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "Dead Rising 1",
@@ -14642,25 +14778,32 @@
    "content_walls": [],
    "big_size": true,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2012-05-31",
+   "developers": [
+    "Rockstar Studios"
+   ],
+   "publishers": [
+    "Rockstar Games"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/204100"
+   ],
    "notes": "big-size per owner tag; verify vs +15GB law",
    "genres": [
     "action",
@@ -14743,25 +14886,32 @@
    "content_walls": [],
    "big_size": true,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2012-11-28",
+   "developers": [
+    "Ubisoft Montreal, Massive Entertainment, and Ubisoft Shanghai"
+   ],
+   "publishers": [
+    "Ubisoft"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/220240"
+   ],
    "notes": "big-size per owner tag; verify vs +15GB law",
    "genres": [
     "action",
@@ -14785,25 +14935,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2011-03-22",
+   "developers": [
+    "Crytek Studios"
+   ],
+   "publishers": [
+    "Electronic Arts"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/108800"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -14814,7 +14971,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "Wolfenstein",
@@ -15125,25 +15282,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2017",
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2017-09-29",
+   "developers": [
+    "Studio MDHR Entertainment Inc."
+   ],
+   "publishers": [
+    "Studio MDHR Entertainment Inc."
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_coop": true,
+    "online_coop": true,
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/268910"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -15154,7 +15318,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Area 51",
@@ -15335,25 +15499,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2008-12-19",
+   "developers": [
+    "BioWare"
+   ],
+   "publishers": [
+    "Electronic Arts"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/17460"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -15364,7 +15535,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "Quake 4",
@@ -15377,25 +15548,33 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2011-08-04",
+   "developers": [
+    "RavenSoft",
+    "id Software"
+   ],
+   "publishers": [
+    "Bethesda Softworks"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/2210"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -15406,7 +15585,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "I.G.I.-2: Covert Strike",
@@ -15545,25 +15724,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2004-11-16",
+   "developers": [
+    "Valve"
+   ],
+   "publishers": [
+    "Valve"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/220"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -15574,7 +15760,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Portal",
@@ -15587,25 +15773,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2007-10-10",
+   "developers": [
+    "Valve"
+   ],
+   "publishers": [
+    "Valve"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/400"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -15616,7 +15809,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Portal 2",
@@ -15629,25 +15822,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2011-04-18",
+   "developers": [
+    "Valve"
+   ],
+   "publishers": [
+    "Valve"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_coop": true,
+    "online_coop": true,
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/620"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -15658,7 +15858,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Stubbs the Zombie in Rebel Without a Pulse",
@@ -16385,25 +16585,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2009-11-16",
+   "developers": [
+    "Valve"
+   ],
+   "publishers": [
+    "Valve"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/550"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -16414,7 +16621,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Call of Duty: Modern Warfare 2",
@@ -17571,25 +17778,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2017-12-12",
+   "developers": [
+    "CAPCOM Co., Ltd."
+   ],
+   "publishers": [
+    "CAPCOM Co., Ltd."
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/587620"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -17602,7 +17816,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Oni (Bungie 2001)",
@@ -17925,25 +18139,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2012-11-19",
+   "developers": [
+    "SEGA"
+   ],
+   "publishers": [
+    "SEGA"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/213610"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -17956,7 +18177,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Metal Gear Rising: Revengeance",
@@ -18057,25 +18278,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2020-09-17",
+   "developers": [
+    "Supergiant Games"
+   ],
+   "publishers": [
+    "Supergiant Games"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/1145360"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -18088,7 +18316,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Dynasty Warriors 6",
@@ -18409,25 +18637,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2005",
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-10-11",
+   "developers": [
+    "Double Fine Productions"
+   ],
+   "publishers": [
+    "Double Fine Productions"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/3830"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -18440,7 +18675,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Beyond Good & Evil",
@@ -18453,25 +18688,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2003",
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2008-05-13",
+   "developers": [
+    "Ubisoft Montpellier"
+   ],
+   "publishers": [
+    "Ubisoft"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/15130"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -18484,7 +18726,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Star Wars: The Force Unleashed II",
@@ -19465,25 +19707,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2012-03-29",
+   "developers": [
+    "Ubisoft Montpellier"
+   ],
+   "publishers": [
+    "Ubisoft"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/207490"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -19496,7 +19745,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Rayman Raving Rabbids",
@@ -19641,25 +19890,34 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2018-05-23",
+   "developers": [
+    "QLOC",
+    "FromSoftware, Inc."
+   ],
+   "publishers": [
+    "FromSoftware, Inc.",
+    "Bandai Namco Entertainment"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/570940"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -19672,7 +19930,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "Darksiders II",
@@ -20303,25 +20561,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2015-06-23",
+   "developers": [
+    "CAPCOM Co., Ltd."
+   ],
+   "publishers": [
+    "CAPCOM Co., Ltd. "
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/329050"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -20334,7 +20599,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "Prototype 1 & 2",
@@ -20743,25 +21008,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2008-11-21",
+   "developers": [
+    "Crystal Dynamics"
+   ],
+   "publishers": [
+    "Crystal Dynamics"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/8140"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -20774,7 +21046,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "Assassin's Creed Series (AC 1, Ezio Collection, AC III, AC IV: Black Flag )",
@@ -21319,25 +21591,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2013-10-21",
+   "developers": [
+    "Firefly Studios"
+   ],
+   "publishers": [
+    "Firefly Studios"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/40970"
+   ],
    "notes": "",
    "genres": [
     "strategy",
@@ -21350,7 +21629,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "below"
   },
   {
    "title": "Company of Heroes 1 (with Opposing Fronts & Tales of Valor)",
@@ -22423,25 +22702,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2011-11-10",
+   "developers": [
+    "Bethesda Game Studios"
+   ],
+   "publishers": [
+    "Bethesda Softworks"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/72850"
+   ],
    "notes": "",
    "genres": [
     "strategy",
@@ -22454,7 +22740,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "Red Dead Redemption 1 (RDR1)",
@@ -22555,25 +22841,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2011-11-14",
+   "developers": [
+    "Volition"
+   ],
+   "publishers": [
+    "Deep Silver"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/55230"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -22585,7 +22878,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "Saints Row IV (Saints Row 4)",
@@ -22598,25 +22891,32 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2013-08-22",
+   "developers": [
+    "Deep Silver Volition"
+   ],
+   "publishers": [
+    "Deep Silver"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/206420"
+   ],
    "notes": "",
    "genres": [
     "action",
@@ -22628,7 +22928,7 @@
    ],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "Akiba's Trip: Undead & Undressed",
@@ -22944,26 +23244,32 @@
    "content_walls": [],
    "big_size": true,
    "big_size_gb": 31,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2020-03-24",
+   "developers": [
+    "Rockstar North",
+    "Rockstar Toronto"
+   ],
+   "publishers": [
+    "Rockstar Games"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "verified",
+   "confidence": "store-verified",
    "sources": [
-    "research size checks 2026-10-09"
+    "store.steampowered.com/app/12210"
    ],
    "notes": "BIG (verified): Complete Edition: IV + EFLC ~15-16GB each",
    "genres": [
@@ -23544,25 +23850,34 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2006",
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-12-21",
+   "developers": [
+    "Bugbear Entertainment",
+    "ZOOM Platform Media",
+    "Jordan Freeman Group"
+   ],
+   "publishers": [
+    "Strategy First"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "store-verified",
+   "sources": [
+    "store.steampowered.com/app/2990"
+   ],
    "notes": "",
    "genres": [
     "racing",
@@ -23571,7 +23886,7 @@
    "subgenres": [],
    "size_est_mb": null,
    "size_source": null,
-   "req_tier": null
+   "req_tier": "at"
   },
   {
    "title": "New York Race",
@@ -26476,26 +26791,31 @@
    "content_walls": [],
    "big_size": true,
    "big_size_gb": 20,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2017-04-11",
+   "developers": [
+    "PlatinumGames"
+   ],
+   "publishers": [
+    "SEGA"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "verified",
+   "confidence": "store-verified",
    "sources": [
-    "research size checks 2026-10-09"
+    "store.steampowered.com/app/460790"
    ],
    "notes": "BIG (verified): Steam 20GB storage",
    "genres": [

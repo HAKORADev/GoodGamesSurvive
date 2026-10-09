@@ -1,0 +1,64 @@
+{
+ "slug": "borderlands-1-cel-shaded",
+ "caption": "the cel-shaded looter-shooter origin - pandora, four vault hunters and a billion guns.",
+ "genres": [
+  "action",
+  "shooter"
+ ],
+ "subgenres": [
+  "survival"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at - 2009 unreal engine; playable under the bar, scales above."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Borderlands Game of the Year",
+    "url": "https://store.steampowered.com/app/8980/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Borderlands invented the loot-shooter blueprint on pandora: four vault hunter classes, procedurally rolled guns with manufacturer quirks, and a cel-shaded art style gearbox adopted late in development and kept forever. The loop is quest-driven co-op shooting with skill trees that redefine each class, and the goty package carries the zombie island, claptrap's new robot revolution, mad moxxi, the secret armory and the scottish expansion dlc.",
+  "Gearbox shipped the original in october 2009; the steam listing today is the game of the year edition, refreshed in august 2023 as the current official door. It is still sold, which keeps the page in the official-route lane with the goty package as what the door actually sells.",
+  "The 2009 unreal-engine build is comfortable under the haswell igpu bar at reduced settings and scales well above it. Not-tested stands until a run confirms install, launch, dlc mounting and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/ss_69d39fb3791d06d76696c09c5c6a58b435176049.1920x1080.jpg?t=1692308968",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/ss_6d1725914b48a334d758fd72be99ba56255da478.1920x1080.jpg?t=1692308968",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/ss_fd826cb3a79f809b63eef0ed139e89ca23b76899.1920x1080.jpg?t=1692308968",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/ss_23e0027b48e8f7c8138890f66cb3dbf0d89ec8c5.1920x1080.jpg?t=1692308968",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/ss_7825d179f6a05460d17fd3c225b08089db7b98e5.1920x1080.jpg?t=1692308968",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/ss_9eb8994c5f06915eb81637fe913574fdd0b11e25.1920x1080.jpg?t=1692308968",
+   "https://i.ytimg.com/vi/0rI8qA21ghc/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/0rI8qA21ghc/sddefault.jpg",
+   "https://i.ytimg.com/vi/0rI8qA21ghc/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "0rI8qA21ghc",
+    "title": "Borderlands: GOTY Enhanced (PC) - Full Game 4K60 Walkthrough (ALL Missions) - No"
+   },
+   {
+    "kind": "youtube",
+    "id": "Y_EcB_LKl24",
+    "title": "Borderlands 1 GOTY Enhanced Full Walkthrough | All Missions | No Commentary | 60"
+   },
+   {
+    "kind": "youtube",
+    "id": "XLaWUgorOiw",
+    "title": "Borderlands GOTY Enhanced Edition - Longplay Full Game Walkthrough (No Commentar"
+   }
+  ]
+ }
+}

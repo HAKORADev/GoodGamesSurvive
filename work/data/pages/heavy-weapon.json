@@ -1,0 +1,66 @@
+{
+ "slug": "heavy-weapon",
+ "caption": "popcap's side-scrolling tank shooter - megalaser parts, boss tanks and rolling Ordnance.",
+ "genres": [
+  "shooter",
+  "arcade"
+ ],
+ "subgenres": [
+  "light-gun",
+  "shoot 'em up",
+  "runner"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2006 casual 2d; the bar is a formality."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Heavy Weapon Deluxe",
+    "url": "https://store.steampowered.com/app/3410/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Heavy Weapon deluxe is popcap's side-scrolling shooter: a rolling tank fights through cold-war-flavored stages, collecting weapon upgrades from flak to homing rockets while dodging artillery from every lane. Each stage ends in a boss tank with named weak points, and the megalaser assembly is the run's long-game goal.",
+  "Popcap shipped the deluxe windows build in 2006, and it still lists on steam under the popcap label at a live price - another of the studio's surviving originals on the official ladder.",
+  "A 2006 casual 2d at the bottom of the requirements ladder - the bar is a formality. Not-tested until a real run confirms install and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410/0000000569.1920x1080.jpg?t=1737677403",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410/0000000570.1920x1080.jpg?t=1737677403",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410/0000000571.1920x1080.jpg?t=1737677403",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410/0000000572.1920x1080.jpg?t=1737677403",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410/0000000573.1920x1080.jpg?t=1737677403",
+   "https://i.ytimg.com/vi/xyJMVZSeAa4/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/xyJMVZSeAa4/sddefault.jpg",
+   "https://i.ytimg.com/vi/xyJMVZSeAa4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/1LldgIgCmlY/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "xyJMVZSeAa4",
+    "title": "Heavy Weapon Deluxe Full Game Walkthrough (1080p60) And No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "1LldgIgCmlY",
+    "title": "Heavy Weapon Deluxe - Full Longplay (720p HD)"
+   },
+   {
+    "kind": "youtube",
+    "id": "jYmBHvjMJWY",
+    "title": "Heavy Weapon Deluxe Gameplay | PC Steam | No Commentary"
+   }
+  ]
+ }
+}

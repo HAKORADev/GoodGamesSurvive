@@ -1,0 +1,65 @@
+{
+ "slug": "dynomite-deluxe",
+ "caption": "popcap's egg-buster - aim, bounce and burst the dinosaur age into puzzle graves.",
+ "genres": [
+  "arcade",
+  "puzzle",
+  "platformer"
+ ],
+ "subgenres": [
+  "physics"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2006 casual 2d; the bar is a formality."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Dynomite Deluxe",
+    "url": "https://store.steampowered.com/app/3380/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Dynomite deluxe is popcap's take on the bust-a-move formula: a dinosaur-launched egg bounce-matches against a descending wall, with physics-driven bank shots doing the work straight shots cannot. The modes split into endless puzzle layers and a survival-ish streak mode, each graded by the same clean popcap scoring grammar.",
+  "Popcap shipped the deluxe windows build in 2006, and it still lists on steam under the popcap label with a price - another of the surviving originals from the studio's prime window. Official route, no archive needed.",
+  "A 2006 casual 2d at the bottom of the ladder - the bar is a formality, and the status stays not-tested until a real run."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3380/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3380/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3380/0000000556.1920x1080.jpg?t=1776959941",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3380/0000000557.1920x1080.jpg?t=1776959941",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3380/0000000558.1920x1080.jpg?t=1776959941",
+   "https://i.ytimg.com/vi/PDT3CnpP5b4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/79FqC8BgVDc/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/79FqC8BgVDc/sddefault.jpg",
+   "https://i.ytimg.com/vi/79FqC8BgVDc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/hlL2Olt8iCg/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/hlL2Olt8iCg/sddefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "PDT3CnpP5b4",
+    "title": "Dynomite Deluxe (Popcap) 1 Hour Gameplay No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "79FqC8BgVDc",
+    "title": "Dynomite Gameplay HD (PC) | NO COMMENTARY"
+   },
+   {
+    "kind": "youtube",
+    "id": "hlL2Olt8iCg",
+    "title": "Dynomite! Deluxe (2002) | Fossil [Strategic] [Full Playthrough 2021]"
+   }
+  ]
+ }
+}

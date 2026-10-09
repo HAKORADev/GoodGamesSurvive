@@ -1,0 +1,62 @@
+{
+ "slug": "flatout-2",
+ "caption": "bugbear's demolition racer - rubber-band physics, derby bowls and driver ejection minigames.",
+ "genres": [
+  "racing",
+  "action"
+ ],
+ "subgenres": [],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at - 2006 3d racer; playable under the bar with headroom above."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - FlatOut 2",
+    "url": "https://store.steampowered.com/app/2990/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "FlatOut 2 is the demolition-flavored arcade racer: bugbear's ragdoll physics turn every crash into spectacle, the career splits between race classes and derby bowls, and the infamous driver-ejection minigames launch the pilot through the windshield for carnival points. The handling favors weight and contact over grip, and the soundtrack-era identity stuck with the franchise's fans.",
+  "Bugbear shipped it in 2006, and the steam listing is the current official door, still sold under the zoom platform medi publishing line. The pc build is the original platform, untouched by the later re-releases' reworks.",
+  "A 2006 3d racer of modest engine weight - the haswell igpu bar holds playable settings with room above. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001055.1920x1080.jpg?t=1765237363",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001056.1920x1080.jpg?t=1765237363",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001057.1920x1080.jpg?t=1765237363",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001058.1920x1080.jpg?t=1765237363",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001059.1920x1080.jpg?t=1765237363",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/0000001060.1920x1080.jpg?t=1765237363",
+   "https://i.ytimg.com/vi/oOr1LvYEkSg/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/oOr1LvYEkSg/sddefault.jpg",
+   "https://i.ytimg.com/vi/oOr1LvYEkSg/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "oOr1LvYEkSg",
+    "title": "FLATOUT 2 Gameplay Walkthrough FULL GAME - No Commentary (PC 4K)"
+   },
+   {
+    "kind": "youtube",
+    "id": "iGcJTCN1Jbc",
+    "title": "FlatOut 2 Gameplay playthrough part 1 - 4K 60FPS no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "9ynuJfxBgg0",
+    "title": "FlatOut 2 — Full Game"
+   }
+  ]
+ }
+}

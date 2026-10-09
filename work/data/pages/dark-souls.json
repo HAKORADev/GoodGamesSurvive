@@ -1,0 +1,66 @@
+{
+ "slug": "dark-souls",
+ "caption": "lordran in hd - the remastered door to the series' uncompromising original loop.",
+ "genres": [
+  "action",
+  "platformer"
+ ],
+ "subgenres": [
+  "hack 'n slash",
+  "roguelike",
+  "musou"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at - 2018 remaster of a 2011 engine; the bar holds reduced settings."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - DARK SOULS™: REMASTERED",
+    "url": "https://store.steampowered.com/app/570940/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Dark souls is the open-ended action rpg where the world itself is the tutorial: lordran's interlocking shortcuts, bonfire checkpoints and ambush design teach the stamina-combat loop that defined the fromsoftware era. Invaders and summons ride the same server, covenant choices re-shape the online rules, and the loop of dying, learning and re-routing is the game.",
+  "Fromsoftware shipped the original in 2011; the steam listing today is the remastered edition (qloc port, 2018) - the current official door, since the original 2011 prepare-to-die build was delisted. The page documents the line honestly: the remaster is what the store sells, and it is still sold.",
+  "The remaster runs at the haswell igpu bar for reduced settings and scales up cleanly. The honest state is not-tested until a run confirms install, launch and the save system's behavior."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/ss_3a71463e4ccaf28c5c27f6cf8d32a3a125f45404.1920x1080.jpg?t=1778518110",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/ss_92b2ba470cbfdb8839b649b3f478e5531dd81a17.1920x1080.jpg?t=1778518110",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/ss_626cc310dc9ac7fb146011582c864a35e5f3e381.1920x1080.jpg?t=1778518110",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/ss_f1617a419eb3b0cd877ec71230c59aa2672b62dc.1920x1080.jpg?t=1778518110",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/ss_f60f54e58b13d0744853672ccd35810397e3fa26.1920x1080.jpg?t=1778518110",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/ss_b4a80bd6e828a81db09ecbef5694e5d0cddb2caf.1920x1080.jpg?t=1778518110",
+   "https://i.ytimg.com/vi/2WqgSPLE-3E/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/2WqgSPLE-3E/sddefault.jpg",
+   "https://i.ytimg.com/vi/2WqgSPLE-3E/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "2WqgSPLE-3E",
+    "title": "DARK SOULS: REMASTERED Gameplay Walkthrough FULL GAME No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "WyD9BeFFTw0",
+    "title": "Dark Souls - Longplay Full Game 100% Walkthrough [No Commentary] 4k"
+   },
+   {
+    "kind": "youtube",
+    "id": "rDkNu-PvpF0",
+    "title": "Dark Souls - FULL GAME + DLC - No Commentary"
+   }
+  ]
+ }
+}

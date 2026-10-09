@@ -1,0 +1,66 @@
+{
+ "slug": "zuma-s-revenge",
+ "caption": "the frog returns - lily pads, double-power frogs and the tiki boss island.",
+ "genres": [
+  "puzzle",
+  "casual"
+ ],
+ "subgenres": [
+  "match-3",
+  "marble popper",
+  "card"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2009 casual 2d; the bar is a formality."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Zuma's Revenge!",
+    "url": "https://store.steampowered.com/app/3620/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Zuma's revenge! is the direct sequel: the frog hops between lily pads now, the stage geometry opens into multi-angle arenas, and power-ups - tri-shot, laser, slow - arrive faster. The tiki-boss duels give the island structure a finale ladder, and the core chain-burst loop stays untouched.",
+  "Popcap shipped it in september 2009, and it still lists on steam under the popcap label with a live price. Official route, standing beside the original.",
+  "A 2009 casual 2d at the bottom of the ladder; the bar is a formality. Not-tested until a run confirms install and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620/ss_e9f8428b0affd2c3f83996fe752dd4d56c3c3903.1920x1080.jpg?t=1628007882",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620/ss_d0fe874277b213c46298bade88d0e8713dbba449.1920x1080.jpg?t=1628007882",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620/ss_167d81593352678e0ff91f35accde1deb915e37d.1920x1080.jpg?t=1628007882",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620/ss_bf97851cb09b3e758821e385b1c799cc0d556b69.1920x1080.jpg?t=1628007882",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620/ss_456c0b6ac4150d1a6fa87efc3943e0aa6daf118d.1920x1080.jpg?t=1628007882",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620/ss_ba7b470715621a2df3c07c7ec39fe13c3f9dd6ad.1920x1080.jpg?t=1628007882",
+   "https://i.ytimg.com/vi/vWPRUrTBWrg/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/vWPRUrTBWrg/sddefault.jpg",
+   "https://i.ytimg.com/vi/vWPRUrTBWrg/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "vWPRUrTBWrg",
+    "title": "Zuma's Revenge (PC 2009) - Full Game (ALL LEVELS) 1080p60 HD Walkthrough - No Co"
+   },
+   {
+    "kind": "youtube",
+    "id": "sn8B5k3i-TA",
+    "title": "Zuma's Revenge Full Gameplay Walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "DZHLB4AJ_Tw",
+    "title": "Zuma's Revenge! - Full Game Walkthrough & Endings"
+   }
+  ]
+ }
+}

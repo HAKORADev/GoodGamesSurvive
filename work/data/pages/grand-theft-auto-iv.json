@@ -1,0 +1,67 @@
+{
+ "slug": "grand-theft-auto-iv",
+ "caption": "liberty city, niko bellic and the american dream's invoice - the complete edition as the current door.",
+ "genres": [
+  "action",
+  "adventure"
+ ],
+ "subgenres": [
+  "open world",
+  "crime"
+ ],
+ "characters": [
+  "Niko Bellic"
+ ],
+ "req": {
+  "tier": "above",
+  "note": "above - 2008 RAGE engine at the heavy end for its year; reduced settings at the bar."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Grand Theft Auto IV: The Complete Edition",
+    "url": "https://store.steampowered.com/app/12210/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Grand theft auto IV is the series' liberty city reset: niko bellic's immigrant-criminal story, the physics-driven driving that made every chase feel earned, and a satire cycle that runs from the brokers of alderney to the club lights of algonquin. The complete edition carries the lost and damned plus the ballad of gay tony alongside the base campaign.",
+  "Rockstar north shipped it in 2008; the steam listing since march 2020 is the complete edition - the current official door after the original listing's live-shutdown-era churn. It still sells, which keeps the page official-route with the complete edition named as what the door sells.",
+  "The 2008 RAGE engine is the heavy end of the ladder for its year - the haswell igpu bar means reduced settings, and anything above it runs 1080p comfortably. Not-tested stands until a run confirms install, launch and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/0000006360.1920x1080.jpg?t=1721061564",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/0000006361.1920x1080.jpg?t=1721061564",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/0000006362.1920x1080.jpg?t=1721061564",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/0000006363.1920x1080.jpg?t=1721061564",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/0000006364.1920x1080.jpg?t=1721061564",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/0000006365.1920x1080.jpg?t=1721061564",
+   "https://i.ytimg.com/vi/deqQq1X4bRI/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/deqQq1X4bRI/sddefault.jpg",
+   "https://i.ytimg.com/vi/deqQq1X4bRI/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "deqQq1X4bRI",
+    "title": "GTA 4 Gameplay Walkthrough FULL GAME [4K 60FPS PC ULTRA] - No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "cyTiZvi4LYQ",
+    "title": "GRAND THEFT AUTO IV THE COMPLETE EDITION Gameplay Walkthrough FULL GAME No Comme"
+   },
+   {
+    "kind": "youtube",
+    "id": "O3QBb6GeDsY",
+    "title": "GTA 4 - Full Game Walkthrough in 4K"
+   }
+  ]
+ }
+}

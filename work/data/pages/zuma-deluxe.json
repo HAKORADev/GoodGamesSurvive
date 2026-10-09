@@ -1,0 +1,66 @@
+{
+ "slug": "zuma-deluxe",
+ "caption": "popcap's marble-line classic - the frog, the chain and the gap shot that started a genre wave.",
+ "genres": [
+  "puzzle",
+  "casual"
+ ],
+ "subgenres": [
+  "match-3",
+  "marble popper",
+  "card"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below - 2006 casual 2d; the bar is a formality."
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Zuma Deluxe",
+    "url": "https://store.steampowered.com/app/3330/"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Zuma deluxe is the marble shooter that named the genre: a stone frog spits colored balls into a rolling chain, matches of three burst, gaps score, and the reverse-and-slow power balls keep the spirals survivable. The temple stages escalate from spiral basics to gap-shot mastery, and the genre wave it spawned - luxor, tumblebugs and the rest of this catalogue - traces straight back to it.",
+  "Popcap shipped the deluxe windows build in 2006 after the 2003 web original, and it still lists on steam under the popcap label with a live price - the classic's official door, standing.",
+  "A 2006 casual 2d at the bottom of the requirements ladder; the bar is a formality. Not-tested until a run confirms install and saves."
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330/header.jpg",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330/header.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330/0000000520.1920x1080.jpg?t=1627918693",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330/0000000521.1920x1080.jpg?t=1627918693",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330/0000000522.1920x1080.jpg?t=1627918693",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330/0000000523.1920x1080.jpg?t=1627918693",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330/0000000524.1920x1080.jpg?t=1627918693",
+   "https://i.ytimg.com/vi/QwpuOhuVnnQ/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/QwpuOhuVnnQ/sddefault.jpg",
+   "https://i.ytimg.com/vi/QwpuOhuVnnQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/5DTX14u2row/sddefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "QwpuOhuVnnQ",
+    "title": "Zuma Deluxe (PC 2003) - Full Game (ALL Stages) 1080p60 HD Walkthrough - No Comme"
+   },
+   {
+    "kind": "youtube",
+    "id": "5DTX14u2row",
+    "title": "Zuma Deluxe [2003] | Adventure Mode (2021 Full Playthrough)"
+   },
+   {
+    "kind": "youtube",
+    "id": "7D6869Rj2o0",
+    "title": "Zuma Deluxe - Full No Deaths Walkthrough | 100% Ace Time | Steam Version | 2K 60"
+   }
+  ]
+ }
+}
