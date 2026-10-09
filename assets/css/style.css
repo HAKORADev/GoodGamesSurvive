@@ -617,3 +617,9 @@ a:hover{color:var(--ink-white)}
   .bar-collections-btn{width:100%;justify-content:center}
   .dl-row a{margin-right:10px}
 }
+
+/* anyway links: one route per line */
+.dl-anyway-stack{margin-top:10px}
+.dl-row-anyway{margin-top:0}
+.dl-row-anyway + .dl-row-anyway{border-top:none}
+.dl-any-note{font-style:italic;color:var(--ink-faint);font-size:12px;margin-left:10px}

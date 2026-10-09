@@ -1,0 +1,68 @@
+{
+ "caption": "the DinerTown universe goes hidden-object - work the town's cases case by case.",
+ "genres": [
+  "adventure",
+  "casual"
+ ],
+ "subgenres": [
+  "hidden object",
+  "puzzle"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "2009 hidden-object 2d. the lowest tier of the ladder - anything post-xp runs it."
+ },
+ "links": {
+  "official": [],
+  "official_note": "not sold anywhere - the playfirst portal is gone and the title never reached steam.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - DinerTown Detective Agency",
+    "url": "https://www.myabandonware.com/game/dinertown-detective-agency-qgj",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": null
+ },
+ "about": [
+  "DinerTown Detective Agency is the dinertown universe's detective spinoff - instead of chaining tables, you run the town's detective agency, working one case at a time across the same neighborhood the dash games built. The play shifts from time management to the hidden-object wave of the era: first-person scenes, item hunts, puzzle threads that stitch each case together.",
+  "PlayFirst published it in 2009 with a worldwide rollout that ran into 2010, and the development credit goes to Absolutist Ltd. per the archived release metadata - a studio better known for casual puzzle work, which shows in how cleanly the hidden-object scenes slot into the dinertown skin. It is the one entry in the universe that left the restaurant floor entirely while keeping the town itself as the cast list.",
+  "The channel that sold it died with playfirst's portal collapse, and steam never carried it. The windows build survives through the archive - myabandonware hosts it - and that is the whole route table: no store, no key server, preserved anyway."
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/KXWDVPpE6Ws/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/KXWDVPpE6Ws/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/KXWDVPpE6Ws/sddefault.jpg",
+   "https://i.ytimg.com/vi/KXWDVPpE6Ws/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ZJlG2mFFxSM/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/ZJlG2mFFxSM/sddefault.jpg",
+   "https://i.ytimg.com/vi/ZJlG2mFFxSM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PFPaS4C9-18/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/PFPaS4C9-18/sddefault.jpg",
+   "https://i.ytimg.com/vi/PFPaS4C9-18/hqdefault.jpg",
+   "https://i.ytimg.com/vi/XkLHKzC-efw/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "KXWDVPpE6Ws",
+    "title": "DinerTown Detective Agency - playthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "ZJlG2mFFxSM",
+    "title": "DinerTown Detective Agency (PC) - full gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "PFPaS4C9-18",
+    "title": "DinerTown Detective Agency (PC, 2009) - full walkthrough 100%"
+   }
+  ]
+ },
+ "slug": "dinertown-detective-agency",
+ "dug_seq": 78
+}

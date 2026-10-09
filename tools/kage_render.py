@@ -115,9 +115,13 @@ def versions_html(eng, slug, depth):
     ups = up.get("upgrades") or []
     if ups:
         links = []
-        notes = (eng.game_by_slug.get(slug) or {}).get("upgrade_notes") or {}
+        g0 = eng.game_by_slug.get(slug) or {}
+        notes = g0.get("upgrade_notes") or {}
+        kinds = g0.get("upgrade_kinds") or {}
+        KINDL = {"remaster": "REMASTERED", "rework": "REWORKED", "expansion": "EXPANDED", "upgrade": "UPGRADE"}
         for u in ups:
             note = notes.get(u["slug"]) or notes.get(u.get("slug"))
+            kind = KINDL.get(kinds.get(u["slug"]), "UPGRADE")
             piece = ''
             if u["page"]:
                 piece += '<a href="' + rel("", "pages/game/%s.html" % u["slug"], depth) + '">' + esc(u["title"]) + '</a>'
@@ -125,17 +129,25 @@ def versions_html(eng, slug, depth):
                 piece += '<a href="' + rel("", "pages/game/%s.html" % u["slug"], depth) + '">' + esc(u["title"]) + '</a>' if u.get("slug") in eng.page_by_slug else '<span class="ver-nolink">' + esc(u["title"]) + '</span> (non-ready page)'
             if note:
                 piece += '<i class="up-note"> - ' + esc(note) + '</i>'
-            links.append(piece)
-        out.append('<p class="ver-up">UPGRADE: ' + " &middot; ".join(links) + '</p>')
+            links.append((kind, piece))
+        by_kind = {}
+        for k, pc in links:
+            by_kind.setdefault(k, []).append(pc)
+        for k, pcs in by_kind.items():
+            out.append('<p class="ver-up">' + k + ': ' + " &middot; ".join(pcs) + '</p>')
     if up.get("remaster"):
         rm = up["remaster"]
         body = ('<a href="' + rel("", "pages/game/%s.html" % rm["slug"], depth) + '">' + esc(rm["title"]) + '</a>') if rm.get("page") \
             else '<span class="ver-nolink">' + esc(rm["title"]) + '</span>'
         note = rm.get("note") or "the remaster line covers the classic episodes and their DLCs; the old builds stay the archive truth."
         out.append('<p class="ver-up">REMASTERED: covered by ' + body + ' - ' + esc(note) + '</p>')
-    if up.get("direct"):
+    if up.get("rework_of"):
+        rw = up["rework_of"]
+        out.append('<p class="ver-up">THIS PAGE REWORKS <a href="' + rel("", "pages/game/%s.html" % rw["slug"], depth) + '">' + esc(rw["title"]) + '</a> ON THE NEW ENGINE - the original windows build stays the archive truth.</p>')
+    direct = [d for d in up.get("direct", []) if not (up.get("rework_of") and d["slug"] == up["rework_of"]["slug"])]
+    if direct:
         links = []
-        for d in up["direct"]:
+        for d in direct:
             links.append('<a href="' + rel("", "pages/game/%s.html" % d["slug"], depth) + '">' + esc(d["title"]) + '</a>')
         out.append('<p class="ver-up">THIS PAGE IS THE DIRECT UPGRADE OF ' + " · ".join(links) + '</p>')
     if up.get("superseded_by"):
@@ -160,9 +172,13 @@ def downloads_html(p):
     if anyw:
         SRCL = {"gog-unlocked": "GOG-UNLOCKED", "steam-unlocked": "STEAM-UNLOCKED",
                 "steamrip": "STEAMRIP", "archive": "ARCHIVE"}
-        items = "".join('<i class="dl-src s-' + esc(a.get("src") or "archive") + '">' + SRCL.get(a.get("src"), "ARCHIVE") + '</i>'
-                        '<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>' for a in anyw)
-        rows.append('<div class="dl-row"><span class="dl-kind">ANYWAY</span>' + items + '</div>')
+        blocks = []
+        for a in anyw:
+            blocks.append('<div class="dl-row dl-row-anyway"><span class="dl-kind">ANYWAY</span>'
+                          '<i class="dl-src s-' + esc(a.get("src") or "archive") + '">' + SRCL.get(a.get("src"), "ARCHIVE") + '</i>'
+                          '<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>'
+                          + ('<i class="dl-any-note">' + esc(a["note"]) + '</i>' if a.get("note") else '') + '</div>')
+        rows.append('<div class="dl-anyway-stack">' + "".join(blocks) + '</div>')
     if lk.get("anyway_note"):
         rows.append('<p class="dl-note">' + esc(lk["anyway_note"]) + '</p>')
     return "".join(rows)
@@ -240,7 +256,7 @@ def game_page(eng, slug):
         ms = []
         for m in ser["members"]:
             label = esc(m["title"])
-            if m.get("kind") in ("remaster", "rebrand"):
+            if m.get("kind"):
                 label += '<i class="m-kind">' + esc(m["kind"]) + (' · ' + str(m["y"]) if m["y"] else '') + '</i>'
             elif m["y"]:
                 label += ' · ' + str(m["y"])

@@ -414,7 +414,7 @@ class Engine:
                 "current": slug, "siblings": sibs}
 
     def upgrades_of(self, slug):
-        out = {"direct": [], "superseded_by": None, "upgrades": [], "remaster": None}
+        out = {"direct": [], "superseded_by": None, "upgrades": [], "remaster": None, "rework_of": None}
         g = self.game_by_slug.get(slug) or {}
         for u in (g.get("upgrades") or []):
             ug = self.game_by_slug.get(u)
@@ -433,6 +433,10 @@ class Engine:
                 out["remaster"] = {"slug": g["remaster"], "title": rg["title"],
                                    "page": g["remaster"] in self.page_by_slug,
                                    "note": g.get("remaster_note")}
+        if g.get("rework_of"):
+            rg = self.game_by_slug.get(g["rework_of"])
+            if rg:
+                out["rework_of"] = {"slug": g["rework_of"], "title": rg["title"]}
         return out
 
     def series_line(self, slug):

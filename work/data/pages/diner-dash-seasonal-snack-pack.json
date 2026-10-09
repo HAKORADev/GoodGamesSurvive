@@ -1,0 +1,78 @@
+{
+ "caption": "the seasonal offshoot of Hometown Hero - five holiday restaurants, one Flo.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2007-2008 casual 2d in the hometown hero engine, a 29 MB hosted build. runs on anything, hardware far below the target bar included."
+ },
+ "links": {
+  "official": [],
+  "official_note": "not sold anywhere - the title never reached steam and the playfirst store died with the 2014 glu mobile fold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Diner Dash: Seasonal Snack Pack (hosted original, 29 MB)",
+    "url": "https://www.myabandonware.com/game/diner-dash-seasonal-snack-pack-g44",
+    "note": "hosted original",
+    "src": "archive"
+   },
+   {
+    "label": "Diner Dash Collection (the diner dash line in one pack)",
+    "url": "https://gogunlocked.com/diner-dash-collection-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Diner Dash Collection (the diner dash line in one pack)",
+    "url": "https://steamunlocked.net/ace07-diner-dash-collection-free-download",
+    "src": "steam-unlocked"
+   }
+  ],
+  "anyway_note": "the myabandonware route is the standalone windows build. the collection pack routes ride along for the era as a whole."
+ },
+ "about": [
+  "Diner Dash: Seasonal Snack Pack is the standalone seasonal offshoot of Hometown Hero, carrying the exact same chained-service engine into five new seasonally themed restaurants: the Coral Cove Cafe in the Waterpark Madness set, the ghoulish Crypt Cafe, Hometown Harvest, Winter Wonderland and the Romantic Rendezvous. Each venue dresses the Flo formula in its own holiday coat - halloween crowds in the Crypt, snowbound diners in the Wonderland floor - and the difficulty climbs the way the mainline's does, by stacking more customer types onto tighter floors.",
+  "It shipped first as a retail windows and mac cd-rom in 2007, commonly sold on the same disc or in the same box as Hometown Hero, and the standalone windows build that the download portals served landed in 2008. MyAbandonware hosts that 2008 windows build today at 29 MB, rated E for Everyone by the ESRB like the rest of the line. Contemporary reviews treated it exactly as what it is - a themed expansion pack sold as its own product, with GameFAQs' guide calling it an offshoot that differs from Hometown Hero only in locations and themes.",
+  "The title never made the jump to steam - Hometown Hero itself did, but the snack pack stayed a portal-era product - and with playfirst.com gone since the 2014 glu mobile fold, no official route exists anymore. The archive is the rescue lane here: the hosted original survives, un-buyable everywhere else."
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/jti6UfRpd-E/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/jti6UfRpd-E/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/jti6UfRpd-E/sddefault.jpg",
+   "https://i.ytimg.com/vi/jti6UfRpd-E/hqdefault.jpg",
+   "https://i.ytimg.com/vi/br-hw2Lc8LQ/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/br-hw2Lc8LQ/sddefault.jpg",
+   "https://i.ytimg.com/vi/br-hw2Lc8LQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/OiydbHgl518/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/OiydbHgl518/sddefault.jpg",
+   "https://i.ytimg.com/vi/OiydbHgl518/hqdefault.jpg",
+   "https://i.ytimg.com/vi/E7B5Hwdmq5s/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "jti6UfRpd-E",
+    "title": "Diner Dash: Seasonal Snack Pack (PC) - full game walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "br-hw2Lc8LQ",
+    "title": "Diner Dash Seasonal Snack Pack - full game, expert score"
+   },
+   {
+    "kind": "youtube",
+    "id": "OiydbHgl518",
+    "title": "Diner Dash: Seasonal Snack Pack - Crypt Cafe level 10"
+   }
+  ]
+ },
+ "slug": "diner-dash-seasonal-snack-pack",
+ "dug_seq": 76
+}

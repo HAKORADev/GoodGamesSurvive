@@ -1,0 +1,61 @@
+{
+ "caption": "Hometown Hero's fairy-tale expansion - grandma's magic lamp sends the diner into a storybook.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "the hometown hero engine with new story venues. same single-digit-megabyte-era 2d - runs on anything."
+ },
+ "links": {
+  "official": [],
+  "official_note": "the base game still sells on steam, but the expansion itself is not sold anywhere - playfirst's store closed with the 2014 glu mobile fold.",
+  "anyway": [],
+  "anyway_note": "no archive route for the standalone expansion build has been located yet - this slot stays empty until a real source turns up. the base game's routes live on the Hometown Hero page."
+ },
+ "about": [
+  "Once Upon a Diner is the story expansion to Diner Dash: Hometown Hero, released in 2009 as its own titled product. Grandma Florence buys a magic lamp and rushes to Flo's diner with the tale, and the campaign follows her into a fairy-tale theme - storybook venues, fantasy regulars and the same seat-them, serve-them, chain-them loop the hometown engine is built on.",
+  "It sat on the shelf next to the seasonal snack pack as Hometown Hero's second expansion line, and the release databases carry it as a distinct product: igdb and kotaku both list it under its own title, and wikipedia's hometown hero entry names it among the game's expansions. The dinertown universe thus got its storybook wing the same year avenue flo took flo point-and-click.",
+  "Like every portal-era playfirst product that missed the steam cut, the expansion lost its store when the portals closed. No standalone archive route has surfaced yet, so this page's download section says so honestly - the base game it rides on is the part that survived, archived and still selling."
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/VeogN_8Dcq8/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/VeogN_8Dcq8/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/VeogN_8Dcq8/sddefault.jpg",
+   "https://i.ytimg.com/vi/VeogN_8Dcq8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_cRo-3kurig/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/_cRo-3kurig/sddefault.jpg",
+   "https://i.ytimg.com/vi/_cRo-3kurig/hqdefault.jpg",
+   "https://i.ytimg.com/vi/95ERfVI2lB8/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/95ERfVI2lB8/sddefault.jpg",
+   "https://i.ytimg.com/vi/95ERfVI2lB8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_iIghH8PV3I/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "_cRo-3kurig",
+    "title": "Diner Dash - Hometown Hero updates (the expansion era)"
+   },
+   {
+    "kind": "youtube",
+    "id": "VeogN_8Dcq8",
+    "title": "Diner Dash: Hometown Hero (PC) - the base game the expansion rides on"
+   },
+   {
+    "kind": "youtube",
+    "id": "95ERfVI2lB8",
+    "title": "Diner Dash: Hometown Hero (PC) - walkthrough part 1"
+   }
+  ]
+ },
+ "slug": "diner-dash-hometown-hero-once-upon-a-diner",
+ "dug_seq": 77
+}

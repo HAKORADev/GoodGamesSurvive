@@ -11,20 +11,18 @@
    "section": "games",
    "caption": "the four classic hits, 2002 to 2012, plus the console remasters that complete the line.",
    "about": [
-    "Four of the mainline Hitman games, covering the series' 2002-2012 decade: Silent Assassin, Contracts, Blood Money and Absolution. All four are still sold - the classics (2002-2006) DRM-free on Steam and GOG, Absolution on Steam. The wider lineage - Codename 47 (2000) and the World of Assassination line (2016-2023) - rides the series strip of every page as reference.",
-    "The classics run on and under the haswell iGPU bar and remain sold DRM-free. Absolution anchors the shelf with its 24 GB footprint. Where an official channel exists it comes first on the page; the archive routes sit next to it.",
-    "Two console remasters complete the picture, and neither shipped for windows: Hitman HD Trilogy (2013) remastered Silent Assassin, Contracts and Blood Money for PS3 and Xbox 360, and Hitman HD Enhanced Collection (2019) rebuilt Blood Money and Absolution at 4K/60 for PS4 and Xbox One. The windows builds on this shelf are therefore the definitive way to play these four on PC."
+    "Every Hitman entry the catalogue carries, in one place: Silent Assassin (2002), Contracts (2004), Blood Money (2006) and Absolution (2012) - the four windows builds this archive digs - plus the two console remaster lines that sit above them. The 2013 Hitman HD Trilogy rebuilt Silent Assassin, Contracts and Blood Money for ps3 and xbox 360; the 2019 Hitman HD Enhanced Collection rebuilt Blood Money and Absolution at 4k/60 for ps4 and xbox one. Neither remaster ever shipped a windows build, so on pc the four originals remain the real thing - both remaster pages document their lines honestly from the console side.",
+    "Codename 47, the World of Assassination trilogy and the spin-offs (GO, Sniper, Sniper Challenge) sit outside the current catalogue; they appear in the series strips as reference only. Six pages, one contract."
    ],
    "items": [
     "hitman-2-silent-assassin",
     "hitman-3-contracts",
     "hitman-blood-money",
-    "hitman-absolution"
-   ],
-   "catalogued": [
+    "hitman-absolution",
     "hitman-hd-trilogy",
     "hitman-hd-enhanced-collection"
    ],
+   "catalogued": [],
    "notes": [
     "Codename 47, the World of Assassination trilogy and the spin-offs (GO, Sniper, Sniper Challenge) sit outside the current catalogue; they appear in the series strips as reference only."
    ]
@@ -63,10 +61,10 @@
    "section": "games",
    "caption": "PlayFirst's DinerTown empire: every Dash game of the pc era, one universe.",
    "about": [
-    "Diner Dash (2003) by gameLab and PlayFirst turned restaurant time-management into a franchise and its waitress Flo into a casual-gaming icon. The pc line it built runs a full decade: Restaurant Rescue (2006), Flo on the Go (2006), Hometown Hero (2007), Flo Through Time (2008) and Boom! (2010) carry the numbered story, and the formula spun off into whole sub-lines - Wedding Dash ran 2007-2010 across four games, Cooking Dash 2008-2010 across three, Hotel Dash 2009-2011 across two, and Avenue Flo (2009-2010) turned the waitress into a point-and-click adventurer.",
-    "The DinerTown side line filled out the town itself: Doggie, Dairy, Fashion, Parking, Fitness, Diaper and Garden Dash (2008-2011) moved the chained-service engine to spas, farms, studios, lots, gyms, daycares and gardens, DinerTown Tycoon (2009) stretched it into a business sim, and two licensed SpongeBob SquarePants crossovers (2006-2007) carried it onto Nickelodeon's turf. Twenty-seven titles, one universe, all of it the pc era.",
-    "The shelf's state is mixed and honest about it: seven of the twenty-seven still sell on Steam (Hometown Hero, Cooking Dash, Wedding Dash 2, Hotel Dash: Suite Success, Fitness Dash, Diaper Dash and DinerTown Tycoon), while the rest died with their channels - PlayFirst folded into Glu Mobile in 2014, playfirst.com is gone, and the download portals closed with it. The un-buyable cases are the archive's rescue lane: no store, no key server, preserved anyway.",
-    "Scope law for this collection: windows builds only. The mobile free-to-play era that followed the classic line is outside this collection - those builds belong to phones, and phones are out of scope for this archive. Each entry below is its own dug page with its own sources, sizes and archive routes."
+    "Diner Dash (2003) by gameLab and PlayFirst turned restaurant time-management into a franchise and its waitress Flo into a casual-gaming icon. The pc line it built runs a full decade: Restaurant Rescue (2006), Flo on the Go (2006), Hometown Hero (2007) - with the Once Upon a Diner story expansion and the standalone Seasonal Snack Pack riding beside it - Flo Through Time (2008) and Boom! (2010) carry the numbered story, and the formula spun off into whole sub-lines - Wedding Dash ran 2007-2010 across four games, Cooking Dash 2008-2010 across three (its Thrills & Spills entry shipped a collector's edition with an exclusive Klondike Gold Rush stage), Hotel Dash 2009-2011 across two, and Avenue Flo (2009-2010) turned the waitress into a point-and-click adventurer. The collector's-edition line matters here: Boom!'s 2012 collector's edition added five exclusive advanced levels and a strategy guide, and it has its own page through the Boom! entry.",
+    "The DinerTown side line filled out the town itself: Doggie, Dairy, Fashion, Parking, Fitness, Diaper and Garden Dash (2008-2011) moved the chained-service engine to spas, farms, studios, lots, gyms, daycares and gardens, DinerTown Tycoon (2009) stretched it into a business sim, DinerTown Detective Agency (2009) went hidden-object, Soap Opera Dash (2008) ran the loop on a tv studio set, and two licensed SpongeBob SquarePants crossovers (2006-2007) carried it onto Nickelodeon's turf. Thirty-one titles, one universe, all of it the pc era.",
+    "The shelf's state is mixed and honest about it: seven of the thirty-one still sell on Steam (Hometown Hero, Cooking Dash, Wedding Dash 2, Hotel Dash: Suite Success, Fitness Dash, Diaper Dash and DinerTown Tycoon), while the rest died with their channels - PlayFirst folded into Glu Mobile in 2014, playfirst.com is gone, and the download portals closed with it. The un-buyable cases are the archive's rescue lane: no store, no key server, preserved anyway.",
+    "Scope law for this collection: windows builds only. The mobile free-to-play era that followed the classic line is outside this collection - the Deluxe re-releases (Diner Dash Deluxe, SpongeBob Diner Dash Deluxe) and Diner Dash Rush, Diner Dash (2014) and Diner Dash Adventures all belong to phones, and phones are out of scope for this archive. Each entry below is its own dug page with its own sources, sizes and archive routes."
    ],
    "items": [
     "diner-dash",
@@ -95,7 +93,11 @@
     "garden-dash",
     "dinertown-tycoon",
     "spongebob-diner-dash",
-    "spongebob-diner-dash-2-two-times-the-trouble"
+    "spongebob-diner-dash-2-two-times-the-trouble",
+    "diner-dash-seasonal-snack-pack",
+    "diner-dash-hometown-hero-once-upon-a-diner",
+    "dinertown-detective-agency",
+    "soap-opera-dash"
    ],
    "catalogued": [],
    "notes": []

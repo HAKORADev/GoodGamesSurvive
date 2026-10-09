@@ -1,0 +1,61 @@
+{
+ "caption": "the 2013 console hd remaster of Silent Assassin, Contracts and Blood Money - never a windows build.",
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "stealth"
+ ],
+ "characters": [
+  "Agent 47"
+ ],
+ "req": {
+  "tier": null,
+  "note": "console-only release: ps3 and xbox 360. no windows build exists, so the haswell bar does not apply to this page - the pc versions of its three games carry their own pc requirements."
+ },
+ "links": {
+  "official": [],
+  "official_note": "digitally delisted - the trilogy came off the console stores when the 2019 HD Enhanced Collection replaced it. no windows build exists.",
+  "anyway": [],
+  "anyway_note": "console-only release - there is no windows build to archive. the pc versions of silent assassin, contracts and blood money keep their own pc routes on their pages."
+ },
+ "about": [
+  "Hitman HD Trilogy is the 2013 console remaster of the middle three hitman games: Hitman 2: Silent Assassin, Hitman 3: Contracts and Hitman: Blood Money, rebuilt in hd on one disc and published by square enix on january 29, 2013 for playstation 3 and xbox 360. It was the first time the pre-absolution catalog got the remaster treatment, with trophies and achievements bolted onto the three campaigns.",
+  "The fact that matters most for a windows archive is the one the box art makes obvious: no pc version ever existed. The trilogy is a console-only release, so it never touched the windows line - the pc builds of all three games it remasters stayed the originals, and those originals are exactly what the archive digs on their own pages. This page exists to document the remaster line honestly, not to pretend a pc build is hiding somewhere.",
+  "The digital story ended in 2019: when the Hitman HD Enhanced Collection arrived for ps4 and xbox one, the 2013 trilogy was pulled from the console stores, leaving physical copies as the only route. The upgrade lines on the silent assassin, contracts and blood money pages point here with the console-only note - the remaster is real, it just never happened on pc."
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/fZ-Xeu9nh7M/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/fZ-Xeu9nh7M/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/fZ-Xeu9nh7M/sddefault.jpg",
+   "https://i.ytimg.com/vi/fZ-Xeu9nh7M/hqdefault.jpg",
+   "https://i.ytimg.com/vi/qyOuNFhAd4k/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/qyOuNFhAd4k/sddefault.jpg",
+   "https://i.ytimg.com/vi/qyOuNFhAd4k/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zEd3uu_FdLw/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/zEd3uu_FdLw/sddefault.jpg",
+   "https://i.ytimg.com/vi/zEd3uu_FdLw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/tTf2402G_yY/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "fZ-Xeu9nh7M",
+    "title": "Hitman HD Trilogy - ps3 gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "qyOuNFhAd4k",
+    "title": "Hitman: Blood Money - ps3 (trilogy) gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "zEd3uu_FdLw",
+    "title": "IGN reviews - Hitman HD Trilogy video review"
+   }
+  ]
+ },
+ "slug": "hitman-hd-trilogy",
+ "dug_seq": 82
+}

@@ -1,0 +1,65 @@
+{
+ "caption": "the 2012 collector's edition of BOOM! - five exclusive advanced levels, a strategy guide, an artbook.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "version_of": "diner-dash-5-boom",
+ "group": "diner-dash-5-boom",
+ "group_label": "Diner Dash 5: BOOM!",
+ "release_label": "Collector's Edition",
+ "req": {
+  "tier": "below",
+  "note": "the boom! engine with bonus content attached. same 2010-era 2d - runs on anything."
+ },
+ "links": {
+  "official": [],
+  "official_note": "sold only through playfirst.com in its day ($19.99, plus a $29.95 retail box) - the store is gone and the edition never reached steam.",
+  "anyway": [],
+  "anyway_note": "no separate archive route for the collector's edition build has been located yet - this slot stays empty until a real source turns up. the standard edition's routes live on the main BOOM! page."
+ },
+ "about": [
+  "The collector's edition of Diner Dash 5: BOOM! launched on february 16, 2012 on playfirst.com for $19.99, about a year after the standard edition, as the line's premium tier. It packs the full BOOM! campaign plus five advanced exclusive levels that the standard package does not carry, and it earned its own retail box at $29.95 through walmart.",
+  "Beyond the exclusive levels the edition bundles a strategy guide to get through those advanced floors and a digital artbook - the complete package for a series at its peak, released in the same window playfirst was celebrating five years of diner dash. GameSpy's coverage lists the bonuses level for level, and full walkthroughs of this exact build exist because the five exclusive stages are genuinely different content, not a re-skim.",
+  "The edition was a playfirst.com exclusive and never reached steam, so when the portal died the buy route died with it. No separate archive route for the collector's build has been located yet - the honest slot stays empty, and the standard BOOM! build carries the line's archive routes on its own page."
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/RUoGMnOzD6Q/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/RUoGMnOzD6Q/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/RUoGMnOzD6Q/sddefault.jpg",
+   "https://i.ytimg.com/vi/RUoGMnOzD6Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/eJUYlPGIiTI/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/eJUYlPGIiTI/sddefault.jpg",
+   "https://i.ytimg.com/vi/eJUYlPGIiTI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/TgffNLPD7W8/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/TgffNLPD7W8/sddefault.jpg",
+   "https://i.ytimg.com/vi/TgffNLPD7W8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/mTIKDKqeYNg/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "RUoGMnOzD6Q",
+    "title": "Diner Dash 5: BOOM! Collector's Edition (PC) - full game walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "eJUYlPGIiTI",
+    "title": "Diner Dash 5: BOOM! - thyme square bonus level (collector's edition exclusive)"
+   },
+   {
+    "kind": "youtube",
+    "id": "TgffNLPD7W8",
+    "title": "Diner Dash 5: BOOM! collector's edition - book tour walkthrough"
+   }
+  ]
+ },
+ "slug": "diner-dash-5-boom-collectors-edition",
+ "dug_seq": 80
+}

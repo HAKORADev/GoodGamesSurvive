@@ -417,8 +417,12 @@ def thing_page(eng, slug, sec):
         if lk.get("official_note"):
             dl.append('<div class="dl-status-strip"><span class="dl-strip-k">OFFICIAL STATUS</span><span class="dl-strip-t">' + esc(lk["official_note"]) + '</span></div>')
     if lk.get("anyway"):
-        items = "".join('<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>' for a in lk["anyway"])
-        dl.append('<div class="dl-row"><span class="dl-kind">ANYWAY</span>' + items + '</div>')
+        blocks = []
+        for a in lk["anyway"]:
+            blocks.append('<div class="dl-row dl-row-anyway"><span class="dl-kind">ANYWAY</span>'
+                          '<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>'
+                          + ('<i class="dl-any-note">' + esc(a["note"]) + '</i>' if a.get("note") else '') + '</div>')
+        dl.append('<div class="dl-anyway-stack">' + "".join(blocks) + '</div>')
         if lk.get("anyway_note"):
             dl.append('<p class="dl-note">' + esc(lk["anyway_note"]) + '</p>')
     gal = ""

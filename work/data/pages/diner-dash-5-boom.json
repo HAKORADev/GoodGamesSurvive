@@ -78,5 +78,9 @@
    }
   ]
  },
- "dug_seq": 54
+ "dug_seq": 54,
+ "versions": [
+  "diner-dash-5-boom",
+  "diner-dash-5-boom-collectors-edition"
+ ]
 }

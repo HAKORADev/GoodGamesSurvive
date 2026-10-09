@@ -110,6 +110,42 @@
      "title": "SpongeBob Diner Dash 2: Two Times the Trouble",
      "slug": "spongebob-diner-dash-2-two-times-the-trouble",
      "part": null
+    },
+    {
+     "slug": "diner-dash-seasonal-snack-pack",
+     "title": "Diner Dash: Seasonal Snack Pack",
+     "kind": "expansion",
+     "y": "2007"
+    },
+    {
+     "slug": "diner-dash-hometown-hero-once-upon-a-diner",
+     "title": "Hometown Hero: Once Upon a Diner",
+     "kind": "expansion",
+     "y": "2009"
+    },
+    {
+     "slug": "diner-dash-5-boom-collectors-edition",
+     "title": "Diner Dash 5: BOOM! Collector's Edition",
+     "kind": "edition",
+     "y": "2012"
+    },
+    {
+     "slug": "cooking-dash-3-thrills-and-spills-collectors-edition",
+     "title": "Cooking Dash 3: Collector's Edition",
+     "kind": "edition",
+     "y": "2010"
+    },
+    {
+     "slug": "dinertown-detective-agency",
+     "title": "DinerTown Detective Agency",
+     "kind": "spinoff",
+     "y": "2009"
+    },
+    {
+     "slug": "soap-opera-dash",
+     "title": "Soap Opera Dash",
+     "kind": "spinoff",
+     "y": "2008"
     }
    ]
   },

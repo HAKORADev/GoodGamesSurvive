@@ -4,7 +4,7 @@
   "updated": "2026-10-10",
   "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/. v2 adds genres/subgenres/tags/size_est_mb/req_tier; genres+subgenres capped at 5. | ggs-12: catalog = owner lists + endorsed upgrade hubs. holiday releases carry version_of and stay out of the catalog layer. out-of-scope rows sleep in attic/. | ggs-13 accuracy pass 2026-10-09: sizes from steam-stated storage / studio installer Content-Length / GOGDB / hosted originals; players from steam category flags + studio feature lists; buyable from live priced pages."
  },
- "count": 702,
+ "count": 709,
  "games": [
   {
    "title": "Stardew Valley",
@@ -14727,6 +14727,9 @@
    ],
    "upgrade_notes": {
     "hitman-hd-enhanced-collection": "4k/60 rebuild with blood money (ps4 / xbox one, 2019-01-11) - consoles only, no windows build exists"
+   },
+   "upgrade_kinds": {
+    "hitman-hd-enhanced-collection": "remaster"
    }
   },
   {
@@ -29594,6 +29597,10 @@
    "upgrade_notes": {
     "chicken-invaders-remastered": "the classic-engine remaster (beta 20 jan 2023, full 31 jan 2023): hd graphics, directx 11, mouse and controller support, the anniversary song from universe",
     "chicken-invaders-episode-1-the-saga-begins": "the new-engine remake of war one, riding the same steam package (mar 7 2025)"
+   },
+   "upgrade_kinds": {
+    "chicken-invaders-remastered": "remaster",
+    "chicken-invaders-episode-1-the-saga-begins": "rework"
    }
   },
   {
@@ -29653,6 +29660,10 @@
    "upgrade_notes": {
     "chicken-invaders-2-the-next-wave-remastered": "its own remaster shipped 26 jan 2012 (the christmas edition's on 20 dec 2011): hi-res graphics, orchestral music, autofire, progress saves, new languages",
     "chicken-invaders-episodes": "episode 2 of the episodic rework - free for registered owners, full-hd remaster + new engine (v.35, sep 2026, current)"
+   },
+   "upgrade_kinds": {
+    "chicken-invaders-2-the-next-wave-remastered": "remaster",
+    "chicken-invaders-episodes": "rework"
    }
   },
   {
@@ -29710,6 +29721,9 @@
    "remaster": null,
    "upgrade_notes": {
     "chicken-invaders-episodes": "episode 3 of the episodic rework - free for registered owners; no classic-engine remaster exists for this war"
+   },
+   "upgrade_kinds": {
+    "chicken-invaders-episodes": "rework"
    }
   },
   {
@@ -29767,6 +29781,9 @@
    "remaster": null,
    "upgrade_notes": {
     "chicken-invaders-episodes": "episode 4 of the episodic rework - free for registered owners; no classic-engine remaster exists for this war"
+   },
+   "upgrade_kinds": {
+    "chicken-invaders-episodes": "rework"
    }
   },
   {
@@ -29823,6 +29840,9 @@
    ],
    "upgrade_notes": {
     "chicken-invaders-episodes": "episode 5 of the episodic rework - free for registered owners; no classic-engine remaster exists for this war"
+   },
+   "upgrade_kinds": {
+    "chicken-invaders-episodes": "rework"
    }
   },
   {
@@ -29929,6 +29949,9 @@
    ],
    "upgrade_notes": {
     "hitman-hd-trilogy": "console-only hd remaster (ps3 / xbox 360, january 2013) - no windows build exists, so this windows build is untouched by it"
+   },
+   "upgrade_kinds": {
+    "hitman-hd-trilogy": "remaster"
    }
   },
   {
@@ -29985,6 +30008,9 @@
    ],
    "upgrade_notes": {
     "hitman-hd-trilogy": "console-only hd remaster (ps3 / xbox 360, january 2013) - no windows build exists, so this windows build is untouched by it"
+   },
+   "upgrade_kinds": {
+    "hitman-hd-trilogy": "remaster"
    }
   },
   {
@@ -30043,6 +30069,10 @@
    "upgrade_notes": {
     "hitman-hd-trilogy": "console-only hd remaster (ps3 / xbox 360, january 2013) - no windows build exists, so this windows build is untouched by it",
     "hitman-hd-enhanced-collection": "4k/60 rebuild with blood money (ps4 / xbox one, 2019-01-11) - consoles only, no windows build exists"
+   },
+   "upgrade_kinds": {
+    "hitman-hd-trilogy": "remaster",
+    "hitman-hd-enhanced-collection": "remaster"
    }
   },
   {
@@ -30953,7 +30983,8 @@
    "size_source": "store:steam-3491310",
    "req_tier": "below",
    "remaster_hub": true,
-   "upgrades": null
+   "upgrades": null,
+   "rework_of": null
   },
   {
    "title": "Hitman HD Enhanced Collection",
@@ -31162,7 +31193,8 @@
    "size_est_mb": 1000,
    "size_source": "store:steam-3491310 (package, 1 GB stated)",
    "req_tier": "below",
-   "slug": "chicken-invaders-episode-1-the-saga-begins"
+   "slug": "chicken-invaders-episode-1-the-saga-begins",
+   "rework_of": "chicken-invaders"
   },
   {
    "title": "Chicken Invaders Episodes",
@@ -31214,7 +31246,316 @@
    "size_est_mb": null,
    "size_source": null,
    "req_tier": "below",
-   "slug": "chicken-invaders-episodes"
+   "slug": "chicken-invaders-episodes",
+   "rework_of": "chicken-invaders-2-the-next-wave"
+  },
+  {
+   "title": "Diner Dash: Seasonal Snack Pack",
+   "slug": "diner-dash-seasonal-snack-pack",
+   "list": "casual",
+   "class": "normal",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
+   "series": "diner-dash",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2007",
+   "developers": [
+    "PlayFirst"
+   ],
+   "publishers": [
+    "PlayFirst"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": "archive",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": true,
+   "confidence": "verified",
+   "sources": [
+    "myabandonware.com/game/diner-dash-seasonal-snack-pack-g44",
+    "dinerdash.fandom.com",
+    "esrb.org",
+    "macgamestore.com"
+   ],
+   "notes": "retail windows/mac cd-rom 2007; online-portal windows release 2008. five seasonal restaurants: coral cove cafe (waterpark madness), crypt cafe, hometown harvest, winter wonderland, romantic rendezvous.",
+   "genres": [
+    "casual"
+   ],
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 29,
+   "size_source": "hosted original (myabandonware download, 29 MB)",
+   "req_tier": "below"
+  },
+  {
+   "title": "Diner Dash: Hometown Hero - Once Upon a Diner",
+   "slug": "diner-dash-hometown-hero-once-upon-a-diner",
+   "list": "casual",
+   "class": "normal",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
+   "series": "diner-dash",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2009",
+   "developers": [
+    "PlayFirst"
+   ],
+   "publishers": [
+    "PlayFirst"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": true,
+   "confidence": "verified",
+   "sources": [
+    "dinerdash.fandom.com",
+    "igdb.com",
+    "en.wikipedia.org/wiki/Diner_Dash:_Hometown_Hero"
+   ],
+   "notes": "story expansion to hometown hero: grandma florence's magic lamp sends the diner into a fairy-tale theme. sold as its own titled product in 2009.",
+   "genres": [
+    "casual"
+   ],
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": "below"
+  },
+  {
+   "title": "DinerTown Detective Agency",
+   "slug": "dinertown-detective-agency",
+   "list": "casual",
+   "class": "normal",
+   "category": "🔍 HIDDEN OBJECT & MYSTERY",
+   "series": "diner-dash",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2009",
+   "developers": [
+    "Absolutist"
+   ],
+   "publishers": [
+    "PlayFirst"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": "archive",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": true,
+   "confidence": "verified",
+   "sources": [
+    "myabandonware.com/game/dinertown-detective-agency-qgj",
+    "dinerdash.fandom.com"
+   ],
+   "notes": "hidden-object adventure in the dinertown setting. released worldwide 2009-2010. developer per myabandonware metadata: absolutist ltd.",
+   "genres": [
+    "adventure",
+    "casual"
+   ],
+   "subgenres": [
+    "hidden object",
+    "puzzle"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": "below"
+  },
+  {
+   "title": "Soap Opera Dash",
+   "slug": "soap-opera-dash",
+   "list": "casual",
+   "class": "normal",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
+   "series": "diner-dash",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2008",
+   "developers": [
+    "PlayFirst"
+   ],
+   "publishers": [
+    "PlayFirst"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": "archive",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": true,
+   "confidence": "verified",
+   "sources": [
+    "myabandonware.com/game/soap-opera-dash-qga",
+    "dinerdash.fandom.com"
+   ],
+   "notes": "the dash loop on a tv studio set: a soap opera films in dinertown and the chain feeds cast and crew. year per the hosted windows build.",
+   "genres": [
+    "casual"
+   ],
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 63,
+   "size_source": "hosted original (myabandonware download, 63 MB)",
+   "req_tier": "below"
+  },
+  {
+   "title": "Diner Dash 5: BOOM! - Collector's Edition",
+   "slug": "diner-dash-5-boom-collectors-edition",
+   "list": "casual",
+   "class": "normal",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
+   "series": "diner-dash",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2012-02-16",
+   "developers": [
+    "PlayFirst"
+   ],
+   "publishers": [
+    "PlayFirst"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": true,
+   "confidence": "verified",
+   "sources": [
+    "ign.com",
+    "pc.gamespy.com",
+    "walmart.com"
+   ],
+   "notes": "version_of diner-dash-5-boom. five exclusive advanced levels, a strategy guide and a digital artbook; $19.99 on playfirst.com, retail box $29.95.",
+   "genres": [
+    "casual"
+   ],
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": "below",
+   "version_of": "diner-dash-5-boom"
+  },
+  {
+   "title": "Cooking Dash 3: Thrills & Spills - Collector's Edition",
+   "slug": "cooking-dash-3-thrills-and-spills-collectors-edition",
+   "list": "casual",
+   "class": "normal",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
+   "series": "diner-dash",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2010",
+   "developers": [
+    "PlayFirst"
+   ],
+   "publishers": [
+    "PlayFirst"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": true,
+   "confidence": "verified",
+   "sources": [
+    "dinerdash.fandom.com",
+    "backloggd.com"
+   ],
+   "notes": "version_of cooking-dash-3-thrills-and-spills. adds the klondike gold rush stage, a strategy guide, a screensaver and concept art.",
+   "genres": [
+    "casual"
+   ],
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": "below",
+   "version_of": "cooking-dash-3-thrills-and-spills"
   }
  ]
 }
