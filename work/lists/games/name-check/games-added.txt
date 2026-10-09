@@ -147,6 +147,7 @@ Company of Heroes 1 (with Opposing Fronts & Tales of Valor)
 Condemned: Criminal Origins
 Cooking Academy 2
 Cooking Dash
+Cooking Dash 3: Thrills & Spills - Collector's Edition
 Cooking Dash 3: Thrills and Spills
 Cooking Dash: DinerTown Studios
 Cooking Fever
@@ -182,9 +183,13 @@ Digging Jim
 Diner Dash
 Diner Dash 2: Restaurant Rescue
 Diner Dash 5: Boom
+Diner Dash 5: BOOM! - Collector's Edition
 Diner Dash: Flo on the Go
 Diner Dash: Flo Through Time
 Diner Dash: Hometown Hero
+Diner Dash: Hometown Hero - Once Upon a Diner
+Diner Dash: Seasonal Snack Pack
+DinerTown Detective Agency
 DinerTown Tycoon
 Disney's Aladdin in Nasira's Revenge
 Doggie Dash
@@ -537,6 +542,7 @@ Smoke Attack
 Snail Mail
 SNKRX
 Snowy the Bear Collection (Snowy Space Trip, Fish Frenzy, Lunch Rush, Treasure Hunt 1-3, Puzzle Islands)
+Soap Opera Dash
 Sonic Adventure 2
 Sonic Adventure DX
 Sonic Riders
