@@ -28,7 +28,12 @@ and the store facets on every shelf.
 3. **players is the five-mode vocabulary.** no "multiplayer" blob, no
    invented co-op claims. verify per game; when the sources disagree with
    the row, the row loses.
-4. **caps are real**: max 5 genres, max 5 sub-genres per row. the facets UI
+4. **one each on live rows**: a page-backed row carries exactly ONE genre,
+   ONE sub-genre, ONE precise category (CI = shoot 'em up / fixed shooter /
+   fixed shooters; hitman = action / stealth / stealth action; dash = casual /
+   time management / restaurant management). the multi-value caps below are
+   catalog-layer ceilings, not license to stack.
+5. **caps are real**: max 5 genres, max 5 sub-genres per row. the facets UI
    shows the top 14 values per facet by live count — never a wall of chips.
 5. **every facet value is a link.** chips on pages and facet chips on shelves
    both feed URL params (`?genre=`, `?sub=`, `?category=`, `?content=`,

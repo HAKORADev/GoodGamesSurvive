@@ -19,7 +19,9 @@ to a line in these files (law 7) or be an endorsed upgrade hub.
  "title": "Chicken Invaders 3: Revenge of the Yolk",
  "list": "casual",                      owner's list it came from
  "class": "...",                        owner's class marker
- "category": "🔫 LIGHT-GUN, ...",       the owner's own section header
+ "category": "fixed shooters",          LIVE rows: ONE precise category each.
+                                       catalog rows keep the owner's own
+                                       section header (his list organization)
  "series": "chicken-invaders",          series key (data/series.json)
  "series_part": 3,
  "content_walls": ["gore"],             sex/gore live HERE, nowhere else

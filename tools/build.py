@@ -26,34 +26,60 @@ def main():
             written.append("pages/mod/%s.html" % slug)
 
     list_pages = {
-        "games": ("GAMES", "The games index - every title catalogued, filterable, sortable, searchable.", "692+ titles catalogued. pages get dug one dig at a time - the rest are searchable rows, honestly marked."),
-        "software": ("SOFTWARE", "The software index - emulators, tools, fixes.", "tools and emulators live here when the first page lands."),
-        "mods": ("MODS+PATCHES", "The mods and patches index.", "mods and patches live here when the first page lands."),
+        "games": ("GAMES", "The games shelf - only the pages that are actually dug. the full 692-row catalogue stays reachable through search.",
+                  "this shelf shows the dug pages only - one dig at a time. everything catalogued but not dug yet lives in search, honestly marked."),
+        "software": ("SOFTWARE", "The software shelf - emulators, tools, fixes.",
+                     "this shelf shows the dug pages only. the first software dig lights it up."),
+        "mods": ("MODS+PATCHES", "The mods and patches shelf.",
+                 "this shelf shows the dug pages only. the first mod or patch dig lights it up."),
     }
     for sec, (t, d, note) in list_pages.items():
         p = os.path.join(ROOT, "pages", sec + ".html")
         open(p, "w", encoding="utf-8").write(R2.list_page(eng, sec, t, d, note))
         written.append("pages/%s.html" % sec)
+        p = os.path.join(ROOT, "pages", sec, "collections.html")
+        os.makedirs(os.path.dirname(p), exist_ok=True)
+        open(p, "w", encoding="utf-8").write(R2.section_collections_page(eng, sec))
+        written.append("pages/%s/collections.html" % sec)
 
     open(os.path.join(ROOT, "pages", "search.html"), "w", encoding="utf-8").write(R2.search_page(eng))
     written.append("pages/search.html")
     open(os.path.join(ROOT, "pages", "random.html"), "w", encoding="utf-8").write(R2.random_page(eng))
     written.append("pages/random.html")
-    open(os.path.join(ROOT, "pages", "collections.html"), "w", encoding="utf-8").write(R2.collections_page(eng))
-    written.append("pages/collections.html")
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(R2.main_page(eng))
     written.append("index.html")
 
-    os.makedirs(os.path.join(ROOT, "pages", "collection"), exist_ok=True)
     for c in eng.collections:
-        p = os.path.join(ROOT, "pages", "collection", c["slug"] + ".html")
+        sec = c.get("section") or "games"
+        p = os.path.join(ROOT, "pages", sec, "collections", c["slug"] + ".html")
+        os.makedirs(os.path.dirname(p), exist_ok=True)
         open(p, "w", encoding="utf-8").write(R2.collection_page(eng, c))
-        written.append("pages/collection/%s.html" % c["slug"])
-    os.makedirs(os.path.join(ROOT, "pages", "meta"), exist_ok=True)
+        written.append("pages/%s/collections/%s.html" % (sec, c["slug"]))
+        legacy = os.path.join(ROOT, "pages", "collection", c["slug"] + ".html")
+        os.makedirs(os.path.dirname(legacy), exist_ok=True)
+        target = R2.rel("", "pages/%s/collections/%s.html" % (sec, c["slug"]), 2)
+        open(legacy, "w", encoding="utf-8").write(
+            '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">'
+            '<meta http-equiv="refresh" content="0; url=' + target + '">'
+            '<link rel="canonical" href="' + target + '"><title>redirecting...</title></head>'
+            '<body><p class="crumb" style="padding:40px">collections live under their shelves now - '
+            '<a href="' + target + '">go to ' + esc(c["title"]) + '</a></p></body></html>')
+        written.append("pages/collection/%s.html (legacy redirect)" % c["slug"])
     for m in eng.multis:
-        p = os.path.join(ROOT, "pages", "meta", m["slug"] + ".html")
+        if m.get("_sec"):
+            p = os.path.join(ROOT, "pages", m["_sec"], "collections", m["slug"] + ".html")
+        else:
+            p = os.path.join(ROOT, "pages", "meta", m["slug"] + ".html")
+        os.makedirs(os.path.dirname(p), exist_ok=True)
         open(p, "w", encoding="utf-8").write(R2.meta_page(eng, m))
-        written.append("pages/meta/%s.html" % m["slug"])
+        written.append(os.path.relpath(p, ROOT).replace("\\", "/"))
+    top_legacy = os.path.join(ROOT, "pages", "collections.html")
+    open(top_legacy, "w", encoding="utf-8").write(
+        '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">'
+        '<meta http-equiv="refresh" content="0; url=' + R2.rel("", "pages/games/collections.html", 1) + '">'
+        '<title>redirecting...</title></head><body><p class="crumb" style="padding:40px">'
+        'collections live under their own shelves now - <a href="' + R2.rel("", "pages/games/collections.html", 1) + '">games collections</a></p></body></html>')
+    written.append("pages/collections.html (legacy redirect)")
 
     for r in eng.redirects.get("redirects", []):
         sec = r.get("sec", "games")
@@ -73,10 +99,17 @@ def main():
         if u:
             manifest["items"].append({"u": u, "t": eng.title_of(slug)})
     for c in eng.collections:
-        manifest["items"].append({"u": "pages/collection/%s.html" % c["slug"], "t": c["title"]})
+        manifest["items"].append({"u": eng.collection_url(c["slug"]), "t": c["title"]})
     for m in eng.multis:
-        manifest["items"].append({"u": "pages/meta/%s.html" % m["slug"], "t": m["title"]})
+        manifest["items"].append({"u": eng.collection_url(m["slug"]), "t": m["title"]})
     jwrite(os.path.join(ROOT, "data", "random-manifest.json"), manifest, compact=True)
+
+    for sec in ("games", "software", "mods"):
+        shelf = [r for r in eng.rows if r["sec"] == sec and r.get("page")]
+        jwrite(os.path.join(ROOT, "data", "shelf-%s.json" % sec),
+               {"_meta": {"built_by": "tools/build.py", "v": BUILD_V, "rows": len(shelf),
+                          "law": "the shelf layer: dug pages of this section only. the full catalogue rides search-index.json"},
+                "rows": shelf}, compact=True)
 
     public_rows = []
     for g in eng.catalog_games:
@@ -115,7 +148,10 @@ def main():
 def cleanup(eng, written):
     keep = {w.split(" (")[0] for w in written}
     removed = 0
-    for d in ("game", "software", "mod", "collection", "meta"):
+    page_dirs = ["game", "software", "mod", "collection", "meta"]
+    for sec in ("games", "software", "mods"):
+        page_dirs.append(os.path.join(sec, "collections"))
+    for d in page_dirs:
         pdir = os.path.join(ROOT, "pages", d)
         if not os.path.isdir(pdir):
             continue

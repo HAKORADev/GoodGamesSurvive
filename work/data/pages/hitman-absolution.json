@@ -2,12 +2,10 @@
  "slug": "hitman-absolution",
  "caption": "2012's personal contract: 47 against the agency, protecting a girl the ICA wants dead.",
  "genres": [
-  "stealth",
   "action"
  ],
  "subgenres": [
-  "third-person",
-  "linear stealth"
+  "stealth"
  ],
  "characters": [
   "Agent 47"

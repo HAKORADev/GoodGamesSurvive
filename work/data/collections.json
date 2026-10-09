@@ -2,17 +2,18 @@
  "_meta": {
   "schema": "ggs.v2",
   "updated": "2026-10-09",
-  "law": "source of truth for collections. a collection holds pages of one section. a multi-collection holds collections. engine: tools/build.py."
+  "law": "source of truth for collections. a collection holds pages of one section (section field - pages live under pages/<section>/collections/). a multi-collection holds collections. engine: tools/build.py."
  },
  "collections": [
   {
    "slug": "hitman-collection",
-   "title": "The Hitman Collection",
+   "title": "The Complete Hitman",
    "section": "games",
-   "caption": "the four hits the owner listed, 2002 to 2012. the barcode's classic run on one shelf.",
+   "caption": "the four hits the owner listed, 2002 to 2012, with the consoles' remaster riding the shelf.",
    "about": [
-    "The Hitman games the archive's list actually names: Silent Assassin's conscience, Contracts' dark detour, Blood Money's sandbox peak, Absolution's cinematic detour. Codename 47 and the World of Assassination trilogy are not on the list - they wait in the wings until the owner calls for them.",
-    "The classics (2002-2006) run on and under the haswell iGPU bar and are still sold DRM-free. Absolution sits at the target line with its 24GB body. Every page carries the same law: official path first where one exists, the archive route right next to it."
+    "The Hitman games the archive's list actually names: Silent Assassin's conscience, Contracts' dark detour, Blood Money's sandbox peak, Absolution's cinematic detour. The full lineage - Codename 47 (2000) through the World of Assassination line (2016-2023) - lives on every page's series strip, so the complete family is always one glance away even where its pages are not dug yet.",
+    "The classics (2002-2006) run on and under the haswell iGPU bar and are still sold DRM-free. Absolution sits at the target line with its 24GB body. Every page carries the same law: official path first where one exists, the archive route right next to it.",
+    "The remaster truth: the series' only classic-line remaster is the Hitman HD Enhanced Collection (2019) - Blood Money + Absolution rebuilt at 4K/60 for PlayStation 4 and Xbox One, never windows. Silent Assassin and Contracts were never remastered at all. The windows builds on this shelf are therefore not stepping stones - they are the final windows truth."
    ],
    "items": [
     "hitman-2-silent-assassin",
@@ -20,35 +21,36 @@
     "hitman-blood-money",
     "hitman-absolution"
    ],
-   "catalogued": [],
+   "catalogued": [
+    "hitman-hd-enhanced-collection"
+   ],
    "notes": [
-    "Codename 47, the World of Assassination trilogy and the spinoffs (GO, Sniper, Sniper Challenge) are out of the current scope - attic'd, not judged. they come back when the owner wants them."
+    "Codename 47, the World of Assassination trilogy and the spinoffs (GO, Sniper, Sniper Challenge) are out of the current dig scope - their entries ride the series strip, and they come back as pages when the owner wants them."
    ]
   },
   {
    "slug": "chicken-invaders-collection",
-   "title": "The Chicken Invaders Collection",
+   "title": "The Complete Chicken Invaders",
    "section": "games",
-   "caption": "the classic line: five wars, 1999 to 2014, every holiday release riding as a version.",
+   "caption": "the complete line: five wars, the remaster line, and the universe - 1999 to today.",
    "about": [
-    "One hundred percent of the classic Chicken Invaders line the owner listed: the five mainline episodes, with every holiday release the series shipped living as a version under its episode's page - Christmas x4, Easter x2, Halloween x1, Thanksgiving x1 - switched from the dropdown, not scattered as standalone catalog entries.",
+    "One hundred percent of the Chicken Invaders line the owner listed: the five mainline episodes with every holiday release living as a version under its episode's page (Christmas x4, Easter x2, Halloween x1, Thanksgiving x1 - switched from the dropdown, not scattered as standalone catalog entries), plus the two things that complete the family: the Remastered line and Universe.",
     "The production quirk the shelf keeps honest: the third war's Christmas Edition (November 2006) shipped before the standard game (January 2007), making it the only edition in the series that predates its own episode.",
-    "InterAction studios is alive and every entry on this shelf is still obtainable through an official channel: the studio's own download hub carries the whole line, and Steam sells the mainline episodes and all eight holiday editions (every app page and price verified 2026-10-09). these pages are ownership stories, not rescues - the archive links ride along for preservation."
+    "InterAction studios is alive and every entry on this shelf is still obtainable through an official channel: the studio's own download hub carries the classic line, Steam sells the mainline episodes and all eight holiday editions (every app page and price verified 2026-10-09), the remaster line rides the studio's package, and Universe is free to play. these pages are ownership stories, not rescues - the archive links ride along for preservation.",
+    "The upgrade law of this shelf: a sequel is never an upgrade. The four classic episodes point their UPGRADE lines at the Remastered line - the per-episode rebuilds that carry all DLC - while the series strip carries the lineage from the 1999 original to Universe."
    ],
    "items": [
     "chicken-invaders",
     "chicken-invaders-2-the-next-wave",
     "chicken-invaders-3-revenge-of-the-yolk",
     "chicken-invaders-4-ultimate-omelette",
-    "chicken-invaders-5-cluck-of-the-dark-side"
+    "chicken-invaders-5-cluck-of-the-dark-side",
+    "chicken-invaders-remastered",
+    "chicken-invaders-universe"
    ],
-   "catalogued": [
-    "chicken-invaders-universe",
-    "chicken-invaders-remastered"
-   ],
+   "catalogued": [],
    "notes": [
-    "Chicken Invaders Universe (2018, early access to 2022) is on the owner's list - catalogued, waiting its dig. free to play since 1.0 (2022-12-15).",
-    "Chicken Invaders: Remastered is not a game of its own: it is the studio's remaster line covering all classic episodes and their DLCs, and the direct upgrade of every old game on this shelf. each page carries the upgrade line."
+    "Chicken Invaders: Remastered is not a game of its own: it is the studio's remaster line covering the classic episodes and their DLCs, and the direct upgrade of every old game on this shelf. it holds a page so the upgrade lines have a real destination and the line has one honest address."
    ]
   }
  ],

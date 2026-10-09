@@ -120,7 +120,7 @@ function render(){
  }
  if(COUNT){
   if(MODE==='search'){COUNT.textContent=pool.length+' results across the whole catalogue ('+pageN+' with their own page)'}
-  else{COUNT.textContent=pool.length+' of '+SHELF+' titles in this shelf · '+pageN+' pages dug'}
+  else{COUNT.textContent=pool.length+' pages on this shelf - the whole catalogue rides search'}
  }
 }
 if(RPICK)RPICK.addEventListener('click',function(){
@@ -163,45 +163,33 @@ def collections_strip(eng, sec, depth):
     for c in eng.collections:
         if c.get("section") != sec:
             continue
-        cards.append('<a class="col-card" href="' + rel("", "pages/collection/%s.html" % c["slug"], depth) + '">'
+        cards.append('<a class="col-card" href="' + rel("", eng.collection_url(c["slug"]), depth) + '">'
                      '<span class="col-title">' + esc(c["title"]) + '</span>'
                      '<span class="col-cap">' + esc(c.get("caption") or "") + '</span>'
                      '<span class="col-n">' + str(c["n_pages"]) + ' pages</span>'
                      '<span class="dir-go">OPEN &#8594;</span></a>')
     for m in eng.multis:
-        secs = set()
-        for cs in (m.get("collections") or []):
-            c = next((x for x in eng.collections if x["slug"] == cs), None)
-            if c:
-                secs.add(c.get("section"))
-        if sec not in secs:
+        if m.get("_sec") != sec:
             continue
-        cards.append('<a class="col-card col-multi" href="' + rel("", "pages/meta/%s.html" % m["slug"], depth) + '">'
+        cards.append('<a class="col-card col-multi" href="' + rel("", eng.collection_url(m["slug"]), depth) + '">'
                      '<span class="col-title">' + esc(m["title"]) + '</span>'
                      '<span class="col-cap">' + esc(m.get("caption") or "") + '</span>'
                      '<span class="col-n">' + str(len(m.get("collections") or [])) + ' collections</span>'
                      '<span class="dir-go">OPEN &#8594;</span></a>')
     if not cards:
         return ""
-    return '<section><h2 class="sec-title">COLLECTIONS ON THIS SHELF</h2><div class="col-grid">' + "".join(cards) + '</div></section>'
+    idx = ('<a class="col-idx-link" href="' + rel("", eng.collections_index_url(sec), depth) + '">ALL COLLECTIONS &#8594;</a>')
+    return ('<section><h2 class="sec-title">COLLECTIONS ON THIS SHELF</h2>' + idx + '<div class="col-grid">' + "".join(cards) + '</div></section>')
 
 def list_page(eng, sec, title, desc, note):
     depth = 1
-    counts = eng.sec_counts()
-    n = counts[sec]
-    if n == 0:
-        body = ('<main class="page-wrap"><section><h2 class="sec-title">' + esc(title) + '</h2>'
-                '<p class="dir-note">0 pages on this shelf. the engine stands ready - rows, facets, sorts and random come alive the moment the first page lands.</p></section>'
-                + collections_strip(eng, sec, depth) + '</main>')
-        return (head(title + " — GOODGAMES SURVIVE", desc, depth, 'data-sec="' + sec + '"') +
-                topbar(eng, depth, sec) + body + foot_site(depth) + '</body></html>')
     body = ('<main class="page-wrap"><section><h2 class="sec-title">' + esc(title) + '</h2>'
             '<p class="dir-note">' + esc(note) + '</p></section>'
             + facet_bar_html(eng, sec, depth)
             + collections_strip(eng, sec, depth)
             + '</main>')
     html = (head(title + " — GOODGAMES SURVIVE", desc, depth,
-                 'data-sec="' + sec + '" data-mode="list" data-index="' + rel("", "data/search-index.json", depth) + '"') +
+                 'data-sec="' + sec + '" data-mode="list" data-index="' + rel("", "data/shelf-%s.json" % sec, depth) + '"') +
             topbar(eng, depth, sec) + body + vocab_script(eng) +
             '<script>' + LIST_JS + '</script>' + foot_site(depth) + '</body></html>')
     return html
@@ -233,37 +221,40 @@ def main_page(eng):
     dug = eng.pages_dug()
     c = eng.sec_counts()
     secs = [("games", "GAMES", "game"), ("software", "SOFTWARE", "software"), ("mods", "MODS+PATCHES", "mod")]
+    ready_note = {
+        "software": "the software shelf stands ready - emulators, tools and fixes land here with their first dig.",
+        "mods": "the mods+patches shelf stands ready - the first mod or patch page lights it up.",
+    }
     blocks = []
     for key, label, d in secs:
-        if dug[key] == 0:
-            continue
         rows = [r for r in eng.rows if r["sec"] == key and r.get("page") and not r.get("kind")]
         order = {s: i for i, s in enumerate(eng.dig_order())}
         rows.sort(key=lambda r: order.get(r["s"], 999))
-        rows = rows[:10]
-        items = []
-        for r in rows:
-            r_th = eng.thumb_at(r.get("th"), depth)
-            th = ('<span class="dir-thumb"><img loading="lazy" alt="" src="' + esc(r_th) + '" onerror="this.parentNode.classList.add(\'dead\');this.remove()"></span>' if r_th else '<span class="dir-thumb dead"></span>')
-            items.append('<a class="dir-row" href="' + rel("", "pages/" + r["page"], depth) + '">' + th +
-                         '<span class="dir-main"><span class="dir-name">' + esc(r["t"]) + '</span>' +
-                         ('<span class="dir-cap">' + esc(r["cap"]) + '</span>' if r.get("cap") else '') +
-                         '<span class="dir-meta">' + esc(r.get("y") or "") + '</span></span>'
-                         '<span class="dir-go">OPEN &#8594;</span></a>')
-        blocks.append('<section class="latest-sec"><div class="latest-head">'
-                      '<h2 class="sec-title">' + label + ' — LATEST DIGS</h2>'
-                      '<a class="jump" href="' + rel("", "pages/" + key + ".html", depth) + '">THE FULL SHELF &#8594;</a></div>'
-                      '<div class="dir">' + "".join(items) + '</div></section>')
-    cols_cards = []
-    for col in eng.collections:
-        cols_cards.append('<a class="col-card" href="' + rel("", "pages/collection/%s.html" % col["slug"], depth) + '">'
-                          '<span class="col-title">' + esc(col["title"]) + '</span>'
-                          '<span class="col-cap">' + esc(col.get("caption") or "") + '</span>'
-                          '<span class="col-n">' + str(col["n_pages"]) + ' pages</span>'
-                          '<span class="dir-go">OPEN &#8594;</span></a>')
-    col_block = ""
-    if cols_cards:
-        col_block = '<section class="latest-sec"><h2 class="sec-title">COLLECTIONS</h2><div class="col-grid">' + "".join(cols_cards) + '</div></section>'
+        head_links = ['<a class="jump" href="' + rel("", "pages/%s.html" % key, depth) + '">THE FULL SHELF &#8594;</a>']
+        if any(x.get("section") == key for x in eng.collections) or any(m.get("_sec") == key for m in eng.multis):
+            head_links.append('<a class="jump jump-dim" href="' + rel("", "pages/%s/collections.html" % key, depth) + '">COLLECTIONS &#8594;</a>')
+        if rows:
+            items = []
+            for r in rows[:10]:
+                r_th = eng.thumb_at(r.get("th"), depth)
+                th = ('<span class="dir-thumb"><img loading="lazy" alt="" src="' + esc(r_th) + '" onerror="this.parentNode.classList.add(\'dead\');this.remove()"></span>' if r_th else '<span class="dir-thumb dead"></span>')
+                items.append('<a class="dir-row" href="' + rel("", "pages/" + r["page"], depth) + '">' + th +
+                             '<span class="dir-main"><span class="dir-name">' + esc(r["t"]) + '</span>' +
+                             ('<span class="dir-cap">' + esc(r["cap"]) + '</span>' if r.get("cap") else '') +
+                             '<span class="dir-meta">' + esc(r.get("y") or "") + '</span></span>'
+                             '<span class="dir-go">OPEN &#8594;</span></a>')
+            digs = ('<p class="latest-note">latest digs - ' + str(len(rows[:10])) + ' of ' + str(dug[key]) + ' pages, dug order</p>'
+                    if dug[key] > 10 else '')
+            blocks.append('<section class="latest-sec"><div class="latest-head">'
+                          '<h2 class="sec-title">' + label + '</h2>'
+                          '<span class="latest-links">' + "".join(head_links) + '</span></div>'
+                          + digs +
+                          '<div class="dir">' + "".join(items) + '</div></section>')
+        else:
+            blocks.append('<section class="latest-sec"><div class="latest-head">'
+                          '<h2 class="sec-title">' + label + '</h2>'
+                          '<span class="latest-links">' + "".join(head_links) + '</span></div>'
+                          '<p class="dir-note">' + esc(ready_note.get(key, "")) + '</p></section>')
     stats = ('<section class="stats-line"><span>' + str(c["games"]) + ' games catalogued</span>'
              '<span>' + str(dug["games"]) + ' game pages dug</span>'
              '<span>' + str(len(eng.page_by_slug)) + ' pages live</span>'
@@ -273,41 +264,52 @@ def main_page(eng):
             '<div class="brand-mark" role="img" aria-label="WASTED - TED struck through, IT written over it">'
             '<span class="mark-word">WAS<span class="mark-ted">TED<span class="mark-it">IT</span></span></span></div>'
             '<p class="hero-caption">a memory no longer buried</p></section>'
-            + "".join(blocks) + col_block + stats + '</main>')
+            + "".join(blocks) + stats + '</main>')
     return (head("GOODGAMES SURVIVE — a memory no longer buried",
                  "Good games that outlived their era. Downloads, cracks for the un-buyable, mods, patches, upgrade paths.",
                  depth) + topbar(eng, depth, None) + body + foot_site(depth) + '</body></html>')
 
-def collections_page(eng):
-    depth = 1
+def section_collections_page(eng, sec):
+    depth = 2
+    label = {"games": "GAMES", "software": "SOFTWARE", "mods": "MODS+PATCHES"}[sec]
     cards = []
     for c in eng.collections:
-        cards.append('<a class="col-card" href="' + rel("", "pages/collection/%s.html" % c["slug"], depth) + '">'
+        if c.get("section") != sec:
+            continue
+        cards.append('<a class="col-card" href="' + rel("", eng.collection_url(c["slug"]), depth) + '">'
                      '<span class="col-title">' + esc(c["title"]) + '</span>'
                      '<span class="col-cap">' + esc(c.get("caption") or "") + '</span>'
-                     '<span class="col-n">' + str(c["n_pages"]) + ' pages</span>'
+                     '<span class="col-n">' + str(c["n_pages"]) + ' pages · ' + str(len(c.get("catalogued") or [])) + ' catalogued</span>'
                      '<span class="dir-go">OPEN &#8594;</span></a>')
-    body = ['<main class="page-wrap"><section><h2 class="sec-title">COLLECTIONS</h2>']
+    body = ['<main class="page-wrap">',
+            '<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / '
+            '<a href="' + rel("", "pages/%s.html" % sec, depth) + '">' + label + '</a> / <b>COLLECTIONS</b></p>',
+            '<section><h2 class="sec-title">' + label + ' — COLLECTIONS</h2>']
     if cards:
         body.append('<div class="col-grid">' + "".join(cards) + '</div>')
     else:
-        body.append('<p class="dir-note">no collections yet.</p>')
+        body.append('<p class="dir-note">no collections on this shelf yet - one lands the moment its first member page is dug.</p>')
     body.append('</section>')
     if eng.multis:
         mc = []
         for m in eng.multis:
-            mc.append('<a class="col-card col-multi" href="' + rel("", "pages/meta/%s.html" % m["slug"], depth) + '">'
+            if m.get("_sec") != sec:
+                continue
+            mc.append('<a class="col-card col-multi" href="' + rel("", eng.collection_url(m["slug"]), depth) + '">'
                       '<span class="col-title">' + esc(m["title"]) + '</span>'
                       '<span class="col-cap">' + esc(m.get("caption") or "") + '</span>'
                       '<span class="col-n">' + str(len(m.get("collections") or [])) + ' collections</span>'
                       '<span class="dir-go">OPEN &#8594;</span></a>')
-        body.append('<section><h2 class="sec-title">MULTI-COLLECTIONS</h2><div class="col-grid">' + "".join(mc) + '</div></section>')
+        if mc:
+            body.append('<section><h2 class="sec-title">MULTI-COLLECTIONS</h2><div class="col-grid">' + "".join(mc) + '</div></section>')
     body.append('</main>')
-    return (head("COLLECTIONS — GOODGAMES SURVIVE", "Collections hold games. Multi-collections hold collections.", depth) +
-            topbar(eng, depth, "collections") + "".join(body) + foot_site(depth) + '</body></html>')
+    return (head(label + " COLLECTIONS — GOODGAMES SURVIVE", "Collections hold games. Multi-collections hold collections.", depth) +
+            topbar(eng, depth, sec) + "".join(body) + foot_site(depth) + '</body></html>')
 
 def collection_page(eng, c):
-    depth = 2
+    depth = 3
+    sec = c.get("section") or "games"
+    sec_label = {"games": "GAMES", "software": "SOFTWARE", "mods": "MODS+PATCHES"}[sec]
     items, plain = [], []
     for s in c.get("catalogued") or []:
         g = eng.row_index.get(s)
@@ -319,16 +321,20 @@ def collection_page(eng, c):
         if not g:
             continue
         if s in eng.page_by_slug and not eng.is_version(s):
-            th = eng.page_by_slug[s].get("thumbnail") or ""
+            pg = eng.page_by_slug[s]
+            th = pg.get("thumbnail") or ""
             meta = " · ".join(filter(None, [g.get("release") and str(g["release"])[:4], (g.get("developers") or [""])[0], (g.get("genres") or [""])[0]]))
+            cap = ('<span class="dir-cap">' + esc((pg.get("caption") or "")[:110]) + '</span>') if pg.get("caption") else ''
             items.append('<a class="dir-row" href="' + rel("", eng.page_url_of(s), depth) + '">' +
                          ('<span class="dir-thumb"><img src="' + esc(th) + '" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'dead\');this.remove()"></span>' if th else '<span class="dir-thumb dead"></span>') +
-                         '<span class="dir-main"><span class="dir-name">' + esc(g["title"]) + '</span><span class="dir-meta">' + esc(meta) + '</span></span>'
+                         '<span class="dir-main"><span class="dir-name">' + esc(g["title"]) + '</span>' + cap + '<span class="dir-meta">' + esc(meta) + '</span></span>'
                          '<span class="dir-go">OPEN &#8594;</span></a>')
         else:
             plain.append('<div class="dir-row dir-row-plain"><span class="dir-thumb dead"></span><span class="dir-main"><span class="dir-name">' + esc(g["title"]) + '</span><span class="dir-meta">catalogued - no page yet</span></span><span class="dir-go dir-go-dim">IN CATALOGUE</span></div>')
     body = ['<main class="page-wrap">',
-            '<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / <a href="' + rel("", "pages/collections.html", depth) + '">COLLECTIONS</a> / <b>' + esc(c["title"]) + '</b></p>',
+            '<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / '
+            '<a href="' + rel("", "pages/%s.html" % sec, depth) + '">' + sec_label + '</a> / '
+            '<a href="' + rel("", "pages/%s/collections.html" % sec, depth) + '">COLLECTIONS</a> / <b>' + esc(c["title"]) + '</b></p>',
             '<div class="game-title"><h1>' + esc(c["title"]) + '</h1><p class="game-caption">' + esc(c.get("caption") or "") + '</p>',
             '<p class="game-meta">' + str(c["n_pages"]) + ' pages · ' + str(len(c["catalogued"])) + ' catalogued-only</p></div>',
             '<section><h2 class="sec-title">ABOUT THIS COLLECTION</h2>' + "".join('<p class="about-p">' + esc(a) + '</p>' for a in (c.get("about") or [])) + '</section>',
@@ -339,27 +345,31 @@ def collection_page(eng, c):
         body.append('<section><h2 class="sec-title">NOTES</h2>' + "".join('<p class="about-p">' + esc(n) + '</p>' for n in c["notes"]) + '</section>')
     body.append('</main>')
     return (head(c["title"] + " — GOODGAMES SURVIVE", c.get("caption") or c["title"], depth) +
-            topbar(eng, depth, "collections") + "".join(body) + foot_page(depth) + '</body></html>')
+            topbar(eng, depth, sec) + "".join(body) + foot_page(depth) + '</body></html>')
 
 def meta_page(eng, m):
-    depth = 2
+    depth = 3 if m.get("_sec") else 2
     cards = []
     for cs in (m.get("collections") or []):
         c = next((x for x in eng.collections if x["slug"] == cs), None)
         if not c:
             continue
-        cards.append('<a class="dir-row" href="' + rel("", "pages/collection/%s.html" % c["slug"], depth) + '">'
+        cards.append('<a class="dir-row" href="' + rel("", eng.collection_url(c["slug"]), depth) + '">'
                      '<span class="dir-thumb dead"></span>'
                      '<span class="dir-main"><span class="dir-name">' + esc(c["title"]) + '</span><span class="dir-meta">' + str(c["n_pages"]) + ' pages</span></span>'
                      '<span class="dir-go">OPEN &#8594;</span></a>')
+    crumb = ('<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / '
+             '<a href="' + rel("", "pages/%s.html" % m["_sec"], depth) + '">' + {"games": "GAMES", "software": "SOFTWARE", "mods": "MODS+PATCHES"}.get(m["_sec"], "GAMES") + '</a> / '
+             '<a href="' + rel("", "pages/%s/collections.html" % m["_sec"], depth) + '">COLLECTIONS</a> / <b>' + esc(m["title"]) + '</b></p>') if m.get("_sec") else \
+            ('<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / <b>' + esc(m["title"]) + '</b></p>')
     body = ['<main class="page-wrap">',
-            '<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / <a href="' + rel("", "pages/collections.html", depth) + '">COLLECTIONS</a> / <b>' + esc(m["title"]) + '</b></p>',
+            crumb,
             '<div class="game-title"><h1>' + esc(m["title"]) + '</h1><p class="game-caption">' + esc(m.get("caption") or "") + '</p></div>',
             '<section><h2 class="sec-title">ABOUT THIS MULTI-COLLECTION</h2>' + "".join('<p class="about-p">' + esc(a) + '</p>' for a in (m.get("about") or [])) + '</section>',
             '<section><h2 class="sec-title">COLLECTIONS INSIDE</h2><div class="dir">' + "".join(cards) + '</div></section>',
             '</main>']
     return (head(m["title"] + " — GOODGAMES SURVIVE", m.get("caption") or m["title"], depth) +
-            topbar(eng, depth, "collections") + "".join(body) + foot_page(depth) + '</body></html>')
+            topbar(eng, depth, m.get("_sec")) + "".join(body) + foot_page(depth) + '</body></html>')
 
 def redirect_page(eng, r, sec):
     depth = 2

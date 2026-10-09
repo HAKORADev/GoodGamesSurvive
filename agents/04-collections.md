@@ -3,6 +3,15 @@
 collections are shelves inside a section. meta-collections are shelves of
 shelves. the owner wants them structured, accurate, and never decorative.
 
+## the path law (GGS-14)
+
+collections live UNDER their things, never top-level:
+`pages/<section>/collections.html` (per-section index) and
+`pages/<section>/collections/<slug>.html` (a collection). the old
+`pages/collection/` + `pages/collections.html` paths survive only as
+legacy redirects. no COLLECTIONS nav item - the shelf page and the home
+page carry the collections block under the section's own head.
+
 ## the design
 
 - a **collection** holds pages of exactly one section (`"section": "games"`).

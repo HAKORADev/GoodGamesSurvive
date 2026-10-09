@@ -2,12 +2,10 @@
  "slug": "diner-dash",
  "caption": "the 2003 root of the Dash universe. Flo quit her job; the customers never did.",
  "genres": [
-  "time management",
-  "casual",
-  "strategy"
+  "casual"
  ],
  "subgenres": [
-  "resource management"
+  "time management"
  ],
  "characters": [
   "Flo"

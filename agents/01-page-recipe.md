@@ -49,7 +49,11 @@ created. same shape every time — this is how the site stays one design.
 - collections: add the slug to the collection's `items` in
   `work/data/collections.json` (04-collections.md).
 - versions: mainline declares the version list; every version page gets the
-  dropdown; upgrade lines come from `upgrades` / `remaster` / `superseded_by`
+  dropdown; upgrade lines come from `upgrades` / `remaster` / `superseded_by`.
+  THE UPGRADE LAW: a sequel is NEVER an upgrade. `upgrades` points only at
+  a remaster/hub of the SAME game (CI1-4 -> the Remastered line). sequels
+  ride the series strip, never the UPGRADE line. the reverse scan renders
+  THIS PAGE IS THE DIRECT UPGRADE OF <list> on the hub's own page.
   fields on the rows.
 - similars: computed by the engine from shared genre/sub-genre/category +
   era + developer, series-mates and collection-mates excluded. no manual

@@ -194,9 +194,27 @@ class Engine:
     def build_collections(self):
         for c in self.collections:
             c["items"] = [s for s in (c.get("items") or []) if not self.is_version(s)]
-            c["catalogued"] = c.get("catalogued") or []
+            c["catalogued"] = [s for s in (c.get("catalogued") or []) if s in self.row_index]
             c["n_pages"] = len([s for s in c["items"] if s in self.page_by_slug])
         self.multis = self.collections_src.get("multi_collections", []) or []
+        for m in self.multis:
+            secs = {c.get("section") for cs in (m.get("collections") or [])
+                    for c in self.collections if c["slug"] == cs}
+            m["_sec"] = secs.pop() if len(secs) == 1 else None
+
+    def collection_url(self, slug):
+        c = next((x for x in self.collections if x["slug"] == slug), None)
+        if c:
+            return "pages/%s/collections/%s.html" % (c.get("section") or "games", slug)
+        m = next((x for x in self.multis if x["slug"] == slug), None)
+        if m:
+            if m.get("_sec"):
+                return "pages/%s/collections/%s.html" % (m["_sec"], slug)
+            return "pages/meta/%s.html" % slug
+        return None
+
+    def collections_index_url(self, sec):
+        return "pages/%s/collections.html" % sec
 
     def index_row(self, g, sec):
         y = year_of(g.get("release"))
@@ -266,7 +284,7 @@ class Engine:
                 "tested": False, "buy": None, "big": False,
                 "p1": False, "lc": False, "oc": False, "lm": False, "om": False,
                 "ch": [], "chn": [], "cat": None, "catn": None,
-                "n": c["n_pages"], "page": "collection/%s.html" % c["slug"],
+                "n": c["n_pages"], "page": (self.collection_url(c["slug"]) or "")[len("pages/"):],
                 "th": None, "cap": c.get("caption") or "",
             })
         for m in self.multis:
@@ -278,7 +296,7 @@ class Engine:
                 "tested": False, "buy": None, "big": False,
                 "p1": False, "lc": False, "oc": False, "lm": False, "om": False,
                 "ch": [], "chn": [], "cat": None, "catn": None,
-                "n": len(m.get("collections") or []), "page": "meta/%s.html" % m["slug"],
+                "n": len(m.get("collections") or []), "page": (self.collection_url(m["slug"]) or "")[len("pages/"):],
                 "th": None, "cap": m.get("caption") or "",
             })
 
@@ -356,7 +374,7 @@ class Engine:
                     score += 1
                     why.append(self.devs.get((set(a["dev"]) & set(b["dev"])).__iter__().__next__()))
                 if score > 0:
-                    pool.append({"slug": b["s"], "title": b["t"], "th": b["th"], "y": b["y"],
+                    pool.append({"slug": b["s"], "title": b["t"], "th": b["th"], "y": b["y"], "cap": b.get("cap") or "",
                                  "score": score, "why": ", ".join(why[:4])})
             pool.sort(key=lambda x: (-x["score"], x["title"].casefold()))
             catalogued = []
@@ -391,7 +409,7 @@ class Engine:
                 "current": slug, "siblings": sibs}
 
     def upgrades_of(self, slug):
-        out = {"direct": None, "superseded_by": None, "upgrades": [], "remaster": None}
+        out = {"direct": [], "superseded_by": None, "upgrades": [], "remaster": None}
         g = self.game_by_slug.get(slug) or {}
         for u in (g.get("upgrades") or []):
             ug = self.game_by_slug.get(u)
@@ -399,14 +417,17 @@ class Engine:
                 out["upgrades"].append({"slug": u, "title": ug["title"], "page": u in self.page_by_slug})
         for other, og in self.game_by_slug.items():
             if slug in (og.get("upgrades") or []) and other in self.page_by_slug:
-                out["direct"] = {"slug": other, "title": og["title"]}
+                out["direct"].append({"slug": other, "title": og["title"]})
+        out["direct"].sort(key=lambda d: d["title"].casefold())
         sb = g.get("superseded_by")
         if sb and sb in self.game_by_slug:
             out["superseded_by"] = {"slug": sb, "title": self.game_by_slug[sb]["title"]}
         if g.get("remaster"):
             rg = self.game_by_slug.get(g["remaster"])
             if rg:
-                out["remaster"] = {"slug": g["remaster"], "title": rg["title"]}
+                out["remaster"] = {"slug": g["remaster"], "title": rg["title"],
+                                   "page": g["remaster"] in self.page_by_slug,
+                                   "note": g.get("remaster_note")}
         return out
 
     def series_line(self, slug):
@@ -417,14 +438,18 @@ class Engine:
         s = self.series_map[ser]
         members = []
         for m in s.get("members", []):
-            if m["slug"] not in self.game_by_slug:
+            row = self.game_by_slug.get(m["slug"])
+            if row and row.get("version_of"):
                 continue
             members.append({
                 "slug": m["slug"], "title": m["title"], "part": m.get("part"),
+                "kind": m.get("kind"),
                 "page": m["slug"] in self.page_by_slug and not self.is_version(m["slug"]),
                 "now": m["slug"] == slug,
-                "y": year_of((self.game_by_slug.get(m["slug"]) or {}).get("release")),
+                "y": m.get("y") or year_of((row or {}).get("release")),
             })
+        members.sort(key=lambda m: (m["part"] is None, m["part"] or 0,
+                                    m["y"] or "9999", m["title"].casefold()))
         return {"key": ser, "title": SERIES_TITLES.get(ser, s.get("title", ser)), "members": members}
 
     def facts_of(self, slug):

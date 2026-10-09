@@ -1,0 +1,58 @@
+{
+ "slug": "chicken-invaders-remastered",
+ "caption": "not a game of its own - the studio's remaster line: every classic episode rebuilt with its DLC aboard, and the direct upgrade of the old wars.",
+ "genres": [
+  "shoot 'em up"
+ ],
+ "subgenres": [
+  "fixed shooter"
+ ],
+ "characters": [
+  "The Hero"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "DirectX 11, 1 GB RAM, 700 MB of disk per the Steam package. any haswell-class iGPU clears it with room to spare - this is still a 2D fixed shooter at heart."
+ },
+ "group": null,
+ "release_label": "standard",
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - Chicken Invaders hub",
+    "url": "https://www.interactionstudios.com/chickeninvaders.php",
+    "note": "the studio's own page for the series and its remasters"
+   },
+   {
+    "label": "Steam - Chicken Invaders 1 package (original 1999 + Remastered 2023 + Episode 1 beta)",
+    "url": "https://store.steampowered.com/app/3491310/",
+    "note": "verified live 2026-10-09"
+   }
+  ],
+  "official_note": "the remaster line ships per episode from the studio itself: the CI1 remaster (2023) rides the Steam 'Chicken Invaders 1' package, the CI2 remaster has shipped since 2012. 700 MB store-stated. still sold.",
+  "anyway": [],
+  "anyway_note": "no verified archive mirror of the remaster package exists yet - the official package is the path. the untouched classic builds keep their own archive items on their pages."
+ },
+ "about": [
+  "Chicken Invaders: Remastered is not a standalone game - it is InterAction studios' remaster line, and this page exists because the shelf needs one honest address for it. Every classic episode of the series received a rebuilt edition that carries all of its downloadable content with it: same wars, same waves, same six-weapon arsenal, redrawn for modern windows. The line is the direct upgrade of every old game on the Chicken Invaders shelf - which is exactly why those pages' UPGRADE lines point here instead of at each other's sequels.",
+  "The rollout stretched across a decade, one episode at a time. The Chicken Invaders 2 remaster shipped on 26 January 2012. The first game's remaster followed much later - dated 2023, it reached Steam inside the studio's 'Chicken Invaders 1' package (released there on 7 March 2025), sitting on the same store shelf as the untouched 1999 original and a beta remaster labeled Episode 1. Per Wikipedia, the whole main series is covered or being covered, with the newest episodes' remasters still riding the beta branch.",
+  "The shelf law stays deliberate: the five classic pages remain the archive truth of the original builds - the exact installers, their sizes, their holiday editions. The remaster line is the modern way to play the same wars, bought from a studio that is still alive and still selling. Nothing here is a rescue: this is an ownership story, and the upgrade path is one click away from every classic page that points at it."
+ ],
+ "notes_extra": "the Steam app 'Chicken Invaders 1' (3491310, 2025-03-07) bundles the 1999 original, the Remastered 2023 build and the Episode 1 beta remaster - one package, verified live 2026-10-09.",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/header.jpg?t=1741341152",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/header.jpg?t=1741341152",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/ss_64e3ffb54b68545a2d8d385beb777ccc5e183d24.1920x1080.jpg?t=1741341152",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/ss_6bfcc037e960a68a14cf86fb1d995ae607ac9a84.1920x1080.jpg?t=1741341152",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/ss_ae1bf47279c2b005a9dbe67514397ac7bf60c66c.1920x1080.jpg?t=1741341152",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/ss_219c4a4dd92650803c6da70246040db211073b43.1920x1080.jpg?t=1741341152",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/ss_7c01c76d1ac4b83fa28c062f4c76892bb4b43b53.1920x1080.jpg?t=1741341152",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257098611/dbd77b6bb8361b561b3400e36d144c438915b63c/movie_600x337.jpg?t=1740159237",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257095893/55761518daf6b7afc76fe6127a7d272dd4e8c020/movie_600x337.jpg?t=1740159240",
+   "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0832f16d5ea3.jpg"
+  ],
+  "videos": []
+ },
+ "dug_seq": 19
+}

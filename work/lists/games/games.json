@@ -14678,7 +14678,7 @@
    "slug": "hitman-absolution",
    "list": "non-casual",
    "class": "normal",
-   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "category": "stealth action",
    "series": "hitman",
    "series_part": 5,
    "content_walls": [],
@@ -14712,16 +14712,17 @@
    ],
    "notes": "24GB store-stated disk (big-size); Glacier 2 debut; Steam min GPU NV8600 512MB",
    "genres": [
-    "stealth",
     "action"
    ],
    "subgenres": [
-    "third-person",
-    "linear stealth"
+    "stealth"
    ],
    "size_est_mb": 24000,
    "size_source": "store-stated",
-   "req_tier": "at"
+   "req_tier": "at",
+   "upgrades": [],
+   "remaster": "hitman-hd-enhanced-collection",
+   "remaster_note": "consoles only (2019) - the windows build stays the archive truth"
   },
   {
    "title": "Far Cry 3",
@@ -24380,7 +24381,7 @@
    "publishers": [],
    "platforms": [
     "ps1",
-    "pc"
+    "windows"
    ],
    "players": {
     "single": true,
@@ -28106,7 +28107,7 @@
    "slug": "diner-dash",
    "list": "casual",
    "class": "normal",
-   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
+   "category": "restaurant management",
    "series": "diner-dash",
    "series_part": 1,
    "content_walls": [],
@@ -28141,12 +28142,10 @@
    ],
    "notes": "root of the Dash franchise; Glu Mobile owns it now",
    "genres": [
-    "time management",
-    "casual",
-    "strategy"
+    "casual"
    ],
    "subgenres": [
-    "resource management"
+    "time management"
    ],
    "size_est_mb": 9,
    "size_source": "hosted original (myabandonware lists 9 MB)",
@@ -29344,10 +29343,7 @@
    "publishers": [
     "Glu Mobile"
    ],
-   "platforms": [
-    "android",
-    "ios"
-   ],
+   "platforms": [],
    "players": {
     "single": true,
     "local_coop": false,
@@ -29365,7 +29361,7 @@
    "sources": [
     "diner dash wiki"
    ],
-   "notes": "first free-to-play Diner Dash, mobile only",
+   "notes": "first free-to-play Diner Dash, mobile only | phone builds (android / ios) exist - phone platforms stay outside the archive's current scope",
    "genres": [
     "casual"
    ],
@@ -29390,10 +29386,7 @@
    "publishers": [
     "Glu Mobile"
    ],
-   "platforms": [
-    "android",
-    "ios"
-   ],
+   "platforms": [],
    "players": {
     "single": true,
     "local_coop": false,
@@ -29411,7 +29404,7 @@
    "sources": [
     "diner dash wiki"
    ],
-   "notes": "mobile only",
+   "notes": "mobile only | phone builds (android / ios) exist - phone platforms stay outside the archive's current scope",
    "genres": [
     "casual"
    ],
@@ -29425,7 +29418,7 @@
    "slug": "chicken-invaders",
    "list": "casual",
    "class": "normal",
-   "category": "🔫 LIGHT-GUN, VEHICULAR, RUNNERS & SHOOT 'EM UPS",
+   "category": "fixed shooters",
    "series": "chicken-invaders",
    "series_part": 1,
    "content_walls": [],
@@ -29460,9 +29453,7 @@
    ],
    "notes": "DX Edition; remastered 2023-01-31; Steam bundle 2025-03-07 | free download from the studio, unlock registration still sold",
    "genres": [
-    "shoot 'em up",
-    "arcade",
-    "action"
+    "shoot 'em up"
    ],
    "subgenres": [
     "fixed shooter"
@@ -29471,16 +29462,16 @@
    "size_source": "studio-installer (13,551,752 bytes Content-Length, verified 2026-10-09)",
    "req_tier": "below",
    "upgrades": [
-    "chicken-invaders-2-the-next-wave"
+    "chicken-invaders-remastered"
    ],
-   "remaster": "chicken-invaders-remastered"
+   "remaster": null
   },
   {
    "title": "Chicken Invaders 2: The Next Wave",
    "slug": "chicken-invaders-2-the-next-wave",
    "list": "casual",
    "class": "normal",
-   "category": "🔫 LIGHT-GUN, VEHICULAR, RUNNERS & SHOOT 'EM UPS",
+   "category": "fixed shooters",
    "series": "chicken-invaders",
    "series_part": 2,
    "content_walls": [],
@@ -29516,28 +29507,25 @@
    ],
    "notes": "Christmas Edition 2003-11-25; remasters 2011/2012",
    "genres": [
-    "shoot 'em up",
-    "arcade",
-    "action"
+    "shoot 'em up"
    ],
    "subgenres": [
-    "fixed shooter",
-    "co-op"
+    "fixed shooter"
    ],
    "size_est_mb": 80,
    "size_source": "store-stated",
    "req_tier": "below",
    "upgrades": [
-    "chicken-invaders-3-revenge-of-the-yolk"
+    "chicken-invaders-remastered"
    ],
-   "remaster": "chicken-invaders-remastered"
+   "remaster": null
   },
   {
    "title": "Chicken Invaders 3: Revenge of the Yolk",
    "slug": "chicken-invaders-3-revenge-of-the-yolk",
    "list": "casual",
    "class": "normal",
-   "category": "🔫 LIGHT-GUN, VEHICULAR, RUNNERS & SHOOT 'EM UPS",
+   "category": "fixed shooters",
    "series": "chicken-invaders",
    "series_part": 3,
    "content_walls": [],
@@ -29573,28 +29561,25 @@
    ],
    "notes": "Christmas Edition 2006-11-11; Easter Edition 2010-02-12",
    "genres": [
-    "shoot 'em up",
-    "arcade",
-    "action"
+    "shoot 'em up"
    ],
    "subgenres": [
-    "fixed shooter",
-    "co-op"
+    "fixed shooter"
    ],
    "size_est_mb": 170,
    "size_source": "store-stated",
    "req_tier": "below",
    "upgrades": [
-    "chicken-invaders-4-ultimate-omelette"
+    "chicken-invaders-remastered"
    ],
-   "remaster": "chicken-invaders-remastered"
+   "remaster": null
   },
   {
    "title": "Chicken Invaders 4: Ultimate Omelette",
    "slug": "chicken-invaders-4-ultimate-omelette",
    "list": "casual",
    "class": "normal",
-   "category": "🔫 LIGHT-GUN, VEHICULAR, RUNNERS & SHOOT 'EM UPS",
+   "category": "fixed shooters",
    "series": "chicken-invaders",
    "series_part": 4,
    "content_walls": [],
@@ -29630,28 +29615,25 @@
    ],
    "notes": "Christmas 2011 / Easter 2012 / Thanksgiving 2013 editions",
    "genres": [
-    "shoot 'em up",
-    "arcade",
-    "action"
+    "shoot 'em up"
    ],
    "subgenres": [
-    "fixed shooter",
-    "co-op"
+    "fixed shooter"
    ],
    "size_est_mb": 210,
    "size_source": "store-stated",
    "req_tier": "below",
    "upgrades": [
-    "chicken-invaders-5-cluck-of-the-dark-side"
+    "chicken-invaders-remastered"
    ],
-   "remaster": "chicken-invaders-remastered"
+   "remaster": null
   },
   {
    "title": "Chicken Invaders 5: Cluck of the Dark Side",
    "slug": "chicken-invaders-5-cluck-of-the-dark-side",
    "list": "casual",
    "class": "normal",
-   "category": "🔫 LIGHT-GUN, VEHICULAR, RUNNERS & SHOOT 'EM UPS",
+   "category": "fixed shooters",
    "series": "chicken-invaders",
    "series_part": 5,
    "content_walls": [],
@@ -29687,31 +29669,30 @@
    ],
    "notes": "Steam 2015-03-13; Halloween 2015 / Christmas 2016 editions",
    "genres": [
-    "shoot 'em up",
-    "arcade",
-    "action"
+    "shoot 'em up"
    ],
    "subgenres": [
-    "fixed shooter",
-    "co-op"
+    "fixed shooter"
    ],
    "size_est_mb": 220,
    "size_source": "store-stated",
    "req_tier": "below",
-   "remaster": "chicken-invaders-remastered"
+   "remaster": "chicken-invaders-remastered",
+   "upgrades": [],
+   "remaster_note": "the mainline remasters cover the classics; the newer episodes ride the beta line (wikipedia, 2026-10-09)"
   },
   {
    "title": "Chicken Invaders Universe",
    "slug": "chicken-invaders-universe",
    "list": "casual",
    "class": "normal",
-   "category": "🔫 LIGHT-GUN, VEHICULAR, RUNNERS & SHOOT 'EM UPS",
+   "category": "fixed shooters",
    "series": "chicken-invaders",
    "series_part": 6,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2018-12-14",
+   "release": "2022-12-15",
    "developers": [
     "InterAction studios"
    ],
@@ -29736,15 +29717,18 @@
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:chicken wiki"
+    "research:chicken wiki",
+    "steam:1510460 (verified live 2026-10-09: free to play, 1.0 = 2022-12-15, early access 2021-04-16, online co-op + MMO flags, 700 MB storage, windows)"
    ],
-   "notes": "the MMO-styled successor on the owner's list; free to play since 1.0 (2022-12-15); online co-op focus",
+   "notes": "the MMO successor: standalone beta ran from 2018, Steam early access 2021-04-16, 1.0 + free-to-play 2022-12-15 (steam appdetails, verified live). online co-op per steam flags; ios build exists (2023-04) - phone platforms stay outside the archive's scope",
    "genres": [
-    "casual"
+    "shoot 'em up"
    ],
-   "subgenres": [],
-   "size_est_mb": null,
-   "size_source": null,
+   "subgenres": [
+    "fixed shooter"
+   ],
+   "size_est_mb": 700,
+   "size_source": "store:steam-1510460",
    "req_tier": "below"
   },
   {
@@ -29752,7 +29736,7 @@
    "slug": "hitman-2-silent-assassin",
    "list": "non-casual",
    "class": "normal",
-   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "category": "stealth action",
    "series": "hitman",
    "series_part": 2,
    "content_walls": [],
@@ -29788,26 +29772,22 @@
    ],
    "notes": "",
    "genres": [
-    "stealth",
     "action"
    ],
    "subgenres": [
-    "third-person",
-    "social stealth"
+    "stealth"
    ],
    "size_est_mb": 480,
    "size_source": "gog-installer (480 MB build)",
    "req_tier": "below",
-   "upgrades": [
-    "hitman-classic-trilogy-remastered"
-   ]
+   "upgrades": []
   },
   {
    "title": "Hitman 3: Contracts",
    "slug": "hitman-3-contracts",
    "list": "non-casual",
    "class": "normal",
-   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "category": "stealth action",
    "series": "hitman",
    "series_part": 3,
    "content_walls": [],
@@ -29843,26 +29823,22 @@
    ],
    "notes": "",
    "genres": [
-    "stealth",
     "action"
    ],
    "subgenres": [
-    "third-person",
-    "social stealth"
+    "stealth"
    ],
    "size_est_mb": 900,
    "size_source": "installer-research (845-910 MB builds)",
    "req_tier": "below",
-   "upgrades": [
-    "hitman-classic-trilogy-remastered"
-   ]
+   "upgrades": []
   },
   {
    "title": "Hitman: Blood Money",
    "slug": "hitman-blood-money",
    "list": "non-casual",
    "class": "normal",
-   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "category": "stealth action",
    "series": "hitman",
    "series_part": 4,
    "content_walls": [],
@@ -29898,18 +29874,17 @@
    ],
    "notes": "EU 2006-05-26 / NA 2006-05-30",
    "genres": [
-    "stealth",
-    "action",
-    "adventure"
+    "action"
    ],
    "subgenres": [
-    "third-person",
-    "social stealth",
-    "sandbox"
+    "stealth"
    ],
    "size_est_mb": 4300,
    "size_source": "gog-installer (GOGDB: v1.2 = 4.3 GB)",
-   "req_tier": "below"
+   "req_tier": "below",
+   "upgrades": [],
+   "remaster": "hitman-hd-enhanced-collection",
+   "remaster_note": "consoles only (2019) - the windows build stays the archive truth"
   },
   {
    "title": "Dream Chronicles",
@@ -30765,13 +30740,13 @@
    "slug": "chicken-invaders-remastered",
    "list": "casual",
    "class": "upgrade-of-normal",
-   "category": "🔫 LIGHT-GUN, VEHICULAR, RUNNERS & SHOOT 'EM UPS",
+   "category": "fixed shooters",
    "series": "chicken-invaders",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2023",
+   "release": "2012-2023",
    "developers": [
     "InterAction studios"
    ],
@@ -30797,17 +30772,73 @@
    "confidence": "verified",
    "sources": [
     "wikipedia:Chicken_Invaders",
-    "steam:3491310"
+    "steam:3491310",
+    "steam:3491310 (verified live 2026-10-09: the 'Chicken Invaders 1' package ships the original 1999 build + Remastered 2023 + the Episode 1 beta remaster; single-player + shared/split co-op; 700 MB storage; windows)"
    ],
-   "notes": "not a standalone game: the studio's remaster line covering all classic episodes and their DLCs - the direct upgrade of the old games the owner endorsed as the modern path. episode 1 shipped on Steam 2025-03-07 as 'Chicken Invaders 1'.",
+   "notes": "not a standalone game: the studio's remaster line covering the classic episodes and their DLCs. per-episode rollout - the CI2 remaster shipped 2012-01-26 (chicken wiki), the CI1 remaster 2023 inside the steam 'Chicken Invaders 1' package, newer episodes ride the beta line (wikipedia). the direct upgrade of every old game on the CI shelf",
    "genres": [
-    "casual"
+    "shoot 'em up"
    ],
-   "subgenres": [],
-   "size_est_mb": null,
-   "size_source": null,
+   "subgenres": [
+    "fixed shooter"
+   ],
+   "size_est_mb": 700,
+   "size_source": "store:steam-3491310",
    "req_tier": "below",
    "remaster_hub": true
+  },
+  {
+   "title": "Hitman HD Enhanced Collection",
+   "slug": "hitman-hd-enhanced-collection",
+   "list": "action",
+   "class": "remaster",
+   "category": "stealth action",
+   "series": "hitman",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2019-01-11",
+   "developers": [
+    "IO Interactive"
+   ],
+   "publishers": [
+    "IO Interactive"
+   ],
+   "platforms": [
+    "ps4",
+    "xbox-one"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": true,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": null,
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "hitman.fandom.com/wiki/Hitman_HD_Enhanced_Collection",
+    "store.playstation.com UP4572-CUSA12650_00-HITMANHDENHANCED",
+    "xbox.com games/store/hitman-hd-enhanced-collection btvz6x9x9qn3",
+    "verified 2026-10-09 via web search: a 4K/60fps remaster of Blood Money + Absolution, released 2019-01-11, PlayStation 4 + Xbox One only - no windows build"
+   ],
+   "notes": "the series' only classic-line remaster: Blood Money + Absolution rebuilt at 4K/60. consoles only - Silent Assassin and Contracts never got a remaster. no windows build exists, so it rides the hitman shelf as the consoles' upgrade path, not an archive target",
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "stealth"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
   }
  ]
 }

@@ -2,12 +2,10 @@
  "slug": "hitman-2-silent-assassin",
  "caption": "the sequel that gave 47 a conscience, a garden, and the silence the title promises.",
  "genres": [
-  "stealth",
   "action"
  ],
  "subgenres": [
-  "third-person",
-  "social stealth"
+  "stealth"
  ],
  "characters": [
   "Agent 47"

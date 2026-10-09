@@ -19,21 +19,15 @@ def head(title, desc, depth, body_attr=""):
 def topbar(eng, depth, active, action=None):
     if action is None:
         action = rel("", "pages/search.html", depth)
-    c = eng.sec_counts()
     dug = eng.pages_dug()
     def nav_link(label, href, key, n=None):
         cls = ' class="here"' if active == key else ""
         cnt = ' <span class="count">(%d)</span>' % n if n is not None else ""
         return '<a' + cls + ' href="' + href + '">' + label + cnt + '</a>'
     nav = []
-    if c["games"] > 0:
-        nav.append(nav_link("GAMES", rel("", "pages/games.html", depth), "games", dug["games"]))
-    if c["software"] > 0:
-        nav.append(nav_link("SOFTWARE", rel("", "pages/software.html", depth), "software", dug["software"]))
-    if c["mods"] > 0:
-        nav.append(nav_link("MODS+PATCHES", rel("", "pages/mods.html", depth), "mods", dug["mods"]))
-    if c["collections"] > 0:
-        nav.append(nav_link("COLLECTIONS", rel("", "pages/collections.html", depth), "collections"))
+    nav.append(nav_link("GAMES", rel("", "pages/games.html", depth), "games", dug["games"]))
+    nav.append(nav_link("SOFTWARE", rel("", "pages/software.html", depth), "software", dug["software"]))
+    nav.append(nav_link("MODS+PATCHES", rel("", "pages/mods.html", depth), "mods", dug["mods"]))
     nav.append('<a href="' + rel("", "pages/random.html", depth) + '">RANDOM</a>')
     logo_href = rel("", "index.html", depth) if depth else "#top"
     return ('<header class="site-head"><a class="logo" href="' + logo_href + '" aria-label="WA?D - home">' + DIAMOND +
@@ -129,11 +123,15 @@ def versions_html(eng, slug, depth):
         out.append('<p class="ver-up">UPGRADE: ' + " · ".join(links) + '</p>')
     if up.get("remaster"):
         rm = up["remaster"]
-        out.append('<p class="ver-up">REMASTERED: covered by <span class="ver-nolink">' + esc(rm["title"]) + '</span>'
-                   ' - the remaster line spans the classic episodes and their DLCs; the old builds stay the archive truth.</p>')
+        body = ('<a href="' + rel("", "pages/game/%s.html" % rm["slug"], depth) + '">' + esc(rm["title"]) + '</a>') if rm.get("page") \
+            else '<span class="ver-nolink">' + esc(rm["title"]) + '</span>'
+        note = rm.get("note") or "the remaster line covers the classic episodes and their DLCs; the old builds stay the archive truth."
+        out.append('<p class="ver-up">REMASTERED: covered by ' + body + ' - ' + esc(note) + '</p>')
     if up.get("direct"):
-        d = up["direct"]
-        out.append('<p class="ver-up">THIS PAGE IS THE DIRECT UPGRADE OF <a href="' + rel("", "pages/game/%s.html" % d["slug"], depth) + '">' + esc(d["title"]) + '</a></p>')
+        links = []
+        for d in up["direct"]:
+            links.append('<a href="' + rel("", "pages/game/%s.html" % d["slug"], depth) + '">' + esc(d["title"]) + '</a>')
+        out.append('<p class="ver-up">THIS PAGE IS THE DIRECT UPGRADE OF ' + " · ".join(links) + '</p>')
     if up.get("superseded_by"):
         s = up["superseded_by"]
         out.append('<p class="ver-up">SUPERSEDED BY <a href="' + rel("", "pages/game/%s.html" % s["slug"], depth) + '">' + esc(s["title"]) + '</a> - the standalone release is gone; the content lives there now.</p>')
@@ -213,8 +211,9 @@ def game_page(eng, slug):
     for s in sims["pages"][:10]:
         s_th = eng.thumb_at(s["th"], depth)
         th = ('<span class="dir-thumb"><img src="' + esc(s_th) + '" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'dead\');this.remove()"></span>' if s_th else '<span class="dir-thumb dead"></span>')
+        cap = ('<span class="dir-cap">' + esc(s["cap"][:110]) + '</span>') if s.get("cap") else ''
         sim_cards.append('<a class="dir-row sim-row" href="' + rel("", "pages/game/%s.html" % s["slug"], depth) + '">' + th +
-                         '<span class="dir-main"><span class="dir-name">' + esc(s["title"]) + '</span>' +
+                         '<span class="dir-main"><span class="dir-name">' + esc(s["title"]) + '</span>' + cap +
                          '<span class="dir-meta">' + esc((s["y"] or "") + (" · " if s["y"] else "")) + esc(s.get("why") or "") + '</span></span>'
                          '<span class="dir-go">OPEN &#8594;</span></a>')
     sim_html = ('<section><h2 class="sec-title">MORE LIKE THIS</h2><div class="dir sim-dir">' + "".join(sim_cards) + '</div>' +
@@ -224,21 +223,25 @@ def game_page(eng, slug):
     cols = eng.collection_of(slug)
     col_line = ""
     if cols:
-        col_line = '<section><h2 class="sec-title">COLLECTIONS</h2><p class="series-line">' + " · ".join('<a class="m now" href="' + rel("", "pages/collection/%s.html" % c["slug"], depth) + '">' + esc(c["title"]) + '</a>' for c in cols) + '</p></section>'
+        col_line = '<section><h2 class="sec-title">COLLECTIONS</h2><p class="series-line">' + " · ".join('<a class="m now" href="' + rel("", eng.collection_url(c["slug"]), depth) + '">' + esc(c["title"]) + '</a>' for c in cols) + '</p></section>'
 
     ser = eng.series_line(slug)
     ser_html = ""
     if ser and not is_ver:
         ms = []
         for m in ser["members"]:
-            label = esc(m["title"]) + (' · ' + str(m["y"]) if m["y"] else '')
+            label = esc(m["title"])
+            if m.get("kind") in ("remaster", "rebrand"):
+                label += '<i class="m-kind">' + esc(m["kind"]) + (' · ' + str(m["y"]) if m["y"] else '') + '</i>'
+            elif m["y"]:
+                label += ' · ' + str(m["y"])
             if m["now"]:
                 ms.append('<span class="m now">' + label + ' - this page</span>')
             elif m["page"]:
                 ms.append('<a class="m" href="' + rel("", "pages/game/%s.html" % m["slug"], depth) + '">' + label + '</a>')
             else:
                 ms.append('<span class="m">' + label + '</span>')
-        ser_html = '<section><h2 class="sec-title">SERIES - ' + esc(ser["title"].upper()) + '</h2><p class="series-line">' + "".join(m for m in ms) + '</p></section>'
+        ser_html = '<section><h2 class="sec-title">SERIES - ' + esc(ser["title"].upper()) + '</h2><p class="series-line">' + "".join(ms) + '</p></section>'
 
     if is_ver:
         crumb = ('<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / '

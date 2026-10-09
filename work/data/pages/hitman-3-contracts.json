@@ -2,12 +2,10 @@
  "slug": "hitman-3-contracts",
  "caption": "2004's dark detour: 47 bleeding in a Paris hotel, remembering his worst work.",
  "genres": [
-  "stealth",
   "action"
  ],
  "subgenres": [
-  "third-person",
-  "social stealth"
+  "stealth"
  ],
  "characters": [
   "Agent 47"
