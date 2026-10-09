@@ -218,4 +218,32 @@ the backend lives in `work/lists/`. the frontend serves a distilled copy in `dat
 
 ---
 
+## 13. decisions log v2 (2026-10-09, engine round — owner brief verbatim-mapped)
+
+- gallery is now EXACT: 3 videos (no-commentary gameplays, youtube, oembed-verified) + 10 images
+  (steam store shots + in-game video frames, every URL verified live before build). broken URL at
+  runtime -> "MEDIA NOT FOUND" block. gallery stays URL-linking only.
+- tagging exists: genres up to 5 + subgenres up to 5 (hard caps, engine-enforced) + mechanical
+  tags (single-player/co-op/multiplayer/big-size/sex/gore/edition/upgrade/emulated).
+- search & filter per spec: title search + facet chips (genre/tag/content/platform/players/era/status)
+  with live counts, per-shelf; site-wide search page spans all shelves + collections.
+- sorting on every main page: name A-Z / Z-A, date both ways, size both ways (store-stated sizes,
+  then band estimates, honestly labeled), random (seeded, reshuffle button).
+- random: top-bar RANDOM on every page opens any page (games/software/mods/collections).
+- metadata is linkable: developer/publisher/platform/players/series/era/content walls/genres/tags
+  deep-link into pre-filtered index views. expansion-ready.
+- official/anyway redesigned: OFFICIAL bucket (live or delisted-with-note) + OFFICIAL STATUS line
+  + ANYWAY bucket (archive route) on every page. Diner Dash = the un-buyable model.
+- characters row on game pages (verified names only).
+- requirements = tier ladder vs the target bar: LOWER THAN TARGET / AT TARGET / ABOVE TARGET,
+  per-game note from store-stated specs; test status stays separate.
+- versions: same-title releases (editions) share a group + dropdown switcher; upgrade lines run
+  both directions ("UPGRADE: x" / "THIS PAGE IS THE DIRECT UPGRADE OF y"); WoA supersession noted.
+- collections + multi-collections are first-class: collection pages, collections index, shelf
+  strips on main pages. shipped: The Hitman Collection (8 pages + 4 catalogued), The Chicken
+  Invaders Collection (13 pages + 2 catalogued).
+- about (title) section on every page, after gallery, before facts.
+- caption under every page h1.
+- every page title/subtitle served by the engine; dummies tested the dynamic paths then removed.
+
 *add new decisions under this line, newest on top.*

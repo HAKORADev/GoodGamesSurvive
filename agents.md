@@ -22,18 +22,34 @@ and you know everything.
 
 ```
 owner lists (as-is, sacred)
-  -> verified rows in work/lists/games/games.json   (full DB)
-  -> name-check/games-added.txt                     (dedup, CI-regenerated)
-  -> page-backed rows distilled into data/games.json
-  -> pages/game/<slug>.html renders from data/
+  -> work/lists/games/games.json            (full DB, 708 rows, schema ggs.v2)
+  -> work/data/pages/<slug>.json            (rich page content: caption/about/gallery/links/req/characters)
+  -> work/data/collections.json             (collections + multi-collections source)
+  -> work/data/redirects.json               (slug aliases -> meta-refresh pages)
+  -> tools/build.py  (THE ENGINE)           -> every html page + data/search-index.json + random manifest
+  -> tools/lists_check.py                   -> validates DBs, regenerates name-check + counts (CI)
 ```
 
-- `work/` = workspace + databases. never served as site UI.
-- `data/` = public copy. only verified, page-backed rows. schema ggs.v1.
-- pages = static HTML, styled by `assets/css/style.css`. no build step.
-- site is GitHub Pages from main root. repo stays code-only: media is
-  hot-linked (Steam CDN / GOG / verified sources), verified with HEAD
-  requests before use. never embed an unverified URL.
+- KAGE ENGINE LAW: `tools/build.py` owns ALL page HTML and `data/search-index.json`.
+  never hand-edit generated pages - edit the source data and rebuild. the only
+  hand-maintained files are the data sources + tools.
+- ASSET VERSION LAW: bump `BUILD_V` in tools/kage_core.py on any css/js/index
+  change; it propagates to every page automatically.
+- media law: every gallery URL is verified live (HTTP 200, image/*) by
+  scripts before it enters page JSON; every page renders a "MEDIA NOT FOUND"
+  fallback via onerror at runtime. galleries are URL links only - 10 images
+  + 3 no-commentary videos per game page, exact.
+- similars law: build-time scoring (genres x3, subgenres x2, tags x2, era/dev/co-op x1),
+  same-section only, same-series and same-collection excluded, top 10, why-line shown.
+- versions law: same-title releases share a `group`; pages render a release
+  switcher. `upgrades` on a row points TO its upgrade (direct or remaster);
+  `superseded_by` marks delisted-absorbed releases (WoA case).
+- requirements law: tier ladder vs the target bar (below / at / above
+  haswell HDxxxx + win10). test status stays a separate truth.
+- official/anyway law: both buckets on every page. official may be dead
+  (delisted note) - anyway carries the rescue. Diner Dash is the model case.
+- counts law: top-bar nav counts are PAGE-BACKED counts (pages dug), not DB rows.
+
 
 ## 2. how to add a game (full protocol)
 

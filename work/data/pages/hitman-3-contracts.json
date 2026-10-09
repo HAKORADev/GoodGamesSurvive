@@ -1,0 +1,89 @@
+{
+ "slug": "hitman-3-contracts",
+ "caption": "2004's dark detour: 47 bleeding in a Paris hotel, remembering his worst work.",
+ "genres": [
+  "stealth",
+  "action"
+ ],
+ "subgenres": [
+  "third-person",
+  "social stealth"
+ ],
+ "characters": [
+  "Agent 47",
+  "Diana Burnwood"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "Pentium III 800MHz, 32MB VRAM, 2GB disk. far under the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Hitman: Contracts",
+    "url": "https://store.steampowered.com/app/247430/",
+    "note": "still sold"
+   },
+   {
+    "label": "GOG - Hitman: Contracts",
+    "url": "https://www.gog.com/en/game/hitman_contracts",
+    "note": "DRM-free"
+   }
+  ],
+  "official_note": "still sold - Steam and GOG both carry it.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - search",
+    "url": "https://www.myabandonware.com/search/q/hitman-contracts",
+    "note": "archive route, for the keeps-box"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=hitman+contracts",
+    "note": "community mirrors"
+   }
+  ],
+  "anyway_note": "the game is still sold, so the archive route is preservation, not rescue."
+ },
+ "about": [
+  "Hitman: Contracts (April 2004) is the series' darkest hour, built as a framed memory piece: 47, shot and bleeding after a job in Paris, drifts through flashbacks while the hotel room closes in on him. The missions are his greatest hits retold - remakes of Codename 47's best work alongside new contracts - and the tone goes places the franchise never returned to: rain, red rooms, and a soundtrack that treats stealth as dread.",
+  "As a game it is Silent Assassin's engine sharpened: better disguise logic, denser levels, and the series' most oppressive atmosphere. The structure - replaying old contracts through a dying man's memory - let IOI rebuild the 2000 missions with everything they learned in two years, and it shows in how much more readable the sandbox logic became.",
+  "It is the shortest of the classic four and the one played least, which is a shame: Contracts is the bridge between the crude origin and Blood Money's confidence, and on the target machine it runs like the wind. Still sold, DRM-free on GOG, and covered by the announced Classic Trilogy Remastered."
+ ],
+ "notes_extra": "released April 2004; the Paris frame mission leads directly into Blood Money's timeline.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_37bfc8c7032d223afe55f3e2b67ed8ac04e333f0.1920x1080.jpg?t=1744238518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_108236c8837d049ba280f99a1c38ad14691933c6.1920x1080.jpg?t=1744238518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_a0128041a58de55ce22c995e72a23d59cd71ab44.1920x1080.jpg?t=1744238518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_700311318205b0f4468a5469010f0d8824970d98.1920x1080.jpg?t=1744238518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_3c272f71529cc8428d34f673a7c0a228dbb28581.1920x1080.jpg?t=1744238518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_dccca26f3cd06c7476412cb53608184289d41339.1920x1080.jpg?t=1744238518",
+   "https://i.ytimg.com/vi/E3xrBhPEHnY/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/E3xrBhPEHnY/maxres2.jpg",
+   "https://i.ytimg.com/vi/E3xrBhPEHnY/maxres1.jpg",
+   "https://i.ytimg.com/vi/E3xrBhPEHnY/maxres3.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "E3xrBhPEHnY",
+    "title": "Hitman Contracts Full Gameplay Walkthrough [2K PC Longplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "B0bhrm_TN6c",
+    "title": "Hitman: Contracts - Full Game Walkthrough in 4K - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "8ikBs8lShbk",
+    "title": "HITMAN CONTRACTS Walkthrough FULL GAME  - YouTube"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/247430/header.jpg"
+}

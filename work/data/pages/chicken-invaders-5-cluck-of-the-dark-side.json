@@ -1,0 +1,91 @@
+{
+ "slug": "chicken-invaders-5-cluck-of-the-dark-side",
+ "caption": "the fifth war. the Dark Side chickens, the Henterprise, and the last classic episode before Universe.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens",
+  "CK-01 Henterprise"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "store minimum lists DirectX 8.1 and 220MB of disk - ancient specs. the 2014 engine is heavier than its numbers; a Haswell iGPU should hold it, unconfirmed until tested."
+ },
+ "group": "chicken-invaders-5",
+ "group_label": "Chicken Invaders 5",
+ "release_label": "standard",
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - Cluck of the Dark Side",
+    "url": "https://www.interactionstudios.com/chickeninvaders5.php",
+    "note": "official page"
+   },
+   {
+    "label": "Steam - Chicken Invaders 5",
+    "url": "https://store.steampowered.com/app/353090/",
+    "note": "Steam build (2015)"
+   }
+  ],
+  "official_note": "released 21 November 2014; Steam followed 13 March 2015.",
+  "anyway": [
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "the studio's own channel"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+5",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "nothing delisted - the anyway links are for keeps."
+ },
+ "about": [
+  "Chicken Invaders 5: Cluck of the Dark Side (21 November 2014) is the final classic episode before the series went massively multiplayer with Universe, and it sends the fifth invasion with a straight face: the chickens' fifth attempt to destroy Earth, this time led by CK-01 Henterprise, a corporate war machine with the planet in its sights.",
+  "The fifth engine iteration polishes everything the fourth built: cleaner 3D, denser waves, the satellite and weapon-core systems at full depth, and co-op that remains the best way to lose an evening. The humor leans harder into its parodies - Star Wars, Star Trek, the whole sci-fi shelf - while the difficulty curve stays honest: waves keep coming, and the game keeps counting.",
+  "It got two editions of its own - Halloween (2015) and Christmas (2016) - both on this shelf. After it, InterAction moved the franchise to Universe (2018), making this the last episode in the classic line and the one this archive treats as the series' standing peak."
+ ],
+ "notes_extra": "editions: Halloween (2015-10-02), Christmas (2016-09-19).",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_c07245b0a21d2c1281562b9b66bc0749759397b5.1920x1080.jpg?t=1776692786",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_28b723ea6cbf97252e4d4ed27bda5bdaf4e63d75.1920x1080.jpg?t=1776692786",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_583c9a23a92db9b8543f21474da4dc7ed6bc7998.1920x1080.jpg?t=1776692786",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_1a620d14187b9e90c0f3c5bb6f7761b0a4755282.1920x1080.jpg?t=1776692786",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_e7c4a89ed9398161a4555d5babd1fbcdd22efdc6.1920x1080.jpg?t=1776692786",
+   "https://i.ytimg.com/vi/83OMGVmwA2A/maxres2.jpg",
+   "https://i.ytimg.com/vi/83OMGVmwA2A/maxres1.jpg",
+   "https://i.ytimg.com/vi/83OMGVmwA2A/maxres3.jpg",
+   "https://i.ytimg.com/vi/83OMGVmwA2A/hqdefault.jpg",
+   "https://i.ytimg.com/vi/83OMGVmwA2A/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "83OMGVmwA2A",
+    "title": "Chicken Invaders 5: Cluck of The Dark Side Full Game"
+   },
+   {
+    "kind": "youtube",
+    "id": "t6nx-2XWYDI",
+    "title": "Chicken Invaders 5 - Full Game Walkthrough Gameplay (4K"
+   },
+   {
+    "kind": "youtube",
+    "id": "9wP7RT93JTU",
+    "title": "Chicken Invaders 5: Cluck of the Dark Side Full Gameplay"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/353090/header.jpg"
+}

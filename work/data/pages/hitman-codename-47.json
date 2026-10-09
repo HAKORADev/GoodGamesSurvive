@@ -1,0 +1,94 @@
+{
+ "slug": "hitman-codename-47",
+ "caption": "where 47 began. 2000, Denmark, and a barcode that changed the genre.",
+ "genres": [
+  "stealth",
+  "action"
+ ],
+ "subgenres": [
+  "third-person",
+  "social stealth"
+ ],
+ "characters": [
+  "Agent 47",
+  "Dr. Otto Wolfgang Ort-Meyer",
+  "Diana Burnwood",
+  "Lee Hong",
+  "Pablo Belisario Ochoa",
+  "Frantz Fuchs",
+  "Arkadij 'Boris' Jegorov"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "Pentium II 300MHz, 64MB RAM, 12MB VRAM. GOG ships it Windows 10/11 compatible - the floor is two decades under the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Hitman: Codename 47",
+    "url": "https://store.steampowered.com/app/6900/",
+    "note": "still sold"
+   },
+   {
+    "label": "GOG - Hitman: Codename 47",
+    "url": "https://www.gog.com/en/game/hitman_codename_47",
+    "note": "DRM-free, Windows 10/11 compatible"
+   }
+  ],
+  "official_note": "still sold - Steam and GOG both carry it.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - search",
+    "url": "https://www.myabandonware.com/search/q/hitman-codename-47",
+    "note": "archive route, for the keeps-box"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=hitman+codename+47",
+    "note": "community mirrors"
+   }
+  ],
+  "anyway_note": "the game is still sold, so the archive route is preservation, not rescue."
+ },
+ "about": [
+  "Hitman: Codename 47 (November 2000) is the origin: IO Interactive's first game, and the debut of the bald barcode at the back of a genre's neck. Built around a simple, radical idea for its time - you are the assassin, and the game scores you on how invisible the murder was, not how loud - it invented the sandbox-assassination loop that everything after it refines.",
+  "The story is the franchise's foundation stone: a genetically engineered clone, grown by Dr. Ort-Meyer from the combined stock of four men - Lee Hong, Pablo Ochoa, Frantz Fuchs, Arkadij Jegorov - escaping the asylum that made him and working his way down a contract list that quietly leads home. Diana Burnwood, the ICA handler on the other end of the earpiece, appears here for the first time and never leaves.",
+  "It is a hard, stiff product of 2000 - no save-scumming comforts, demanding disguise logic, checkpoints that respect nothing - and it remains the only mainline entry that was never console-native. GOG's build runs it on Windows 10/11, which is exactly the target machine's shape. The upcoming Classic Trilogy Remastered (Saber + IOI) will rebuild it; until that lands, this is the source."
+ ],
+ "notes_extra": "a direct remaster of this game plus Silent Assassin and Contracts (Hitman Classic Trilogy Remastered, Saber Interactive + IOI) is announced and catalogued.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6900/0000001540.1920x1080.jpg?t=1732283914",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6900/0000001541.1920x1080.jpg?t=1732283914",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6900/0000001542.1920x1080.jpg?t=1732283914",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6900/0000001543.1920x1080.jpg?t=1732283914",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6900/0000001544.1920x1080.jpg?t=1732283914",
+   "https://i.ytimg.com/vi/38HHigu5U3c/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/38HHigu5U3c/maxres2.jpg",
+   "https://i.ytimg.com/vi/38HHigu5U3c/maxres1.jpg",
+   "https://i.ytimg.com/vi/38HHigu5U3c/maxres3.jpg",
+   "https://i.ytimg.com/vi/38HHigu5U3c/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "38HHigu5U3c",
+    "title": "Hitman: Codename 47 - FULL GAME - PC 60fps Longplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "Rs_V4VlBT4w",
+    "title": "Hitman: Codename 47 Playthrough (No Commentary) - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "qVjozs4hhow",
+    "title": "Hitman: Codename 47 Full Game - YouTube"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/6900/header.jpg"
+}

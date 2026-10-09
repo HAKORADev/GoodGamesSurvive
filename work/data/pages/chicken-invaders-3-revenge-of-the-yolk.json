@@ -1,0 +1,91 @@
+{
+ "slug": "chicken-invaders-3-revenge-of-the-yolk",
+ "caption": "the Yolk-Star rises. the third war, in 3D, 2007.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens",
+  "The Yolk-Star"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "3D engine, 2006-era: 512MB RAM, 170MB disk per the Steam page. any Haswell iGPU clears it with room to spare."
+ },
+ "group": "chicken-invaders-3",
+ "group_label": "Chicken Invaders 3",
+ "release_label": "standard",
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - Revenge of the Yolk",
+    "url": "https://www.interactionstudios.com/chickeninvaders3.php",
+    "note": "official page"
+   },
+   {
+    "label": "Steam - Chicken Invaders 3",
+    "url": "https://store.steampowered.com/app/377460/",
+    "note": "Steam build (2015)"
+   }
+  ],
+  "official_note": "the standard edition first shipped 20 January 2007 - after its own Christmas Edition, a series quirk.",
+  "anyway": [
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "the studio's own channel"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+3",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "nothing delisted - the anyway links are for keeps."
+ },
+ "about": [
+  "Chicken Invaders 3: Revenge of the Yolk (standard edition 20 January 2007) is the episode where the series grew a real antagonist: the Yolk-Star, a Death Star parody assembled from egg matter, built by the chickens for their third and most theatrical attempt on Earth. It is also the first mainline episode built in true 3D, and it shows - the wave choreography, camera moments and boss staging all lean on the new engine.",
+  "The fixed-shooter core is intact but denser: weapon tiers with unlockable power cores, satellites that orbit your hull, bonus waves, and a difficulty curve that treats the campaign as a warm-up for the unlockable harder loops. Co-op carried over from the second game and the edition system carried over from its own Christmas debut - Revenge of the Yolk was the first episode to get an Easter variant as well.",
+  "A production quirk worth knowing: the Christmas Edition (11 November 2006) actually shipped before the standard edition, which makes this the only episode in the archive whose holiday version came first."
+ ],
+ "notes_extra": "Christmas Edition 2006-11-11 preceded this standard edition (2007-01-20); Steam build (2015) is the remastered edition.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_7b88d7be9b49ed18182ffc19aa8fd96bc6582066.1920x1080.jpg?t=1776692781",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_a945c1e720ad666f7ef00807df27f68c102c1360.1920x1080.jpg?t=1776692781",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_b15760a18c44abf773c51edc645177b04c97988a.1920x1080.jpg?t=1776692781",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_b2591c894564231ff8f58cf9e8d522d3d2dfecdf.1920x1080.jpg?t=1776692781",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_a660198ab2a89d4d294dfcc20008b5858038de63.1920x1080.jpg?t=1776692781",
+   "https://i.ytimg.com/vi/xfLDUMQkz9w/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/xfLDUMQkz9w/maxres2.jpg",
+   "https://i.ytimg.com/vi/xfLDUMQkz9w/maxres1.jpg",
+   "https://i.ytimg.com/vi/xfLDUMQkz9w/maxres3.jpg",
+   "https://i.ytimg.com/vi/xfLDUMQkz9w/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "xfLDUMQkz9w",
+    "title": "Revenge of the Yolk l LongPlay l No commentary. - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "97ClBzx_nBE",
+    "title": "Chicken Invaders 3 - Revenge of The Yolk Full Game"
+   },
+   {
+    "kind": "youtube",
+    "id": "E0D959on5iE",
+    "title": "Chicken Invaders 3: Revenge of the Yolk Full Gameplay"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/377460/header.jpg"
+}

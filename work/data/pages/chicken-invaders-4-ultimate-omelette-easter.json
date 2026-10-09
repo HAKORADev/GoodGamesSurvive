@@ -1,0 +1,81 @@
+{
+ "slug": "chicken-invaders-4-ultimate-omelette-easter",
+ "caption": "the 2012 Easter edition of Ultimate Omelette - eggs fighting eggs.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens",
+  "The Egg Cannon"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "same body as Ultimate Omelette: 2010-era light 3D, DirectX 8.1-class. anything modern plays it."
+ },
+ "group": "chicken-invaders-4",
+ "group_label": "Chicken Invaders 4",
+ "release_label": "Easter Edition",
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "official channel - the editions distribute from the studio"
+   }
+  ],
+  "official_note": "released 11 March 2012; this edition never shipped on Steam.",
+  "anyway": [
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+omelette+easter",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "the edition comes with the mainline game from the studio's own store."
+ },
+ "about": [
+  "Ultimate Omelette Easter Edition (11 March 2012) leans into the one holiday the series was born to parody: a war against egg-laying invaders, celebrated with eggs. The full fourth-episode campaign runs in spring dressing, from the opening waves to the Egg Cannon itself.",
+  "By 2012 the edition line was a machine - Christmas, Easter and eventually Thanksgiving variants of the same engine, each with its own dressing and wave twists - and this is the middle child of the Ultimate Omelette trio. Like its siblings it shipped from the studio's own distribution, never Steam, so the official download hub remains the legitimate source.",
+  "It completes the Ultimate Omelette set on this archive's shelf: standard, Christmas, Easter, Thanksgiving - four builds of the fourth war, all playable on hardware far below the target bar."
+ ],
+ "notes_extra": "original release 2012-03-11; Steam never carried this edition.",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/Hlzo5Tyl6cY/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/Hlzo5Tyl6cY/maxres2.jpg",
+   "https://i.ytimg.com/vi/Hlzo5Tyl6cY/maxres1.jpg",
+   "https://i.ytimg.com/vi/Hlzo5Tyl6cY/maxres3.jpg",
+   "https://i.ytimg.com/vi/Hlzo5Tyl6cY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Hlzo5Tyl6cY/hq2.jpg",
+   "https://i.ytimg.com/vi/Hlzo5Tyl6cY/hq1.jpg",
+   "https://i.ytimg.com/vi/Hlzo5Tyl6cY/hq3.jpg",
+   "https://i.ytimg.com/vi/1vJ7SU09Ld4/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/1vJ7SU09Ld4/maxres2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "Hlzo5Tyl6cY",
+    "title": "Ultimate Omelette Easter Edition】Full Gameplay [2023]"
+   },
+   {
+    "kind": "youtube",
+    "id": "1vJ7SU09Ld4",
+    "title": "Chicken Invaders 4 Ultimate Omelette Easter Edition  - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "lnWCdlNYeuo",
+    "title": "Chicken Invaders 4: Ultimate Omelette Easter Edition Full"
+   }
+  ]
+ },
+ "thumbnail": "https://i.ytimg.com/vi/Hlzo5Tyl6cY/maxresdefault.jpg"
+}

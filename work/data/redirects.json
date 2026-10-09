@@ -1,0 +1,9 @@
+{
+ "_meta": {
+  "schema": "ggs.v2",
+  "law": "aliases: from -> to. engine emits meta-refresh pages. tested with dummies, then emptied."
+ },
+ "redirects": [
+  {"from": "chicken-invaders-5", "to": "chicken-invaders-5-cluck-of-the-dark-side", "sec": "games", "note": "old live URL from the first dig"}
+ ]
+}

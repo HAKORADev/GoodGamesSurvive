@@ -1,0 +1,83 @@
+{
+ "slug": "hitman-2016",
+ "caption": "the 2016 rebirth: episodic, sandbox-perfect, and the start of the World of Assassination.",
+ "genres": [
+  "stealth",
+  "action",
+  "adventure"
+ ],
+ "subgenres": [
+  "third-person",
+  "social stealth",
+  "sandbox"
+ ],
+ "characters": [
+  "Agent 47",
+  "Diana Burnwood",
+  "Viktor Novikov",
+  "Silvio Caruso",
+  "Erich Soders"
+ ],
+ "req": {
+  "tier": "above",
+  "note": "GTX 660 / HD 7870 minimum, 50GB disk. a Haswell iGPU is far under the floor - this one is catalogued as the upgrade path, not an archive target."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "removed from sale - in January 2023 IOI folded it into HITMAN World of Assassination and delisted the standalone release. the official channel is the WoA release now.",
+  "anyway": [
+   {
+    "label": "Steam - HITMAN World of Assassination",
+    "url": "https://store.steampowered.com/app/1659040/",
+    "note": "the only way to own the trilogy now - includes this game's content"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=hitman+2016",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "this is the delisted case the anyway links exist for: the standalone game cannot be bought anymore, and its legal home is inside the successor."
+ },
+ "about": [
+  "HITMAN (2016) is the reboot that saved the series. After Absolution's linear detour, IOI rebuilt the sandbox dream at full scale and shipped it episodically through the year: Paris' fashion-show palace, Sapienza's entire coastal town, Marrakesh's souk, Colorado's militia farm, Hokkaido's hospital GARDEN. Every level is a self-contained world of routines, disguises and opportunities, and the craft got so clean that the game became the genre's template overnight.",
+  "The season's plot is a prologue in disguise: 47 and Diana's first meeting (playable as the ICA recruitment missions), a chain of contracts dismantling the shadow network IAGO, and the first glimpses of Providence - the secret government of the world that the whole trilogy chases. Erich Soders, the ICA board's hardliner, anchors the Hokkaido finale.",
+  "Ownership history matters here: as of 26 January 2023 the standalone release is delisted and its content lives inside HITMAN World of Assassination (2021's Hitman 3, rebranded). This page documents the 2016 season as a distinct release; the anyway links go where the content legally lives now. The engine wants a GTX 660 floor and 50GB of disk - far above the target machine, which is why the modern trilogy is catalogued as the series' upgrade path, not an archive target."
+ ],
+ "notes_extra": "delisted standalone (Steam removed it in the 2023 WoA restructure); its content is owned through WoA.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/ss_ce6e02fba53bc071728958a8506d2d44ef3f36ab.1920x1080.jpg?t=1768906497",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/ss_0dfb3d13f214b39df78e72de3be3fd76a9bb071f.1920x1080.jpg?t=1768906497",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/ss_56148a8cd50161e9f9c495873ddce488e0f47592.1920x1080.jpg?t=1768906497",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/ss_b0d702102fdcf203f8763fab63678750ff568e31.1920x1080.jpg?t=1768906497",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/ss_d2f7ec72928847ec3e3becc3bd195f833ce846fe.1920x1080.jpg?t=1768906497",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/ss_275d6b375ec268aabc0b283006363d8c10a3cc87.1920x1080.jpg?t=1768906497",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/ss_5e8fbb6dcb67d1ef1942daa6766d51cad5d45fc2.1920x1080.jpg?t=1768906497",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/ss_494a7d7c4e2435d9ee3556e5afa71e269f9fb68f.1920x1080.jpg?t=1768906497",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/ss_9b560264bbac13f6363c94a30a8f66d6ec5a7bb0.1920x1080.jpg?t=1768906497",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/ss_a3f75c072f71ad5b82876308b204fd8c96ce78a9.1920x1080.jpg?t=1768906497"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "llkaMjFzQuE",
+    "title": "Hitman - All Missions | FULL GAME Walkthrough No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "Kqpuly8-Sps",
+    "title": "No Commentary (Hitman 2016 Full Gameplay Walkthrough) 2016"
+   },
+   {
+    "kind": "youtube",
+    "id": "zcUZjbr6F3Y",
+    "title": "Hitman 2016 | Full Game Playthrough | No Commentary"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/236870/header.jpg"
+}

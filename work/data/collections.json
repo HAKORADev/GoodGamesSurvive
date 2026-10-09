@@ -1,0 +1,74 @@
+{
+ "_meta": {
+  "schema": "ggs.v2",
+  "updated": "2026-10-09",
+  "law": "source of truth for collections. a collection holds pages of one section. a multi-collection holds collections. engine: tools/build.py."
+ },
+ "collections": [
+  {
+   "slug": "hitman-collection",
+   "title": "The Hitman Collection",
+   "section": "games",
+   "caption": "eight mainline hits, 2000 to today. the barcode's whole story on one shelf.",
+   "about": [
+    "Every numbered Hitman, in order: Codename 47's origin, Silent Assassin's conscience, Contracts' dark detour, Blood Money's sandbox peak, Absolution's cinematic detour, and the World of Assassination trilogy that rebuilt everything and merged into one release in 2023.",
+    "The classics (2000-2006) are true archive targets - they run on and under the haswell iGPU bar and are still sold DRM-free. Absolution sits at the target line with its 24GB body. The modern trilogy is catalogued as the series' upgrade path: it will not fit the target machine, and its pages exist to route ownership, not to pretend otherwise."
+   ],
+   "items": [
+    "hitman-codename-47",
+    "hitman-2-silent-assassin",
+    "hitman-3-contracts",
+    "hitman-blood-money",
+    "hitman-absolution",
+    "hitman-2016",
+    "hitman-2-2018",
+    "hitman-3-2021"
+   ],
+   "catalogued": [
+    "hitman-go",
+    "hitman-sniper",
+    "hitman-sniper-challenge",
+    "hitman-classic-trilogy-remastered"
+   ],
+   "notes": [
+    "the spinoffs (GO, Sniper, Sniper Challenge) are catalogued rows, not pages - they wait their dig.",
+    "Hitman Classic Trilogy Remastered (Saber Interactive + IOI) is announced and will be the direct upgrade of the first three classics when it lands."
+   ]
+  },
+  {
+   "slug": "chicken-invaders-collection",
+   "title": "The Chicken Invaders Collection",
+   "section": "games",
+   "caption": "the full classic line: five wars, every holiday edition, 1999 to 2016.",
+   "about": [
+    "One hundred percent of the classic Chicken Invaders line: the five mainline episodes and every holiday edition the series ever shipped - Christmas x4, Easter x2, Halloween x1, Thanksgiving x1 - thirteen builds in release order, from the 1999 original to the classic line's 2016 Christmas bow.",
+    "The production quirk the shelf keeps honest: the third war's Christmas Edition (November 2006) shipped before the standard game (January 2007), making it the only edition in the series that predates its own episode.",
+    "InterAction studios is alive and still distributes most of this line itself, which makes these pages ownership stories rather than rescues - the exception is the Ultimate Omelette holiday trio, never carried on Steam and living only on the studio's own download hub."
+   ],
+   "items": [
+    "chicken-invaders",
+    "chicken-invaders-2-the-next-wave",
+    "chicken-invaders-2-the-next-wave-christmas",
+    "chicken-invaders-3-revenge-of-the-yolk-christmas",
+    "chicken-invaders-3-revenge-of-the-yolk",
+    "chicken-invaders-3-revenge-of-the-yolk-easter",
+    "chicken-invaders-4-ultimate-omelette",
+    "chicken-invaders-4-ultimate-omelette-christmas",
+    "chicken-invaders-4-ultimate-omelette-easter",
+    "chicken-invaders-4-ultimate-omelette-thanksgiving",
+    "chicken-invaders-5-cluck-of-the-dark-side",
+    "chicken-invaders-5-cluck-of-the-dark-side-halloween",
+    "chicken-invaders-5-cluck-of-the-dark-side-christmas"
+   ],
+   "catalogued": [
+    "chicken-invaders-universe",
+    "chicken-invaders-remastered"
+   ],
+   "notes": [
+    "Chicken Invaders Universe (2018, early access to 2022) is the MMO-styled successor - catalogued, not an archive target.",
+    "Chicken Invaders: Remastered is the studio's beta remaster line (2023-) covering the mainline episodes; episode 1 shipped on Steam in 2025 as 'Chicken Invaders 1'."
+   ]
+  }
+ ],
+ "multi_collections": []
+}

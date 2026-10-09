@@ -1,0 +1,86 @@
+{
+ "slug": "chicken-invaders-5-cluck-of-the-dark-side-halloween",
+ "caption": "the 2015 Halloween edition - the Dark Side invasion, dressed for the night.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens",
+  "CK-01 Henterprise"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "same body as Cluck of the Dark Side: 220MB, DirectX 8.1-class minimums. a Haswell iGPU should hold it, unconfirmed until tested."
+ },
+ "group": "chicken-invaders-5",
+ "group_label": "Chicken Invaders 5",
+ "release_label": "Halloween Edition",
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Chicken Invaders 5 Halloween Edition",
+    "url": "https://store.steampowered.com/app/402990/",
+    "note": "Steam build (2015)"
+   },
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "official channel"
+   }
+  ],
+  "official_note": "released 2 October 2015.",
+  "anyway": [
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+halloween",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "the edition bundles with the mainline on Steam and from the studio."
+ },
+ "about": [
+  "Cluck of the Dark Side Halloween Edition (2 October 2015) is the first edition of the fifth episode and the series' first Halloween variant: the fifth invasion restaged as a horror night, with the Dark Side's corporate war machine glowing in the dark.",
+  "The full fifth-episode campaign runs underneath - Henterprise, the weapon cores, the co-op - with the holiday's dressing over the wave design. It shipped directly to Steam a month before the season, bundled with the mainline game per the series' edition policy, and it remains the newest Halloween content the classic line ever received.",
+  "As the only Halloween entry in the whole franchise it is a natural collector's target, and it completes this archive's Cluck of the Dark Side trio: standard, Halloween, Christmas."
+ ],
+ "notes_extra": "original release 2015-10-02; Steam 2015-10-01.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/402990/ss_fb93f9226dabdfdc5e46d7b7f6b196804ab34594.1920x1080.jpg?t=1695975409",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/402990/ss_c60fad7e90daa2301cb1e578327de6b82fc22f0d.1920x1080.jpg?t=1695975409",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/402990/ss_39f97d3af80be2446c39c8f852faf2004ecd4ee6.1920x1080.jpg?t=1695975409",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/402990/ss_d620aae4fb7ed2c6e0a764661d7f74c36865e57a.1920x1080.jpg?t=1695975409",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/402990/ss_a861ebd88ec3d6e61689d6ea0eb9119ebc77dd34.1920x1080.jpg?t=1695975409",
+   "https://i.ytimg.com/vi/77zOWYzh8Kc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/77zOWYzh8Kc/hq2.jpg",
+   "https://i.ytimg.com/vi/77zOWYzh8Kc/hq1.jpg",
+   "https://i.ytimg.com/vi/77zOWYzh8Kc/hq3.jpg",
+   "https://i.ytimg.com/vi/Oqj8KESAMuc/maxres2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "77zOWYzh8Kc",
+    "title": "Chicken Invaders 5 - Halloween Edition (Full Game) - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "Oqj8KESAMuc",
+    "title": "Chicken invaders 5 halloween full gameplay - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "UfI0LVn_VnI",
+    "title": "Chicken Invaders 5: Cluck of The Dark Side Halloween Edition"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/402990/header.jpg"
+}

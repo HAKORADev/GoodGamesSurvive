@@ -1,0 +1,84 @@
+{
+ "slug": "chicken-invaders",
+ "caption": "the 1999 original. one ship, the solar system, and a very organized poultry invasion.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "1999 fixed shooter, 2D. the original build asks for nothing by modern standards. the 2025 Steam remaster of episode 1 wants DirectX 11 - this page covers the original."
+ },
+ "group": "chicken-invaders-1",
+ "group_label": "Chicken Invaders",
+ "release_label": "standard",
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - Chicken Invaders",
+    "url": "https://www.interactionstudios.com/chickeninvaders.php",
+    "note": "official page - the full game is a free download there"
+   }
+  ],
+  "official_note": "the studio is alive and distributes this one itself. freeware, from the source.",
+  "anyway": [
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "the studio's own download hub"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "nothing is delisted here - the anyway links are convenience and preservation, not rescue."
+ },
+ "about": [
+  "Chicken Invaders is where the whole thing started: a 1999 fixed shooter by Konstantinos Prouskas of InterAction studios, openly built as a parody of Space Invaders and Galaxian. The premise never pretends to be anything else - intelligent chickens, armed and organized, are invading Earth in revenge for centuries of poultry oppression, and one lone spacecraft stands between them and the omelet end of history.",
+  "The game plays it straight as a fixed shooter: your ship slides along the bottom of the screen, waves of chickens descend in formations, and every fallen bird drops eggs, drumsticks and gift boxes that upgrade your weapon. What made it last is the comedy of scale - boss fights against enormous egg-laying war machines, waves that spell things out in chickens, and difficulty that keeps climbing long after the joke has landed.",
+  "It spawned five numbered sequels, a string of holiday editions, an MMO-styled spin-off, and a remaster line that is still being rolled out. The original is still handed out free by the studio that made it, which makes this one of the cleanest rescue stories in the archive: nothing was ever really lost."
+ ],
+ "notes_extra": "the Steam release of 2025-03-07 (as 'Chicken Invaders 1') is the remastered episode 1, not this 1999 build.",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/hzXR_EwsGGc/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/hzXR_EwsGGc/maxres2.jpg",
+   "https://i.ytimg.com/vi/hzXR_EwsGGc/maxres1.jpg",
+   "https://i.ytimg.com/vi/hzXR_EwsGGc/maxres3.jpg",
+   "https://i.ytimg.com/vi/hzXR_EwsGGc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/hzXR_EwsGGc/hq2.jpg",
+   "https://i.ytimg.com/vi/hzXR_EwsGGc/hq1.jpg",
+   "https://i.ytimg.com/vi/hzXR_EwsGGc/hq3.jpg",
+   "https://i.ytimg.com/vi/4pxECvjLZ70/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/4pxECvjLZ70/maxres2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "hzXR_EwsGGc",
+    "title": "Chicken Invaders | Full Game | No Commentary - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "4pxECvjLZ70",
+    "title": "Chicken Invaders (PC) - Gameplay | No Commentary - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "3GVSckA1EXQ",
+    "title": "Chicken Invaders 1 PC Longplay Complete - YouTube"
+   }
+  ]
+ },
+ "thumbnail": "https://i.ytimg.com/vi/hzXR_EwsGGc/maxresdefault.jpg"
+}

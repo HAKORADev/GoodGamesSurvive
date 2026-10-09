@@ -1,0 +1,86 @@
+{
+ "slug": "chicken-invaders-3-revenge-of-the-yolk-christmas",
+ "caption": "the 2006 debut of Revenge of the Yolk - the third war, fought in the snow.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens",
+  "The Yolk-Star"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "same body as Revenge of the Yolk: 2006-era 3D, 170MB disk, 512MB RAM. anything modern plays it."
+ },
+ "group": "chicken-invaders-3",
+ "group_label": "Chicken Invaders 3",
+ "release_label": "Christmas Edition",
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Chicken Invaders 3 Christmas Edition",
+    "url": "https://store.steampowered.com/app/378620/",
+    "note": "Steam build (2015)"
+   },
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "official channel"
+   }
+  ],
+  "official_note": "this edition was the first public release of the Revenge of the Yolk engine.",
+  "anyway": [
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+yolk+christmas",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "the edition bundles with the mainline on Steam and from the studio."
+ },
+ "about": [
+  "Revenge of the Yolk Christmas Edition (11 November 2006) holds a strange record: it is the first edition in the series to debut before its own standard edition. InterAction shipped the holiday build of the third episode two months before the regular game, which means the Yolk-Star's first appearance on Earth was wearing a Santa hat.",
+  "It is the full third episode underneath - the 3D engine, the weapon cores, the co-op campaign - re-dressed for the holidays, with snow-globe waves and festive pickups standing in for the standard dressing. Like every edition it plays as a complete game, not a reskin demo: the campaign runs start to finish.",
+  "For collectors this is the edition line's third member and the rare case where the holiday version is also a piece of the series' release history. The Steam listing (2015) carries the remastered build."
+ ],
+ "notes_extra": "original release 2006-11-11; Steam build (2015) is the remastered edition.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378620/ss_083e5aafa14cb3e18dfb4e6f5931c9baacd91a41.1920x1080.jpg?t=1695975402",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378620/ss_0c6c8355a8358dd479374f8d5ed7f8612d2b811b.1920x1080.jpg?t=1695975402",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378620/ss_e039a11a60d544ca948ae76e2b3564949b015ac0.1920x1080.jpg?t=1695975402",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378620/ss_b3072f3f01825b39b3ec7ebb5aa7b4a0a242be20.1920x1080.jpg?t=1695975402",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378620/ss_d7f543a1643a54a575a794572c7f3653426d1998.1920x1080.jpg?t=1695975402",
+   "https://i.ytimg.com/vi/TgzcefAEYbI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/TgzcefAEYbI/hq2.jpg",
+   "https://i.ytimg.com/vi/TgzcefAEYbI/hq1.jpg",
+   "https://i.ytimg.com/vi/TgzcefAEYbI/hq3.jpg",
+   "https://i.ytimg.com/vi/tva1ZQH21Yg/maxres2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "TgzcefAEYbI",
+    "title": "Chicken Invaders 3 - Christmas Edition (Full Game) - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "tva1ZQH21Yg",
+    "title": "Chicken Invaders 3 - Revenge of The Yolk Christmas Edition"
+   },
+   {
+    "kind": "youtube",
+    "id": "Se_0yxv71ZM",
+    "title": "CHICKEN INVADERS 3 REVENGE OF THE YOLK  - YouTube"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/378620/header.jpg"
+}

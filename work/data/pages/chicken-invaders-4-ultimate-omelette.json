@@ -1,0 +1,91 @@
+{
+ "slug": "chicken-invaders-4-ultimate-omelette",
+ "caption": "the fourth war. the Egg Cannon. 2010's best-dressed omelet apocalypse.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens",
+  "The Egg Cannon"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "DirectX 8.1, 210MB disk, 512MB RAM per the Steam page. 2010-era light 3D - below the target bar."
+ },
+ "group": "chicken-invaders-4",
+ "group_label": "Chicken Invaders 4",
+ "release_label": "standard",
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - Ultimate Omelette",
+    "url": "https://www.interactionstudios.com/chickeninvaders4.php",
+    "note": "official page"
+   },
+   {
+    "label": "Steam - Chicken Invaders 4",
+    "url": "https://store.steampowered.com/app/301300/",
+    "note": "Steam build (2014)"
+   }
+  ],
+  "official_note": "officially released 6 December 2010; Steam followed 6 June 2014.",
+  "anyway": [
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "the studio's own channel"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+omelette",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "nothing delisted - the anyway links are for keeps."
+ },
+ "about": [
+  "Chicken Invaders 4: Ultimate Omelette (6 December 2010) is the biggest of the pre-Universe episodes and the one that gave the series its most absurd weapon of mass destruction: the Egg Cannon, a chicken-built superweapon aimed at Earth with the stated goal of frying the planet into a cosmic omelet.",
+  "It is the fourth war and the fourth engine iteration: sharper 3D, bigger wave variety, more satellites and weapon cores, and the series' most generous edition output - Ultimate Omelette is the only episode to receive a Thanksgiving Edition alongside Christmas and Easter variants. Co-op remains the center of gravity: four players, one screen, and an escalating storm of poultry.",
+  "The campaign structure keeps the episode formula - chapters of ten waves, boss confrontations, unlockable difficulty loops - while the presentation finally catches up to the joke's ambition. Among casual-shooter historians this is the peak of the classic line, and it still runs on integrated graphics that predate the target machine."
+ ],
+ "notes_extra": "editions: Christmas (2011), Easter (2012), Thanksgiving (2013) - the only Thanksgiving in the series.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301300/ss_aff57f6723570de4c2dc0bfd7117d6ab1cd679f9.1920x1080.jpg?t=1776692785",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301300/ss_94bb4fb102cec299db9593f0bc13ccd1c0324b0e.1920x1080.jpg?t=1776692785",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301300/ss_b0e81d9583641bfb34ffaa42c19c75fe2314ca0d.1920x1080.jpg?t=1776692785",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301300/ss_b6e86ea12d17ca20bd768d93b78fd4720713e689.1920x1080.jpg?t=1776692785",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301300/ss_663b5f162476f2540afd539c4dfef991ae042fe3.1920x1080.jpg?t=1776692785",
+   "https://i.ytimg.com/vi/JNMy6IvBxsM/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/JNMy6IvBxsM/maxres2.jpg",
+   "https://i.ytimg.com/vi/JNMy6IvBxsM/maxres1.jpg",
+   "https://i.ytimg.com/vi/JNMy6IvBxsM/maxres3.jpg",
+   "https://i.ytimg.com/vi/JNMy6IvBxsM/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "JNMy6IvBxsM",
+    "title": "Chicken Invaders 4: Ultimate Omelette - No Commentary - Ending"
+   },
+   {
+    "kind": "youtube",
+    "id": "IM1B0PR9_Lk",
+    "title": "Chicken Invaders 4 : Ultimate Omelette - PC Longplay - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "0G7wE7HW0u8",
+    "title": "Chicken Invaders 4: Ultimate Omelette Gameplay Walkthrough"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/301300/header.jpg"
+}

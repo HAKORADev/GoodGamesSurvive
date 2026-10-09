@@ -1,0 +1,93 @@
+{
+ "slug": "hitman-absolution",
+ "caption": "2012's personal contract: 47 against the agency, protecting a girl the ICA wants dead.",
+ "genres": [
+  "stealth",
+  "action"
+ ],
+ "subgenres": [
+  "third-person",
+  "linear stealth"
+ ],
+ "characters": [
+  "Agent 47",
+  "Diana Burnwood",
+  "Victoria",
+  "Blake Dexter",
+  "Benjamin Travis",
+  "Birdie"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "24GB disk - big-size per the law - and an NV8600-class GPU floor. a Haswell HD4400 sits right around that minimum: should hold, unconfirmed until tested."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Hitman: Absolution",
+    "url": "https://store.steampowered.com/app/203140/",
+    "note": "still sold"
+   },
+   {
+    "label": "GOG - Hitman: Absolution",
+    "url": "https://www.gog.com/en/game/hitman_absolution",
+    "note": "DRM-free"
+   }
+  ],
+  "official_note": "still sold - Steam and GOG both carry it.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - search",
+    "url": "https://www.myabandonware.com/search/q/hitman-absolution",
+    "note": "archive route, for the keeps-box"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=hitman+absolution",
+    "note": "community mirrors"
+   }
+  ],
+  "anyway_note": "the game is still sold, so the archive route is preservation, not rescue."
+ },
+ "about": [
+  "Hitman: Absolution (November 2012) is the series' most divisive entry and its most cinematic. Diana Burnwood betrays the ICA on the game's first act, 47 takes the contract on his own handler, and what he finds - a girl named Victoria, engineered like him - turns the assignment into the one job he refuses to finish. Blake Dexter, a private-security billionaire with bottomless funds, and ICA's Benjamin Travis close in from both sides.",
+  "It is built on the Glacier 2 engine that the modern trilogy still runs: dense crowds, instanced checkpoints, and a disguise system scored by visibility. The structure breaks from the series' open sandboxes into authored, linear vignettes - a strip motel, a Chinatown informer network, a level that fights an army of killer nuns - and the split in reception is exactly that trade: spectacle bought with sandbox freedom.",
+  "Twenty-four gigabytes on disk puts it over the big-size line, and its GPU floor sits almost exactly at the target machine's ceiling - the closest thing this archive carries to a target-tier game. Still sold on Steam and DRM-free on GOG. The story's loose threads (Travis, Victoria) resolve in the 2016 reboot's comic bridge, catalogued on that page."
+ ],
+ "notes_extra": "big-size verified: 24GB store-stated disk. Glacier 2's first outing.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/ss_02033e4c2383bee25e72d2591fac1b436f5483f4.1920x1080.jpg?t=1734461136",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/ss_9474fb068b723003f15ee205e05f819f116cc64a.1920x1080.jpg?t=1734461136",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/ss_d0fc1f2950ca1a4c02ac9b79f82977783d3aee04.1920x1080.jpg?t=1734461136",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/ss_7d091c81c962cef3c4f5a1044a068cfe0afffa49.1920x1080.jpg?t=1734461136",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/ss_c315fe5dfeb97a7105d75595ae0202421e020d07.1920x1080.jpg?t=1734461136",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/ss_67dd8f7a1bb731f013d167d0570aac7d064d12cc.1920x1080.jpg?t=1734461136",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/ss_6651474a83682dec029aebc3858ef366524f2052.1920x1080.jpg?t=1734461136",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/ss_c38bf9ed35bb75729c2959c1c9b89711765130af.1920x1080.jpg?t=1734461136",
+   "https://i.ytimg.com/vi/5agHXdZaKF4/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/5agHXdZaKF4/maxres2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "5agHXdZaKF4",
+    "title": "FULL GAME Expert Walkthrough Gameplay No Commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "v_MQ3h3i_S8",
+    "title": "Hitman Absolution Full Game Walkthrough Longplay - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "iCJ0L7zmnsA",
+    "title": "Hitman: Absolution - Full Game - YouTube"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/203140/header.jpg"
+}

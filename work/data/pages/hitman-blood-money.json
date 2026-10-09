@@ -1,0 +1,99 @@
+{
+ "slug": "hitman-blood-money",
+ "caption": "the fourth 47, and still the one people mean when they say the series peaked twice.",
+ "genres": [
+  "stealth",
+  "action",
+  "adventure"
+ ],
+ "subgenres": [
+  "third-person",
+  "social stealth",
+  "sandbox"
+ ],
+ "characters": [
+  "Agent 47",
+  "Diana Burnwood",
+  "Alexander Leland Cayne",
+  "Mark Parchezzi III",
+  "Agent Smith"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "Pentium 4 1.5GHz, DirectX 9 TnL. any Haswell iGPU clears it; ~3.6GB repack install. widescreen needs community fixes - not tested here."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Hitman: Blood Money",
+    "url": "https://store.steampowered.com/app/6860/",
+    "note": "still sold"
+   },
+   {
+    "label": "GOG - Hitman: Blood Money",
+    "url": "https://www.gog.com/en/game/hitman_blood_money",
+    "note": "DRM-free"
+   }
+  ],
+  "official_note": "still sold - Steam and GOG both carry it.",
+  "anyway": [
+   {
+    "label": "Old Games Download",
+    "url": "https://oldgamesdownload.com/hitman-blood-money/",
+    "note": "archive route, for the keeps-box"
+   },
+   {
+    "label": "MyAbandonware - search",
+    "url": "https://www.myabandonware.com/search/q/hitman-blood-money",
+    "note": "archive route"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=hitman+blood+money",
+    "note": "community mirrors"
+   }
+  ],
+  "anyway_note": "the game is still sold, so the archive route is preservation, not rescue."
+ },
+ "about": [
+  "Hitman: Blood Money (May 2006) is the classic series' high-water mark and the game that defined the sandbox assassination genre for the generation after it. A rival agency is killing the ICA's contracts and 47 works the American circuit - Mardi Gras, the White House, a Vegas casino heist gone wrong - while agent Alexander Leland Cayne builds a frame job around him and the albino killer Mark Parchezzi III shadows the brand.",
+  "Its systems are the reason the game outlived its era: accident kills, notoriety that follows you between missions unless you bribe it down, custom weapon upgrades carried contract to contract, human shields, body disposal, and scoring that grades the artistry of the kill instead of the body count. Every mission is a small open world with multiple complete solutions, and the ending - 47's funeral, and what walks out of it - remains one of the genre's best cuts to black.",
+  "The engine is 2006 and happy on the target machine: DirectX 9, a Pentium 4 floor, and a Haswell iGPU running it comfortably. Widescreen and modern-display fixes exist in the community but are not tested on this page. Still sold on Steam and DRM-free on GOG; the World of Assassination trilogy later remade its best missions as the Blood Money Reprisal pack, but the original stands on its own."
+ ],
+ "notes_extra": "EU 2006-05-26 / NA 2006-05-30. part 4 of the classics; the modern trilogy is catalogued as the series' upgrade path.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/0000001408.1920x1080.jpg?t=1732283123",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/0000001409.1920x1080.jpg?t=1732283123",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/0000001410.1920x1080.jpg?t=1732283123",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/0000001411.1920x1080.jpg?t=1732283123",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/0000001412.1920x1080.jpg?t=1732283123",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/0000001413.1920x1080.jpg?t=1732283123",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/0000001414.1920x1080.jpg?t=1732283123",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/0000001415.1920x1080.jpg?t=1732283123",
+   "https://i.ytimg.com/vi/d1PoAkWB2pE/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/d1PoAkWB2pE/maxres2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "d1PoAkWB2pE",
+    "title": "Hitman: Blood Money (Full Longplay, No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "I6xlRHd6CDg",
+    "title": "Hitman: Blood Money | PS2 | Longplay Full Game Walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "Lc1j0zPy0_A",
+    "title": "Hitman Blood Money【FULL GAME】100% stealth | LONGPLAY"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg"
+}

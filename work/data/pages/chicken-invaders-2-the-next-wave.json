@@ -1,0 +1,90 @@
+{
+ "slug": "chicken-invaders-2-the-next-wave",
+ "caption": "the chickens came back, organized, and brought the whole solar system with them.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2D, DirectX 9-era at most, 80MB of disk per the Steam page. integrated graphics from any decade clears it."
+ },
+ "group": "chicken-invaders-2",
+ "group_label": "Chicken Invaders 2",
+ "release_label": "standard",
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - The Next Wave",
+    "url": "https://www.interactionstudios.com/chickeninvaders2.php",
+    "note": "official page"
+   },
+   {
+    "label": "Steam - Chicken Invaders 2",
+    "url": "https://store.steampowered.com/app/449550/",
+    "note": "Steam build (2016)"
+   }
+  ],
+  "official_note": "the official site carries the series; Steam carries the 2016 build of the game.",
+  "anyway": [
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "the studio's own channel"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+2",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "still distributed by its own studio - the anyway links are for keeps."
+ },
+ "about": [
+  "Chicken Invaders 2: The Next Wave (2002) is the sequel that turned a joke into a franchise. The chickens returned after their first defeat, this time with an organized invasion aimed at the entire solar system, and the game responds with more chapters, more weapon levels, and a proper campaign structure instead of the first game's single endless climb.",
+  "The core loop stays a fixed shooter - move along the bottom, dodge the falling eggs, shoot everything that clucks - but the second game adds the pieces people actually remember: collectible power-ups that chain into a proper weapon-tier system, food drops that feed a score multiplier, and bosses built around gimmicks instead of just size. It also introduced cooperative play to the series, the feature that would carry it through every later entry.",
+  "The Next Wave is the episode most holiday editions trace back to, and its Christmas Edition (2003) was the first of the whole series' edition line. Like the original, it remains in the hands of the studio that made it, still downloadable, still working."
+ ],
+ "notes_extra": "the Steam build (2016) is the remastered edition of the game.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/ss_014c265e7c1e6936683a1db78fe7bf6585614d5a.1920x1080.jpg?t=1776692784",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/ss_938daa406a7e28495e791879c2cb51a56b2ff332.1920x1080.jpg?t=1776692784",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/ss_4024d89dbe7e54b3c285e8ea60e74180e7e1e17d.1920x1080.jpg?t=1776692784",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/ss_be3cf631e91a430ce07ab2bb4cd9b2bee8379f0c.1920x1080.jpg?t=1776692784",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/ss_faf44dfc72216fceada57b03f8fdd710f0c8865f.1920x1080.jpg?t=1776692784",
+   "https://i.ytimg.com/vi/LZBlAxaOd4Q/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/LZBlAxaOd4Q/maxres2.jpg",
+   "https://i.ytimg.com/vi/LZBlAxaOd4Q/maxres1.jpg",
+   "https://i.ytimg.com/vi/LZBlAxaOd4Q/maxres3.jpg",
+   "https://i.ytimg.com/vi/LZBlAxaOd4Q/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "LZBlAxaOd4Q",
+    "title": "Chicken Invaders 2: The Next Wave (2002 PC) FULL Game"
+   },
+   {
+    "kind": "youtube",
+    "id": "4KxlysG7rjI",
+    "title": "Chicken Invaders 2 - The Next Wave Full Game Gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "YvEV3MqI2Zo",
+    "title": "Chicken Invaders 2: The Next Wave – FULL GAME  - YouTube"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/449550/header.jpg"
+}

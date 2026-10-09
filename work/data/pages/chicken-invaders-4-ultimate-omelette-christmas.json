@@ -1,0 +1,81 @@
+{
+ "slug": "chicken-invaders-4-ultimate-omelette-christmas",
+ "caption": "the 2011 Christmas edition of Ultimate Omelette - the Egg Cannon season.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens",
+  "The Egg Cannon"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "same body as Ultimate Omelette: 2010-era light 3D, DirectX 8.1-class. anything modern plays it."
+ },
+ "group": "chicken-invaders-4",
+ "group_label": "Chicken Invaders 4",
+ "release_label": "Christmas Edition",
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "official channel - the editions distribute from the studio"
+   }
+  ],
+  "official_note": "released 24 November 2011; this edition never shipped on Steam.",
+  "anyway": [
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+omelette+christmas",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "the edition comes with the mainline game from the studio's own store."
+ },
+ "about": [
+  "Ultimate Omelette Christmas Edition (24 November 2011) is the first of the fourth episode's three holiday variants, and the second Christmas edition of the series after The Next Wave's 2003 original. The full Ultimate Omelette campaign - Egg Cannon included - runs under the snow.",
+  "Editions of this episode were never bare reskins: the holiday builds carry their own wave dressing, their own pickup tables, and the kind of detail work that made collectors treat them as complete games. This one shipped from the studio's own channels rather than portals, and it never made the jump to Steam, which makes the official site the primary source for it to this day.",
+  "That is also why it sits in this archive's rescue logic: the only legitimate distribution is the developer's own download hub. If InterAction ever closes that door, the anyway links are what remain."
+ ],
+ "notes_extra": "original release 2011-11-24; Steam never carried this edition.",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/A_FO6AuUfQ8/maxres2.jpg",
+   "https://i.ytimg.com/vi/A_FO6AuUfQ8/maxres1.jpg",
+   "https://i.ytimg.com/vi/A_FO6AuUfQ8/maxres3.jpg",
+   "https://i.ytimg.com/vi/A_FO6AuUfQ8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/A_FO6AuUfQ8/hq2.jpg",
+   "https://i.ytimg.com/vi/A_FO6AuUfQ8/hq1.jpg",
+   "https://i.ytimg.com/vi/A_FO6AuUfQ8/hq3.jpg",
+   "https://i.ytimg.com/vi/wSAUKsvgXIs/maxres2.jpg",
+   "https://i.ytimg.com/vi/wSAUKsvgXIs/maxres1.jpg",
+   "https://i.ytimg.com/vi/wSAUKsvgXIs/maxres3.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "A_FO6AuUfQ8",
+    "title": "Chicken Invaders 4: Ultimate Omelette Christmas Edition Full"
+   },
+   {
+    "kind": "youtube",
+    "id": "wSAUKsvgXIs",
+    "title": "Chicken Invaders: Ultimate Omelette - Christmas Edition"
+   },
+   {
+    "kind": "youtube",
+    "id": "Vz8vDXxd91c",
+    "title": "Chicken Invaders 4: Ultimate Omelette Christmas Edition Full"
+   }
+  ]
+ },
+ "thumbnail": "https://i.ytimg.com/vi/A_FO6AuUfQ8/maxres2.jpg"
+}

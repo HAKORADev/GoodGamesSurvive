@@ -1,0 +1,81 @@
+{
+ "slug": "chicken-invaders-4-ultimate-omelette-thanksgiving",
+ "caption": "the only Thanksgiving edition in the series - turkeys revolted, 2013.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens",
+  "The Egg Cannon"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "same body as Ultimate Omelette: 2010-era light 3D, DirectX 8.1-class. anything modern plays it."
+ },
+ "group": "chicken-invaders-4",
+ "group_label": "Chicken Invaders 4",
+ "release_label": "Thanksgiving Edition",
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "official channel - the editions distribute from the studio"
+   }
+  ],
+  "official_note": "released 15 November 2013; the series' only Thanksgiving-themed release.",
+  "anyway": [
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+thanksgiving",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "the edition comes with the mainline game from the studio's own store."
+ },
+ "about": [
+  "Ultimate Omelette Thanksgiving Edition (15 November 2013) is a one-of-a-kind in the Chicken Invaders line: the only Thanksgiving edition the series ever produced. The turkeys join the chickens, the dressing goes full harvest festival, and the fourth war gets its strangest costume.",
+  "By the game's own tagline the turkeys 'revolted three years ago' - a joke at the expense of the edition's own release calendar, since it shipped three years after the standard episode. Under the feathers it is the complete Ultimate Omelette campaign, same engine, same co-op, same Egg Cannon.",
+  "It is also the rarest of the four builds to find discussed anywhere, which is exactly the kind of item this archive exists for: a real release, still distributed by its own studio, that most people never learned existed."
+ ],
+ "notes_extra": "original release 2013-11-15; the only Thanksgiving Edition in the series; Steam never carried it.",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/8Ht74M7m6so/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/8Ht74M7m6so/maxres2.jpg",
+   "https://i.ytimg.com/vi/8Ht74M7m6so/maxres1.jpg",
+   "https://i.ytimg.com/vi/8Ht74M7m6so/maxres3.jpg",
+   "https://i.ytimg.com/vi/8Ht74M7m6so/hqdefault.jpg",
+   "https://i.ytimg.com/vi/8Ht74M7m6so/hq2.jpg",
+   "https://i.ytimg.com/vi/8Ht74M7m6so/hq1.jpg",
+   "https://i.ytimg.com/vi/8Ht74M7m6so/hq3.jpg",
+   "https://i.ytimg.com/vi/bj90zsBUXkU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/bj90zsBUXkU/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "8Ht74M7m6so",
+    "title": "Chicken Invaders 4: Ultimate Omelette - PC Longplay - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "bj90zsBUXkU",
+    "title": "Ultimate Omelette Thanksgiving Edition (Full Game) - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "clw6cik1UNs",
+    "title": "Chicken Invaders 4: Ultimate Omelette Thanksgiving Edition"
+   }
+  ]
+ },
+ "thumbnail": "https://i.ytimg.com/vi/8Ht74M7m6so/maxresdefault.jpg"
+}

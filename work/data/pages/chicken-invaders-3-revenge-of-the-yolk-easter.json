@@ -1,0 +1,86 @@
+{
+ "slug": "chicken-invaders-3-revenge-of-the-yolk-easter",
+ "caption": "the first Easter edition of the series - the Yolk-Star's spring offensive, 2010.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens",
+  "The Yolk-Star"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "same body as Revenge of the Yolk: 2006-era 3D, 170MB disk. anything modern plays it."
+ },
+ "group": "chicken-invaders-3",
+ "group_label": "Chicken Invaders 3",
+ "release_label": "Easter Edition",
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Chicken Invaders 3 Easter Edition",
+    "url": "https://store.steampowered.com/app/378621/",
+    "note": "Steam build (2015)"
+   },
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "official channel"
+   }
+  ],
+  "official_note": "the first Easter edition in the series (12 February 2010).",
+  "anyway": [
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+yolk+easter",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "the edition bundles with the mainline on Steam and from the studio."
+ },
+ "about": [
+  "Revenge of the Yolk Easter Edition (12 February 2010) is the series' first Easter variant, and per the series' own lore the episode that started the Easter tradition: eggs were already the enemy's ammunition, so the holiday only made things worse.",
+  "The body is the third episode's full campaign - the Yolk-Star, the 3D wave design, the co-op - dressed in spring colors with egg-themed pickups and holiday waves woven into the run. It shipped long after the standard edition, when the edition line was already a yearly ritual, and it completes the Revenge of the Yolk trio: Christmas, standard, Easter.",
+  "The Steam listing (2015) carries the remastered build of this edition. The original remains in the studio's own distribution, which keeps this one a clean ownership story."
+ ],
+ "notes_extra": "original release 2010-02-12; Steam build (2015) is the remastered edition.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_e6015c7ac01239e49f1a77ca7b71b6595721effe.1920x1080.jpg?t=1695975403",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_12be0c8311fea9295ec5db3942d52552e1f34652.1920x1080.jpg?t=1695975403",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_c15171e5424252024e6affb3ee78ed8f30a8f120.1920x1080.jpg?t=1695975403",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_04c74e4d2b26e86c74b0ec0e58265c855d70834f.1920x1080.jpg?t=1695975403",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_e56ccdeca53d043deefab912760a2117b53c1671.1920x1080.jpg?t=1695975403",
+   "https://i.ytimg.com/vi/X19LTObqsLw/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/X19LTObqsLw/maxres2.jpg",
+   "https://i.ytimg.com/vi/X19LTObqsLw/maxres1.jpg",
+   "https://i.ytimg.com/vi/X19LTObqsLw/maxres3.jpg",
+   "https://i.ytimg.com/vi/X19LTObqsLw/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "X19LTObqsLw",
+    "title": "Revenge of the Yolk Easter Edition】Full Gameplay [2023]"
+   },
+   {
+    "kind": "youtube",
+    "id": "Dc6oAJuNWYQ",
+    "title": "Chicken Invaders 3: Revenge of the Yolk Easter Edition Full"
+   },
+   {
+    "kind": "youtube",
+    "id": "4YcVrTNQh9Y",
+    "title": "Chicken Invaders 3 - Revenge of The Yolk Easter  - YouTube"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/378621/header.jpg"
+}

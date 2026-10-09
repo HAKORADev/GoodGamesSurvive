@@ -1,0 +1,85 @@
+{
+ "slug": "chicken-invaders-2-the-next-wave-christmas",
+ "caption": "the first edition in the series: the 2003 invasion, decorated for the holidays.",
+ "genres": [
+  "shoot 'em up",
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "fixed shooter",
+  "co-op"
+ ],
+ "characters": [
+  "The Hero",
+  "the Chickens"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "same body as The Next Wave - 2D, 80MB-class install, anything plays it."
+ },
+ "group": "chicken-invaders-2",
+ "group_label": "Chicken Invaders 2",
+ "release_label": "Christmas Edition",
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Chicken Invaders 2 Christmas Edition",
+    "url": "https://store.steampowered.com/app/450100/",
+    "note": "Steam build (2016)"
+   },
+   {
+    "label": "InterAction studios - downloads",
+    "url": "https://www.interactionstudios.com/download.php",
+    "note": "official channel"
+   }
+  ],
+  "official_note": "the first holiday edition of the series, originally released 25 November 2003.",
+  "anyway": [
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=chicken+invaders+christmas",
+    "note": "community mirrors, for the keeps-box"
+   }
+  ],
+  "anyway_note": "the edition ships with the mainline game on Steam and from the studio."
+ },
+ "about": [
+  "The Next Wave Christmas Edition (25 November 2003) is the game that started the Chicken Invaders edition tradition: take a full episode, repaint the invasion in snow and fairy lights, swap the food for holiday roast, and ship it as both a standalone release and a bundled extra for the mainline game.",
+  "Underneath the decoration it is the same fixed-shooter campaign as The Next Wave - same weapon tiers, same co-op, same escalating wave design - with the holiday dressing on top. That formula turned out to be the series' signature: InterAction has kept releasing these seasonal variants for two decades, and collectors treat the editions as games of their own.",
+  "This page covers the original 2003 edition; the Steam listing (2016) carries the remastered build of it. Either way it is the Christmas invasion, wave one through the end, with the fate of the holidays on one very cold spaceship."
+ ],
+ "notes_extra": "original release 2003-11-25; remastered build 2011-12-20; Steam 2016-03-14.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_a2667c117a407aedea6eae74a9848510f7bed15d.1920x1080.jpg?t=1695975444",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_09a2d4c38cc3befdacd515b1924c26207f1d2954.1920x1080.jpg?t=1695975444",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_fe6015388dc3856a9351cce5621f54616ec65652.1920x1080.jpg?t=1695975444",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_dcb6ccbeea05690018f9a30ca50dbcb7350e4f9c.1920x1080.jpg?t=1695975444",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_5cbb108d4f50de08caabf9c03b2dc1eedf14b26d.1920x1080.jpg?t=1695975444",
+   "https://i.ytimg.com/vi/MCul4FnIj3I/maxres2.jpg",
+   "https://i.ytimg.com/vi/MCul4FnIj3I/maxres1.jpg",
+   "https://i.ytimg.com/vi/MCul4FnIj3I/maxres3.jpg",
+   "https://i.ytimg.com/vi/MCul4FnIj3I/hqdefault.jpg",
+   "https://i.ytimg.com/vi/MCul4FnIj3I/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "MCul4FnIj3I",
+    "title": "Chicken Invaders 2 - Walkthrough [FULL GAME] HD - YouTube"
+   },
+   {
+    "kind": "youtube",
+    "id": "S16lY8vIHkY",
+    "title": "Chicken Invaders 2 - The Next Wave Christmas Edition Full"
+   },
+   {
+    "kind": "youtube",
+    "id": "G5HZhsue8sw",
+    "title": "Chicken Invaders 2: The Next Wave Remastered - YouTube"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/450100/header.jpg"
+}

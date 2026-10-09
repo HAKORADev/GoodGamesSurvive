@@ -1,0 +1,92 @@
+{
+ "slug": "hitman-2-silent-assassin",
+ "caption": "the sequel that gave 47 a conscience, a garden, and the silence the title promises.",
+ "genres": [
+  "stealth",
+  "action"
+ ],
+ "subgenres": [
+  "third-person",
+  "social stealth"
+ ],
+ "characters": [
+  "Agent 47",
+  "Diana Burnwood",
+  "Father Vittorio",
+  "Sergei Zavorotko",
+  "Agent Smith"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "Pentium III 450MHz, 16MB VRAM era. two decades under the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Hitman 2: Silent Assassin",
+    "url": "https://store.steampowered.com/app/6850/",
+    "note": "still sold"
+   },
+   {
+    "label": "GOG - Hitman 2: Silent Assassin",
+    "url": "https://www.gog.com/en/game/hitman_2_silent_assassin",
+    "note": "DRM-free"
+   }
+  ],
+  "official_note": "still sold - Steam and GOG both carry it.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - search",
+    "url": "https://www.myabandonware.com/search/q/hitman-2-silent-assassin",
+    "note": "archive route, for the keeps-box"
+   },
+   {
+    "label": "Internet Archive - search",
+    "url": "https://archive.org/search?query=hitman+2+silent+assassin",
+    "note": "community mirrors"
+   }
+  ],
+  "anyway_note": "the game is still sold, so the archive route is preservation, not rescue."
+ },
+ "about": [
+  "Hitman 2: Silent Assassin (2002) is the game that made the series a phenomenon. 47 has retired to a Sicilian monastery, tending a garden under Father Vittorio's guidance, and the game opens by taking that away - the priest is kidnapped, and the barcode comes out of retirement. It is the series' first story about 47 wanting something other than a contract, and it still plays as the franchise's emotional baseline.",
+  "Mechanically this is where the modern Hitman grammar appears: first-person mode for careful movement, disguise rings that actually hold up, the silent-attacker rating that grades your run (Silent Assassin became the series' perfect-score badge from this game onward), and mission design that rewards watching guard routines before touching anything. The levels run from Sicily and St. Petersburg to Japan and India, and Agent Smith - the recurring, always-imprisoned American - becomes a series mascot here.",
+  "The antagonist is Sergei Zavorotko, brother of the first game's Boris, tying the plot back to Codename 47's clone lore. Still sold on Steam and DRM-free on GOG; a remaster is announced with the Classic Trilogy. The engine may be 2002, but the loop it locked in is the one the 2020s trilogy still runs."
+ ],
+ "notes_extra": "first appearance of the Silent Assassin rating - the series' perfect-run badge.",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6850/0000001526.1920x1080.jpg?t=1732293077",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6850/0000001527.1920x1080.jpg?t=1732293077",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6850/0000001528.1920x1080.jpg?t=1732293077",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6850/0000001529.1920x1080.jpg?t=1732293077",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6850/0000001530.1920x1080.jpg?t=1732293077",
+   "https://i.ytimg.com/vi/Miz0Trndu_Y/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/Miz0Trndu_Y/maxres2.jpg",
+   "https://i.ytimg.com/vi/Miz0Trndu_Y/maxres1.jpg",
+   "https://i.ytimg.com/vi/Miz0Trndu_Y/maxres3.jpg",
+   "https://i.ytimg.com/vi/Miz0Trndu_Y/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "Miz0Trndu_Y",
+    "title": "Hitman 2: Silent Assassin (2002) Playthrough (No Commentary)"
+   },
+   {
+    "kind": "youtube",
+    "id": "vCsOUgENFm0",
+    "title": "Hitman 2: Silent Assassin - Full Game Walkthrough in 4K"
+   },
+   {
+    "kind": "youtube",
+    "id": "l5p0MfOMCvw",
+    "title": "Hitman 2 Silent Assassin【FULL GAME】(100% stealth)"
+   }
+  ]
+ },
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/header.jpg"
+}

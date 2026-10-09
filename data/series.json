@@ -119,6 +119,21 @@
      "part": 4
     },
     {
+     "title": "HITMAN (2016)",
+     "slug": "hitman-2016",
+     "part": 6
+    },
+    {
+     "title": "HITMAN 2 (2018)",
+     "slug": "hitman-2-2018",
+     "part": 7
+    },
+    {
+     "title": "HITMAN III",
+     "slug": "hitman-3-2021",
+     "part": 8
+    },
+    {
      "title": "Hitman: Absolution",
      "slug": "hitman-absolution",
      "part": null
@@ -138,7 +153,8 @@
      "release": "2021-01-20"
     }
    ],
-   "upgrades_note": "modern WOA trilogy is the upgrade path for the classics; heavy for haswell iGPUs, listed as upgrades, not archive targets"
+   "upgrades_note": "modern WOA trilogy is the upgrade path for the classics; heavy for haswell iGPUs, listed as upgrades, not archive targets",
+   "title": "Hitman"
   }
  ]
 }
