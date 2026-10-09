@@ -60,3 +60,34 @@ owner wrote them, or because breaking them already cost a round once.
     starts, so a sandbox wipe never eats the structural work.
 20. **git only, no `gh` CLI.** raw REST with the token, plain
     `git push origin main` (token baked into the remote URL).
+
+## laws added GGS-15 (owner round 2026-10-10)
+
+- **writing law**: no user-facing "owner" mentions, no "verified today", no
+  "catalogued-only", no info-verification badges. facts are always sourced;
+  the only verification concept on a page is TESTED / NOT TESTED - about the
+  run from the listed sources (install, launch, patches, saves), nothing else.
+- **non-ready wording**: catalog rows without a page are "non-ready page(s)",
+  never "catalogued-only". counts render conditionally (no "0 non-ready")
+  and pluralize correctly ("1 page", "28 non-ready pages").
+- **upgrade law, hitman edition**: Hitman HD Trilogy (2013, ps3/xbox 360) is
+  the remaster of Silent Assassin + Contracts + Blood Money; Hitman HD
+  Enhanced Collection (2019, ps4/xbox one) covers Blood Money + Absolution.
+  both console-only, no windows build - upgrade lines carry the note.
+  a sequel is never an upgrade; a console remaster never replaces the
+  windows build, it just sits next to it as a catalogued remaster row.
+- **CI remaster line, one by one**: classic-engine remasters = CI2 (2012-01-26)
+  + CI2 Christmas (2011-12-20) + CI1 (2023-01-31, inside steam package 3491310).
+  the universe-engine reworks cover the whole main line as free betas that
+  became CIU DLC after v149; the episode format is the new-engine rework
+  (episode 1 on steam 2025-03-07, episodes 2-5 beta). the remaster page
+  enumerates them entry by entry - never one blob.
+- **per-source anyway links**: every anyway item carries a src tag -
+  gog-unlocked / steam-unlocked / steamrip / archive - rendered as a chip
+  before the label. only urls returned by real search results (http 200
+  checked); a missing source stays missing, never filled.
+- **series strip states**: in-catalog pending members render .m-nr,
+  out-of-catalog reference members render .m-out (dimmed italic).
+  both get title tooltips explaining the state.
+- **shelf bar law**: collection + meta-collection chips live on the same bar
+  as the RANDOM button, before it. ALL COLLECTIONS chip ends the chip row.
