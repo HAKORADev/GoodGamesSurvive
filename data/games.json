@@ -25,7 +25,9 @@
    "publishers": [
     "IO Interactive"
    ],
-   "platforms": [],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
