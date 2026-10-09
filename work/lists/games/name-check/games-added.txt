@@ -117,6 +117,7 @@ Chicken Chase
 Chicken Invaders
 Chicken Invaders 2: The Next Wave
 Chicken Invaders 2: The Next Wave - Christmas Edition
+Chicken Invaders 2: The Next Wave Remastered
 Chicken Invaders 3: Revenge of the Yolk
 Chicken Invaders 3: Revenge of the Yolk - Christmas Edition
 Chicken Invaders 3: Revenge of the Yolk - Easter Edition
@@ -127,6 +128,8 @@ Chicken Invaders 4: Ultimate Omelette - Thanksgiving Edition
 Chicken Invaders 5: Cluck of the Dark Side
 Chicken Invaders 5: Cluck of the Dark Side - Christmas Edition
 Chicken Invaders 5: Cluck of the Dark Side - Halloween Edition
+Chicken Invaders Episode 1: The Saga Begins
+Chicken Invaders Episodes
 Chicken Invaders Universe
 Chicken Invaders: Remastered
 Chicken's Revenge
@@ -144,7 +147,7 @@ Company of Heroes 1 (with Opposing Fronts & Tales of Valor)
 Condemned: Criminal Origins
 Cooking Academy 2
 Cooking Dash
-Cooking Dash 3: Thrills & Spills
+Cooking Dash 3: Thrills and Spills
 Cooking Dash: DinerTown Studios
 Cooking Fever
 Cosmic Bugs
@@ -177,10 +180,8 @@ Diablo II: Lord of Destruction
 Diaper Dash
 Digging Jim
 Diner Dash
-Diner Dash (2015)
 Diner Dash 2: Restaurant Rescue
-Diner Dash 5: Boom!
-Diner DASH Adventures
+Diner Dash 5: Boom
 Diner Dash: Flo on the Go
 Diner Dash: Flo Through Time
 Diner Dash: Hometown Hero
@@ -549,8 +550,8 @@ Spider-Man: Web of Shadows
 Spiderz
 Splinter Cell: Conviction
 Split
-SpongeBob Diner Dash
 SpongeBob Diner Dash 2: Two Times the Trouble
+SpongeBob SquarePants Diner Dash
 SpongeBob: Battle for Bikini Bottom
 Spring Boy
 SSX on Tour
@@ -671,7 +672,7 @@ Watchmen: The End Is Nigh
 Wedding Dash
 Wedding Dash 2: Rings Around the World
 Wedding Dash 4-Ever
-Wedding Dash: Ready, Aim, Love!
+Wedding Dash: Ready, Aim, Love
 Wendy's Wellness
 Westward IV: All Aboard
 Wheelman
