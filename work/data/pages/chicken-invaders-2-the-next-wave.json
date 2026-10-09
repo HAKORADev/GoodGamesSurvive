@@ -30,23 +30,18 @@
    {
     "label": "Steam - Chicken Invaders 2",
     "url": "https://store.steampowered.com/app/449550/",
-    "note": "Steam build (2016)"
+    "note": "still sold (steam states 80 MB storage)"
    }
   ],
-  "official_note": "the official site carries the series; Steam carries the 2016 build of the game.",
+  "official_note": "sold on Steam and distributed by the studio itself. co-op is same-computer shared screen; online co-op arrived with the third war.",
   "anyway": [
    {
-    "label": "InterAction studios - downloads",
-    "url": "https://www.interactionstudios.com/download.php",
-    "note": "the studio's own channel"
-   },
-   {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=chicken+invaders+2",
-    "note": "community mirrors, for the keeps-box"
+    "label": "Internet Archive - Chicken Invaders 2 v2.40",
+    "url": "https://archive.org/details/chinv240",
+    "note": "official-era installer, archived"
    }
   ],
-  "anyway_note": "still distributed by its own studio - the anyway links are for keeps."
+  "anyway_note": "preservation, not rescue - the official path is alive."
  },
  "about": [
   "Chicken Invaders 2: The Next Wave (2002) is the sequel that turned a joke into a franchise. The chickens returned after their first defeat, this time with an organized invasion aimed at the entire solar system, and the game responds with more chapters, more weapon levels, and a proper campaign structure instead of the first game's single endless climb.",

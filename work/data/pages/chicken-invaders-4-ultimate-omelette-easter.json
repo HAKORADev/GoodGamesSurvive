@@ -23,20 +23,14 @@
  "links": {
   "official": [
    {
-    "label": "InterAction studios - downloads",
-    "url": "https://www.interactionstudios.com/download.php",
-    "note": "official channel - the editions distribute from the studio"
+    "label": "Steam - Chicken Invaders 4: Easter Edition",
+    "url": "https://store.steampowered.com/app/370401/",
+    "note": "still sold"
    }
   ],
-  "official_note": "released 11 March 2012; this edition never shipped on Steam.",
-  "anyway": [
-   {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=chicken+invaders+omelette+easter",
-    "note": "community mirrors, for the keeps-box"
-   }
-  ],
-  "anyway_note": "the edition comes with the mainline game from the studio's own store."
+  "official_note": "still sold on Steam (verified today); the studio's download hub carries it too.",
+  "anyway": [],
+  "anyway_note": "no clean mirror verified yet - the official path is alive, so nothing is at risk."
  },
  "about": [
   "Ultimate Omelette Easter Edition (11 March 2012) leans into the one holiday the series was born to parody: a war against egg-laying invaders, celebrated with eggs. The full fourth-episode campaign runs in spring dressing, from the opening waves to the Egg Cannon itself.",

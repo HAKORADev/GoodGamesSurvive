@@ -26,33 +26,23 @@
    {
     "label": "Steam - Hitman: Blood Money",
     "url": "https://store.steampowered.com/app/6860/",
-    "note": "still sold"
+    "note": "still sold, 9.99 USD (verified today)"
    },
    {
     "label": "GOG - Hitman: Blood Money",
     "url": "https://www.gog.com/en/game/hitman_blood_money",
-    "note": "DRM-free"
+    "note": "DRM-free, offline installer 4.3 GB"
    }
   ],
-  "official_note": "still sold - Steam and GOG both carry it.",
+  "official_note": "still sold - Steam and GOG both carry it (both verified today).",
   "anyway": [
    {
-    "label": "Old Games Download",
+    "label": "Old Games Download - Hitman: Blood Money",
     "url": "https://oldgamesdownload.com/hitman-blood-money/",
     "note": "archive route, for the keeps-box"
-   },
-   {
-    "label": "MyAbandonware - search",
-    "url": "https://www.myabandonware.com/search/q/hitman-blood-money",
-    "note": "archive route"
-   },
-   {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=hitman+blood+money",
-    "note": "community mirrors"
    }
   ],
-  "anyway_note": "the game is still sold, so the archive route is preservation, not rescue."
+  "anyway_note": "the game is alive, so the archive route is preservation, not rescue."
  },
  "about": [
   "Hitman: Blood Money (May 2006) is the classic series' high-water mark and the game that defined the sandbox assassination genre for the generation after it. A rival agency is killing the ICA's contracts and 47 works the American circuit - Mardi Gras, the White House, a Vegas casino heist gone wrong - while agent Alexander Leland Cayne builds a frame job around him and the albino killer Mark Parchezzi III shadows the brand.",

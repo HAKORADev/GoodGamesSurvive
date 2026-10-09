@@ -23,20 +23,20 @@
  "links": {
   "official": [
    {
-    "label": "InterAction studios - downloads",
-    "url": "https://www.interactionstudios.com/download.php",
-    "note": "official channel - the editions distribute from the studio"
+    "label": "Steam - Chicken Invaders 4: Thanksgiving Edition",
+    "url": "https://store.steampowered.com/app/370402/",
+    "note": "still sold"
    }
   ],
-  "official_note": "released 15 November 2013; the series' only Thanksgiving-themed release.",
+  "official_note": "still sold on Steam (verified today); the studio's download hub carries it too.",
   "anyway": [
    {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=chicken+invaders+thanksgiving",
-    "note": "community mirrors, for the keeps-box"
+    "label": "Internet Archive - Thanksgiving Edition",
+    "url": "https://archive.org/details/ab_chickeninvaders_ultimateomelette_thanksgiving",
+    "note": "the edition build, archived (26 MB)"
    }
   ],
-  "anyway_note": "the edition comes with the mainline game from the studio's own store."
+  "anyway_note": "preservation, not rescue."
  },
  "about": [
   "Ultimate Omelette Thanksgiving Edition (15 November 2013) is a one-of-a-kind in the Chicken Invaders line: the only Thanksgiving edition the series ever produced. The turkeys join the chickens, the dressing goes full harvest festival, and the fourth war gets its strangest costume.",

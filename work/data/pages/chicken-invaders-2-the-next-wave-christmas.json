@@ -23,25 +23,20 @@
  "links": {
   "official": [
    {
-    "label": "Steam - Chicken Invaders 2 Christmas Edition",
+    "label": "Steam - Chicken Invaders 2: Christmas Edition",
     "url": "https://store.steampowered.com/app/450100/",
-    "note": "Steam build (2016)"
-   },
-   {
-    "label": "InterAction studios - downloads",
-    "url": "https://www.interactionstudios.com/download.php",
-    "note": "official channel"
+    "note": "still sold"
    }
   ],
-  "official_note": "the first holiday edition of the series, originally released 25 November 2003.",
+  "official_note": "the edition is still sold on Steam (verified today); the studio's download hub carries it too.",
   "anyway": [
    {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=chicken+invaders+christmas",
-    "note": "community mirrors, for the keeps-box"
+    "label": "Internet Archive - Christmas Edition v2.60",
+    "url": "https://archive.org/details/chicken-invaders-2-xmas-edition",
+    "note": "full game, not the demo, archived (6 MB)"
    }
   ],
-  "anyway_note": "the edition ships with the mainline game on Steam and from the studio."
+  "anyway_note": "preservation, not rescue."
  },
  "about": [
   "The Next Wave Christmas Edition (25 November 2003) is the game that started the Chicken Invaders edition tradition: take a full episode, repaint the invasion in snow and fairy lights, swap the food for holiday roast, and ship it as both a standalone release and a bundled extra for the mainline game.",

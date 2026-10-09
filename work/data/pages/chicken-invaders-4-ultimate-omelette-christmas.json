@@ -23,20 +23,14 @@
  "links": {
   "official": [
    {
-    "label": "InterAction studios - downloads",
-    "url": "https://www.interactionstudios.com/download.php",
-    "note": "official channel - the editions distribute from the studio"
+    "label": "Steam - Chicken Invaders 4: Christmas Edition",
+    "url": "https://store.steampowered.com/app/370400/",
+    "note": "still sold"
    }
   ],
-  "official_note": "released 24 November 2011; this edition never shipped on Steam.",
-  "anyway": [
-   {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=chicken+invaders+omelette+christmas",
-    "note": "community mirrors, for the keeps-box"
-   }
-  ],
-  "anyway_note": "the edition comes with the mainline game from the studio's own store."
+  "official_note": "still sold on Steam (verified today); the studio's download hub carries it too.",
+  "anyway": [],
+  "anyway_note": "no clean mirror verified yet - the official path is alive, so nothing is at risk."
  },
  "about": [
   "Ultimate Omelette Christmas Edition (24 November 2011) is the first of the fourth episode's three holiday variants, and the second Christmas edition of the series after The Next Wave's 2003 original. The full Ultimate Omelette campaign - Egg Cannon included - runs under the snow.",

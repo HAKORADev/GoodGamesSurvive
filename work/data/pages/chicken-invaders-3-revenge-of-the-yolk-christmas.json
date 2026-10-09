@@ -23,25 +23,14 @@
  "links": {
   "official": [
    {
-    "label": "Steam - Chicken Invaders 3 Christmas Edition",
+    "label": "Steam - Chicken Invaders 3: Christmas Edition",
     "url": "https://store.steampowered.com/app/378620/",
-    "note": "Steam build (2015)"
-   },
-   {
-    "label": "InterAction studios - downloads",
-    "url": "https://www.interactionstudios.com/download.php",
-    "note": "official channel"
+    "note": "still sold"
    }
   ],
-  "official_note": "this edition was the first public release of the Revenge of the Yolk engine.",
-  "anyway": [
-   {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=chicken+invaders+yolk+christmas",
-    "note": "community mirrors, for the keeps-box"
-   }
-  ],
-  "anyway_note": "the edition bundles with the mainline on Steam and from the studio."
+  "official_note": "the edition that predates its own episode: november 2006, three months before the standard game. still sold on Steam (verified today).",
+  "anyway": [],
+  "anyway_note": "no clean mirror verified yet - the official path is alive, so nothing is at risk."
  },
  "about": [
   "Revenge of the Yolk Christmas Edition (11 November 2006) holds a strange record: it is the first edition in the series to debut before its own standard edition. InterAction shipped the holiday build of the third episode two months before the regular game, which means the Yolk-Star's first appearance on Earth was wearing a Santa hat.",

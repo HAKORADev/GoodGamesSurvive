@@ -23,25 +23,20 @@
  "links": {
   "official": [
    {
-    "label": "Steam - Chicken Invaders 5 Halloween Edition",
+    "label": "Steam - Chicken Invaders 5: Halloween Edition",
     "url": "https://store.steampowered.com/app/402990/",
-    "note": "Steam build (2015)"
-   },
-   {
-    "label": "InterAction studios - downloads",
-    "url": "https://www.interactionstudios.com/download.php",
-    "note": "official channel"
+    "note": "still sold"
    }
   ],
-  "official_note": "released 2 October 2015.",
+  "official_note": "still sold on Steam at 2.99 USD (verified today); the studio's download hub carries it too.",
   "anyway": [
    {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=chicken+invaders+halloween",
-    "note": "community mirrors, for the keeps-box"
+    "label": "Internet Archive - Halloween Edition",
+    "url": "https://archive.org/details/ab_chickeninvaders_cluckofthedarkside_halloween",
+    "note": "the edition build, archived (50 MB)"
    }
   ],
-  "anyway_note": "the edition bundles with the mainline on Steam and from the studio."
+  "anyway_note": "preservation, not rescue."
  },
  "about": [
   "Cluck of the Dark Side Halloween Edition (2 October 2015) is the first edition of the fifth episode and the series' first Halloween variant: the fifth invasion restaged as a horror night, with the Dark Side's corporate war machine glowing in the dark.",

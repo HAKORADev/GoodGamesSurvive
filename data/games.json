@@ -53,7 +53,8 @@
    "size_source": "store-stated",
    "req_tier": "at",
    "sources": [
-    "steam:203140"
+    "steam:203140",
+    "https://store.steampowered.com/app/203140/"
    ],
    "notes": "24GB store-stated disk (big-size); Glacier 2 debut; Steam min GPU NV8600 512MB",
    "page_url": "pages/game/hitman-absolution.html",
@@ -89,7 +90,7 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
@@ -104,8 +105,8 @@
     "resource management"
    ],
    "tags": null,
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 9,
+   "size_source": "hosted original (myabandonware lists 9 MB)",
    "req_tier": "below",
    "sources": [
     "research:dinerdash_facts2 + wikis"
@@ -144,7 +145,7 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
@@ -159,13 +160,13 @@
     "fixed shooter"
    ],
    "tags": null,
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 13,
+   "size_source": "studio-installer (13,551,752 bytes Content-Length, verified 2026-10-09)",
    "req_tier": "below",
    "sources": [
     "research:chicken wiki"
    ],
-   "notes": "DX Edition; remastered 2023-01-31; Steam bundle 2025-03-07",
+   "notes": "DX Edition; remastered 2023-01-31; Steam bundle 2025-03-07 | free download from the studio, unlock registration still sold",
    "page_url": "pages/game/chicken-invaders.html",
    "thumbnail": "https://i.ytimg.com/vi/hzXR_EwsGGc/maxresdefault.jpg",
    "caption": "the 1999 original. one ship, the solar system, and a very organized poultry invasion."
@@ -193,13 +194,13 @@
    ],
    "players": {
     "single": true,
-    "local_coop": false,
+    "local_coop": true,
     "online_coop": false,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 1
+    "max_local": 2
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
@@ -219,7 +220,8 @@
    "size_source": "store-stated",
    "req_tier": "below",
    "sources": [
-    "research:chicken wiki"
+    "research:chicken wiki",
+    "https://store.steampowered.com/app/449550/"
    ],
    "notes": "Christmas Edition 2003-11-25; remasters 2011/2012",
    "page_url": "pages/game/chicken-invaders-2-the-next-wave.html",
@@ -249,13 +251,13 @@
    ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
+    "local_coop": true,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 1
+    "max_local": 2
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
@@ -275,7 +277,8 @@
    "size_source": "store-stated",
    "req_tier": "below",
    "sources": [
-    "research:chicken wiki"
+    "research:chicken wiki",
+    "https://store.steampowered.com/app/377460/"
    ],
    "notes": "Christmas Edition 2006-11-11; Easter Edition 2010-02-12",
    "page_url": "pages/game/chicken-invaders-3-revenge-of-the-yolk.html",
@@ -305,13 +308,13 @@
    ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
+    "local_coop": true,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 1
+    "max_local": 4
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
@@ -331,7 +334,8 @@
    "size_source": "store-stated",
    "req_tier": "below",
    "sources": [
-    "research:chicken wiki"
+    "research:chicken wiki",
+    "https://store.steampowered.com/app/301300/"
    ],
    "notes": "Christmas 2011 / Easter 2012 / Thanksgiving 2013 editions",
    "page_url": "pages/game/chicken-invaders-4-ultimate-omelette.html",
@@ -361,11 +365,11 @@
    ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
+    "local_coop": true,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 1
+    "max_local": 4
    },
    "buyable": true,
    "download_kind": null,
@@ -387,7 +391,8 @@
    "size_source": "store-stated",
    "req_tier": "below",
    "sources": [
-    "research:chicken wiki + steam"
+    "research:chicken wiki + steam",
+    "https://store.steampowered.com/app/353090/"
    ],
    "notes": "Steam 2015-03-13; Halloween 2015 / Christmas 2016 editions",
    "page_url": "pages/game/chicken-invaders-5-cluck-of-the-dark-side.html",
@@ -423,7 +428,7 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
@@ -438,11 +443,12 @@
     "social stealth"
    ],
    "tags": null,
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 480,
+   "size_source": "gog-installer (480 MB build)",
    "req_tier": "below",
    "sources": [
-    "research:hitman_years"
+    "research:hitman_years",
+    "https://store.steampowered.com/app/6850/"
    ],
    "notes": "",
    "page_url": "pages/game/hitman-2-silent-assassin.html",
@@ -478,7 +484,7 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
@@ -493,11 +499,12 @@
     "social stealth"
    ],
    "tags": null,
-   "size_est_mb": 2000,
-   "size_source": "store-stated",
+   "size_est_mb": 900,
+   "size_source": "installer-research (845-910 MB builds)",
    "req_tier": "below",
    "sources": [
-    "research:hitman_years"
+    "research:hitman_years",
+    "https://store.steampowered.com/app/247430/"
    ],
    "notes": "",
    "page_url": "pages/game/hitman-3-contracts.html",
@@ -550,11 +557,12 @@
     "sandbox"
    ],
    "tags": null,
-   "size_est_mb": 3600,
-   "size_source": "repack-research",
+   "size_est_mb": 4300,
+   "size_source": "gog-installer (GOGDB: v1.2 = 4.3 GB)",
    "req_tier": "below",
    "sources": [
-    "research:bloodmoney_facts"
+    "research:bloodmoney_facts",
+    "https://store.steampowered.com/app/6860/"
    ],
    "notes": "EU 2006-05-26 / NA 2006-05-30",
    "page_url": "pages/game/hitman-blood-money.html",

@@ -24,28 +24,23 @@
    {
     "label": "Steam - Hitman 2: Silent Assassin",
     "url": "https://store.steampowered.com/app/6850/",
-    "note": "still sold"
+    "note": "still sold, 8.99 USD (verified today)"
    },
    {
     "label": "GOG - Hitman 2: Silent Assassin",
     "url": "https://www.gog.com/en/game/hitman_2_silent_assassin",
-    "note": "DRM-free"
+    "note": "DRM-free (page verified today)"
    }
   ],
-  "official_note": "still sold - Steam and GOG both carry it.",
+  "official_note": "still sold - Steam and GOG both carry it. the GOG build is the fixed v1.01.",
   "anyway": [
    {
-    "label": "MyAbandonware - search",
-    "url": "https://www.myabandonware.com/search/q/hitman-2-silent-assassin",
+    "label": "Old Games Download - Hitman 2: Silent Assassin",
+    "url": "https://oldgamesdownload.com/hitman-2-silent-assassin/",
     "note": "archive route, for the keeps-box"
-   },
-   {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=hitman+2+silent+assassin",
-    "note": "community mirrors"
    }
   ],
-  "anyway_note": "the game is still sold, so the archive route is preservation, not rescue."
+  "anyway_note": "the game is alive, so the archive route is preservation, not rescue."
  },
  "about": [
   "Hitman 2: Silent Assassin (2002) is the game that made the series a phenomenon. 47 has retired to a Sicilian monastery, tending a garden under Father Vittorio's guidance, and the game opens by taking that away - the priest is kidnapped, and the barcode comes out of retirement. It is the series' first story about 47 wanting something other than a contract, and it still plays as the franchise's emotional baseline.",

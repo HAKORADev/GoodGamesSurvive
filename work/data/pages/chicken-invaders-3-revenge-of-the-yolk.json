@@ -30,23 +30,12 @@
    {
     "label": "Steam - Chicken Invaders 3",
     "url": "https://store.steampowered.com/app/377460/",
-    "note": "Steam build (2015)"
+    "note": "still sold (steam states 170 MB storage)"
    }
   ],
-  "official_note": "the standard edition first shipped 20 January 2007 - after its own Christmas Edition, a series quirk.",
-  "anyway": [
-   {
-    "label": "InterAction studios - downloads",
-    "url": "https://www.interactionstudios.com/download.php",
-    "note": "the studio's own channel"
-   },
-   {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=chicken+invaders+3",
-    "note": "community mirrors, for the keeps-box"
-   }
-  ],
-  "anyway_note": "nothing delisted - the anyway links are for keeps."
+  "official_note": "sold on Steam and distributed by the studio. first war with online co-op (up to 4 over the net, 2 on one computer).",
+  "anyway": [],
+  "anyway_note": "no clean mirror verified yet - and nothing is at risk: the studio still sells this one. the slot stays empty instead of pointing at filler."
  },
  "about": [
   "Chicken Invaders 3: Revenge of the Yolk (standard edition 20 January 2007) is the episode where the series grew a real antagonist: the Yolk-Star, a Death Star parody assembled from egg matter, built by the chickens for their third and most theatrical attempt on Earth. It is also the first mainline episode built in true 3D, and it shows - the wave choreography, camera moments and boss staging all lean on the new engine.",

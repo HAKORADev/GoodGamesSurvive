@@ -24,28 +24,23 @@
    {
     "label": "Steam - Hitman: Contracts",
     "url": "https://store.steampowered.com/app/247430/",
-    "note": "still sold"
+    "note": "still sold, 8.99 USD (verified today)"
    },
    {
     "label": "GOG - Hitman: Contracts",
     "url": "https://www.gog.com/en/game/hitman_contracts",
-    "note": "DRM-free"
+    "note": "DRM-free (page verified today)"
    }
   ],
   "official_note": "still sold - Steam and GOG both carry it.",
   "anyway": [
    {
-    "label": "MyAbandonware - search",
-    "url": "https://www.myabandonware.com/search/q/hitman-contracts",
+    "label": "Old Games Download - Hitman: Contracts",
+    "url": "https://oldgamesdownload.com/hitman-contracts/",
     "note": "archive route, for the keeps-box"
-   },
-   {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=hitman+contracts",
-    "note": "community mirrors"
    }
   ],
-  "anyway_note": "the game is still sold, so the archive route is preservation, not rescue."
+  "anyway_note": "the game is alive, so the archive route is preservation, not rescue."
  },
  "about": [
   "Hitman: Contracts (April 2004) is the series' darkest hour, built as a framed memory piece: 47, shot and bleeding after a job in Paris, drifts through flashbacks while the hotel room closes in on him. The missions are his greatest hits retold - remakes of Codename 47's best work alongside new contracts - and the tone goes places the franchise never returned to: rain, red rooms, and a soundtrack that treats stealth as dread.",

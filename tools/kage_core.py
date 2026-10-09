@@ -77,7 +77,14 @@ def size_display(row):
     src = row.get("size_source") or ""
     if not lab:
         return "size unknown"
-    kind = "install" if src.startswith(("store", "repack")) else "estimate"
+    if src.startswith("store"):
+        kind = "install, store-stated"
+    elif "installer" in src:
+        kind = "installer, verified"
+    elif "hosted" in src:
+        kind = "hosted original"
+    else:
+        kind = "estimate"
     return "%s (%s)" % (lab, kind)
 
 PLAYER_LABELS = [

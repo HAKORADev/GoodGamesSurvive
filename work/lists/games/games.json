@@ -2,7 +2,7 @@
  "_meta": {
   "schema": "ggs.v2",
   "updated": "2026-10-09",
-  "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/. v2 adds genres/subgenres/tags/size_est_mb/req_tier; genres+subgenres capped at 5. | ggs-12: catalog = owner lists + endorsed upgrade hubs. holiday releases carry version_of and stay out of the catalog layer. out-of-scope rows sleep in attic/."
+  "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/. v2 adds genres/subgenres/tags/size_est_mb/req_tier; genres+subgenres capped at 5. | ggs-12: catalog = owner lists + endorsed upgrade hubs. holiday releases carry version_of and stay out of the catalog layer. out-of-scope rows sleep in attic/. | ggs-13 accuracy pass 2026-10-09: sizes from steam-stated storage / studio installer Content-Length / GOGDB / hosted originals; players from steam category flags + studio feature lists; buyable from live priced pages."
  },
  "count": 708,
  "games": [
@@ -14707,7 +14707,8 @@
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "steam:203140"
+    "steam:203140",
+    "https://store.steampowered.com/app/203140/"
    ],
    "notes": "24GB store-stated disk (big-size); Glacier 2 debut; Steam min GPU NV8600 512MB",
    "genres": [
@@ -28129,7 +28130,7 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
@@ -28147,8 +28148,8 @@
    "subgenres": [
     "resource management"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 9,
+   "size_source": "hosted original (myabandonware lists 9 MB)",
    "req_tier": "below"
   },
   {
@@ -29448,7 +29449,7 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
@@ -29457,7 +29458,7 @@
    "sources": [
     "research:chicken wiki"
    ],
-   "notes": "DX Edition; remastered 2023-01-31; Steam bundle 2025-03-07",
+   "notes": "DX Edition; remastered 2023-01-31; Steam bundle 2025-03-07 | free download from the studio, unlock registration still sold",
    "genres": [
     "shoot 'em up",
     "arcade",
@@ -29466,8 +29467,8 @@
    "subgenres": [
     "fixed shooter"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 13,
+   "size_source": "studio-installer (13,551,752 bytes Content-Length, verified 2026-10-09)",
    "req_tier": "below",
    "upgrades": [
     "chicken-invaders-2-the-next-wave"
@@ -29497,20 +29498,21 @@
    ],
    "players": {
     "single": true,
-    "local_coop": false,
+    "local_coop": true,
     "online_coop": false,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 1
+    "max_local": 2
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:chicken wiki"
+    "research:chicken wiki",
+    "https://store.steampowered.com/app/449550/"
    ],
    "notes": "Christmas Edition 2003-11-25; remasters 2011/2012",
    "genres": [
@@ -29553,20 +29555,21 @@
    ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
+    "local_coop": true,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 1
+    "max_local": 2
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:chicken wiki"
+    "research:chicken wiki",
+    "https://store.steampowered.com/app/377460/"
    ],
    "notes": "Christmas Edition 2006-11-11; Easter Edition 2010-02-12",
    "genres": [
@@ -29609,20 +29612,21 @@
    ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
+    "local_coop": true,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 1
+    "max_local": 4
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:chicken wiki"
+    "research:chicken wiki",
+    "https://store.steampowered.com/app/301300/"
    ],
    "notes": "Christmas 2011 / Easter 2012 / Thanksgiving 2013 editions",
    "genres": [
@@ -29665,11 +29669,11 @@
    ],
    "players": {
     "single": true,
-    "local_coop": false,
-    "online_coop": false,
+    "local_coop": true,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 1
+    "max_local": 4
    },
    "buyable": true,
    "download_kind": null,
@@ -29678,7 +29682,8 @@
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:chicken wiki + steam"
+    "research:chicken wiki + steam",
+    "https://store.steampowered.com/app/353090/"
    ],
    "notes": "Steam 2015-03-13; Halloween 2015 / Christmas 2016 editions",
    "genres": [
@@ -29717,14 +29722,14 @@
     "windows"
    ],
    "players": {
-    "single": true,
+    "single": false,
     "local_coop": false,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 1
+    "max_local": null
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
@@ -29733,13 +29738,13 @@
    "sources": [
     "research:chicken wiki"
    ],
-   "notes": "MMO spin-off, early access",
+   "notes": "the MMO-styled successor on the owner's list; free to play since 1.0 (2022-12-15); online co-op focus",
    "genres": [
     "casual"
    ],
    "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": null,
+   "size_source": null,
    "req_tier": "below"
   },
   {
@@ -29771,14 +29776,15 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:hitman_years"
+    "research:hitman_years",
+    "https://store.steampowered.com/app/6850/"
    ],
    "notes": "",
    "genres": [
@@ -29789,8 +29795,8 @@
     "third-person",
     "social stealth"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 480,
+   "size_source": "gog-installer (480 MB build)",
    "req_tier": "below",
    "upgrades": [
     "hitman-classic-trilogy-remastered"
@@ -29825,14 +29831,15 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:hitman_years"
+    "research:hitman_years",
+    "https://store.steampowered.com/app/247430/"
    ],
    "notes": "",
    "genres": [
@@ -29843,8 +29850,8 @@
     "third-person",
     "social stealth"
    ],
-   "size_est_mb": 2000,
-   "size_source": "store-stated",
+   "size_est_mb": 900,
+   "size_source": "installer-research (845-910 MB builds)",
    "req_tier": "below",
    "upgrades": [
     "hitman-classic-trilogy-remastered"
@@ -29886,7 +29893,8 @@
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:bloodmoney_facts"
+    "research:bloodmoney_facts",
+    "https://store.steampowered.com/app/6860/"
    ],
    "notes": "EU 2006-05-26 / NA 2006-05-30",
    "genres": [
@@ -29899,8 +29907,8 @@
     "social stealth",
     "sandbox"
    ],
-   "size_est_mb": 3600,
-   "size_source": "repack-research",
+   "size_est_mb": 4300,
+   "size_source": "gog-installer (GOGDB: v1.2 = 4.3 GB)",
    "req_tier": "below"
   },
   {
@@ -30334,7 +30342,8 @@
    "sources": [
     "wikipedia:Chicken_Invaders",
     "chickeninvaders.fandom:Editions",
-    "steam:450100"
+    "steam:450100",
+    "https://store.steampowered.com/app/450100/"
    ],
    "notes": "first edition of the series; remastered 2011-12-20; Steam 2016-03-14; disk 80MB store-stated",
    "genres": [
@@ -30347,7 +30356,7 @@
     "co-op"
    ],
    "size_est_mb": 80,
-   "size_source": "store-stated",
+   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-2-the-next-wave",
    "remaster": "chicken-invaders-remastered"
@@ -30377,7 +30386,7 @@
    "players": {
     "single": true,
     "local_coop": true,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
     "max_local": 2
@@ -30390,7 +30399,8 @@
    "confidence": "verified",
    "sources": [
     "wikipedia:Chicken_Invaders",
-    "steam:378620"
+    "steam:378620",
+    "https://store.steampowered.com/app/378620/"
    ],
    "notes": "shipped before the standard edition (2007-01-20); remastered Steam 2015-06-09; disk 170MB store-stated",
    "genres": [
@@ -30403,7 +30413,7 @@
     "co-op"
    ],
    "size_est_mb": 170,
-   "size_source": "store-stated",
+   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-3-revenge-of-the-yolk",
    "remaster": "chicken-invaders-remastered"
@@ -30433,7 +30443,7 @@
    "players": {
     "single": true,
     "local_coop": true,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
     "max_local": 2
@@ -30446,7 +30456,8 @@
    "confidence": "verified",
    "sources": [
     "wikipedia:Chicken_Invaders",
-    "steam:378621"
+    "steam:378621",
+    "https://store.steampowered.com/app/378621/"
    ],
    "notes": "first Easter edition of the series; remastered Steam 2015-06-09; disk 170MB store-stated",
    "genres": [
@@ -30459,7 +30470,7 @@
     "co-op"
    ],
    "size_est_mb": 170,
-   "size_source": "store-stated",
+   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-3-revenge-of-the-yolk",
    "remaster": "chicken-invaders-remastered"
@@ -30489,10 +30500,10 @@
    "players": {
     "single": true,
     "local_coop": true,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 2
+    "max_local": 4
    },
    "buyable": true,
    "download_kind": null,
@@ -30502,7 +30513,8 @@
    "confidence": "verified",
    "sources": [
     "wikipedia:Chicken_Invaders",
-    "interactionstudios.com/download.php"
+    "interactionstudios.com/download.php",
+    "https://store.steampowered.com/app/370400/"
    ],
    "notes": "never on Steam; distributed from the studio; disk estimated at mainline's 210MB",
    "genres": [
@@ -30515,7 +30527,7 @@
     "co-op"
    ],
    "size_est_mb": 210,
-   "size_source": "estimate-mainline",
+   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-4-ultimate-omelette",
    "remaster": "chicken-invaders-remastered"
@@ -30545,10 +30557,10 @@
    "players": {
     "single": true,
     "local_coop": true,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 2
+    "max_local": 4
    },
    "buyable": true,
    "download_kind": null,
@@ -30558,7 +30570,8 @@
    "confidence": "verified",
    "sources": [
     "wikipedia:Chicken_Invaders",
-    "interactionstudios.com/download.php"
+    "interactionstudios.com/download.php",
+    "https://store.steampowered.com/app/370401/"
    ],
    "notes": "never on Steam; distributed from the studio; disk estimated at mainline's 210MB",
    "genres": [
@@ -30570,8 +30583,8 @@
     "fixed shooter",
     "co-op"
    ],
-   "size_est_mb": 210,
-   "size_source": "estimate-mainline",
+   "size_est_mb": 220,
+   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-4-ultimate-omelette",
    "remaster": "chicken-invaders-remastered"
@@ -30601,10 +30614,10 @@
    "players": {
     "single": true,
     "local_coop": true,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 2
+    "max_local": 4
    },
    "buyable": true,
    "download_kind": null,
@@ -30614,7 +30627,8 @@
    "confidence": "verified",
    "sources": [
     "wikipedia:Chicken_Invaders",
-    "interactionstudios.com/download.php"
+    "interactionstudios.com/download.php",
+    "https://store.steampowered.com/app/370402/"
    ],
    "notes": "the only Thanksgiving edition in the series; never on Steam; disk estimated at mainline's 210MB",
    "genres": [
@@ -30626,8 +30640,8 @@
     "fixed shooter",
     "co-op"
    ],
-   "size_est_mb": 210,
-   "size_source": "estimate-mainline",
+   "size_est_mb": 220,
+   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-4-ultimate-omelette",
    "remaster": "chicken-invaders-remastered"
@@ -30657,10 +30671,10 @@
    "players": {
     "single": true,
     "local_coop": true,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 2
+    "max_local": 4
    },
    "buyable": true,
    "download_kind": null,
@@ -30670,7 +30684,8 @@
    "confidence": "verified",
    "sources": [
     "wikipedia:Chicken_Invaders",
-    "steam:402990"
+    "steam:402990",
+    "https://store.steampowered.com/app/402990/"
    ],
    "notes": "the series' only Halloween edition; Steam 2015-10-01; disk 220MB store-stated",
    "genres": [
@@ -30683,7 +30698,7 @@
     "co-op"
    ],
    "size_est_mb": 220,
-   "size_source": "store-stated",
+   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-5-cluck-of-the-dark-side",
    "remaster": "chicken-invaders-remastered"
@@ -30713,10 +30728,10 @@
    "players": {
     "single": true,
     "local_coop": true,
-    "online_coop": false,
+    "online_coop": true,
     "local_multi": false,
     "online_multi": false,
-    "max_local": 2
+    "max_local": 4
    },
    "buyable": true,
    "download_kind": null,
@@ -30726,7 +30741,8 @@
    "confidence": "verified",
    "sources": [
     "wikipedia:Chicken_Invaders",
-    "steam:543610"
+    "steam:543610",
+    "https://store.steampowered.com/app/543610/"
    ],
    "notes": "the classic line's newest edition; Steam 2016-11-29; disk 220MB store-stated",
    "genres": [
@@ -30739,7 +30755,7 @@
     "co-op"
    ],
    "size_est_mb": 220,
-   "size_source": "store-stated",
+   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-5-cluck-of-the-dark-side",
    "remaster": "chicken-invaders-remastered"
@@ -30788,8 +30804,8 @@
     "casual"
    ],
    "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": null,
+   "size_source": null,
    "req_tier": "below",
    "remaster_hub": true
   }

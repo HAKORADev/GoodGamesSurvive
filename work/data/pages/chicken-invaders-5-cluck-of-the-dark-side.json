@@ -30,23 +30,18 @@
    {
     "label": "Steam - Chicken Invaders 5",
     "url": "https://store.steampowered.com/app/353090/",
-    "note": "Steam build (2015)"
+    "note": "still sold (steam states 220 MB storage)"
    }
   ],
-  "official_note": "released 21 November 2014; Steam followed 13 March 2015.",
+  "official_note": "still sold - Steam carries it (verified add-to-cart today) and the studio distributes it itself. four-player co-op: shared screen, LAN or online.",
   "anyway": [
    {
-    "label": "InterAction studios - downloads",
-    "url": "https://www.interactionstudios.com/download.php",
-    "note": "the studio's own channel"
-   },
-   {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=chicken+invaders+5",
-    "note": "community mirrors, for the keeps-box"
+    "label": "Internet Archive - Cluck of the Dark Side",
+    "url": "https://archive.org/details/chicken-invaders-5-cluck-of-the-dark-side",
+    "note": "community mirror with the halloween edition build"
    }
   ],
-  "anyway_note": "nothing delisted - the anyway links are for keeps."
+  "anyway_note": "preservation, not rescue - the game is one of the alive ones."
  },
  "about": [
   "Chicken Invaders 5: Cluck of the Dark Side (21 November 2014) is the final classic episode before the series went massively multiplayer with Universe, and it sends the fifth invasion with a straight face: the chickens' fifth attempt to destroy Earth, this time led by CK-01 Henterprise, a corporate war machine with the planet in its sights.",

@@ -23,25 +23,14 @@
  "links": {
   "official": [
    {
-    "label": "Steam - Chicken Invaders 3 Easter Edition",
+    "label": "Steam - Chicken Invaders 3: Easter Edition",
     "url": "https://store.steampowered.com/app/378621/",
-    "note": "Steam build (2015)"
-   },
-   {
-    "label": "InterAction studios - downloads",
-    "url": "https://www.interactionstudios.com/download.php",
-    "note": "official channel"
+    "note": "still sold"
    }
   ],
-  "official_note": "the first Easter edition in the series (12 February 2010).",
-  "anyway": [
-   {
-    "label": "Internet Archive - search",
-    "url": "https://archive.org/search?query=chicken+invaders+yolk+easter",
-    "note": "community mirrors, for the keeps-box"
-   }
-  ],
-  "anyway_note": "the edition bundles with the mainline on Steam and from the studio."
+  "official_note": "still sold on Steam (verified today); the studio's download hub carries it too.",
+  "anyway": [],
+  "anyway_note": "no clean mirror verified yet - the official path is alive, so nothing is at risk."
  },
  "about": [
   "Revenge of the Yolk Easter Edition (12 February 2010) is the series' first Easter variant, and per the series' own lore the episode that started the Easter tradition: eggs were already the enemy's ammunition, so the holiday only made things worse.",
