@@ -1,0 +1,72 @@
+{
+ "slug": "wedding-dash-ready-aim-love",
+ "caption": "the third Wedding Dash: Quinn's aim finally matters, from bouquet toss to champagne spray.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Quinn"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Wedding Dash: Ready, Aim, Love",
+    "url": "https://www.myabandonware.com/game/wedding-dash-ready-aim-love-qgp",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Wedding Dash: Ready, Aim, Love!, released on 29 june 2009, is the third Quinn-fronted game, published by PlayFirst with big fish games carrying the retail side. The new layer is aim-driven interaction - bouquet tosses, rice throws and champagne sprays turned into timed targets that stack on top of the seating and service chains.",
+  "It is the line's mechanical peak: the same guest-patience engine, with a skill layer on top that rewards players who can run both the floor and the set pieces at once. Like every entry, expert scoring is what the campaign is actually about.",
+  "The storefronts that sold it are gone, and with PlayFirst folded into Glu Mobile the 2009 build has nowhere legal left to be sold - the archive route is the only route."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/KxUF2Dr78Xs/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/KxUF2Dr78Xs/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/KxUF2Dr78Xs/sddefault.jpg",
+   "https://i.ytimg.com/vi/KxUF2Dr78Xs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/KxUF2Dr78Xs/hq1.jpg",
+   "https://i.ytimg.com/vi/KxUF2Dr78Xs/hq2.jpg",
+   "https://i.ytimg.com/vi/aMIVVBYuTB0/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/aMIVVBYuTB0/sddefault.jpg",
+   "https://i.ytimg.com/vi/aMIVVBYuTB0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/aMIVVBYuTB0/hq1.jpg",
+   "https://i.ytimg.com/vi/aMIVVBYuTB0/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "KxUF2Dr78Xs",
+    "title": "Wedding Dash: Ready, Aim, Love (PC, 2009) - full walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "aMIVVBYuTB0",
+    "title": "Wedding Dash: Ready, Aim, Love! - full gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "avc5qG47fgk",
+    "title": "Wedding Dash: Ready, Aim, Love! - gameplay"
+   }
+  ]
+ },
+ "dug_seq": 57
+}

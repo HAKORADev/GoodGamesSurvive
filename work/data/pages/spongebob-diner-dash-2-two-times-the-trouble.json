@@ -1,0 +1,72 @@
+{
+ "slug": "spongebob-diner-dash-2-two-times-the-trouble",
+ "caption": "the licensed sequel: two Krusty Krabs, twice the tables, the same five-minute engine.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "SpongeBob SquarePants"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - SpongeBob Diner Dash 2: Two Times the Trouble",
+    "url": "https://www.myabandonware.com/game/spongebob-diner-dash-2-two-times-the-trouble-oi7",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "SpongeBob Diner Dash 2: Two Times the Trouble, published by playfirst in 2007, is the licensed line's sequel - built as a re-skin of diner dash 2's engine with the Bikini Bottom cast double-shifting across two Krusty Krab venues.",
+  "The doubling is the design: two floors run in parallel, orders cross between them, and the customer mix from the first crossover returns with sharper patience curves. It stayed a pc-only build of the licensed line.",
+  "The license and the channels are both gone - the 2007 build is un-buyable and preserved through archives only."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/PT1ok1G9G7g/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/PT1ok1G9G7g/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/PT1ok1G9G7g/sddefault.jpg",
+   "https://i.ytimg.com/vi/PT1ok1G9G7g/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PT1ok1G9G7g/hq1.jpg",
+   "https://i.ytimg.com/vi/PT1ok1G9G7g/hq2.jpg",
+   "https://i.ytimg.com/vi/QuA7C6MjwIs/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/QuA7C6MjwIs/sddefault.jpg",
+   "https://i.ytimg.com/vi/QuA7C6MjwIs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QuA7C6MjwIs/hq1.jpg",
+   "https://i.ytimg.com/vi/QuA7C6MjwIs/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "PT1ok1G9G7g",
+    "title": "SpongeBob SquarePants Diner Dash 2 (PC) - no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "QuA7C6MjwIs",
+    "title": "SpongeBob Diner Dash 2: Two Times the Trouble (PC) - full walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "tlHRxPGR6aI",
+    "title": "SpongeBob Diner Dash 2 - playthrough"
+   }
+  ]
+ },
+ "dug_seq": 75
+}

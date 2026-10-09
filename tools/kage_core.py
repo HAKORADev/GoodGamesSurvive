@@ -6,6 +6,11 @@ SEC_TPL = {"games": "game", "software": "software", "mods": "mod"}
 SERIES_TITLES = {
     "chicken-invaders": "Chicken Invaders",
     "diner-dash": "Diner Dash",
+    "wedding-dash": "Wedding Dash",
+    "cooking-dash": "Cooking Dash",
+    "hotel-dash": "Hotel Dash",
+    "avenue-flo": "Avenue Flo",
+    "dinertown": "DinerTown",
     "hitman": "Hitman",
 }
 

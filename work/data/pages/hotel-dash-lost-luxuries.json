@@ -1,0 +1,72 @@
+{
+ "slug": "hotel-dash-lost-luxuries",
+ "caption": "the second Hotel Dash: Flo runs a luxury resort, and every lost luxury is a new station to man.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Hotel Dash 2: Lost Luxuries",
+    "url": "https://www.myabandonware.com/game/hotel-dash-2-lost-luxuries-qgm",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Hotel Dash: Lost Luxuries, the second Hotel Dash, reached windows in mid-2011 as playfirst's pc line was winding down - it was among the last Dash games the publisher produced for the platform. The setting upgrades from boutique hotels to a full luxury resort, and the missing amenities become the level structure: every restored spa, pool or concierge desk adds a station Flo has to cover.",
+  "The service chain from Suite Success carries over with more simultaneous demands, and the resort's rebuilding frame gives the campaign its shape. It shipped through the same download channels that folded with the publisher three years later.",
+  "No official channel survives - the 2011 build is un-buyable and lives on through archives and hosted originals only."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/jmBk-5oSC9k/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/jmBk-5oSC9k/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/jmBk-5oSC9k/sddefault.jpg",
+   "https://i.ytimg.com/vi/jmBk-5oSC9k/hqdefault.jpg",
+   "https://i.ytimg.com/vi/jmBk-5oSC9k/hq1.jpg",
+   "https://i.ytimg.com/vi/jmBk-5oSC9k/hq2.jpg",
+   "https://i.ytimg.com/vi/PLq65g8nqU0/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/PLq65g8nqU0/sddefault.jpg",
+   "https://i.ytimg.com/vi/PLq65g8nqU0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PLq65g8nqU0/hq1.jpg",
+   "https://i.ytimg.com/vi/PLq65g8nqU0/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "jmBk-5oSC9k",
+    "title": "Hotel Dash 2: Lost Luxuries - gameplay part 1"
+   },
+   {
+    "kind": "youtube",
+    "id": "PLq65g8nqU0",
+    "title": "Hotel Dash 2: Lost Luxuries - late levels"
+   },
+   {
+    "kind": "youtube",
+    "id": "-wfBOAllGL4",
+    "title": "Hotel Dash 2: Lost Luxuries - levels 1-5"
+   }
+  ]
+ },
+ "dug_seq": 63
+}

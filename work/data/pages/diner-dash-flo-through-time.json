@@ -1,0 +1,82 @@
+{
+ "slug": "diner-dash-flo-through-time",
+ "caption": "the time-travel expansion on Hometown Hero: caveman cafes, medieval feasts and a future diner.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "Diner Dash Collection (the diner dash line in one pack)",
+    "url": "https://gogunlocked.com/diner-dash-collection-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Diner Dash Collection (the diner dash line in one pack)",
+    "url": "https://steamunlocked.net/ace07-diner-dash-collection-free-download",
+    "src": "steam-unlocked"
+   },
+   {
+    "label": "MyAbandonware - Diner Dash: Flo Through Time",
+    "url": "https://www.myabandonware.com/game/diner-dash-flo-through-time-upf",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Diner Dash: Flo Through Time, released on 10 november 2008, is the expansion pack built on Diner Dash: Hometown Hero rather than a clean fifth sequel - it installs on the same engine and sends Flo's diners through the ages: a caveman cafe, a medieval banquet hall, and onward to a futurist diner.",
+  "The service loop is unchanged; the eras change the customers, the props and the hazard pacing, and the retail box was distributed through big fish games alongside playfirst's own channel. It is the only entry in the numbered line that is an expansion first - which is exactly why the shelf files it as part four-and-a-half.",
+  "Both of its parents are delisted - the expansion shipped through channels that no longer exist - so the 2008 build is an un-buyable archive case."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/Ufy_UABUvNc/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/Ufy_UABUvNc/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/Ufy_UABUvNc/sddefault.jpg",
+   "https://i.ytimg.com/vi/Ufy_UABUvNc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Ufy_UABUvNc/hq1.jpg",
+   "https://i.ytimg.com/vi/Ufy_UABUvNc/hq2.jpg",
+   "https://i.ytimg.com/vi/iHDNY1y20TE/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/iHDNY1y20TE/sddefault.jpg",
+   "https://i.ytimg.com/vi/iHDNY1y20TE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/iHDNY1y20TE/hq1.jpg",
+   "https://i.ytimg.com/vi/iHDNY1y20TE/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "Ufy_UABUvNc",
+    "title": "Diner Dash: Flo Through Time (PC) - no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "iHDNY1y20TE",
+    "title": "Flo Through Time - Caveman Cafe levels"
+   },
+   {
+    "kind": "youtube",
+    "id": "9a71mLg8cAU",
+    "title": "Diner Dash: Flo Through Time (PC) - Caveman Cafe"
+   }
+  ]
+ },
+ "dug_seq": 53
+}

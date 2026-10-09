@@ -1,0 +1,87 @@
+{
+ "caption": "the first war again, on the new engine: the studio's episodic rework begins with the saga's opening chapter.",
+ "genres": [
+  "shoot 'em up"
+ ],
+ "subgenres": [
+  "fixed shooter"
+ ],
+ "characters": [
+  "The Hero"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "the studio's spec for episode 1: windows 7-11, 1 GHz cpu, 1 GB ram, directx 11. any haswell-class iGPU plays it."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Chicken Invaders 1 package (episode 1 rides here)",
+    "url": "https://store.steampowered.com/app/3491310/",
+    "note": "store page live"
+   },
+   {
+    "label": "InterAction studios - Chicken Invaders hub",
+    "url": "https://www.interactionstudios.com/chickeninvaders.php",
+    "note": "the studio's own page for the first war family"
+   }
+  ],
+  "official_note": "episode 1: the saga begins ships inside the steam package 'chicken invaders 1' (mar 7 2025) next to the 1999 original and the 2023 remaster - one purchase, three builds. still sold.",
+  "anyway": [
+   {
+    "label": "Chicken Invaders 1 package (carries episode 1)",
+    "url": "https://gogunlocked.com/chicken-invaders-1-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Chicken Invaders 1 package (carries episode 1)",
+    "url": "https://steamunlocked.net/chicken-invaders-1-free-download",
+    "src": "steam-unlocked"
+   }
+  ],
+  "anyway_note": "the package mirrors carry the whole steam package, episode 1 included."
+ },
+ "about": [
+  "Chicken Invaders Episode 1: The Saga Begins is a brand-new version of the first war built on the studio's new engine, released inside the Steam package Chicken Invaders 1 on 7 March 2025. It is the opening chapter of the episodic rework - the same program that rebuilt wars two to five - and it carries many changes backported from Chicken Invaders Universe: new weapons, new special weapons, boosters, six skill levels where the original had three, custom cuisines and hot, frozen, electric, massive and darkness environments.",
+  "The package it rides is deliberately shaped: one purchase puts the 1999 original, the 2023 classic-engine remaster and this new-engine remake on the same shelf. The episodic format for the later wars works differently - those are free downloads for registered owners through the studio's site - but the first war's episode reached Steam first and ships as part of the bundle.",
+  "With this page the first war is complete on the shelf: the 1999 classic (archive truth), Remastered (2023, classic engine) and Episode 1 (new engine) - three builds of one war, each with its own address."
+ ],
+ "notes_extra": "sources: wikipedia (package contents, new-engine statement), interactionstudios.com hub (episode spec), steam app 3491310",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/header.jpg?t=1741341152",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257098611/dbd77b6bb8361b561b3400e36d144c438915b63c/movie_600x337.jpg?t=1740159237",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257095893/55761518daf6b7afc76fe6127a7d27d4e8c020/movie_600x337.jpg?t=1740159240",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/ss_64e3ffb54b68545a2d8d385beb777ccc5e183d24.1920x1080.jpg?t=1741341152",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/ss_6bfcc037e960a68a14cf86fb1d995ae607ac9a84.1920x1080.jpg?t=1741341152",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/ss_ae1bf47279c2b005a9dbe67514397ac7bf60c66c.1920x1080.jpg?t=1741341152",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/ss_219c4a4dd92650803c6da70246040db211073b43.1920x1080.jpg?t=1741341152",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/ss_7c01c76d1ac4b83fa28c062f4c76892bb4b43b53.1920x1080.jpg?t=1741341152",
+   "https://i.ytimg.com/vi/1bnN8hNVxkw/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/1bnN8hNVxkw/sddefault.jpg",
+   "https://i.ytimg.com/vi/1bnN8hNVxkw/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "1bnN8hNVxkw",
+    "title": "Chicken Invaders: Episode 1 - The Saga Begins"
+   },
+   {
+    "kind": "youtube",
+    "id": "91NKlRU0fwQ",
+    "title": "Chicken Invaders Episode 1: The Saga Begins - gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "0WM__9PoVv4",
+    "title": "Chicken Invaders Episode 1: The Saga Begins - playthrough"
+   }
+  ]
+ },
+ "dug_seq": 22,
+ "slug": "chicken-invaders-episode-1-the-saga-begins"
+}

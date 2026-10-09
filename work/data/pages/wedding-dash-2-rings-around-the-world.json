@@ -1,0 +1,77 @@
+{
+ "slug": "wedding-dash-2-rings-around-the-world",
+ "caption": "Quinn's second season: destination weddings, exotic guests, and the same five-minute catastrophes.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Quinn"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Wedding Dash® 2: Rings Around the World",
+    "url": "https://store.steampowered.com/app/37280/"
+   }
+  ],
+  "official_note": "still sold on steam ($9.99) - one of the dash universe's surviving official doors. the archive routes below ride along for the original-era builds.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Wedding Dash 2: Rings Around the World",
+    "url": "https://www.myabandonware.com/game/wedding-dash-2-rings-around-the-world-qgo",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": null
+ },
+ "about": [
+  "Wedding Dash 2: Rings Around the World, released on 23 june 2008, moved development from ImaginEngine to Sarbakan and the weddings from hometown halls to destination venues - each a new region with its own guest book. Quinn keeps planning, Flo keeps catering, and the seating chart gets meaner as the guest list grows stranger.",
+  "The sequel adds secondary objectives per venue and a wider cast of problem guests, but the core loop - seat, serve, soothe, chain - is the same five-minute engine the series runs on. It later reached steam on 12 august 2009 in playfirst's store batch, and that listing still sells the game.",
+  "That makes it the spin-off line's one official survivor: buyable on steam today, with the archive routes preserving the original-era builds next to it."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37280/header.jpg?t=1447352396",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37280/header.jpg?t=1447352396",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37280/ss_28d93faa60af888d8584e406737e94dea53da8e8.1920x1080.jpg?t=1447352396",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37280/ss_4f759bbd6a83d2778e404b3654fb16ea52f283f4.1920x1080.jpg?t=1447352396",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37280/ss_5175bc0889cb1c4a44957aa577ce4b4058e5746b.1920x1080.jpg?t=1447352396",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37280/ss_d03b319a8ebec6c07153d6f3882d464bebe294a9.1920x1080.jpg?t=1447352396",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37280/ss_e38ad83c7df6fbe3a811a544497238d2f9ce66b5.1920x1080.jpg?t=1447352396",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37280/ss_b4a9e8aec5709123b135f318674b571fcb10ce1b.1920x1080.jpg?t=1447352396",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37280/ss_02213e3db8aa48067003d31effa157ff12144728.1920x1080.jpg?t=1447352396",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37280/ss_833347a8584835f9507f2afca8afe3f92fffdc13.1920x1080.jpg?t=1447352396",
+   "https://i.ytimg.com/vi/WmLr9qvGj6g/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "WmLr9qvGj6g",
+    "title": "Wedding Dash 2: Rings Around the World (PC) - full gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "GsSWGpLKd90",
+    "title": "Wedding Dash 2: Rings Around the World (PC)"
+   },
+   {
+    "kind": "youtube",
+    "id": "otNSCflaN_Q",
+    "title": "Wedding Dash 2: Rings Around the World - playthrough"
+   }
+  ]
+ },
+ "dug_seq": 56
+}

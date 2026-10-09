@@ -24,7 +24,7 @@
    {
     "label": "Steam - Chicken Invaders Universe (free to play)",
     "url": "https://store.steampowered.com/app/1510460/",
-    "note": "verified live 2026-10-09"
+    "note": "store page live"
    }
   ],
   "official_note": "free to play since 1.0 (2022-12-15); the game carries in-app purchases. 700 MB store-stated, broadband required.",
@@ -34,9 +34,9 @@
  "about": [
   "Chicken Invaders Universe is the series' MMO-styled successor - part six of the line, and the point where the lone spacecraft of the classic wars opens into a persistent online galaxy. You create your own pilot instead of stepping into the Hero's cockpit, fly missions across a living sector map, and drop into co-op with other players per the Steam online co-op flags. The core joke survives the transition intact: chickens, organized, in space, and you against them.",
   "The road to 1.0 was long and public. A standalone beta ran from 2018, reachable straight from the studio. Steam early access opened on 16 April 2021, and the full 1.0 release landed on 15 December 2022 - the series' anniversary date - together with the switch to free-to-play. Steam's own app page confirms the model today: free, with in-app purchases, 700 MB of storage and a broadband line listed among the minimum requirements, because this is a game that lives on its servers.",
-  "On the shelf it sits as the complete line's live branch: the five classic wars stay single-purchase, archive-documented, upgradeable through the remaster line - and Universe is where the series actually continues. An ios build has existed since April 2023, but phone platforms stay outside this archive's scope, so the page documents the windows client only."
+  "On the shelf it sits as the complete line's live branch: the five classic wars stay single-purchase, archive-documented, each with its own rebuild named on its page - and Universe is where the series actually continues. Phone builds of it exist, but phone platforms stay outside this archive's scope, so the page documents the windows client only."
  ],
- "notes_extra": "steam appdetails verified live 2026-10-09: is_free=true, release 15 Dec 2022, early access from 16 Apr 2021, categories include MMO + Online Co-op, 700 MB storage, windows only.",
+ "notes_extra": "steam appdetails store page live: is_free=true, release 15 Dec 2022, early access from 16 Apr 2021, categories include MMO + Online Co-op, 700 MB storage, windows only.",
  "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1510460/header.jpg?t=1781163339",
  "gallery": {
   "images": [
@@ -48,9 +48,26 @@
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1510460/ss_735ce239a3f29d3af353a4ed1a5c36b012e66189.1920x1080.jpg?t=1781163339",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1510460/ss_b1979e63184f53c861d32294df26e00c1583fe59.1920x1080.jpg?t=1781163339",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256817901/movie.293x165.jpg?t=1612367778",
-   "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/fe14e1581e04.jpg"
+   "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/fe14e1581e04.jpg",
+   "https://i.ytimg.com/vi/OzAnfLl5RjI/maxresdefault.jpg"
   ],
-  "videos": []
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "OzAnfLl5RjI",
+    "title": "Chicken Invaders Universe - gameplay HD (PC)"
+   },
+   {
+    "kind": "youtube",
+    "id": "lxd9dP74hJA",
+    "title": "Chicken Invaders Universe - the free-to-play MMO on Steam"
+   },
+   {
+    "kind": "youtube",
+    "id": "0sRRiGWnMrk",
+    "title": "Chicken Invaders Universe (2025) - boss fights and gameplay"
+   }
+  ]
  },
  "dug_seq": 20
 }

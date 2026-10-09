@@ -1,0 +1,70 @@
+{
+ "slug": "garden-dash",
+ "caption": "the last of the DinerTown side line: a community garden where weeds spread like patience runs out.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Garden Dash",
+    "url": "https://www.myabandonware.com/game/garden-dash-qg7",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Garden Dash, released for windows in mid-april 2011, is the final game of the DinerTown side line. The plot is a community garden: beds need watering, weeds need pulling, produce needs delivering, and every chore chain competes for the same clock as the day's customers arrive.",
+  "The gardening verbs layer cleanly onto the side line's engine, and the campaign's neighbourhood-revival frame gives it the same rebuild-everything arc as the diner games. It shipped in the same period playfirst wound its pc line down, which is why the side line ends here.",
+  "No official channel survives the publisher's collapse, so the 2011 build is an un-buyable archive case."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/1E8JPLnddwg/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/1E8JPLnddwg/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/1E8JPLnddwg/sddefault.jpg",
+   "https://i.ytimg.com/vi/1E8JPLnddwg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/1E8JPLnddwg/hq1.jpg",
+   "https://i.ytimg.com/vi/1E8JPLnddwg/hq2.jpg",
+   "https://i.ytimg.com/vi/-oKrTMU27bo/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/-oKrTMU27bo/sddefault.jpg",
+   "https://i.ytimg.com/vi/-oKrTMU27bo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/-oKrTMU27bo/hq1.jpg",
+   "https://i.ytimg.com/vi/-oKrTMU27bo/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "1E8JPLnddwg",
+    "title": "Garden Dash - gameplay part 1, levels 1-10"
+   },
+   {
+    "kind": "youtube",
+    "id": "-oKrTMU27bo",
+    "title": "Garden Dash (Handy Harvester) - levels 1-6"
+   },
+   {
+    "kind": "youtube",
+    "id": "uYnAqh5-Rdo",
+    "title": "Garden Dash (PC)"
+   }
+  ]
+ },
+ "dug_seq": 72
+}

@@ -33,12 +33,12 @@
    "slug": "chicken-invaders-collection",
    "title": "The Complete Chicken Invaders",
    "section": "games",
-   "caption": "the complete line: five wars, the remaster line, and the universe - 1999 to today.",
+   "caption": "the complete line: five wars, their remasters written one by one, and the universe - 1999 to today.",
    "about": [
-    "The full Chicken Invaders line from InterAction studios: the five classic wars with every holiday release living as a version under its episode's page (four Christmas editions, two Easter editions, one Halloween, one Thanksgiving - switched from the dropdown, not scattered as standalone entries), plus the two things that complete the family: the remaster line and Universe.",
+    "The full Chicken Invaders line from InterAction studios: the five classic wars with every holiday release living as a version under its episode's page (four Christmas editions, two Easter editions, one Halloween, one Thanksgiving - switched from the dropdown, not scattered as standalone entries), plus the three things that complete the family: the per-episode remasters, the episodic rework, and Universe.",
     "One production quirk stays on record: the third war's Christmas Edition (November 2006) shipped three months before the standard game (January 2007), making it the only edition in the series that predates its own episode.",
-    "InterAction studios is alive and every entry remains officially obtainable: the studio's download hub carries the classic line, Steam sells the mainline episodes and all eight holiday editions, and Universe is free to play. These pages are ownership stories, not rescues - the archive links ride along for preservation.",
-    "A sequel is never an upgrade, and the pages keep that law: each classic episode's upgrade line names its own rebuild - the first two wars received classic-engine remasters (2012 and 2023), while the later episodes ride the Universe-engine reworks. The remaster page carries the full line, entry by entry."
+    "InterAction studios is alive and every entry remains officially obtainable: the studio's download hub carries the classic line, Steam sells the mainline episodes and five of the eight holiday editions as DLC (the second and third wars' Christmas editions, the fourth war's Thanksgiving, and both fifth-war editions - the rest live on the studio's own store), and Universe is free to play. These pages are ownership stories, not rescues - the archive links ride along for preservation.",
+    "A sequel is never an upgrade, and the pages keep that law one war at a time: the first war's rebuild is Chicken Invaders Remastered (2023), the second war's is The Next Wave Remastered (2012), and the later wars ride the Episodes rework (2025) instead - no classic-engine remaster was ever made for wars three to five. Every classic page names its own rebuild, and every rebuild has its own page."
    ],
    "items": [
     "chicken-invaders",
@@ -47,57 +47,57 @@
     "chicken-invaders-4-ultimate-omelette",
     "chicken-invaders-5-cluck-of-the-dark-side",
     "chicken-invaders-remastered",
+    "chicken-invaders-2-the-next-wave-remastered",
+    "chicken-invaders-episode-1-the-saga-begins",
+    "chicken-invaders-episodes",
     "chicken-invaders-universe"
    ],
    "catalogued": [],
    "notes": [
-    "Chicken Invaders: Remastered is the studio's remaster line rather than a standalone game. Its page carries the line's real shape: which episodes were rebuilt, when, and where each rebuild ships."
+    "The two remaster entries cover only their own war: Remastered (2023) is the first war's rebuild, The Next Wave Remastered (2012) is the second's. Episode 1: The Saga Begins is the new-engine remake of the first war, and the Episodes page carries the free rework line for wars two to five, version by version."
    ]
   },
   {
    "slug": "dash-universe",
    "title": "The Dash Universe",
    "section": "games",
-   "caption": "PlayFirst's DinerTown empire: every Dash game from the 2003 original to the Glu era, one universe.",
+   "caption": "PlayFirst's DinerTown empire: every Dash game of the pc era, one universe.",
    "about": [
-    "Diner Dash (2003) by gameLab and PlayFirst turned restaurant time-management into a franchise and its waitress Flo into a casual-gaming icon. The main line held for a decade: Restaurant Rescue (2006), Flo on the Go (2006), Hometown Hero (2007), Flo Through Time (2008) and Boom! (2010).",
-    "The formula spun off fast. Wedding Dash ran 2007-2010 across four games, Cooking Dash 2008-2010 across three, and Hotel Dash 2009-2011 across two, each moving Flo's diner formula to a new trade. The DinerTown side line - Doggie, Dairy, Fashion, Parking, Fitness, Diaper and Garden Dash (2008-2011), plus Avenue Flo (2009-2010) and DinerTown Tycoon (2009) - filled out the town itself, and two licensed SpongeBob Diner Dash games (2006-2007) carried the formula onto Nickelodeon's turf.",
-    "The platform shift ended the classic era. PlayFirst folded into Glu Mobile in 2014, the original PC builds left circulation, and the series went free-to-play on mobile with Diner Dash (2014) and Diner DASH Adventures (2019). The classic windows builds were never re-released digitally, and the era's unlock servers are long gone - which makes this shelf an archive story first.",
-    "One page is dug so far: the 2003 original, with its rescue story and its unlock-server law. The rest of the universe is catalogued below, each entry with its own row, year and platform."
+    "Diner Dash (2003) by gameLab and PlayFirst turned restaurant time-management into a franchise and its waitress Flo into a casual-gaming icon. The pc line it built runs a full decade: Restaurant Rescue (2006), Flo on the Go (2006), Hometown Hero (2007), Flo Through Time (2008) and Boom! (2010) carry the numbered story, and the formula spun off into whole sub-lines - Wedding Dash ran 2007-2010 across four games, Cooking Dash 2008-2010 across three, Hotel Dash 2009-2011 across two, and Avenue Flo (2009-2010) turned the waitress into a point-and-click adventurer.",
+    "The DinerTown side line filled out the town itself: Doggie, Dairy, Fashion, Parking, Fitness, Diaper and Garden Dash (2008-2011) moved the chained-service engine to spas, farms, studios, lots, gyms, daycares and gardens, DinerTown Tycoon (2009) stretched it into a business sim, and two licensed SpongeBob SquarePants crossovers (2006-2007) carried it onto Nickelodeon's turf. Twenty-seven titles, one universe, all of it the pc era.",
+    "The shelf's state is mixed and honest about it: seven of the twenty-seven still sell on Steam (Hometown Hero, Cooking Dash, Wedding Dash 2, Hotel Dash: Suite Success, Fitness Dash, Diaper Dash and DinerTown Tycoon), while the rest died with their channels - PlayFirst folded into Glu Mobile in 2014, playfirst.com is gone, and the download portals closed with it. The un-buyable cases are the archive's rescue lane: no store, no key server, preserved anyway.",
+    "Scope law for this collection: windows builds only. The mobile free-to-play era that followed the classic line is outside this collection - those builds belong to phones, and phones are out of scope for this archive. Each entry below is its own dug page with its own sources, sizes and archive routes."
    ],
    "items": [
-    "diner-dash"
-   ],
-   "catalogued": [
-    "avenue-flo",
-    "avenue-flo-special-delivery",
-    "cooking-dash",
-    "cooking-dash-3-thrills-and-spills",
-    "cooking-dash-dinertown-studios",
-    "dairy-dash",
-    "diaper-dash",
+    "diner-dash",
     "diner-dash-2-restaurant-rescue",
-    "diner-dash-2015",
-    "diner-dash-5-boom",
-    "diner-dash-adventures",
     "diner-dash-flo-on-the-go",
-    "diner-dash-flo-through-time",
     "diner-dash-hometown-hero",
-    "dinertown-tycoon",
-    "doggie-dash",
-    "fashion-dash",
-    "fitness-dash",
-    "garden-dash",
-    "hotel-dash-lost-luxuries",
-    "hotel-dash-suite-success",
-    "parking-dash",
-    "spongebob-diner-dash",
-    "spongebob-diner-dash-2-two-times-the-trouble",
+    "diner-dash-flo-through-time",
+    "diner-dash-5-boom",
     "wedding-dash",
     "wedding-dash-2-rings-around-the-world",
+    "wedding-dash-ready-aim-love",
     "wedding-dash-4-ever",
-    "wedding-dash-ready-aim-love"
+    "cooking-dash",
+    "cooking-dash-dinertown-studios",
+    "cooking-dash-3-thrills-and-spills",
+    "hotel-dash-suite-success",
+    "hotel-dash-lost-luxuries",
+    "avenue-flo",
+    "avenue-flo-special-delivery",
+    "doggie-dash",
+    "dairy-dash",
+    "fashion-dash",
+    "parking-dash",
+    "fitness-dash",
+    "diaper-dash",
+    "garden-dash",
+    "dinertown-tycoon",
+    "spongebob-diner-dash",
+    "spongebob-diner-dash-2-two-times-the-trouble"
    ],
+   "catalogued": [],
    "notes": []
   }
  ],

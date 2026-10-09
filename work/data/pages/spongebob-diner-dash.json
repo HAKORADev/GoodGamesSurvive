@@ -1,0 +1,78 @@
+{
+ "slug": "spongebob-diner-dash",
+ "caption": "the license crossover: SpongeBob takes Flo's shifts, Bikini Bottom takes the seating chart.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "SpongeBob SquarePants"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - SpongeBob SquarePants Diner Dash",
+    "url": "https://www.myabandonware.com/game/spongebob-squarepants-diner-dash-lmf",
+    "note": "hosted original",
+    "src": "archive"
+   },
+   {
+    "label": "Internet Archive - SpongeBob Diner Dash",
+    "url": "https://archive.org/details/spongebob-diner-dash",
+    "note": "the PlayFirst/Nickelodeon build, archived",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "SpongeBob SquarePants Diner Dash, released on 11 may 2006, is the Diner Dash formula under the nickelodeon license, published by playfirst. SpongeBob takes the waiter role, the Krusty Krab and its rivals become the venues, and the customer cast swaps DinerTown regulars for Bikini Bottom regulars with their own patience quirks.",
+  "The service chain is untouched - seat, serve, bus, chain - which is exactly what made the crossover work: the license changes the skin, the five-minute engine stays. It was the first time the formula left DinerTown, and the only time it carried a cartoon license on pc.",
+  "The license window closed and the download channels died with the publisher, so the 2006 build is un-buyable and preserved through archives only."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/3oKhIinjtRQ/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/3oKhIinjtRQ/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/3oKhIinjtRQ/sddefault.jpg",
+   "https://i.ytimg.com/vi/3oKhIinjtRQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/3oKhIinjtRQ/hq1.jpg",
+   "https://i.ytimg.com/vi/3oKhIinjtRQ/hq2.jpg",
+   "https://i.ytimg.com/vi/I4iaxvL_Igc/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/I4iaxvL_Igc/sddefault.jpg",
+   "https://i.ytimg.com/vi/I4iaxvL_Igc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/I4iaxvL_Igc/hq1.jpg",
+   "https://i.ytimg.com/vi/I4iaxvL_Igc/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "3oKhIinjtRQ",
+    "title": "SpongeBob SquarePants: Diner Dash (PC) - no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "I4iaxvL_Igc",
+    "title": "SpongeBob SquarePants: Diner Dash - PC gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "PT1ok1G9G7g",
+    "title": "SpongeBob Diner Dash (PC) - playthrough"
+   }
+  ]
+ },
+ "dug_seq": 74
+}

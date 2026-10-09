@@ -144,19 +144,12 @@ def vocab_script(eng):
     return '<script>window.VOCAB=' + _json.dumps(v, ensure_ascii=False) + ';</script>'
 
 def bar_chips_html(eng, sec, depth):
-    chips = []
-    for c in eng.collections:
-        if c.get("section") != sec:
-            continue
-        chips.append('<a class="bar-chip" href="' + rel("", eng.collection_url(c["slug"]), depth) + '">' + esc(c["title"]) + '</a>')
-    for m in eng.multis:
-        if m.get("_sec") != sec:
-            continue
-        chips.append('<a class="bar-chip bar-chip-meta" href="' + rel("", eng.collection_url(m["slug"]), depth) + '">' + esc(m["title"]) + '</a>')
-    if not chips:
+    has = (any(c.get("section") == sec for c in eng.collections)
+           or any(m.get("_sec") == sec for m in eng.multis))
+    if not has:
         return ""
-    idx = '<a class="bar-chip bar-chip-all" href="' + rel("", eng.collections_index_url(sec), depth) + '">ALL COLLECTIONS</a>'
-    return '<div class="bar-chips"><span class="bar-chips-k">COLLECTIONS</span>' + "".join(chips) + idx + '</div>'
+    return ('<a class="bar-collections-btn" href="' + rel("", eng.collections_index_url(sec), depth) + '" '
+            'aria-label="collections of this shelf">COLLECTIONS</a>')
 
 def facet_bar_html(eng, sec, depth):
     return ('<section class="store"><div class="store-tools">'
@@ -202,7 +195,6 @@ def list_page(eng, sec, title, desc, note):
     body = ('<main class="page-wrap"><section><h2 class="sec-title">' + esc(title) + '</h2>'
             '<p class="dir-note">' + esc(note) + '</p></section>'
             + facet_bar_html(eng, sec, depth)
-            + collections_strip(eng, sec, depth)
             + '</main>')
     html = (head(title + " — GOODGAMES SURVIVE", desc, depth,
                  'data-sec="' + sec + '" data-mode="list" data-index="' + rel("", "data/shelf-%s.json" % sec, depth) + '"') +

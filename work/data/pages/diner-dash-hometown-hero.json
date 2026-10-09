@@ -1,0 +1,93 @@
+{
+ "slug": "diner-dash-hometown-hero",
+ "caption": "the fourth Diner Dash: five dying hometown spots to revive, from the Sevilla Park diner to the museum cafe.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Diner Dash:® Hometown Hero™",
+    "url": "https://store.steampowered.com/app/37240/"
+   }
+  ],
+  "official_note": "still sold on steam ($9.99) - one of the dash universe's surviving official doors. the archive routes below ride along for the original-era builds.",
+  "anyway": [
+   {
+    "label": "Diner Dash Collection (the diner dash line in one pack)",
+    "url": "https://gogunlocked.com/diner-dash-collection-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Diner Dash Collection (the diner dash line in one pack)",
+    "url": "https://steamunlocked.net/ace07-diner-dash-collection-free-download",
+    "src": "steam-unlocked"
+   },
+   {
+    "label": "MyAbandonware - Diner Dash: Hometown Hero",
+    "url": "https://www.myabandonware.com/game/diner-dash-hometown-hero-g43",
+    "note": "hosted original",
+    "src": "archive"
+   },
+   {
+    "label": "Internet Archive - Hometown Hero Gourmet Edition (fan build)",
+    "url": "https://archive.org/details/diner-dash-hometown-hero-gourmet-edition-diner-dash-fan",
+    "note": "community fan re-release, archived",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": null
+ },
+ "about": [
+  "Diner Dash: Hometown Hero is the fourth game in the line, developed and published by PlayFirst for windows in 2007. Flo comes home to find her hometown gone to seed, and the campaign rebuilds it venue by venue - five restaurants brought back to life, each with its own theme and customer mix.",
+  "It adds a playable second character and two-player co-op on one pc, plus a decorating layer between shifts. The build later reached steam on 12 august 2009 as part of the publisher's store batch - and unlike most of the line, that listing still sells the game today.",
+  "The official route exists, which makes this the exception case on the shelf: buyable on steam, with the archive routes riding along for the original-era builds."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37240/header.jpg?t=1447352391",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37240/header.jpg?t=1447352391",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37240/ss_2f38546433f8554a14da591fe6df0cdab9b50fe0.1920x1080.jpg?t=1447352391",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37240/ss_32a35d8a2e7c6483fd628ba420655fd67a95fe2f.1920x1080.jpg?t=1447352391",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37240/ss_0a136ebc5cd9847f3605d35f494bd7e079267a22.1920x1080.jpg?t=1447352391",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37240/ss_47b90303f12f0c7173aeba28cbb8b84863329f07.1920x1080.jpg?t=1447352391",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37240/ss_5610d12a168d3b3a00760bd6d679dc52dfeba1e6.1920x1080.jpg?t=1447352391",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37240/ss_b3c233bd3deb4ec679d5abe36fb6babf891a4da8.1920x1080.jpg?t=1447352391",
+   "https://i.ytimg.com/vi/VeogN_8Dcq8/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/VeogN_8Dcq8/sddefault.jpg",
+   "https://i.ytimg.com/vi/VeogN_8Dcq8/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "VeogN_8Dcq8",
+    "title": "Diner Dash: Hometown Hero (PC) - no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "95ERfVI2lB8",
+    "title": "Diner Dash: Hometown Hero (PC) - Safari Cafe levels"
+   },
+   {
+    "kind": "youtube",
+    "id": "eDUQ5mo-dg8",
+    "title": "Diner Dash 4: Hometown Hero (PC, 2007)"
+   }
+  ]
+ },
+ "dug_seq": 52
+}

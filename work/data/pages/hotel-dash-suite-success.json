@@ -1,0 +1,82 @@
+{
+ "slug": "hotel-dash-suite-success",
+ "caption": "Flo trades tables for room keys: check-in, luggage, towels and turndown service, all at once.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Hotel Dash™ Suite Success™",
+    "url": "https://store.steampowered.com/app/49000/"
+   }
+  ],
+  "official_note": "still sold on steam ($6.99) - one of the dash universe's surviving official doors. the archive routes below ride along for the original-era builds.",
+  "anyway": [
+   {
+    "label": "GOG Unlocked - Hotel Dash: Suite Success",
+    "url": "https://gogunlocked.com/hotel-dash-suite-success-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "MyAbandonware - Hotel Dash: Suite Success",
+    "url": "https://www.myabandonware.com/game/hotel-dash-suite-success-qgk",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": null
+ },
+ "about": [
+  "Hotel Dash: Suite Success, released for windows on 24 november 2009, moves Flo from the dining room to the front desk. Guests arrive with luggage, demands and room-service orders, and the chain now runs through elevators, hallways and housekeeping carts instead of tables.",
+  "The formula translates cleanly - patience curves, chaining and expert scores survive the hotel setting - while the new verbs (checking in, delivering luggage, restocking towels) give the loop a second axis. A boutique-hotel renovation layer between levels carries the campaign forward.",
+  "The build reached steam in the playfirst batch and still sells there today, which keeps it on the buyable side of the shelf; the archive routes ride along for the original-era builds."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49000/header.jpg?t=1447353015",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49000/header.jpg?t=1447353015",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49000/ss_278035c968e822ea060993ceeae58308b919e725.1920x1080.jpg?t=1447353015",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49000/ss_207f02012e14daa3dae8933923e09b6fd26ee44c.1920x1080.jpg?t=1447353015",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49000/ss_3dc3a04f4a52a7adadcc87006a25051f35f460bd.1920x1080.jpg?t=1447353015",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49000/ss_601f545ffce63aab7d3862c29269d4cc01cdd712.1920x1080.jpg?t=1447353015",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49000/ss_678085af233c03fe721ab52420fa1f1962c1bdc3.1920x1080.jpg?t=1447353015",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49000/ss_7fe00ed6529efada4713aba0a6c115a42b885587.1920x1080.jpg?t=1447353015",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49000/ss_f742c0fdb18b2fb714791c2beaed7446a4ff1ea0.1920x1080.jpg?t=1447353015",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49000/ss_79e07d833849236b45895e7bcf38bee4d3e249f1.1920x1080.jpg?t=1447353015",
+   "https://i.ytimg.com/vi/LUPn-cBv9J8/maxresdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "LUPn-cBv9J8",
+    "title": "Hotel Dash: Suite Success - gameplay, levels 1-5"
+   },
+   {
+    "kind": "youtube",
+    "id": "XHkQyysh5qg",
+    "title": "Hotel Dash: Suite Success - endless shift playthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "UgWNrheu7xY",
+    "title": "Hotel Dash: Suite Success (PC) - playthrough"
+   }
+  ]
+ },
+ "dug_seq": 62
+}

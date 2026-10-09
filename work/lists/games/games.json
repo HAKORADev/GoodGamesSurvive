@@ -1,7 +1,7 @@
 {
  "_meta": {
   "schema": "ggs.v2",
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/. v2 adds genres/subgenres/tags/size_est_mb/req_tier; genres+subgenres capped at 5. | ggs-12: catalog = owner lists + endorsed upgrade hubs. holiday releases carry version_of and stay out of the catalog layer. out-of-scope rows sleep in attic/. | ggs-13 accuracy pass 2026-10-09: sizes from steam-stated storage / studio installer Content-Length / GOGDB / hosted originals; players from steam category flags + studio feature lists; buyable from live priced pages."
  },
  "count": 702,
@@ -28110,7 +28110,7 @@
    "slug": "diner-dash",
    "list": "casual",
    "class": "normal",
-   "category": "restaurant management",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "diner-dash",
    "series_part": 1,
    "content_walls": [],
@@ -28159,14 +28159,16 @@
    "slug": "diner-dash-2-restaurant-rescue",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "diner-dash",
    "series_part": 2,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
    "release": "2006",
-   "developers": [],
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28181,22 +28183,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:oldgamesdownload"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:oldgamesdownload",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 15,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28204,14 +28212,16 @@
    "slug": "diner-dash-flo-on-the-go",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "diner-dash",
    "series_part": 3,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
    "release": "2006",
-   "developers": [],
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28226,22 +28236,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "dash series lists"
+    "dash series lists",
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 17,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28249,14 +28265,16 @@
    "slug": "diner-dash-hometown-hero",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "diner-dash",
    "series_part": 4,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2007",
-   "developers": [],
+   "release": "2007-09-24",
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28271,22 +28289,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "dash series lists"
+    "dash series lists",
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 30,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28294,16 +28318,19 @@
    "slug": "diner-dash-flo-through-time",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "diner-dash",
    "series_part": 4.1,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2008",
-   "developers": [],
-   "publishers": [
+   "release": "2008-11-10",
+   "developers": [
     "PlayFirst"
+   ],
+   "publishers": [
+    "PlayFirst",
+    "Big Fish Games"
    ],
    "platforms": [
     "windows"
@@ -28316,37 +28343,45 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:playfirst lists"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:playfirst lists",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "Hometown Hero episode pack",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 35,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
-   "title": "Diner Dash 5: Boom!",
+   "title": "Diner Dash 5: Boom",
    "slug": "diner-dash-5-boom",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "diner-dash",
    "series_part": 5,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
    "release": "2010",
-   "developers": [],
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28361,22 +28396,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:oldgamesdownload"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:oldgamesdownload",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 60,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28384,14 +28425,16 @@
    "slug": "wedding-dash",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "wedding-dash",
    "series_part": 1,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
    "release": "2007",
-   "developers": [],
+   "developers": [
+    "ImaginEngine"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28406,22 +28449,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "dash series lists"
+    "dash series lists",
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 25,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28429,14 +28478,16 @@
    "slug": "wedding-dash-2-rings-around-the-world",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "wedding-dash",
    "series_part": 2,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2008",
-   "developers": [],
+   "release": "2008-06-23",
+   "developers": [
+    "Sarbakan"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28451,39 +28502,48 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "dash series lists"
+    "dash series lists",
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 35,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
-   "title": "Wedding Dash: Ready, Aim, Love!",
+   "title": "Wedding Dash: Ready, Aim, Love",
    "slug": "wedding-dash-ready-aim-love",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "wedding-dash",
    "series_part": 3,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2009",
-   "developers": [],
-   "publishers": [
+   "release": "2009-06-29",
+   "developers": [
     "PlayFirst"
+   ],
+   "publishers": [
+    "PlayFirst",
+    "Big Fish Games"
    ],
    "platforms": [
     "windows"
@@ -28496,22 +28556,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:mobygames"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:mobygames",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 40,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28519,14 +28585,16 @@
    "slug": "wedding-dash-4-ever",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "wedding-dash",
    "series_part": 4,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2010",
-   "developers": [],
+   "release": "2010-08-10",
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28541,22 +28609,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "dash series lists"
+    "dash series lists",
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 50,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28564,14 +28638,16 @@
    "slug": "cooking-dash",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "cooking-dash",
    "series_part": 1,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2008",
-   "developers": [],
+   "release": "2008-09",
+   "developers": [
+    "Aliasworlds Entertainment"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28586,22 +28662,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 30,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28609,14 +28691,16 @@
    "slug": "cooking-dash-dinertown-studios",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "cooking-dash",
    "series_part": 2,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
    "release": "2009-09-03",
-   "developers": [],
+   "developers": [
+    "Aliasworlds Entertainment"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28631,37 +28715,45 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 35,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
-   "title": "Cooking Dash 3: Thrills & Spills",
+   "title": "Cooking Dash 3: Thrills and Spills",
    "slug": "cooking-dash-3-thrills-and-spills",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "cooking-dash",
    "series_part": 3,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2010",
-   "developers": [],
+   "release": "2010-09-30",
+   "developers": [
+    "Aliasworlds Entertainment"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28676,22 +28768,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 65,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28699,15 +28797,15 @@
    "slug": "hotel-dash-suite-success",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "hotel-dash",
    "series_part": 1,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2009",
+   "release": "2009-11-24",
    "developers": [
-    "Kef Sensei"
+    "PlayFirst"
    ],
    "publishers": [
     "PlayFirst"
@@ -28723,22 +28821,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:mobygames"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:mobygames",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 40,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28746,14 +28850,16 @@
    "slug": "hotel-dash-lost-luxuries",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "hotel-dash",
    "series_part": 2,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
    "release": "2011",
-   "developers": [],
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28768,22 +28874,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 55,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28791,14 +28903,16 @@
    "slug": "avenue-flo",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "avenue-flo",
    "series_part": 1,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
    "release": "2009-10-13",
-   "developers": [],
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28813,22 +28927,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "adventure"
+   ],
+   "size_est_mb": 90,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28836,14 +28956,16 @@
    "slug": "avenue-flo-special-delivery",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "avenue-flo",
    "series_part": 2,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2010-11-13",
-   "developers": [],
+   "release": "2010-12",
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28858,22 +28980,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "adventure"
+   ],
+   "size_est_mb": 110,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28881,13 +29009,13 @@
    "slug": "doggie-dash",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "dinertown",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2008-01-31",
+   "release": "2008",
    "developers": [
     "Viqua Games"
    ],
@@ -28905,22 +29033,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:mobygames"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:mobygames",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 25,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28928,14 +29062,16 @@
    "slug": "dairy-dash",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "dinertown",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2008",
-   "developers": [],
+   "release": "2008-05-23",
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28950,22 +29086,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 25,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -28973,14 +29115,16 @@
    "slug": "fashion-dash",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "dinertown",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2008",
-   "developers": [],
+   "release": "2008-07-28",
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -28995,22 +29139,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 25,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -29018,14 +29168,16 @@
    "slug": "parking-dash",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "dinertown",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2008",
-   "developers": [],
+   "release": "2008-10-01",
+   "developers": [
+    "Kef Sensei"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -29040,22 +29192,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 25,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -29063,14 +29221,16 @@
    "slug": "fitness-dash",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "dinertown",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2008",
-   "developers": [],
+   "release": "2008-11-06",
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -29085,22 +29245,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 25,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -29108,15 +29274,18 @@
    "slug": "diaper-dash",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "dinertown",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2009",
-   "developers": [],
+   "release": "2009-08-12",
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
+    "Zemnott",
     "PlayFirst"
    ],
    "platforms": [
@@ -29130,22 +29299,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 30,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -29153,14 +29328,16 @@
    "slug": "garden-dash",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "dinertown",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
    "release": "2011-04-15",
-   "developers": [],
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -29175,22 +29352,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:pcgamingwiki"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 35,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -29198,14 +29381,16 @@
    "slug": "dinertown-tycoon",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "dinertown",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
    "release": "2009-06-16",
-   "developers": [],
+   "developers": [
+    "PlayFirst"
+   ],
    "publishers": [
     "PlayFirst"
    ],
@@ -29220,39 +29405,48 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": true,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:mobygames/steam"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:mobygames/steam",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "tycoon"
+   ],
+   "size_est_mb": 45,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
-   "title": "SpongeBob Diner Dash",
+   "title": "SpongeBob SquarePants Diner Dash",
    "slug": "spongebob-diner-dash",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "diner-dash",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2006",
-   "developers": [],
-   "publishers": [
+   "release": "2006-05-11",
+   "developers": [
     "PlayFirst"
+   ],
+   "publishers": [
+    "PlayFirst",
+    "Nickelodeon"
    ],
    "platforms": [
     "windows"
@@ -29265,22 +29459,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "dash series lists"
+    "dash series lists",
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "licensed (Viacom)",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "subgenres": [
+    "time management"
+   ],
+   "size_est_mb": 25,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -29288,7 +29488,7 @@
    "slug": "spongebob-diner-dash-2-two-times-the-trouble",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "diner-dash",
    "series_part": null,
    "content_walls": [],
@@ -29296,7 +29496,7 @@
    "big_size_gb": null,
    "release": "2007",
    "developers": [
-    "Snap2play"
+    "PlayFirst"
    ],
    "publishers": [
     "PlayFirst"
@@ -29312,108 +29512,28 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
+   "buyable": false,
    "download_kind": null,
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "research:mobygames"
+    "mobygames/gamefaqs/ign",
+    "pcgamingwiki",
+    "research:mobygames",
+    "steam appdetails",
+    "wikipedia"
    ],
    "notes": "licensed (Viacom)",
    "genres": [
     "casual"
    ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
-   "req_tier": "below"
-  },
-  {
-   "title": "Diner Dash (2015)",
-   "slug": "diner-dash-2015",
-   "list": "casual",
-   "class": "upgrade-of-normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
-   "series": "diner-dash",
-   "series_part": 6,
-   "content_walls": [],
-   "big_size": false,
-   "big_size_gb": null,
-   "release": "2014",
-   "developers": [],
-   "publishers": [
-    "Glu Mobile"
+   "subgenres": [
+    "time management"
    ],
-   "platforms": [],
-   "players": {
-    "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
-   },
-   "buyable": null,
-   "download_kind": null,
-   "test_status": "not-tested",
-   "target_os": "windows-10",
-   "haswell_igpu_ok": null,
-   "confidence": "verified",
-   "sources": [
-    "diner dash wiki"
-   ],
-   "notes": "first free-to-play Diner Dash, mobile only | phone builds (android / ios) exist - phone platforms stay outside the archive's current scope",
-   "genres": [
-    "casual"
-   ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
-   "req_tier": "below"
-  },
-  {
-   "title": "Diner DASH Adventures",
-   "slug": "diner-dash-adventures",
-   "list": "casual",
-   "class": "upgrade-of-normal",
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
-   "series": "diner-dash",
-   "series_part": 7,
-   "content_walls": [],
-   "big_size": false,
-   "big_size_gb": null,
-   "release": "2019",
-   "developers": [],
-   "publishers": [
-    "Glu Mobile"
-   ],
-   "platforms": [],
-   "players": {
-    "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
-   },
-   "buyable": null,
-   "download_kind": null,
-   "test_status": "not-tested",
-   "target_os": "windows-10",
-   "haswell_igpu_ok": null,
-   "confidence": "verified",
-   "sources": [
-    "diner dash wiki"
-   ],
-   "notes": "mobile only | phone builds (android / ios) exist - phone platforms stay outside the archive's current scope",
-   "genres": [
-    "casual"
-   ],
-   "subgenres": [],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 30,
+   "size_source": "estimate",
    "req_tier": "below"
   },
   {
@@ -29465,11 +29585,13 @@
    "size_source": "studio-installer (13,551,752 bytes Content-Length, verified 2026-10-09)",
    "req_tier": "below",
    "upgrades": [
-    "chicken-invaders-remastered"
+    "chicken-invaders-remastered",
+    "chicken-invaders-episode-1-the-saga-begins"
    ],
    "remaster": null,
    "upgrade_notes": {
-    "chicken-invaders-remastered": "its own remaster shipped in 2023 (beta jan 20, full jan 31) and rides the studio's steam 'chicken invaders 1' package"
+    "chicken-invaders-remastered": "the classic-engine remaster (beta 20 jan 2023, full 31 jan 2023): hd graphics, directx 11, mouse and controller support, the anniversary song from universe",
+    "chicken-invaders-episode-1-the-saga-begins": "the new-engine remake of war one, riding the same steam package (mar 7 2025)"
    }
   },
   {
@@ -29522,11 +29644,13 @@
    "size_source": "store-stated",
    "req_tier": "below",
    "upgrades": [
-    "chicken-invaders-remastered"
+    "chicken-invaders-2-the-next-wave-remastered",
+    "chicken-invaders-episodes"
    ],
    "remaster": null,
    "upgrade_notes": {
-    "chicken-invaders-remastered": "its own remaster shipped jan 26 2012 (the christmas edition's on dec 20 2011): hd graphics, orchestral music, autofire, progress saves, new languages"
+    "chicken-invaders-2-the-next-wave-remastered": "its own remaster shipped 26 jan 2012 (the christmas edition's on 20 dec 2011): hi-res graphics, orchestral music, autofire, progress saves, new languages",
+    "chicken-invaders-episodes": "episode 2 of the episodic rework - free for registered owners, full-hd remaster + new engine (v.35, sep 2026, current)"
    }
   },
   {
@@ -29579,11 +29703,11 @@
    "size_source": "store-stated",
    "req_tier": "below",
    "upgrades": [
-    "chicken-invaders-remastered"
+    "chicken-invaders-episodes"
    ],
    "remaster": null,
    "upgrade_notes": {
-    "chicken-invaders-remastered": "no classic-engine remaster - this episode rides the universe-engine rework line (episode 3 beta)"
+    "chicken-invaders-episodes": "episode 3 of the episodic rework - free for registered owners; no classic-engine remaster exists for this war"
    }
   },
   {
@@ -29636,11 +29760,11 @@
    "size_source": "store-stated",
    "req_tier": "below",
    "upgrades": [
-    "chicken-invaders-remastered"
+    "chicken-invaders-episodes"
    ],
    "remaster": null,
    "upgrade_notes": {
-    "chicken-invaders-remastered": "no classic-engine remaster - this episode rides the universe-engine rework line (episode 4 beta)"
+    "chicken-invaders-episodes": "episode 4 of the episodic rework - free for registered owners; no classic-engine remaster exists for this war"
    }
   },
   {
@@ -29693,10 +29817,10 @@
    "size_source": "store-stated",
    "req_tier": "below",
    "upgrades": [
-    "chicken-invaders-remastered"
+    "chicken-invaders-episodes"
    ],
    "upgrade_notes": {
-    "chicken-invaders-remastered": "the classic-engine remasters cover episodes 1-2; this episode rides the universe-engine rework line (episode 5 beta)"
+    "chicken-invaders-episodes": "episode 5 of the episodic rework - free for registered owners; no classic-engine remaster exists for this war"
    }
   },
   {
@@ -29924,7 +30048,7 @@
    "slug": "dream-chronicles",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - PlayFirst non-Dash (owner brief)",
+   "category": "PLAYFIRST LINE - PAGES PENDING",
    "series": "dream-chronicles",
    "series_part": null,
    "content_walls": [],
@@ -29967,7 +30091,7 @@
    "slug": "dream-chronicles-the-chosen-child",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - PlayFirst non-Dash (owner brief)",
+   "category": "PLAYFIRST LINE - PAGES PENDING",
    "series": "dream-chronicles",
    "series_part": null,
    "content_walls": [],
@@ -30010,7 +30134,7 @@
    "slug": "dream-chronicles-the-book-of-air",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - PlayFirst non-Dash (owner brief)",
+   "category": "PLAYFIRST LINE - PAGES PENDING",
    "series": "dream-chronicles",
    "series_part": null,
    "content_walls": [],
@@ -30053,7 +30177,7 @@
    "slug": "emerald-city-confidential",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - PlayFirst non-Dash (owner brief)",
+   "category": "PLAYFIRST LINE - PAGES PENDING",
    "series": null,
    "series_part": null,
    "content_walls": [],
@@ -30096,7 +30220,7 @@
    "slug": "wandering-willows",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - PlayFirst non-Dash (owner brief)",
+   "category": "PLAYFIRST LINE - PAGES PENDING",
    "series": null,
    "series_part": null,
    "content_walls": [],
@@ -30139,7 +30263,7 @@
    "slug": "oasis",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - PlayFirst non-Dash (owner brief)",
+   "category": "PLAYFIRST LINE - PAGES PENDING",
    "series": null,
    "series_part": null,
    "content_walls": [],
@@ -30182,7 +30306,7 @@
    "slug": "egg-vs-chicken",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - PlayFirst non-Dash (owner brief)",
+   "category": "PLAYFIRST LINE - PAGES PENDING",
    "series": null,
    "series_part": null,
    "content_walls": [],
@@ -30225,7 +30349,7 @@
    "slug": "chessmaster-challenge",
    "list": "casual",
    "class": "normal",
-   "category": "EXPANSION - PlayFirst non-Dash (owner brief)",
+   "category": "PLAYFIRST LINE - PAGES PENDING",
    "series": null,
    "series_part": null,
    "content_walls": [],
@@ -30317,7 +30441,7 @@
    "list": "casual",
    "class": "normal",
    "upgrades": [],
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "chicken-invaders",
    "series_part": null,
    "content_walls": [],
@@ -30367,7 +30491,8 @@
    "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-2-the-next-wave",
-   "remaster": "chicken-invaders-remastered"
+   "remaster": "chicken-invaders-2-the-next-wave-remastered",
+   "remaster_note": "its remaster shipped 20 dec 2011, ahead of the standard remaster"
   },
   {
    "title": "Chicken Invaders 3: Revenge of the Yolk - Christmas Edition",
@@ -30375,7 +30500,7 @@
    "list": "casual",
    "class": "normal",
    "upgrades": [],
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "chicken-invaders",
    "series_part": null,
    "content_walls": [],
@@ -30424,7 +30549,8 @@
    "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-3-revenge-of-the-yolk",
-   "remaster": "chicken-invaders-remastered"
+   "remaster": "chicken-invaders-episodes",
+   "remaster_note": "the episodic rework folds seasonal content into episode 3 itself"
   },
   {
    "title": "Chicken Invaders 3: Revenge of the Yolk - Easter Edition",
@@ -30432,7 +30558,7 @@
    "list": "casual",
    "class": "normal",
    "upgrades": [],
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "chicken-invaders",
    "series_part": null,
    "content_walls": [],
@@ -30481,7 +30607,8 @@
    "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-3-revenge-of-the-yolk",
-   "remaster": "chicken-invaders-remastered"
+   "remaster": "chicken-invaders-episodes",
+   "remaster_note": "the episodic rework folds seasonal content into episode 3 itself"
   },
   {
    "title": "Chicken Invaders 4: Ultimate Omelette - Christmas Edition",
@@ -30489,7 +30616,7 @@
    "list": "casual",
    "class": "normal",
    "upgrades": [],
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "chicken-invaders",
    "series_part": null,
    "content_walls": [],
@@ -30538,7 +30665,8 @@
    "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-4-ultimate-omelette",
-   "remaster": "chicken-invaders-remastered"
+   "remaster": "chicken-invaders-episodes",
+   "remaster_note": "the episodic rework folds seasonal content into episode 4 itself"
   },
   {
    "title": "Chicken Invaders 4: Ultimate Omelette - Easter Edition",
@@ -30546,7 +30674,7 @@
    "list": "casual",
    "class": "normal",
    "upgrades": [],
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "chicken-invaders",
    "series_part": null,
    "content_walls": [],
@@ -30595,7 +30723,8 @@
    "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-4-ultimate-omelette",
-   "remaster": "chicken-invaders-remastered"
+   "remaster": "chicken-invaders-episodes",
+   "remaster_note": "the episodic rework folds seasonal content into episode 4 itself"
   },
   {
    "title": "Chicken Invaders 4: Ultimate Omelette - Thanksgiving Edition",
@@ -30603,7 +30732,7 @@
    "list": "casual",
    "class": "normal",
    "upgrades": [],
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "chicken-invaders",
    "series_part": null,
    "content_walls": [],
@@ -30652,7 +30781,8 @@
    "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-4-ultimate-omelette",
-   "remaster": "chicken-invaders-remastered"
+   "remaster": "chicken-invaders-episodes",
+   "remaster_note": "the episodic rework folds seasonal content into episode 4 itself"
   },
   {
    "title": "Chicken Invaders 5: Cluck of the Dark Side - Halloween Edition",
@@ -30660,7 +30790,7 @@
    "list": "casual",
    "class": "normal",
    "upgrades": [],
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "chicken-invaders",
    "series_part": null,
    "content_walls": [],
@@ -30709,7 +30839,8 @@
    "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-5-cluck-of-the-dark-side",
-   "remaster": "chicken-invaders-remastered"
+   "remaster": "chicken-invaders-episodes",
+   "remaster_note": "the episodic rework folds seasonal content into episode 5 itself"
   },
   {
    "title": "Chicken Invaders 5: Cluck of the Dark Side - Christmas Edition",
@@ -30717,7 +30848,7 @@
    "list": "casual",
    "class": "normal",
    "upgrades": [],
-   "category": "EXPANSION - Dash/PlayFirst/Glu (owner brief)",
+   "category": "⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS",
    "series": "chicken-invaders",
    "series_part": null,
    "content_walls": [],
@@ -30766,7 +30897,8 @@
    "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
    "req_tier": "below",
    "version_of": "chicken-invaders-5-cluck-of-the-dark-side",
-   "remaster": "chicken-invaders-remastered"
+   "remaster": "chicken-invaders-episodes",
+   "remaster_note": "the episodic rework folds seasonal content into episode 5 itself"
   },
   {
    "title": "Chicken Invaders: Remastered",
@@ -30779,7 +30911,7 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2012-2023",
+   "release": "2023-01-31",
    "developers": [
     "InterAction studios"
    ],
@@ -30808,7 +30940,7 @@
     "steam:3491310",
     "steam:3491310 (verified live 2026-10-09: the 'Chicken Invaders 1' package ships the original 1999 build + Remastered 2023 + the Episode 1 beta remaster; single-player + shared/split co-op; 700 MB storage; windows)"
    ],
-   "notes": "not a standalone game: the studio's remaster line covering the classic episodes and their DLCs. per-episode rollout - the CI2 remaster shipped 2012-01-26 (chicken wiki), the CI1 remaster 2023 inside the steam 'Chicken Invaders 1' package, newer episodes ride the beta line (wikipedia). the direct upgrade of every old game on the CI shelf",
+   "notes": "the 2023 remaster of the first war. beta 20 jan 2023, full release 31 jan 2023.",
    "genres": [
     "shoot 'em up"
    ],
@@ -30818,7 +30950,8 @@
    "size_est_mb": 700,
    "size_source": "store:steam-3491310",
    "req_tier": "below",
-   "remaster_hub": true
+   "remaster_hub": true,
+   "upgrades": null
   },
   {
    "title": "Hitman HD Enhanced Collection",
@@ -30924,6 +31057,162 @@
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
+  },
+  {
+   "title": "Chicken Invaders 2: The Next Wave Remastered",
+   "list": "casual",
+   "class": "upgrade-of-normal",
+   "category": "fixed shooters",
+   "series": "chicken-invaders",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2012-01-26",
+   "developers": [
+    "InterAction studios"
+   ],
+   "publishers": [
+    "InterAction studios"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": true,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 2
+   },
+   "buyable": true,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": true,
+   "confidence": "verified",
+   "sources": [
+    "interactionstudios.com",
+    "steam appdetails",
+    "wikipedia"
+   ],
+   "notes": "the 2012 remaster of the second war. its christmas edition remaster landed first, 20 dec 2011.",
+   "genres": [
+    "shoot 'em up"
+   ],
+   "subgenres": [
+    "fixed shooter"
+   ],
+   "tags": [],
+   "size_est_mb": 80,
+   "size_source": "studio spec + steam package (same shelf, 80 MB stated)",
+   "req_tier": "below",
+   "slug": "chicken-invaders-2-the-next-wave-remastered"
+  },
+  {
+   "title": "Chicken Invaders Episode 1: The Saga Begins",
+   "list": "casual",
+   "class": "upgrade-of-normal",
+   "category": "fixed shooters",
+   "series": "chicken-invaders",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2025-03-07",
+   "developers": [
+    "InterAction studios"
+   ],
+   "publishers": [
+    "InterAction studios"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": true,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 2
+   },
+   "buyable": true,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": true,
+   "confidence": "verified",
+   "sources": [
+    "interactionstudios.com",
+    "steam appdetails",
+    "wikipedia"
+   ],
+   "notes": "the first war rebuilt on the new engine, riding the studio's steam 'chicken invaders 1' package.",
+   "genres": [
+    "shoot 'em up"
+   ],
+   "subgenres": [
+    "fixed shooter"
+   ],
+   "tags": [],
+   "size_est_mb": 1000,
+   "size_source": "store:steam-3491310 (package, 1 GB stated)",
+   "req_tier": "below",
+   "slug": "chicken-invaders-episode-1-the-saga-begins"
+  },
+  {
+   "title": "Chicken Invaders Episodes",
+   "list": "casual",
+   "class": "upgrade-of-normal",
+   "category": "fixed shooters",
+   "series": "chicken-invaders",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2025-01-07",
+   "developers": [
+    "InterAction studios"
+   ],
+   "publishers": [
+    "InterAction studios"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": true,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 2
+   },
+   "buyable": true,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": true,
+   "confidence": "verified",
+   "sources": [
+    "interactionstudios.com",
+    "steam appdetails",
+    "wikipedia"
+   ],
+   "notes": "the studio's free episodic rework of wars 2-5: full-hd remaster, new engine, unified seasons. v.35 (26 sep 2026) current.",
+   "genres": [
+    "shoot 'em up"
+   ],
+   "subgenres": [
+    "fixed shooter"
+   ],
+   "tags": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": "below",
+   "slug": "chicken-invaders-episodes"
   }
  ]
 }

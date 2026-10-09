@@ -1,0 +1,82 @@
+{
+ "slug": "diner-dash-5-boom",
+ "caption": "the fifth Diner Dash: Flo's own diner is bombed to bits, and every level rebuilds it from the rubble.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "Diner Dash Collection (the diner dash line in one pack)",
+    "url": "https://gogunlocked.com/diner-dash-collection-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Diner Dash Collection (the diner dash line in one pack)",
+    "url": "https://steamunlocked.net/ace07-diner-dash-collection-free-download",
+    "src": "steam-unlocked"
+   },
+   {
+    "label": "MyAbandonware - Diner Dash 5: Boom",
+    "url": "https://www.myabandonware.com/game/diner-dash-5-boom-g46",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Diner Dash 5: BOOM! is the fifth numbered game, developed by PlayFirst and released in 2010 - the collector's edition landed on playfirst.com on 18 february, with the standard build following roughly two weeks later. A greedy demolition scheme leaves Flo's diner in pieces, and the campaign rebuilds it while she serves at temporary venues across town.",
+  "It is the biggest classic-era build of the line: a modular diner you reassemble between levels, a crowd system that floods venues, and the same expert-chase the series always had. The collector's edition carried extras that the standard build left out, and both shipped while playfirst's own store was still the center of casual distribution.",
+  "Four years later the publisher folded into glu mobile and the store vanished, so the 2010 build joined the un-buyable case - the numbered line's last original entry is also its last easy loss."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/DhWFAlCbS4g/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/DhWFAlCbS4g/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/DhWFAlCbS4g/sddefault.jpg",
+   "https://i.ytimg.com/vi/DhWFAlCbS4g/hqdefault.jpg",
+   "https://i.ytimg.com/vi/DhWFAlCbS4g/hq1.jpg",
+   "https://i.ytimg.com/vi/DhWFAlCbS4g/hq2.jpg",
+   "https://i.ytimg.com/vi/RUoGMnOzD6Q/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/RUoGMnOzD6Q/sddefault.jpg",
+   "https://i.ytimg.com/vi/RUoGMnOzD6Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/RUoGMnOzD6Q/hq1.jpg",
+   "https://i.ytimg.com/vi/RUoGMnOzD6Q/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "DhWFAlCbS4g",
+    "title": "Diner Dash 5: BOOM! (PC, 2010) - full gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "RUoGMnOzD6Q",
+    "title": "Diner Dash 5: BOOM! Collector's Edition (PC)"
+   },
+   {
+    "kind": "youtube",
+    "id": "nFI6wjweIK0",
+    "title": "Diner Dash 5: BOOM! - gameplay part 1"
+   }
+  ]
+ },
+ "dug_seq": 54
+}

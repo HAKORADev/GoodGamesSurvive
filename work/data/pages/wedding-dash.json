@@ -1,0 +1,78 @@
+{
+ "slug": "wedding-dash",
+ "caption": "the spin-off that put the planner in charge: Quinn seats weddings, Flo caters them.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Quinn"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Wedding Dash",
+    "url": "https://www.myabandonware.com/game/wedding-dash-qgn",
+    "note": "hosted original",
+    "src": "archive"
+   },
+   {
+    "label": "Internet Archive - Wedding Dash (US retail)",
+    "url": "https://archive.org/details/Nova_WeddingDashUSA",
+    "note": "retail build, archived",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Wedding Dash is the first major spin-off of the Diner Dash formula, released in 2007 by PlayFirst with development by ImaginEngine. The protagonist changes: Quinn, the wedding planner, runs the floor - seating guests, defusing bride-and-groom crises and keeping the ceremony on schedule - while Flo's catering table feeds them.",
+  "The service chain survives the theme change intact, but the failure states move from food to feelings: unhappy guests cause scenes, and the seating chart becomes the puzzle. Nine weddings form the campaign, and the expert scores demand seating plans two waves ahead.",
+  "PlayFirst's store and the portals that carried it are gone, so the 2007 build is an un-buyable archive case - the spin-off line that outsold most of the originals has no legal counter left to buy from."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/mxbyqlU9HNs/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/mxbyqlU9HNs/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/mxbyqlU9HNs/sddefault.jpg",
+   "https://i.ytimg.com/vi/mxbyqlU9HNs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/mxbyqlU9HNs/hq1.jpg",
+   "https://i.ytimg.com/vi/mxbyqlU9HNs/hq2.jpg",
+   "https://i.ytimg.com/vi/mM2cYPBXuvY/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/mM2cYPBXuvY/sddefault.jpg",
+   "https://i.ytimg.com/vi/mM2cYPBXuvY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/mM2cYPBXuvY/hq1.jpg",
+   "https://i.ytimg.com/vi/mM2cYPBXuvY/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "mxbyqlU9HNs",
+    "title": "Wedding Dash (PC) - full gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "mM2cYPBXuvY",
+    "title": "Wedding Dash (PC, 2007) - full walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "BjmHi6W6HQg",
+    "title": "Wedding Dash (PC, 2007) - all expert levels"
+   }
+  ]
+ },
+ "dug_seq": 55
+}

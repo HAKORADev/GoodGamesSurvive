@@ -1,0 +1,77 @@
+{
+ "slug": "cooking-dash",
+ "caption": "Flo steps into the kitchen: cook it, plate it, serve it - one pair of hands, all stations.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Cooking Dash®",
+    "url": "https://store.steampowered.com/app/37220/"
+   }
+  ],
+  "official_note": "still sold on steam ($9.99) - one of the dash universe's surviving official doors. the archive routes below ride along for the original-era builds.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Cooking Dash",
+    "url": "https://www.myabandonware.com/game/cooking-dash-qgc",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": null
+ },
+ "about": [
+  "Cooking Dash, released for windows in 2008 with development by Aliasworlds Entertainment under the PlayFirst banner, changes the protagonist's job rather than the protagonist: Flo drops the trays and takes the stove, cooking every order herself while Grandma runs the seating.",
+  "The design consequence is real - the chain now runs through preparation stations, so a wrong sequencing decision at the grill costs more than a wrong seating choice ever did. Multi-course meals, celebrity customers and kitchen upgrades carry the fifty-level campaign, and two players can still share one pc.",
+  "The build reached steam on 12 august 2009 as part of playfirst's store batch and that listing still sells it - one of the few official doors left into the Dash universe."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37220/header.jpg?t=1531175379",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37220/header.jpg?t=1531175379",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37220/ss_a978c027d4aedd32dcf20567346428770a82f8e1.1920x1080.jpg?t=1531175379",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37220/ss_f75c7e6f8125b1981c36194c4d4a9fdf3685484c.1920x1080.jpg?t=1531175379",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37220/ss_a31c056a47aa1f2c9c3ef60fcd73ece70de7e417.1920x1080.jpg?t=1531175379",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37220/ss_9674aa61aa5400c5bb7863e77624951bd5a6e126.1920x1080.jpg?t=1531175379",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37220/ss_07d19ef1d8ccfdbf8987be7f9f15016a02d0a7ef.1920x1080.jpg?t=1531175379",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37220/ss_8b7b62a6e6635b9c12ba3053fc9d85345c338f3d.1920x1080.jpg?t=1531175379",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37220/ss_b2ca84d6ca991dbdda12c6410b8d13d9327219e7.1920x1080.jpg?t=1531175379",
+   "https://i.ytimg.com/vi/BTr38MGIlCc/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/BTr38MGIlCc/sddefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "BTr38MGIlCc",
+    "title": "Cooking Dash (PC) - full game walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "QAkvS-YibvQ",
+    "title": "Cooking Dash (Windows, 2008)"
+   },
+   {
+    "kind": "youtube",
+    "id": "moT1G2-oCwY",
+    "title": "Cooking Dash - levels 1-5"
+   }
+  ]
+ },
+ "dug_seq": 59
+}

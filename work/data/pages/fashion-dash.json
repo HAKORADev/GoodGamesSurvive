@@ -1,0 +1,70 @@
+{
+ "slug": "fashion-dash",
+ "caption": "Coco's costume studio: fittings, alterations and a runway clock in the DinerTown side line.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Fashion Dash",
+    "url": "https://www.myabandonware.com/game/fashion-dash-qg6",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Fashion Dash, released on 28 july 2008, moves the loop to a costume design studio run by Coco, a designer dressing a dance show. Clients queue for fittings, alterations run through stations, and the runway deadline plays the role the dinner rush played in the diner games.",
+  "Measuring, tailoring and accessorizing chain the same way seating and serving did, and the show's themes change what the studio has to produce each level. It is one of five DinerTown side-line games playfirst shipped in 2008 alone.",
+  "The download channel that carried it folded with the publisher, leaving the 2008 build un-buyable and preserved through archives only."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/eCAkZps4Qs8/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/eCAkZps4Qs8/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/eCAkZps4Qs8/sddefault.jpg",
+   "https://i.ytimg.com/vi/eCAkZps4Qs8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/eCAkZps4Qs8/hq1.jpg",
+   "https://i.ytimg.com/vi/eCAkZps4Qs8/hq2.jpg",
+   "https://i.ytimg.com/vi/0KIC7HejQCE/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/0KIC7HejQCE/sddefault.jpg",
+   "https://i.ytimg.com/vi/0KIC7HejQCE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/0KIC7HejQCE/hq1.jpg",
+   "https://i.ytimg.com/vi/0KIC7HejQCE/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "eCAkZps4Qs8",
+    "title": "Fashion Dash (PC) - gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "0KIC7HejQCE",
+    "title": "Fashion Dash - full play"
+   },
+   {
+    "kind": "youtube",
+    "id": "FV5wGytBfkU",
+    "title": "Fashion Dash - level 5-10"
+   }
+  ]
+ },
+ "dug_seq": 68
+}

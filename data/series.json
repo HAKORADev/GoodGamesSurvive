@@ -43,7 +43,28 @@
      "slug": "chicken-invaders-remastered",
      "part": null,
      "kind": "remaster",
-     "y": "2012-2023"
+     "y": "2023"
+    },
+    {
+     "slug": "chicken-invaders-2-the-next-wave-remastered",
+     "title": "Chicken Invaders 2: The Next Wave Remastered",
+     "part": null,
+     "kind": "remaster",
+     "y": "2012"
+    },
+    {
+     "slug": "chicken-invaders-episode-1-the-saga-begins",
+     "title": "Chicken Invaders Episode 1: The Saga Begins",
+     "part": null,
+     "kind": "episode",
+     "y": "2025"
+    },
+    {
+     "slug": "chicken-invaders-episodes",
+     "title": "Chicken Invaders Episodes",
+     "part": null,
+     "kind": "episode",
+     "y": "2025"
     }
    ]
   },
@@ -79,16 +100,6 @@
      "title": "Diner Dash 5: Boom!",
      "slug": "diner-dash-5-boom",
      "part": 5
-    },
-    {
-     "title": "Diner Dash (2015)",
-     "slug": "diner-dash-2015",
-     "part": 6
-    },
-    {
-     "title": "Diner DASH Adventures",
-     "slug": "diner-dash-adventures",
-     "part": 7
     },
     {
      "title": "SpongeBob Diner Dash",
@@ -180,6 +191,169 @@
    ],
    "upgrades_note": "the HD Enhanced Collection (2019) remasters Blood Money + Absolution on consoles only; the World of Assassination line (2016-2023) is the modern path - heavy for haswell iGPUs, listed, not archive targets",
    "title": "Hitman"
+  },
+  {
+   "key": "wedding-dash",
+   "title": "Wedding Dash",
+   "members": [
+    {
+     "slug": "wedding-dash",
+     "title": "Wedding Dash",
+     "part": 1,
+     "kind": null,
+     "y": "2007"
+    },
+    {
+     "slug": "wedding-dash-2-rings-around-the-world",
+     "title": "Wedding Dash 2: Rings Around the World",
+     "part": 2,
+     "kind": null,
+     "y": "2008"
+    },
+    {
+     "slug": "wedding-dash-ready-aim-love",
+     "title": "Wedding Dash: Ready, Aim, Love",
+     "part": 3,
+     "kind": null,
+     "y": "2009"
+    },
+    {
+     "slug": "wedding-dash-4-ever",
+     "title": "Wedding Dash 4-Ever",
+     "part": 4,
+     "kind": null,
+     "y": "2010"
+    }
+   ]
+  },
+  {
+   "key": "cooking-dash",
+   "title": "Cooking Dash",
+   "members": [
+    {
+     "slug": "cooking-dash",
+     "title": "Cooking Dash",
+     "part": 1,
+     "kind": null,
+     "y": "2008"
+    },
+    {
+     "slug": "cooking-dash-dinertown-studios",
+     "title": "Cooking Dash: DinerTown Studios",
+     "part": 2,
+     "kind": null,
+     "y": "2009"
+    },
+    {
+     "slug": "cooking-dash-3-thrills-and-spills",
+     "title": "Cooking Dash 3: Thrills and Spills",
+     "part": 3,
+     "kind": null,
+     "y": "2010"
+    }
+   ]
+  },
+  {
+   "key": "hotel-dash",
+   "title": "Hotel Dash",
+   "members": [
+    {
+     "slug": "hotel-dash-suite-success",
+     "title": "Hotel Dash: Suite Success",
+     "part": 1,
+     "kind": null,
+     "y": "2009"
+    },
+    {
+     "slug": "hotel-dash-lost-luxuries",
+     "title": "Hotel Dash: Lost Luxuries",
+     "part": 2,
+     "kind": null,
+     "y": "2011"
+    }
+   ]
+  },
+  {
+   "key": "avenue-flo",
+   "title": "Avenue Flo",
+   "members": [
+    {
+     "slug": "avenue-flo",
+     "title": "Avenue Flo",
+     "part": 1,
+     "kind": null,
+     "y": "2009"
+    },
+    {
+     "slug": "avenue-flo-special-delivery",
+     "title": "Avenue Flo: Special Delivery",
+     "part": 2,
+     "kind": null,
+     "y": "2010"
+    }
+   ]
+  },
+  {
+   "key": "dinertown",
+   "title": "DinerTown",
+   "members": [
+    {
+     "slug": "doggie-dash",
+     "title": "Doggie Dash",
+     "part": null,
+     "kind": null,
+     "y": "2008"
+    },
+    {
+     "slug": "dairy-dash",
+     "title": "Dairy Dash",
+     "part": null,
+     "kind": null,
+     "y": "2008"
+    },
+    {
+     "slug": "fashion-dash",
+     "title": "Fashion Dash",
+     "part": null,
+     "kind": null,
+     "y": "2008"
+    },
+    {
+     "slug": "parking-dash",
+     "title": "Parking Dash",
+     "part": null,
+     "kind": null,
+     "y": "2008"
+    },
+    {
+     "slug": "fitness-dash",
+     "title": "Fitness Dash",
+     "part": null,
+     "kind": null,
+     "y": "2008"
+    },
+    {
+     "slug": "diaper-dash",
+     "title": "Diaper Dash",
+     "part": null,
+     "kind": null,
+     "y": "2009"
+    },
+    {
+     "slug": "dinertown-tycoon",
+     "title": "DinerTown Tycoon",
+     "part": null,
+     "kind": null,
+     "y": "2009"
+    },
+    {
+     "slug": "garden-dash",
+     "title": "Garden Dash",
+     "part": null,
+     "kind": null,
+     "y": "2011"
+    }
+   ]
   }
  ],
  "members_sort_law": "order by part, then y, then title - kind remaster/rebrand rides without a part"

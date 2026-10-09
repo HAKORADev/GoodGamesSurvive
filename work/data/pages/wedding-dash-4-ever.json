@@ -1,0 +1,72 @@
+{
+ "slug": "wedding-dash-4-ever",
+ "caption": "the fourth Wedding Dash, and the line's last PC entry: ten seasons of weddings, from ballroom to beach.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Quinn"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Wedding Dash 4-Ever",
+    "url": "https://www.myabandonware.com/game/wedding-dash-4-ever-qgq",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Wedding Dash 4-Ever, released on 10 august 2010, is the fourth and final PC entry of the spin-off line, developed and published by PlayFirst. The campaign runs as ten themed seasons of weddings, each batch of venues pushing the guest mix and the crisis pacing further than the last.",
+  "It keeps the Ready, Aim, Love set pieces and folds in the era's usual upgrades between weddings, and it shipped at the exact moment the casual-download model that carried the whole Dash franchise started to move on. The title turned out to be a promise the PC line couldn't keep - nothing in the series followed it on windows.",
+  "PlayFirst folded into glu mobile in 2014 and the download channels died with it, leaving the 2010 build un-buyable and preserved through archives only."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/-2070bmy2NM/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/-2070bmy2NM/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/-2070bmy2NM/sddefault.jpg",
+   "https://i.ytimg.com/vi/-2070bmy2NM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/-2070bmy2NM/hq1.jpg",
+   "https://i.ytimg.com/vi/-2070bmy2NM/hq2.jpg",
+   "https://i.ytimg.com/vi/n4lin2Lrk6Q/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/n4lin2Lrk6Q/sddefault.jpg",
+   "https://i.ytimg.com/vi/n4lin2Lrk6Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/n4lin2Lrk6Q/hq1.jpg",
+   "https://i.ytimg.com/vi/n4lin2Lrk6Q/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "-2070bmy2NM",
+    "title": "Wedding Dash 4-Ever - full walkthrough, no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "n4lin2Lrk6Q",
+    "title": "Wedding Dash 4-Ever - gameplay part 1"
+   },
+   {
+    "kind": "youtube",
+    "id": "7MlRCIlpJVg",
+    "title": "Wedding Dash 4-Ever (PC, 2010)"
+   }
+  ]
+ },
+ "dug_seq": 58
+}

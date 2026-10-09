@@ -1,0 +1,72 @@
+{
+ "slug": "avenue-flo-special-delivery",
+ "caption": "the second Avenue Flo: a baby's due date, a missing shower, and the whole town to search.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "adventure"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Avenue Flo: Special Delivery",
+    "url": "https://www.myabandonware.com/game/avenue-flo-special-delivery-qge",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Avenue Flo: Special Delivery, the second and last Avenue Flo adventure, reached windows at the end of 2010. A baby shower turns into an emergency delivery, and Flo's errand run across DinerTown becomes a race against the due date, with the cast from the first adventure returning as neighbours rather than customers.",
+  "The structure holds: walkable town, inventory puzzles, hidden-object scenes and mini-games, no timers. It was also the last adventure build playfirst shipped for pc before the studio's move ended the line.",
+  "With the publisher folded into glu mobile and its store long dead, the 2010 build is un-buyable - preserved through archives and hosted originals only."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/LD9nduswhsA/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/LD9nduswhsA/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/LD9nduswhsA/sddefault.jpg",
+   "https://i.ytimg.com/vi/LD9nduswhsA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/LD9nduswhsA/hq1.jpg",
+   "https://i.ytimg.com/vi/LD9nduswhsA/hq2.jpg",
+   "https://i.ytimg.com/vi/OgBRu2IDp5M/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/OgBRu2IDp5M/sddefault.jpg",
+   "https://i.ytimg.com/vi/OgBRu2IDp5M/hqdefault.jpg",
+   "https://i.ytimg.com/vi/OgBRu2IDp5M/hq1.jpg",
+   "https://i.ytimg.com/vi/OgBRu2IDp5M/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "LD9nduswhsA",
+    "title": "Avenue Flo: Special Delivery (PC) - full gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "OgBRu2IDp5M",
+    "title": "Avenue Flo: Special Delivery - playthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "JTUL7jDJ7k4",
+    "title": "Avenue Flo: Special Delivery - part 1"
+   }
+  ]
+ },
+ "dug_seq": 65
+}

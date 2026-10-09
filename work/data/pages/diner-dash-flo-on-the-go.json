@@ -1,0 +1,88 @@
+{
+ "slug": "diner-dash-flo-on-the-go",
+ "caption": "the third Diner Dash takes Flo's diner act on a cruise ship - five-star service with rolling seas.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "Diner Dash Collection (the diner dash line in one pack)",
+    "url": "https://gogunlocked.com/diner-dash-collection-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Diner Dash Collection (the diner dash line in one pack)",
+    "url": "https://steamunlocked.net/ace07-diner-dash-collection-free-download",
+    "src": "steam-unlocked"
+   },
+   {
+    "label": "MyAbandonware - Diner Dash: Flo on the Go",
+    "url": "https://www.myabandonware.com/game/diner-dash-flo-on-the-go-g45",
+    "note": "hosted original",
+    "src": "archive"
+   },
+   {
+    "label": "Internet Archive - Diner Dash Flo On The Go",
+    "url": "https://archive.org/details/dinerdashfloonthego_201906",
+    "note": "the PlayFirst original, archived",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Diner Dash: Flo on the Go is the third game in the line, published by PlayFirst in 2006. The twist is the venue: Flo and Darla take a vacation that turns into working passage, and the diner moves onto a cruise ship - then to train stations, plane cabins and other stops along the route, each with its own service rhythm.",
+  "The onboard twist adds luggage-handling and wardrobe changes between shifts, but the core loop stays pure Diner Dash: seat, serve, chain, bus, and keep the patience curves from colliding. The PC original ran as a small self-contained build, the kind of game that outlives the portals that sold it.",
+  "No official channel survives - PlayFirst folded into Glu Mobile in 2014 and the download portals died with it - so the 2006 PC build rides the archive route only."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/4Yae3uhxPMA/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/4Yae3uhxPMA/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/4Yae3uhxPMA/sddefault.jpg",
+   "https://i.ytimg.com/vi/4Yae3uhxPMA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/4Yae3uhxPMA/hq1.jpg",
+   "https://i.ytimg.com/vi/4Yae3uhxPMA/hq2.jpg",
+   "https://i.ytimg.com/vi/SkF68l8U5-4/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/SkF68l8U5-4/sddefault.jpg",
+   "https://i.ytimg.com/vi/SkF68l8U5-4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/SkF68l8U5-4/hq1.jpg",
+   "https://i.ytimg.com/vi/SkF68l8U5-4/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "4Yae3uhxPMA",
+    "title": "Diner Dash: Flo on the Go (PC) - no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "SkF68l8U5-4",
+    "title": "Diner Dash: Flo on the Go (PC) - 1080p60 walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "3YB8EjMii4Y",
+    "title": "Diner Dash: Flo on the Go - final level"
+   }
+  ]
+ },
+ "dug_seq": 51
+}

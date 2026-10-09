@@ -1,0 +1,74 @@
+{
+ "slug": "diaper-dash",
+ "caption": "the DinerTown daycare: babies to feed, rock and change - the side line's loudest customers.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "time management"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Diaper Dash®",
+    "url": "https://store.steampowered.com/app/37230/"
+   }
+  ],
+  "official_note": "still sold on steam ($9.99) - one of the dash universe's surviving official doors. the archive routes below ride along for the original-era builds.",
+  "anyway": [
+   {
+    "label": "GOG Unlocked - Diaper Dash",
+    "url": "https://gogunlocked.com/diaper-dash-free-download",
+    "src": "gog-unlocked"
+   }
+  ],
+  "anyway_note": null
+ },
+ "about": [
+  "Diaper Dash, released on 12 august 2009, puts the loop in a daycare where the customers are babies. Feeding, rocking, changing and playing follow the chained-service rhythm, and a crying infant spreads impatience through the room faster than any diner guest ever did.",
+  "The build shipped in the same playfirst steam batch as the other 2009 dash games - produced with publisher credit to zemnott on the box - and that steam listing still sells the game today.",
+  "It stays on the buyable side of the shelf, with the archive routes riding along for the original-era build."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37230/header.jpg?t=1447352390",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37230/header.jpg?t=1447352390",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37230/ss_1d659ee2f8910516dd90ae16430e550081cf1711.1920x1080.jpg?t=1447352390",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37230/ss_4cbe25c9541ac879bf339afd3b927a45669019f3.1920x1080.jpg?t=1447352390",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37230/ss_3bbdcf5be2340791a01b084a2fea1da87a5ac56a.1920x1080.jpg?t=1447352390",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37230/ss_3a5fe310b5fedd7e464964588a6bebdd3840fa53.1920x1080.jpg?t=1447352390",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37230/ss_2e2985a86063a85d665c42d56144e9f565a64e0c.1920x1080.jpg?t=1447352390",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37230/ss_e47f37b85a7708384a8cebd36e85744ee926651a.1920x1080.jpg?t=1447352390",
+   "https://i.ytimg.com/vi/tk6RT-T7Q_0/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/tk6RT-T7Q_0/sddefault.jpg",
+   "https://i.ytimg.com/vi/tk6RT-T7Q_0/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "tk6RT-T7Q_0",
+    "title": "Diaper Dash (2009) - HD, no commentary"
+   },
+   {
+    "kind": "youtube",
+    "id": "T3jie5SxyIE",
+    "title": "Diaper Dash - gameplay part 1"
+   },
+   {
+    "kind": "youtube",
+    "id": "qt3oGdWrfBQ",
+    "title": "Diaper Dash - endless day playthrough"
+   }
+  ]
+ },
+ "dug_seq": 71
+}

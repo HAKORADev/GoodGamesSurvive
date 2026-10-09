@@ -1,0 +1,77 @@
+{
+ "caption": "the studio's free rework of wars two to five: full-hd remaster, new engine, unified seasons - one episode per war.",
+ "genres": [
+  "shoot 'em up"
+ ],
+ "subgenres": [
+  "fixed shooter"
+ ],
+ "characters": [
+  "The Hero"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "the episodic builds target the same windows range as the modern studio builds (directx 11 era). below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - news (the Episodes announcement and its updates)",
+    "url": "https://www.interactionstudios.com/news.php",
+    "note": "the studio's own announcements, dated"
+   },
+   {
+    "label": "InterAction studios - Chicken Invaders hub",
+    "url": "https://www.interactionstudios.com/chickeninvaders.php",
+    "note": "download hub for registered owners"
+   }
+  ],
+  "official_note": "not sold anywhere - it is a free major update for registered owners of each game. log in on the studio's site with your purchase account and download the installer; it installs alongside the original game.",
+  "anyway": [],
+  "anyway_note": null
+ },
+ "about": [
+  "Chicken Invaders Episodes is the studio's rework line for wars two through five, announced on 7 January 2025 as a free major update. Each episode is a fundamental rebuild of its war: remastered graphics in Full HD 1920x1080 (the originals ran 1600x960 at 5:3, with every wave, cutscene and menu re-reviewed for the new aspect ratio), a reworked and rebalanced weapon roster driven by the player community, a new engine with more display options and better behaviour on recent windows, community translations, built-in seasonal content with progress unified across all seasons, and an endless mode.",
+  "A layer of Chicken Invaders Universe features was backported on top: new weapons, new special weapons, boosters, six skill levels (doubled from the original three), custom cuisines and the hot, frozen, electric, massive and darkness environments. Purchases export the other way too - an authorization code from the studio store turns into DLC inside Universe for free.",
+  "The distribution model matters: the update is a separate download that installs alongside the original game, and it needs a purchase made on the studio's own site - there is no free demo and no Steam path for wars two to five. The original format stays playable for owners who prefer the old mechanics, two-player same-computer play, LAN multiplayer or Mac/Linux builds. Update history, dated by the studio: v.22 (14 April 2025), v.24 (13 August 2025), v.25 (28 April 2026), v.35 (26 September 2026) - each applying to all four episodes.",
+  "One law holds across the shelf: no classic-engine remaster was ever made for wars three, four or five - the episodic rework is their only rebuild. The second war is the exception, and its 2012 remaster keeps its own page."
+ ],
+ "notes_extra": "sources: interactionstudios.com news.php (announcement 7 jan 2025 + update posts), wikipedia (episode format)",
+ "thumbnail": "https://www.interactionstudios.com/images7/ci1-704x176.jpg",
+ "gallery": {
+  "images": [
+   "https://www.interactionstudios.com/images7/ci1-704x176.jpg",
+   "https://www.interactionstudios.com/images7/ci2-thumb-1.jpg",
+   "https://www.interactionstudios.com/images7/ci2-thumb-2.jpg",
+   "https://www.interactionstudios.com/images7/ci2-thumb-3.jpg",
+   "https://www.interactionstudios.com/images7/ci2-thumb-4.jpg",
+   "https://i.ytimg.com/vi/AtCrwF0RoO4/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/AtCrwF0RoO4/sddefault.jpg",
+   "https://i.ytimg.com/vi/AtCrwF0RoO4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/t6nx-2XWYDI/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/t6nx-2XWYDI/sddefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "AtCrwF0RoO4",
+    "title": "Chicken Invaders 5 - gameplay walkthrough, episode era"
+   },
+   {
+    "kind": "youtube",
+    "id": "t6nx-2XWYDI",
+    "title": "Chicken Invaders 5 - full game walkthrough (4K)"
+   },
+   {
+    "kind": "youtube",
+    "id": "rzBAwKYoxkg",
+    "title": "Chicken Invaders 5 - full playthrough"
+   }
+  ]
+ },
+ "dug_seq": 23,
+ "slug": "chicken-invaders-episodes"
+}

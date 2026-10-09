@@ -1,0 +1,72 @@
+{
+ "slug": "avenue-flo",
+ "caption": "Flo steps out of the diner into a full point-and-click adventure across DinerTown.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "adventure"
+ ],
+ "characters": [
+  "Flo"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [],
+  "official_note": "no official channel survives. playfirst folded into glu mobile in 2014, playfirst.com is dead, and the portals that carried the dash line closed with it. the pc build has nowhere legal left to be sold.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Avenue Flo",
+    "url": "https://www.myabandonware.com/game/avenue-flo-qgb",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "this is the un-buyable case: no store, no key server, no publisher counter. the archive route is the only route."
+ },
+ "about": [
+  "Avenue Flo, released on 13 october 2009, is PlayFirst's first adventure game starring its waitress icon - no shift timers, no expert scores. A wedding-planning emergency sends Flo walking all of DinerTown, solving inventory puzzles and talking to the cast that the Dash games only ever seated.",
+  "The town itself is the design statement: every business from the Dash games exists as a walkable set, and the guests, chefs and regulars become characters with names. Hidden-object scenes and mini-games replace the time-management loop for the campaign's duration.",
+  "PlayFirst folded into glu mobile in 2014 and the adventure left every store, so the 2009 build sits in the un-buyable case - the archive route is the only route."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://i.ytimg.com/vi/ZUWMJPe8w-0/maxresdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/ZUWMJPe8w-0/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/ZUWMJPe8w-0/sddefault.jpg",
+   "https://i.ytimg.com/vi/ZUWMJPe8w-0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ZUWMJPe8w-0/hq1.jpg",
+   "https://i.ytimg.com/vi/ZUWMJPe8w-0/hq2.jpg",
+   "https://i.ytimg.com/vi/gyNmOCEzwVQ/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/gyNmOCEzwVQ/sddefault.jpg",
+   "https://i.ytimg.com/vi/gyNmOCEzwVQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/gyNmOCEzwVQ/hq1.jpg",
+   "https://i.ytimg.com/vi/gyNmOCEzwVQ/hq2.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "ZUWMJPe8w-0",
+    "title": "Avenue Flo (PC, 2009) - full gameplay walkthrough"
+   },
+   {
+    "kind": "youtube",
+    "id": "gyNmOCEzwVQ",
+    "title": "Avenue Flo (PC, 2009) - 100% longplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "HSpB7cP0AqY",
+    "title": "Avenue Flo - gameplay part 1"
+   }
+  ]
+ },
+ "dug_seq": 64
+}

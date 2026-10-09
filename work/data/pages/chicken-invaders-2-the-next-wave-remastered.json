@@ -1,0 +1,88 @@
+{
+ "caption": "the second war, remastered in 2012: hi-res graphics, orchestral music, automatic fire, progress saving, new languages.",
+ "genres": [
+  "shoot 'em up"
+ ],
+ "subgenres": [
+  "fixed shooter"
+ ],
+ "characters": [
+  "The Hero"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "the studio's spec: windows xp through 11, 500 MHz cpu, 512 MB ram, directx 9. below the target bar by a decade of headroom."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "InterAction studios - The Next Wave (remastered edition, sold here)",
+    "url": "https://www.interactionstudios.com/chickeninvaders2.php",
+    "note": "the studio's own product page - the remaster is what it sells today"
+   }
+  ],
+  "official_note": "the remaster is the studio's current build of the second war, sold on its own store. the steam release of chicken invaders 2 (mar 4 2016) exists separately - this page does not claim what that build contains. still sold.",
+  "anyway": [
+   {
+    "label": "Chicken Invaders 2 (steam package build, all DLC)",
+    "url": "https://gogunlocked.com/chicken-invaders-2-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Chicken Invaders 2 (steam package build, all DLC)",
+    "url": "https://steamunlocked.net/chicken-invaders-2-free-download",
+    "src": "steam-unlocked"
+   },
+   {
+    "label": "Internet Archive - Chicken Invaders 2 v2.40",
+    "url": "https://archive.org/details/chinv240",
+    "note": "the classic-era installer, archived",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": "the mirrors carry the steam-package build; the archive item preserves the classic v2.40. the remaster itself is bought from the studio."
+ },
+ "about": [
+  "Chicken Invaders 2: The Next Wave Remastered is the 2012 rebuild of the second war, and it is the oldest remaster in the series. The Christmas Edition actually got its rebuild first - 20 December 2011 - with the standard remaster following on 26 January 2012. The upgrade list from the studio reads: hi-res graphics, orchestral music, an automatic fire function, progress saving and new languages.",
+  "It stays on sale as the studio's current build of the second war: the interactionstudios.com product page for The Next Wave sells the remastered edition directly. The untouched 2002 original keeps its own page here as the archive truth of the classic build, holiday edition included.",
+  "The second war also rides the newer episodic rework (episode 2, shipped through the studio's free Episodes update since 2025) - that path has its own page. This remaster is the classic-engine route: same war, same waves, presented the way the studio modernized it in 2012."
+ ],
+ "notes_extra": "sources: wikipedia (2011/2012 remaster dates), interactionstudios.com chickeninvaders2.php (remaster feature list, price, spec)",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/header.jpg?t=1776692784",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/header.jpg?t=1776692784",
+   "https://www.interactionstudios.com/images7/ci2-thumb-1.jpg",
+   "https://www.interactionstudios.com/images7/ci2-thumb-2.jpg",
+   "https://www.interactionstudios.com/images7/ci2-thumb-3.jpg",
+   "https://www.interactionstudios.com/images7/ci2-thumb-4.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/ss_014c265e7c1e6936683a1db78fe7bf6585614d5a.1920x1080.jpg?t=1776692784",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/ss_938daa406a7e28495e791879c2cb51a56b2ff332.1920x1080.jpg?t=1776692784",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/ss_4024d89dbe7e54b3c285e8ea60e74180e7e1e17d.1920x1080.jpg?t=1776692784",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/ss_be3cf631e91a430ce07ab2bb4cd9b2bee8379f0c.1920x1080.jpg?t=1776692784",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449550/ss_faf44dfc72216fceada57b03f8fdd710f0c8865f.1920x1080.jpg?t=1776692784"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "7AAm80xYC4s",
+    "title": "Chicken Invaders 2: The Next Wave Remastered - gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "MQnktt31ew4",
+    "title": "Chicken Invaders 2: The Next Wave Remastered - full gameplay"
+   },
+   {
+    "kind": "youtube",
+    "id": "o-1zqKvQe1I",
+    "title": "Chicken Invaders 2: The Next Wave Remastered (PC)"
+   }
+  ]
+ },
+ "dug_seq": 21,
+ "slug": "chicken-invaders-2-the-next-wave-remastered"
+}

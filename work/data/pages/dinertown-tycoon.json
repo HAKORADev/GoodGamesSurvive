@@ -1,0 +1,75 @@
+{
+ "slug": "dinertown-tycoon",
+ "caption": "the universe becomes a business sim: save DinerTown's diners from the Grub Burger chain, district by district.",
+ "genres": [
+  "casual"
+ ],
+ "subgenres": [
+  "tycoon"
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "2003-2011 casual 2d, single-digit-to-double-digit-megabytes install. runs on anything, including hardware far below the target bar."
+ },
+ "group": null,
+ "group_label": null,
+ "release_label": null,
+ "links": {
+  "official": [
+   {
+    "label": "Steam - DinerTown Tycoon",
+    "url": "https://store.steampowered.com/app/37300/"
+   }
+  ],
+  "official_note": "still sold on steam ($9.99) - one of the dash universe's surviving official doors. the archive routes below ride along for the original-era builds.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - DinerTown Tycoon",
+    "url": "https://www.myabandonware.com/game/dinertown-tycoon-qgi",
+    "note": "hosted original",
+    "src": "archive"
+   }
+  ],
+  "anyway_note": null
+ },
+ "about": [
+  "DinerTown Tycoon, released on 16 june 2009, steps outside the dash service loop entirely: it is a business management game about defending the neighbourhood's diners from the Grub burger chain. Districts are bought, venues are managed as a portfolio, and the dash cast's restaurants become the assets you protect.",
+  "The pace drops from five-minute shifts to a longer management curve - pricing, staffing and expansion replace the seating chart - and the campaign is won district by district. It is the only tycoon-style entry in the universe and the widest the franchise's core loop ever stretched.",
+  "The build reached steam in the playfirst batch and that listing still sells it, keeping the tycoon on the buyable side of the shelf."
+ ],
+ "notes_extra": null,
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37300/header.jpg?t=1447352518",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37300/header.jpg?t=1447352518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37300/ss_d8fefd92b28b388f908acc7211f40b411f07ade2.1920x1080.jpg?t=1447352518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37300/ss_6fe4f48ea13b71d3fc26b1de097d42cbdb573579.1920x1080.jpg?t=1447352518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37300/ss_56126831a31b19c5f99a1e90a6811bd935e6a08b.1920x1080.jpg?t=1447352518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37300/ss_2239f45fbe5b1991d078885fb5e625ff1c58e8f0.1920x1080.jpg?t=1447352518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37300/ss_6251d01ce6ba9788021c48f1dbe833eac6e49fb4.1920x1080.jpg?t=1447352518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37300/ss_08bbe88763b598dd5b6cb4b7b147714c5f35a508.1920x1080.jpg?t=1447352518",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/37300/ss_502f010325e18b217f942a0e894b42a5a2fd8f58.1920x1080.jpg?t=1447352518",
+   "https://i.ytimg.com/vi/yyCvJR6xr1M/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/yyCvJR6xr1M/sddefault.jpg"
+  ],
+  "videos": [
+   {
+    "kind": "youtube",
+    "id": "yyCvJR6xr1M",
+    "title": "DinerTown Tycoon (PC, 2009)"
+   },
+   {
+    "kind": "youtube",
+    "id": "VUe8ZW0pfdA",
+    "title": "DinerTown Tycoon - let's play part 1"
+   },
+   {
+    "kind": "youtube",
+    "id": "G1cbnz3bKl0",
+    "title": "DinerTown Tycoon - gameplay, levels 1.1-1.9"
+   }
+  ]
+ },
+ "dug_seq": 73
+}
