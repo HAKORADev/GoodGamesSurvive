@@ -542,3 +542,43 @@ a:hover{color:var(--ink-white)}
 
 .g-thumb img{width:100%;height:100%;object-fit:cover;display:block}
 .gallery-strip{overflow:hidden}
+
+/* v12 — scope cut: captions in rows, official-status strip, latest digs, stats */
+.dir-cap{
+  font-family:var(--font-term);font-size:15px;line-height:1.45;
+  color:var(--ink-dim);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+  overflow:hidden;max-width:64ch;
+}
+.dl-status-strip{
+  display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+  border-left:3px solid var(--ink-faint);
+  background:var(--panel-raised);
+  padding:12px 14px;margin-top:12px;
+}
+.dl-strip-k{
+  font-family:var(--font-pixel);font-size:9px;letter-spacing:.12em;
+  color:var(--ink-faint);width:150px;flex-shrink:0;
+}
+.dl-strip-t{font-size:13px;color:var(--ink);line-height:1.7}
+.latest-sec{display:flex;flex-direction:column;gap:14px}
+.latest-head{display:flex;align-items:baseline;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.latest-head .sec-title{flex:1;min-width:200px}
+.jump{
+  font-family:var(--font-pixel);font-size:10px;letter-spacing:.14em;
+  color:var(--ink-dim);border-bottom:1px solid var(--line-strong);
+  padding-bottom:3px;white-space:nowrap;
+}
+.jump:hover{color:var(--ink-white);border-bottom-color:var(--ink-dim)}
+.stats-line{
+  display:flex;gap:26px;flex-wrap:wrap;
+  border-top:1px solid var(--line);
+  padding:22px 4px 6px;
+  font-family:var(--font-term);font-size:18px;letter-spacing:.06em;
+  color:var(--ink-faint);
+}
+.stats-line span::before{content:"■ ";color:var(--line-strong)}
+@media (max-width:700px){
+  .stats-line{gap:14px;font-size:16px}
+  .dl-strip-k{width:100%}
+}

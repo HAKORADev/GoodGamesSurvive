@@ -10,8 +10,7 @@
   "social stealth"
  ],
  "characters": [
-  "Agent 47",
-  "Diana Burnwood"
+  "Agent 47"
  ],
  "req": {
   "tier": "below",
@@ -85,5 +84,6 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/247430/header.jpg"
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/247430/header.jpg",
+ "dug_seq": 17
 }

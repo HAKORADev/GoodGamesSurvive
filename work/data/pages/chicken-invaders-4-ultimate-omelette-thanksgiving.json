@@ -11,9 +11,7 @@
   "co-op"
  ],
  "characters": [
-  "The Hero",
-  "the Chickens",
-  "The Egg Cannon"
+  "The Hero"
  ],
  "req": {
   "tier": "below",
@@ -77,5 +75,7 @@
    }
   ]
  },
- "thumbnail": "https://i.ytimg.com/vi/8Ht74M7m6so/maxresdefault.jpg"
+ "thumbnail": "https://i.ytimg.com/vi/8Ht74M7m6so/maxresdefault.jpg",
+ "version_of": "chicken-invaders-4-ultimate-omelette",
+ "dug_seq": 11
 }

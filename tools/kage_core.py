@@ -1,8 +1,13 @@
-import json, os, re, hashlib
+import json, os, re, hashlib, time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BUILD_V = "10"
+BUILD_V = "12-" + hashlib.md5(str(time.time()).encode()).hexdigest()[:8]
 SEC_TPL = {"games": "game", "software": "software", "mods": "mod"}
+SERIES_TITLES = {
+    "chicken-invaders": "Chicken Invaders",
+    "diner-dash": "Diner Dash",
+    "hitman": "Hitman",
+}
 
 def jload(p):
     with open(p, encoding="utf-8") as f:
@@ -24,6 +29,11 @@ def keyify(name):
     k = re.sub(r"[^a-z0-9]+", "-", str(name).casefold()).strip("-")
     return k or "unknown"
 
+def clean_cat(c):
+    if not c:
+        return ""
+    return re.sub(r"[^A-Za-z0-9 ,&/'()+-]", "", str(c)).strip(" ,")
+
 def rel(from_dir, to_rel=None, depth=None):
     if to_rel is None:
         to_rel = from_dir
@@ -37,14 +47,12 @@ def date_str(r):
     if not r:
         return None
     r = str(r)
+    months = ["", "January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"]
     if re.match(r"^\d{4}-\d{2}-\d{2}$", r):
-        months = ["", "January", "February", "March", "April", "May", "June", "July",
-                  "August", "September", "October", "November", "December"]
         y, m, d = r.split("-")
         return "%s %s %s" % (int(d), months[int(m)], y)
     if re.match(r"^\d{4}-\d{2}$", r):
-        months = ["", "January", "February", "March", "April", "May", "June", "July",
-                  "August", "September", "October", "November", "December"]
         y, m = r.split("-")
         return "%s %s" % (months[int(m)], y)
     return r
@@ -61,7 +69,7 @@ def size_label(row):
         return None
     if mb >= 1024:
         v = mb / 1024.0
-        return ("%.1f GB" % v).rstrip("0").rstrip(".").replace(".0", ".0")
+        return ("%.1f GB" % v).rstrip("0").rstrip(".")
     return "%d MB" % mb
 
 def size_display(row):
@@ -71,6 +79,19 @@ def size_display(row):
         return "size unknown"
     kind = "install" if src.startswith(("store", "repack")) else "estimate"
     return "%s (%s)" % (lab, kind)
+
+PLAYER_LABELS = [
+    ("single", "single-player"),
+    ("local_coop", "local co-op"),
+    ("online_coop", "online co-op"),
+    ("local_multi", "local multiplayer"),
+    ("online_multi", "online multiplayer"),
+]
+
+def players_text(pl):
+    pl = pl or {}
+    out = [lab for k, lab in PLAYER_LABELS if pl.get(k)]
+    return ", ".join(out) if out else "players unknown"
 
 class Engine:
     def __init__(self):
@@ -84,6 +105,8 @@ class Engine:
         self.mods_rows = self._db_rows(os.path.join(ROOT, "work", "lists", "mods", "mods.json"))
         self.page_by_slug = {p["slug"]: p for p in self.pages}
         self.game_by_slug = {g["slug"]: g for g in self.games_db["games"]}
+        self.version_rows = {s: g for s, g in self.game_by_slug.items() if g.get("version_of")}
+        self.catalog_games = [g for g in self.games_db["games"] if not g.get("version_of")]
         self.row_index = {}
         for g in self.games_db["games"]:
             self.row_index[g["slug"]] = g
@@ -113,38 +136,44 @@ class Engine:
                 return d[key]
         return []
 
+    def title_of(self, slug):
+        g = self.game_by_slug.get(slug) or {}
+        return g.get("title") or slug
+
     def build_vocab(self):
-        self.devs, self.pubs, self.genres, self.subgenres, self.tags = {}, {}, {}, {}, {}
-        self.plats, self.eras = {}, {}
-        for sec_rows in (self.games_db["games"], self.software_rows, self.mods_rows):
-            for g in sec_rows:
-                for d_ in (g.get("developers") or []):
-                    self.devs.setdefault(keyify(d_), d_)
-                for p_ in (g.get("publishers") or []):
-                    self.pubs.setdefault(keyify(p_), p_)
-                for x in (g.get("genres") or []):
-                    self.genres.setdefault(keyify(x), x)
-                for x in (g.get("subgenres") or []):
-                    self.subgenres.setdefault(keyify(x), x)
-                for x in (g.get("tags") or []):
-                    self.tags.setdefault(keyify(x), x)
-                for x in (g.get("platforms") or []):
-                    self.plats.setdefault(keyify(x), x)
-                y = year_of(g.get("release"))
-                if y:
-                    self.eras.setdefault("%ss" % (y[:3] + "0"), "%ss" % (y[:3] + "0"))
-                else:
-                    self.eras.setdefault("unknown", "unknown")
+        self.devs, self.pubs, self.genres, self.subgenres = {}, {}, {}, {}
+        self.cats, self.plats, self.chars = {}, {}, {}
+        for g in self.games_db["games"]:
+            for d_ in (g.get("developers") or []):
+                self.devs.setdefault(keyify(d_), d_)
+            for p_ in (g.get("publishers") or []):
+                self.pubs.setdefault(keyify(p_), p_)
+            for x in (g.get("genres") or []):
+                self.genres.setdefault(keyify(x), x)
+            for x in (g.get("subgenres") or []):
+                self.subgenres.setdefault(keyify(x), x)
+            c = clean_cat(g.get("category"))
+            if c:
+                self.cats.setdefault(keyify(c), c)
+            for x in (g.get("platforms") or []):
+                self.plats.setdefault(keyify(x), x)
+        for s, p in self.page_by_slug.items():
+            for c in (p.get("characters") or []):
+                self.chars.setdefault(keyify(c), c)
 
     def page_url_of(self, slug):
-        if slug in self.page_by_slug:
-            if slug in self.game_by_slug:
-                return "pages/game/%s.html" % slug
-            if slug in {r["slug"] for r in self.software_rows}:
-                return "pages/software/%s.html" % slug
-            if slug in {r["slug"] for r in self.mods_rows}:
-                return "pages/mod/%s.html" % slug
+        if slug not in self.page_by_slug:
+            return None
+        if slug in self.game_by_slug:
+            return "pages/game/%s.html" % slug
+        if slug in {r["slug"] for r in self.software_rows}:
+            return "pages/software/%s.html" % slug
+        if slug in {r["slug"] for r in self.mods_rows}:
+            return "pages/mod/%s.html" % slug
         return None
+
+    def is_version(self, slug):
+        return slug in self.version_rows
 
     def collection_of(self, slug, kind="collection"):
         hits = []
@@ -157,7 +186,7 @@ class Engine:
 
     def build_collections(self):
         for c in self.collections:
-            c["items"] = c.get("items") or []
+            c["items"] = [s for s in (c.get("items") or []) if not self.is_version(s)]
             c["catalogued"] = c.get("catalogued") or []
             c["n_pages"] = len([s for s in c["items"] if s in self.page_by_slug])
         self.multis = self.collections_src.get("multi_collections", []) or []
@@ -168,7 +197,7 @@ class Engine:
         th = None
         if sec == "games" and g["slug"] in self.page_by_slug:
             page = "game/%s.html" % g["slug"]
-            th = self.page_by_slug[g["slug"]].get("thumbnail")
+            th = self.th_root(self.page_by_slug[g["slug"]].get("thumbnail"))
         elif sec == "software" and g["slug"] in self.page_by_slug:
             page = "software/%s.html" % g["slug"]
         elif sec == "mods" and g["slug"] in self.page_by_slug:
@@ -177,36 +206,45 @@ class Engine:
         gn_disp = [self.genres.get(keyify(x), x) for x in (g.get("genres") or [])]
         dn_disp = [self.devs.get(keyify(x), x) for x in (g.get("developers") or [])]
         pn_disp = [self.pubs.get(keyify(x), x) for x in (g.get("publishers") or [])]
+        cat_disp = clean_cat(g.get("category"))
         cap = ""
+        ch, chn = [], []
         if sec == "games" and g["slug"] in self.page_by_slug:
-            cap = (self.page_by_slug[g["slug"]].get("caption") or "")[:110]
+            p = self.page_by_slug[g["slug"]]
+            cap = (p.get("caption") or "")[:110]
+            ch = [keyify(c) for c in (p.get("characters") or [])]
+            chn = [self.chars.get(k, k) for k in ch]
         row = {
             "t": g.get("title") or "", "s": g["slug"], "sec": sec,
             "y": y, "date": g.get("release") or None,
             "g": [keyify(x) for x in (g.get("genres") or [])],
             "gn": gn_disp,
             "gs": [keyify(x) for x in (g.get("subgenres") or [])],
-            "tg": [keyify(x) for x in (g.get("tags") or [])],
-            "pl": [keyify(x) for x in (g.get("platforms") or [])],
-            "p1": bool(pl.get("single")), "pc": bool(pl.get("coop")), "pm": bool(pl.get("multiplayer")),
+            "cat": keyify(cat_disp) if cat_disp else None,
+            "catn": cat_disp or None,
             "w": g.get("content_walls") or [],
             "size": g.get("size_est_mb"), "szs": g.get("size_source"),
             "req": g.get("req_tier"), "ser": g.get("series"), "part": g.get("series_part"),
+            "pl": [keyify(x) for x in (g.get("platforms") or [])],
+            "p1": bool(pl.get("single")), "lc": bool(pl.get("local_coop")),
+            "oc": bool(pl.get("online_coop")), "lm": bool(pl.get("local_multi")),
+            "om": bool(pl.get("online_multi")),
+            "era": ("%ss" % (y[:3] + "0")) if y else "unknown",
             "list": g.get("list"), "conf": g.get("confidence"),
             "tested": g.get("test_status") == "tested", "buy": g.get("buyable"),
-            "big": bool(g.get("big_size")), "cat": g.get("category"),
+            "big": bool(g.get("big_size")),
             "dev": [keyify(x) for x in (g.get("developers") or [])],
             "dn": dn_disp,
             "pub": [keyify(x) for x in (g.get("publishers") or [])],
             "pn": pn_disp,
-            "era": ("%ss" % (y[:3] + "0")) if y else "unknown",
+            "ch": ch, "chn": chn,
             "page": page, "th": th, "cap": cap,
         }
         return row
 
     def build_index(self):
         self.rows = []
-        for g in self.games_db["games"]:
+        for g in self.catalog_games:
             self.rows.append(self.index_row(g, "games"))
         for g in self.software_rows:
             self.rows.append(self.index_row(g, "software"))
@@ -216,9 +254,11 @@ class Engine:
             self.rows.append({
                 "t": c["title"], "s": c["slug"], "sec": "collections",
                 "kind": c.get("kind", "collection"), "y": None, "date": None,
-                "g": [], "gs": [], "tg": [], "pl": [], "w": [], "size": None,
+                "g": [], "gs": [], "w": [], "size": None, "pl": [],
                 "req": None, "ser": None, "list": None, "conf": "verified",
                 "tested": False, "buy": None, "big": False,
+                "p1": False, "lc": False, "oc": False, "lm": False, "om": False,
+                "ch": [], "chn": [], "cat": None, "catn": None,
                 "n": c["n_pages"], "page": "collection/%s.html" % c["slug"],
                 "th": None, "cap": c.get("caption") or "",
             })
@@ -226,9 +266,11 @@ class Engine:
             self.rows.append({
                 "t": m["title"], "s": m["slug"], "sec": "collections",
                 "kind": "multi", "y": None, "date": None,
-                "g": [], "gs": [], "tg": [], "pl": [], "w": [], "size": None,
+                "g": [], "gs": [], "w": [], "size": None, "pl": [],
                 "req": None, "ser": None, "list": None, "conf": "verified",
                 "tested": False, "buy": None, "big": False,
+                "p1": False, "lc": False, "oc": False, "lm": False, "om": False,
+                "ch": [], "chn": [], "cat": None, "catn": None,
                 "n": len(m.get("collections") or []), "page": "meta/%s.html" % m["slug"],
                 "th": None, "cap": m.get("caption") or "",
             })
@@ -238,6 +280,37 @@ class Engine:
         for r in self.rows:
             n[r["sec"]] += 1
         return n
+
+    def pages_dug(self):
+        n = {"games": 0, "software": 0, "mods": 0}
+        for s, p in self.page_by_slug.items():
+            if self.is_version(s):
+                continue
+            if s in self.game_by_slug:
+                n["games"] += 1
+            elif s in {r["slug"] for r in self.software_rows}:
+                n["software"] += 1
+            elif s in {r["slug"] for r in self.mods_rows}:
+                n["mods"] += 1
+        return n
+
+    def dig_order(self):
+        return [p["slug"] for p in sorted(self.pages, key=lambda p: (p.get("dug_seq") or 0, p["slug"]))]
+
+    def th_root(self, th):
+        if not th:
+            return None
+        parts = th.split("/")
+        while parts and parts[0] == "..":
+            parts.pop(0)
+        return "/".join(parts)
+
+    def thumb_at(self, th, depth):
+        if not th:
+            return None
+        if th.startswith(("http://", "https://", "data:")):
+            return th
+        return ("../" * depth) + self.th_root(th)
 
     def build_similars(self):
         self.similar = {}
@@ -259,25 +332,22 @@ class Engine:
                 score = 0
                 shared_g = sorted(set(a["g"]) & set(b["g"]))
                 shared_s = sorted(set(a["gs"]) & set(b["gs"]))
-                shared_t = sorted(set(a["tg"]) & set(b["tg"]))
+                shared_c = a["cat"] and a["cat"] == b["cat"]
                 if shared_g:
                     score += 3 * len(shared_g)
                     why += [self.genres.get(k, k) for k in shared_g]
                 if shared_s:
                     score += 2 * len(shared_s)
                     why += [self.subgenres.get(k, k) for k in shared_s]
-                if shared_t:
-                    score += 2 * len(shared_t)
-                    why += [self.tags.get(k, k) for k in shared_t]
+                if shared_c:
+                    score += 1
+                    why.append(a["catn"])
                 if a["era"] == b["era"] and a["era"] != "unknown":
                     score += 1
                     why.append(a["era"])
                 if set(a["dev"]) & set(b["dev"]):
                     score += 1
                     why.append(self.devs.get((set(a["dev"]) & set(b["dev"])).__iter__().__next__()))
-                if a["pc"] and b["pc"]:
-                    score += 1
-                    why.append("co-op")
                 if score > 0:
                     pool.append({"slug": b["s"], "title": b["t"], "th": b["th"], "y": b["y"],
                                  "score": score, "why": ", ".join(why[:4])})
@@ -289,7 +359,7 @@ class Engine:
                         continue
                     if a["ser"] and b["ser"] == a["ser"]:
                         continue
-                    shared = set(a["g"]) & set(b["g"]) or set(a["tg"]) & set(b["tg"])
+                    shared = set(a["g"]) & set(b["g"]) or (a["cat"] and a["cat"] == b["cat"])
                     if shared:
                         catalogued.append(b["t"])
                     if len(catalogued) >= 6:
@@ -297,31 +367,39 @@ class Engine:
             self.similar[a["s"]] = {"pages": pool[:10], "catalogued": catalogued}
 
     def versions_of(self, slug):
-        p = self.page_by_slug.get(slug)
-        if not p or not p.get("group"):
+        row = self.game_by_slug.get(slug) or {}
+        main = row.get("version_of") or slug
+        mp = self.page_by_slug.get(main)
+        if not mp:
             return None
-        sibs = []
-        for s2, p2 in self.page_by_slug.items():
-            if p2.get("group") == p["group"]:
-                sibs.append({"slug": s2, "label": p2.get("release_label") or "standard",
-                             "title": (self.game_by_slug.get(s2) or {}).get("title", s2)})
-        sibs.sort(key=lambda x: (x["slug"] != slug, x["slug"]))
-        return {"group": p["group"], "label": p["group_label"], "current": slug, "siblings": sibs}
+        sibs = [{"slug": main, "label": "standard", "title": self.title_of(main)}]
+        for e in (mp.get("versions") or []):
+            if e == main or e not in self.page_by_slug:
+                continue
+            sibs.append({"slug": e, "label": self.page_by_slug[e].get("release_label") or "edition",
+                         "title": self.title_of(e)})
+        if len(sibs) < 2:
+            return None
+        return {"group": mp.get("group_label") or self.title_of(main),
+                "current": slug, "siblings": sibs}
 
     def upgrades_of(self, slug):
-        out = {"direct": None, "spiritual": None, "superseded_by": None, "upgrades": []}
+        out = {"direct": None, "superseded_by": None, "upgrades": [], "remaster": None}
         g = self.game_by_slug.get(slug) or {}
         for u in (g.get("upgrades") or []):
             ug = self.game_by_slug.get(u)
-            if ug:
+            if ug and not ug.get("version_of"):
                 out["upgrades"].append({"slug": u, "title": ug["title"], "page": u in self.page_by_slug})
         for other, og in self.game_by_slug.items():
-            if slug in (og.get("upgrades") or []):
-                if other in self.page_by_slug:
-                    out["direct"] = {"slug": other, "title": og["title"]}
+            if slug in (og.get("upgrades") or []) and other in self.page_by_slug:
+                out["direct"] = {"slug": other, "title": og["title"]}
         sb = g.get("superseded_by")
         if sb and sb in self.game_by_slug:
             out["superseded_by"] = {"slug": sb, "title": self.game_by_slug[sb]["title"]}
+        if g.get("remaster"):
+            rg = self.game_by_slug.get(g["remaster"])
+            if rg:
+                out["remaster"] = {"slug": g["remaster"], "title": rg["title"]}
         return out
 
     def series_line(self, slug):
@@ -332,32 +410,26 @@ class Engine:
         s = self.series_map[ser]
         members = []
         for m in s.get("members", []):
+            if m["slug"] not in self.game_by_slug:
+                continue
             members.append({
                 "slug": m["slug"], "title": m["title"], "part": m.get("part"),
-                "page": m["slug"] in self.page_by_slug,
+                "page": m["slug"] in self.page_by_slug and not self.is_version(m["slug"]),
                 "now": m["slug"] == slug,
                 "y": year_of((self.game_by_slug.get(m["slug"]) or {}).get("release")),
             })
-        return {"key": ser, "title": s.get("title", ser), "members": members}
+        return {"key": ser, "title": SERIES_TITLES.get(ser, s.get("title", ser)), "members": members}
 
     def facts_of(self, slug):
         g = self.game_by_slug.get(slug) or {}
         p = self.page_by_slug.get(slug) or {}
-        pl = g.get("players") or {}
-        players_txt = []
-        if pl.get("single"): players_txt.append("single-player")
-        if pl.get("coop"): players_txt.append("local co-op")
-        if pl.get("multiplayer"): players_txt.append("multiplayer")
-        if not players_txt: players_txt.append("players unknown")
-        plat_txt = ", ".join((g.get("platforms") or ["unknown"]))
-        extra_plats = p.get("notes_extra") or ""
         return {
             "released": date_str(g.get("release")) or "unknown",
             "year": year_of(g.get("release")),
             "devs": g.get("developers") or [],
             "pubs": g.get("publishers") or [],
             "platforms": g.get("platforms") or [],
-            "players": ", ".join(players_txt),
+            "players": players_text(g.get("players")),
             "series": g.get("series"),
             "part": g.get("series_part"),
             "walls": g.get("content_walls") or [],
@@ -369,8 +441,7 @@ class Engine:
             "conf": g.get("confidence"),
             "genres": p.get("genres") or g.get("genres") or [],
             "subgenres": p.get("subgenres") or g.get("subgenres") or [],
-            "tags": g.get("tags") or [],
+            "category": clean_cat(g.get("category")),
             "req": p.get("req") or {},
             "characters": p.get("characters") or [],
-            "extra_plats": extra_plats,
         }

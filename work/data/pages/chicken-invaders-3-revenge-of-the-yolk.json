@@ -11,9 +11,7 @@
   "co-op"
  ],
  "characters": [
-  "The Hero",
-  "the Chickens",
-  "The Yolk-Star"
+  "The Hero"
  ],
  "req": {
   "tier": "below",
@@ -87,5 +85,10 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/377460/header.jpg"
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/377460/header.jpg",
+ "versions": [
+  "chicken-invaders-3-revenge-of-the-yolk-christmas",
+  "chicken-invaders-3-revenge-of-the-yolk-easter"
+ ],
+ "dug_seq": 8
 }

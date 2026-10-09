@@ -10,11 +10,7 @@
   "social stealth"
  ],
  "characters": [
-  "Agent 47",
-  "Diana Burnwood",
-  "Father Vittorio",
-  "Sergei Zavorotko",
-  "Agent Smith"
+  "Agent 47"
  ],
  "req": {
   "tier": "below",
@@ -88,5 +84,6 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/header.jpg"
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/header.jpg",
+ "dug_seq": 16
 }

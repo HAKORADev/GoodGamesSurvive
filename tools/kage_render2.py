@@ -1,5 +1,9 @@
-from kage_core import esc, rel, keyify, date_str, size_display, BUILD_V, os
+from kage_core import (esc, rel, keyify, date_str, size_display, BUILD_V, os,
+                       clean_cat)
 from kage_render import head, topbar, foot_site, foot_page, chip
+
+PLAYER_FACETS = [("single", "single-player"), ("coop", "local co-op"), ("online-coop", "online co-op"),
+                 ("local-multi", "local multiplayer"), ("multi", "online multiplayer")]
 
 LIST_JS = """
 (function(){
@@ -7,46 +11,48 @@ var SEC=document.body.getAttribute('data-sec');
 var MODE=document.body.getAttribute('data-mode')||'list';
 var OUT=document.getElementById('out'),COUNT=document.getElementById('count'),
 ACTIVE=document.getElementById('active'),FACETS=document.getElementById('facets'),
-Q=document.getElementById('q'),SORTSEL=document.getElementById('sort'),SHUF=document.getElementById('shuf');
+Q=document.getElementById('q'),SORTSEL=document.getElementById('sort'),SHUF=document.getElementById('shuf'),
+RPICK=document.getElementById('rpick');
 var ROWS=[],SHELF=0,VOCAB=window.VOCAB||{};
 var P=new URLSearchParams(location.search);
-var FK=['q','genre','sub','tag','content','platform','players','era','dev','pub','series','status','sort','seed','sec'];
+var FK=['q','genre','sub','category','content','platform','players','era','dev','pub','series','character','status','sort','seed','sec'];
 function gp(k){return P.get(k)||''}
 function sp(k,v){if(v)P.set(k,v);else P['delete'](k);var s=P.toString();history.replaceState(null,'',location.pathname+(s?('?'+s):''))}
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
 function rng(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
 function facetOf(r,k){
- if(k==='genre')return r.g; if(k==='sub')return r.gs; if(k==='tag')return r.tg;
+ if(k==='genre')return r.g; if(k==='sub')return r.gs; if(k==='category')return r.cat?[r.cat]:[];
  if(k==='content')return r.w; if(k==='platform')return r.pl;
  if(k==='era')return [r.era||'unknown']; if(k==='series')return r.ser?[r.ser]:[];
+ if(k==='character')return r.ch||[];
  if(k==='dev')return r.dev; if(k==='pub')return r.pub;
- if(k==='players'){var a=[];if(r.p1)a.push('single');if(r.pc)a.push('coop');if(r.pm)a.push('multi');return a}
+ if(k==='players'){var a=[];if(r.p1)a.push('single');if(r.lc)a.push('coop');if(r.oc)a.push('online-coop');if(r.lm)a.push('local-multi');if(r.om)a.push('multi');return a}
  if(k==='status'){var b=[];b.push(r.tested?'tested':'not-tested');if(r.conf==='verified')b.push('verified');if(r.big)b.push('big-size');if(r.buy===true)b.push('still-sold');if(r.buy===false)b.push('un-buyable');return b}
  return[]}
 function filters(){var f={};FK.forEach(function(k){var v=gp(k);if(v)f[k]=v});return f}
 function matches(r,f,skip){
  if(MODE==='list'){if(r.sec!==SEC)return false}
  else{var sc=f.sec||'all';if(sc!=='all'&&r.sec!==sc)return false}
- if(f.q&&skip!=='q'){var hay=(r.t+' '+(r.ser||'')+' '+(r.cat||'')+' '+(r.y||'')+' '+(r.cap||'')+' '+(r.gn||[]).join(' ')+' '+(r.dn||[]).join(' ')+' '+(r.pn||[]).join(' ')+' '+(r.tg||[]).join(' ')).toLowerCase();
+ if(f.q&&skip!=='q'){var hay=(r.t+' '+(r.ser||'')+' '+(r.catn||'')+' '+(r.y||'')+' '+(r.cap||'')+' '+(r.gn||[]).join(' ')+' '+(r.dn||[]).join(' ')+' '+(r.pn||[]).join(' ')+' '+(r.chn||[]).join(' ')).toLowerCase();
   var toks=f.q.toLowerCase().split(/\\s+/);for(var i=0;i<toks.length;i++){if(hay.indexOf(toks[i])===-1)return false}}
  if(f.genre&&skip!=='genre'&&r.g.indexOf(f.genre)<0)return false;
  if(f.sub&&skip!=='sub'&&r.gs.indexOf(f.sub)<0)return false;
- if(f.tag&&skip!=='tag'&&r.tg.indexOf(f.tag)<0)return false;
+ if(f.category&&skip!=='category'&&r.cat!==f.category)return false;
  if(f.content&&skip!=='content'&&r.w.indexOf(f.content)<0)return false;
  if(f.platform&&skip!=='platform'&&r.pl.indexOf(f.platform)<0)return false;
  if(f.era&&skip!=='era'&&(r.era||'unknown')!==f.era)return false;
  if(f.series&&skip!=='series'&&r.ser!==f.series)return false;
+ if(f.character&&skip!=='character'&&(r.ch||[]).indexOf(f.character)<0)return false;
  if(f.dev&&skip!=='dev'&&r.dev.indexOf(f.dev)<0)return false;
  if(f.pub&&skip!=='pub'&&r.pub.indexOf(f.pub)<0)return false;
  if(f.players&&skip!=='players'&&facetOf(r,'players').indexOf(f.players)<0)return false;
  if(f.status&&skip!=='status'&&facetOf(r,'status').indexOf(f.status)<0)return false;
  return true}
-function secPool(f){return ROWS.filter(function(r){return matches(r,f,null)})}
 function chipHTML(k,v,lab,n,on){
  return '<button type="button" class="fchip'+(on?' on':'')+'" data-k="'+k+'" data-v="'+esc(v)+'">'+esc(lab)+'<i>'+n+'</i></button>'}
- function vlab(k,v,labs){var m={genre:'g',tag:'tg',content:'w',platform:'pl'}[k];return (m&&VOCAB[m]&&VOCAB[m][v])||(labs&&labs[v])||v}
+function vlab(k,v,labs){var m={genre:'g',content:'w',platform:'pl',category:'cat',character:'ch'}[k];return (m&&VOCAB[m]&&VOCAB[m][v])||(labs&&labs[v])||v}
 function renderFacets(f){
- var groups=[['genre','GENRE'],['tag','TAG'],['content','CONTENT'],['platform','PLATFORM'],['players','PLAYERS'],['era','ERA'],['status','STATUS']];
+ var groups=[['genre','GENRE'],['sub','SUB-GENRE'],['category','CATEGORY'],['content','CONTENT'],['platform','PLATFORM'],['players','PLAYERS'],['era','ERA'],['status','STATUS']];
  var h='';
  groups.forEach(function(gr){
   var k=gr[0],lab=gr[1];
@@ -55,10 +61,10 @@ function renderFacets(f){
   pool.forEach(function(r){facetOf(r,k).forEach(function(v){counts[v]=(counts[v]||0)+1})});
   var keys=Object.keys(counts).filter(function(v){return v!=='unknown'||k==='era'});
   keys.sort(function(a,b){return counts[b]-counts[a]||a.localeCompare(b)});
-  if(k==='players'){keys=['single','coop','multi'].filter(function(v){return counts[v]})}
+  if(k==='players'){keys=['single','coop','online-coop','local-multi','multi'].filter(function(v){return counts[v]})}
+  if(k==='status'){keys=['tested','verified','big-size','still-sold','un-buyable'].filter(function(v){return counts[v]})}
   if(!keys.length)return;
-  var labs={single:'single-player',coop:'co-op',multi:'multiplayer',sex:'sex',gore:'gore','big-size':'big-size','still-sold':'still sold','un-buyable':'un-buyable',tested:'tested','not-tested':'not-tested',verified:'verified'};
-  keys=(k==='status'?['tested','verified','big-size','still-sold','un-buyable']:keys).filter(function(v){return counts[v]});
+  var labs={'single':'single-player','coop':'local co-op','online-coop':'online co-op','local-multi':'local multiplayer','multi':'online multiplayer','still-sold':'still sold','un-buyable':'un-buyable'};
   if(k!=='status'&&k!=='players'){keys=keys.slice(0,14)}
   h+='<div class="fgroup"><span class="fgroup-k">'+lab+'</span>'+keys.map(function(v){
    return chipHTML(k,v,vlab(k,v,labs),counts[v],f[k]===v)}).join('')+'</div>'});
@@ -81,11 +87,11 @@ function rowHTML(r){
  if(r.list)flags.push(r.list.toUpperCase());
  if(r.big)flags.push('BIG-SIZE');
  (r.w||[]).forEach(function(x){flags.push(x.toUpperCase())});
- (r.tg||[]).slice(0,5).forEach(function(x){flags.push(x.toUpperCase())});
  var meta=[r.y||'year unknown',(r.dn||[]).join(', '),(r.gn||[]).join(', ')].filter(Boolean).join(' · ');
  var sizeTxt=r.size?((r.size>=1024?(Math.round(r.size/102.4)/10)+' GB':r.size+' MB')+' est'):'—';
- var th=r.th?'<span class="dir-thumb"><img loading="lazy" alt="" src="'+esc(r.th)+'" onerror="this.parentNode.classList.add(\\'dead\\');this.remove()"></span>':'<span class="dir-thumb dead"></span>';
- var inner=th+'<span class="dir-main"><span class="dir-name">'+esc(r.t)+'</span><span class="dir-meta">'+esc(meta)+'</span><span class="dir-flags">'+flags.map(esc).join(' · ')+'</span></span><span class="dir-size">'+sizeTxt+'</span>'+(r.page?'<span class="dir-go">OPEN &#8594;</span>':'<span class="dir-go dir-go-dim">IN CATALOGUE</span>');
+ var th=r.th?'<span class="dir-thumb"><img loading="lazy" alt="" src="'+(r.th.indexOf('http')===0?'':'../')+esc(r.th)+'" onerror="this.parentNode.classList.add(\\'dead\\');this.remove()"></span>':'<span class="dir-thumb dead"></span>';
+ var capLine=r.cap?'<span class="dir-cap">'+esc(r.cap)+'</span>':'';
+ var inner=th+'<span class="dir-main"><span class="dir-name">'+esc(r.t)+'</span>'+capLine+'<span class="dir-meta">'+esc(meta)+'</span><span class="dir-flags">'+flags.map(esc).join(' · ')+'</span></span><span class="dir-size">'+sizeTxt+'</span>'+(r.page?'<span class="dir-go">OPEN &#8594;</span>':'<span class="dir-go dir-go-dim">IN CATALOGUE</span>');
  return r.page?'<a class="dir-row" href="'+esc(r.page)+'">'+inner+'</a>':'<div class="dir-row dir-row-plain">'+inner+'</div>'}
 function sortRows(rows,f){
  var s=f.sort||'name-asc';
@@ -117,6 +123,10 @@ function render(){
   else{COUNT.textContent=pool.length+' of '+SHELF+' titles in this shelf · '+pageN+' pages dug'}
  }
 }
+if(RPICK)RPICK.addEventListener('click',function(){
+ var pool=ROWS.filter(function(r){return r.page&&r.sec===SEC});
+ if(!pool.length)return;
+ var i=Math.floor(Math.random()*pool.length);location.href=pool[i].page});
 if(SHUF)SHUF.addEventListener('click',function(){sp('sort','random');sp('seed',String(Math.floor(Math.random()*1000000)));render()});
 if(SORTSEL)SORTSEL.addEventListener('change',function(){sp('sort',SORTSEL.value);if(SORTSEL.value==='random'&&!gp('seed'))sp('seed',String(Math.floor(Math.random()*1000000)));render()});
 var QT=null;
@@ -129,7 +139,7 @@ fetch(document.body.getAttribute('data-index')+'?v=__V__').then(function(r){retu
 
 def vocab_script(eng):
     import json as _json
-    v = {"g": eng.genres, "tg": eng.tags, "pl": eng.plats,
+    v = {"g": eng.genres, "pl": eng.plats, "cat": eng.cats, "ch": eng.chars,
          "w": {"sex": "sex", "gore": "gore"}}
     return '<script>window.VOCAB=' + _json.dumps(v, ensure_ascii=False) + ';</script>'
 
@@ -141,7 +151,8 @@ def facet_bar_html(eng, sec, depth):
             '<option value="date-desc">date new-old</option><option value="date-asc">date old-new</option>'
             '<option value="size-desc">size big-small</option><option value="size-asc">size small-big</option>'
             '<option value="random">random</option></select>'
-            '<button type="button" id="shuf" class="shuf-btn">RANDOM</button></div>'
+            '<button type="button" id="shuf" class="shuf-btn">SHUFFLE LIST</button>'
+            '<button type="button" id="rpick" class="shuf-btn">RANDOM</button></div>'
             '<p class="search-count" id="count">loading the index...</p></div>'
             '<div class="active" id="active"></div>'
             '<div class="facets" id="facets"></div>'
@@ -158,6 +169,13 @@ def collections_strip(eng, sec, depth):
                      '<span class="col-n">' + str(c["n_pages"]) + ' pages</span>'
                      '<span class="dir-go">OPEN &#8594;</span></a>')
     for m in eng.multis:
+        secs = set()
+        for cs in (m.get("collections") or []):
+            c = next((x for x in eng.collections if x["slug"] == cs), None)
+            if c:
+                secs.add(c.get("section"))
+        if sec not in secs:
+            continue
         cards.append('<a class="col-card col-multi" href="' + rel("", "pages/meta/%s.html" % m["slug"], depth) + '">'
                      '<span class="col-title">' + esc(m["title"]) + '</span>'
                      '<span class="col-cap">' + esc(m.get("caption") or "") + '</span>'
@@ -166,12 +184,6 @@ def collections_strip(eng, sec, depth):
     if not cards:
         return ""
     return '<section><h2 class="sec-title">COLLECTIONS ON THIS SHELF</h2><div class="col-grid">' + "".join(cards) + '</div></section>'
-
-def vocab_script(eng):
-    import json as _json
-    v = {"g": eng.genres, "tg": eng.tags, "pl": eng.plats,
-         "w": {"sex": "sex", "gore": "gore"}}
-    return '<script>window.VOCAB=' + _json.dumps(v, ensure_ascii=False) + ';</script>'
 
 def list_page(eng, sec, title, desc, note):
     depth = 1
@@ -197,9 +209,9 @@ def list_page(eng, sec, title, desc, note):
 def search_page(eng):
     depth = 1
     body = ('<main class="page-wrap"><section><h2 class="sec-title">SEARCH THE CATALOGUE</h2>'
-            '<input class="search-big" id="q" type="search" placeholder="title, series, developer, genre, tag..." autocomplete="off" aria-label="search input">'
+            '<input class="search-big" id="q" type="search" placeholder="title, series, developer, genre, category..." autocomplete="off" aria-label="search input">'
             '<p class="search-count" id="count">loading the index...</p></section>'
-            '<div class="active" id="active"></div><div class="dir" id="out"></div></main>')
+            '<div class="active" id="active"></div><div class="facets" id="facets"></div><div class="dir" id="out"></div></main>')
     html = (head("SEARCH — GOODGAMES SURVIVE", "Search the whole catalogue - every shelf, live, offline, no tracking.", depth,
                  'data-sec="all" data-mode="search" data-index="' + rel("", "data/search-index.json", depth) + '"') +
             topbar(eng, depth, None) + body + vocab_script(eng) + '<script>' + LIST_JS + '</script>' + foot_site(depth) + '</body></html>')
@@ -212,16 +224,56 @@ def random_page(eng):
           "var i=Math.floor(Math.random()*d.items.length);location.replace('../'+d.items[i].u);})"
           ".catch(function(){location.replace('../pages/games.html')});})();</script>")
     body = ('<main class="page-wrap"><section><h2 class="sec-title">ROLLING THE DICE</h2>'
-            '<p class="dir-note">picking one page out of everything that exists - games, software, mods, collections.</p></section></main>')
+            '<p class="dir-note">picking one page out of everything that exists - games, editions, collections.</p></section></main>')
     return (head("RANDOM — GOODGAMES SURVIVE", "One random page out of everything.", depth) +
             topbar(eng, depth, None) + body + js + foot_site(depth) + '</body></html>')
 
 def main_page(eng):
     depth = 0
+    dug = eng.pages_dug()
+    c = eng.sec_counts()
+    secs = [("games", "GAMES", "game"), ("software", "SOFTWARE", "software"), ("mods", "MODS+PATCHES", "mod")]
+    blocks = []
+    for key, label, d in secs:
+        if dug[key] == 0:
+            continue
+        rows = [r for r in eng.rows if r["sec"] == key and r.get("page") and not r.get("kind")]
+        order = {s: i for i, s in enumerate(eng.dig_order())}
+        rows.sort(key=lambda r: order.get(r["s"], 999))
+        rows = rows[:10]
+        items = []
+        for r in rows:
+            r_th = eng.thumb_at(r.get("th"), depth)
+            th = ('<span class="dir-thumb"><img loading="lazy" alt="" src="' + esc(r_th) + '" onerror="this.parentNode.classList.add(\'dead\');this.remove()"></span>' if r_th else '<span class="dir-thumb dead"></span>')
+            items.append('<a class="dir-row" href="' + rel("", "pages/" + r["page"], depth) + '">' + th +
+                         '<span class="dir-main"><span class="dir-name">' + esc(r["t"]) + '</span>' +
+                         ('<span class="dir-cap">' + esc(r["cap"]) + '</span>' if r.get("cap") else '') +
+                         '<span class="dir-meta">' + esc(r.get("y") or "") + '</span></span>'
+                         '<span class="dir-go">OPEN &#8594;</span></a>')
+        blocks.append('<section class="latest-sec"><div class="latest-head">'
+                      '<h2 class="sec-title">' + label + ' — LATEST DIGS</h2>'
+                      '<a class="jump" href="' + rel("", "pages/" + key + ".html", depth) + '">THE FULL SHELF &#8594;</a></div>'
+                      '<div class="dir">' + "".join(items) + '</div></section>')
+    cols_cards = []
+    for col in eng.collections:
+        cols_cards.append('<a class="col-card" href="' + rel("", "pages/collection/%s.html" % col["slug"], depth) + '">'
+                          '<span class="col-title">' + esc(col["title"]) + '</span>'
+                          '<span class="col-cap">' + esc(col.get("caption") or "") + '</span>'
+                          '<span class="col-n">' + str(col["n_pages"]) + ' pages</span>'
+                          '<span class="dir-go">OPEN &#8594;</span></a>')
+    col_block = ""
+    if cols_cards:
+        col_block = '<section class="latest-sec"><h2 class="sec-title">COLLECTIONS</h2><div class="col-grid">' + "".join(cols_cards) + '</div></section>'
+    stats = ('<section class="stats-line"><span>' + str(c["games"]) + ' games catalogued</span>'
+             '<span>' + str(dug["games"]) + ' game pages dug</span>'
+             '<span>' + str(len(eng.page_by_slug)) + ' pages live</span>'
+             '<span>' + str(len(eng.collections)) + ' collections</span>'
+             '<span>' + str(len(eng.multis)) + ' meta-collections</span></section>')
     body = ('<main id="top"><section class="hero">'
             '<div class="brand-mark" role="img" aria-label="WASTED - TED struck through, IT written over it">'
             '<span class="mark-word">WAS<span class="mark-ted">TED<span class="mark-it">IT</span></span></span></div>'
-            '<p class="hero-caption">a memory no longer buried</p></section></main>')
+            '<p class="hero-caption">a memory no longer buried</p></section>'
+            + "".join(blocks) + col_block + stats + '</main>')
     return (head("GOODGAMES SURVIVE — a memory no longer buried",
                  "Good games that outlived their era. Downloads, cracks for the un-buyable, mods, patches, upgrade paths.",
                  depth) + topbar(eng, depth, None) + body + foot_site(depth) + '</body></html>')
@@ -266,7 +318,7 @@ def collection_page(eng, c):
         g = eng.row_index.get(s)
         if not g:
             continue
-        if s in eng.page_by_slug:
+        if s in eng.page_by_slug and not eng.is_version(s):
             th = eng.page_by_slug[s].get("thumbnail") or ""
             meta = " · ".join(filter(None, [g.get("release") and str(g["release"])[:4], (g.get("developers") or [""])[0], (g.get("genres") or [""])[0]]))
             items.append('<a class="dir-row" href="' + rel("", eng.page_url_of(s), depth) + '">' +
@@ -323,7 +375,6 @@ def thing_page(eng, slug, sec):
     row = next((r for r in (eng.software_rows if sec == "software" else eng.mods_rows) if r["slug"] == slug), None)
     title = (row or {}).get("title", slug)
     depth = 2
-    d = {"games": "game", "software": "software", "mods": "mod"}[sec]
     shelf = {"software": "SOFTWARE", "mods": "MODS+PATCHES"}[sec]
     facts = []
     if row:
@@ -340,16 +391,18 @@ def thing_page(eng, slug, sec):
         if row.get("req_tier"):
             facts.append('<tr><td class="k">target tier</td><td class="v">' + esc(row["req_tier"] + " vs the haswell bar") + '</td></tr>')
         facts.append('<tr><td class="k">test status</td><td class="v">' + esc(row.get("test_status") or "not-tested") + '</td></tr>')
-        if row.get("tags"):
-            facts.append('<tr><td class="k">tags</td><td class="v">' + esc(", ".join(row["tags"])) + '</td></tr>')
     lk = p.get("links") or {}
     dl = []
-    for bucket, kind in (("official", "OFFICIAL"), ("anyway", "ANYWAY")):
-        if lk.get(bucket):
-            items = "".join('<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>' for a in lk[bucket])
-            dl.append('<div class="dl-row"><span class="dl-kind">' + kind + '</span>' + items + '</div>')
-            if lk.get(bucket + "_note"):
-                dl.append('<p class="dl-note">' + esc(lk[bucket + "_note"]) + '</p>')
+    if lk.get("official"):
+        items = "".join('<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>' for a in lk["official"])
+        dl.append('<div class="dl-row"><span class="dl-kind">OFFICIAL</span>' + items + '</div>')
+        if lk.get("official_note"):
+            dl.append('<div class="dl-status-strip"><span class="dl-strip-k">OFFICIAL STATUS</span><span class="dl-strip-t">' + esc(lk["official_note"]) + '</span></div>')
+    if lk.get("anyway"):
+        items = "".join('<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>' for a in lk["anyway"])
+        dl.append('<div class="dl-row"><span class="dl-kind">ANYWAY</span>' + items + '</div>')
+        if lk.get("anyway_note"):
+            dl.append('<p class="dl-note">' + esc(lk["anyway_note"]) + '</p>')
     gal = ""
     g = p.get("gallery") or {}
     if g.get("images"):

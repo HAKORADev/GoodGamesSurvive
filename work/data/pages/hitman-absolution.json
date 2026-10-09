@@ -10,12 +10,7 @@
   "linear stealth"
  ],
  "characters": [
-  "Agent 47",
-  "Diana Burnwood",
-  "Victoria",
-  "Blake Dexter",
-  "Benjamin Travis",
-  "Birdie"
+  "Agent 47"
  ],
  "req": {
   "tier": "at",
@@ -89,5 +84,6 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/203140/header.jpg"
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/203140/header.jpg",
+ "dug_seq": 18
 }

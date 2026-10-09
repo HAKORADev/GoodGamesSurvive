@@ -11,9 +11,7 @@
   "co-op"
  ],
  "characters": [
-  "The Hero",
-  "the Chickens",
-  "CK-01 Henterprise"
+  "The Hero"
  ],
  "req": {
   "tier": "below",
@@ -87,5 +85,10 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/353090/header.jpg"
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/353090/header.jpg",
+ "versions": [
+  "chicken-invaders-5-cluck-of-the-dark-side-christmas",
+  "chicken-invaders-5-cluck-of-the-dark-side-halloween"
+ ],
+ "dug_seq": 2
 }

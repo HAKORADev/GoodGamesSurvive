@@ -10,15 +10,7 @@
   "resource management"
  ],
  "characters": [
-  "Flo",
-  "Businesswoman",
-  "Bookworm",
-  "Cellphone Addict",
-  "Family",
-  "Food Critic",
-  "Kindly Senior",
-  "Mr. Hot Shot",
-  "Young Lady"
+  "Flo"
  ],
  "req": {
   "tier": "below",
@@ -86,5 +78,6 @@
    }
   ]
  },
- "thumbnail": "../../assets/media/diner-dash-cover.jpg"
+ "thumbnail": "../../assets/media/diner-dash-cover.jpg",
+ "dug_seq": 3
 }

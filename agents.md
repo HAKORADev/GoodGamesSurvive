@@ -4,6 +4,12 @@ this file exists so the next agent session (me, later, with wiped memory)
 spends zero time re-figuring the system. read this + brand-style-more.md
 and you know everything.
 
+**the powerup rack: [`agents/`](agents/README.md)** — modular deep-dives,
+one concern per file: laws, page recipe, data model, tag infra, collections,
+media, search, templates, testing, expansion. this file is the overview;
+the folder is the detail. when this file and a module disagree, the module
+wins (it is newer) — then fix this file.
+
 ## 0. standing rules
 
 1. all replies in English.
@@ -22,32 +28,48 @@ and you know everything.
 
 ```
 owner lists (as-is, sacred)
-  -> work/lists/games/games.json            (full DB, 708 rows, schema ggs.v2)
-  -> work/data/pages/<slug>.json            (rich page content: caption/about/gallery/links/req/characters)
+  -> work/lists/games/games.json            (catalog DB: owner's lists + endorsed
+                                             upgrade hubs; versions carry version_of;
+                                             out-of-scope rows sleep in attic/)
+  -> work/data/pages/<slug>.json            (rich page content: caption/about/gallery/
+                                             links/req/characters/versions/dug_seq)
   -> work/data/collections.json             (collections + multi-collections source)
   -> work/data/redirects.json               (slug aliases -> meta-refresh pages)
-  -> tools/build.py  (THE ENGINE)           -> every html page + data/search-index.json + random manifest
+  -> tools/build.py  (THE ENGINE)           -> every html page + data/search-index.json
+                                             + random manifest + public data/games.json
   -> tools/lists_check.py                   -> validates DBs, regenerates name-check + counts (CI)
 ```
 
 - KAGE ENGINE LAW: `tools/build.py` owns ALL page HTML and `data/search-index.json`.
   never hand-edit generated pages - edit the source data and rebuild. the only
   hand-maintained files are the data sources + tools.
-- ASSET VERSION LAW: bump `BUILD_V` in tools/kage_core.py on any css/js/index
-  change; it propagates to every page automatically.
+- ASSET VERSION LAW: BUILD_V in tools/kage_core.py is time-stamped per build
+  and stamps css + search-index + manifest fetches. stale caches can never
+  show old data. never hardcode a version string again.
 - media law: every gallery URL is verified live (HTTP 200, image/*) by
   scripts before it enters page JSON; every page renders a "MEDIA NOT FOUND"
   fallback via onerror at runtime. galleries are URL links only - 10 images
   + 3 no-commentary videos per game page, exact.
-- similars law: build-time scoring (genres x3, subgenres x2, tags x2, era/dev/co-op x1),
+- similars law: build-time scoring (genres x3, subgenres x2, category/era/dev x1),
   same-section only, same-series and same-collection excluded, top 10, why-line shown.
-- versions law: same-title releases share a `group`; pages render a release
-  switcher. `upgrades` on a row points TO its upgrade (direct or remaster);
-  `superseded_by` marks delisted-absorbed releases (WoA case).
+- versions law: holiday editions and re-releases are versions — `version_of`
+  on the row, `release_label` on the page, and the mainline page declares
+  `versions: [slugs in release order]` which drives the dropdown. versions
+  never ride the search index, counts, similars or collections.
+- upgrade law: `upgrades` = the direct line (next episode). `remaster` = the
+  remaster hub covering old games + their DLCs (CI Remastered case — not a
+  game of its own). `superseded_by` = the standalone is gone.
+- tag law: there is no "tag". the vocabularies are genre (5) / sub-genre (5) /
+  category (the owner's own section) / content walls / players (five modes) /
+  platform (windows, never "PC") / era / status. sex and gore are content
+  walls only. see agents/03-tags-infra.md.
 - requirements law: tier ladder vs the target bar (below / at / above
   haswell HDxxxx + win10). test status stays a separate truth.
-- official/anyway law: both buckets on every page. official may be dead
-  (delisted note) - anyway carries the rescue. Diner Dash is the model case.
+- official/anyway law: a game with an official path gets BOTH buckets; a
+  dead game gets ONLY the anyway route, with the official-status strip
+  explaining the death. every link must actually help — search-result pages
+  as filler are slop. Diner Dash is the model dead case, Blood Money the
+  model alive case.
 - counts law: top-bar nav counts are PAGE-BACKED counts (pages dug), not DB rows.
 
 
@@ -80,8 +102,11 @@ owner lists (as-is, sacred)
    - `haswell_igpu_ok`: null until tested or clearly documented.
 4. **run** `python3 tools/lists_check.py` locally (or push — CI runs it and
    commits the regenerated name-check + counts).
-5. **page**: copy `pages/tpl/game.html`, fill from the row, add to
-   `data/games.json` (this is the step that makes it public), commit.
+5. **page**: when the thing earns its dig, write
+   `work/data/pages/<slug>.json` (the recipe: agents/01-page-recipe.md),
+   run `python3 tools/build.py` until `BUILD: CLEAN`. the engine makes the
+   page public and wires every index. `pages/tpl/` no longer exists — the
+   engine is the template (agents/07-templates.md).
 6. **media**: gallery = steam-style (up to 10 images + 3 videos). sources:
    Steam CDN (`cdn.cloudflare.steamstatic.com/steam/apps/<appid>/...`),
    GOG images. HEAD-verify every URL. no slots, no placeholders: the
@@ -89,12 +114,11 @@ owner lists (as-is, sacred)
 
 ## 3. how to edit pages safely (multi-editing)
 
-- pages are plain HTML; each has a `data-game` slug attribute on
+- pages are generated; each has a `data-game` slug attribute on
   `<body data-game="...">` so tooling can find them.
-- regenerate rows from games.json, not by hand, when numbers change.
+- regenerate pages from data, not by hand, when anything changes.
 - style changes go in `assets/css/style.css` once, never per-page.
-- new template variants for other things (software/mod/collection) go in
-  `pages/tpl/` — Kage direction: every thing is a page template.
+- new page types = a render function + one branch in build.py.
 
 ## 4. scraping notes
 

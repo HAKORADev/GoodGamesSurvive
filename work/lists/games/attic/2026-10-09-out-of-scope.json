@@ -1,0 +1,469 @@
+{
+ "_meta": {
+  "law": "attic: rows removed from the active catalog - never in the owner's lists (hitman beyond Hitman 2/Contracts/Blood Money/Absolution, spinoffs, the classic trilogy remaster). restore only on explicit owner order.",
+  "removed": "2026-10-09",
+  "count": 8
+ },
+ "games": [
+  {
+   "title": "Hitman: Codename 47",
+   "slug": "hitman-codename-47",
+   "list": "non-casual",
+   "class": "normal",
+   "category": "EXPANSION - hitman-classics",
+   "series": "hitman",
+   "series_part": 1,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2000-11-19",
+   "developers": [
+    "IO Interactive"
+   ],
+   "publishers": [
+    "Eidos Interactive"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "research:hitman timeline"
+   ],
+   "notes": "",
+   "genres": [
+    "stealth",
+    "action"
+   ],
+   "subgenres": [
+    "third-person",
+    "social stealth"
+   ],
+   "tags": [
+    "single-player"
+   ],
+   "size_est_mb": 400,
+   "size_source": "store-stated",
+   "req_tier": "below",
+   "upgrades": [
+    "hitman-classic-trilogy-remastered"
+   ]
+  },
+  {
+   "title": "HITMAN (2016)",
+   "slug": "hitman-2016",
+   "list": "non-casual",
+   "class": "normal",
+   "upgrades": [
+    "hitman-2-2018"
+   ],
+   "category": "EXPANSION - hitman-modern (owner brief)",
+   "series": "hitman",
+   "series_part": 6,
+   "content_walls": [],
+   "big_size": true,
+   "big_size_gb": 50,
+   "release": "2016-03-11",
+   "developers": [
+    "IO Interactive"
+   ],
+   "publishers": [
+    "Square Enix"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "steam:236870",
+    "ioi.dk/hitman/news/2023/hitman-3-to-become-world-of-assassination",
+    "ign.com:hitman-3-being-rebranded"
+   ],
+   "notes": "delisted standalone (2023 WoA restructure); 50GB disk store-stated; content owned through WoA 1659040",
+   "genres": [
+    "stealth",
+    "action",
+    "adventure"
+   ],
+   "subgenres": [
+    "third-person",
+    "social stealth",
+    "sandbox"
+   ],
+   "tags": [
+    "single-player",
+    "big-size"
+   ],
+   "size_est_mb": 50000,
+   "size_source": "store-stated",
+   "req_tier": "above",
+   "superseded_by": "hitman-3-2021"
+  },
+  {
+   "title": "HITMAN 2 (2018)",
+   "slug": "hitman-2-2018",
+   "list": "non-casual",
+   "class": "normal",
+   "upgrades": [
+    "hitman-3-2021"
+   ],
+   "category": "EXPANSION - hitman-modern (owner brief)",
+   "series": "hitman",
+   "series_part": 7,
+   "content_walls": [],
+   "big_size": true,
+   "big_size_gb": 60,
+   "release": "2018-11-13",
+   "developers": [
+    "IO Interactive"
+   ],
+   "publishers": [
+    "IO Interactive"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "steam:863550",
+    "ioi.dk/hitman/news/2023/hitman-3-to-become-world-of-assassination"
+   ],
+   "notes": "delisted standalone (2023 WoA restructure); self-published after the Square Enix split; 60GB disk store-stated",
+   "genres": [
+    "stealth",
+    "action",
+    "adventure"
+   ],
+   "subgenres": [
+    "third-person",
+    "social stealth",
+    "sandbox"
+   ],
+   "tags": [
+    "single-player",
+    "big-size"
+   ],
+   "size_est_mb": 60000,
+   "size_source": "store-stated",
+   "req_tier": "above",
+   "superseded_by": "hitman-3-2021"
+  },
+  {
+   "title": "HITMAN III",
+   "slug": "hitman-3-2021",
+   "list": "non-casual",
+   "class": "normal",
+   "upgrades": [],
+   "category": "EXPANSION - hitman-modern (owner brief)",
+   "series": "hitman",
+   "series_part": 8,
+   "content_walls": [],
+   "big_size": true,
+   "big_size_gb": 60,
+   "release": "2021-01-20",
+   "developers": [
+    "IO Interactive"
+   ],
+   "publishers": [
+    "IO Interactive"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": true,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "steam:1659040",
+    "ioi.dk/hitman/news/2023/hitman-3-to-become-world-of-assassination"
+   ],
+   "notes": "rebranded HITMAN World of Assassination 2023-01-26; absorbs HITMAN (2016) + HITMAN 2 (2018); 60GB disk store-stated",
+   "genres": [
+    "stealth",
+    "action",
+    "adventure"
+   ],
+   "subgenres": [
+    "third-person",
+    "social stealth",
+    "sandbox"
+   ],
+   "tags": [
+    "single-player",
+    "big-size"
+   ],
+   "size_est_mb": 60000,
+   "size_source": "store-stated",
+   "req_tier": "above"
+  },
+  {
+   "title": "Hitman GO",
+   "slug": "hitman-go",
+   "list": "non-casual",
+   "class": "normal",
+   "upgrades": [],
+   "category": "EXPANSION - hitman-modern (owner brief)",
+   "series": "hitman",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2014",
+   "developers": [
+    "Square Enix Montréal"
+   ],
+   "publishers": [
+    "Square Enix"
+   ],
+   "platforms": [
+    "windows",
+    "mobile"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": true,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Hitman_(franchise)"
+   ],
+   "notes": "turn-based puzzle spinoff; catalogued, not dug yet",
+   "genres": [
+    "stealth",
+    "action",
+    "adventure"
+   ],
+   "subgenres": [
+    "third-person",
+    "social stealth",
+    "sandbox"
+   ],
+   "tags": [
+    "single-player"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
+  },
+  {
+   "title": "Hitman: Sniper",
+   "slug": "hitman-sniper",
+   "list": "non-casual",
+   "class": "normal",
+   "upgrades": [],
+   "category": "EXPANSION - hitman-modern (owner brief)",
+   "series": "hitman",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2015",
+   "developers": [
+    "Square Enix Montréal"
+   ],
+   "publishers": [
+    "Square Enix"
+   ],
+   "platforms": [
+    "mobile"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": true,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Hitman_(franchise)"
+   ],
+   "notes": "mobile shooting-gallery spinoff; catalogued, not dug yet",
+   "genres": [
+    "stealth",
+    "action",
+    "adventure"
+   ],
+   "subgenres": [
+    "third-person",
+    "social stealth",
+    "sandbox"
+   ],
+   "tags": [
+    "single-player"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
+  },
+  {
+   "title": "Hitman: Sniper Challenge",
+   "slug": "hitman-sniper-challenge",
+   "list": "non-casual",
+   "class": "normal",
+   "upgrades": [],
+   "category": "EXPANSION - hitman-modern (owner brief)",
+   "series": "hitman",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2012",
+   "developers": [
+    "IO Interactive"
+   ],
+   "publishers": [
+    "Square Enix"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Hitman_(franchise)"
+   ],
+   "notes": "standalone sniper spinoff tied to Absolution's pre-order; catalogued, not dug yet",
+   "genres": [
+    "stealth",
+    "action",
+    "adventure"
+   ],
+   "subgenres": [
+    "third-person",
+    "social stealth",
+    "sandbox"
+   ],
+   "tags": [
+    "single-player"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
+  },
+  {
+   "title": "Hitman Classic Trilogy Remastered",
+   "slug": "hitman-classic-trilogy-remastered",
+   "list": "non-casual",
+   "class": "upgrade-of-normal",
+   "upgrades": [
+    "hitman-codename-47",
+    "hitman-2-silent-assassin",
+    "hitman-3-contracts"
+   ],
+   "category": "EXPANSION - hitman-modern (owner brief)",
+   "series": "hitman",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": null,
+   "developers": [
+    "Saber Interactive",
+    "IO Interactive"
+   ],
+   "publishers": [
+    "Saber Interactive"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "coop": false,
+    "multiplayer": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "steam:4716160"
+   ],
+   "notes": "announced remaster of Codename 47 + Silent Assassin + Contracts; 'Coming soon' at research time 2026-10-09",
+   "genres": [
+    "stealth",
+    "action",
+    "adventure"
+   ],
+   "subgenres": [
+    "third-person",
+    "social stealth",
+    "sandbox"
+   ],
+   "tags": [
+    "single-player",
+    "upgrade"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
+  }
+ ]
+}

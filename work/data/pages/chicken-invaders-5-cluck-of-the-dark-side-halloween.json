@@ -11,9 +11,7 @@
   "co-op"
  ],
  "characters": [
-  "The Hero",
-  "the Chickens",
-  "CK-01 Henterprise"
+  "The Hero"
  ],
  "req": {
   "tier": "below",
@@ -82,5 +80,7 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/402990/header.jpg"
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/402990/header.jpg",
+ "version_of": "chicken-invaders-5-cluck-of-the-dark-side",
+ "dug_seq": 14
 }

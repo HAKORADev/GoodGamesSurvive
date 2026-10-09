@@ -12,11 +12,7 @@
   "sandbox"
  ],
  "characters": [
-  "Agent 47",
-  "Diana Burnwood",
-  "Alexander Leland Cayne",
-  "Mark Parchezzi III",
-  "Agent Smith"
+  "Agent 47"
  ],
  "req": {
   "tier": "below",
@@ -95,5 +91,6 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg"
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg",
+ "dug_seq": 1
 }

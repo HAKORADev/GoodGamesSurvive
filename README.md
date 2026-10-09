@@ -8,68 +8,71 @@ live at: `https://hakoradev.github.io/GoodGamesSurvive/`
 
 ## what this is
 
-- **page per thing** — one page per game, per software, per mod, per patch,
-  per collection. no hubs, no grids on the main page: the main page is clean
-  ground (logo + brand mark + caption).
-- **per-page gallery** — steam-style media strip on each game page, built
-  from verified hot-linked sources only. no empty slots, ever.
-- **recommendation engine** — every page says which series it belongs to
-  (clickable) and which archive games are similar to it.
-- **content walls, not age ratings** — hard-wall tags `sex` and `gore`
-  describe what the game IS. a +18 age rating is not a wall.
-- **big-size law** — `big_size` is true only when the full version (highest
-  tier, all DLC) needs more than 15 GB of disk after repack download + unzip.
-  the number is verified, not guessed.
-- **honest test status** — every page says `tested` (the owner downloaded,
-  played, pathed, modded it) or `not-tested`. nothing in between.
-
-## the offering
-
-| kind | meaning |
-|---|---|
-| `legal` | free/official distribution, link straight to it |
-| `anyway` | game still sold in stores — archive link + "you can anyway buy it" link, both on the page |
-| `un-buyable-crack` | the game needs a key that no living server can validate (think old Reflexive Arcade trial-unlock titles). nobody loses anything. we rescue it. |
-| `redirect` | we point at trusted archives (oldgamesdownload, myabandonware, romsfun, fitgirl, rg mechanics) |
+- **page per thing** — one page per game, per software, per mod, per
+  collection. the main page stays clean: brand mark, the latest digs per
+  section with jump-to links, the collections, live totals.
+- **versions, not release spam** — holiday editions and re-releases live as
+  switchable versions under their game's page (the dropdown), never as
+  standalone catalog entries.
+- **per-page gallery** — steam-style media strip on each game page: 10
+  images + 3 no-commentary gameplay videos, hot-linked only. a dead URL
+  renders MEDIA NOT FOUND and nothing breaks.
+- **store-grade search** — facet chips with live counts (genre, sub-genre,
+  category, content, platform, players, era, status), seeded random sort,
+  shelf-scoped random button, site-wide search.
+- **collections** — real shelves (The Hitman Collection, The Chicken
+  Invaders Collection) plus meta-collections that hold collections.
+- **honest everything** — official path first where one survives, the
+  archive route next to it, anyway-only for the dead ones. tested /
+  not-tested is a truth, not a decoration. counts are computed, never
+  hardcoded.
 
 ## repo map
 
 ```
-index.html            main page: logo, brand mark, caption. nothing else.
+index.html            main page: brand mark, latest digs, collections, live stats
 assets/css/style.css  monochrome retro system
-data/                 the public database (page-backed rows only), schema ggs.v1
-pages/                page per thing (game/software/mod/collection pages)
-pages/tpl/            page templates
-work/                 the workspace: original lists as-is + sorted, the full
-                      games database (owner-listed + verified), series registry,
-                      name-check, expansion logs, software/mods lists
-tools/lists_check.py  database health check: parses, validates, regenerates
-                      the name-check file, writes counts
-.github/workflows/    lists-check CI: runs the checker on every push
+data/                 generated: search index, random manifest, public rows
+pages/                generated: every page (game/software/mod/collection/meta)
+work/original-lists/  the owner's lists, as-is + sorted (sacred)
+work/lists/           the databases: games.json (catalog), software, mods,
+                      attic/ (out-of-scope rows, dated + reasoned), series,
+                      name-check, expansion logs
+work/data/pages/      page flesh: caption, about, gallery, links, req, characters
+work/data/            collections.json, redirects.json
+tools/build.py        THE ENGINE: renders every page + data files
+tools/lists_check.py  database health check (CI runs it on every push)
+agents.md             the field manual — points into agents/
+agents/               the powerup rack: laws, page recipe, data model, tag
+                      infra, collections, media, search, templates, testing,
+                      expansion — one concern per file
+.github/workflows/    lists-check CI
 brand-style-more.md   the shared memory file: brand, laws, decisions
-agents.md             field manual for agent sessions (how to add, check, scrape)
 ```
 
 ## how a game enters the site
 
 1. check `work/lists/games/name-check/games-added.txt` — if the name is
    there, stop. the game is in.
-2. verify the row (release date, developer, publisher, players, platforms,
-   walls, big-size) with sources. unknown stays null. no invented facts.
-3. add the row to `work/lists/games/games.json`. run `tools/lists_check.py`
-   (or push — CI runs it and commits the regenerated name-check).
-4. build the page from `pages/tpl/`, wire the row into `data/games.json`.
-5. the page carries: facts block, series link, similar-to links, download
-   links by kind, test status, content walls, size class.
+2. verify the row (release, developer, publisher, players, platforms, walls,
+   size + source, buyable) with sources. unknown stays null. no invented
+   facts.
+3. add the row to `work/lists/games/games.json`. run `tools/lists_check.py`.
+4. when it earns a page: write `work/data/pages/<slug>.json` (the page
+   recipe lives in `agents/01-page-recipe.md`), run `tools/build.py` until
+   `BUILD: CLEAN`, commit, push.
+5. versions/editions ride `version_of`; upgrades ride `upgrades` / `remaster`
+   / `superseded_by`; collections ride `work/data/collections.json`.
 
 ## data flow
 
 ```
-owner lists (work/original-lists/as-is/)
-   -> debunk/verify pass
-   -> work/lists/games/games.json   (full database, every row carries confidence)
-   -> page-backed rows distilled into data/games.json
-   -> pages render from data/
+owner lists (work/original-lists/, as-is, sacred)
+   -> verify pass (sources or null)
+   -> work/lists/games/games.json     full catalog (versions flagged, attic for out-of-scope)
+   -> work/data/pages/<slug>.json     page flesh when a dig happens
+   -> tools/build.py                  every page + data/search-index.json
+                                      + data/random-manifest.json + data/games.json
 ```
 
 CI regenerates the name-check file and the counts on every push, so the

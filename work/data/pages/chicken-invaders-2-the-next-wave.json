@@ -11,8 +11,7 @@
   "co-op"
  ],
  "characters": [
-  "The Hero",
-  "the Chickens"
+  "The Hero"
  ],
  "req": {
   "tier": "below",
@@ -86,5 +85,9 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/449550/header.jpg"
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/449550/header.jpg",
+ "versions": [
+  "chicken-invaders-2-the-next-wave-christmas"
+ ],
+ "dug_seq": 5
 }

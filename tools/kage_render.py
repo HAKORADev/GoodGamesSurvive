@@ -1,4 +1,5 @@
-from kage_core import esc, rel, keyify, date_str, size_display, BUILD_V, jwrite, os
+from kage_core import (esc, rel, keyify, date_str, size_display, BUILD_V, jwrite, os,
+                       clean_cat)
 
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">'
 FAVICON = '<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 64 64\'%3E%3Crect x=\'5\' y=\'5\' width=\'54\' height=\'54\' rx=\'12\' fill=\'%23070707\' stroke=\'%23e8e8e8\' stroke-width=\'4\'/%3E%3Ctext x=\'32\' y=\'45\' font-family=\'monospace\' font-size=\'34\' font-weight=\'bold\' fill=\'%23e8e8e8\' text-anchor=\'middle\'%3E?%3C/text%3E%3C/svg%3E">'
@@ -19,30 +20,18 @@ def topbar(eng, depth, active, action=None):
     if action is None:
         action = rel("", "pages/search.html", depth)
     c = eng.sec_counts()
-    page_n = {"games": 0, "software": 0, "mods": 0}
-    for r in eng.rows:
-        if r.get("page") and r["sec"] in page_n:
-            page_n[r["sec"]] += 1
-    npages = page_n
+    dug = eng.pages_dug()
     def nav_link(label, href, key, n=None):
         cls = ' class="here"' if active == key else ""
         cnt = ' <span class="count">(%d)</span>' % n if n is not None else ""
         return '<a' + cls + ' href="' + href + '">' + label + cnt + '</a>'
-    def nav_dead(label, n):
-        return '<span class="dead">' + label + ' <span class="count">(' + str(n) + ')</span></span>'
     nav = []
     if c["games"] > 0:
-        nav.append(nav_link("GAMES", rel("", "pages/games.html", depth), "games", page_n["games"]))
-    else:
-        nav.append(nav_dead("GAMES", 0))
+        nav.append(nav_link("GAMES", rel("", "pages/games.html", depth), "games", dug["games"]))
     if c["software"] > 0:
-        nav.append(nav_link("SOFTWARE", rel("", "pages/software.html", depth), "software", page_n["software"]))
-    else:
-        nav.append(nav_dead("SOFTWARE", 0))
+        nav.append(nav_link("SOFTWARE", rel("", "pages/software.html", depth), "software", dug["software"]))
     if c["mods"] > 0:
-        nav.append(nav_link("MODS+PATCHES", rel("", "pages/mods.html", depth), "mods", page_n["mods"], ))
-    else:
-        nav.append(nav_dead("MODS+PATCHES", 0))
+        nav.append(nav_link("MODS+PATCHES", rel("", "pages/mods.html", depth), "mods", dug["mods"]))
     if c["collections"] > 0:
         nav.append(nav_link("COLLECTIONS", rel("", "pages/collections.html", depth), "collections"))
     nav.append('<a href="' + rel("", "pages/random.html", depth) + '">RANDOM</a>')
@@ -72,27 +61,6 @@ def chip(label, href=None, warn=False):
     if href:
         return '<a class="' + cls + '" href="' + href + '">' + esc(label) + '</a>'
     return '<span class="' + cls + '">' + esc(label) + '</span>'
-
-GALLERY_JS = """
-(function(){
-  var MAIN=document.getElementById('gal-main');
-  var vids=%VIDS%;
-  document.querySelectorAll('.g-thumb').forEach(function(t){
-    t.addEventListener('click',function(){
-      document.querySelectorAll('.g-thumb').forEach(function(x){x.classList.remove('on')});
-      t.classList.add('on');
-      var k=t.getAttribute('data-kind');
-      if(k==='img'){
-        MAIN.innerHTML='<img src="'+t.getAttribute('data-src')+'" alt="in-game shot">';
-      }else{
-        var id=t.getAttribute('data-vid');
-        MAIN.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'" title="gameplay video" allowfullscreen loading="lazy"></iframe>';
-      }
-    });
-  });
-  MAIN.addEventListener('error',function(){},true);
-})();
-""".replace("%VIDS%", "[]")
 
 def gallery_html(p, title):
     g = p.get("gallery") or {}
@@ -138,7 +106,7 @@ def req_html(f):
             '<p class="req-note">' + esc(note) + '</p>'
             '<p class="req-base">the target bar: haswell-class CPU with HD xxxx iGPU, windows 10. testing is a separate truth - see the status box.</p>')
 
-def versions_html(eng, slug):
+def versions_html(eng, slug, depth):
     v = eng.versions_of(slug)
     up = eng.upgrades_of(slug)
     out = []
@@ -146,42 +114,50 @@ def versions_html(eng, slug):
         opts = []
         for s in v["siblings"]:
             sel = " selected" if s["slug"] == v["current"] else ""
-            opts.append('<option value="' + rel("", "pages/game/%s.html" % s["slug"], 2) + '"' + sel + '>' +
+            opts.append('<option value="' + rel("", "pages/game/%s.html" % s["slug"], depth) + '"' + sel + '>' +
                         esc(s["label"]) + '</option>')
-        out.append('<div class="ver-row"><span class="ver-k">RELEASES UNDER ' + esc((v["label"] or "").upper()) + '</span>'
+        out.append('<div class="ver-row"><span class="ver-k">RELEASES UNDER ' + esc((v["group"] or "").upper()) + '</span>'
                    '<select class="ver-select" onchange="if(this.value)location.href=this.value" aria-label="switch release">' + "".join(opts) + '</select></div>')
     ups = up.get("upgrades") or []
     if ups:
         links = []
         for u in ups:
             if u["page"]:
-                links.append('<a href="' + rel("", "pages/game/%s.html" % u["slug"], 2) + '">' + esc(u["title"]) + '</a>')
+                links.append('<a href="' + rel("", "pages/game/%s.html" % u["slug"], depth) + '">' + esc(u["title"]) + '</a>')
             else:
                 links.append('<span class="ver-nolink">' + esc(u["title"]) + ' (catalogued - no page yet)</span>')
         out.append('<p class="ver-up">UPGRADE: ' + " · ".join(links) + '</p>')
+    if up.get("remaster"):
+        rm = up["remaster"]
+        out.append('<p class="ver-up">REMASTERED: covered by <span class="ver-nolink">' + esc(rm["title"]) + '</span>'
+                   ' - the remaster line spans the classic episodes and their DLCs; the old builds stay the archive truth.</p>')
     if up.get("direct"):
         d = up["direct"]
-        out.append('<p class="ver-up">THIS PAGE IS THE DIRECT UPGRADE OF <a href="' + rel("", "pages/game/%s.html" % d["slug"], 2) + '">' + esc(d["title"]) + '</a></p>')
+        out.append('<p class="ver-up">THIS PAGE IS THE DIRECT UPGRADE OF <a href="' + rel("", "pages/game/%s.html" % d["slug"], depth) + '">' + esc(d["title"]) + '</a></p>')
     if up.get("superseded_by"):
         s = up["superseded_by"]
-        out.append('<p class="ver-up">SUPERSEDED BY <a href="' + rel("", "pages/game/%s.html" % s["slug"], 2) + '">' + esc(s["title"]) + '</a> - the standalone release is gone; the content lives there now.</p>')
+        out.append('<p class="ver-up">SUPERSEDED BY <a href="' + rel("", "pages/game/%s.html" % s["slug"], depth) + '">' + esc(s["title"]) + '</a> - the standalone release is gone; the content lives there now.</p>')
     return '<section><h2 class="sec-title">VERSIONS &amp; UPGRADES</h2>' + "".join(out) + '</section>' if out else ""
 
 def downloads_html(p):
     lk = p.get("links") or {}
-    rows = []
     off = lk.get("official") or []
+    anyw = lk.get("anyway") or []
+    rows = []
     if off:
         items = "".join('<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>' for a in off)
-        notes = " · ".join(filter(None, [a.get("note") for a in off]))
         rows.append('<div class="dl-row"><span class="dl-kind">OFFICIAL</span>' + items + '</div>')
-        rows.append('<p class="dl-note">' + esc(notes) + '</p>')
-    rows.append('<div class="dl-row"><span class="dl-kind">OFFICIAL STATUS</span><span class="dl-status">' + esc(lk.get("official_note") or "") + '</span></div>')
-    anyw = lk.get("anyway") or []
+        note = " · ".join(filter(None, [a.get("note") for a in off]))
+        if note:
+            rows.append('<p class="dl-note">' + esc(note) + '</p>')
+    if lk.get("official_note"):
+        rows.append('<div class="dl-status-strip"><span class="dl-strip-k">OFFICIAL STATUS</span>'
+                    '<span class="dl-strip-t">' + esc(lk["official_note"]) + '</span></div>')
     if anyw:
         items = "".join('<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>' for a in anyw)
         rows.append('<div class="dl-row"><span class="dl-kind">ANYWAY</span>' + items + '</div>')
-    rows.append('<p class="dl-note">' + esc(lk.get("anyway_note") or "") + '</p>')
+    if lk.get("anyway_note"):
+        rows.append('<p class="dl-note">' + esc(lk["anyway_note"]) + '</p>')
     return "".join(rows)
 
 def game_page(eng, slug):
@@ -190,17 +166,15 @@ def game_page(eng, slug):
     f = eng.facts_of(slug)
     title = g["title"]
     depth = 2
+    is_ver = eng.is_version(slug)
+    mainline = g.get("version_of")
+
     chips = []
     chips.append(chip((f["list"] or "").upper()))
     for gen in f["genres"][:5]:
         chips.append(chip(gen, rel("", "pages/games.html", depth) + "?genre=" + keyify(gen)))
-    for t in f["tags"]:
-        if t in ("single-player", "co-op", "multiplayer"):
-            chips.append(chip(t.upper(), rel("", "pages/games.html", depth) + "?players=" + ("single" if t == "single-player" else ("coop" if t == "co-op" else "multi"))))
-        elif t in ("big-size",):
-            chips.append(chip("BIG-SIZE", rel("", "pages/games.html", depth) + "?status=big", warn=True))
-        else:
-            chips.append(chip(t.upper(), rel("", "pages/games.html", depth) + "?tag=" + keyify(t)))
+    for w in f["walls"]:
+        chips.append(chip(w.upper(), rel("", "pages/games.html", depth) + "?content=" + keyify(w), warn=True))
     chips.append(chip("NOT TESTED" if not f["tested"] else "TESTED", warn=not f["tested"]))
 
     facts_rows = []
@@ -210,11 +184,23 @@ def game_page(eng, slug):
     if f["pubs"]:
         facts_rows.append('<tr><td class="k">publisher</td><td class="v">' + " · ".join('<a href="' + rel("", "pages/games.html", depth) + '?pub=' + keyify(d) + '">' + esc(d) + '</a>' for d in f["pubs"]) + '</td></tr>')
     facts_rows.append('<tr><td class="k">platform</td><td class="v">' + " · ".join('<a href="' + rel("", "pages/games.html", depth) + '?platform=' + keyify(x) + '">' + esc(x) + '</a>' for x in f["platforms"]) + '</td></tr>')
-    facts_rows.append('<tr><td class="k">players</td><td class="v"><a href="' + rel("", "pages/games.html", depth) + '?players=' + ("coop" if "co-op" in f["players"] else "single") + '">' + esc(f["players"]) + '</a></td></tr>')
+    pl_opts = []
+    pl = g.get("players") or {}
+    for k, lab in (("single", "single"), ("local_coop", "coop"), ("online_coop", "online-coop"),
+                   ("local_multi", "local-multi"), ("online_multi", "multi")):
+        if pl.get(k):
+            pl_opts.append(lab)
+    facts_rows.append('<tr><td class="k">players</td><td class="v">' + " · ".join(
+        '<a href="' + rel("", "pages/games.html", depth) + '?players=' + x + '">' + y + '</a>' for x, y in zip(pl_opts, f["players"].split(", "))) + '</td></tr>' if pl_opts else '<tr><td class="k">players</td><td class="v">players unknown</td></tr>')
+    if f["characters"]:
+        facts_rows.append('<tr><td class="k">characters</td><td class="v">' + " · ".join(
+            '<a href="' + rel("", "pages/games.html", depth) + '?character=' + keyify(c) + '">' + esc(c) + '</a>' for c in f["characters"]) + '</td></tr>')
     if f["series"]:
-        facts_rows.append('<tr><td class="k">series</td><td class="v"><a href="' + rel("", "pages/games.html", depth) + '?series=' + esc(f["series"]) + '">' + esc((eng.series_map.get(f["series"]) or {}).get("title", f["series"])) + '</a>' + (' - part %s' % f["part"] if f["part"] else '') + '</td></tr>')
+        st = (eng.series_line(slug) or {}).get("title") or f["series"]
+        cell = '<a href="' + rel("", "pages/games.html", depth) + '?series=' + esc(f["series"]) + '">' + esc(st) + '</a>'
+        facts_rows.append('<tr><td class="k">series</td><td class="v">' + cell + '</td></tr>')
     if f["walls"]:
-        facts_rows.append('<tr><td class="k">content walls</td><td class="v">' + " · ".join('<a class="wall" href="' + rel("", "pages/games.html", depth) + '?content=' + esc(w) + '">' + esc(w.upper()) + '</a>' for w in f["walls"]) + '</td></tr>')
+        facts_rows.append('<tr><td class="k">content walls</td><td class="v">' + " · ".join('<a class="wall" href="' + rel("", "pages/games.html", depth) + '?content=' + keyify(w) + '">' + esc(w.upper()) + '</a>' for w in f["walls"]) + '</td></tr>')
     else:
         facts_rows.append('<tr><td class="k">content walls</td><td class="v">none</td></tr>')
     facts_rows.append('<tr><td class="k">size</td><td class="v">' + esc(f["size"]) + '</td></tr>')
@@ -225,7 +211,8 @@ def game_page(eng, slug):
     sims = eng.similar.get(slug) or {"pages": [], "catalogued": []}
     sim_cards = []
     for s in sims["pages"][:10]:
-        th = ('<span class="dir-thumb"><img src="' + esc(s["th"]) + '" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'dead\');this.remove()"></span>' if s["th"] else '<span class="dir-thumb dead"></span>')
+        s_th = eng.thumb_at(s["th"], depth)
+        th = ('<span class="dir-thumb"><img src="' + esc(s_th) + '" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'dead\');this.remove()"></span>' if s_th else '<span class="dir-thumb dead"></span>')
         sim_cards.append('<a class="dir-row sim-row" href="' + rel("", "pages/game/%s.html" % s["slug"], depth) + '">' + th +
                          '<span class="dir-main"><span class="dir-name">' + esc(s["title"]) + '</span>' +
                          '<span class="dir-meta">' + esc((s["y"] or "") + (" · " if s["y"] else "")) + esc(s.get("why") or "") + '</span></span>'
@@ -239,13 +226,9 @@ def game_page(eng, slug):
     if cols:
         col_line = '<section><h2 class="sec-title">COLLECTIONS</h2><p class="series-line">' + " · ".join('<a class="m now" href="' + rel("", "pages/collection/%s.html" % c["slug"], depth) + '">' + esc(c["title"]) + '</a>' for c in cols) + '</p></section>'
 
-    chars = ""
-    if f["characters"]:
-        chars = '<section><h2 class="sec-title">CHARACTERS</h2><p class="chars-line">' + " · ".join('<span class="char">' + esc(c) + '</span>' for c in f["characters"]) + '</p></section>'
-
     ser = eng.series_line(slug)
     ser_html = ""
-    if ser:
+    if ser and not is_ver:
         ms = []
         for m in ser["members"]:
             label = esc(m["title"]) + (' · ' + str(m["y"]) if m["y"] else '')
@@ -257,8 +240,17 @@ def game_page(eng, slug):
                 ms.append('<span class="m">' + label + '</span>')
         ser_html = '<section><h2 class="sec-title">SERIES - ' + esc(ser["title"].upper()) + '</h2><p class="series-line">' + "".join(m for m in ms) + '</p></section>'
 
+    if is_ver:
+        crumb = ('<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / '
+                 '<a href="' + rel("", "pages/games.html", depth) + '">GAMES</a> / '
+                 '<a href="' + rel("", "pages/game/%s.html" % mainline, depth) + '">' + esc(eng.title_of(mainline)) + '</a> / '
+                 '<b>' + esc(p.get("release_label") or "edition") + '</b></p>')
+    else:
+        crumb = ('<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / '
+                 '<a href="' + rel("", "pages/games.html", depth) + '">GAMES</a> / <b>' + esc(title) + '</b></p>')
+
     body = ['<main class="page-wrap">',
-            '<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / <a href="' + rel("", "pages/games.html", depth) + '">GAMES</a> / <b>' + esc(title) + '</b></p>',
+            crumb,
             '<div class="game-top"><div class="game-cover"><img src="' + esc(p.get("thumbnail") or "") + '" alt="' + esc(title) + ' cover" onerror="this.parentNode.classList.add(\'dead\');this.remove()"></div>',
             '<div class="game-title"><h1>' + esc(title) + '</h1>',
             '<p class="game-caption">' + esc(p.get("caption") or "") + '</p>',
@@ -267,9 +259,8 @@ def game_page(eng, slug):
             '<section><h2 class="sec-title">GALLERY</h2>' + gallery_html(p, title) + '</section>',
             '<section><h2 class="sec-title">ABOUT ' + esc(title.upper()) + '</h2>' + "".join('<p class="about-p">' + esc(a) + '</p>' for a in (p.get("about") or [])) + '</section>',
             '<section><h2 class="sec-title">FACTS</h2><table class="facts">' + "".join(facts_rows) + '</table></section>',
-            chars,
             '<section><h2 class="sec-title">REQUIREMENTS - VS THE TARGET</h2>' + req_html(f) + '</section>',
-            versions_html(eng, slug),
+            versions_html(eng, slug, depth),
             ser_html,
             col_line,
             '<section><h2 class="sec-title">DOWNLOADS</h2>' + downloads_html(p) + '</section>',

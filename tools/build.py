@@ -63,17 +63,23 @@ def main():
         open(p, "w", encoding="utf-8").write(R2.redirect_page(eng, r, sec))
         written.append("pages/%s/%s.html (redirect)" % (d, r["from"]))
 
-    idx_meta = {"_meta": {"built_by": "tools/build.py", "v": BUILD_V, "rows": len(eng.rows)}}
+    idx_meta = {"_meta": {"built_by": "tools/build.py", "v": BUILD_V, "rows": len(eng.rows),
+                          "law": "catalog layer only - version sub-pages do not ride the index"}}
     jwrite(os.path.join(ROOT, "data", "search-index.json"), {"_meta": idx_meta["_meta"], "rows": eng.rows}, compact=True)
 
-    manifest = {"_meta": {"built_by": "tools/build.py"}, "items": []}
-    for r in eng.rows:
-        if r.get("page"):
-            manifest["items"].append({"u": "pages/" + r["page"], "t": r["t"]})
+    manifest = {"_meta": {"built_by": "tools/build.py", "v": BUILD_V}, "items": []}
+    for slug in sorted(eng.page_by_slug):
+        u = eng.page_url_of(slug)
+        if u:
+            manifest["items"].append({"u": u, "t": eng.title_of(slug)})
+    for c in eng.collections:
+        manifest["items"].append({"u": "pages/collection/%s.html" % c["slug"], "t": c["title"]})
+    for m in eng.multis:
+        manifest["items"].append({"u": "pages/meta/%s.html" % m["slug"], "t": m["title"]})
     jwrite(os.path.join(ROOT, "data", "random-manifest.json"), manifest, compact=True)
 
     public_rows = []
-    for g in eng.games_db["games"]:
+    for g in eng.catalog_games:
         slug = g["slug"]
         if slug not in eng.page_by_slug:
             continue

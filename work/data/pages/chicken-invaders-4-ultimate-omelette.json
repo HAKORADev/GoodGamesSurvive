@@ -11,9 +11,7 @@
   "co-op"
  ],
  "characters": [
-  "The Hero",
-  "the Chickens",
-  "The Egg Cannon"
+  "The Hero"
  ],
  "req": {
   "tier": "below",
@@ -87,5 +85,11 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/301300/header.jpg"
+ "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/301300/header.jpg",
+ "versions": [
+  "chicken-invaders-4-ultimate-omelette-christmas",
+  "chicken-invaders-4-ultimate-omelette-easter",
+  "chicken-invaders-4-ultimate-omelette-thanksgiving"
+ ],
+ "dug_seq": 12
 }

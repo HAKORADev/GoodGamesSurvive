@@ -10,8 +10,7 @@
   "fixed shooter"
  ],
  "characters": [
-  "The Hero",
-  "the Chickens"
+  "The Hero"
  ],
  "req": {
   "tier": "below",
@@ -80,5 +79,7 @@
    }
   ]
  },
- "thumbnail": "https://i.ytimg.com/vi/hzXR_EwsGGc/maxresdefault.jpg"
+ "thumbnail": "https://i.ytimg.com/vi/hzXR_EwsGGc/maxresdefault.jpg",
+ "versions": [],
+ "dug_seq": 15
 }
