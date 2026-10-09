@@ -607,6 +607,13 @@
      "part": 9,
      "kind": "rebrand",
      "y": "2023"
+    },
+    {
+     "title": "Hitman HD Trilogy",
+     "slug": "hitman-hd-trilogy",
+     "part": null,
+     "kind": "remaster",
+     "y": "2013"
     }
    ],
    "upgrades": [

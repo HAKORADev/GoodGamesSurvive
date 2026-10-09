@@ -1,6 +1,6 @@
 {
  "slug": "chicken-invaders-remastered",
- "caption": "not a game of its own - the studio's remaster line: every classic episode rebuilt with its DLC aboard, and the direct upgrade of the old wars.",
+ "caption": "not one game - the studio's remaster line, episode by episode: the classic-engine rebuilds of wars 1-2 and the universe-engine reworks of the whole main line.",
  "genres": [
   "shoot 'em up"
  ],
@@ -29,16 +29,28 @@
     "note": "verified live 2026-10-09"
    }
   ],
-  "official_note": "the remaster line ships per episode from the studio itself: the CI1 remaster (2023) rides the Steam 'Chicken Invaders 1' package, the CI2 remaster has shipped since 2012. 700 MB store-stated. still sold.",
-  "anyway": [],
-  "anyway_note": "no verified archive mirror of the remaster package exists yet - the official package is the path. the untouched classic builds keep their own archive items on their pages."
+  "official_note": "the remaster line ships per episode from the studio itself: the CI1 remaster (2023) rides the steam 'chicken invaders 1' package, the CI2 remaster has shipped since 2012. 700 MB store-stated. still sold.",
+  "anyway": [
+   {
+    "label": "Chicken Invaders 1 package (carries the remastered build)",
+    "url": "https://gogunlocked.com/chicken-invaders-1-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Chicken Invaders 1 package (carries the remastered build)",
+    "url": "https://steamunlocked.net/chicken-invaders-1-free-download",
+    "src": "steam-unlocked"
+   }
+  ],
+  "anyway_note": "the package mirrors carry the whole steam package - the 1999 original, the 2023 remaster and episode 1 in one build."
  },
  "about": [
-  "Chicken Invaders: Remastered is not a standalone game - it is InterAction studios' remaster line, and this page exists because the shelf needs one honest address for it. Every classic episode of the series received a rebuilt edition that carries all of its downloadable content with it: same wars, same waves, same six-weapon arsenal, redrawn for modern windows. The line is the direct upgrade of every old game on the Chicken Invaders shelf - which is exactly why those pages' UPGRADE lines point here instead of at each other's sequels.",
-  "The rollout stretched across a decade, one episode at a time. The Chicken Invaders 2 remaster shipped on 26 January 2012. The first game's remaster followed much later - dated 2023, it reached Steam inside the studio's 'Chicken Invaders 1' package (released there on 7 March 2025), sitting on the same store shelf as the untouched 1999 original and a beta remaster labeled Episode 1. Per Wikipedia, the whole main series is covered or being covered, with the newest episodes' remasters still riding the beta branch.",
-  "The shelf law stays deliberate: the five classic pages remain the archive truth of the original builds - the exact installers, their sizes, their holiday editions. The remaster line is the modern way to play the same wars, bought from a studio that is still alive and still selling. Nothing here is a rescue: this is an ownership story, and the upgrade path is one click away from every classic page that points at it."
+  "Chicken Invaders: Remastered is not a standalone game - it is InterAction studios' remaster line, and this page is its one honest address. The line is not a single product: it is a set of per-episode rebuilds of different ages and engines, and the shelf keeps them straight one by one.",
+  "The classic-engine remasters come first. Chicken Invaders 2: The Next Wave received its remaster on 26 January 2012 (the Christmas Edition's followed 20 December 2011) - HD graphics, orchestral music, an auto-fire function, progress saving and new languages. Chicken Invaders itself followed much later: its remaster beta opened 20 January 2023 with the full release on 31 January 2023, adding HD graphics, DirectX 11, mouse and controller support and the anniversary song from Universe. That rebuild ships only inside the studio's Steam package Chicken Invaders 1 (released there 7 March 2025), on the same shelf as the untouched 1999 original and the new Episode 1.",
+  "The Universe-engine reworks cover the whole main line. Every episode received a free beta remaster built on Chicken Invaders Universe content - redesigned graphics, new features - distributed through the studio's forum. When CIU update v149 turned that content into DLC, the beta servers shut down: the reworks still download, but now play as DLC inside Universe. The rework line continues as the Episode format, the studio's free major update announced in January 2025 for episodes 2-5 on a new engine. As of spring 2025 only Chicken Invaders Episode 1: The Saga Begins has an official Steam release; episodes 2-5 remain in beta on Steam and Google Play, and none have reached the App Store. A Chicken Invaders Collection for Xbox is dated 2026 on the series timeline.",
+  "The shelf law stays deliberate: the five classic pages remain the archive truth of the original builds - the exact installers, their sizes, their holiday editions. The remaster line is the modern way to play the same wars from a studio that is still alive and selling. Nothing here is a rescue; the upgrade path is one click away from every classic page that points here."
  ],
- "notes_extra": "the Steam app 'Chicken Invaders 1' (3491310, 2025-03-07) bundles the 1999 original, the Remastered 2023 build and the Episode 1 beta remaster - one package, verified live 2026-10-09.",
+ "notes_extra": "sources: wikipedia (remaster dates, episode format, beta status), interactionstudios.com news (episodes announcement, january 2025), steam app 3491310 store page (package contents)",
  "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491310/header.jpg?t=1741341152",
  "gallery": {
   "images": [

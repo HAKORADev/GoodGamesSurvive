@@ -22,7 +22,7 @@
    {
     "label": "Steam - Hitman: Blood Money",
     "url": "https://store.steampowered.com/app/6860/",
-    "note": "still sold, 9.99 USD (verified today)"
+    "note": "still sold, 9.99 USD"
    },
    {
     "label": "GOG - Hitman: Blood Money",
@@ -30,15 +30,31 @@
     "note": "DRM-free, offline installer 4.3 GB"
    }
   ],
-  "official_note": "still sold - Steam and GOG both carry it (both verified today).",
+  "official_note": "still sold - Steam and GOG both carry it.",
   "anyway": [
+   {
+    "label": "Hitman: Blood Money (v1.2)",
+    "url": "https://gogunlocked.com/hitman-blood-money-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Hitman: Blood Money",
+    "url": "https://steamunlocked.net/hitman-blood-money-free-download",
+    "src": "steam-unlocked"
+   },
+   {
+    "label": "Hitman: Blood Money (v1.2)",
+    "url": "https://steamrip.com/hitman-blood-money-free-download-h1",
+    "src": "steamrip"
+   },
    {
     "label": "Old Games Download - Hitman: Blood Money",
     "url": "https://oldgamesdownload.com/hitman-blood-money/",
-    "note": "archive route, for the keeps-box"
+    "note": "archive route, for the keeps-box",
+    "src": "archive"
    }
   ],
-  "anyway_note": "the game is alive, so the archive route is preservation, not rescue."
+  "anyway_note": "the game is alive - these routes are preservation, not rescue."
  },
  "about": [
   "Hitman: Blood Money (May 2006) is the classic series' high-water mark and the game that defined the sandbox assassination genre for the generation after it. A rival agency is killing the ICA's contracts and 47 works the American circuit - Mardi Gras, the White House, a Vegas casino heist gone wrong - while agent Alexander Leland Cayne builds a frame job around him and the albino killer Mark Parchezzi III shadows the brand.",

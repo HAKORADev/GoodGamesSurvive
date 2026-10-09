@@ -31,8 +31,19 @@
    }
   ],
   "official_note": "sold on Steam and distributed by the studio. first war with online co-op (up to 4 over the net, 2 on one computer).",
-  "anyway": [],
-  "anyway_note": "no clean mirror verified yet - and nothing is at risk: the studio still sells this one. the slot stays empty instead of pointing at filler."
+  "anyway": [
+   {
+    "label": "Chicken Invaders 3 (steam package build, all DLC)",
+    "url": "https://gogunlocked.com/chicken-invaders-3-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Chicken Invaders 3 (steam package build, all DLC)",
+    "url": "https://steamunlocked.net/30224-chicken-invaders-3-free-download",
+    "src": "steam-unlocked"
+   }
+  ],
+  "anyway_note": "the package mirrors carry the current steam build; nothing preserves the classic v1.30z installer cleanly yet, and nothing is at risk - the studio still sells this one."
  },
  "about": [
   "Chicken Invaders 3: Revenge of the Yolk (standard edition 20 January 2007) is the episode where the series grew a real antagonist: the Yolk-Star, a Death Star parody assembled from egg matter, built by the chickens for their third and most theatrical attempt on Earth. It is also the first mainline episode built in true 3D, and it shows - the wave choreography, camera moments and boss staging all lean on the new engine.",

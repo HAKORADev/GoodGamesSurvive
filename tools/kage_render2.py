@@ -27,7 +27,7 @@ function facetOf(r,k){
  if(k==='character')return r.ch||[];
  if(k==='dev')return r.dev; if(k==='pub')return r.pub;
  if(k==='players'){var a=[];if(r.p1)a.push('single');if(r.lc)a.push('coop');if(r.oc)a.push('online-coop');if(r.lm)a.push('local-multi');if(r.om)a.push('multi');return a}
- if(k==='status'){var b=[];b.push(r.tested?'tested':'not-tested');if(r.conf==='verified')b.push('verified');if(r.big)b.push('big-size');if(r.buy===true)b.push('still-sold');if(r.buy===false)b.push('un-buyable');return b}
+ if(k==='status'){var b=[];b.push(r.tested?'tested':'not-tested');if(r.big)b.push('big-size');if(r.buy===true)b.push('still-sold');if(r.buy===false)b.push('un-buyable');return b}
  return[]}
 function filters(){var f={};FK.forEach(function(k){var v=gp(k);if(v)f[k]=v});return f}
 function matches(r,f,skip){
@@ -62,7 +62,7 @@ function renderFacets(f){
   var keys=Object.keys(counts).filter(function(v){return v!=='unknown'||k==='era'});
   keys.sort(function(a,b){return counts[b]-counts[a]||a.localeCompare(b)});
   if(k==='players'){keys=['single','coop','online-coop','local-multi','multi'].filter(function(v){return counts[v]})}
-  if(k==='status'){keys=['tested','verified','big-size','still-sold','un-buyable'].filter(function(v){return counts[v]})}
+  if(k==='status'){keys=['tested','big-size','still-sold','un-buyable'].filter(function(v){return counts[v]})}
   if(!keys.length)return;
   var labs={'single':'single-player','coop':'local co-op','online-coop':'online co-op','local-multi':'local multiplayer','multi':'online multiplayer','still-sold':'still sold','un-buyable':'un-buyable'};
   if(k!=='status'&&k!=='players'){keys=keys.slice(0,14)}
@@ -143,6 +143,21 @@ def vocab_script(eng):
          "w": {"sex": "sex", "gore": "gore"}}
     return '<script>window.VOCAB=' + _json.dumps(v, ensure_ascii=False) + ';</script>'
 
+def bar_chips_html(eng, sec, depth):
+    chips = []
+    for c in eng.collections:
+        if c.get("section") != sec:
+            continue
+        chips.append('<a class="bar-chip" href="' + rel("", eng.collection_url(c["slug"]), depth) + '">' + esc(c["title"]) + '</a>')
+    for m in eng.multis:
+        if m.get("_sec") != sec:
+            continue
+        chips.append('<a class="bar-chip bar-chip-meta" href="' + rel("", eng.collection_url(m["slug"]), depth) + '">' + esc(m["title"]) + '</a>')
+    if not chips:
+        return ""
+    idx = '<a class="bar-chip bar-chip-all" href="' + rel("", eng.collections_index_url(sec), depth) + '">ALL COLLECTIONS</a>'
+    return '<div class="bar-chips"><span class="bar-chips-k">COLLECTIONS</span>' + "".join(chips) + idx + '</div>'
+
 def facet_bar_html(eng, sec, depth):
     return ('<section class="store"><div class="store-tools">'
             '<input class="search-big" id="q" type="search" placeholder="search this shelf - title, series, developer..." autocomplete="off" aria-label="search input">'
@@ -151,7 +166,8 @@ def facet_bar_html(eng, sec, depth):
             '<option value="date-desc">date new-old</option><option value="date-asc">date old-new</option>'
             '<option value="size-desc">size big-small</option><option value="size-asc">size small-big</option>'
             '<option value="random">random</option></select>'
-            '<button type="button" id="shuf" class="shuf-btn">SHUFFLE LIST</button>'
+            + bar_chips_html(eng, sec, depth)
+            + '<button type="button" id="shuf" class="shuf-btn">SHUFFLE LIST</button>'
             '<button type="button" id="rpick" class="shuf-btn">RANDOM</button></div>'
             '<p class="search-count" id="count">loading the index...</p></div>'
             '<div class="active" id="active"></div>'
@@ -166,7 +182,7 @@ def collections_strip(eng, sec, depth):
         cards.append('<a class="col-card" href="' + rel("", eng.collection_url(c["slug"]), depth) + '">'
                      '<span class="col-title">' + esc(c["title"]) + '</span>'
                      '<span class="col-cap">' + esc(c.get("caption") or "") + '</span>'
-                     '<span class="col-n">' + str(c["n_pages"]) + ' pages</span>'
+                     '<span class="col-n">' + str(c["n_pages"]) + ' pages' + ((' · ' + str(len(c.get("catalogued") or [])) + ' non-ready') if c.get("catalogued") else '') + '</span>'
                      '<span class="dir-go">OPEN &#8594;</span></a>')
     for m in eng.multis:
         if m.get("_sec") != sec:
@@ -279,7 +295,7 @@ def section_collections_page(eng, sec):
         cards.append('<a class="col-card" href="' + rel("", eng.collection_url(c["slug"]), depth) + '">'
                      '<span class="col-title">' + esc(c["title"]) + '</span>'
                      '<span class="col-cap">' + esc(c.get("caption") or "") + '</span>'
-                     '<span class="col-n">' + str(c["n_pages"]) + ' pages · ' + str(len(c.get("catalogued") or [])) + ' catalogued</span>'
+                     '<span class="col-n">' + str(c["n_pages"]) + ' pages' + ((' · ' + str(len(c.get("catalogued") or [])) + ' non-ready') if c.get("catalogued") else '') + '</span>'
                      '<span class="dir-go">OPEN &#8594;</span></a>')
     body = ['<main class="page-wrap">',
             '<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / '
@@ -315,14 +331,14 @@ def collection_page(eng, c):
         g = eng.row_index.get(s)
         if not g:
             continue
-        plain.append('<div class="dir-row dir-row-plain"><span class="dir-thumb dead"></span><span class="dir-main"><span class="dir-name">' + esc(g["title"]) + '</span><span class="dir-meta">catalogued - no page yet</span></span><span class="dir-go dir-go-dim">IN CATALOGUE</span></div>')
+        plain.append('<div class="dir-row dir-row-plain"><span class="dir-thumb dead"></span><span class="dir-main"><span class="dir-name">' + esc(g["title"]) + '</span><span class="dir-meta">non-ready page</span></span><span class="dir-go dir-go-dim">NON-READY</span></div>')
     for s in c["items"]:
         g = eng.row_index.get(s)
         if not g:
             continue
         if s in eng.page_by_slug and not eng.is_version(s):
             pg = eng.page_by_slug[s]
-            th = pg.get("thumbnail") or ""
+            th = eng.thumb_at(pg.get("thumbnail") or "", depth) or ""
             meta = " · ".join(filter(None, [g.get("release") and str(g["release"])[:4], (g.get("developers") or [""])[0], (g.get("genres") or [""])[0]]))
             cap = ('<span class="dir-cap">' + esc((pg.get("caption") or "")[:110]) + '</span>') if pg.get("caption") else ''
             items.append('<a class="dir-row" href="' + rel("", eng.page_url_of(s), depth) + '">' +
@@ -330,13 +346,13 @@ def collection_page(eng, c):
                          '<span class="dir-main"><span class="dir-name">' + esc(g["title"]) + '</span>' + cap + '<span class="dir-meta">' + esc(meta) + '</span></span>'
                          '<span class="dir-go">OPEN &#8594;</span></a>')
         else:
-            plain.append('<div class="dir-row dir-row-plain"><span class="dir-thumb dead"></span><span class="dir-main"><span class="dir-name">' + esc(g["title"]) + '</span><span class="dir-meta">catalogued - no page yet</span></span><span class="dir-go dir-go-dim">IN CATALOGUE</span></div>')
+            plain.append('<div class="dir-row dir-row-plain"><span class="dir-thumb dead"></span><span class="dir-main"><span class="dir-name">' + esc(g["title"]) + '</span><span class="dir-meta">non-ready page</span></span><span class="dir-go dir-go-dim">NON-READY</span></div>')
     body = ['<main class="page-wrap">',
             '<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / '
             '<a href="' + rel("", "pages/%s.html" % sec, depth) + '">' + sec_label + '</a> / '
             '<a href="' + rel("", "pages/%s/collections.html" % sec, depth) + '">COLLECTIONS</a> / <b>' + esc(c["title"]) + '</b></p>',
             '<div class="game-title"><h1>' + esc(c["title"]) + '</h1><p class="game-caption">' + esc(c.get("caption") or "") + '</p>',
-            '<p class="game-meta">' + str(c["n_pages"]) + ' pages · ' + str(len(c["catalogued"])) + ' catalogued-only</p></div>',
+            '<p class="game-meta">' + str(c["n_pages"]) + ' pages' + ((' · ' + str(len(c["catalogued"])) + ' non-ready pages') if c.get("catalogued") else '') + '</p></div>',
             '<section><h2 class="sec-title">ABOUT THIS COLLECTION</h2>' + "".join('<p class="about-p">' + esc(a) + '</p>' for a in (c.get("about") or [])) + '</section>',
             '<section><h2 class="sec-title">THE SHELF - ' + str(c["n_pages"]) + ' PAGES</h2><div class="dir">' + "".join(items) + '</div></section>']
     if plain:

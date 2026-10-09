@@ -25,20 +25,31 @@
     "note": "official page"
    },
    {
-    "label": "Official installer (13 MB, verified today)",
+    "label": "Official installer (13 MB)",
     "url": "https://www.interactionstudios.com/files/ChickenInvaders1Installer.exe",
     "note": "the studio's own file server"
    }
   ],
-  "official_note": "the studio is alive and ships the 1999 original itself: free download, unlock registration still sold. installer size 13 MB verified by header today.",
+  "official_note": "the studio is alive and ships the 1999 original itself: free download, unlock registration still sold. installer size 13 MB by header today.",
   "anyway": [
+   {
+    "label": "Chicken Invaders 1 (steam package build: original + remastered + episode 1)",
+    "url": "https://gogunlocked.com/chicken-invaders-1-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Chicken Invaders 1 (steam package build, all DLC)",
+    "url": "https://steamunlocked.net/chicken-invaders-1-free-download",
+    "src": "steam-unlocked"
+   },
    {
     "label": "Internet Archive - Chicken Invaders v1.30 installer",
     "url": "https://archive.org/details/ChickenInvadersInstaller130",
-    "note": "the official installer, archived"
+    "note": "the official installer, archived",
+    "src": "archive"
    }
   ],
-  "anyway_note": "nothing is at risk here - the anyway item is preservation of the exact studio installer."
+  "anyway_note": "the package mirrors carry the current steam build; the archive item preserves the exact studio installer v1.30."
  },
  "about": [
   "Chicken Invaders is where the whole thing started: a 1999 fixed shooter by Konstantinos Prouskas of InterAction studios, openly built as a parody of Space Invaders and Galaxian. The premise never pretends to be anything else - intelligent chickens, armed and organized, are invading Earth in revenge for centuries of poultry oppression, and one lone spacecraft stands between them and the omelet end of history.",

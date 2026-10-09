@@ -74,11 +74,11 @@ def gallery_html(p, title):
     main_img = imgs[0] if imgs else ""
     main = ('<div class="gallery-main" id="gal-main">' +
             ('<img src="' + esc(main_img) + '" alt="' + esc(title) + '" '
-             'onerror="this.parentNode.innerHTML=\'<div class=media-dead>MEDIA NOT FOUND<span>the internet ate this one - it was verified when the page was built</span></div>\'">' if main_img else '<div class="media-dead">MEDIA NOT FOUND<span>no verified media for this title yet</span></div>') +
+             'onerror="this.parentNode.innerHTML=\'<div class=media-dead>MEDIA NOT FOUND<span>the source went offline or moved</span></div>\'">' if main_img else '<div class="media-dead">MEDIA NOT FOUND<span>no media for this title yet</span></div>') +
             '</div>')
     strip = '<div class="gallery-strip">' + "".join(tiles) + '</div>' if tiles else ""
     js = ("<script>(function(){var M=document.getElementById('gal-main');"
-          "function deadMain(){M.innerHTML='<div class=\"media-dead\">MEDIA NOT FOUND<span>the internet ate this one - it was verified when the page was built</span></div>';}"
+          "function deadMain(){M.innerHTML='<div class=\"media-dead\">MEDIA NOT FOUND<span>the source went offline or moved</span></div>';}"
           "function showImg(u){var im=new Image();im.onload=function(){M.innerHTML='';M.appendChild(im)};im.onerror=deadMain;im.alt='in-game shot';im.src=u;}"
           "document.querySelectorAll('.g-thumb').forEach(function(t){t.addEventListener('click',function(){"
           "document.querySelectorAll('.g-thumb').forEach(function(x){x.classList.remove('on')});t.classList.add('on');"
@@ -115,12 +115,18 @@ def versions_html(eng, slug, depth):
     ups = up.get("upgrades") or []
     if ups:
         links = []
+        notes = (eng.game_by_slug.get(slug) or {}).get("upgrade_notes") or {}
         for u in ups:
+            note = notes.get(u["slug"]) or notes.get(u.get("slug"))
+            piece = ''
             if u["page"]:
-                links.append('<a href="' + rel("", "pages/game/%s.html" % u["slug"], depth) + '">' + esc(u["title"]) + '</a>')
+                piece += '<a href="' + rel("", "pages/game/%s.html" % u["slug"], depth) + '">' + esc(u["title"]) + '</a>'
             else:
-                links.append('<span class="ver-nolink">' + esc(u["title"]) + ' (catalogued - no page yet)</span>')
-        out.append('<p class="ver-up">UPGRADE: ' + " · ".join(links) + '</p>')
+                piece += '<a href="' + rel("", "pages/game/%s.html" % u["slug"], depth) + '">' + esc(u["title"]) + '</a>' if u.get("slug") in eng.page_by_slug else '<span class="ver-nolink">' + esc(u["title"]) + '</span> (non-ready page)'
+            if note:
+                piece += '<i class="up-note"> - ' + esc(note) + '</i>'
+            links.append(piece)
+        out.append('<p class="ver-up">UPGRADE: ' + " &middot; ".join(links) + '</p>')
     if up.get("remaster"):
         rm = up["remaster"]
         body = ('<a href="' + rel("", "pages/game/%s.html" % rm["slug"], depth) + '">' + esc(rm["title"]) + '</a>') if rm.get("page") \
@@ -152,7 +158,10 @@ def downloads_html(p):
         rows.append('<div class="dl-status-strip"><span class="dl-strip-k">OFFICIAL STATUS</span>'
                     '<span class="dl-strip-t">' + esc(lk["official_note"]) + '</span></div>')
     if anyw:
-        items = "".join('<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>' for a in anyw)
+        SRCL = {"gog-unlocked": "GOG-UNLOCKED", "steam-unlocked": "STEAM-UNLOCKED",
+                "steamrip": "STEAMRIP", "archive": "ARCHIVE"}
+        items = "".join('<i class="dl-src s-' + esc(a.get("src") or "archive") + '">' + SRCL.get(a.get("src"), "ARCHIVE") + '</i>'
+                        '<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>' for a in anyw)
         rows.append('<div class="dl-row"><span class="dl-kind">ANYWAY</span>' + items + '</div>')
     if lk.get("anyway_note"):
         rows.append('<p class="dl-note">' + esc(lk["anyway_note"]) + '</p>')
@@ -217,7 +226,7 @@ def game_page(eng, slug):
                          '<span class="dir-meta">' + esc((s["y"] or "") + (" · " if s["y"] else "")) + esc(s.get("why") or "") + '</span></span>'
                          '<span class="dir-go">OPEN &#8594;</span></a>')
     sim_html = ('<section><h2 class="sec-title">MORE LIKE THIS</h2><div class="dir sim-dir">' + "".join(sim_cards) + '</div>' +
-                ('<p class="dir-note">also in the catalogue, no page yet: ' + esc(" · ".join(sims["catalogued"])) + '</p>' if sims["catalogued"] else '') +
+                ('<p class="dir-note">also in the catalogue, page pending: ' + esc(" · ".join(sims["catalogued"])) + '</p>' if sims["catalogued"] else '') +
                 '</section>') if sim_cards else ""
 
     cols = eng.collection_of(slug)
@@ -239,8 +248,10 @@ def game_page(eng, slug):
                 ms.append('<span class="m now">' + label + ' - this page</span>')
             elif m["page"]:
                 ms.append('<a class="m" href="' + rel("", "pages/game/%s.html" % m["slug"], depth) + '">' + label + '</a>')
+            elif not m.get("cat"):
+                ms.append('<span class="m m-out" title="out of the catalogue - reference only">' + label + '</span>')
             else:
-                ms.append('<span class="m">' + label + '</span>')
+                ms.append('<span class="m m-nr" title="in the catalogue - page pending">' + label + '</span>')
         ser_html = '<section><h2 class="sec-title">SERIES - ' + esc(ser["title"].upper()) + '</h2><p class="series-line">' + "".join(ms) + '</p></section>'
 
     if is_ver:
@@ -268,7 +279,7 @@ def game_page(eng, slug):
             col_line,
             '<section><h2 class="sec-title">DOWNLOADS</h2>' + downloads_html(p) + '</section>',
             sim_html,
-            '<div class="status-box">' + (('<b>TESTED.</b> the owner took this build end to end: download, install, run, pathing, saves. what you read here was played, not assumed.') if f["tested"] else ('<b>NOT TESTED.</b> nobody has taken this build end to end yet: download, install, run, pathing, save games. the owner tests every game before its status flips to tested - and until then, this page says so.')) + '</div>',
+            '<div class="status-box">' + (('<b>TESTED.</b> this build was run end to end from the sources listed above: download, install, launch, pathing, saves. what you read here was played, not assumed.') if f["tested"] else ('<b>NOT TESTED.</b> this build has not been run end to end from its listed sources yet - install, launch, patches and saves stay unconfirmed until a real run. every fact on this page is sourced; the run itself is the part still owed.')) + '</div>',
             '</main>']
 
     desc = (p.get("caption") or title)[:150]

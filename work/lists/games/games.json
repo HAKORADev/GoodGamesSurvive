@@ -4,7 +4,7 @@
   "updated": "2026-10-09",
   "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/. v2 adds genres/subgenres/tags/size_est_mb/req_tier; genres+subgenres capped at 5. | ggs-12: catalog = owner lists + endorsed upgrade hubs. holiday releases carry version_of and stay out of the catalog layer. out-of-scope rows sleep in attic/. | ggs-13 accuracy pass 2026-10-09: sizes from steam-stated storage / studio installer Content-Length / GOGDB / hosted originals; players from steam category flags + studio feature lists; buyable from live priced pages."
  },
- "count": 708,
+ "count": 702,
  "games": [
   {
    "title": "Stardew Valley",
@@ -14720,9 +14720,12 @@
    "size_est_mb": 24000,
    "size_source": "store-stated",
    "req_tier": "at",
-   "upgrades": [],
-   "remaster": "hitman-hd-enhanced-collection",
-   "remaster_note": "consoles only (2019) - the windows build stays the archive truth"
+   "upgrades": [
+    "hitman-hd-enhanced-collection"
+   ],
+   "upgrade_notes": {
+    "hitman-hd-enhanced-collection": "4k/60 rebuild with blood money (ps4 / xbox one, 2019-01-11) - consoles only, no windows build exists"
+   }
   },
   {
    "title": "Far Cry 3",
@@ -29464,7 +29467,10 @@
    "upgrades": [
     "chicken-invaders-remastered"
    ],
-   "remaster": null
+   "remaster": null,
+   "upgrade_notes": {
+    "chicken-invaders-remastered": "its own remaster shipped in 2023 (beta jan 20, full jan 31) and rides the studio's steam 'chicken invaders 1' package"
+   }
   },
   {
    "title": "Chicken Invaders 2: The Next Wave",
@@ -29518,7 +29524,10 @@
    "upgrades": [
     "chicken-invaders-remastered"
    ],
-   "remaster": null
+   "remaster": null,
+   "upgrade_notes": {
+    "chicken-invaders-remastered": "its own remaster shipped jan 26 2012 (the christmas edition's on dec 20 2011): hd graphics, orchestral music, autofire, progress saves, new languages"
+   }
   },
   {
    "title": "Chicken Invaders 3: Revenge of the Yolk",
@@ -29572,7 +29581,10 @@
    "upgrades": [
     "chicken-invaders-remastered"
    ],
-   "remaster": null
+   "remaster": null,
+   "upgrade_notes": {
+    "chicken-invaders-remastered": "no classic-engine remaster - this episode rides the universe-engine rework line (episode 3 beta)"
+   }
   },
   {
    "title": "Chicken Invaders 4: Ultimate Omelette",
@@ -29626,7 +29638,10 @@
    "upgrades": [
     "chicken-invaders-remastered"
    ],
-   "remaster": null
+   "remaster": null,
+   "upgrade_notes": {
+    "chicken-invaders-remastered": "no classic-engine remaster - this episode rides the universe-engine rework line (episode 4 beta)"
+   }
   },
   {
    "title": "Chicken Invaders 5: Cluck of the Dark Side",
@@ -29677,9 +29692,12 @@
    "size_est_mb": 220,
    "size_source": "store-stated",
    "req_tier": "below",
-   "remaster": "chicken-invaders-remastered",
-   "upgrades": [],
-   "remaster_note": "the mainline remasters cover the classics; the newer episodes ride the beta line (wikipedia, 2026-10-09)"
+   "upgrades": [
+    "chicken-invaders-remastered"
+   ],
+   "upgrade_notes": {
+    "chicken-invaders-remastered": "the classic-engine remasters cover episodes 1-2; this episode rides the universe-engine rework line (episode 5 beta)"
+   }
   },
   {
    "title": "Chicken Invaders Universe",
@@ -29780,7 +29798,12 @@
    "size_est_mb": 480,
    "size_source": "gog-installer (480 MB build)",
    "req_tier": "below",
-   "upgrades": []
+   "upgrades": [
+    "hitman-hd-trilogy"
+   ],
+   "upgrade_notes": {
+    "hitman-hd-trilogy": "console-only hd remaster (ps3 / xbox 360, january 2013) - no windows build exists, so this windows build is untouched by it"
+   }
   },
   {
    "title": "Hitman 3: Contracts",
@@ -29831,7 +29854,12 @@
    "size_est_mb": 900,
    "size_source": "installer-research (845-910 MB builds)",
    "req_tier": "below",
-   "upgrades": []
+   "upgrades": [
+    "hitman-hd-trilogy"
+   ],
+   "upgrade_notes": {
+    "hitman-hd-trilogy": "console-only hd remaster (ps3 / xbox 360, january 2013) - no windows build exists, so this windows build is untouched by it"
+   }
   },
   {
    "title": "Hitman: Blood Money",
@@ -29882,9 +29910,14 @@
    "size_est_mb": 4300,
    "size_source": "gog-installer (GOGDB: v1.2 = 4.3 GB)",
    "req_tier": "below",
-   "upgrades": [],
-   "remaster": "hitman-hd-enhanced-collection",
-   "remaster_note": "consoles only (2019) - the windows build stays the archive truth"
+   "upgrades": [
+    "hitman-hd-trilogy",
+    "hitman-hd-enhanced-collection"
+   ],
+   "upgrade_notes": {
+    "hitman-hd-trilogy": "console-only hd remaster (ps3 / xbox 360, january 2013) - no windows build exists, so this windows build is untouched by it",
+    "hitman-hd-enhanced-collection": "4k/60 rebuild with blood money (ps4 / xbox one, 2019-01-11) - consoles only, no windows build exists"
+   }
   },
   {
    "title": "Dream Chronicles",
@@ -30829,7 +30862,59 @@
     "xbox.com games/store/hitman-hd-enhanced-collection btvz6x9x9qn3",
     "verified 2026-10-09 via web search: a 4K/60fps remaster of Blood Money + Absolution, released 2019-01-11, PlayStation 4 + Xbox One only - no windows build"
    ],
-   "notes": "the series' only classic-line remaster: Blood Money + Absolution rebuilt at 4K/60. consoles only - Silent Assassin and Contracts never got a remaster. no windows build exists, so it rides the hitman shelf as the consoles' upgrade path, not an archive target",
+   "notes": "the 2019 console remaster: blood money + absolution rebuilt at 4k/60 for ps4 / xbox one. its 2013 predecessor, the hitman hd trilogy, hd-remastered silent assassin, contracts and blood money on ps3 / xbox 360. neither shipped a windows build, so the windows originals on this shelf stay the definitive pc versions",
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "stealth"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
+  },
+  {
+   "title": "Hitman HD Trilogy",
+   "slug": "hitman-hd-trilogy",
+   "list": "action",
+   "class": "remaster",
+   "category": "stealth action",
+   "series": "hitman",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2013-01-29",
+   "developers": [
+    "IO Interactive"
+   ],
+   "publishers": [
+    "Square Enix"
+   ],
+   "platforms": [
+    "ps3",
+    "xbox-360"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": null,
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "hitman.fandom.com/wiki/Hitman_HD_Trilogy",
+    "en.wikipedia.org/wiki/Hitman:_Blood_Money (january 2013, ps3 + xbox 360)",
+    "amazon.com Hitman HD Trilogy - Square Enix"
+   ],
+   "notes": "the 2013 console remaster: silent assassin + contracts + blood money in hd on ps3 / xbox 360, published by square enix. never windows. digitally delisted since - the hd enhanced collection (2019) took its slot on the modern consoles",
    "genres": [
     "action"
    ],

@@ -26,7 +26,7 @@ def main():
             written.append("pages/mod/%s.html" % slug)
 
     list_pages = {
-        "games": ("GAMES", "The games shelf - only the pages that are actually dug. the full 692-row catalogue stays reachable through search.",
+        "games": ("GAMES", "The games shelf - only the pages that are actually dug. the full %d-row catalogue stays reachable through search." % len(eng.catalog_games),
                   "this shelf shows the dug pages only - one dig at a time. everything catalogued but not dug yet lives in search, honestly marked."),
         "software": ("SOFTWARE", "The software shelf - emulators, tools, fixes.",
                      "this shelf shows the dug pages only. the first software dig lights it up."),

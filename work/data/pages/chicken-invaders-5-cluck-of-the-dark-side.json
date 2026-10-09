@@ -33,9 +33,20 @@
   "official_note": "still sold - Steam carries it (verified add-to-cart today) and the studio distributes it itself. four-player co-op: shared screen, LAN or online.",
   "anyway": [
    {
+    "label": "Chicken Invaders 5 (v5.05)",
+    "url": "https://gogunlocked.com/chicken-invaders-5-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Chicken Invaders 5 (steam package build, all DLC)",
+    "url": "https://steamunlocked.net/chicken-invaders-5-free-download",
+    "src": "steam-unlocked"
+   },
+   {
     "label": "Internet Archive - Cluck of the Dark Side",
     "url": "https://archive.org/details/chicken-invaders-5-cluck-of-the-dark-side",
-    "note": "community mirror with the halloween edition build"
+    "note": "community mirror with the halloween edition build",
+    "src": "archive"
    }
   ],
   "anyway_note": "preservation, not rescue - the game is one of the alive ones."

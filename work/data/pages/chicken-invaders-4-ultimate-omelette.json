@@ -33,9 +33,20 @@
   "official_note": "sold on Steam and distributed by the studio. four-player co-op: shared screen, LAN or online.",
   "anyway": [
    {
+    "label": "Chicken Invaders 4 (steam package build, all DLC)",
+    "url": "https://gogunlocked.com/chicken-invaders-4-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Chicken Invaders 4 (steam package build, all DLC)",
+    "url": "https://steamunlocked.net/chicken-invaders-4-free-download",
+    "src": "steam-unlocked"
+   },
+   {
     "label": "Internet Archive - Ultimate Omelette (Thanksgiving Edition)",
     "url": "https://archive.org/details/ab_chickeninvaders_ultimateomelette_thanksgiving",
-    "note": "edition build, archived (26 MB) - the standard build waits its mirror"
+    "note": "edition build, archived (26 MB) - the standard build waits its mirror",
+    "src": "archive"
    }
   ],
   "anyway_note": "preservation, not rescue - the official path is alive."

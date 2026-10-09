@@ -22,18 +22,29 @@
    {
     "label": "Steam - Hitman: Absolution",
     "url": "https://store.steampowered.com/app/203140/",
-    "note": "still sold, 19.99 USD (verified today)"
+    "note": "still sold, 19.99 USD"
    }
   ],
   "official_note": "still sold on Steam. steam states 24 GB of storage; players measured 23,942 MB.",
   "anyway": [
    {
+    "label": "Hitman: Absolution (v1.0.447.0)",
+    "url": "https://gogunlocked.com/hitman-absolution-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Hitman: Absolution",
+    "url": "https://steamrip.com/hitman-absolution-free-download-1i",
+    "src": "steamrip"
+   },
+   {
     "label": "Old Games Download - Hitman: Absolution",
     "url": "https://oldgamesdownload.com/hitman-absolution/",
-    "note": "archive route, for the keeps-box"
+    "note": "archive route, for the keeps-box",
+    "src": "archive"
    }
   ],
-  "anyway_note": "the game is alive, so the archive route is preservation, not rescue."
+  "anyway_note": "the game is alive - these routes are preservation, not rescue."
  },
  "about": [
   "Hitman: Absolution (November 2012) is the series' most divisive entry and its most cinematic. Diana Burnwood betrays the ICA on the game's first act, 47 takes the contract on his own handler, and what he finds - a girl named Victoria, engineered like him - turns the assignment into the one job he refuses to finish. Blake Dexter, a private-security billionaire with bottomless funds, and ICA's Benjamin Travis close in from both sides.",

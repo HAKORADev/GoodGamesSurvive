@@ -22,23 +22,39 @@
    {
     "label": "Steam - Hitman: Contracts",
     "url": "https://store.steampowered.com/app/247430/",
-    "note": "still sold, 8.99 USD (verified today)"
+    "note": "still sold, 8.99 USD"
    },
    {
     "label": "GOG - Hitman: Contracts",
     "url": "https://www.gog.com/en/game/hitman_contracts",
-    "note": "DRM-free (page verified today)"
+    "note": "DRM-free"
    }
   ],
   "official_note": "still sold - Steam and GOG both carry it.",
   "anyway": [
    {
+    "label": "Hitman: Contracts",
+    "url": "https://gogunlocked.com/hitman-contracts-free-download",
+    "src": "gog-unlocked"
+   },
+   {
+    "label": "Hitman: Contracts",
+    "url": "https://steamunlocked.net/hitman-contracts-free-download",
+    "src": "steam-unlocked"
+   },
+   {
+    "label": "Hitman: Contracts (build 8951)",
+    "url": "https://steamrip.com/hitman-contracts-free-download",
+    "src": "steamrip"
+   },
+   {
     "label": "Old Games Download - Hitman: Contracts",
     "url": "https://oldgamesdownload.com/hitman-contracts/",
-    "note": "archive route, for the keeps-box"
+    "note": "archive route, for the keeps-box",
+    "src": "archive"
    }
   ],
-  "anyway_note": "the game is alive, so the archive route is preservation, not rescue."
+  "anyway_note": "the game is alive - these routes are preservation, not rescue."
  },
  "about": [
   "Hitman: Contracts (April 2004) is the series' darkest hour, built as a framed memory piece: 47, shot and bleeding after a job in Paris, drifts through flashbacks while the hotel room closes in on him. The missions are his greatest hits retold - remakes of Codename 47's best work alongside new contracts - and the tone goes places the franchise never returned to: rain, red rooms, and a soundtrack that treats stealth as dread.",

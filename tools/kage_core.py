@@ -80,7 +80,7 @@ def size_display(row):
     if src.startswith("store"):
         kind = "install, store-stated"
     elif "installer" in src:
-        kind = "installer, verified"
+        kind = "installer, measured"
     elif "hosted" in src:
         kind = "hosted original"
     else:
@@ -443,7 +443,7 @@ class Engine:
                 continue
             members.append({
                 "slug": m["slug"], "title": m["title"], "part": m.get("part"),
-                "kind": m.get("kind"),
+                "kind": m.get("kind"), "cat": m["slug"] in self.game_by_slug,
                 "page": m["slug"] in self.page_by_slug and not self.is_version(m["slug"]),
                 "now": m["slug"] == slug,
                 "y": m.get("y") or year_of((row or {}).get("release")),

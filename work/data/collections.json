@@ -1,7 +1,7 @@
 {
  "_meta": {
   "schema": "ggs.v2",
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "law": "source of truth for collections. a collection holds pages of one section (section field - pages live under pages/<section>/collections/). a multi-collection holds collections. engine: tools/build.py."
  },
  "collections": [
@@ -9,11 +9,11 @@
    "slug": "hitman-collection",
    "title": "The Complete Hitman",
    "section": "games",
-   "caption": "the four hits the owner listed, 2002 to 2012, with the consoles' remaster riding the shelf.",
+   "caption": "the four classic hits, 2002 to 2012, plus the console remasters that complete the line.",
    "about": [
-    "The Hitman games the archive's list actually names: Silent Assassin's conscience, Contracts' dark detour, Blood Money's sandbox peak, Absolution's cinematic detour. The full lineage - Codename 47 (2000) through the World of Assassination line (2016-2023) - lives on every page's series strip, so the complete family is always one glance away even where its pages are not dug yet.",
-    "The classics (2002-2006) run on and under the haswell iGPU bar and are still sold DRM-free. Absolution sits at the target line with its 24GB body. Every page carries the same law: official path first where one exists, the archive route right next to it.",
-    "The remaster truth: the series' only classic-line remaster is the Hitman HD Enhanced Collection (2019) - Blood Money + Absolution rebuilt at 4K/60 for PlayStation 4 and Xbox One, never windows. Silent Assassin and Contracts were never remastered at all. The windows builds on this shelf are therefore not stepping stones - they are the final windows truth."
+    "Four of the mainline Hitman games, covering the series' 2002-2012 decade: Silent Assassin, Contracts, Blood Money and Absolution. All four are still sold - the classics (2002-2006) DRM-free on Steam and GOG, Absolution on Steam. The wider lineage - Codename 47 (2000) and the World of Assassination line (2016-2023) - rides the series strip of every page as reference.",
+    "The classics run on and under the haswell iGPU bar and remain sold DRM-free. Absolution anchors the shelf with its 24 GB footprint. Where an official channel exists it comes first on the page; the archive routes sit next to it.",
+    "Two console remasters complete the picture, and neither shipped for windows: Hitman HD Trilogy (2013) remastered Silent Assassin, Contracts and Blood Money for PS3 and Xbox 360, and Hitman HD Enhanced Collection (2019) rebuilt Blood Money and Absolution at 4K/60 for PS4 and Xbox One. The windows builds on this shelf are therefore the definitive way to play these four on PC."
    ],
    "items": [
     "hitman-2-silent-assassin",
@@ -22,10 +22,11 @@
     "hitman-absolution"
    ],
    "catalogued": [
+    "hitman-hd-trilogy",
     "hitman-hd-enhanced-collection"
    ],
    "notes": [
-    "Codename 47, the World of Assassination trilogy and the spinoffs (GO, Sniper, Sniper Challenge) are out of the current dig scope - their entries ride the series strip, and they come back as pages when the owner wants them."
+    "Codename 47, the World of Assassination trilogy and the spin-offs (GO, Sniper, Sniper Challenge) sit outside the current catalogue; they appear in the series strips as reference only."
    ]
   },
   {
@@ -34,10 +35,10 @@
    "section": "games",
    "caption": "the complete line: five wars, the remaster line, and the universe - 1999 to today.",
    "about": [
-    "One hundred percent of the Chicken Invaders line the owner listed: the five mainline episodes with every holiday release living as a version under its episode's page (Christmas x4, Easter x2, Halloween x1, Thanksgiving x1 - switched from the dropdown, not scattered as standalone catalog entries), plus the two things that complete the family: the Remastered line and Universe.",
-    "The production quirk the shelf keeps honest: the third war's Christmas Edition (November 2006) shipped before the standard game (January 2007), making it the only edition in the series that predates its own episode.",
-    "InterAction studios is alive and every entry on this shelf is still obtainable through an official channel: the studio's own download hub carries the classic line, Steam sells the mainline episodes and all eight holiday editions (every app page and price verified 2026-10-09), the remaster line rides the studio's package, and Universe is free to play. these pages are ownership stories, not rescues - the archive links ride along for preservation.",
-    "The upgrade law of this shelf: a sequel is never an upgrade. The four classic episodes point their UPGRADE lines at the Remastered line - the per-episode rebuilds that carry all DLC - while the series strip carries the lineage from the 1999 original to Universe."
+    "The full Chicken Invaders line from InterAction studios: the five classic wars with every holiday release living as a version under its episode's page (four Christmas editions, two Easter editions, one Halloween, one Thanksgiving - switched from the dropdown, not scattered as standalone entries), plus the two things that complete the family: the remaster line and Universe.",
+    "One production quirk stays on record: the third war's Christmas Edition (November 2006) shipped three months before the standard game (January 2007), making it the only edition in the series that predates its own episode.",
+    "InterAction studios is alive and every entry remains officially obtainable: the studio's download hub carries the classic line, Steam sells the mainline episodes and all eight holiday editions, and Universe is free to play. These pages are ownership stories, not rescues - the archive links ride along for preservation.",
+    "A sequel is never an upgrade, and the pages keep that law: each classic episode's upgrade line names its own rebuild - the first two wars received classic-engine remasters (2012 and 2023), while the later episodes ride the Universe-engine reworks. The remaster page carries the full line, entry by entry."
    ],
    "items": [
     "chicken-invaders",
@@ -50,8 +51,54 @@
    ],
    "catalogued": [],
    "notes": [
-    "Chicken Invaders: Remastered is not a game of its own: it is the studio's remaster line covering the classic episodes and their DLCs, and the direct upgrade of every old game on this shelf. it holds a page so the upgrade lines have a real destination and the line has one honest address."
+    "Chicken Invaders: Remastered is the studio's remaster line rather than a standalone game. Its page carries the line's real shape: which episodes were rebuilt, when, and where each rebuild ships."
    ]
+  },
+  {
+   "slug": "dash-universe",
+   "title": "The Dash Universe",
+   "section": "games",
+   "caption": "PlayFirst's DinerTown empire: every Dash game from the 2003 original to the Glu era, one universe.",
+   "about": [
+    "Diner Dash (2003) by gameLab and PlayFirst turned restaurant time-management into a franchise and its waitress Flo into a casual-gaming icon. The main line held for a decade: Restaurant Rescue (2006), Flo on the Go (2006), Hometown Hero (2007), Flo Through Time (2008) and Boom! (2010).",
+    "The formula spun off fast. Wedding Dash ran 2007-2010 across four games, Cooking Dash 2008-2010 across three, and Hotel Dash 2009-2011 across two, each moving Flo's diner formula to a new trade. The DinerTown side line - Doggie, Dairy, Fashion, Parking, Fitness, Diaper and Garden Dash (2008-2011), plus Avenue Flo (2009-2010) and DinerTown Tycoon (2009) - filled out the town itself, and two licensed SpongeBob Diner Dash games (2006-2007) carried the formula onto Nickelodeon's turf.",
+    "The platform shift ended the classic era. PlayFirst folded into Glu Mobile in 2014, the original PC builds left circulation, and the series went free-to-play on mobile with Diner Dash (2014) and Diner DASH Adventures (2019). The classic windows builds were never re-released digitally, and the era's unlock servers are long gone - which makes this shelf an archive story first.",
+    "One page is dug so far: the 2003 original, with its rescue story and its unlock-server law. The rest of the universe is catalogued below, each entry with its own row, year and platform."
+   ],
+   "items": [
+    "diner-dash"
+   ],
+   "catalogued": [
+    "avenue-flo",
+    "avenue-flo-special-delivery",
+    "cooking-dash",
+    "cooking-dash-3-thrills-and-spills",
+    "cooking-dash-dinertown-studios",
+    "dairy-dash",
+    "diaper-dash",
+    "diner-dash-2-restaurant-rescue",
+    "diner-dash-2015",
+    "diner-dash-5-boom",
+    "diner-dash-adventures",
+    "diner-dash-flo-on-the-go",
+    "diner-dash-flo-through-time",
+    "diner-dash-hometown-hero",
+    "dinertown-tycoon",
+    "doggie-dash",
+    "fashion-dash",
+    "fitness-dash",
+    "garden-dash",
+    "hotel-dash-lost-luxuries",
+    "hotel-dash-suite-success",
+    "parking-dash",
+    "spongebob-diner-dash",
+    "spongebob-diner-dash-2-two-times-the-trouble",
+    "wedding-dash",
+    "wedding-dash-2-rings-around-the-world",
+    "wedding-dash-4-ever",
+    "wedding-dash-ready-aim-love"
+   ],
+   "notes": []
   }
  ],
  "multi_collections": []
