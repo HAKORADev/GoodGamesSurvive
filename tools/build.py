@@ -10,9 +10,20 @@ def main():
     written = []
 
     for slug in sorted(eng.page_by_slug):
-        p = os.path.join(ROOT, "pages", "game", slug + ".html")
-        open(p, "w", encoding="utf-8").write(R.game_page(eng, slug))
-        written.append("pages/game/%s.html" % slug)
+        if slug in eng.game_by_slug:
+            p = os.path.join(ROOT, "pages", "game", slug + ".html")
+            open(p, "w", encoding="utf-8").write(R.game_page(eng, slug))
+            written.append("pages/game/%s.html" % slug)
+        elif slug in {r["slug"] for r in eng.software_rows}:
+            p = os.path.join(ROOT, "pages", "software", slug + ".html")
+            os.makedirs(os.path.dirname(p), exist_ok=True)
+            open(p, "w", encoding="utf-8").write(R2.thing_page(eng, slug, "software"))
+            written.append("pages/software/%s.html" % slug)
+        elif slug in {r["slug"] for r in eng.mods_rows}:
+            p = os.path.join(ROOT, "pages", "mod", slug + ".html")
+            os.makedirs(os.path.dirname(p), exist_ok=True)
+            open(p, "w", encoding="utf-8").write(R2.thing_page(eng, slug, "mods"))
+            written.append("pages/mod/%s.html" % slug)
 
     list_pages = {
         "games": ("GAMES", "The games index - every title catalogued, filterable, sortable, searchable.", "692+ titles catalogued. pages get dug one dig at a time - the rest are searchable rows, honestly marked."),
@@ -48,6 +59,7 @@ def main():
         sec = r.get("sec", "games")
         d = {"games": "game", "software": "software", "mods": "mod"}[sec]
         p = os.path.join(ROOT, "pages", d, r["from"] + ".html")
+        os.makedirs(os.path.dirname(p), exist_ok=True)
         open(p, "w", encoding="utf-8").write(R2.redirect_page(eng, r, sec))
         written.append("pages/%s/%s.html (redirect)" % (d, r["from"]))
 
@@ -89,14 +101,33 @@ def main():
         "count": len(public_rows), "games": public_rows})
 
     report = validate(eng, written)
-    print("build: %d files written" % len(written))
+    removed = cleanup(eng, written)
+    print("build: %d files written, %d stale removed" % (len(written), removed))
     for line in report:
         print(line)
+
+def cleanup(eng, written):
+    keep = {w.split(" (")[0] for w in written}
+    removed = 0
+    for d in ("game", "software", "mod", "collection", "meta"):
+        pdir = os.path.join(ROOT, "pages", d)
+        if not os.path.isdir(pdir):
+            continue
+        for f in sorted(os.listdir(pdir)):
+            if not f.endswith(".html"):
+                continue
+            relp = "pages/%s/%s" % (d, f)
+            if relp not in keep:
+                os.remove(os.path.join(pdir, f))
+                removed += 1
+    return removed
 
 def validate(eng, written):
     out = []
     problems = 0
     for slug, p in eng.page_by_slug.items():
+        if slug not in eng.game_by_slug:
+            continue
         g = (p.get("gallery") or {})
         if len(g.get("images") or []) != 10:
             out.append("WARN %s gallery images %d/10" % (slug, len(g.get("images") or [])))

@@ -84,6 +84,11 @@ class Engine:
         self.mods_rows = self._db_rows(os.path.join(ROOT, "work", "lists", "mods", "mods.json"))
         self.page_by_slug = {p["slug"]: p for p in self.pages}
         self.game_by_slug = {g["slug"]: g for g in self.games_db["games"]}
+        self.row_index = {}
+        for g in self.games_db["games"]:
+            self.row_index[g["slug"]] = g
+        for g in self.software_rows + self.mods_rows:
+            self.row_index[g["slug"]] = g
         self.collections = self.collections_src.get("collections", [])
         self.series_map = {s["key"]: s for s in self.series.get("series", [])}
         self.build_vocab()
@@ -103,7 +108,10 @@ class Engine:
         if not os.path.exists(p):
             return []
         d = jload(p)
-        return d.get("software", []) or d.get("mods", []) or []
+        for key in ("software", "tools", "mods"):
+            if d.get(key):
+                return d[key]
+        return []
 
     def build_vocab(self):
         self.devs, self.pubs, self.genres, self.subgenres, self.tags = {}, {}, {}, {}, {}
@@ -127,6 +135,16 @@ class Engine:
                     self.eras.setdefault("%ss" % (y[:3] + "0"), "%ss" % (y[:3] + "0"))
                 else:
                     self.eras.setdefault("unknown", "unknown")
+
+    def page_url_of(self, slug):
+        if slug in self.page_by_slug:
+            if slug in self.game_by_slug:
+                return "pages/game/%s.html" % slug
+            if slug in {r["slug"] for r in self.software_rows}:
+                return "pages/software/%s.html" % slug
+            if slug in {r["slug"] for r in self.mods_rows}:
+                return "pages/mod/%s.html" % slug
+        return None
 
     def collection_of(self, slug, kind="collection"):
         hits = []

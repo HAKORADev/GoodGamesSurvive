@@ -1,4 +1,4 @@
-from kage_core import esc, rel, keyify, BUILD_V, os
+from kage_core import esc, rel, keyify, date_str, size_display, BUILD_V, os
 from kage_render import head, topbar, foot_site, foot_page, chip
 
 LIST_JS = """
@@ -258,18 +258,18 @@ def collection_page(eng, c):
     depth = 2
     items, plain = [], []
     for s in c.get("catalogued") or []:
-        g = eng.game_by_slug.get(s)
+        g = eng.row_index.get(s)
         if not g:
             continue
         plain.append('<div class="dir-row dir-row-plain"><span class="dir-thumb dead"></span><span class="dir-main"><span class="dir-name">' + esc(g["title"]) + '</span><span class="dir-meta">catalogued - no page yet</span></span><span class="dir-go dir-go-dim">IN CATALOGUE</span></div>')
     for s in c["items"]:
-        g = eng.game_by_slug.get(s)
+        g = eng.row_index.get(s)
         if not g:
             continue
         if s in eng.page_by_slug:
             th = eng.page_by_slug[s].get("thumbnail") or ""
             meta = " · ".join(filter(None, [g.get("release") and str(g["release"])[:4], (g.get("developers") or [""])[0], (g.get("genres") or [""])[0]]))
-            items.append('<a class="dir-row" href="' + rel("", "pages/game/%s.html" % s, depth) + '">' +
+            items.append('<a class="dir-row" href="' + rel("", eng.page_url_of(s), depth) + '">' +
                          ('<span class="dir-thumb"><img src="' + esc(th) + '" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'dead\');this.remove()"></span>' if th else '<span class="dir-thumb dead"></span>') +
                          '<span class="dir-main"><span class="dir-name">' + esc(g["title"]) + '</span><span class="dir-meta">' + esc(meta) + '</span></span>'
                          '<span class="dir-go">OPEN &#8594;</span></a>')
@@ -310,9 +310,62 @@ def meta_page(eng, m):
             topbar(eng, depth, "collections") + "".join(body) + foot_page(depth) + '</body></html>')
 
 def redirect_page(eng, r, sec):
-    depth = 2 if sec == "games" else 2
-    target = rel("", "pages/game/%s.html" % r["to"], depth) if sec == "games" else r["to"]
+    depth = 2
+    d = {"games": "game", "software": "software", "mods": "mod"}[sec]
+    target = rel("", "pages/%s/%s.html" % (d, r["to"]), depth)
     return ('<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">'
             '<meta http-equiv="refresh" content="0; url=' + esc(target) + '">'
             '<link rel="canonical" href="' + esc(target) + '"><title>redirecting...</title></head>'
             '<body><p class="crumb" style="padding:40px">this name is an alias - <a href="' + esc(target) + '">go to the real page</a></p></body></html>')
+
+def thing_page(eng, slug, sec):
+    p = eng.page_by_slug[slug]
+    row = next((r for r in (eng.software_rows if sec == "software" else eng.mods_rows) if r["slug"] == slug), None)
+    title = (row or {}).get("title", slug)
+    depth = 2
+    d = {"games": "game", "software": "software", "mods": "mod"}[sec]
+    shelf = {"software": "SOFTWARE", "mods": "MODS+PATCHES"}[sec]
+    facts = []
+    if row:
+        if row.get("release"):
+            facts.append(("<tr><td class=\"k\">released</td><td class=\"v\">" + esc(date_str(row.get("release"))) + "</td></tr>"))
+        for lab, key in (("developer", "developers"), ("publisher", "publishers")):
+            vals = row.get(key) or []
+            if vals:
+                facts.append('<tr><td class="k">' + lab + '</td><td class="v">' + esc(", ".join(vals)) + '</td></tr>')
+        if row.get("platforms"):
+            facts.append('<tr><td class="k">platform</td><td class="v">' + esc(", ".join(row["platforms"])) + '</td></tr>')
+        if row.get("size_est_mb"):
+            facts.append('<tr><td class="k">size</td><td class="v">' + esc(size_display(row)) + '</td></tr>')
+        if row.get("req_tier"):
+            facts.append('<tr><td class="k">target tier</td><td class="v">' + esc(row["req_tier"] + " vs the haswell bar") + '</td></tr>')
+        facts.append('<tr><td class="k">test status</td><td class="v">' + esc(row.get("test_status") or "not-tested") + '</td></tr>')
+        if row.get("tags"):
+            facts.append('<tr><td class="k">tags</td><td class="v">' + esc(", ".join(row["tags"])) + '</td></tr>')
+    lk = p.get("links") or {}
+    dl = []
+    for bucket, kind in (("official", "OFFICIAL"), ("anyway", "ANYWAY")):
+        if lk.get(bucket):
+            items = "".join('<a href="' + esc(a["url"]) + '" target="_blank" rel="noopener">' + esc(a["label"]) + '</a>' for a in lk[bucket])
+            dl.append('<div class="dl-row"><span class="dl-kind">' + kind + '</span>' + items + '</div>')
+            if lk.get(bucket + "_note"):
+                dl.append('<p class="dl-note">' + esc(lk[bucket + "_note"]) + '</p>')
+    gal = ""
+    g = p.get("gallery") or {}
+    if g.get("images"):
+        tiles = "".join('<button class="g-thumb g-thumb-img' + (' on' if i == 0 else '') + '" data-kind="img" data-src="' + esc(u) + '" type="button"><img src="' + esc(u) + '" alt="" loading="lazy" onerror="this.closest(\'.g-thumb\').classList.add(\'g-dead\');this.remove()"></button>' for i, u in enumerate(g["images"]))
+        gal = ('<section><h2 class="sec-title">GALLERY</h2><div class="gallery-main" id="gal-main"><img src="' + esc(g["images"][0]) + '" alt=""></div>'
+               '<div class="gallery-strip">' + tiles + '</div>'
+               '<script>(function(){var M=document.getElementById("gal-main");document.querySelectorAll(".g-thumb").forEach(function(t){t.addEventListener("click",function(){M.innerHTML=\'<img src="\'+t.getAttribute("data-src")+\'" alt="">\'})})})();</script></section>')
+    body = ['<main class="page-wrap">',
+            '<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / <a href="' + rel("", "pages/" + sec + ".html", depth) + '">' + shelf + '</a> / <b>' + esc(title) + '</b></p>',
+            '<div class="game-title"><h1>' + esc(title) + '</h1><p class="game-caption">' + esc(p.get("caption") or "") + '</p></div>',
+            gal,
+            '<section><h2 class="sec-title">ABOUT ' + esc(title.upper()) + '</h2>' + "".join('<p class="about-p">' + esc(a) + '</p>' for a in (p.get("about") or [])) + '</section>']
+    if facts:
+        body.append('<section><h2 class="sec-title">FACTS</h2><table class="facts">' + "".join(facts) + '</table></section>')
+    if dl:
+        body.append('<section><h2 class="sec-title">DOWNLOADS</h2>' + "".join(dl) + '</section>')
+    body.append('</main>')
+    return (head(title + " — GOODGAMES SURVIVE", p.get("caption") or title, depth) +
+            topbar(eng, depth, sec) + "".join(body) + foot_page(depth) + '</body></html>')
