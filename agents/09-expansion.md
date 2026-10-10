@@ -59,3 +59,47 @@ renders the lines automatically — pick the right field, not a new widget.
   before writing a conflicting fact.
 - the archive lists nothing it cannot defend. if a claim cannot survive the
   owner's "WTF" test, it does not ship.
+
+## the 2026-10-10 systems (GGS-19 round)
+
+### the one-platform law (brand-style-more.md 12.1 is the canon)
+each game digs as ONE platform. native windows wins and every console
+version is ignored. no windows build → the one supported console (ps1/ps2/
+psp/gc/wii), played through the software-shelf emulator. never list ps3,
+ps4, any xbox, wii u, switch, android, iOS. the hitman hd pages stay the
+documented console-only exception.
+
+### the mods+patches shelf
+`work/lists/mods/mods.json` — type is one of **modpack / mod / patch /
+patchpack** (modpack = a pack of mods; patchpack = multi fixes). template
+fields: `type`, `creators`, `release` (+ `date_likelihood: "likely"` when
+the date is a likelihood, the page prints "(likely date)"), `size_est_mb`
++ `size_source`, `target_game` (row slug, renders as a link),
+`compat`. modpacks are NOT collections — the shelf keeps its own
+collections index as usual. thing_page renders the type chip + mod facts.
+
+### the software shelf
+`work/lists/software/tools.json` — official emulators first (ppsspp, pcsx2,
+dolphin, duckstation as of GGS-19). links stay **semi-direct**: the official
+download page, never a version-pinned file. BIOS notes are per-emulator and
+honest: ppsspp needs none, dolphin needs none (in-house fw), pcsx2 + duckstation
+require a dump from your own console — no bios downloads linked, ever.
+
+### console sourcing law
+console game pages carry the rom route as an ANYWAY link, src "archive",
+label "ROMSFUN - <title>" (owner law: romsfun is the rom source). romsfun
+is cloudflare-gated: drive it through a real browser (playwright), verify
+title tokens on the game page, never guess slugs. nintendo first-party wii
+titles are NOT on romsfun — those pages stay honestly unlinked. sizes read
+off romsfun pages are unreliable (template widgets) — leave size null.
+
+### landing page law
+the landing page sections are client-side random: 10 of the shelf per
+refresh, reshuffled on every load (data-home-shelf + shelf-<sec>.json).
+no "latest digs" anymore — the owner replaced it.
+
+### multi-collection membership
+a game may sit in any number of collections (zuma-deluxe + zuma-s-revenge
+live in both popcap-collection and marble-poppers); the game page's
+COLLECTIONS line lists them all. collection pages stay single-section.
+meta-collections hold collections (console-vaults).
