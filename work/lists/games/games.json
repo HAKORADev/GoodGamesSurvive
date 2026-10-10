@@ -1,7 +1,7 @@
 {
  "_meta": {
   "schema": "ggs.v2",
-  "updated": "2026-10-11",
+  "updated": "2026-10-10",
   "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/. v2 adds genres/subgenres/tags/size_est_mb/req_tier; genres+subgenres capped at 5. | ggs-12: catalog = owner lists + endorsed upgrade hubs. holiday releases carry version_of and stay out of the catalog layer. out-of-scope rows sleep in attic/. | ggs-13 accuracy pass 2026-10-09: sizes from steam-stated storage / studio installer Content-Length / GOGDB / hosted originals; players from steam category flags + studio feature lists; buyable from live priced pages."
  },
  "count": 709,
@@ -55,7 +55,8 @@
    ],
    "size_est_mb": 500,
    "size_source": "store-stated disk requirement",
-   "req_tier": "below"
+   "req_tier": "below",
+   "_check": 1
   },
   {
    "title": "Kingdoms and Castles",
@@ -12563,9 +12564,13 @@
    ],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2015-06-01",
+   "developers": [
+    "Destructive Creations"
+   ],
+   "publishers": [
+    "Destructive Creations"
+   ],
    "platforms": [
     "windows"
    ],
@@ -12577,26 +12582,27 @@
     "online_multi": false,
     "max_local": 1
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "owner-listed",
-   "sources": [],
-   "notes": "",
+   "sources": [
+    "en.wikipedia.org/wiki/Hatred_(video_game)",
+    "www.gog.com/en/game/hatred"
+   ],
+   "notes": "gog route live 2026: game returned to sale on gog (5.99 usd). facts cross-checked against gog product data + wikipedia.",
    "genres": [
     "shooter",
-    "arcade"
+    "action"
    ],
    "subgenres": [
-    "light-gun",
-    "shoot 'em up",
-    "runner"
+    "isometric"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
-   "req_tier": "below"
+   "size_est_mb": 5000,
+   "size_source": "gog.com storage requirement (5 GB available space)",
+   "req_tier": "above"
   },
   {
    "title": "Granny 3",
@@ -32704,6 +32710,56 @@
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
+  },
+  {
+   "slug": "need-for-speed-most-wanted-2005",
+   "title": "Need for Speed: Most Wanted (2005)",
+   "list": "casual",
+   "class": "normal",
+   "category": "🏎 RACING & VEHICULAR ACTION",
+   "series": "need-for-speed",
+   "series_part": 9,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2005-11-15",
+   "developers": [
+    "EA Black Box"
+   ],
+   "publishers": [
+    "Electronic Arts"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": true,
+    "online_multi": true,
+    "max_local": 2
+   },
+   "buyable": false,
+   "download_kind": "archive",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": true,
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Need_for_Speed:_Most_Wanted_(2005_video_game)"
+   ],
+   "notes": "standalone dig: the redux v3 modpack targets this build. size lands when a verifiable install figure surfaces.",
+   "genres": [
+    "racing"
+   ],
+   "subgenres": [
+    "street racing",
+    "arcade racer"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": "at"
   }
  ]
 }

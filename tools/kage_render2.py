@@ -1,6 +1,6 @@
 from kage_core import (esc, rel, keyify, date_str, size_display, BUILD_V, os,
                        clean_cat)
-from kage_render import head, topbar, foot_site, foot_page, chip
+from kage_render import head, topbar, foot_site, foot_page, chip, gallery_html
 
 PLAYER_FACETS = [("single", "single-player"), ("coop", "local co-op"), ("online-coop", "online co-op"),
                  ("local-multi", "local multiplayer"), ("multi", "online multiplayer")]
@@ -456,11 +456,8 @@ def thing_page(eng, slug, sec):
             dl.append('<p class="dl-note">' + esc(lk["anyway_note"]) + '</p>')
     gal = ""
     g = p.get("gallery") or {}
-    if g.get("images"):
-        tiles = "".join('<button class="g-thumb g-thumb-img' + (' on' if i == 0 else '') + '" data-kind="img" data-src="' + esc(u) + '" type="button"><img src="' + esc(u) + '" alt="" loading="lazy" onerror="this.closest(\'.g-thumb\').classList.add(\'g-dead\');this.remove()"></button>' for i, u in enumerate(g["images"]))
-        gal = ('<section><h2 class="sec-title">GALLERY</h2><div class="gallery-main" id="gal-main"><img src="' + esc(g["images"][0]) + '" alt=""></div>'
-               '<div class="gallery-strip">' + tiles + '</div>'
-               '<script>(function(){var M=document.getElementById("gal-main");document.querySelectorAll(".g-thumb").forEach(function(t){t.addEventListener("click",function(){M.innerHTML=\'<img src="\'+t.getAttribute("data-src")+\'" alt="">\'})})})();</script></section>')
+    if g.get("images") or g.get("videos"):
+        gal = '<section><h2 class="sec-title">GALLERY</h2>' + gallery_html(p, title) + '</section>'
     body = ['<main class="page-wrap">',
             '<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / <a href="' + rel("", "pages/" + sec + ".html", depth) + '">' + shelf + '</a> / <b>' + esc(title) + '</b></p>',
             '<div class="game-title"><h1>' + esc(title) + '</h1><p class="game-caption">' + esc(p.get("caption") or "") + '</p>' + ('<div class="chips">' + kind_chip + '</div>' if kind_chip else '') + '</div>',

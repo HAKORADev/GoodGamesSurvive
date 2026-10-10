@@ -66,16 +66,24 @@ def gallery_html(p, title):
         tiles.append(('<button class="g-thumb g-thumb-img' + on + '" data-kind="img" data-src="' + esc(u) + '" type="button">'
                       '<img src="' + esc(u) + '" alt="' + esc(title) + ' in-game shot" loading="lazy" '
                       'onerror="this.closest(\'.g-thumb\').classList.add(\'g-dead\');this.remove()"></button>'))
-    for v in vids:
-        tiles.append(('<button class="g-thumb g-thumb-vid" data-kind="vid" data-vid="' + esc(v["id"]) + '" type="button">'
+    for vi, v in enumerate(vids):
+        on = ' on' if (not imgs and vi == 0) else ''
+        tiles.append(('<button class="g-thumb g-thumb-vid' + on + '" data-kind="vid" data-vid="' + esc(v["id"]) + '" type="button">'
                       '<img src="https://i.ytimg.com/vi/' + esc(v["id"]) + '/hqdefault.jpg" alt="gameplay video" loading="lazy" '
                       'onerror="this.closest(\'.g-thumb\').classList.add(\'g-dead\');this.remove()">'
                       '<span class="g-play" aria-hidden="true">&#9654;</span></button>'))
     main_img = imgs[0] if imgs else ""
-    main = ('<div class="gallery-main" id="gal-main">' +
-            ('<img src="' + esc(main_img) + '" alt="' + esc(title) + '" '
-             'onerror="this.parentNode.innerHTML=\'<div class=media-dead>MEDIA NOT FOUND<span>the source went offline or moved</span></div>\'">' if main_img else '<div class="media-dead">MEDIA NOT FOUND<span>no media for this title yet</span></div>') +
-            '</div>')
+    if main_img:
+        main = ('<div class="gallery-main" id="gal-main">' +
+                '<img src="' + esc(main_img) + '" alt="' + esc(title) + '" '
+                'onerror="this.parentNode.innerHTML=\'<div class=media-dead>MEDIA NOT FOUND<span>the source went offline or moved</span></div>\'">' +
+                '</div>')
+    elif vids:
+        main = ('<div class="gallery-main" id="gal-main">' +
+                '<iframe src="https://www.youtube-nocookie.com/embed/' + esc(vids[0]["id"]) + '" title="gameplay" allowfullscreen loading="lazy"></iframe>' +
+                '</div>')
+    else:
+        main = '<div class="gallery-main" id="gal-main"><div class="media-dead">MEDIA NOT FOUND<span>no media for this title yet</span></div></div>'
     strip = '<div class="gallery-strip">' + "".join(tiles) + '</div>' if tiles else ""
     js = ("<script>(function(){var M=document.getElementById('gal-main');"
           "function deadMain(){M.innerHTML='<div class=\"media-dead\">MEDIA NOT FOUND<span>the source went offline or moved</span></div>';}"

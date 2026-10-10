@@ -37,16 +37,15 @@
  "notes_extra": "original release 2011-11-24; Steam never carried this edition.",
  "gallery": {
   "images": [
-   "https://i.ytimg.com/vi/A_FO6AuUfQ8/maxres2.jpg",
-   "https://i.ytimg.com/vi/A_FO6AuUfQ8/maxres1.jpg",
-   "https://i.ytimg.com/vi/A_FO6AuUfQ8/maxres3.jpg",
-   "https://i.ytimg.com/vi/A_FO6AuUfQ8/hqdefault.jpg",
-   "https://i.ytimg.com/vi/A_FO6AuUfQ8/hq2.jpg",
-   "https://i.ytimg.com/vi/A_FO6AuUfQ8/hq1.jpg",
-   "https://i.ytimg.com/vi/A_FO6AuUfQ8/hq3.jpg",
-   "https://i.ytimg.com/vi/wSAUKsvgXIs/maxres2.jpg",
-   "https://i.ytimg.com/vi/wSAUKsvgXIs/maxres1.jpg",
-   "https://i.ytimg.com/vi/wSAUKsvgXIs/maxres3.jpg"
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370400/ss_87f78b00d77734648129f99663faa762a6f12bac.1920x1080.jpg?t=1695975405",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370400/ss_440ae0bcfa886db34a33d301e1eae8482fd4e221.1920x1080.jpg?t=1695975405",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370400/ss_52134692497931155b723f91a439ad8d5cacdfd1.1920x1080.jpg?t=1695975405",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370400/ss_a3c42e5129949d036926ea2950473c77c7bfd1d1.1920x1080.jpg?t=1695975405",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370400/ss_bc81b8679dafd89a1bafde06167270dd171217b6.1920x1080.jpg?t=1695975405",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370400/ss_f2341f672ee11f6ce81c47624a59c2cfa62393e6.1920x1080.jpg?t=1695975405",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370400/ss_a2ce5facf4bb5fcdc3617771da9bb33ea062a177.1920x1080.jpg?t=1695975405",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370400/ss_2f832355b8a60009378720866e24a4d257fd6ceb.1920x1080.jpg?t=1695975405",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370400/ss_e6f9ccedfd6d7a6b99a7ca11470f027a25f7b7d9.1920x1080.jpg?t=1695975405"
   ],
   "videos": [
    {
@@ -66,7 +65,7 @@
    }
   ]
  },
- "thumbnail": "https://i.ytimg.com/vi/A_FO6AuUfQ8/maxres2.jpg",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370400/ss_87f78b00d77734648129f99663faa762a6f12bac.1920x1080.jpg?t=1695975405",
  "version_of": "chicken-invaders-4-ultimate-omelette",
  "dug_seq": 9
 }

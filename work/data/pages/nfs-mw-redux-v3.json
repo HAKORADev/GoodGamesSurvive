@@ -1,9 +1,10 @@
 {
  "slug": "nfs-mw-redux-v3",
- "caption": "the 2005 blacklist rebuilt - redux v3's graphics overhaul and 100+ car pack, the first mod on this shelf.",
+ "caption": "the 2005 blacklist rebuilt - redux v3's graphics overhaul and 100+ car pack, built for most wanted (2005) alone.",
  "about": [
-  "Nfs most wanted redux v3 is the graphics-and-roster modpack for the 2005 classic: a full visual overhaul - textures, lighting, reshade-style grading tuned for 4k captures - plus an expanded car list of one hundred-plus modern vehicles dropped into the 2005 physics. The official release showcase runs the blacklisted city end to end in 4k, and the install guides on the shelf handle the setup step by step.",
-  "It is the first mod entry in this catalogue and the template for the mods+patches shelf: modpacks carry their creator, a likely date, size and the exact target game they bolt onto - here the base 2005 windows build of most wanted. The download route lives on the creator's release page and lands here the moment it verifies."
+  "Nfs most wanted redux v3 is the graphics-and-roster modpack for one game and one game only: need for speed most wanted (2005). The pack layers a full visual overhaul over the 2005 build - texture replacement, lighting rework and reshade-style grading tuned for 4k capture - and drops an expanded car roster of one hundred-plus modern vehicles into the black-box physics. It does not bolt onto underground or carbon, and it ships no separate builds for them.",
+  "KryZeePlays released the pack with the official 4k showcase that runs the blacklisted city end to end; the install guides that followed cover the setup step by step. The line kept moving after release - by 2026 the community guides track the v3.4 update, which pushes the car list past three hundred modern vehicles with 4k liveries. The download route lives on the creator's release page and lands here the moment it verifies.",
+  "It is the first mod entry in this catalogue and the template for the mods+patches shelf: modpacks carry their creator, a likely date, a size once verifiable, and the exact target game they bolt onto - here the base 2005 windows build of most wanted, standalone row and all."
  ],
  "characters": [],
  "req": {
@@ -12,27 +13,35 @@
  },
  "thumbnail": "https://i.ytimg.com/vi/9nnmeXzm1oQ/hqdefault.jpg",
  "gallery": {
-  "images": [
-   "https://i.ytimg.com/vi/9nnmeXzm1oQ/hqdefault.jpg",
-   "https://i.ytimg.com/vi/5p4OtxnKINo/hqdefault.jpg",
-   "https://i.ytimg.com/vi/kNydwnDX-eo/hqdefault.jpg",
-   "https://i.ytimg.com/vi/JF-azX-3Gr8/hqdefault.jpg",
-   "https://i.ytimg.com/vi/rxGxh0YK0YQ/hqdefault.jpg",
-   "https://i.ytimg.com/vi/FEmxlTo7zP0/hqdefault.jpg",
-   "https://i.ytimg.com/vi/_5eUemHMTnc/hqdefault.jpg"
-  ],
+  "images": [],
   "videos": [
    {
     "id": "9nnmeXzm1oQ",
-    "title": ""
-   },
-   {
-    "id": "5p4OtxnKINo",
-    "title": ""
+    "title": "NFS Most Wanted REDUX V3 - Official Release Showcase in 4K (KryZeePlays)"
    },
    {
     "id": "kNydwnDX-eo",
-    "title": ""
+    "title": "Need for Speed Most Wanted (Redux V3) - Full Game Walkthrough [4K]"
+   },
+   {
+    "id": "JF-azX-3Gr8",
+    "title": "NFS Most Wanted Remastered with Redux V3 - Graphics and New Cars | KuruHS"
+   },
+   {
+    "id": "5p4OtxnKINo",
+    "title": "How to Install NFS Most Wanted REDUX V3 (2025) | 4K Graphics + 100+ Cars"
+   },
+   {
+    "id": "rxGxh0YK0YQ",
+    "title": "Install NFS Most Wanted Redux V3.4 - 300+ Modern Cars & 4K Liveries (2026 Guide)"
+   },
+   {
+    "id": "FEmxlTo7zP0",
+    "title": "Fastest Cars in NFS Most Wanted Redux V3"
+   },
+   {
+    "id": "_5eUemHMTnc",
+    "title": "Play NFS Most Wanted (2005) Again in 2026 - Redux V3 Mod (4K + 100+ Cars)"
    }
   ]
  },

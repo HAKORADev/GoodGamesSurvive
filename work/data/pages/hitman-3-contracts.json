@@ -69,11 +69,7 @@
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_a0128041a58de55ce22c995e72a23d59cd71ab44.1920x1080.jpg?t=1744238518",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_700311318205b0f4468a5469010f0d8824970d98.1920x1080.jpg?t=1744238518",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_3c272f71529cc8428d34f673a7c0a228dbb28581.1920x1080.jpg?t=1744238518",
-   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_dccca26f3cd06c7476412cb53608184289d41339.1920x1080.jpg?t=1744238518",
-   "https://i.ytimg.com/vi/E3xrBhPEHnY/hqdefault.jpg",
-   "https://i.ytimg.com/vi/E3xrBhPEHnY/hqdefault.jpg",
-   "https://i.ytimg.com/vi/E3xrBhPEHnY/hqdefault.jpg",
-   "https://i.ytimg.com/vi/B0bhrm_TN6c/hqdefault.jpg"
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_dccca26f3cd06c7476412cb53608184289d41339.1920x1080.jpg?t=1744238518"
   ],
   "videos": [
    {
@@ -93,6 +89,6 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/247430/header.jpg",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247430/ss_37bfc8c7032d223afe55f3e2b67ed8ac04e333f0.1920x1080.jpg?t=1744238518",
  "dug_seq": 17
 }

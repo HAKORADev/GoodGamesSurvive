@@ -63,12 +63,7 @@
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_28b723ea6cbf97252e4d4ed27bda5bdaf4e63d75.1920x1080.jpg?t=1776692786",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_583c9a23a92db9b8543f21474da4dc7ed6bc7998.1920x1080.jpg?t=1776692786",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_1a620d14187b9e90c0f3c5bb6f7761b0a4755282.1920x1080.jpg?t=1776692786",
-   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_e7c4a89ed9398161a4555d5babd1fbcdd22efdc6.1920x1080.jpg?t=1776692786",
-   "https://i.ytimg.com/vi/83OMGVmwA2A/hqdefault.jpg",
-   "https://i.ytimg.com/vi/83OMGVmwA2A/hqdefault.jpg",
-   "https://i.ytimg.com/vi/t6nx-2XWYDI/hqdefault.jpg",
-   "https://i.ytimg.com/vi/t6nx-2XWYDI/hqdefault.jpg",
-   "https://i.ytimg.com/vi/t6nx-2XWYDI/hqdefault.jpg"
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_e7c4a89ed9398161a4555d5babd1fbcdd22efdc6.1920x1080.jpg?t=1776692786"
   ],
   "videos": [
    {
@@ -88,7 +83,7 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/353090/header.jpg",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/353090/ss_c07245b0a21d2c1281562b9b66bc0749759397b5.1920x1080.jpg?t=1776692786",
  "versions": [
   "chicken-invaders-5-cluck-of-the-dark-side-christmas",
   "chicken-invaders-5-cluck-of-the-dark-side-halloween"

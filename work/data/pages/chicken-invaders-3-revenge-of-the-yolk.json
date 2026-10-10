@@ -57,12 +57,7 @@
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_a945c1e720ad666f7ef00807df27f68c102c1360.1920x1080.jpg?t=1776692781",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_b15760a18c44abf773c51edc645177b04c97988a.1920x1080.jpg?t=1776692781",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_b2591c894564231ff8f58cf9e8d522d3d2dfecdf.1920x1080.jpg?t=1776692781",
-   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_a660198ab2a89d4d294dfcc20008b5858038de63.1920x1080.jpg?t=1776692781",
-   "https://i.ytimg.com/vi/xfLDUMQkz9w/hqdefault.jpg",
-   "https://i.ytimg.com/vi/xfLDUMQkz9w/hqdefault.jpg",
-   "https://i.ytimg.com/vi/xfLDUMQkz9w/hqdefault.jpg",
-   "https://i.ytimg.com/vi/97ClBzx_nBE/hqdefault.jpg",
-   "https://i.ytimg.com/vi/97ClBzx_nBE/hqdefault.jpg"
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_a660198ab2a89d4d294dfcc20008b5858038de63.1920x1080.jpg?t=1776692781"
   ],
   "videos": [
    {
@@ -82,7 +77,7 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/377460/header.jpg",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377460/ss_7b88d7be9b49ed18182ffc19aa8fd96bc6582066.1920x1080.jpg?t=1776692781",
  "versions": [
   "chicken-invaders-3-revenge-of-the-yolk-christmas",
   "chicken-invaders-3-revenge-of-the-yolk-easter"

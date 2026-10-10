@@ -1,0 +1,38 @@
+{
+ "slug": "need-for-speed-most-wanted-2005",
+ "caption": "the blacklist era - fifteen rivals, pursuit heat and the bmw m3 gtr, black-box's most-loved street racer.",
+ "characters": [],
+ "thumbnail": "https://i.ytimg.com/vi/lkEZrJkRQOk/hqdefault.jpg",
+ "gallery": {
+  "images": [],
+  "videos": [
+   {
+    "id": "lkEZrJkRQOk",
+    "title": "NEED FOR SPEED: MOST WANTED 2005 Full Gameplay Walkthrough / No Commentary 4K"
+   },
+   {
+    "id": "6aDbPjs6rSs",
+    "title": "Need for Speed: Most Wanted (2005) - Full Game Walkthrough | No Commentary | PC"
+   },
+   {
+    "id": "EA6mB_TQ7WM",
+    "title": "Need for Speed: Most Wanted (2005) - Full Walkthrough - No Commentary (4K 60FPS)"
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - ea retired the classic nfs builds from every storefront.",
+  "anyway": [],
+  "anyway_note": "archive routes land as verified - the standalone 2005 build is the base the redux v3 modpack bolts onto."
+ },
+ "req": {
+  "tier": "at",
+  "note": "2005 hardware bar - any haswell-class machine clears it at native settings."
+ },
+ "about": [
+  "Need for Speed: Most Wanted (2005) is the ninth mainline entry and the one that defined the black-box era: an open fairhaven city, a fifteen-rival blacklist to climb, heat levels that escalate from patrol cruisers to heavy SUV units and rhino rams, and the bmw m3 gtr as the car the whole story hangs on. Day races feed the bounty and milestones that unlock blacklist challenges; night is where the pursuit system hunts you across districts in real time.",
+  "The pursuit tech was the hook - spike strips, roadblocks, helicopter spotlights and a heat meter that made every siren audible across the city feel personal. Speedbreaker slow-motion and the demand-for-rivals structure made it the best-selling nfs of its generation, and the reason the 2012 reboot had to share the name. The pc build shipped on the same disc era as underground and carbon, which is why archive packs usually carry all three together.",
+  "This standalone row exists because the mods+patches shelf targets it: the nfs most wanted redux v3 modpack bolts onto exactly this 2005 windows build - no underground, no carbon. The trilogy archive row carries the other two builds."
+ ]
+}

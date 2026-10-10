@@ -41,12 +41,7 @@
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_12be0c8311fea9295ec5db3942d52552e1f34652.1920x1080.jpg?t=1695975403",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_c15171e5424252024e6affb3ee78ed8f30a8f120.1920x1080.jpg?t=1695975403",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_04c74e4d2b26e86c74b0ec0e58265c855d70834f.1920x1080.jpg?t=1695975403",
-   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_e56ccdeca53d043deefab912760a2117b53c1671.1920x1080.jpg?t=1695975403",
-   "https://i.ytimg.com/vi/X19LTObqsLw/hqdefault.jpg",
-   "https://i.ytimg.com/vi/X19LTObqsLw/hqdefault.jpg",
-   "https://i.ytimg.com/vi/X19LTObqsLw/hqdefault.jpg",
-   "https://i.ytimg.com/vi/Dc6oAJuNWYQ/hqdefault.jpg",
-   "https://i.ytimg.com/vi/4YcVrTNQh9Y/hqdefault.jpg"
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_e56ccdeca53d043deefab912760a2117b53c1671.1920x1080.jpg?t=1695975403"
   ],
   "videos": [
    {
@@ -66,7 +61,7 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/378621/header.jpg",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378621/ss_e6015c7ac01239e49f1a77ca7b71b6595721effe.1920x1080.jpg?t=1695975403",
  "version_of": "chicken-invaders-3-revenge-of-the-yolk",
  "dug_seq": 7
 }

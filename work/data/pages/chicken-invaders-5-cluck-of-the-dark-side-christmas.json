@@ -41,12 +41,7 @@
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543610/ss_1da6728b2cffb81040916c101205376a733c0124.1920x1080.jpg?t=1695975409",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543610/ss_8b34f6c378aa73b6b21cbcdc62dfa8cc7ad90249.1920x1080.jpg?t=1695975409",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543610/ss_ab48506741deff7cfc1dd4337071c18e1400dca2.1920x1080.jpg?t=1695975409",
-   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543610/ss_b1988681c5d7e6b392514265e44d816b6c80c268.1920x1080.jpg?t=1695975409",
-   "https://i.ytimg.com/vi/RPcE151izgI/maxres2.jpg",
-   "https://i.ytimg.com/vi/RPcE151izgI/maxres1.jpg",
-   "https://i.ytimg.com/vi/RPcE151izgI/maxres3.jpg",
-   "https://i.ytimg.com/vi/RPcE151izgI/hqdefault.jpg",
-   "https://i.ytimg.com/vi/RPcE151izgI/hq2.jpg"
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543610/ss_b1988681c5d7e6b392514265e44d816b6c80c268.1920x1080.jpg?t=1695975409"
   ],
   "videos": [
    {
@@ -66,7 +61,7 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/543610/header.jpg",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543610/ss_658dc5f256203ac826c542b6fb8205e487677ce6.1920x1080.jpg?t=1695975409",
  "version_of": "chicken-invaders-5-cluck-of-the-dark-side",
  "dug_seq": 13
 }

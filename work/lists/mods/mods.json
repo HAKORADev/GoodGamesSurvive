@@ -16,8 +16,8 @@
    "date_likelihood": "likely",
    "size_est_mb": null,
    "size_source": null,
-   "target_game": "need-for-speed-most-wanted-2005-underground-1-carbon",
-   "compat": "base Need for Speed: Most Wanted (2005) windows build",
+   "target_game": "need-for-speed-most-wanted-2005",
+   "compat": "base Need for Speed: Most Wanted (2005) windows build only - not underground, not carbon",
    "buyable": false,
    "download_kind": "archive",
    "test_status": "not-tested",
@@ -30,7 +30,7 @@
     "youtube.com/watch?v=9nnmeXzm1oQ",
     "youtube.com/watch?v=5p4OtxnKINo"
    ],
-   "notes": "creator line follows the official release showcase channel (oembed-verified); download routes live on the creator's release page - linked when verified.",
+   "notes": "creator line follows the official release showcase channel (oembed-verified: NFS Most Wanted REDUX V3 - Official Release Showcase in 4K by KryZeePlays). install-guide channels confirm the pack targets the 2005 most wanted build only. download route stays unlinked until the creator page verifies.",
    "genres": [
     "modpack"
    ]

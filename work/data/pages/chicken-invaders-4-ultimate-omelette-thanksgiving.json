@@ -43,16 +43,15 @@
  "notes_extra": "original release 2013-11-15; the only Thanksgiving Edition in the series; Steam never carried it.",
  "gallery": {
   "images": [
-   "https://i.ytimg.com/vi/8Ht74M7m6so/hqdefault.jpg",
-   "https://i.ytimg.com/vi/8Ht74M7m6so/maxres2.jpg",
-   "https://i.ytimg.com/vi/8Ht74M7m6so/maxres1.jpg",
-   "https://i.ytimg.com/vi/8Ht74M7m6so/maxres3.jpg",
-   "https://i.ytimg.com/vi/8Ht74M7m6so/hqdefault.jpg",
-   "https://i.ytimg.com/vi/8Ht74M7m6so/hq2.jpg",
-   "https://i.ytimg.com/vi/8Ht74M7m6so/hq1.jpg",
-   "https://i.ytimg.com/vi/8Ht74M7m6so/hq3.jpg",
-   "https://i.ytimg.com/vi/bj90zsBUXkU/hqdefault.jpg",
-   "https://i.ytimg.com/vi/bj90zsBUXkU/hq2.jpg"
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370402/ss_7c09fd23a51cd212a10e0ee549ddb639a8d60f47.1920x1080.jpg?t=1695975407",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370402/ss_1d33c66e340ba541269521b1705f2593b8465a1e.1920x1080.jpg?t=1695975407",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370402/ss_9e6cae23925796032199b0dec7361e671b7fafc6.1920x1080.jpg?t=1695975407",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370402/ss_06dce20795c0900873dff22b18277aa77c5a92f5.1920x1080.jpg?t=1695975407",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370402/ss_ab00e45c9cc262e828428fa585d0555d52b59ddd.1920x1080.jpg?t=1695975407",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370402/ss_d8c998226ba531f7eb4ed6554fa5a2b99b8500c9.1920x1080.jpg?t=1695975407",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370402/ss_a8e079ab69d9bf47696a7dbd99ff580db2e5ddf6.1920x1080.jpg?t=1695975407",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370402/ss_e95aefeaf3c3fffb813af0c901f54b02484300f0.1920x1080.jpg?t=1695975407",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370402/ss_4d759688f47173dace89d379712f2b3fcd1509bc.1920x1080.jpg?t=1695975407"
   ],
   "videos": [
    {
@@ -72,7 +71,7 @@
    }
   ]
  },
- "thumbnail": "https://i.ytimg.com/vi/8Ht74M7m6so/hqdefault.jpg",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/370402/ss_7c09fd23a51cd212a10e0ee549ddb639a8d60f47.1920x1080.jpg?t=1695975407",
  "version_of": "chicken-invaders-4-ultimate-omelette",
  "dug_seq": 11
 }

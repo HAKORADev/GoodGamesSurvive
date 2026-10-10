@@ -1,0 +1,54 @@
+{
+ "slug": "hatred",
+ "caption": "the isometric massacre that got itself pulled off steam - the antagonist's genocide crusade, back on sale in 2026.",
+ "characters": [
+  "The Antagonist"
+ ],
+ "thumbnail": "https://images.gog-statics.com/0c38dc3379887d8b94a940f46d942c15c2069f12e68b7c6b92113ae9e9318c4a.jpg",
+ "gallery": {
+  "images": [
+   "https://images.gog-statics.com/0c38dc3379887d8b94a940f46d942c15c2069f12e68b7c6b92113ae9e9318c4a.jpg",
+   "https://images.gog-statics.com/2b94b637ad3de6a51375c6df72769a3cd75ce03351714a7a4b93aecd8f9a3b12.jpg",
+   "https://images.gog-statics.com/adb0c7296de0d390520b990a94c58048b18b6efa773d13c5af654f2f8686ffb0.jpg",
+   "https://images.gog-statics.com/e358c9543dc2609ba966790d4fe12644cd38bd945b0798dc0c122f70e3b92f47.jpg",
+   "https://images.gog-statics.com/8b4206bc4228f44c3b604089467ea76793b37796ad359e060a691cc321c94059.jpg",
+   "https://images.gog-statics.com/9d004dd16f0ce2aaea40c4fbbdfeaa43faf6352032f768cf836c709d13b0d2e1.jpg",
+   "https://images.gog-statics.com/67d78eb14d4c5f42542172bbcecd409a88bca688b6540163d847a355d9c154d0.jpg",
+   "https://images.gog-statics.com/0c7e52314ece3ee68f010b52a5cd1836ce05e52197ce17c04f691b8546f4d8a4.jpg",
+   "https://images.gog-statics.com/d3ea3d7828cfce9838f8a783a00b25e6b338b2e060c601078521f2191fd74b1c.jpg",
+   "https://images.gog-statics.com/e809188dd06c05667348a9e69d9a5ba222c1e60e2e62f70d901e75f1995e60c7.jpg"
+  ],
+  "videos": [
+   {
+    "id": "LthCvU5tio4",
+    "title": "Hatred | Trailer [GOG]"
+   },
+   {
+    "id": "o3wrqq_-Rvs",
+    "title": "Hatred | PC Longplay, Full Game, No Commentary"
+   },
+   {
+    "id": "sxwaPBhiU2k",
+    "title": "HATRED | Full Game Movie | Longplay Walkthrough | No Commentary"
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "GOG - Hatred",
+    "url": "https://www.gog.com/en/game/hatred"
+   }
+  ],
+  "official_note": "on sale at gog since the 2026 re-release - the steam listing stays dead."
+ },
+ "req": {
+  "tier": "above",
+  "note": "official minimum: core i5-750 / gtx 460 1 gb - a haswell iGPU alone does not carry it."
+ },
+ "about": [
+  "Hatred (2015) is the isometric shooter Destructive Creations built as a deliberate middle finger to the whole industry: you play \"the Antagonist\", a misanthrope on a one-way genocide crusade through small-town America, and the game never softens what you are doing. No economy, no upgrades, no redemption arc - just an arsenal, a kill counter, and a map that keeps sending police, SWAT and the national guard at you until you go down or finish the crusade.",
+  "The release itself was the story: Valve pulled it from Steam Greenlight, made an exception and reinstated it, and the game shipped in mid-2015 with an Adults-Only rating in the US. It stayed up for years, then quietly vanished from every storefront - until the 2026 GOG re-release put it back on sale. The gore wall on this site exists for exactly this kind of title: the content is the point, and the page stays behind the wall because of it.",
+  "What survives the controversy is a competent top-down shooter with surprisingly weighty gunfeel: the isometric view reads the whole level at once, the physics trash interiors believably, and the survival waves at the end of each act actually demand the cover system. It runs fine on a haswell-era desktop CPU but the official minimum calls for a GTX 460-class GPU, so integrated graphics alone will not carry it."
+ ]
+}

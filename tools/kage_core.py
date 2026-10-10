@@ -230,8 +230,10 @@ class Engine:
             th = self.th_root(self.page_by_slug[g["slug"]].get("thumbnail"))
         elif sec == "software" and g["slug"] in self.page_by_slug:
             page = "software/%s.html" % g["slug"]
+            th = self.th_root(self.page_by_slug[g["slug"]].get("thumbnail"))
         elif sec == "mods" and g["slug"] in self.page_by_slug:
             page = "mod/%s.html" % g["slug"]
+            th = self.th_root(self.page_by_slug[g["slug"]].get("thumbnail"))
         pl = g.get("players") or {}
         gn_disp = [self.genres.get(keyify(x), x) for x in (g.get("genres") or [])]
         dn_disp = [self.devs.get(keyify(x), x) for x in (g.get("developers") or [])]
@@ -239,9 +241,11 @@ class Engine:
         cat_disp = clean_cat(g.get("category"))
         cap = ""
         ch, chn = [], []
-        if sec == "games" and g["slug"] in self.page_by_slug:
+        if g["slug"] in self.page_by_slug:
             p = self.page_by_slug[g["slug"]]
             cap = (p.get("caption") or "")[:110]
+        if sec == "games" and g["slug"] in self.page_by_slug:
+            p = self.page_by_slug[g["slug"]]
             ch = [keyify(c) for c in (p.get("characters") or [])]
             chn = [self.chars.get(k, k) for k in ch]
         row = {

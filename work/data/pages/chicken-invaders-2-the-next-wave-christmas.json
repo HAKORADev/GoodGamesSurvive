@@ -47,12 +47,7 @@
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_09a2d4c38cc3befdacd515b1924c26207f1d2954.1920x1080.jpg?t=1695975444",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_fe6015388dc3856a9351cce5621f54616ec65652.1920x1080.jpg?t=1695975444",
    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_dcb6ccbeea05690018f9a30ca50dbcb7350e4f9c.1920x1080.jpg?t=1695975444",
-   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_5cbb108d4f50de08caabf9c03b2dc1eedf14b26d.1920x1080.jpg?t=1695975444",
-   "https://i.ytimg.com/vi/MCul4FnIj3I/hqdefault.jpg",
-   "https://i.ytimg.com/vi/MCul4FnIj3I/hqdefault.jpg",
-   "https://i.ytimg.com/vi/S16lY8vIHkY/hqdefault.jpg",
-   "https://i.ytimg.com/vi/S16lY8vIHkY/hqdefault.jpg",
-   "https://i.ytimg.com/vi/G5HZhsue8sw/hqdefault.jpg"
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_5cbb108d4f50de08caabf9c03b2dc1eedf14b26d.1920x1080.jpg?t=1695975444"
   ],
   "videos": [
    {
@@ -72,7 +67,7 @@
    }
   ]
  },
- "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/450100/header.jpg",
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450100/ss_a2667c117a407aedea6eae74a9848510f7bed15d.1920x1080.jpg?t=1695975444",
  "version_of": "chicken-invaders-2-the-next-wave",
  "dug_seq": 4
 }
