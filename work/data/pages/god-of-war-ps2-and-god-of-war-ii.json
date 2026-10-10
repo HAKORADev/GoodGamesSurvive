@@ -53,7 +53,14 @@
  "links": {
   "official": [],
   "official_note": "no windows builds exist - the ps2 releases are the dug platform.",
-  "anyway": [],
+  "anyway": [
+   {
+    "label": "ROMSFUN - God of War (PS2) & God of War II",
+    "url": "https://romsfun.com/roms/playstation-2/god-of-war-ii-dvd5.html",
+    "src": "archive",
+    "note": "romsfun carries the  rom - the rom source this page digs from"
+   }
+  ],
   "anyway_note": "the ps2 roms live on the rom source below - details land as verified."
  }
 }

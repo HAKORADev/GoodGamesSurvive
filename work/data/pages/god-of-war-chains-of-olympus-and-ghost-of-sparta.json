@@ -51,7 +51,26 @@
  "links": {
   "official": [],
   "official_note": "no windows builds exist - the psp releases are the dug platform.",
-  "anyway": [],
+  "anyway": [
+   {
+    "label": "ROMSFUN - God of War (PS2)",
+    "url": "https://romsfun.com/roms/playstation-2/god-of-war-169969.html",
+    "src": "archive",
+    "note": "the ps2 original's rom page"
+   },
+   {
+    "label": "ROMSFUN - God of War: Chains of Olympus & Ghost of Sparta",
+    "url": "https://romsfun.com/roms/playstation-portable/god-of-war-chains-of-olympus.html",
+    "src": "archive",
+    "note": "romsfun carries the  rom - the rom source this page digs from"
+   },
+   {
+    "label": "ROMSFUN - God of War: Ghost of Sparta (PSP)",
+    "url": "https://romsfun.com/roms/playstation-portable/god-of-war-ghost-of-sparta-160387.html",
+    "src": "archive",
+    "note": "the psp chapter's rom page"
+   }
+  ],
   "anyway_note": "the psp roms live on the rom source below - details land as verified."
  }
 }

@@ -51,7 +51,14 @@
  "links": {
   "official": [],
   "official_note": "no windows builds exist - the psp releases are the dug platform.",
-  "anyway": [],
+  "anyway": [
+   {
+    "label": "ROMSFUN - Naruto Shippuden: Ultimate Ninja Heroes 3 & Akatsuki Rising",
+    "url": "https://romsfun.com/roms/playstation-portable/naruto-shippuden-ultimate-ninja-heroes-3.html",
+    "src": "archive",
+    "note": "romsfun carries the  rom - the rom source this page digs from"
+   }
+  ],
   "anyway_note": "the psp roms live on the rom source below - details land as verified."
  }
 }

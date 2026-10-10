@@ -52,7 +52,14 @@
  "links": {
   "official": [],
   "official_note": "no windows build exists - the psp release is the dug platform.",
-  "anyway": [],
+  "anyway": [
+   {
+    "label": "ROMSFUN - Soulcalibur: Broken Destiny",
+    "url": "https://romsfun.com/roms/playstation-portable/soul-calibur-broken-destiny-24683.html",
+    "src": "archive",
+    "note": "romsfun carries the  rom - the rom source this page digs from"
+   }
+  ],
   "anyway_note": "the psp rom lives on the rom source below - details land as verified."
  }
 }

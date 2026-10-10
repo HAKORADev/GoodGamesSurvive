@@ -51,7 +51,14 @@
  "links": {
   "official": [],
   "official_note": "no windows build exists - the ps2 release is the dug platform.",
-  "anyway": [],
+  "anyway": [
+   {
+    "label": "ROMSFUN - Kim Possible: What's the Switch?",
+    "url": "https://romsfun.com/roms/playstation-2/disneys-kim-possible-whats-the-switch.html",
+    "src": "archive",
+    "note": "romsfun carries the  rom - the rom source this page digs from"
+   }
+  ],
   "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
  }
 }
