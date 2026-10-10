@@ -27,7 +27,7 @@ Asterix & Obelix XXL 2
 AstroPop Deluxe
 Atomic Bomberman
 Atomica Deluxe
-Auto Modellista (PS2 - Cel-Shaded)
+Auto Modellista
 Avenue Flo
 Avenue Flo: Special Delivery
 Axy Snake
@@ -77,7 +77,7 @@ BoneCraft
 BoneTown
 Bookworm Adventures 1 & 2
 Booty Farm
-Borderlands 1 (Cel-Shaded)
+Borderlands
 Braid
 BreakQuest
 Brotato
@@ -513,7 +513,6 @@ Saw: The Video Game
 Scaler
 Scarface: The World Is Yours
 Scooby-Doo! and the Spooky Swamp
-Second
 Seven Seas Deluxe
 Sexy Beach 3
 Shade: Wrath of Angels
@@ -555,7 +554,7 @@ Spider-Man: Friend or Foe
 Spider-Man: Web of Shadows
 Spiderz
 Splinter Cell: Conviction
-Split
+Split/Second: Velocity
 SpongeBob Diner Dash 2: Two Times the Trouble
 SpongeBob SquarePants Diner Dash
 SpongeBob: Battle for Bikini Bottom
