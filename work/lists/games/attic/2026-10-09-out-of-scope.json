@@ -1,8 +1,8 @@
 {
  "_meta": {
-  "law": "attic: rows removed from the active catalog - never in the owner's lists (hitman beyond Hitman 2/Contracts/Blood Money/Absolution, spinoffs, the classic trilogy remaster). restore only on explicit owner order.",
+  "law": "attic: rows removed from the active catalog - never in the owner's lists (hitman beyond Hitman 2/Contracts/Blood Money/Absolution, spinoffs, the classic trilogy remaster). restore only on explicit owner order. | 2026-10-10: hitman HD Trilogy + HD Enhanced Collection join the attic - console-only remasters on banned platforms (ps3/ps4/xbox), owner called them out on the site.",
   "removed": "2026-10-09",
-  "count": 8
+  "count": 10
  },
  "games": [
   {
@@ -464,6 +464,113 @@
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
+  },
+  {
+   "title": "Hitman HD Trilogy",
+   "slug": "hitman-hd-trilogy",
+   "list": "action",
+   "class": "remaster",
+   "category": "stealth action",
+   "series": "hitman",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2013-01-29",
+   "developers": [
+    "IO Interactive"
+   ],
+   "publishers": [
+    "Square Enix"
+   ],
+   "platforms": [
+    "ps3",
+    "xbox-360"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": false,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": null,
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "hitman.fandom.com/wiki/Hitman_HD_Trilogy",
+    "en.wikipedia.org/wiki/Hitman:_Blood_Money (january 2013, ps3 + xbox 360)",
+    "amazon.com Hitman HD Trilogy - Square Enix"
+   ],
+   "notes": "the 2013 console remaster: silent assassin + contracts + blood money in hd on ps3 / xbox 360, published by square enix. never windows. digitally delisted since - the hd enhanced collection (2019) took its slot on the modern consoles",
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "stealth"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "platforms_note": "removed from catalog 2026-10-10: ps3/ps4/xbox-only (brand-style-more.md section 12.1 bans these platforms)"
+  },
+  {
+   "title": "Hitman HD Enhanced Collection",
+   "slug": "hitman-hd-enhanced-collection",
+   "list": "action",
+   "class": "remaster",
+   "category": "stealth action",
+   "series": "hitman",
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2019-01-11",
+   "developers": [
+    "IO Interactive"
+   ],
+   "publishers": [
+    "IO Interactive"
+   ],
+   "platforms": [
+    "ps4",
+    "xbox-one"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": true,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": null,
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "hitman.fandom.com/wiki/Hitman_HD_Enhanced_Collection",
+    "store.playstation.com UP4572-CUSA12650_00-HITMANHDENHANCED",
+    "xbox.com games/store/hitman-hd-enhanced-collection btvz6x9x9qn3",
+    "verified 2026-10-09 via web search: a 4K/60fps remaster of Blood Money + Absolution, released 2019-01-11, PlayStation 4 + Xbox One only - no windows build"
+   ],
+   "notes": "the 2019 console remaster: blood money + absolution rebuilt at 4k/60 for ps4 / xbox one. its 2013 predecessor, the hitman hd trilogy, hd-remastered silent assassin, contracts and blood money on ps3 / xbox 360. neither shipped a windows build, so the windows originals on this shelf stay the definitive pc versions",
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "stealth"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "platforms_note": "removed from catalog 2026-10-10: ps3/ps4/xbox-only (brand-style-more.md section 12.1 bans these platforms)"
   }
  ]
 }

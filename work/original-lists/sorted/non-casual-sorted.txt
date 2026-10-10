@@ -1,204 +1,386 @@
 ===================================================================
-  NON-CASUAL — SORTED (mechanical sort of the as-is file)
-  one line per owner entry, alphabetical inside each section.
-  grouping of a line is the owner's; sorting does not re-group.
+  NON-CASUAL — SORTED (generated from the games.json database)
+  one line per row:  name platform year #tags   (xN = declared entries)
 ===================================================================
 
-[ UNSORTED ]
-- NON-CASUAL NOSTALGIA GAME VAULT
-
 [ 🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE ]
-- Alien Shooter 2 / Airfix Dogfighter / Army Men RTS / Cabela's Big Game Hunter 2012
-- Area 51 (2005) / Land of the Dead: Day of the Zombie
-- Battlefield 2 / Killing Floor / Starship Troopers (2005)
-- BioShock 1
-- Borderlands 1 (Cel-Shaded)
-- Bullet Runner
-- Call of Duty: Modern Warfare 2 (2009) `#big-size` / Medal of Honor: Airborne
-- Crysis 2
-- Cuphead (2017)
-- Dead Rising 1
-- Dead Space 2
-- Duke Nukem: Manhattan Project
-- Earth Defense Force: Insect Armageddon / Prey (2006)
-- Fallout 3
-- Far Cry 2 / Crysis / S.T.A.L.K.E.R.: Shadow of Chernobyl
-- Far Cry 3 `#big-size`
-- F.E.A.R. (FEAR 1 & Expansions)
-- Gears of War 1
-- Half-Life 2 / Portal / Portal 2
-- Hitman: Absolution `#big-size`
-- James Bond 007: Nightfire / Splinter Cell: Conviction
-- Leisure Suit Larry: Magna Cum Laude #+18
-- Lucius 1 & 2
-- Made Man / Reservoir Dogs / The Mummy (2000)
-- Mass Effect (Mass Effect 1 / Collection)
-- Max Payne 2 / Hitman Series (Hitman 2, Contracts, Blood Money)
-- Max Payne 3 `#big-size`
-- Mohrta
-- Painkiller Series / Dead Island (2011)
-- Postal 2 (Full Collection / Apocalypse Weekend)
-- Quake 4 / I.G.I.-2: Covert Strike
-- Resident Evil 4 & 5 / Left 4 Dead 2
-- Rogue Trooper / Freedom Fighters / Dead to Rights I & II
-- Rogue Warrior / Halo: Combat Evolved & Halo 2 / Dead Space
-- Sexy Beach 3 #+18
-- Shadow Man (1999) / Dark Earth (1997) / Project Nomads / Archangel
-- Silent Hill 4: The Room / Obscure (2004)
-- Silent Hill: Homecoming
-- Silent Hill: Shattered Memories (PS2/PSP)
-- State of Decay 1
-- Stubbs the Zombie in Rebel Without a Pulse / BloodRayne 2
-- The Punisher (2005)
-- The Thing (2002) / The Suffering (2004) / Dreamkiller / Bloodline 100
-- ULTRAKILL
-- Vivisector: Beast Within / Condemned: Criminal Origins / Saw: The Video Game
-- Watch Dogs 1 `#big-size`
-- Wolfenstein (2009)
-- Worms 4: Mayhem / Worms Forts: Under Siege
+- Airfix Dogfighter PC ????
+- Alien Shooter 2 PC ????
+- Archangel PC ????
+- Area 51 PC 2005
+- Army Men RTS PC ????
+- Bad Day L.A. PC 2006
+- Battlefield 2 PC ????
+- BioShock 1 PC 2007
+- Bloodline 100 PC ????
+- BloodRayne 2 PC ????
+- Borderlands PC 2023
+- Brothers in Arms: Hell's Highway PC 2008
+- Bullet Runner PC ????
+- Cabela's Big Game Hunter 2012 PC ????
+- Call of Duty: Modern Warfare 2 PC 2009 #big-size
+- Cernaja Metka PC ????
+- Condemned: Criminal Origins PC ????
+- Crysis PC ????
+- Crysis 2 PC 2011
+- Cuphead PC 2017
+- D.i.R.T.: Origin of the Species PC 2006
+- Dark Earth PC 1997
+- Dark Shadows PC ????
+- Dead Island PC 2011
+- Dead Rising 1 PC ????
+- Dead Space PC ????
+- Dead Space 2 PC ????
+- Dead to Rights I & II PC ???? x2
+- Dreamkiller PC ????
+- Duke Nukem: Manhattan Project PC ????
+- Earth Defense Force: Insect Armageddon PC ????
+- F.E.A.R. (FEAR 1 & Expansions) PC ???? x2
+- Fallout 3 PC ????
+- Far Cry 2 PC ????
+- Far Cry 3 PC 2012 #big-size
+- Freedom Fighters PC ????
+- Gears of War 1 PC ????
+- Half-Life 2 PC 2004
+- Halo: Combat Evolved & Halo 2 PC ????
+- Hellforces PC 2004
+- I.G.I.-2: Covert Strike PC ????
+- Infernal PC 2007
+- James Bond 007: Nightfire PC ????
+- Killing Floor PC ????
+- Land of the Dead: Day of the Zombie PC ????
+- Left 4 Dead 2 PC 2009
+- Leisure Suit Larry: Magna Cum Laude PC 2004 #sex
+- Lucius 1 & 2 PC ???? x2
+- Made Man PC ????
+- Mass Effect (Mass Effect 1 / Collection) PC 2008
+- Max Payne 2 PC ????
+- Max Payne 3 PC 2012 #big-size
+- Medal of Honor: Airborne PC ????
+- Metro 2033 PC 2010
+- Mohrta PC ????
+- MorphX PC 2010
+- Obscure PC 2004
+- Painkiller Series PC ????
+- Portal PC 2007
+- Portal 2 PC 2011
+- Postal 2 (Full Collection / Apocalypse Weekend) PC ????
+- Prey PC 2006
+- Project Nomads PC ????
+- Quake 4 PC 2011
+- Reservoir Dogs PC ????
+- Resident Evil 4 & 5 PC ???? x2
+- Rogue Trooper PC ????
+- Rogue Warrior PC ????
+- S.T.A.L.K.E.R.: Shadow of Chernobyl PC ????
+- Saw: The Video Game PC ????
+- Scorpion Disfigured PC 2009
+- Sexy Beach 3 PC 2006 #sex
+- Shadow Man PC 1999
+- Silent Hill 4: The Room PC ????
+- Silent Hill: Homecoming PC ????
+- Silent Hill: Shattered Memories PS2 ????
+- Splinter Cell: Conviction PC ????
+- Starship Troopers PC 2005
+- State of Decay 1 PC ????
+- Stubbs the Zombie in Rebel Without a Pulse PC ????
+- The Mummy PC 2000
+- The Punisher PC 2005
+- The Suffering PC 2004
+- The Thing PC 2002
+- ULTRAKILL PC 2020
+- Vivisector: Beast Within PC ????
+- Watch Dogs PC ???? #big-size
+- Wolfenstein PC 2009
+- Worms 4: Mayhem PC ????
+- Worms Forts: Under Siege PC ????
+
+[ stealth action ]
+- Hitman 2: Silent Assassin PC 2002
+- Hitman 3: Contracts PC 2004
+- Hitman: Absolution PC 2012 #big-size
+- Hitman: Blood Money PC 2006
 
 [ ⚔️ HACK 'N SLASH, ROGUELIKES, PLATFORMERS & MUSOU ]
-- Assassin's Creed Series (AC 1, Ezio Collection, AC III, AC IV: Black Flag `#big-size`)
-- Battle Engine Aquila (2003) / Future Cop: L.A.P.D. / War World
-- BoneTown / BoneCraft / Goat Simulator (2014)
-- Collapse (2008) / The Club (2008) / Manhunt 2 / Devil May Cry 4
-- Deadpool / X-Men Origins: Wolverine (Uncaged) / Castlevania: Lords of Shadow 2
-- Devil May Cry Trilogy (DMC 1, 2, 3)
-- Dragon's Dogma: Dark Arisen (Dragon's Dogma 1)
-- Dust: An Elysian Tail / Overlord II / Orcs Must Die! 2
-- Dynasty Warriors 6 / Samurai Warriors
-- Evil Dead: Regeneration / Blood Omen 2: Legacy of Kain
-- Fallen Tear: The Ascension
-- Fighting Force 1 & 2
-- Giants: Citizen Kabuto / Get Medieval / The Incredible Hulk (2008) / Hulk (2003)
-- Hades (Hades 1)
-- Knights of the Temple I & II / TMNT (Ubisoft 2007)
-- Metal Gear Rising: Revengeance (2013) `#big-size`
-- Muramasa: The Demon Blade (Wii)
-- No More Heroes 2: Desperate Struggle (Wii)
-- Okami
-- Oni (Bungie 2001)
-- Onimusha 3: Demon Siege / Peter Jackson's King Kong
-- Pirates of the Caribbean: At World's End (Captain Jack)
-- Prince of Persia: The Forgotten Sands / Shank 2 / Mini Ninjas
-- Prototype 1 & 2 / Total Overdose / Shade: Wrath of Angels / Chaos Legion
-- Psychonauts (2005) / Beyond Good & Evil (2003)
-- Sonic Adventure 2
-- Sonic Adventure DX / LEGO Marvel Super Heroes / Dark Souls / Darksiders II
-- Star Wars: The Force Unleashed II / Asterix & Obelix XXL 2
-- The Amazing Spider-Man 2 / TMNT: Out of the Shadows
-- The Legend of Korra / Ninja Blade / Ninja Gaiden Sigma 2 / Tenchu Z
-- The Lord of the Rings: Conquest
-- The Lord of the Rings: The Return of the King / Mega Man X6 / Nightmare Creatures I & II
-- The Lord of the Rings: War in the North
-- Transformers: Devastation (Cel-Shaded)
-- Transformers: War for Cybertron / Red Faction: Guerrilla
-- Trine (2009) / Rayman Origins / Rayman Raving Rabbids
-- Ultimate Spider-Man (Cel-Shaded) / Tomb Raider: Underworld
-- Watchmen: The End Is Nigh / Spider-Man: Web of Shadows
-- Wheelman / Samurai Warriors 2 / Pirates: Legend of the Black Buccaneer
+- Assassin's Creed Series (AC 1, Ezio Collection, AC III, AC IV: Black Flag ) PC ???? x6
+- Asterix & Obelix XXL 2 PC ????
+- Battle Engine Aquila PC 2003
+- Beyond Good & Evil PC 2008
+- Blood Omen 2: Legacy of Kain PC ????
+- BoneCraft PC ????
+- BoneTown PC ????
+- Castlevania: Lords of Shadow 2 PC ????
+- Chaos Legion PC ????
+- Collapse PC 2008
+- Dark Souls PC 2018
+- Darksiders II PC ????
+- Deadpool PC ????
+- Devil May Cry 4 PC 2015
+- Devil May Cry Trilogy (DMC 1, 2, 3) PC ???? x3
+- Dragon's Dogma: Dark Arisen (Dragon's Dogma 1) PC ???? #big-size
+- Dust: An Elysian Tail PC ????
+- Dynasty Warriors 6 PC ????
+- Evil Dead: Regeneration PC ????
+- Fallen Tear: The Ascension PC ????
+- Fighting Force 1 & 2 PC ???? x2
+- Future Cop: L.A.P.D. PC ????
+- Get Medieval PC ????
+- Giants: Citizen Kabuto PC ????
+- Goat Simulator PC 2014
+- Hades (Hades 1) PC 2020
+- Hamster Heroes PC 2008
+- Hulk PC 2003
+- I-Ninja PC 2003
+- Knights of the Temple I & II PC ???? x2
+- LEGO Marvel Super Heroes PC ????
+- Manhunt 2 PS2 2007 #gore
+- Mega Man X6 PC ????
+- Metal Gear Rising: Revengeance PC 2013 #big-size
+- Mini Ninjas PC ????
+- Muramasa: The Demon Blade WII ????
+- Nightmare Creatures I & II PC ???? x2
+- Ninja Blade PC ????
+- Ninja Gaiden Sigma 2 PC ????
+- No More Heroes 2: Desperate Struggle WII ????
+- Okami PC 2017
+- Oni (Bungie 2001) PC ????
+- Onimusha 3: Demon Siege PC ????
+- Orcs Must Die! 2 PC ????
+- Overlord II PC ????
+- Peter Jackson's King Kong PC ????
+- Pirates of the Caribbean: At World's End (Captain Jack) PC ????
+- Pirates: Legend of the Black Buccaneer PC ????
+- Prince of Persia: The Forgotten Sands PC ????
+- Prototype 1 & 2 PC ???? x2
+- Psychonauts PC 2006
+- Rayman Origins PC 2012
+- Rayman Raving Rabbids PC ????
+- Red Faction: Guerrilla PC ????
+- Samurai Warriors PC ????
+- Samurai Warriors 2 PC ????
+- Shade: Wrath of Angels PC ????
+- Shank 2 PC ????
+- Sonic Adventure 2 PC 2012
+- Sonic Adventure DX PC ????
+- Spider-Man: Web of Shadows PC ????
+- Star Wars: The Force Unleashed II PC ????
+- Tenchu Z PC ????
+- The Amazing Spider-Man 2 PC ????
+- The Club PC 2008
+- The Incredible Hulk PC 2008
+- The Legend of Korra PC ????
+- The Lord of the Rings: Conquest PC ????
+- The Lord of the Rings: The Return of the King PC ????
+- The Lord of the Rings: War in the North PC ????
+- TMNT (Ubisoft 2007) PC ????
+- TMNT: Out of the Shadows PC ????
+- Tomb Raider: Underworld PC 2008
+- Total Overdose PC ????
+- Transformers: Devastation (Cel-Shaded) PC ????
+- Transformers: War for Cybertron PC ????
+- Trine PC 2009
+- Ultimate Spider-Man (Cel-Shaded) PC ????
+- War World PC ????
+- Watchmen: The End Is Nigh PC ????
+- Wheelman PC ????
+- X-Men Origins: Wolverine (Uncaged) PC ????
 
 [ 🏰 STRATEGY, TACTICS, SIMULATION & JRPGs ]
-- Age of Empires III / Emergency 4 / Cities XXL / SimSafari / TES V: Skyrim
-- Company of Heroes 1 (with Opposing Fronts & Tales of Valor)
-- Desperados 2: Cooper's Revenge
-- Diablo II / Diablo II: Lord of Destruction
-- Dragon Age: Origins
-- Dragon Ball Z: Kakarot `#big-size`
-- Neverwinter Nights (2002) / Dungeon Siege II / Sacrifice (2000)
-- Ni no Kuni: Wrath of the White Witch
-- ParaWorld (2006) / Blitzkrieg 2 / Command & Conquer: Red Alert 2 - Yuri's Revenge
-- Playboy: The Mansion #+18 / 7 Sins (2005) #+18
-- RollerCoaster Tycoon 3 / Zoo Tycoon 1 & 2 / Mall Tycoon 4 / Restaurant Empire 2
-- Slay the Spire 2
-- Star Wars: Knights of the Old Republic (KOTOR)
-- Stronghold Crusader 1 (and HD / Extreme)
-- Stronghold Crusader 2 / Westward IV: All Aboard
-- Tales of Berseria
-- Tales of Zestiria
-- Warcraft III: Reign of Chaos / The Frozen Throne
-- Xenoblade Chronicles (Wii)
+- 7 Sins (2005) PC 2005 #sex
+- Age of Empires III PC ????
+- Blitzkrieg 2 PC ????
+- Cities XXL PC ????
+- Command & Conquer: Red Alert 2 - Yuri's Revenge PC ????
+- Company of Heroes 1 (with Opposing Fronts & Tales of Valor) PC ????
+- Desperados 2: Cooper's Revenge PC ????
+- Diablo II PC ????
+- Diablo II: Lord of Destruction PC ????
+- Dragon Age: Origins PC ????
+- Dragon Ball Z: Kakarot PC ???? #big-size
+- Dungeon Siege II PC ????
+- Emergency 4 PC ????
+- Inhabited Island: Prisoner of Power PC 2007
+- Mall Tycoon 4 PC ????
+- Neverwinter Nights PC 2002
+- Ni no Kuni: Wrath of the White Witch PC ???? #big-size
+- ParaWorld PC 2006
+- Playboy: The Mansion PC 2005 #sex
+- Restaurant Empire 2 PC ????
+- RollerCoaster Tycoon 3 PC ????
+- Sacrifice PC 2000
+- SimSafari PC ????
+- Slay the Spire 2 PC ????
+- Star Wars: Knights of the Old Republic (KOTOR) PC ????
+- Stronghold Crusader 1 (and HD / Extreme) PC 2013
+- Stronghold Crusader 2 PC ????
+- Tales of Berseria PC ????
+- Tales of Zestiria PC ????
+- TES V: Skyrim PC 2011
+- The Frozen Throne PC ????
+- Warcraft III: Reign of Chaos PC ????
+- Westward IV: All Aboard PC ????
+- Xenoblade Chronicles WII ????
+- Zoo Tycoon 1 & 2 PC ???? x2
 
 [ 🏙️ OPEN WORLD, CRIME & NARRATIVE ACTION ]
-- Akiba's Trip: Undead & Undressed
-- Batman: Arkham City
-- Bully (Scholarship Edition) / Grand Theft Auto: San Andreas & Vice City
-- Grand Theft Auto V `#big-size`
-- Just Cause 2
-- L.A. Noire (2011) / Sleeping Dogs (2012) `#big-size` / Grand Theft Auto IV
-- Red Dead Redemption 1 (RDR1)
-- Saints Row 2 / Just Cause / The Godfather: The Game
-- Saints Row IV (Saints Row 4)
-- Saints Row: The Third (Saints Row 3)
-- Scarface: The World Is Yours (2006)
-- The Godfather II
-- The Saboteur / Mercenaries 2: World in Flames / Mafia II
-- The Simpsons: Hit & Run / Enter the Matrix / Path of Neo
+- Akiba's Trip: Undead & Undressed PC ????
+- Batman: Arkham City PC ???? #big-size
+- Bully (Scholarship Edition) PC ????
+- Enter the Matrix PC ????
+- Grand Theft Auto IV PC 2020 #big-size
+- Grand Theft Auto V PC 2015 #big-size
+- Grand Theft Auto: San Andreas & Vice City PC 2004
+- Just Cause PC ????
+- Just Cause 2 PC ????
+- L.A. Noire PC 2011 #big-size
+- Mafia II PC ????
+- Mercenaries 2: World in Flames PC ????
+- Path of Neo PC ????
+- Red Dead Redemption 1 (RDR1) PC ????
+- Saints Row 2 PC ????
+- Saints Row IV (Saints Row 4) PC 2013
+- Saints Row: The Third (Saints Row 3) PC 2011
+- Scarface: The World Is Yours PC 2006
+- Sleeping Dogs PC 2012 #big-size
+- The Godfather II PC ????
+- The Godfather: The Game PC ????
+- The Saboteur PC ????
+- The Simpsons: Hit & Run PC ????
 
 [ 🏎 RACING & VEHICULAR ACTION ]
-- Auto Modellista (PS2 - Cel-Shaded)
-- Beach Stunt Racer
-- Blur / Re-Volt / Rollcage Stage II / Turok (2008)
-- BMX XXX #+18
-- Burnout Paradise / Need for Speed: Most Wanted (2005), Underground 1, Carbon
-- FlatOut 2 (2006)
-- Monster Jam (2007) / Split/Second / Need for Speed: Underground 2
-- Need for Speed: Most Wanted (2012) / Hot Wheels: Stunt Track Challenge
-- New York Race (2001)
-- Shipwreckers! (Overboard! 1997)
-- Sonic Riders (2006/2008) / Downhill Domination / Driver: San Francisco
-- Walt Disney World Quest: Magical Racing Tour / Earn to Die 2
+- Auto Modellista PS2 2002
+- Beach Stunt Racer PC 2001
+- Blur PC 2010
+- BMX XXX PS2 2002 #sex
+- Burnout Paradise PC 2009
+- Downhill Domination PS2 2003
+- Driver: San Francisco PC 2011
+- Earn to Die 2 PC ????
+- FlatOut 2 PC 2006
+- Hot Wheels: Stunt Track Challenge PC 2003
+- Monster Jam PC 2007
+- Need for Speed: Most Wanted PC 2012
+- Need for Speed: Most Wanted (2005), Underground 1, Carbon PC 2005
+- Need for Speed: Underground 2 PC 2004
+- New York Race PC 2001
+- Re-Volt PC 1999
+- Rollcage Stage II PC 2000
+- Shipwreckers! (Overboard! 1997) PS1 1997
+- Sonic Riders PC 2006
+- Split/Second: Velocity PC 2010
+- Turok PC 2008
+- Walt Disney World Quest: Magical Racing Tour PS1 2000
 
 [ 🎬 ANIMATED, MOVIE & TV ADAPTATIONS ]
-- Arthur and the Invisibles / Scooby-Doo! and the Spooky Swamp / Barnyard / Winx Club
-- Barbie Fashion Show / Lemony Snicket's A Series of Unfortunate Events
-- Ben 10: Power Trip
-- Catwoman / Taz: Wanted / Charlie and the Chocolate Factory / Brother Bear
-- Disney's Aladdin in Nasira's Revenge (PS1/PC)
-- Evil Twin: Cyprien's Chronicles / Piglet's Big Game / Kim Possible: What's the Switch?
-- Flushed Away / Shark Tale / Open Season / Angry Birds Collection
-- Kung Fu Panda / Over the Hedge / Robots / Bee Movie Game / The Incredibles
-- Meet the Robinsons / Cloudy with a Chance of Meatballs / SpongeBob: Battle for Bikini Bottom
-- Monsters vs. Aliens / Toy Story 3 / Monsters, Inc. Scare Island / Pink Panther
-- Power Rangers: Super Legends / Transformers: The Game (2007)
-- Ratatouille / Ice Age 3 / The Penguins of Madagascar 1 & 2 / TMNT (2003) & TMNT 2
-- Sitting Ducks / Ed, Edd n Eddy: The Mis-Edventures / Finn & Jake's Epic Quest
-- Spider-Man: Friend or Foe / Superman Returns / James Cameron's Avatar: The Game
-- WALL-E / Iron Man (2008) / Batman: Arkham Asylum / Shrek the Third
+- Angry Birds Collection PC ????
+- Arthur and the Invisibles PC ????
+- Barbie Fashion Show PC ????
+- Barnyard PC ????
+- Batman: Arkham Asylum PC ????
+- Bee Movie Game PC ????
+- Ben 10: Power Trip PC ????
+- Beowulf: The Game PC 2007
+- Brother Bear PC ????
+- Catwoman PC ????
+- Charlie and the Chocolate Factory PC ????
+- Cloudy with a Chance of Meatballs PC ????
+- Disney's Aladdin in Nasira's Revenge PC ????
+- Ed, Edd n Eddy: The Mis-Edventures PC ????
+- Evil Twin: Cyprien's Chronicles PC 2001
+- Finn & Jake's Epic Quest PC ????
+- Flushed Away PC ????
+- Ice Age 3 PC ????
+- Iron Man PC 2008
+- James Cameron's Avatar: The Game PC ????
+- Kim Possible: What's the Switch? PS2 2005
+- Kung Fu Panda PC ????
+- Lemony Snicket's A Series of Unfortunate Events PC ????
+- Meet the Robinsons PC ????
+- Monsters vs. Aliens PC ????
+- Monsters, Inc. Scare Island PC ????
+- Open Season PC ????
+- Over the Hedge PC ????
+- Piglet's Big Game PC ????
+- Pink Panther PC ????
+- Power Rangers: Super Legends PS2 2007
+- Ratatouille PC ????
+- Robots PC ????
+- Scooby-Doo! and the Spooky Swamp PC ????
+- Shark Tale PC ????
+- Shrek the Third PC ????
+- Sitting Ducks PC ????
+- Spider-Man: Friend or Foe PC ????
+- SpongeBob: Battle for Bikini Bottom PC ????
+- Superman Returns PC ????
+- Taz: Wanted PC ????
+- The Incredibles PC ????
+- The Penguins of Madagascar 1 & 2 PC ???? x2
+- TMNT (2003) & TMNT 2 PC ???? x2
+- Toy Story 3 PC ????
+- Transformers: The Game PC 2007
+- WALL-E PC ????
+- Winx Club PC ????
 
 [ 🥊 FIGHTING GAMES, MUGEN & ARENA BRAWLERS ]
-- Battle Raper 2 #+18
-- Bleach: Brave Souls
-- Bloody Roar 2 / Bayonetta / Tekken 3 / Tekken 5 / Mortal Kombat X
-- Guilty Gear XX Accent Core Plus R
-- Skullgirls 2nd Encore
-- The Queen of Fighters (Naked MUGEN Edition) #+18
-- Tom and Jerry in Fists of Furry
-- Ultra Street Fighter IV / BlazBlue: Calamity Trigger / KOF XII & '98 UM
+- Battle Raper 2 PC 2005 #sex
+- Bayonetta PC 2017 #big-size
+- BlazBlue: Calamity Trigger PC ????
+- Bleach: Brave Souls PC ????
+- Bloody Roar 2 PC ????
+- Guilty Gear XX Accent Core Plus R PC ????
+- KOF XII & '98 UM PC ???? x2
+- Mortal Kombat X PC ???? #big-size
+- Skullgirls 2nd Encore PC ????
+- Tekken 3 PC ????
+- Tekken 5 PC ????
+- The Queen of Fighters (Naked MUGEN Edition) PC 2015 #sex
+- The Warriors: Street Brawl PC 2009
+- Tom and Jerry in Fists of Furry PC ????
+- Ultra Street Fighter IV PC ????
 
 [ 🕹️ PSP & HANDHELD EXCLUSIVES ]
-- Bleach: Heat the Soul 7 / Naruto Shippuden: Ultimate Ninja Heroes 3 & Akatsuki Rising
-- God of War: Chains of Olympus & Ghost of Sparta / The 3rd Birthday
-- Kingdom Hearts Birth by Sleep / Dante's Inferno / Shinobido: Tales of the Ninja
-- Soulcalibur: Broken Destiny / Tekken 6
+- Bleach: Heat the Soul 7 PSP 2010
+- Dante's Inferno PSP 2010
+- God of War: Chains of Olympus & Ghost of Sparta PSP 2008
+- Kingdom Hearts Birth by Sleep PSP 2010
+- Naruto Shippuden: Ultimate Ninja Heroes 3 & Akatsuki Rising PSP 2009 x2
+- Shinobido: Tales of the Ninja PSP ????
+- Soulcalibur: Broken Destiny PSP 2009
+- Tekken 6 PSP 2009
+- The 3rd Birthday PSP 2010
 
 [ 🐬 DOLPHIN EMU EXCLUSIVES (WII / GAMECUBE) ]
-- Bleach: Shattered Blade
-- Donkey Kong Country Returns (Wii)
-- New Super Mario Bros. Wii
-- Super Mario Galaxy 2 (Wii)
-- The Legend of Zelda: Twilight Princess & Skyward Sword
+- Bleach: Shattered Blade WII 2006
+- Donkey Kong Country Returns WII 2010
+- New Super Mario Bros. Wii WII 2009
+- Super Mario Galaxy 2 WII 2010
+- The Legend of Zelda: Twilight Princess & Skyward Sword WII 2006
 
 [ 🎮 PS2 / CONSOLE EXCLUSIVES ]
-- Ben 10 Ultimate Alien: Cosmic Destruction (PS2)
-- Crash Twinsanity (PS2)
-- God of War (PS2) & God of War II
-- Jackie Chan Adventures / Tom and Jerry in House Trap
-- Monster House / Ben 10: Protector of Earth / SSX on Tour / B-Boy
-- Pirates of the Caribbean: The Legend of Jack Sparrow / Ghost Rider / Fantastic Four
-- Shadow of the Colossus / Yakuza 2 / Shinobido: Way of the Ninja
-- Stuart Little 3: Big Photo Adventure / Kingdom Hearts II
-- The Grim Adventures of Billy & Mandy / Scaler / Family Guy Video Game!
+- B-Boy PS2 ????
+- Ben 10 Ultimate Alien: Cosmic Destruction PS2 2011
+- Ben 10: Protector of Earth PS2 2007
+- Crash Twinsanity PS2 2004
+- Family Guy Video Game! PS2 2006
+- Fantastic Four PS2 2005
+- Ghost Rider PS2 2007
+- God of War (PS2) & God of War II PS2 2005 x2
+- Jackie Chan Adventures PS1 2001
+- Kingdom Hearts II PS2 2005
+- Monster House PS2 2006
+- Pirates of the Caribbean: The Legend of Jack Sparrow PS2 2006
+- Scaler PS2 2004
+- Shadow of the Colossus PS2 2005
+- Shinobido: Way of the Ninja PS2 2005
+- Spartan: Total Warrior PS2 2005
+- SSX on Tour PS2 ????
+- Stuart Little 3: Big Photo Adventure PS2 2005
+- The Grim Adventures of Billy & Mandy PS2 2006
+- Tom and Jerry in House Trap PS1 2000
+- Yakuza 2 PS2 2006
 
 [ 💻 PC LIFE SIMULATION ]
-- The Sims 3 Complete Collection `#big-size`
+- The Sims 3 Complete Collection PC ???? #big-size
+
+[ ACTION, SHOOTERS, SURVIVAL & HARDCORE ]
+- Assassin's Creed IV: Black Flag PC ???? #big-size

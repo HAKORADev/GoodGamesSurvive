@@ -2,9 +2,9 @@
  "_meta": {
   "schema": "ggs.v2",
   "updated": "2026-10-10",
-  "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/. v2 adds genres/subgenres/tags/size_est_mb/req_tier; genres+subgenres capped at 5. | ggs-12: catalog = owner lists + endorsed upgrade hubs. holiday releases carry version_of and stay out of the catalog layer. out-of-scope rows sleep in attic/. | ggs-13 accuracy pass 2026-10-09: sizes from steam-stated storage / studio installer Content-Length / GOGDB / hosted originals; players from steam category flags + studio feature lists; buyable from live priced pages."
+  "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/. v2 adds genres/subgenres/tags/size_est_mb/req_tier; genres+subgenres capped at 5. | ggs-12: catalog = owner lists + endorsed upgrade hubs. holiday releases carry version_of and stay out of the catalog layer. out-of-scope rows sleep in attic/. | ggs-13 accuracy pass 2026-10-09: sizes from steam-stated storage / studio installer Content-Length / GOGDB / hosted originals; players from steam category flags + studio feature lists; buyable from live priced pages. | 2026-10-10: legacy batch (+16 owner-listed, evil twin year/windows fix); hitman HD remasters -> attic per platform law. | 2026-10-10: 3 rows with empty platforms got the console their own title/section declares."
  },
- "count": 709,
+ "count": 728,
  "games": [
   {
    "title": "Stardew Valley",
@@ -14915,16 +14915,7 @@
    ],
    "size_est_mb": 24000,
    "size_source": "store-stated",
-   "req_tier": "at",
-   "upgrades": [
-    "hitman-hd-enhanced-collection"
-   ],
-   "upgrade_notes": {
-    "hitman-hd-enhanced-collection": "4k/60 rebuild with blood money (ps4 / xbox one, 2019-01-11) - consoles only, no windows build exists"
-   },
-   "upgrade_kinds": {
-    "hitman-hd-enhanced-collection": "remaster"
-   }
+   "req_tier": "at"
   },
   {
    "title": "Far Cry 3",
@@ -25452,10 +25443,12 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
+   "release": "2001-01-01",
    "developers": [],
    "publishers": [],
-   "platforms": [],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
@@ -25471,9 +25464,10 @@
    "haswell_igpu_ok": null,
    "confidence": "owner-listed",
    "sources": [],
-   "notes": "",
+   "notes": "owner's 'evil twin 2001' = this game (the real title is longer, 2001 is the year); windows per one-platform law (2026-10-10 batch)",
    "genres": [
-    "casual"
+    "action",
+    "platformer"
    ],
    "subgenres": [],
    "size_est_mb": null,
@@ -27433,7 +27427,9 @@
    "release": null,
    "developers": [],
    "publishers": [],
-   "platforms": [],
+   "platforms": [
+    "psp"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
@@ -27449,7 +27445,7 @@
    "haswell_igpu_ok": null,
    "confidence": "owner-listed",
    "sources": [],
-   "notes": "",
+   "notes": "platform filled from the owner's own title/section declaration (2026-10-10 sorted-list round)",
    "genres": [],
    "subgenres": [],
    "size_est_mb": null,
@@ -28875,7 +28871,9 @@
    "release": null,
    "developers": [],
    "publishers": [],
-   "platforms": [],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
@@ -28891,7 +28889,7 @@
    "haswell_igpu_ok": null,
    "confidence": "owner-listed",
    "sources": [],
-   "notes": "",
+   "notes": "platform filled from the owner's own title/section declaration (2026-10-10 sorted-list round)",
    "genres": [],
    "subgenres": [],
    "size_est_mb": null,
@@ -28912,7 +28910,9 @@
    "release": null,
    "developers": [],
    "publishers": [],
-   "platforms": [],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
@@ -28928,7 +28928,7 @@
    "haswell_igpu_ok": null,
    "confidence": "owner-listed",
    "sources": [],
-   "notes": "",
+   "notes": "platform filled from the owner's own title/section declaration (2026-10-10 sorted-list round)",
    "genres": [],
    "subgenres": [],
    "size_est_mb": null,
@@ -30807,16 +30807,7 @@
    ],
    "size_est_mb": 480,
    "size_source": "gog-installer (480 MB build)",
-   "req_tier": "below",
-   "upgrades": [
-    "hitman-hd-trilogy"
-   ],
-   "upgrade_notes": {
-    "hitman-hd-trilogy": "console-only hd remaster (ps3 / xbox 360, january 2013) - no windows build exists, so this windows build is untouched by it"
-   },
-   "upgrade_kinds": {
-    "hitman-hd-trilogy": "remaster"
-   }
+   "req_tier": "below"
   },
   {
    "title": "Hitman 3: Contracts",
@@ -30866,16 +30857,7 @@
    ],
    "size_est_mb": 900,
    "size_source": "installer-research (845-910 MB builds)",
-   "req_tier": "below",
-   "upgrades": [
-    "hitman-hd-trilogy"
-   ],
-   "upgrade_notes": {
-    "hitman-hd-trilogy": "console-only hd remaster (ps3 / xbox 360, january 2013) - no windows build exists, so this windows build is untouched by it"
-   },
-   "upgrade_kinds": {
-    "hitman-hd-trilogy": "remaster"
-   }
+   "req_tier": "below"
   },
   {
    "title": "Hitman: Blood Money",
@@ -30925,19 +30907,7 @@
    ],
    "size_est_mb": 4300,
    "size_source": "gog-installer (GOGDB: v1.2 = 4.3 GB)",
-   "req_tier": "below",
-   "upgrades": [
-    "hitman-hd-trilogy",
-    "hitman-hd-enhanced-collection"
-   ],
-   "upgrade_notes": {
-    "hitman-hd-trilogy": "console-only hd remaster (ps3 / xbox 360, january 2013) - no windows build exists, so this windows build is untouched by it",
-    "hitman-hd-enhanced-collection": "4k/60 rebuild with blood money (ps4 / xbox one, 2019-01-11) - consoles only, no windows build exists"
-   },
-   "upgrade_kinds": {
-    "hitman-hd-trilogy": "remaster",
-    "hitman-hd-enhanced-collection": "remaster"
-   }
+   "req_tier": "below"
   },
   {
    "title": "Dream Chronicles",
@@ -31851,111 +31821,6 @@
    "rework_of": null
   },
   {
-   "title": "Hitman HD Enhanced Collection",
-   "slug": "hitman-hd-enhanced-collection",
-   "list": "action",
-   "class": "remaster",
-   "category": "stealth action",
-   "series": "hitman",
-   "series_part": null,
-   "content_walls": [],
-   "big_size": false,
-   "big_size_gb": null,
-   "release": "2019-01-11",
-   "developers": [
-    "IO Interactive"
-   ],
-   "publishers": [
-    "IO Interactive"
-   ],
-   "platforms": [
-    "ps4",
-    "xbox-one"
-   ],
-   "players": {
-    "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
-   },
-   "buyable": true,
-   "download_kind": null,
-   "test_status": "not-tested",
-   "target_os": null,
-   "haswell_igpu_ok": null,
-   "confidence": "verified",
-   "sources": [
-    "hitman.fandom.com/wiki/Hitman_HD_Enhanced_Collection",
-    "store.playstation.com UP4572-CUSA12650_00-HITMANHDENHANCED",
-    "xbox.com games/store/hitman-hd-enhanced-collection btvz6x9x9qn3",
-    "verified 2026-10-09 via web search: a 4K/60fps remaster of Blood Money + Absolution, released 2019-01-11, PlayStation 4 + Xbox One only - no windows build"
-   ],
-   "notes": "the 2019 console remaster: blood money + absolution rebuilt at 4k/60 for ps4 / xbox one. its 2013 predecessor, the hitman hd trilogy, hd-remastered silent assassin, contracts and blood money on ps3 / xbox 360. neither shipped a windows build, so the windows originals on this shelf stay the definitive pc versions",
-   "genres": [
-    "action"
-   ],
-   "subgenres": [
-    "stealth"
-   ],
-   "size_est_mb": null,
-   "size_source": null,
-   "req_tier": null
-  },
-  {
-   "title": "Hitman HD Trilogy",
-   "slug": "hitman-hd-trilogy",
-   "list": "action",
-   "class": "remaster",
-   "category": "stealth action",
-   "series": "hitman",
-   "series_part": null,
-   "content_walls": [],
-   "big_size": false,
-   "big_size_gb": null,
-   "release": "2013-01-29",
-   "developers": [
-    "IO Interactive"
-   ],
-   "publishers": [
-    "Square Enix"
-   ],
-   "platforms": [
-    "ps3",
-    "xbox-360"
-   ],
-   "players": {
-    "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
-   },
-   "buyable": false,
-   "download_kind": null,
-   "test_status": "not-tested",
-   "target_os": null,
-   "haswell_igpu_ok": null,
-   "confidence": "verified",
-   "sources": [
-    "hitman.fandom.com/wiki/Hitman_HD_Trilogy",
-    "en.wikipedia.org/wiki/Hitman:_Blood_Money (january 2013, ps3 + xbox 360)",
-    "amazon.com Hitman HD Trilogy - Square Enix"
-   ],
-   "notes": "the 2013 console remaster: silent assassin + contracts + blood money in hd on ps3 / xbox 360, published by square enix. never windows. digitally delisted since - the hd enhanced collection (2019) took its slot on the modern consoles",
-   "genres": [
-    "action"
-   ],
-   "subgenres": [
-    "stealth"
-   ],
-   "size_est_mb": null,
-   "size_source": null,
-   "req_tier": null
-  },
-  {
    "title": "Chicken Invaders 2: The Next Wave Remastered",
    "list": "casual",
    "class": "upgrade-of-normal",
@@ -32760,6 +32625,716 @@
    "size_est_mb": null,
    "size_source": null,
    "req_tier": "at"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Dark Shadows",
+   "slug": "dark-shadows",
+   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "platforms": [
+    "windows"
+   ],
+   "release": null,
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "horror"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them; exact title/year unverified this round - the name rides the owner's word alone"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Hellforces",
+   "slug": "hellforces",
+   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2004-01-01",
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "action",
+    "shooter"
+   ],
+   "subgenres": [
+    "sci-fi"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Inhabited Island: Prisoner of Power",
+   "slug": "inhabited-island-prisoner-of-power",
+   "category": "🏰 STRATEGY, TACTICS, SIMULATION & JRPGs",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2007-01-01",
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "strategy",
+    "rpg"
+   ],
+   "subgenres": [
+    "tactical"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Scorpion Disfigured",
+   "slug": "scorpion-disfigured",
+   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2009-01-01",
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "action",
+    "shooter"
+   ],
+   "subgenres": [
+    "third-person"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Cernaja Metka",
+   "slug": "cernaja-metka",
+   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "platforms": [
+    "windows"
+   ],
+   "release": null,
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "adventure"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them; russian title «Чёрная метка» (Black Mark), owner spelling kept; year unverified this round"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "MorphX",
+   "slug": "morphx",
+   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2010-01-01",
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "action",
+    "shooter"
+   ],
+   "subgenres": [
+    "sci-fi"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Beowulf: The Game",
+   "slug": "beowulf-the-game",
+   "category": "🎬 ANIMATED, MOVIE & TV ADAPTATIONS",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2007-11-01",
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "hack and slash"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them; ubisoft's 2007 movie tie-in - the longer real title, not 'beowulf 2007'"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "D.i.R.T.: Origin of the Species",
+   "slug": "dirt-origin-of-the-species",
+   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2006-01-01",
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "action",
+    "shooter"
+   ],
+   "subgenres": [
+    "sci-fi"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Bad Day L.A.",
+   "slug": "bad-day-l-a",
+   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2006-01-01",
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "urban"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them; american mcgee's urban-chaos piece - the 'L.A.' rides in the title"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Hamster Heroes",
+   "slug": "hamster-heroes",
+   "category": "⚔️ HACK 'N SLASH, ROGUELIKES, PLATFORMERS & MUSOU",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2008-01-01",
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "platformer"
+   ],
+   "subgenres": [
+    "puzzle"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them; not the casual Hamsterball - a different game, filed non-casual per owner"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "I-Ninja",
+   "slug": "i-ninja",
+   "category": "⚔️ HACK 'N SLASH, ROGUELIKES, PLATFORMERS & MUSOU",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2003-11-01",
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "action",
+    "platformer"
+   ],
+   "subgenres": [],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them; argonaut's ninja platformer - 'ininja' on the owner list, windows port per one-platform law"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Metro 2033",
+   "slug": "metro-2033",
+   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2010-03-16",
+   "developers": [
+    "4A Games"
+   ],
+   "publishers": [
+    "THQ"
+   ],
+   "genres": [
+    "action",
+    "shooter"
+   ],
+   "subgenres": [
+    "survival horror"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them; '2033' is part of the real title, not a disambiguator"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Brothers in Arms: Hell's Highway",
+   "slug": "brothers-in-arms-hells-highway",
+   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2008-09-23",
+   "developers": [
+    "Gearbox Software"
+   ],
+   "publishers": [
+    "Ubisoft"
+   ],
+   "genres": [
+    "action",
+    "shooter"
+   ],
+   "subgenres": [
+    "tactical",
+    "ww2"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Spartan: Total Warrior",
+   "slug": "spartan-total-warrior",
+   "category": "🎮 PS2 / CONSOLE EXCLUSIVES",
+   "platforms": [
+    "ps2"
+   ],
+   "release": "2005-10-01",
+   "developers": [
+    "The Creative Assembly"
+   ],
+   "publishers": [
+    "SEGA"
+   ],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "hack and slash"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them; owner pinned this one to ps2 - no windows build exists"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "The Warriors: Street Brawl",
+   "slug": "the-warriors-street-brawl",
+   "category": "🥊 FIGHTING GAMES, MUGEN & ARENA BRAWLERS",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2009-01-01",
+   "developers": [],
+   "publishers": [],
+   "genres": [
+    "fighting"
+   ],
+   "subgenres": [
+    "beat em up"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them; the longer real title per owner's 'street brawl' entry"
+  },
+  {
+   "list": "non-casual",
+   "class": "normal",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false,
+    "max_local": 1
+   },
+   "buyable": null,
+   "download_kind": null,
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null,
+   "title": "Infernal",
+   "slug": "infernal",
+   "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
+   "platforms": [
+    "windows"
+   ],
+   "release": "2007-01-01",
+   "developers": [
+    "Metropolis Software"
+   ],
+   "publishers": [],
+   "genres": [
+    "action",
+    "shooter"
+   ],
+   "subgenres": [
+    "third-person"
+   ],
+   "notes": "legacy batch add (owner, 2026-10-10, no-search round): owner-listed, facts land when a dig verifies them; the 2007 pc original (the 360 port went by 'Infernal: Hell's Vengeance')"
   }
  ]
 }

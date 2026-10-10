@@ -1,7 +1,7 @@
 {
  "_meta": {
   "schema": "ggs.v1",
-  "updated": "2026-10-11",
+  "updated": "2026-10-10",
   "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/."
  },
  "series": [
@@ -197,13 +197,6 @@
      "part": 5
     },
     {
-     "title": "Hitman HD Enhanced Collection",
-     "slug": "hitman-hd-enhanced-collection",
-     "part": null,
-     "kind": "remaster",
-     "y": "2019"
-    },
-    {
      "title": "HITMAN World of Assassination",
      "slug": "hitman-world-of-assassination",
      "part": 9,
@@ -225,7 +218,7 @@
      "release": "2021-01-20"
     }
    ],
-   "upgrades_note": "the HD Enhanced Collection (2019) remasters Blood Money + Absolution on consoles only; the World of Assassination line (2016-2023) is the modern path - heavy for haswell iGPUs, listed, not archive targets",
+   "upgrades_note": "the World of Assassination line (2016-2023) is the modern path - heavy for haswell iGPUs, listed, not archive targets; the console-only HD remaster lines are out of the archive's platform law entirely",
    "title": "Hitman"
   },
   {

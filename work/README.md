@@ -8,8 +8,10 @@ lists, the sorted copies, and the databases live.
 work/
   original-lists/
     as-is/        the owner's uploads, byte-exact, never edited
-    sorted/       same entries mechanically sorted (one line per owner entry,
-                  alphabetical inside each section, grouping untouched)
+    sorted/       GENERATED view of lists/games/games.json by tools/sorted_lists.py
+                  (one line per row: name platform year #tags, xN = declared
+                  entries; casual-sorted.txt, non-casual-sorted.txt and
+                  list.txt = both in one file with an internal split)
   lists/
     games/        the games database (games.json + series.json + name-check/)
     software/     apps, crack tools, mod tools (NOT mods)
@@ -19,14 +21,24 @@ work/
 
 ## laws
 
-1. `original-lists/as-is/` is sacred. never edit, never reformat. the sorted
-   copies are generated from it, but the as-is files are the owner's word.
-2. entries flow: as-is list -> debunk/verify -> `lists/*/` database -> `data/`
+1. `original-lists/as-is/` is sacred. never edit, never reformat. the as-is
+   files are the owner's word.
+2. `original-lists/sorted/` is a generated view of `lists/games/games.json`
+   (owner law 2026-10-10, replaces the old sort-of-as-is flow). regenerate with
+   `python3 tools/sorted_lists.py` after any database change; never hand-edit
+   it. format per line: `name platform year #tags`, platform shows PC for
+   windows rows, year is ???? when unknown, tags are #big-size #sex #gore, and
+   xN marks only titles that mechanically DECLARE multiple games.
+3. entries flow: as-is list -> debunk/verify -> `lists/*/` database -> `data/`
    public copy -> page. an entry can sit in the database with
    `confidence: owner-listed` forever if it is not yet verified. it can NOT
    become a page until its row is verified.
-3. every verified fact carries its source in the row's `sources` array.
+4. every verified fact carries its source in the row's `sources` array.
    no source, no verified status. no invented facts, no fake names, no
    made-up dates to fill holes. unknown = null.
-4. before adding any new game, check `lists/games/name-check/games-added.txt`.
+5. before adding any new game, check `lists/games/name-check/games-added.txt`.
    if the name is there, the game is already in. do not add twice.
+6. platform law pointer (brand-style-more.md section 12.1): one platform per
+   game, native windows wins, supported consoles = ps1/ps2/psp/gc/wii; ps3,
+   ps4, xbox, wii u, switch, android never appear in the database or on the
+   site (the hitman HD remasters went to attic/ over this).

@@ -1,205 +1,402 @@
 ===================================================================
-  CASUAL — SORTED (mechanical sort of the as-is file)
-  one line per owner entry, alphabetical inside each section.
-  grouping of a line is the owner's; sorting does not re-group.
+  CASUAL — SORTED (generated from the games.json database)
+  one line per row:  name platform year #tags   (xN = declared entries)
 ===================================================================
 
-[ UNSORTED ]
-- CASUAL GAMES VAULT (2000s CLASSICS)
-
 [ ⏱️ TIME MANAGEMENT, FARMING, RESTAURANT & TYCOON SIMS ]
-- Alice Greenfingers 2
-- Bloom: A Bouquet for Everyone
-- Booty Farm #+18
-- Burger Shop 1 & 2
-- Cake Mania 1, 2 & 3
-- Cake Queen / Baking Bustle
-- Carrie the Caregiver 3: Camp Funshine
-- Casino Chaos / Travel Agency
-- Cathie's Caribbean Club / Paradise Beach 2
-- Chocolatier Series (Chocolatier 1, Chocolatier 2: Secret Agent, Chocolatier: Decadence by Design)
-- Claire's Cruisin' Cafe 1, 2 & 3
-- Coffee Rush
-- Country Fair / Sunshine Acres / Summer Rush / Success Story
-- Dress Up Rush
-- Farm for Your Life / My Farm / African Farm / Green Ranch / My Little Farmies
-- Farm Frenzy Series (1-4, Farm Frenzy: Gone Fishing)
-- Farming Fever Series / Farm Land
-- Farm Mania 2 / Ranch Rush 1 & 2
-- Garage Inc. / Dream Cars
-- Gardenscapes / Garden Dreams
-- Golden Hearts Juice Bar
-- Home Sweet Home 1 & 2
-- Hospital Hustle / Hospital Haste
-- Hotel Mogul
-- Huru Beach Party / Tiki Bar
-- Ice Cream Mania
-- Insaniquarium Deluxe
-- Jane's Series (Jane's Hotel, Jane's Hotel Mania, Jane's Zoo)
-- Jo's Dream: Organic Coffee 1 & 2
-- Kingdoms and Castles
-- Kitchen Brigade / Lovely Kitchen / Dead Hungry Diner
-- Leeloo Talent Agency
-- Magic Farm 1, 2 & 3
-- Megaplex Madness: Now Playing
-- Milky Bear: Lunch Frenzy
-- Miss Management
-- My Farm Life 1 & 2
-- Mystic Emporium
-- Mystic Inn (2006)
-- Nanny Mania 2 / Baby Blimp
-- Pageant Princess / Princess of Tavern
-- Papa's Deluxe Series (Papa's Freezeria Deluxe, Papa's Pizzeria Deluxe, Papa's Mocharia Deluxe)
-- Party Down / Party Planner
-- Pastry Passion / Vogue Tales / Exotic Farm
-- Pizza Chief 1 & 2
-- Plantasia (2006)
-- Posh Boutique 1 & 2 / Posh Shop
-- Project Rescue: Africa
-- Royal Envoy 2 / Royal Envoy Series
-- Sally's Series (Sally's Salon, Sally's Studio, Sally's Quick Clips)
-- Sara's Super Spa Deluxe
-- Shopmania
-- Spa Mania
-- Stand O'Food 1, 2 & 3
-- Stardew Valley
-- Supermarket Management 1 & 2
-- Supermarket Mania 1 & 2
-- Sushi Frenzy
-- Tasty Bite / Cooking Academy 2 / Cooking Fever
-- The Dash Universe (Diner Dash, Hotel Dash, Doggie Dash, SpongeBob Diner Dash 1 & 2, Delicious 1 & 2, Garden Dash, DinerTown Tycoon)
-- Turbo Series (Turbo Pizza, Turbo Fiesta, Turbo Subs)
-- TV Farm 1 & 2
-- Wendy's Wellness
-- Youda Series (Youda Farmer 1-3, Youda Fisherman, Youda Survivor 2)
+- African Farm PC ????
+- Alice Greenfingers 2 PC ????
+- Avenue Flo PC 2009
+- Avenue Flo: Special Delivery PC 2010
+- Baby Blimp PC ????
+- Baking Bustle PC ????
+- Bloom: A Bouquet for Everyone PC ????
+- Booty Farm PC 2022 #sex
+- Burger Shop 1 & 2 PC ???? x2
+- Cake Mania 1, 2 & 3 PC ???? x3
+- Cake Queen PC ????
+- Carrie the Caregiver 3: Camp Funshine PC ????
+- Casino Chaos PC ????
+- Cathie's Caribbean Club PC ????
+- Chicken Invaders 2: The Next Wave - Christmas Edition PC 2003
+- Chicken Invaders 3: Revenge of the Yolk - Christmas Edition PC 2006
+- Chicken Invaders 3: Revenge of the Yolk - Easter Edition PC 2010
+- Chicken Invaders 4: Ultimate Omelette - Christmas Edition PC 2011
+- Chicken Invaders 4: Ultimate Omelette - Easter Edition PC 2012
+- Chicken Invaders 4: Ultimate Omelette - Thanksgiving Edition PC 2013
+- Chicken Invaders 5: Cluck of the Dark Side - Christmas Edition PC 2016
+- Chicken Invaders 5: Cluck of the Dark Side - Halloween Edition PC 2015
+- Chocolatier Series (Chocolatier 1, Chocolatier 2: Secret Ingredients, Chocolatier: Decadence by Design) PC ???? x3
+- Claire's Cruisin' Cafe 1, 2 & 3 PC ???? x3
+- Coffee Rush PC ????
+- Cooking Academy 2 PC ????
+- Cooking Dash PC 2008
+- Cooking Dash 3: Thrills & Spills - Collector's Edition PC 2010
+- Cooking Dash 3: Thrills and Spills PC 2010
+- Cooking Dash: DinerTown Studios PC 2009
+- Cooking Fever PC ????
+- Country Fair PC ????
+- Dairy Dash PC 2008
+- Dead Hungry Diner PC ????
+- Diaper Dash PC 2009
+- Diner Dash PC 2003
+- Diner Dash 2: Restaurant Rescue PC 2006
+- Diner Dash 5: Boom PC 2010
+- Diner Dash 5: BOOM! - Collector's Edition PC 2012
+- Diner Dash: Flo on the Go PC 2006
+- Diner Dash: Flo Through Time PC 2008
+- Diner Dash: Hometown Hero PC 2007
+- Diner Dash: Hometown Hero - Once Upon a Diner PC 2009
+- Diner Dash: Seasonal Snack Pack PC 2007
+- DinerTown Tycoon PC 2009
+- Doggie Dash PC 2008
+- Dream Cars PC ????
+- Dress Up Rush PC ????
+- Exotic Farm PC ????
+- Farm for Your Life PC ????
+- Farm Frenzy Series (1-4, Farm Frenzy: Gone Fishing) PC ???? x5
+- Farm Land PC ????
+- Farm Mania 2 PC ????
+- Farming Fever Series PC ????
+- Fashion Dash PC 2008
+- Fitness Dash PC 2008
+- Garage Inc. PC ????
+- Garden Dash PC 2011
+- Garden Dreams PC ????
+- Gardenscapes PC ????
+- Golden Hearts Juice Bar PC ????
+- Green Ranch PC ????
+- Home Sweet Home 1 & 2 PC ???? x2
+- Hospital Haste PC ????
+- Hospital Hustle PC ????
+- Hotel Dash: Lost Luxuries PC 2011
+- Hotel Dash: Suite Success PC 2009
+- Hotel Mogul PC ????
+- Huru Beach Party PC ????
+- Ice Cream Mania PC ????
+- Insaniquarium Deluxe PC 2006
+- Jane's Series (Jane's Hotel, Jane's Hotel Mania, Jane's Zoo) PC ???? x3
+- Jo's Dream: Organic Coffee 1 & 2 PC ???? x2
+- Kingdoms and Castles PC 2017
+- Kitchen Brigade PC ????
+- Leeloo Talent Agency PC ????
+- Lovely Kitchen PC ????
+- Magic Farm 1, 2 & 3 PC ???? x3
+- Megaplex Madness: Now Playing PC ????
+- Milky Bear: Lunch Frenzy PC ????
+- Miss Management PC ????
+- My Farm PC ????
+- My Farm Life 1 & 2 PC ???? x2
+- My Little Farmies PC ????
+- Mystic Emporium PC ????
+- Mystic Inn PC 2006
+- Nanny Mania 2 PC ????
+- Pageant Princess PC ????
+- Papa's Deluxe Series (Papa's Freezeria Deluxe, Papa's Pizzeria Deluxe, Papa's Mocharia Deluxe) PC ???? x3
+- Paradise Beach 2 PC ????
+- Parking Dash PC 2008
+- Party Down PC ????
+- Party Planner PC ????
+- Pastry Passion PC ????
+- Pizza Chief 1 & 2 PC ???? x2
+- Plantasia PC 2006
+- Posh Boutique 1 & 2 PC ???? x2
+- Posh Shop PC ????
+- Princess of Tavern PC ????
+- Project Rescue: Africa PC ????
+- Ranch Rush 1 & 2 PC ???? x2
+- Royal Envoy 2 PC ????
+- Royal Envoy Series PC ????
+- Sally's Series (Sally's Salon, Sally's Studio, Sally's Quick Clips) PC ???? x3
+- Sara's Super Spa Deluxe PC ????
+- Shopmania PC ????
+- Soap Opera Dash PC 2008
+- Spa Mania PC ????
+- SpongeBob Diner Dash 2: Two Times the Trouble PC 2007
+- SpongeBob SquarePants Diner Dash PC 2006
+- Stand O'Food 1, 2 & 3 PC ???? x3
+- Stardew Valley PC 2016
+- Success Story PC ????
+- Summer Rush PC ????
+- Sunshine Acres PC ????
+- Supermarket Management 1 & 2 PC ???? x2
+- Supermarket Mania 1 & 2 PC ???? x2
+- Sushi Frenzy PC ????
+- Tasty Bite PC ????
+- Tiki Bar PC ????
+- Travel Agency PC ????
+- Turbo Series (Turbo Pizza, Turbo Fiesta, Turbo Subs) PC ???? x3
+- TV Farm 1 & 2 PC ???? x2
+- Vogue Tales PC ????
+- Wedding Dash PC 2007
+- Wedding Dash 2: Rings Around the World PC 2008
+- Wedding Dash 4-Ever PC 2010
+- Wedding Dash: Ready, Aim, Love PC 2009
+- Wendy's Wellness PC ????
+- Youda Series (Youda Farmer 1-3, Youda Fisherman, Youda Survivor 2) PC ???? x5
 
 [ 🛡️ TOWER DEFENSE, ROGUELITE & TACTICAL CASUAL ]
-- Bloons TD 6
-- Bug Bits
-- Dead Cells
-- Garden Rescue
-- Kingdom Rush Series
-- Medieval Defenders
-- Plants vs. Zombies
-- Rampage Knights
-- Royal Defense / Royal Defense: Ancient Menace
-- SNKRX
-- Strikeforce Kitty
-- Super Virus Defense
-- The Binding of Isaac: Rebirth
-- Toy Defense 2
-- Vampire Survivors
-- Zombie Apocalypse
+- Bloons TD 6 PC 2018
+- Bug Bits PC ????
+- Dead Cells PC 2018
+- Garden Rescue PC ????
+- Kingdom Rush Series PC ????
+- Medieval Defenders PC ????
+- Plants vs. Zombies PC 2025
+- Rampage Knights PC ????
+- Royal Defense PC ????
+- Royal Defense: Ancient Menace PC ????
+- SNKRX PC ????
+- Strikeforce Kitty PC ????
+- Super Virus Defense PC ????
+- The Binding of Isaac: Rebirth PC 2014
+- Toy Defense 2 PC ????
+- Vampire Survivors PC 2022
+- Zombie Apocalypse PC ????
 
 [ 🏃 PHYSICS, PUZZLE, ARCADE, PLATFORMERS & GROWTH ]
-- 3D Frog Frenzy / Moorhuhn Series (including Crazy Chicken Sky Botz)
-- Action Ball 1 & 2 / ThinkTanks / Teddy Factory / Neverball
-- Ape Out
-- Ballance (2004) / Hopmon / Iggle Pop! / Digging Jim
-- Braid
-- Cactus Bruce and the Corporate Monkeys
-- Captain Claw / Alex Gordon / Supercow / Turtix
-- CheboMan
-- Chicken Chase / Worms Blast / Switchball
-- Chuzzle / Dynomite Deluxe / Sven Bømwøllen Series
-- Geometry Dash
-- Gumboy: Crazy Adventures / Mage Bros / Zak & Jack / NinjaBread Man
-- Home Sheep Home
-- How Many Dudes
-- Incredible Jack / Rosso Rabbit in Trouble
-- Jazz Jackrabbit 2
-- Mad Dojo / Bear Bill / Ziggy's Chase / Ultimate Solid / Cattch / Spring Boy
-- Magic Ball 3 / Turtle Odyssey 1 & 2 / Turtle Bay
-- Neighbours from Hell 1 & 2 / Smoke Attack / AirXonix / Axy Snake / Hamsterball
-- Noah's Ark
-- Octogeddon / Brotato / Overcooked!
-- Ostrich Runner / Chromadrome 1 & 2 / Clash 'N Slash
-- Peggle / Peggle Nights
-- People Playground
-- Plumeboom: The First Chapter
-- Puzzle Hero
-- Santa Claus in Trouble
-- Smiling Pasta / Last Samurai Exam
-- Snowy the Bear Collection (Snowy Space Trip, Fish Frenzy, Lunch Rush, Treasure Hunt 1-3, Puzzle Islands)
-- Spiderz / Space Strike / Slumberfish / Sky Kingdoms
-- Stick Fight
-- Super Granny (1-6)
-- Super Saurio Fly
-- Super Smasher / Jump Jelly Reactor
-- Talismania
-- Tasty Planet / Tasty Planet: Back for the Seconds / Tasty Blue
-- Terraria
-- Wik and the Fable of Souls / Beetle Bug 3 / Snail Mail / Icy Tower
+- 3D Frog Frenzy PC ????
+- Action Ball 1 & 2 PC ???? x2
+- AirXonix PC ????
+- Alex Gordon PC ????
+- Ape Out PC ????
+- Axy Snake PC ????
+- Ballance PC 2004
+- Bear Bill PC ????
+- Beetle Bug 3 PC 2008
+- Braid PC 2009
+- Brotato PC 2023
+- Cactus Bruce and the Corporate Monkeys PC ????
+- Captain Claw PC ????
+- Cattch PC ????
+- CheboMan PC ????
+- Chicken Chase PC ????
+- Chromadrome 1 & 2 PC ???? x2
+- Chuzzle PC 2006
+- Clash 'N Slash PC ????
+- Digging Jim PC ????
+- Dynomite Deluxe PC 2006
+- Geometry Dash PC 2014
+- Gumboy: Crazy Adventures PC ????
+- Hamsterball PC ????
+- Home Sheep Home PC ????
+- Hopmon PC ????
+- How Many Dudes PC ????
+- Icy Tower PC ????
+- Iggle Pop! PC ????
+- Incredible Jack PC ????
+- Jazz Jackrabbit 2 PC ????
+- Jump Jelly Reactor PC ????
+- Last Samurai Exam PC ????
+- Mad Dojo PC ????
+- Mage Bros PC ????
+- Magic Ball 3 PC ????
+- Moorhuhn Series (including Crazy Chicken Sky Botz) PC ????
+- Neighbours from Hell 1 & 2 PC ???? x2
+- Neverball PC ????
+- NinjaBread Man PC ????
+- Noah's Ark PC ????
+- Octogeddon PC ????
+- Ostrich Runner PC ????
+- Overcooked! PC 2016
+- Peggle PC 2007
+- Peggle Nights PC 2008
+- People Playground PC ????
+- Plumeboom: The First Chapter PC ????
+- Puzzle Hero PC ????
+- Rosso Rabbit in Trouble PC ????
+- Santa Claus in Trouble PC ????
+- Sky Kingdoms PC ????
+- Slumberfish PC ????
+- Smiling Pasta PC ????
+- Smoke Attack PC ????
+- Snail Mail PC ????
+- Snowy the Bear Collection (Snowy Space Trip, Fish Frenzy, Lunch Rush, Treasure Hunt 1-3, Puzzle Islands) PC ???? x7
+- Space Strike PC ????
+- Spiderz PC ????
+- Spring Boy PC ????
+- Stick Fight PC ????
+- Super Granny (1-6) PC ???? x6
+- Super Saurio Fly PC ????
+- Super Smasher PC ????
+- Supercow PC ????
+- Sven Bømwøllen Series PC ????
+- Switchball PC ????
+- Talismania Deluxe PC 2006
+- Tasty Blue PC ????
+- Tasty Planet PC ????
+- Tasty Planet: Back for the Seconds PC ????
+- Teddy Factory PC ????
+- Terraria PC 2011
+- ThinkTanks PC ????
+- Turtix PC ????
+- Turtle Bay PC ????
+- Turtle Odyssey 1 & 2 PC ???? x2
+- Ultimate Solid PC ????
+- Wik and the Fable of Souls PC ????
+- Worms Blast PC ????
+- Zak & Jack PC ????
+- Ziggy's Chase PC ????
 
 [ 🕹 FLASH & WEB BROWSER CLASSICS ]
-- Flashpoint Archive
-- YetiSports Collection
+- Flashpoint Archive PC ????
+- YetiSports Collection PC ????
 
 [ 🔮 MARBLE POPPERS, MATCH-3, BUBBLES & CARDS ]
-- 4 Elements II / Adventure Inlay / Chainz 2: Relinked
-- 7 Wonders Series (7 Wonders II, Magical Mystery Tower)
-- AstroPop Deluxe / Atomica Deluxe / Pixelus Deluxe / Qbeez 2
-- Banana Bugs
-- Bookworm Adventures 1 & 2
-- BreakQuest
-- Bubble Fish Bob
-- Candy Crush Saga (Appx)
-- Danny Phantom's Ghost Frenzy
-- Dynasty
-- Eets: Hunger It's Emotional
-- Egyptian Builder: Ancient Egypt / Camellia's Locket / Charma
-- Fishdom 3 / Fishdom Series
-- Green Valley: Fun on the Farm / Butterfly Escape / Tumblebugs / Pirate Poppers / Beetle Bomp
-- Luxor / Bejeweled 3
-- Mad Caps / Big Money! Deluxe / Cosmic Bugs / Bug Attack
-- Microsoft Solitaire / Casual Cards Collection / Hoyle Board Games 2005
-- Penguin's Journey / Aquapolis
-- Rocket Mania!
-- Rose Riddle: Fairy Tale Detective
-- Seven Seas Deluxe / TipTop Deluxe / Venice Deluxe
-- Sparkle / Sparkle Unleashed / Svetlogard / Karu
-- Yu-Gi-Oh! Battle City Finals v2
-- Yu-Gi-Oh! Power of Chaos Trilogy (Yugi, Kaiba, Joey)
-- Zuma Deluxe / Zuma's Revenge!
+- 4 Elements II PC ????
+- 7 Wonders Series (7 Wonders II, Magical Mystery Tower) PC ???? x2
+- Adventure Inlay PC ????
+- Aquapolis PC ????
+- AstroPop Deluxe PC 2004
+- Atomica Deluxe PC 2002
+- Banana Bugs PC ????
+- Beetle Bomp PC ????
+- Bejeweled 3 PC 2010
+- Big Money! Deluxe PC 2002
+- Bookworm Adventures 1 & 2 PC 2006 x2
+- BreakQuest PC ????
+- Bubble Fish Bob PC ????
+- Bug Attack PC ????
+- Butterfly Escape PC ????
+- Camellia's Locket PC ????
+- Candy Crush Saga (Appx) PC 2012
+- Casual Cards Collection PC ????
+- Chainz 2: Relinked PC ????
+- Charma PC 2008
+- Cosmic Bugs PC ????
+- Danny Phantom's Ghost Frenzy PC ????
+- Dynasty PC ????
+- Eets: Hunger It's Emotional PC ????
+- Egyptian Builder: Ancient Egypt PC ????
+- Fishdom 3 PC ????
+- Fishdom Series PC ????
+- Green Valley: Fun on the Farm PC ????
+- Hoyle Board Games 2005 PC ????
+- Karu PC 2008
+- Luxor PC 2004
+- Mad Caps PC ????
+- Microsoft Solitaire PC ????
+- Penguin's Journey PC ????
+- Pirate Poppers PC ????
+- Pixelus Deluxe PC 2004
+- Qbeez 2 PC 2005
+- Rocket Mania! PC 2003
+- Rose Riddle: Fairy Tale Detective PC ????
+- Seven Seas Deluxe PC 2003
+- Sparkle PC 2007
+- Sparkle Unleashed PC 2016
+- Svetlogard PC ????
+- TipTop Deluxe PC 2003
+- Tumblebugs PC ????
+- Venice Deluxe PC 2004
+- Yu-Gi-Oh! Battle City Finals v2 PC ????
+- Yu-Gi-Oh! Power of Chaos Trilogy (Yugi, Kaiba, Joey) PC ???? x3
+- Zuma Deluxe PC 2006
+- Zuma's Revenge! PC 2009
 
 [ 🔫 LIGHT-GUN, VEHICULAR, RUNNERS & SHOOT 'EM UPS ]
-- Beach Head 2002
-- Cannon Blast / Rescue Frenzy / System Mania / Glowfish
-- Chicken Attack / Chicken's Revenge
-- Chicken Invaders Series (1-5 & Chicken Invaders Universe)
-- Heavy Weapon
-- Hotline Miami 1 & 2
-- Hungry Shark (Appx / Classic)
-- Monster Mash / Garden Defense / Magic Maze / Magus: In Search of Adventure
-- Pocket Tanks
-- Recoil (1999) / Super Stardust / HyperBowl Arcade Edition
-- Ricochet / Ricochet Xtreme / Ricochet Lost Worlds
-- Terminator 2D: No Fate
-- The House of the Dead 1, 2 & 3
-- Twisted Metal 2 / Zombie Derby / Hatred / Granny 3
-- Wipeout XL / Minion Rush / Badington Run / Funny Miners
-- Zombie Bowl-O-Rama
-- Zombie Shooter 1 & 2
+- Badington Run PC ????
+- Beach Head 2002 PC ????
+- Cannon Blast PC ????
+- Chicken Attack PC ????
+- Chicken's Revenge PC ????
+- Funny Miners PC ????
+- Garden Defense PC ????
+- Glowfish PC ????
+- Granny 3 PC ????
+- Hatred PC 2015 #gore
+- Heavy Weapon PC 2006
+- Hotline Miami 1 & 2 PC ???? x2
+- Hungry Shark (Appx / Classic) PC 2013
+- HyperBowl Arcade Edition PC ????
+- Magic Maze PC ????
+- Magus: In Search of Adventure PC ????
+- Minion Rush PC ????
+- Monster Mash PC ????
+- Pocket Tanks PC ????
+- Recoil PC 1999
+- Rescue Frenzy PC ????
+- Ricochet PC ????
+- Ricochet Lost Worlds PC ????
+- Ricochet Xtreme PC ????
+- Super Stardust PC ????
+- System Mania PC ????
+- Terminator 2D: No Fate PC ????
+- The House of the Dead 1, 2 & 3 PC ???? x3
+- Twisted Metal 2 PC ????
+- Wipeout XL PC ????
+- Zombie Bowl-O-Rama PC ????
+- Zombie Derby PC ????
+- Zombie Shooter 1 & 2 PC ???? x2
 
 [ 🏎️ ARCADE RACING, SPORTS & SIDE-SCROLLERS ]
-- Atomic Bomberman / Star Defender 4
-- Beach Buggy Racing 2 / Hydro Thunder / Riptide GP: Renegade
-- Crazy Taxi 3: High Roller
-- Doubler Gold
-- Feeding Frenzy 1 & 2
-- Fishing Craze
-- Hill Climb Racing (Appx)
-- Mario Forever / Metal Slug X / Crazy Frog Racer 2
-- M&M's: Lost Formulas / Urban Freestyle Soccer
-- NASCAR Racers
-- Strike Ball 3 / Smash Frenzy / Gold Miner Vegas
-- TailsMania Deluxe
+- Atomic Bomberman PC ????
+- Beach Buggy Racing 2 PC 2018
+- Crazy Frog Racer 2 PC 2006
+- Crazy Taxi 3: High Roller PC 2002
+- Doubler Gold PC ????
+- Feeding Frenzy 1 & 2 PC ???? x2
+- Fishing Craze PC ????
+- Gold Miner Vegas PC ????
+- Hill Climb Racing (Appx) PC 2012
+- Hydro Thunder PC 1999
+- M&M's: Lost Formulas PC ????
+- Mario Forever PC ????
+- Metal Slug X PC ????
+- NASCAR Racers PC 2000
+- Riptide GP: Renegade PC 2016
+- Smash Frenzy PC ????
+- Star Defender 4 PC ????
+- Strike Ball 3 PC ????
+- Urban Freestyle Soccer PC ????
 
 [ 🐾 PETS, SIMS & VIRTUAL WORLD ]
-- Abandoned Archive
-- Angry Birds 2 (Appx)
-- Best Friends Forever / Pet Playground / Pet Fun House
-- Dub Redhead: The Time Chase
-- Happyville: Quest for the Extra-Inning / Happy Hour / Making Mr. Right
-- Photo Mania / Piggly / Plant Tycoon
-- Yumsters! / Yummi Drink Factory
+- Abandoned Archive PC ????
+- Angry Birds 2 (Appx) PC 2015
+- Best Friends Forever PC ????
+- Dub Redhead: The Time Chase PC ????
+- Happy Hour PC ????
+- Happyville: Quest for the Extra-Inning PC ????
+- Making Mr. Right PC ????
+- Pet Fun House PC ????
+- Pet Playground PC ????
+- Photo Mania PC ????
+- Piggly PC ????
+- Plant Tycoon PC ????
+- Yummi Drink Factory PC ????
+- Yumsters! PC ????
+
+[ fixed shooters ]
+- Chicken Invaders PC 1999
+- Chicken Invaders 2: The Next Wave PC 2002
+- Chicken Invaders 2: The Next Wave Remastered PC 2012
+- Chicken Invaders 3: Revenge of the Yolk PC 2007
+- Chicken Invaders 4: Ultimate Omelette PC 2010
+- Chicken Invaders 5: Cluck of the Dark Side PC 2014
+- Chicken Invaders Episode 1: The Saga Begins PC 2025
+- Chicken Invaders Episodes PC 2025
+- Chicken Invaders Universe PC 2022
+- Chicken Invaders: Remastered PC 2023
+
+[ PLAYFIRST LINE - PAGES PENDING ]
+- Chessmaster Challenge PC 2005
+- Dream Chronicles PC 2007
+- Dream Chronicles: The Book of Air PC 2010
+- Dream Chronicles: The Chosen Child PC 2009
+- Egg vs. Chicken PC ????
+- Emerald City Confidential PC 2009
+- Oasis PC ????
+- Wandering Willows PC 2009
+
+[ 🔍 HIDDEN OBJECT & MYSTERY ]
+- DinerTown Detective Agency PC 2009
+
+[ Puzzle & Marble Shooters ]
+- Luxor 2 PC 2006
+- Luxor 3 PC 2007
+- Luxor 5Th Passage PC 2010
+- Luxor Amun Rising PC 2005
+- Luxor Quest For The Afterlife PC 2008
+
+[ 🏎 RACING & VEHICULAR ACTION ]
+- Need for Speed: Most Wanted (2005) PC 2005

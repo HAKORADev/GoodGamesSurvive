@@ -9,18 +9,16 @@
    "slug": "hitman-collection",
    "title": "The Complete Hitman",
    "section": "games",
-   "caption": "the four classic hits, 2002 to 2012, plus the console remasters that complete the line.",
+   "caption": "the four classic hits, 2002 to 2012, all windows builds.",
    "about": [
-    "Every Hitman entry the catalogue carries, in one place: Silent Assassin (2002), Contracts (2004), Blood Money (2006) and Absolution (2012) - the four windows builds this archive digs - plus the two console remaster lines that sit above them. The 2013 Hitman HD Trilogy rebuilt Silent Assassin, Contracts and Blood Money for ps3 and xbox 360; the 2019 Hitman HD Enhanced Collection rebuilt Blood Money and Absolution at 4k/60 for ps4 and xbox one. Neither remaster ever shipped a windows build, so on pc the four originals remain the real thing - both remaster pages document their lines honestly from the console side.",
-    "Codename 47, the World of Assassination trilogy and the spin-offs (GO, Sniper, Sniper Challenge) sit outside the current catalogue; they appear in the series strips as reference only. Six pages, one contract."
+    "Every Hitman entry the catalogue carries, in one place: Silent Assassin (2002), Contracts (2004), Blood Money (2006) and Absolution (2012) - the four windows builds this archive digs. The console-only HD remaster lines (ps3/ps4/xbox) are not part of this archive: the platform law keeps the catalogue to windows plus ps1/ps2/psp/gc/wii, so on pc the four originals are the only real thing.",
+    "Codename 47, the World of Assassination trilogy and the spin-offs (GO, Sniper, Sniper Challenge) sit outside the current catalogue; they appear in the series strips as reference only. Four pages, one contract."
    ],
    "items": [
     "hitman-2-silent-assassin",
     "hitman-3-contracts",
     "hitman-blood-money",
-    "hitman-absolution",
-    "hitman-hd-trilogy",
-    "hitman-hd-enhanced-collection"
+    "hitman-absolution"
    ],
    "catalogued": [],
    "notes": [
