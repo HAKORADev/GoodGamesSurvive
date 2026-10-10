@@ -12,11 +12,7 @@
  },
  "thumbnail": "https://i.ytimg.com/vi/N1luRcAdLak/hqdefault.jpg",
  "gallery": {
-  "images": [
-   "https://i.ytimg.com/vi/N1luRcAdLak/hqdefault.jpg",
-   "https://i.ytimg.com/vi/wms3jOAIMkg/hqdefault.jpg",
-   "https://i.ytimg.com/vi/YxBwAbE1Gcs/hqdefault.jpg"
-  ],
+  "images": [],
   "videos": [
    {
     "id": "N1luRcAdLak",

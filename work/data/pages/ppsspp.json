@@ -10,12 +10,10 @@
   "tier": "below",
   "note": "below target - psp emulation is far under the haswell bar."
  },
- "thumbnail": "https://i.ytimg.com/vi/PlYm-F52HFU/hqdefault.jpg",
+ "thumbnail": "https://www.ppsspp.org/static/img/front/gameroll.jpg",
  "gallery": {
   "images": [
-   "https://i.ytimg.com/vi/PlYm-F52HFU/hqdefault.jpg",
-   "https://i.ytimg.com/vi/qwQVjjGaGgI/hqdefault.jpg",
-   "https://i.ytimg.com/vi/fkYlwr9fOiE/hqdefault.jpg"
+   "https://www.ppsspp.org/static/img/front/gameroll.jpg"
   ],
   "videos": [
    {

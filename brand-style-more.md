@@ -258,3 +258,25 @@ the backend lives in `work/lists/`. the frontend serves a distilled copy in `dat
 - every page title/subtitle served by the engine; dummies tested the dynamic paths then removed.
 
 *add new decisions under this line, newest on top.*
+*add new decisions under this line, newest on top.*
+
+## 14. decisions log v3 (2026-10-10, media-realness round — owner brief verbatim-mapped)
+
+- mod/software shelf cards carry the same card anatomy as games: real thumbnail + caption + full
+  media row. kage_core.index_row now fills th/cap for every section, no exceptions.
+- mod/software page galleries run the SAME gallery implementation as games (one shared
+  gallery_html): video tiles, on-highlight on click, MEDIA NOT FOUND fallback, and a
+  main-video fallback when a page has zero verified images. no more dead image-only script.
+- MEDIA REALNESS LAW: youtube video frames are not gallery images. every gallery image is a
+  real in-game screenshot from a verified source (steam appdetails CDN, gog-statics, official
+  developer sites). pages without a verifiable real screenshot ship FEWER images or a
+  videos-only gallery - never padded with video thumbnails.
+- VIDEO TRUTH LAW: every video id is oembed-verified (alive) AND title-matched to its page
+  (token coverage + sequel-number law + cross-game bigram law + expansion law). wrong-game and
+  dead ids are dropped and refilled from live youtube search with the same laws. honest count
+  beats forced count: a page ships the videos that verify, not three that flatter the template.
+- mods taxonomy note: a modpack targets exactly one game build. the redux v3 pack targets
+  need-for-speed-most-wanted-2005 only - no underground, no carbon, no bundle-page blending.
+  target game fact links to the standalone row; the standalone row exists (dug 2026-10-10).
+- gore wall holds two entries: manhunt-2 and hatred. hatred dug with gog 2026 re-release facts
+  (5.99 usd, 5 GB storage, gog trailer + two no-commentary longplays, 10 gog-statics shots).
