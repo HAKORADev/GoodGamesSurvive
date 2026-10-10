@@ -43,7 +43,7 @@
  "notes_extra": "original release 2013-11-15; the only Thanksgiving Edition in the series; Steam never carried it.",
  "gallery": {
   "images": [
-   "https://i.ytimg.com/vi/8Ht74M7m6so/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/8Ht74M7m6so/hqdefault.jpg",
    "https://i.ytimg.com/vi/8Ht74M7m6so/maxres2.jpg",
    "https://i.ytimg.com/vi/8Ht74M7m6so/maxres1.jpg",
    "https://i.ytimg.com/vi/8Ht74M7m6so/maxres3.jpg",
@@ -72,7 +72,7 @@
    }
   ]
  },
- "thumbnail": "https://i.ytimg.com/vi/8Ht74M7m6so/maxresdefault.jpg",
+ "thumbnail": "https://i.ytimg.com/vi/8Ht74M7m6so/hqdefault.jpg",
  "version_of": "chicken-invaders-4-ultimate-omelette",
  "dug_seq": 11
 }

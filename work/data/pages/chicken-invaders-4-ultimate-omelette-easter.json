@@ -37,7 +37,7 @@
  "notes_extra": "original release 2012-03-11; Steam never carried this edition.",
  "gallery": {
   "images": [
-   "https://i.ytimg.com/vi/Hlzo5Tyl6cY/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/Hlzo5Tyl6cY/hqdefault.jpg",
    "https://i.ytimg.com/vi/Hlzo5Tyl6cY/maxres2.jpg",
    "https://i.ytimg.com/vi/Hlzo5Tyl6cY/maxres1.jpg",
    "https://i.ytimg.com/vi/Hlzo5Tyl6cY/maxres3.jpg",
@@ -45,7 +45,7 @@
    "https://i.ytimg.com/vi/Hlzo5Tyl6cY/hq2.jpg",
    "https://i.ytimg.com/vi/Hlzo5Tyl6cY/hq1.jpg",
    "https://i.ytimg.com/vi/Hlzo5Tyl6cY/hq3.jpg",
-   "https://i.ytimg.com/vi/1vJ7SU09Ld4/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/1vJ7SU09Ld4/hqdefault.jpg",
    "https://i.ytimg.com/vi/1vJ7SU09Ld4/maxres2.jpg"
   ],
   "videos": [
@@ -66,7 +66,7 @@
    }
   ]
  },
- "thumbnail": "https://i.ytimg.com/vi/Hlzo5Tyl6cY/maxresdefault.jpg",
+ "thumbnail": "https://i.ytimg.com/vi/Hlzo5Tyl6cY/hqdefault.jpg",
  "version_of": "chicken-invaders-4-ultimate-omelette",
  "dug_seq": 10
 }

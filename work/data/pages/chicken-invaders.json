@@ -59,7 +59,7 @@
  "notes_extra": "the Steam release of 2025-03-07 (as 'Chicken Invaders 1') is the remastered episode 1, not this 1999 build.",
  "gallery": {
   "images": [
-   "https://i.ytimg.com/vi/hzXR_EwsGGc/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/hzXR_EwsGGc/hqdefault.jpg",
    "https://i.ytimg.com/vi/hzXR_EwsGGc/maxres2.jpg",
    "https://i.ytimg.com/vi/hzXR_EwsGGc/maxres1.jpg",
    "https://i.ytimg.com/vi/hzXR_EwsGGc/maxres3.jpg",
@@ -67,7 +67,7 @@
    "https://i.ytimg.com/vi/hzXR_EwsGGc/hq2.jpg",
    "https://i.ytimg.com/vi/hzXR_EwsGGc/hq1.jpg",
    "https://i.ytimg.com/vi/hzXR_EwsGGc/hq3.jpg",
-   "https://i.ytimg.com/vi/4pxECvjLZ70/maxresdefault.jpg",
+   "https://i.ytimg.com/vi/4pxECvjLZ70/hqdefault.jpg",
    "https://i.ytimg.com/vi/4pxECvjLZ70/maxres2.jpg"
   ],
   "videos": [
@@ -88,7 +88,7 @@
    }
   ]
  },
- "thumbnail": "https://i.ytimg.com/vi/hzXR_EwsGGc/maxresdefault.jpg",
+ "thumbnail": "https://i.ytimg.com/vi/hzXR_EwsGGc/hqdefault.jpg",
  "versions": [],
  "dug_seq": 15
 }

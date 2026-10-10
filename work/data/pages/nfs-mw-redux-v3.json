@@ -15,18 +15,24 @@
   "images": [
    "https://i.ytimg.com/vi/9nnmeXzm1oQ/hqdefault.jpg",
    "https://i.ytimg.com/vi/5p4OtxnKINo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/kNydwnDX-eo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JF-azX-3Gr8/hqdefault.jpg",
    "https://i.ytimg.com/vi/rxGxh0YK0YQ/hqdefault.jpg",
-   "https://i.ytimg.com/vi/_5eUemHMTnc/hqdefault.jpg",
-   "https://i.ytimg.com/vi/Mp4InvLIuJs/hqdefault.jpg"
+   "https://i.ytimg.com/vi/FEmxlTo7zP0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_5eUemHMTnc/hqdefault.jpg"
   ],
   "videos": [
    {
     "id": "9nnmeXzm1oQ",
-    "title": "official release showcase"
+    "title": ""
    },
    {
     "id": "5p4OtxnKINo",
-    "title": "install guide"
+    "title": ""
+   },
+   {
+    "id": "kNydwnDX-eo",
+    "title": ""
    }
   ]
  },
