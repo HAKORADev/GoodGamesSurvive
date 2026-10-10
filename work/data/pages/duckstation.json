@@ -1,0 +1,51 @@
+{
+ "slug": "duckstation",
+ "caption": "the ps1 emulator - stenzek's precision rebuild, the door for this site's ps1 vault.",
+ "about": [
+  "Duckstation is the playstation emulator this site's ps1 vault runs on: upscaled 3d, widescreen patches, save states and the most accurate software renderer in the ps1 field. The official site serves the current builds for windows without pinning a version.",
+  "One law: a ps1 bios image is required for real compatibility, and duckstation ships none - dump it from your own console and load it once in settings; the project's wiki carries the details. Everything else about setup is two minutes of work."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - ps1 emulation is far under the haswell bar."
+ },
+ "thumbnail": "https://i.ytimg.com/vi/bwoaPGiIE-0/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/bwoaPGiIE-0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/9i0PPHjSAIY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/tGznJeDgUI0/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "bwoaPGiIE-0",
+    "title": ""
+   },
+   {
+    "id": "9i0PPHjSAIY",
+    "title": ""
+   },
+   {
+    "id": "tGznJeDgUI0",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "DuckStation - official site",
+    "url": "https://www.duckstation.org/",
+    "note": "official site - current builds, never version-pinned"
+   },
+   {
+    "label": "DuckStation - wiki",
+    "url": "https://github.com/stenzek/duckstation/wiki",
+    "note": "official wiki - setup and bios guidance"
+   }
+  ],
+  "official_note": "bios: required - dump the ps1 bios from your own console; duckstation ships none and no bios downloads are linked here.",
+  "anyway": []
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "slug": "luxor-2",
+ "caption": "the luxor rebuild - 3d tracks, sharper curves and the series' visual peak.",
+ "about": [
+  "Luxor 2 (2006) rebuilt the marble line in polished pseudo-3d: tracks curve through the frame instead of running flat, chains split and merge, and the power-ball pool grew into a genuine toolkit. It is the chapter that modernized the formula without bending its laws - and the one that most directly competed with zuma's revenge for the genre crown.",
+  "The steam listing still sells the pc build, keeping a live official door on the series' visual peak."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2006 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle",
+  "action"
+ ],
+ "subgenres": [
+  "marble shooter"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/aLNGVCwWJJI/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/aLNGVCwWJJI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/akOe3_48JuQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/c7IBbDI9AmU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/714GW9b_Pso/hqdefault.jpg",
+   "https://i.ytimg.com/vi/UwtP-7ccEds/hqdefault.jpg",
+   "https://i.ytimg.com/vi/IAtlwmzwrZY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/-ueZFgzTKNo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/1M5l17lAMi4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/DXEznyVmNx8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/N6WTSSRhyXA/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "aLNGVCwWJJI",
+    "title": ""
+   },
+   {
+    "id": "akOe3_48JuQ",
+    "title": ""
+   },
+   {
+    "id": "c7IBbDI9AmU",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Luxor 2",
+    "url": "https://store.steampowered.com/app/15920/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

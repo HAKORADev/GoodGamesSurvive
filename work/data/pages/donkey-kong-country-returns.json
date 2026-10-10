@@ -1,0 +1,57 @@
+{
+ "slug": "donkey-kong-country-returns",
+ "caption": "retro studios revives the kongs - barrel cannons, mine carts and the hardest banana hunt on the wii.",
+ "about": [
+  "Donkey kong country returns (2010) is retro studios' revival: every level is a machine of barrel cannons, mine carts and rocket barrels tuned to nintendo's cruellest difficulty curve, with diddy's jetpack as the mercy rule. The two-player couch mode turns the difficulty into a comedy of grief, and the banana-hunt completionism gave the wii its best pure platformer.",
+  "No windows build exists, so the platform is wii - played through dolphin, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Donkey Kong",
+  "Diddy Kong"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the wii build runs through dolphin within the haswell bar."
+ },
+ "genres": [
+  "platformer"
+ ],
+ "subgenres": [
+  "2d platformer"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/ohM6IXwSv5I/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/ohM6IXwSv5I/hqdefault.jpg",
+   "https://i.ytimg.com/vi/X9zm2xjbE8Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/CFms72yPZZg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Prox3prb5p8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/J1Ovm0edY8Y/hqdefault.jpg",
+   "https://i.ytimg.com/vi/fvPEP0hzUso/hqdefault.jpg",
+   "https://i.ytimg.com/vi/7_JlV0vgmII/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QYegQ3pTy28/hqdefault.jpg",
+   "https://i.ytimg.com/vi/GsOeJ7x-2H0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/6rwgLt4p470/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "ohM6IXwSv5I",
+    "title": ""
+   },
+   {
+    "id": "X9zm2xjbE8Q",
+    "title": ""
+   },
+   {
+    "id": "CFms72yPZZg",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the wii release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the wii rom lives on the rom source below - details land as verified."
+ }
+}

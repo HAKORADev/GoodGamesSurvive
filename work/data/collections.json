@@ -1,7 +1,7 @@
 {
  "_meta": {
   "schema": "ggs.v2",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "law": "source of truth for collections. a collection holds pages of one section (section field - pages live under pages/<section>/collections/). a multi-collection holds collections. engine: tools/build.py."
  },
  "collections": [
@@ -101,7 +101,232 @@
    ],
    "catalogued": [],
    "notes": []
+  },
+  {
+   "slug": "gta-collection",
+   "title": "Grand Theft Auto",
+   "section": "games",
+   "caption": "the 3d-era pair and the modern giants - three pages carrying the whole pc line this archive digs.",
+   "about": [
+    "The grand theft auto row this catalogue carries runs three pages: the classic san andreas & vice city pairing, gta iv and gta v. The direct line reads in order - vice city (2002), san andreas (2004) as the 3d-era peaks bundled together here, then gta iv (2008) rebooting the tone in liberty city, then gta v (2013/2015) splitting the lead three ways in los santos.",
+    "Each step is a sequel, not an upgrade: none of these replaces another, and the classics stay the only versions of themselves since rockstar delisted them. The bundle page documents both classic builds; the remaster-era definitive editions live outside this catalogue and are named where relevant."
+   ],
+   "items": [
+    "grand-theft-auto-iv",
+    "grand-theft-auto-san-andreas-and-vice-city",
+    "grand-theft-auto-v"
+   ],
+   "catalogued": [],
+   "notes": [
+    "the classic builds are delisted - their archive routes live on the bundle page."
+   ]
+  },
+  {
+   "slug": "popcap-collection",
+   "title": "PopCap Classics",
+   "section": "games",
+   "caption": "the pre-merger and ea-era popcap shelf - every deluxe build the catalogue carries, still smiling.",
+   "about": [
+    "PopCap's deluxe era is the spine of the casual shelf: zuma, peggle, bejeweled 3, chuzzle, dynomite, insaniquarium, heavy weapon, plants vs. zombies, plus the post-merger doors for astropop, big money and talismania, and the archive-only stock the current stores never carried - bookworm adventures, atomica, pixelus, qbeez whirled, seven seas, tiptop, venice and rocket mania.",
+    "Every row keeps its own page; a handful also sit in the marble poppers collection because the mechanics put them there. The collection view is exactly that - one shelf, sorted by nothing but belonging."
+   ],
+   "items": [
+    "astropop-deluxe",
+    "atomica-deluxe",
+    "bejeweled-3",
+    "big-money-deluxe",
+    "bookworm-adventures-1-and-2",
+    "chuzzle",
+    "dynomite-deluxe",
+    "heavy-weapon",
+    "insaniquarium-deluxe",
+    "peggle",
+    "peggle-nights",
+    "pixelus-deluxe",
+    "plants-vs-zombies",
+    "qbeez-2",
+    "rocket-mania",
+    "seven-seas-deluxe",
+    "talismania-deluxe",
+    "tiptop-deluxe",
+    "venice-deluxe",
+    "zuma-deluxe",
+    "zuma-s-revenge"
+   ],
+   "catalogued": []
+  },
+  {
+   "slug": "marble-poppers",
+   "title": "Marble Poppers",
+   "section": "games",
+   "caption": "the chain-shooter line - zuma's law, luxor's temples and every track that rolls.",
+   "about": [
+    "Marble shooters run one law: a chain rolls, you shoot, three of a color bursts. This collection carries every windows build of that law in the catalogue - zuma deluxe and zuma's revenge, the full luxor line from the 2004 original to 5th passage, 10tons' sparkle and sparkle unleashed, and the portal-era variants beetle bug 3, karu and charma.",
+    "Zuma's two entries also sit in the popcap collection - a game can belong to more than one shelf, and the pages say so in their collections line."
+   ],
+   "items": [
+    "beetle-bug-3",
+    "charma",
+    "karu",
+    "luxor",
+    "luxor-2",
+    "luxor-3",
+    "luxor-5th-passage",
+    "luxor-amun-rising",
+    "luxor-quest-for-the-afterlife",
+    "sparkle",
+    "sparkle-unleashed",
+    "zuma-deluxe",
+    "zuma-s-revenge"
+   ],
+   "catalogued": []
+  },
+  {
+   "slug": "racing-collection",
+   "title": "Racing",
+   "section": "games",
+   "caption": "the full grid - street, circuit, combat, boat, kart and the classics the stores gave up on.",
+   "about": [
+    "The racing shelf of the catalogue in one row: criterion's burnout and most wanted, black rock's split/second, bizarre's blur, the delisted driver san francisco, the nfs black-box trilogy, sega's crazy taxi and sonic riders, midway's hydro thunder, the toy-scale laws of re-volt and rollcage stage ii, the vector unit pair, and the licensed oddities from hot wheels to crazy frog.",
+    "Flatout 2 was dug earlier and sits here too. A game can carry more than one collection membership - the pages list them all."
+   ],
+   "items": [
+    "auto-modellista",
+    "beach-buggy-racing-2",
+    "beach-stunt-racer",
+    "blur",
+    "burnout-paradise",
+    "crazy-frog-racer-2",
+    "crazy-taxi-3-high-roller",
+    "downhill-domination",
+    "driver-san-francisco",
+    "flatout-2",
+    "hill-climb-racing-appx",
+    "hot-wheels-stunt-track-challenge",
+    "hydro-thunder",
+    "monster-jam",
+    "nascar-racers",
+    "need-for-speed-most-wanted",
+    "need-for-speed-most-wanted-2005-underground-1-carbon",
+    "need-for-speed-underground-2",
+    "new-york-race",
+    "re-volt",
+    "riptide-gp-renegade",
+    "rollcage-stage-ii",
+    "shipwreckers-overboard-1997",
+    "sonic-riders",
+    "split-second-velocity",
+    "walt-disney-world-quest-magical-racing-tour"
+   ],
+   "catalogued": []
+  },
+  {
+   "slug": "psp-collection",
+   "title": "PlayStation Portable",
+   "section": "games",
+   "caption": "the psp vault - eight digs for ppsspp, from kratos' handheld diptych to the iron fist roster.",
+   "about": [
+    "Every psp dig the catalogue carries, played on windows through ppsspp: kingdom hearts birth by sleep, dante's inferno, the 3rd birthday, bleach heat the soul 7, the naruto shippuden pair, soulcalibur broken destiny, tekken 6 and ready at dawn's two god of war chapters.",
+    "Each page states its rom source and links the emulator; the one-platform law keeps the psp build as the dug version - no phantom windows ports, no ps3/xbox lists."
+   ],
+   "items": [
+    "bleach-heat-the-soul-7",
+    "dante-s-inferno",
+    "god-of-war-chains-of-olympus-and-ghost-of-sparta",
+    "kingdom-hearts-birth-by-sleep",
+    "naruto-shippuden-ultimate-ninja-heroes-3-and-akatsuki-rising",
+    "soulcalibur-broken-destiny",
+    "tekken-6",
+    "the-3rd-birthday"
+   ],
+   "catalogued": []
+  },
+  {
+   "slug": "ps2-collection",
+   "title": "PlayStation 2",
+   "section": "games",
+   "caption": "the ps2 vault - twenty digs for pcsx2, from the colossus to the banned sequel.",
+   "about": [
+    "Every ps2 dig the catalogue carries, played on windows through pcsx2: the god of war pair, shadow of the colossus, kingdom hearts ii, yakuza 2, shinobido, crash twinsanity, the licensed shelf from kim possible to the grim adventures, capcom's cel-shaded auto modellista, downhill domination, bmx xxx and the windows-cancelled manhunt 2.",
+    "The one-platform law applies down the line - each page digs exactly one console build."
+   ],
+   "items": [
+    "auto-modellista",
+    "ben-10-protector-of-earth",
+    "ben-10-ultimate-alien-cosmic-destruction",
+    "bmx-xxx",
+    "crash-twinsanity",
+    "downhill-domination",
+    "family-guy-video-game",
+    "fantastic-four",
+    "ghost-rider",
+    "god-of-war-ps2-and-god-of-war-ii",
+    "kim-possible-what-s-the-switch",
+    "kingdom-hearts-ii",
+    "manhunt-2",
+    "monster-house",
+    "pirates-of-the-caribbean-the-legend-of-jack-sparrow",
+    "power-rangers-super-legends",
+    "scaler",
+    "shadow-of-the-colossus",
+    "shinobido-way-of-the-ninja",
+    "stuart-little-3-big-photo-adventure",
+    "the-grim-adventures-of-billy-and-mandy",
+    "yakuza-2"
+   ],
+   "catalogued": []
+  },
+  {
+   "slug": "ps1-collection",
+   "title": "PlayStation",
+   "section": "games",
+   "caption": "the ps1 vault - four digs for duckstation, theme parks to gunboats.",
+   "about": [
+    "Every ps1 dig the catalogue carries, played on windows through duckstation: tom and jerry in house trap, jackie chan adventures, walt disney world quest magical racing tour and psygnosis' shipwreckers.",
+    "Small vault, honest scope - the catalogue grows one dig at a time."
+   ],
+   "items": [
+    "jackie-chan-adventures",
+    "shipwreckers-overboard-1997",
+    "tom-and-jerry-in-house-trap",
+    "walt-disney-world-quest-magical-racing-tour"
+   ],
+   "catalogued": []
+  },
+  {
+   "slug": "wii-collection",
+   "title": "Wii",
+   "section": "games",
+   "caption": "the wii vault - five digs for dolphin, from galaxy 2 to the zanpakuto duels.",
+   "about": [
+    "Every wii dig the catalogue carries, played on windows through dolphin: donkey kong country returns, super mario galaxy 2, new super mario bros wii, the twilight princess & skyward sword pair and bleach shattered blade.",
+    "No wii u, no switch - the vault documents the wii itself."
+   ],
+   "items": [
+    "bleach-shattered-blade",
+    "donkey-kong-country-returns",
+    "new-super-mario-bros-wii",
+    "super-mario-galaxy-2",
+    "the-legend-of-zelda-twilight-princess-and-skyward-sword"
+   ],
+   "catalogued": []
   }
  ],
- "multi_collections": []
+ "multi_collections": [
+  {
+   "slug": "console-vaults",
+   "title": "Console Vaults",
+   "caption": "the four console shelves of the catalogue - one collection per machine, one emulator law for all.",
+   "about": [
+    "The console digs live in per-machine collections - playstation, playstation 2, playstation portable and wii - each page played on windows through its official emulator: duckstation, pcsx2, ppsspp and dolphin. The multi-collection below is the door to all four.",
+    "The one-platform law: each game digs as one platform - native windows when a windows build exists, the one supported console when it does not. ps3, ps4, xbox, wii u, switch and anything phone-shaped stay outside the vaults."
+   ],
+   "collections": [
+    "ps1-collection",
+    "ps2-collection",
+    "psp-collection",
+    "wii-collection"
+   ]
+  }
+ ]
 }

@@ -1,0 +1,55 @@
+{
+ "slug": "downhill-domination",
+ "caption": "mountain-bike combat racing - pedal down the mountain, kick the rivals, pray for the landing.",
+ "about": [
+  "Downhill domination (2003) is the ps2's answer to the extreme-sports era: downhill mountain-bike races down real-scale mountains, combat allowed - kicks, punches, thrown water bottles - and speed earned by picking braver lines. The vertical drop design and the trick system hold up as the genre's best bike entry.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "downhill biking",
+  "extreme sports"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/gd6owGu5OGg/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/gd6owGu5OGg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/USDmP9P8I2I/hqdefault.jpg",
+   "https://i.ytimg.com/vi/odI01AtR69Y/hqdefault.jpg",
+   "https://i.ytimg.com/vi/gvfYohsS3x4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_TylexdCabQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/1H2-8OBJ8GM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/NGFUNuWX_rc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/UWQPC_H8yK0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/h1CS0Pu13Ok/hqdefault.jpg",
+   "https://i.ytimg.com/vi/m0e6sd_CGPM/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "gd6owGu5OGg",
+    "title": ""
+   },
+   {
+    "id": "USDmP9P8I2I",
+    "title": ""
+   },
+   {
+    "id": "odI01AtR69Y",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

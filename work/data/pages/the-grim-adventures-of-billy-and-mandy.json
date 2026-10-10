@@ -1,0 +1,59 @@
+{
+ "slug": "the-grim-adventures-of-billy-and-mandy",
+ "caption": "grim's battle royale of endsville - the cartoon's whole cast in a four-way couch arena.",
+ "about": [
+  "The grim adventures of billy & mandy (2006) is midway's arena brawler for the cartoon: billy, mandy, grim and the endsville roster brawl in four-player arenas built from the show's locations, with hazard comedy doing the balancing. It is a party fighter in the smash-bros shape, and the show's art direction survives intact.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Grim",
+  "Billy",
+  "Mandy"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "fighting"
+ ],
+ "subgenres": [
+  "arena brawler",
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/yTU_lVV40Hc/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/yTU_lVV40Hc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/cAZXXYO1u8c/hqdefault.jpg",
+   "https://i.ytimg.com/vi/EL69Oh6UVzo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WG2-vmn1kFA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Yjno7WFY_EM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/83bPrkxlZgc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/qUWqaaKXm5g/hqdefault.jpg",
+   "https://i.ytimg.com/vi/z03acl5KgLM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/D84thyxtwAo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Z_3BIJvWJ1Q/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "yTU_lVV40Hc",
+    "title": ""
+   },
+   {
+    "id": "cAZXXYO1u8c",
+    "title": ""
+   },
+   {
+    "id": "EL69Oh6UVzo",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

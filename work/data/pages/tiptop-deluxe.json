@@ -1,0 +1,54 @@
+{
+ "slug": "tiptop-deluxe",
+ "caption": "popcap's sliding-block match - tilt the whole board, line up three, clear the mess.",
+ "about": [
+  "Tiptop deluxe flips the match-3 grammar: instead of swapping pieces you slide entire rows and columns, and when three symbols line up they leave the board and everything above slides down to fill the gap. The empty spaces are both your tool and your timer - a row with nothing to slide costs a life. It is a tiny ruleset with real tension, and one of popcap's least remembered systems.",
+  "The deluxe pc build stayed in the pre-merger catalog that never reached the current stores, so this page keeps the archive route open for it."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2003 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle"
+ ],
+ "subgenres": [
+  "block sliding"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/6Qart91-R9w/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/6Qart91-R9w/hqdefault.jpg",
+   "https://i.ytimg.com/vi/3p6_Rvg6iXM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/xpb2Qj2Ci-A/hqdefault.jpg",
+   "https://i.ytimg.com/vi/O4JnUoXqnEk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/BavRv_s88VI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/p4VIZ0ogCIs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/G3wyaBZI1C4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JhOZBAVM94w/hqdefault.jpg",
+   "https://i.ytimg.com/vi/p902uQ_y3r4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/clggiKjl4V8/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "6Qart91-R9w",
+    "title": ""
+   },
+   {
+    "id": "3p6_Rvg6iXM",
+    "title": ""
+   },
+   {
+    "id": "xpb2Qj2Ci-A",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - the pre-merger popcap catalog never reached the current stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

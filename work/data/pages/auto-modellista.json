@@ -1,0 +1,55 @@
+{
+ "slug": "auto-modellista",
+ "caption": "capcom's cel-shaded tuner - arcade drift physics wearing comic-book paint, dug for pcsx2.",
+ "about": [
+  "Auto modellista (2002) is capcom's first racing game: cel-shaded art over genuine tuning depth, drift-heavy arcade physics and an online lobby that was ahead of its console's playerbase. The owner's cel-shaded note describes exactly what makes it memorable - the comic look over honest drift tuning - and the style remains the point two decades later.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "arcade racer",
+  "cel-shaded"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/ctBVEGNNru0/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/ctBVEGNNru0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/OBPIoOpw1GA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Zt1DGgEhMrI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JgEHzOtR94A/hqdefault.jpg",
+   "https://i.ytimg.com/vi/C5-HcaZZNGg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ne9t9YsLqSU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/3eKx3v3zmY0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/nbFgsJlLW20/hqdefault.jpg",
+   "https://i.ytimg.com/vi/lu5m2w2a3oc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/a_dLa8ez8L0/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "ctBVEGNNru0",
+    "title": ""
+   },
+   {
+    "id": "OBPIoOpw1GA",
+    "title": ""
+   },
+   {
+    "id": "Zt1DGgEhMrI",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

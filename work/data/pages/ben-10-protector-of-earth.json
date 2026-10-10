@@ -1,0 +1,57 @@
+{
+ "slug": "ben-10-protector-of-earth",
+ "caption": "the omnitrix as a combat dial - ben's first console brawler with the full hero roster on tap.",
+ "about": [
+  "Ben 10: protector of earth (2007) turns the omnitrix into the game's whole grammar: swap between heatblast, four arms, xlr8 and the rest mid-fight, each alien a different combat answer to the same alien-invasion problem. The beat-em-up loop is honest about its license and the show's voice cast carries it.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Ben Tennyson"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "beat-em-up",
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/iEWH7u7rO3c/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/iEWH7u7rO3c/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QVN2XePiZc0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/EBEahU8E8zg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/yhQQbTEo8H8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ze1wdRqcjIQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/tzjpF7SO624/hqdefault.jpg",
+   "https://i.ytimg.com/vi/hXDGpauGEiA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/NgNg-pMiWMo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zTM2ekh3pfw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/9fY-a3yZjLY/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "iEWH7u7rO3c",
+    "title": ""
+   },
+   {
+    "id": "QVN2XePiZc0",
+    "title": ""
+   },
+   {
+    "id": "EBEahU8E8zg",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

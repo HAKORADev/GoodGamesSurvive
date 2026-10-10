@@ -1,0 +1,59 @@
+{
+ "slug": "family-guy-video-game",
+ "caption": "three plot threads, one evil monkey - stewie's scheming carries the show's humor to the ps2.",
+ "about": [
+  "Family guy video game! (2006) splits the show's humor across three playable threads: stewie's platforming revenge on bertram, peter's bone-crushing beat-em-up of random cutaway violence, and brian's stealth against the evil monkey. The cutaway joke structure translates better than critics of the time admitted - the voice cast is the real cast, and the writing is the real writing.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Stewie Griffin",
+  "Peter Griffin",
+  "Brian Griffin"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "comedy",
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/NcJSYOBo4-0/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/NcJSYOBo4-0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/n5MWTMfFYvQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/OVb8WUir_vo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ip2aJvxekWs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/58ss-8hBUAI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/sTfpT5hQ_Y8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/0vbAafXy0cI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/u35OGOPPsww/hqdefault.jpg",
+   "https://i.ytimg.com/vi/rDLHW7Dy0oI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/E_pi4XmqDS0/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "NcJSYOBo4-0",
+    "title": ""
+   },
+   {
+    "id": "n5MWTMfFYvQ",
+    "title": ""
+   },
+   {
+    "id": "OVb8WUir_vo",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

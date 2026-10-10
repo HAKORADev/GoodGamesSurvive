@@ -1,0 +1,54 @@
+{
+ "slug": "venice-deluxe",
+ "caption": "popcap's canal puzzler - throw gold from gondola to gondola and rebuild the city.",
+ "about": [
+  "Venice deluxe dresses a throw-and-match puzzle in canal-city paint: gondolas drift across the screen carrying colored goods, and you fling pieces back up to build matching groups that cash into city restorations. Every cleared level rebuilds a landmark, which gives the loop a destination most popcap throwers never bothered with.",
+  "The deluxe pc build is pre-merger popcap stock that never reached the current stores, so the archive route is the way back in."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2004 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle"
+ ],
+ "subgenres": [
+  "match-3"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/1ZM_vd1rVz4/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/1ZM_vd1rVz4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/6gMEVaG6U2s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/922S9IKUtjQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/OA-9pp1DPJY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/mHuxAcChVIs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/S2vlnrbCxvY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ze_apXWhZV8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/sWKKhZjnS9s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/BCNNk8N4I-A/hqdefault.jpg",
+   "https://i.ytimg.com/vi/17G-20eav38/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "1ZM_vd1rVz4",
+    "title": ""
+   },
+   {
+    "id": "6gMEVaG6U2s",
+    "title": ""
+   },
+   {
+    "id": "922S9IKUtjQ",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - the pre-merger popcap catalog never reached the current stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

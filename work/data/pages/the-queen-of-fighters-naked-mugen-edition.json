@@ -1,0 +1,55 @@
+{
+ "slug": "the-queen-of-fighters-naked-mugen-edition",
+ "caption": "the mugen adult crossover - an all-female fighter roster of borrowed sprites, built on elecbyte's engine.",
+ "about": [
+  "The queen of fighters (naked mugen edition) is tetchi's adult mugen project: an all-female roster assembled from sprite rips across fighting-game history, chained into a tag-battle mugen build with explicit defeat mechanics. It is the most famous of the mugen adult crossovers - a fan creation that documents the engine's whole culture as much as its own content.",
+  "The windows build was never sold; the archive route is the only door."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2d mugen fighter; the bar is a formality."
+ },
+ "genres": [
+  "fighting"
+ ],
+ "subgenres": [
+  "mugen",
+  "adult fighting"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/LFEH0Dqma-s/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/LFEH0Dqma-s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/TbvG7uMyLm0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_uC1b-WHKwE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/mGFoBfcWXrg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/g1TuELvHfgw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PQ6aro0Rdmc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/i6Ncb96oLz0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/T4hpIJMWAiE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ROVZ7_bQdxs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zT66VUxxVC8/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "LFEH0Dqma-s",
+    "title": ""
+   },
+   {
+    "id": "TbvG7uMyLm0",
+    "title": ""
+   },
+   {
+    "id": "_uC1b-WHKwE",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "never sold - a mugen fan release.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

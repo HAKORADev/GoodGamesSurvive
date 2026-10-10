@@ -1,0 +1,59 @@
+{
+ "slug": "kingdom-hearts-ii",
+ "caption": "roxas prologue, reaction commands, and the best combat the series ever tuned - dug for pcsx2.",
+ "about": [
+  "Kingdom hearts ii (2005) opens with roxas' week in twilight town and then hands sora the deepest combat kit the series ever shipped: drive forms, reaction commands, summon teams and the most legible boss design square enix put on the ps2. The disney worlds are bigger, the org xiii arc closes cleanly, and the game remains the fan-canon peak of the franchise.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Sora",
+  "Donald Duck",
+  "Goofy",
+  "Roxas"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action rpg"
+ ],
+ "subgenres": [
+  "disney crossover"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/8ZyaHpwDOFM/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/8ZyaHpwDOFM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/pGcg9OrU1SE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/lrXbxHbe7lY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/kQ2x_RU4fNs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/9bxlccZD448/hqdefault.jpg",
+   "https://i.ytimg.com/vi/-wh1ci_-0sE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/kXo4WFRyUqs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zP_F6oP2XPI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QlXxgUJo71Y/hqdefault.jpg",
+   "https://i.ytimg.com/vi/uTZTLhIKYKc/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "8ZyaHpwDOFM",
+    "title": ""
+   },
+   {
+    "id": "pGcg9OrU1SE",
+    "title": ""
+   },
+   {
+    "id": "lrXbxHbe7lY",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

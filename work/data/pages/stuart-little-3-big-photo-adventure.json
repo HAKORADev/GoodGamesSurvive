@@ -1,0 +1,56 @@
+{
+ "slug": "stuart-little-3-big-photo-adventure",
+ "caption": "stuart's lakeside platformer - the direct-to-video third film as a collect-a-thon.",
+ "about": [
+  "Stuart little 3: big photo adventure (2005) adapts the direct-to-video third film into a kid-sized platformer: stuart photographs the lake trail wildlife, rides bugs and completes fetch loops sized for the audience. It is exactly what it says on the box - a gentle collect-a-thon tie-in - and it closes the film trilogy's game line.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Stuart Little"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "platformer"
+ ],
+ "subgenres": [
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/mF_lNTIZnks/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/mF_lNTIZnks/hqdefault.jpg",
+   "https://i.ytimg.com/vi/I1ZVLd5lsjU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QMaIJY5sG_Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/8H8rl6cm4g4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/1AEUpxxKjvA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/wC5RJuSxeyI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/DZOcVHJjBlw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/CpY0xGIuH8o/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ttWB87wSvak/hqdefault.jpg",
+   "https://i.ytimg.com/vi/h0u9EXlrN8Y/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "mF_lNTIZnks",
+    "title": ""
+   },
+   {
+    "id": "I1ZVLd5lsjU",
+    "title": ""
+   },
+   {
+    "id": "QMaIJY5sG_Q",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

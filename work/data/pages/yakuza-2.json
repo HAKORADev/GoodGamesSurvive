@@ -1,0 +1,59 @@
+{
+ "slug": "yakuza-2",
+ "caption": "kiryu vs the dragon of osaka - the kamurocho-to-soutenbori sequel, dug for pcsx2.",
+ "about": [
+  "Yakuza 2 (2006) is the dragon of kansai chapter: kiryu's truce breaks with ryuji goda's ambition, the story splits between kamurocho and osaka's soutenbori, and the beat-em-up combat deepens with weapons, walls and the series' first proper rival-dragon duel. The substory density and the love-and-honor melodrama set the template every later entry runs on.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Kazuma Kiryu",
+  "Ryuji Goda",
+  "Kaoru Sayama"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action adventure"
+ ],
+ "subgenres": [
+  "crime drama",
+  "beat-em-up"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/j1-WB-zNgZY/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/j1-WB-zNgZY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/yxayOBxz_nQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/dkNOyWHjwg4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/lbSBgI1VQ_c/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QdEvcuuREZM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/oVLE5fW_BbU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/u709qplnXdQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Gpf2KGrPIdk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JH_OiOyswvw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ol44yVG7jwc/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "j1-WB-zNgZY",
+    "title": ""
+   },
+   {
+    "id": "yxayOBxz_nQ",
+    "title": ""
+   },
+   {
+    "id": "dkNOyWHjwg4",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

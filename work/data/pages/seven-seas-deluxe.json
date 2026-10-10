@@ -1,0 +1,55 @@
+{
+ "slug": "seven-seas-deluxe",
+ "caption": "popcap's pirate escape - outmaneuver enemy sails one tile at a time.",
+ "about": [
+  "Seven seas deluxe is popcap's smallest strategy gem: you sail a merchant ship while hostile vessels close in, and every move rotates both sides through the same strict tile logic. Oust the enemies by trapping them against rocks and each other, or clear the whole sea one daring run at a time. It plays like a grid-based taiji - every escape teaches the next trap.",
+  "The deluxe build is pre-merger popcap stock that never reached modern stores, so the archive route keeps it alive. It remains the purest pocket tactics the studio ever shipped."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2003 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle",
+  "strategy"
+ ],
+ "subgenres": [
+  "naval maze"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/l9v_U-TCqWE/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/l9v_U-TCqWE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/FsGNcCqKUfM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/l6Oibw0Q2vE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/S5E-mHeeLJI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/EzUpk_u_xsM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/oTC8MBi9-kA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/YHgpmNCivMo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/GYzDUE1sNnE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WxkXZCdIdVQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WSsiGq3M2PI/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "l9v_U-TCqWE",
+    "title": ""
+   },
+   {
+    "id": "FsGNcCqKUfM",
+    "title": ""
+   },
+   {
+    "id": "l6Oibw0Q2vE",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - the pre-merger popcap catalog never reached the current stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

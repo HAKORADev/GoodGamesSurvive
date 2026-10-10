@@ -1,0 +1,55 @@
+{
+ "slug": "blur",
+ "caption": "real cars, real locations, straight-up powerups - bizarre's last racer and the genre's great what-if.",
+ "about": [
+  "Blur (2010) is bizarre creations' social racer: licensed cars and real city tracks dressed in mario-kart-style powerups - shock, bolt, mine, shield - with a fan-reputation progression that graded every race. Twenty-player online grids made the combat racing feel like a sport, and the drift-shunt-shield triangle remains one of the genre's best-tuned systems.",
+  "Activision shut bizarre creations months after launch and delisted the game in 2014; the archive route is the only way back in. It is routinely named the best racer nobody can buy."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - 2010 racer; the haswell igpu holds reduced settings."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "combat racing",
+  "arcade racer"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/JyoMDXpQPIw/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/JyoMDXpQPIw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/nei8RwqLxOU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/wIZ07PLJFD8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/LjEIWz_q_yA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/GLXoikv4BVI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/oKZycs6Xgp8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/q9veySDihVo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/tTqXWKjTIco/hqdefault.jpg",
+   "https://i.ytimg.com/vi/m-BPFynDxwE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/9-4NaXRSZBY/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "JyoMDXpQPIw",
+    "title": ""
+   },
+   {
+    "id": "nei8RwqLxOU",
+    "title": ""
+   },
+   {
+    "id": "wIZ07PLJFD8",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - activision pulled blur from sale in 2014.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

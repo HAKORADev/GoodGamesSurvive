@@ -1,0 +1,57 @@
+{
+ "slug": "god-of-war-chains-of-olympus-and-ghost-of-sparta",
+ "caption": "kratos' handheld diptych - chains of olympus and ghost of sparta, ready at dawn's two miracles.",
+ "about": [
+  "This row carries ready at dawn's two psp god of war chapters, both technical miracles on the handheld. Chains of olympus (2008) sends kratos serving the gods before the first game - persian armies, the sun chariot, the story that explains his chains. Ghost of sparta (2010) follows his spartan past and his brother deimos, with the most graphically ambitious build the psp ever shipped.",
+  "No windows builds exist, so the platform is psp - played through ppsspp, roms sourced from romsfun."
+ ],
+ "characters": [
+  "Kratos"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - both psp builds run through ppsspp within the haswell bar."
+ },
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "character action",
+  "mythology"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/WqOwkNTUTFk/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/WqOwkNTUTFk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/VUSQy_MxxMg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/XRwr5eCT-78/hqdefault.jpg",
+   "https://i.ytimg.com/vi/RH6UoElXFZE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/baAMPka5cHY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zvywAja2CB4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/oysW1Qtm0lU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/U3n-jPBCs_s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zLzLhUS8IM4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/CW8BuNbNCVs/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "WqOwkNTUTFk",
+    "title": ""
+   },
+   {
+    "id": "VUSQy_MxxMg",
+    "title": ""
+   },
+   {
+    "id": "XRwr5eCT-78",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows builds exist - the psp releases are the dug platform.",
+  "anyway": [],
+  "anyway_note": "the psp roms live on the rom source below - details land as verified."
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "slug": "need-for-speed-most-wanted",
+ "caption": "criterion's most wanted - burnout physics wearing the blacklist badge, Autolog 2 judging every road.",
+ "about": [
+  "Need for Speed: Most Wanted (2012) is criterion's open-city reimagining: no lobbies, no menus - you drive, the map is the lobby, and every rival car becomes a roaming boss you call out and wreck. The burnout crash physics carry the pursuits, and autolog 2 turned every speed camera and road into a leaderboard argument between friends.",
+  "The windows build is still sold on steam as the current official door, which keeps the criterion era playable in the era of the classics being gone."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - 2012 criterion open world; the haswell igpu can carry it on reduced settings."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "street racing",
+  "arcade racer"
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/ss_82adddc724f99986dafdfe5f713de45e12a4ece5.1920x1080.jpg?t=1777484382",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/ss_82adddc724f99986dafdfe5f713de45e12a4ece5.1920x1080.jpg?t=1777484382",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/ss_4292ba4d468883bb13c619330229047f9ab197f7.1920x1080.jpg?t=1777484382",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/ss_6b9c3c8cdf2a6a1c03a9525e3e09b1db23643cac.1920x1080.jpg?t=1777484382",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/ss_9793d77282f58a643e6b5ecbf082e83638a8edc3.1920x1080.jpg?t=1777484382",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/ss_6ebd31716756d81452bca2eda264987a330cd1f9.1920x1080.jpg?t=1777484382",
+   "https://i.ytimg.com/vi/-P_3NFJxFQ8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/kBVrUIBJHYw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_oeEL41X3yE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/pM8y-lucE4o/hqdefault.jpg",
+   "https://i.ytimg.com/vi/uEmHp6paUc8/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "-P_3NFJxFQ8",
+    "title": ""
+   },
+   {
+    "id": "kBVrUIBJHYw",
+    "title": ""
+   },
+   {
+    "id": "_oeEL41X3yE",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Need for Speed Most Wanted",
+    "url": "https://store.steampowered.com/app/1262560/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the criterion build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

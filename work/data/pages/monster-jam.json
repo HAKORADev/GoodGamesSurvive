@@ -1,0 +1,57 @@
+{
+ "slug": "monster-jam",
+ "caption": "grave digger's arena law - crush cars, freestyle the dome, race the stadium circuit.",
+ "about": [
+  "Monster jam (2007) brings the stadium tour to pc: licensed monster trucks - grave digger, maximum destruction, son-uva digger - across racing, freestyle and destruction events. The car-crushing physics and the freestyle scoring loop carry the license honestly, and the arena layout keeps every run short and loud.",
+  "The windows build is off sale, carried by archive routes."
+ ],
+ "characters": [
+  "Grave Digger",
+  "Maximum Destruction"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2007 truck racer; the bar is a formality."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "monster truck"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/a_lPC4omsGM/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/a_lPC4omsGM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/fnddw3Tyzdw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/YpzEjs7pEaw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/8XANTKJdqBY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ZqzEUf9RSMY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/gz42iwh--D4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/fyoXE50-IcM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/FRBJruzHzcw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/9JkcxLCgGSg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/XP4E9FPjShA/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "a_lPC4omsGM",
+    "title": ""
+   },
+   {
+    "id": "fnddw3Tyzdw",
+    "title": ""
+   },
+   {
+    "id": "YpzEjs7pEaw",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - activision value's catalog is off the stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

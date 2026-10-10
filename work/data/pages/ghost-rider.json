@@ -1,0 +1,57 @@
+{
+ "slug": "ghost-rider",
+ "caption": "the spirit of vengeance's tie-in - chains, hellfire combos and the bike sections that made it stand out.",
+ "about": [
+  "Ghost rider (2007) builds the movie tie-in around the chain: hellfire whip combat, combo chains that feed the vengeance meter, and the hellcycle sections that break the brawler rhythm with actual speed. The comic framing and the mephistopheles plot give it more spine than most 2007 licensed action.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Johnny Blaze"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "beat-em-up",
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/nSPcDCmqUwU/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/nSPcDCmqUwU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/TMWXkidGyI0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/5KQhDJmTvSk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PWmpUqurbDA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/jP18lUAFx1Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/x6cvU0XvwK4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/2txJ1_jcFcc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/hWZA69NeTxE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Qxh69K2reeY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ShMc6HL8qhI/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "nSPcDCmqUwU",
+    "title": ""
+   },
+   {
+    "id": "TMWXkidGyI0",
+    "title": ""
+   },
+   {
+    "id": "5KQhDJmTvSk",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

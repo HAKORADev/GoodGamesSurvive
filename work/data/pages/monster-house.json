@@ -1,0 +1,58 @@
+{
+ "slug": "monster-house",
+ "caption": "the living house tie-in - three kids, a possessed basement and better mechanics than the tie-in tax.",
+ "about": [
+  "Monster house (2006) turns the movie's premise into a three-character action adventure: dj, chowder and jenny infiltrate the possessed house in rotating stages, each kid with a different tool - water balloons, kite, digger - against the living floorboards. The level design respects the film's blueprints, which makes it one of thq's better tie-ins.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Chowder",
+  "DJ",
+  "Jenny"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action adventure"
+ ],
+ "subgenres": [
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/PjXZEAgy78U/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/PjXZEAgy78U/hqdefault.jpg",
+   "https://i.ytimg.com/vi/694lqQ7ifws/hqdefault.jpg",
+   "https://i.ytimg.com/vi/wNz6IqBEA0Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/nCVlpoaMMrI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/FFDx7RQKyxY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/VoDp9TkTRBY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WTUXNzebVrI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/m11WgeY15JU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QWpYS6icRX0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/0ti_WErWgNA/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "PjXZEAgy78U",
+    "title": ""
+   },
+   {
+    "id": "694lqQ7ifws",
+    "title": ""
+   },
+   {
+    "id": "wNz6IqBEA0Q",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

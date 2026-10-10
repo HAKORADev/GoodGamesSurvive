@@ -1,0 +1,57 @@
+{
+ "slug": "ben-10-ultimate-alien-cosmic-destruction",
+ "caption": "ultimate alien's world tour - new ultimates, a globe-hopping tour and the ps2's late-license send-off.",
+ "about": [
+  "Ben 10 ultimate alien: cosmic destruction (2011) is the ps2's late-era ben 10 entry: the ultimate alien forms join the omnitrix rotation, the tour stretches from paris to tokyo, and the combat layers upgrades onto the familiar swap-mid-fight law. It is also one of the last licensed brawlers the console received, which gives it a small archival seat of its own.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Ben Tennyson"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "beat-em-up",
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/9TWZ8fjwcTw/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/9TWZ8fjwcTw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/J6f0TC2FPNk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/azRr3rWIqOE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/b3k4QuA4Bp0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/bMcTytXLwHU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/V2Mmv0o4JRE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/MV7HZlaolGg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/mMRgu3Yxwto/hqdefault.jpg",
+   "https://i.ytimg.com/vi/H6uj6EFZp9U/hqdefault.jpg",
+   "https://i.ytimg.com/vi/4Sqg6_Q-r38/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "9TWZ8fjwcTw",
+    "title": ""
+   },
+   {
+    "id": "J6f0TC2FPNk",
+    "title": ""
+   },
+   {
+    "id": "azRr3rWIqOE",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

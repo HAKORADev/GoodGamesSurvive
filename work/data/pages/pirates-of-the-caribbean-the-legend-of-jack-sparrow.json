@@ -1,0 +1,59 @@
+{
+ "slug": "pirates-of-the-caribbean-the-legend-of-jack-sparrow",
+ "caption": "jack sparrow's exaggerated retelling - eurocom's co-op romp through the first two films.",
+ "about": [
+  "The legend of jack sparrow (2006) retells the first two pirates films as a stylized co-op brawler: jack narrates his own legend, each retelling grows more exaggerated, and will or elizabeth join as the second character. Eurocom's combat is honest about being a couch game first, which is where it lands its charm.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Jack Sparrow",
+  "Will Turner",
+  "Elizabeth Swann"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action adventure"
+ ],
+ "subgenres": [
+  "beat-em-up",
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/bb6Qc0lDQDU/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/bb6Qc0lDQDU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/LnpkIFTGolY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/LTMv5itG_aE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/TFty7zFMirY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Zt20U_e1BG4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/czhmiA4SfT4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/F7cd2o_h6HQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/xTpCq6rXfjk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/FMcLgzx4JU0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/3isrAKHreAo/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "bb6Qc0lDQDU",
+    "title": ""
+   },
+   {
+    "id": "LnpkIFTGolY",
+    "title": ""
+   },
+   {
+    "id": "LTMv5itG_aE",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

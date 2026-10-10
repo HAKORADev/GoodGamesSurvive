@@ -1,0 +1,59 @@
+{
+ "slug": "god-of-war-ps2-and-god-of-war-ii",
+ "caption": "the blades of chaos diptych - kratos' athenian revenge and the colossus-dodging sequel, dug for pcsx2.",
+ "about": [
+  "This row carries the two ps2 god of war originals. God of war (2005) hands kratos the blades of chaos and the hydra, ending with the athena twist that defines the character; god of war ii (2007) opens with his death and climbs to the sisters of fate, and its colossus of rhodes opening still stands as one of the medium's great set pieces. Both run the same ruthless quicktime-and-combos law that defined the ps2's last great action era.",
+  "No windows builds exist, so the platform is ps2 - played through pcsx2, roms sourced from romsfun."
+ ],
+ "characters": [
+  "Kratos",
+  "Athena",
+  "Zeus"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - both ps2 builds run through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "character action",
+  "mythology"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/QAjwSDecOrU/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/QAjwSDecOrU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/UF-p4FkxCKs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/3_A2WQ7VUq8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/IpKLwIIdvuk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/39-vby4PZh0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QtQ_wfecaao/hqdefault.jpg",
+   "https://i.ytimg.com/vi/TXYGd6AlAZk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_Pgks8w-HK8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Kruyx2yYbZM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/TrkfqOwhoLk/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "QAjwSDecOrU",
+    "title": ""
+   },
+   {
+    "id": "UF-p4FkxCKs",
+    "title": ""
+   },
+   {
+    "id": "3_A2WQ7VUq8",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows builds exist - the ps2 releases are the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 roms live on the rom source below - details land as verified."
+ }
+}

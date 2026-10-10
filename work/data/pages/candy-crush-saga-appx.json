@@ -1,0 +1,59 @@
+{
+ "slug": "candy-crush-saga-appx",
+ "caption": "the match-3 juggernaut on the windows store - swap, cascade, wait for lives like everyone else.",
+ "about": [
+  "Candy crush saga is the match-3 that defined the 2010s: swap-to-match boards with six candy types, cascades that score by chain, and a difficulty wall built to sell lives. The windows store build is the same saga the phones ran, boards and all, and it remains the genre's most-played entry by a distance.",
+  "The store listing is free with the usual monetization, and store.rg-adguard mirrors the appx packages directly for offline installs."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle"
+ ],
+ "subgenres": [
+  "match-3"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/WTIZBmG3ol4/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/WTIZBmG3ol4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WcvCa8i9_9U/hqdefault.jpg",
+   "https://i.ytimg.com/vi/UF5DH8HN_mU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/vG8uIrRgtgo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/x1UfuuCbs9E/hqdefault.jpg",
+   "https://i.ytimg.com/vi/fU00LHfEatM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/vKrax4k74WM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Pk0oinnYxXg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/atKaYiZrIzE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/F3_3bRqDY2k/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "WTIZBmG3ol4",
+    "title": ""
+   },
+   {
+    "id": "WcvCa8i9_9U",
+    "title": ""
+   },
+   {
+    "id": "UF5DH8HN_mU",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Microsoft Store - Candy Crush Saga",
+    "url": "https://apps.microsoft.com/detail/9nblggh537x9"
+   }
+  ],
+  "official_note": "free on the microsoft store - the windows appx route.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

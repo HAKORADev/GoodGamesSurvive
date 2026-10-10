@@ -1,0 +1,51 @@
+{
+ "slug": "dolphin",
+ "caption": "the gamecube and wii emulator - the door for this site's wii vault, bios-free by design.",
+ "about": [
+  "Dolphin is the gamecube and wii emulator this site's wii vault runs on: the official download page serves the current release and development builds, and the emulator carries the console's library from super mario galaxy 2 to the zanpakuto fighters with native resolution scaling and texture packs on top.",
+  "It needs no bios dumps - the gamecube and wii firmware handling is emulated in-house, which keeps setup to two clicks. The link stays semi-direct to the official download page; the wiki carries the per-game compatibility answers."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - wii emulation wants real cpu; the haswell bar holds playable settings."
+ },
+ "thumbnail": "https://i.ytimg.com/vi/4PSTRPrld3w/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/4PSTRPrld3w/hqdefault.jpg",
+   "https://i.ytimg.com/vi/8KjBvYiejHA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/nYd4hGvBqMg/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "4PSTRPrld3w",
+    "title": ""
+   },
+   {
+    "id": "8KjBvYiejHA",
+    "title": ""
+   },
+   {
+    "id": "nYd4hGvBqMg",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Dolphin - download",
+    "url": "https://dolphin-emu.org/download/",
+    "note": "official download page - release and development builds"
+   },
+   {
+    "label": "Dolphin - wiki",
+    "url": "https://wiki.dolphin-emu.org/",
+    "note": "official wiki - per-game compatibility and setup"
+   }
+  ],
+  "official_note": "bios: none needed - dolphin emulates the gamecube/wii firmware in-house.",
+  "anyway": []
+ }
+}

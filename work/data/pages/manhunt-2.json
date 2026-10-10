@@ -1,0 +1,58 @@
+{
+ "slug": "manhunt-2",
+ "caption": "the banned sequel - daniel lamb's execution-stealth through the censor's worst nightmare, dug for pcsx2.",
+ "about": [
+  "Manhunt 2 (2007) is the sequel rockstar could barely release: the execution-stealth law of the first game returns with daniel lamb's split psyche - and leo kasper's - driving the levels. The ratings war defined its history: banned in several countries, AO-rated in the us, released censored on consoles, with the windows build cancelled outright. The gore wall is the game's whole identity, documented here as exactly that.",
+  "No windows version ever shipped, so the platform is ps2 - the version this archive digs, played through pcsx2. The rom source is romsfun; the emulator and its setup live on the software shelf."
+ ],
+ "characters": [
+  "Daniel Lamb",
+  "Leo Kasper"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 well within the haswell bar."
+ },
+ "genres": [
+  "action",
+  "stealth"
+ ],
+ "subgenres": [
+  "survival horror"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/MNojrouVvsA/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/MNojrouVvsA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/vIuIUCXKRr0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/jlvH9eO9tQ8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/VnhtpDP1ff8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/AM8BHCroI10/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Uw0T61c3AOc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JM-Q-Vtl3TA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/u46Nl9CjvQY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/1rrrZhqGCtQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/xpMSXJU1FK0/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "MNojrouVvsA",
+    "title": ""
+   },
+   {
+    "id": "vIuIUCXKRr0",
+    "title": ""
+   },
+   {
+    "id": "jlvH9eO9tQ8",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the console release is the only shipped version; the pc port was cancelled.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

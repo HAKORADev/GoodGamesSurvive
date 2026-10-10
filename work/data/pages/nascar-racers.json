@@ -1,0 +1,61 @@
+{
+ "slug": "nascar-racers",
+ "caption": "the nascar cartoon turned game - hot wheels logic on an oval, with the show's stunts intact.",
+ "about": [
+  "Nascar racers (2000) adapts the animated nascar racers tv series into an arcade racer: futuristic stock cars with gadget attachments, story events between races and the show's team dynamics intact. It sits in a strange, charming gap - licensed cartoon racing built by hasbro interactive at the peak of the idea.",
+  "The windows build is abandonware carried openly by myabandonware; the archive route is the way in."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2000 arcade racer; the bar is a formality."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "arcade racer"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/TiPQfGBMP_M/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/TiPQfGBMP_M/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Q4D7nNUKB2w/hqdefault.jpg",
+   "https://i.ytimg.com/vi/eY7RLCK4NR0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/w-yh3PWt7-Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/XQR-Kb7dxzI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/3ccL6OiHObA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ZgnzrGSPZ-w/hqdefault.jpg",
+   "https://i.ytimg.com/vi/yup4p5_T2pQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/wuMZoOskcD4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/8yZEf_IVM84/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "TiPQfGBMP_M",
+    "title": ""
+   },
+   {
+    "id": "Q4D7nNUKB2w",
+    "title": ""
+   },
+   {
+    "id": "eY7RLCK4NR0",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - hasbro interactive's catalog is gone from sale.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - NASCAR Racers (Windows)",
+    "url": "https://www.myabandonware.com/game/nascar-racers-4cw",
+    "src": "archive",
+    "note": "abandonware hosting - the full windows build"
+   }
+  ],
+  "anyway_note": "the archive hosts the original pc build openly."
+ }
+}

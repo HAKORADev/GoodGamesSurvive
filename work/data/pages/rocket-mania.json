@@ -1,0 +1,55 @@
+{
+ "slug": "rocket-mania",
+ "caption": "popcap's fuse puzzle - rotate falling pieces to light the fuses from rocket to wizard.",
+ "about": [
+  "Rocket mania is the best puzzle design popcap never rereleased: fuses fall like tetrominoes, and you rotate them so a lit fuse travels from the match on the left edge to the rockets waiting on the right. Multi-rocket chains erupt into fireworks and bonus levels, and the fuse-routing logic underneath is honest pathfinding under time pressure. It sits somewhere between tetris and pipe dreams and beats both at their own game.",
+  "The deluxe pc build is pre-merger popcap stock that never reached the current stores, so the archive route keeps the fuses lit."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2003 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle"
+ ],
+ "subgenres": [
+  "falling block",
+  "match-3"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/RHbQLxtXdYQ/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/RHbQLxtXdYQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/1paAKsvE04Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/clggiKjl4V8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/83ltIi0vjss/hqdefault.jpg",
+   "https://i.ytimg.com/vi/53gsw4FACp8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JbRuzmhmpUQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/kiozce-LQ0M/hqdefault.jpg",
+   "https://i.ytimg.com/vi/HfKVs2CpH40/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QtuBPGEl0_Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/o8slG_jjmGY/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "RHbQLxtXdYQ",
+    "title": ""
+   },
+   {
+    "id": "1paAKsvE04Q",
+    "title": ""
+   },
+   {
+    "id": "clggiKjl4V8",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - the pre-merger popcap catalog never reached the current stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

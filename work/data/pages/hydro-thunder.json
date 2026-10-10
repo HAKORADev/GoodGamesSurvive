@@ -1,0 +1,54 @@
+{
+ "slug": "hydro-thunder",
+ "caption": "midway's powerboat arcade - throttle down the nile, through arctic ice and past the titanic.",
+ "about": [
+  "Hydro thunder (1999) is the arcade powerboat racer that made water physics fun by cheating brilliantly: nine over-the-top boats, hidden shortcuts through waterfalls and canyons, a boost meter with nine pulses, and tracks that run the nile, arctic circles and shipwreck graveyards. The pc port carried the whole arcade - every boat, every shortcut - and the hull-bump physics still feel right.",
+  "Midway's collapse put the game wherever arcade licenses go to sleep; the archive route keeps the throttles open."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 1999 boat racer; the bar is a formality."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "boat racing"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/Hb4my_GaKQY/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/Hb4my_GaKQY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/uO4I_cXAQRg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/hlEExZueInI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ugOiPsR2EnQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/UVGSNTgQBig/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QpmXwiFqugI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Sf1zTTPk_cg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/5oonXQxZwmo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/FX5OJlHV-sc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/OwxFGzoZWxQ/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "Hb4my_GaKQY",
+    "title": ""
+   },
+   {
+    "id": "uO4I_cXAQRg",
+    "title": ""
+   },
+   {
+    "id": "hlEExZueInI",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - midway's arcade catalog is off the stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "slug": "beach-buggy-racing-2",
+ "caption": "vector unit's kart answer - powerup palms, island tracks and a split-screen couch law.",
+ "about": [
+  "Beach buggy racing 2 (2018) is vector unit's kart racer: island tracks with living shortcuts, a deep powerup deck - including the two-player-only boosts - and physics that keep the buggy drifting like the water games taught it. The hot wheels edition and the sequel's expansions keep it current, and the split-screen law is honored on pc.",
+  "The steam listing still sells the windows build."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - vector unit's engine scales to anything; the bar is a formality."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "kart racing"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/VU1wnhhQEDw/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/VU1wnhhQEDw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/SitPGMExnCI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/6fD3UXyyx5Y/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Q7vDM_yA1Ok/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ajOqW62z75Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/9dDdn_eDe9s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/GpJlv7DFP1s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/avTvBZfzMGA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/jHiRklicyVI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/bdKJ6A0L7IU/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "VU1wnhhQEDw",
+    "title": ""
+   },
+   {
+    "id": "SitPGMExnCI",
+    "title": ""
+   },
+   {
+    "id": "6fD3UXyyx5Y",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Beach Buggy Racing 2",
+    "url": "https://store.steampowered.com/app/944930/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

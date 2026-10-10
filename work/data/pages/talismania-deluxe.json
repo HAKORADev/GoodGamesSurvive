@@ -1,0 +1,62 @@
+{
+ "slug": "talismania-deluxe",
+ "caption": "popcap's midas puzzle - spin coins into golden paths that feed the king's greed.",
+ "about": [
+  "Talismania deluxe gives king midas a puzzle engine: coins spawn as snake-shaped tokens, you rotate them on a grid and connect matching endpoints to turn them into gold that flows to the buildings waiting for it. The golden-touch frame is the tutorial - everything routes through the same spin-and-connect law, deeper than it looks, with bonus rounds on the side.",
+  "The steam listing is the deluxe build still sold under popcap's ea-era catalog. It was also the last original design popcap shipped in the deluxe era, which makes it a small historical marker as well as a good puzzle."
+ ],
+ "characters": [
+  "King Midas"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2006 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle"
+ ],
+ "subgenres": [
+  "path building"
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460/0000000590.1920x1080.jpg?t=1776961670",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460/0000000590.1920x1080.jpg?t=1776961670",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460/0000000596.1920x1080.jpg?t=1776961670",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460/0000000592.1920x1080.jpg?t=1776961670",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460/0000000595.1920x1080.jpg?t=1776961670",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460/0000000594.1920x1080.jpg?t=1776961670",
+   "https://i.ytimg.com/vi/staMzQJEpiU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JhZ-TmnM3ss/hqdefault.jpg",
+   "https://i.ytimg.com/vi/llXEpRjToZA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/HZHfmKMwbok/hqdefault.jpg",
+   "https://i.ytimg.com/vi/kOPQm7qiOTo/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "staMzQJEpiU",
+    "title": ""
+   },
+   {
+    "id": "JhZ-TmnM3ss",
+    "title": ""
+   },
+   {
+    "id": "llXEpRjToZA",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Talismania Deluxe",
+    "url": "https://store.steampowered.com/app/3460/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

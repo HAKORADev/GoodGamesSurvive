@@ -1,0 +1,56 @@
+{
+ "slug": "dante-s-inferno",
+ "caption": "dante's nine circles, handheld edition - the psp port that carried the whole descent intact.",
+ "about": [
+  "Dante's inferno (2010) reworks the first canticle of the divine comedy as a heavy character-action game: dante carves through the nine circles of hell, each with its own hazards, bosses and judgment choices between holy and unholy upgrades. The psp port shipped the complete descent - all nine circles, all bosses - scaled to the handheld, and it stands as one of the last big-scale action ports the psp received.",
+  "No windows build exists, so the platform is psp - played through ppsspp, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Dante"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the psp build runs through ppsspp within the haswell bar."
+ },
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "character action"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/EmIbEYZBMOY/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/EmIbEYZBMOY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PcMS95fYZ30/hqdefault.jpg",
+   "https://i.ytimg.com/vi/BzHwJyU8-_o/hqdefault.jpg",
+   "https://i.ytimg.com/vi/K5OQNHfIl2s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/YqkCctPkvSA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/kew-6OXuowc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/VTIRxrsKS8o/hqdefault.jpg",
+   "https://i.ytimg.com/vi/dIRId-o34SQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/sJn0HZcSvHU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/NjHcDVb3Eac/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "EmIbEYZBMOY",
+    "title": ""
+   },
+   {
+    "id": "PcMS95fYZ30",
+    "title": ""
+   },
+   {
+    "id": "BzHwJyU8-_o",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the psp release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the psp rom lives on the rom source below - details land as verified."
+ }
+}

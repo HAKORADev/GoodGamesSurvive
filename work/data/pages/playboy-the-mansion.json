@@ -1,0 +1,64 @@
+{
+ "slug": "playboy-the-mansion",
+ "caption": "the mansion-management sim - build hef's empire one party, one cover shoot, one interview at a time.",
+ "about": [
+  "Playboy: the mansion (2005) is cyberlore's management sim with a Licensed smile: run the mansion, schedule the parties, court celebrities and journalists, and ship the magazine issue after issue. The adult content is mid-2000s cable-grade - the wall is the theme and the topless editor art - and the sim systems underneath are a genuine heirs-to-the-sims experiment that never got a sequel.",
+  "The windows build is abandonware hosted openly by myabandonware; the archive route is the way in."
+ ],
+ "characters": [
+  "Hugh Hefner"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2005 sim; the bar is a formality."
+ },
+ "genres": [
+  "simulation",
+  "strategy"
+ ],
+ "subgenres": [
+  "management sim"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/R22BicHRqxM/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/R22BicHRqxM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/x6tgHPqQyOg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/eLGBKoZYjUc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/tBKVHwH5qP0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Cm24PXr5ZnM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/4LngZHQhudo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/6ggrz94GlR8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/qdRPR84Yruo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/K_mlQkPRFlc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/qgOCfls0h5s/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "R22BicHRqxM",
+    "title": ""
+   },
+   {
+    "id": "x6tgHPqQyOg",
+    "title": ""
+   },
+   {
+    "id": "eLGBKoZYjUc",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - ubisoft retired the licensed sim.",
+  "anyway": [
+   {
+    "label": "MyAbandonware - Playboy: The Mansion Gold Edition (Windows)",
+    "url": "https://www.myabandonware.com/game/playboy-the-mansion-gold-edition-56p",
+    "src": "archive",
+    "note": "abandonware hosting - gold edition windows build"
+   }
+  ],
+  "anyway_note": "the archive hosts the gold edition openly."
+ }
+}

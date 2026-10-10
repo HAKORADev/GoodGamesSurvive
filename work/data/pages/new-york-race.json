@@ -1,0 +1,54 @@
+{
+ "slug": "new-york-race",
+ "caption": "kalisto's fifth-element-flavored hover racer - new york 2025, vertical traffic and all.",
+ "about": [
+  "New york race (2001) is kalisto's take on the futuristic hover-racer: a fifth-element-styled new york of 2025, traffic stacked in vertical layers, and circuits that weave between skyscrapers at speed. The french studio folded the same year, which is why this sleek oddity vanished so completely.",
+  "The windows build is off sale, carried by archive routes."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2001 racer; the bar is a formality."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "futuristic racing"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/9hGkA2Ep8zs/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/9hGkA2Ep8zs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/m-9IuUXzFZ4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/AWwt4F8hx-E/hqdefault.jpg",
+   "https://i.ytimg.com/vi/hNQWY-icd7E/hqdefault.jpg",
+   "https://i.ytimg.com/vi/0yhcr-0HHyI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/GF10WGPuqZg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/dh8wkvpkzrs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/xy0EXd_ECvk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/0PYEAS_COp4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ivWq0OCk4wU/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "9hGkA2Ep8zs",
+    "title": ""
+   },
+   {
+    "id": "m-9IuUXzFZ4",
+    "title": ""
+   },
+   {
+    "id": "AWwt4F8hx-E",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - kalisto folded in 2002; the catalog is gone.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

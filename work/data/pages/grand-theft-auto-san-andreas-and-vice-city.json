@@ -1,0 +1,59 @@
+{
+ "slug": "grand-theft-auto-san-andreas-and-vice-city",
+ "caption": "the two pillars of the 3d-era gta run in one box - tommy's vice city neon and cj's los san-andreas sprawl.",
+ "about": [
+  "This row is the classic pc pairing of two landmark open worlds. Grand Theft Auto: Vice City (2002) drops tommy vercetti into a neon-soaked 1986 pastiche of miami - cocaine deals, chainsaws, a property empire and the best radio lineup the series ever cut. Grand Theft Auto: San Andreas (2004) follows carl johnson across three cities and the countryside between them in 1992 - the biggest map of its era, with role-playing layers the series never fully repeated: hunger, muscle, respect, territories.",
+  "Both classics are gone from digital sale since rockstar retired them for the definitive-edition remasters, so on pc the original builds live on through archive routes only - which is exactly what this page keeps. The trilogy definitive edition is the current official door for the content, but it is a different engine on different code, and the originals remain the versions this archive documents."
+ ],
+ "characters": [
+  "Carl Johnson",
+  "Tommy Vercetti"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2002-2004 open worlds; the haswell igpu bar is a formality for the classic builds."
+ },
+ "genres": [
+  "action",
+  "open world"
+ ],
+ "subgenres": [
+  "crime",
+  "third-person shooter"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/ZvPem5XYBrU/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/ZvPem5XYBrU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ZaqpcybxUqs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/rIPPrq0e7Tk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WHMPECglS3I/hqdefault.jpg",
+   "https://i.ytimg.com/vi/LC0vI9ACM-E/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zqh1wB3E1N4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/KeDsPxcQEJ8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/0MOm9bDbIrc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/6EW-vQ6rNjs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/65y5_86URZU/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "ZvPem5XYBrU",
+    "title": ""
+   },
+   {
+    "id": "ZaqpcybxUqs",
+    "title": ""
+   },
+   {
+    "id": "rIPPrq0e7Tk",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - rockstar retired the classic pc builds; the trilogy definitive edition is the current remaster door, not the originals.",
+  "anyway": [],
+  "anyway_note": "archive routes fill in for both classic builds - details land as the links are verified."
+ }
+}

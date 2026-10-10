@@ -1,0 +1,56 @@
+{
+ "slug": "bleach-heat-the-soul-7",
+ "caption": "the last heat the soul - 84 shinigami, tag battles and the ad-hoc law that kept japan playing.",
+ "about": [
+  "Bleach: heat the soul 7 (2010) closes eighting's psp fighting line with the biggest roster the series saw: eighty-four characters from the arrancar arc onward, 2v2 tag battles built around rapid swaps and layered combos, and the ad-hoc multiplayer that made it a schoolyard standard in japan. It is the definitive bleach fighter on any platform.",
+  "No windows build exists, so the platform is psp - played through ppsspp, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Ichigo Kurosaki"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the psp build runs through ppsspp within the haswell bar."
+ },
+ "genres": [
+  "fighting"
+ ],
+ "subgenres": [
+  "anime fighting"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/sNBsX0PzbeA/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/sNBsX0PzbeA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/teJZnMzEi7o/hqdefault.jpg",
+   "https://i.ytimg.com/vi/dkRB1y4iIMM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/W_0CmkvGc1o/hqdefault.jpg",
+   "https://i.ytimg.com/vi/wFprhUMWQDo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/T4KLAmlCE5A/hqdefault.jpg",
+   "https://i.ytimg.com/vi/iRtX_Yy8160/hqdefault.jpg",
+   "https://i.ytimg.com/vi/bGYNqtpbmZg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/hF12Bxh0W7M/hqdefault.jpg",
+   "https://i.ytimg.com/vi/LLayKu32AXM/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "sNBsX0PzbeA",
+    "title": ""
+   },
+   {
+    "id": "teJZnMzEi7o",
+    "title": ""
+   },
+   {
+    "id": "dkRB1y4iIMM",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the psp release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the psp rom lives on the rom source below - details land as verified."
+ }
+}

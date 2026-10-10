@@ -1,0 +1,58 @@
+{
+ "slug": "shadow-of-the-colossus",
+ "caption": "sixteen colossi, one horse, no other enemies - the boss rush that redefined the medium, dug for pcsx2.",
+ "about": [
+  "Shadow of the colossus (2005) is the whole game in the promise: wander rides agro across the forbidden land to defeat sixteen colossi and bring mono back. Every colossus is a climbing puzzle with a weak point, every victory costs something visible in wander's face, and the landscape between them stays silent on purpose. Team ico's second game remains the cleanest argument that games are architecture first.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Wander",
+  "Mono",
+  "Dormin"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action adventure"
+ ],
+ "subgenres": [
+  "boss rush"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/6YISXYPmVcU/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/6YISXYPmVcU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/xMKtYM8AzC8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/1c752KC2j4Y/hqdefault.jpg",
+   "https://i.ytimg.com/vi/taRR_iSTasw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/5zLkeDieRLs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WdUgyibb468/hqdefault.jpg",
+   "https://i.ytimg.com/vi/7yloPB_fUCs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/HiB8MEJN-QU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/c_WUMDdqma8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/z1gGQABKGuM/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "6YISXYPmVcU",
+    "title": ""
+   },
+   {
+    "id": "xMKtYM8AzC8",
+    "title": ""
+   },
+   {
+    "id": "1c752KC2j4Y",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

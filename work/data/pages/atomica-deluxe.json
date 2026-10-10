@@ -1,0 +1,54 @@
+{
+ "slug": "atomica-deluxe",
+ "caption": "popcap's molecule puzzle - slide atoms into four-square reactions before the grid chokes.",
+ "about": [
+  "Atomica deluxe builds reactions under pressure: colored atoms fall onto a grid and you push them around one square at a time, grouping four of a kind to detonate a molecule. Black atoms clog the board, bombs tick on timers, and the grid slowly tightens until the chemistry stops cooperating. It is the purest traffic-jam puzzle popcap shipped, and one of the quietest.",
+  "The deluxe pc build never reached the current stores - popcap retired the pre-merger catalog and atomica went with it, so this page keeps the archive route. The reaction rules survive intact in every copy: plan the whole grid or the grid plans you."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2002 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle"
+ ],
+ "subgenres": [
+  "molecule matching"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/kFKbtPcwGz4/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/kFKbtPcwGz4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/cGffJi1IIPI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/BscAkGWEPzs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/mXI7Kdysyjg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/8nhzjEi-Y2Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/TyosXol_0wA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WiRpKX_uM_s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/NWRKTao0qfw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/oChV7TVaHCE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/99fbSsIlyqo/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "kFKbtPcwGz4",
+    "title": ""
+   },
+   {
+    "id": "cGffJi1IIPI",
+    "title": ""
+   },
+   {
+    "id": "BscAkGWEPzs",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - the pre-merger popcap catalog never reached the current stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "pcsx2",
+ "caption": "the ps2 emulator - two decades of development, the door for this site's whole ps2 vault.",
+ "about": [
+  "Pcsx2 is the playstation 2 emulator this site's ps2 vault runs on: the nightlies and stables live on the official download page, and the current builds run the full library range from shadow of the colossus to the licensed brawlers at the haswell bar with upscaling on top.",
+  "One law: pcsx2 needs a ps2 bios image, and it ships none - you dump the bios from your own console; the emulator's docs and wiki carry the setup path. The download link here stays semi-direct to the official page so no version ever goes stale."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - ps2 emulation sits right at the haswell bar with upscaling off."
+ },
+ "thumbnail": "https://i.ytimg.com/vi/qPcrjjHPQg4/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/qPcrjjHPQg4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/XOtjIMhGR1w/hqdefault.jpg",
+   "https://i.ytimg.com/vi/qS3fbr5S_dM/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "qPcrjjHPQg4",
+    "title": ""
+   },
+   {
+    "id": "XOtjIMhGR1w",
+    "title": ""
+   },
+   {
+    "id": "qS3fbr5S_dM",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "PCSX2 - downloads",
+    "url": "https://pcsx2.net/downloads/",
+    "note": "official download page - current stable and nightly builds"
+   },
+   {
+    "label": "PCSX2 - wiki",
+    "url": "https://github.com/PCSX2/pcsx2/wiki",
+    "note": "official wiki - setup and per-game guidance"
+   }
+  ],
+  "official_note": "bios: required - dump the ps2 bios from your own console; pcsx2 ships none and no bios downloads are linked here.",
+  "anyway": []
+ }
+}

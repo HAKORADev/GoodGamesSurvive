@@ -398,16 +398,35 @@ def redirect_page(eng, r, sec):
             '<link rel="canonical" href="' + esc(target) + '"><title>redirecting...</title></head>'
             '<body><p class="crumb" style="padding:40px">this name is an alias - <a href="' + esc(target) + '">go to the real page</a></p></body></html>')
 
+MOD_KINDS = {"modpack": "MODPACK", "mod": "MOD", "patch": "PATCH", "patchpack": "PATCHPACK"}
+
 def thing_page(eng, slug, sec):
     p = eng.page_by_slug[slug]
     row = next((r for r in (eng.software_rows if sec == "software" else eng.mods_rows) if r["slug"] == slug), None)
     title = (row or {}).get("title", slug)
     depth = 2
     shelf = {"software": "SOFTWARE", "mods": "MODS+PATCHES"}[sec]
+    kind_chip = ""
+    if sec == "mods" and row and row.get("type"):
+        kind_chip = '<span class="chip">' + esc(MOD_KINDS.get(row["type"], row["type"].upper())) + '</span>'
     facts = []
     if row:
         if row.get("release"):
-            facts.append(("<tr><td class=\"k\">released</td><td class=\"v\">" + esc(date_str(row.get("release"))) + "</td></tr>"))
+            rl = date_str(row.get("release"))
+            if row.get("date_likelihood") == "likely":
+                rl += " (likely date)"
+            facts.append(("<tr><td class=\"k\">released</td><td class=\"v\">" + esc(rl) + "</td></tr>"))
+        if sec == "mods":
+            cr = (row.get("creators") or [])
+            if cr:
+                facts.append('<tr><td class="k">creator</td><td class="v">' + esc(", ".join(cr)) + '</td></tr>')
+            tg = row.get("target_game")
+            if tg and (tg in eng.page_by_slug or tg in eng.game_by_slug):
+                tg_title = eng.title_of(tg)
+                tgt = ('<a href="' + rel("", "pages/game/%s.html" % tg, depth) + '">' + esc(tg_title) + '</a>') if tg in eng.page_by_slug else esc(tg_title)
+                facts.append('<tr><td class="k">target game</td><td class="v">' + tgt + '</td></tr>')
+            if row.get("compat"):
+                facts.append('<tr><td class="k">compatibility</td><td class="v">' + esc(row["compat"]) + '</td></tr>')
         for lab, key in (("developer", "developers"), ("publisher", "publishers")):
             vals = row.get(key) or []
             if vals:
@@ -444,7 +463,7 @@ def thing_page(eng, slug, sec):
                '<script>(function(){var M=document.getElementById("gal-main");document.querySelectorAll(".g-thumb").forEach(function(t){t.addEventListener("click",function(){M.innerHTML=\'<img src="\'+t.getAttribute("data-src")+\'" alt="">\'})})})();</script></section>')
     body = ['<main class="page-wrap">',
             '<p class="crumb"><a href="' + rel("", "index.html", depth) + '">GOODGAMES SURVIVE</a> / <a href="' + rel("", "pages/" + sec + ".html", depth) + '">' + shelf + '</a> / <b>' + esc(title) + '</b></p>',
-            '<div class="game-title"><h1>' + esc(title) + '</h1><p class="game-caption">' + esc(p.get("caption") or "") + '</p></div>',
+            '<div class="game-title"><h1>' + esc(title) + '</h1><p class="game-caption">' + esc(p.get("caption") or "") + '</p>' + ('<div class="chips">' + kind_chip + '</div>' if kind_chip else '') + '</div>',
             gal,
             '<section><h2 class="sec-title">ABOUT ' + esc(title.upper()) + '</h2>' + "".join('<p class="about-p">' + esc(a) + '</p>' for a in (p.get("about") or [])) + '</section>']
     if facts:

@@ -1,0 +1,57 @@
+{
+ "slug": "sonic-riders",
+ "caption": "air-fueled hoverboard racing - sonic team's answer to mario kart, drift-charged and gravity-defying.",
+ "about": [
+  "Sonic riders (2006) is sonic team's hoverboard racer: air is the fuel, drifts and tricks refill it, and the type triangle - speed, fly, power - assigns the best route per character. Gravity-control flips the track's shortcuts open mid-race, and the babylon rogues' story gives the whole thing an attitude the genre still quotes. The windows port carried the whole game to pc with the same gear pool.",
+  "The pc build is off sale everywhere, so the archive route keeps the air flowing."
+ ],
+ "characters": [
+  "Sonic",
+  "Jet the Hawk"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2006 racer; the bar is a formality."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "hoverboard racing"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/U2tELO5YWB4/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/U2tELO5YWB4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/HeHHfqwooFA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Tky9M8TpUVs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/SZFaHGtqWo4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/lmkUmW2S7iI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/a1zH6DLp3xc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/2U0brsKIwNw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WjSyGQ9vsOA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/BrcoHjJYfR0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JmqflApQWGc/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "U2tELO5YWB4",
+    "title": ""
+   },
+   {
+    "id": "HeHHfqwooFA",
+    "title": ""
+   },
+   {
+    "id": "Tky9M8TpUVs",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - the pc port is off all stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

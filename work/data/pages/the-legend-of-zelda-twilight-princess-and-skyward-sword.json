@@ -1,0 +1,59 @@
+{
+ "slug": "the-legend-of-zelda-twilight-princess-and-skyward-sword",
+ "caption": "the wii zelda pair - midna's twilight and the skyward origins, dug for dolphin.",
+ "about": [
+  "This row carries the two wii zeldas. Twilight princess (2006) is the series' darkest 3d chapter: midna rides along, wolf link hunts through the twilight realm, and the dungeon design runs from the Goron mines to the palace of twilight at full scale. Skyward sword (2011) goes back to the beginning: the bird-riding skyloft, the sword that talks, and the motion-controlled combat the wii was built to sell.",
+  "No windows builds exist, so the platform is wii - played through dolphin, roms sourced from romsfun."
+ ],
+ "characters": [
+  "Link",
+  "Zelda",
+  "Midna",
+  "Fi"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - both wii builds run through dolphin within the haswell bar."
+ },
+ "genres": [
+  "action adventure"
+ ],
+ "subgenres": [
+  "dungeon crawler"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/UNkv7OGXdaw/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/UNkv7OGXdaw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/E4xKEuTSGmo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/EmDUDQIZU5s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/J_J9se5zl64/hqdefault.jpg",
+   "https://i.ytimg.com/vi/1G9CfRHqIx0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/KvkbGiJx2gQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/gJPhioaehIY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/qzDq7kEPD3g/hqdefault.jpg",
+   "https://i.ytimg.com/vi/dObGktfJu2M/hqdefault.jpg",
+   "https://i.ytimg.com/vi/RV6WPT_n_Jo/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "UNkv7OGXdaw",
+    "title": ""
+   },
+   {
+    "id": "E4xKEuTSGmo",
+    "title": ""
+   },
+   {
+    "id": "EmDUDQIZU5s",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows builds exist - the wii releases are the dug platform.",
+  "anyway": [],
+  "anyway_note": "the wii roms live on the rom source below - details land as verified."
+ }
+}

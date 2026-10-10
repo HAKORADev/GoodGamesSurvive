@@ -1,0 +1,58 @@
+{
+ "slug": "tom-and-jerry-in-house-trap",
+ "caption": "the cartoon law as a game - set traps, spring traps, chase the cheese through the house.",
+ "about": [
+  "Tom and jerry in house trap (2000) turns the cartoon's whole grammar into a trap-warfare brawler: tom and jerry raid the pantry setting spring-loaded traps on each other, two players make it a proper versus game, and the house's rooms are the levels. It is the most faithful tom-and-jerry game mechanics ever got.",
+  "No windows build exists, so the platform is ps1 - played through duckstation, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Tom",
+  "Jerry"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps1 build runs through duckstation within the haswell bar."
+ },
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "trap puzzle",
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/ACGytEtZT04/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/ACGytEtZT04/hqdefault.jpg",
+   "https://i.ytimg.com/vi/crLnTduhzz0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WhsB38urazo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zxy-HLY3UX8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Jo3wSmgWHX0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/hK64vJHGcJI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Mx4J-uTEnyo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_UCymoQuk8w/hqdefault.jpg",
+   "https://i.ytimg.com/vi/5yfwYfOYgdI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/raf_bpJjrXc/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "ACGytEtZT04",
+    "title": ""
+   },
+   {
+    "id": "crLnTduhzz0",
+    "title": ""
+   },
+   {
+    "id": "WhsB38urazo",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps1 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps1 rom lives on the rom source below - details land as verified."
+ }
+}

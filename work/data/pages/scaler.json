@@ -1,0 +1,56 @@
+{
+ "slug": "scaler",
+ "caption": "the lizard-boy platformer's cult dig - tongue grappling, energy eating and honest 2004 charm.",
+ "about": [
+  "Scaler (2004) is the hidden-gem platformer about bobby jenkins turning into a lizard: the tongue grapple swings like a grappling hook, eaten bugs become powers, and the enemy-swallowing loop gives the 3d platformer a bite most of its 2004 peers lacked. It shipped quietly, gathered a cult, and vanished - exactly the profile this catalogue digs for.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Bobby Jenkins"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "platformer"
+ ],
+ "subgenres": [
+  "creature feature"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/Kzq2s-EMt_A/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/Kzq2s-EMt_A/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Ypj9NZIDTjQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Qbg5l4oVKb8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/BsETNohgJeQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/sfG4Lxtg5QE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/G2QfnFifxbo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/jnIPcyK2kLE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/XwbO89VNGbI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ture27nyeKY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/dIe0vUZh9kA/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "Kzq2s-EMt_A",
+    "title": ""
+   },
+   {
+    "id": "Ypj9NZIDTjQ",
+    "title": ""
+   },
+   {
+    "id": "Qbg5l4oVKb8",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

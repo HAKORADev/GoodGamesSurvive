@@ -1,0 +1,58 @@
+{
+ "slug": "bleach-shattered-blade",
+ "caption": "zampakuto in hand, wii remote as blade - the weapons fighter the waggle era actually built properly.",
+ "about": [
+  "Bleach: shattered blade (2006) turns the wii remote into a zanpakuto: swing directions map to real weapon angles, the combat reads as an anime duel at full speed, and the roster spans the soul society arc with story modes per character. It is the waggle-era fighting game that made the motion control mean something.",
+  "No windows build exists, so the platform is wii - played through dolphin, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Ichigo Kurosaki",
+  "Rukia Kuchiki"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the wii build runs through dolphin within the haswell bar."
+ },
+ "genres": [
+  "fighting"
+ ],
+ "subgenres": [
+  "weapons fighting",
+  "anime fighting"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/7RgViDjR-ZI/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/7RgViDjR-ZI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/F4Lv1ADcDMw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/sAA_Spaea3Y/hqdefault.jpg",
+   "https://i.ytimg.com/vi/CbLTHi4tIBQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/G5nou6Ce_Fk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/lqrGWZvXXo8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/wPE1ppboDGE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/dOvM0ZQZKyE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/NY6KvRmKwc4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Ta9jGIK4mVQ/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "7RgViDjR-ZI",
+    "title": ""
+   },
+   {
+    "id": "F4Lv1ADcDMw",
+    "title": ""
+   },
+   {
+    "id": "sAA_Spaea3Y",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the wii release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the wii rom lives on the rom source below - details land as verified."
+ }
+}

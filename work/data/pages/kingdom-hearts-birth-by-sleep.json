@@ -1,0 +1,58 @@
+{
+ "slug": "kingdom-hearts-birth-by-sleep",
+ "caption": "the psp prequel that explains everything - three keyblade apprentices, three campaigns, one tragedy.",
+ "about": [
+  "Kingdom hearts birth by sleep (2010) is the prequel that rebuilt the series' whole timeline: terra, ventus and aqua chase the vanished master xehanort across disney worlds a decade before sora's story, and each of the three campaigns reframes the same events until the last chapter locks the tragedy in place. The command-deck combat system remains one of the series' best action kits, and mirage arena adds local multiplayer boss hunts.",
+  "No windows build exists, so the platform is psp - played through ppsspp, with the rom sourced from romsfun and the emulator documented on the software shelf."
+ ],
+ "characters": [
+  "Terra",
+  "Ventus",
+  "Aqua"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the psp build runs through ppsspp within the haswell bar."
+ },
+ "genres": [
+  "action rpg"
+ ],
+ "subgenres": [
+  "disney crossover"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/QYdr7lJshSc/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/QYdr7lJshSc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/U55oOcWqssQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/8KQZGGp2bxs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/bbmu4mTdYmA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/P7V2hj8cf64/hqdefault.jpg",
+   "https://i.ytimg.com/vi/gtC91TU4iiY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/gqqPqiZdQuA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Owj4Rt0uHls/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PSIbkTnx8s8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/jb-_OfA19ls/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "QYdr7lJshSc",
+    "title": ""
+   },
+   {
+    "id": "U55oOcWqssQ",
+    "title": ""
+   },
+   {
+    "id": "8KQZGGp2bxs",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the psp release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the psp rom lives on the rom source below - details land as verified."
+ }
+}

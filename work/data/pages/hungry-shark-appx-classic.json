@@ -1,0 +1,62 @@
+{
+ "slug": "hungry-shark-appx-classic",
+ "caption": "the eat-everything shark sim's windows build - delisted, un-buyable, and archived intact.",
+ "about": [
+  "Hungry shark evolution is the growth-by-eating arcade: steer a shark through open water, eat everything smaller, dodge everything bigger, and watch the food chain turn into gold. The windows store build was a paid app before the store retired it, which puts it in the rare club of appx games you can no longer legally buy anywhere.",
+  "The owner-provided archive zip carries the complete install set for the store build - unzip it and the game installs as designed. It is the only appx page in this catalogue that skips the store entirely, and honestly so."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - casual 3d; the bar is a formality."
+ },
+ "genres": [
+  "arcade",
+  "action"
+ ],
+ "subgenres": [
+  "survival eating"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/PBz3iZzp6jY/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/PBz3iZzp6jY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/YQ3IfPo4auQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/2njDyNwiQgA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/OeNMJpG9u80/hqdefault.jpg",
+   "https://i.ytimg.com/vi/aKZQXeohASw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/6tr2AwxVeBA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/YEV-MqaynLU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/u4RxdL6SlLM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/iDzMv90iPKY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JHVNpHoV8Zs/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "PBz3iZzp6jY",
+    "title": ""
+   },
+   {
+    "id": "YQ3IfPo4auQ",
+    "title": ""
+   },
+   {
+    "id": "2njDyNwiQgA",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - the paid store app can no longer be bought.",
+  "anyway": [
+   {
+    "label": "Archive zip - Hungry Shark Evolution Windows Store",
+    "url": "https://www.mediafire.com/file/rkq61uj4rxj3c84/Hungry+Shark+Evolution+Windows+Store.zip/file",
+    "src": "archive",
+    "note": "owner-provided zip with all files required to install the store build"
+   }
+  ],
+  "anyway_note": "the zip contains everything needed to install the game manually - no store account involved."
+ }
+}

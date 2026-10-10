@@ -1,0 +1,62 @@
+{
+ "slug": "big-money-deluxe",
+ "caption": "popcap's coin-grabbing descent - pop groups of coins, bank the money bag, dodge the explosions.",
+ "about": [
+  "Big money! deluxe is popcap's coin-clearing arcade: matching groups of coins pop off the board, the moneybag at the bottom pays out when it reaches the bank, and bombs and power-ups keep every descent different. The post-office-minigame break between levels gave the loop a second rhythm, and the whole thing runs on the same one-hand reflex logic as the studio's biggest hits.",
+  "The steam listing is the deluxe build still sold under popcap's ea-era catalog, so this one never went dark. It remains the best coin game of the portal era and the cheapest smile on this shelf."
+ ],
+ "characters": [
+  "Moneybags"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2002 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle"
+ ],
+ "subgenres": [
+  "coin clearing"
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3360/0000000548.1920x1080.jpg?t=1776959856",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3360/0000000548.1920x1080.jpg?t=1776959856",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3360/0000000549.1920x1080.jpg?t=1776959856",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3360/0000000550.1920x1080.jpg?t=1776959856",
+   "https://i.ytimg.com/vi/wB6uFQpHYAk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/db1W8vtMq6I/hqdefault.jpg",
+   "https://i.ytimg.com/vi/xKmCMjnEtSM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PT8bSdjfMfY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PEu8FZRt93I/hqdefault.jpg",
+   "https://i.ytimg.com/vi/iepYLCYe1oA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/pWgOEHygh8c/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "wB6uFQpHYAk",
+    "title": ""
+   },
+   {
+    "id": "db1W8vtMq6I",
+    "title": ""
+   },
+   {
+    "id": "xKmCMjnEtSM",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Big Money! Deluxe",
+    "url": "https://store.steampowered.com/app/3360/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

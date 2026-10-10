@@ -1,7 +1,7 @@
 {
  "_meta": {
   "schema": "ggs.v2",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/. v2 adds genres/subgenres/tags/size_est_mb/req_tier; genres+subgenres capped at 5. | ggs-12: catalog = owner lists + endorsed upgrade hubs. holiday releases carry version_of and stay out of the catalog layer. out-of-scope rows sleep in attic/. | ggs-13 accuracy pass 2026-10-09: sizes from steam-stated storage / studio installer Content-Length / GOGDB / hosted originals; players from steam category flags + studio feature lists; buyable from live priced pages."
  },
  "count": 709,
@@ -54,7 +54,7 @@
     "tycoon"
    ],
    "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -104,8 +104,8 @@
     "farming",
     "tycoon"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 1024,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -811,9 +811,13 @@
    ],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2022-07-19",
+   "developers": [
+    "Tender Troupe"
+   ],
+   "publishers": [
+    "Tender Troupe"
+   ],
    "platforms": [
     "windows"
    ],
@@ -822,25 +826,24 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/1941000"
+   ],
    "notes": "",
    "genres": [
-    "casual",
-    "time management",
     "simulation"
    ],
    "subgenres": [
-    "farming",
-    "tycoon"
+    "adult sim",
+    "farming"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -3102,8 +3105,8 @@
     "farming",
     "tycoon"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 11,
+   "size_source": "hosted stated (gog-unlocked, 10.92 MB)",
    "req_tier": "below"
   },
   {
@@ -4211,7 +4214,7 @@
     "roguelite"
    ],
    "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -4261,8 +4264,8 @@
     "tower defense",
     "roguelite"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 449,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -4446,8 +4449,8 @@
     "tower defense",
     "roguelite"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 2048,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -4496,8 +4499,8 @@
     "tower defense",
     "roguelite"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 2500,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -4952,8 +4955,8 @@
     "tower defense",
     "roguelite"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 4096,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -5002,8 +5005,8 @@
    "subgenres": [
     "physics"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 200,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -5052,8 +5055,8 @@
    "subgenres": [
     "physics"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 100,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -5202,7 +5205,7 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2006-08-30",
+   "release": "2006-01-01",
    "developers": [
     "PopCap Games"
    ],
@@ -5217,28 +5220,23 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
    "buyable": true,
-   "download_kind": "anyway",
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "https://store.steampowered.com/app/3460/",
-    "https://www.metacritic.com/game/talismania-deluxe/",
-    "https://www.mobygames.com/game/23139/talismania-deluxe/"
+    "store.steampowered.com/app/3460"
    ],
    "notes": "owner listed it twice (casual 95 'Talismania' + 186 'TailsMania Deluxe'); 2026-10-09 owner resolved: one game. spelling verified vs Steam 3460/Metacritic/MobyGames. King Midas coin-path puzzle; still sold -> anyway links.",
    "genres": [
-    "arcade",
-    "puzzle",
-    "platformer"
+    "puzzle"
    ],
    "subgenres": [
-    "physics"
+    "path building"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -5560,8 +5558,8 @@
    "subgenres": [
     "physics"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 200,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -6061,8 +6059,8 @@
    "subgenres": [
     "physics"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 40,
+   "size_source": "hosted stated (gog-unlocked, 40.12 MB)",
    "req_tier": "below"
   },
   {
@@ -6112,8 +6110,8 @@
    "subgenres": [
     "physics"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 63,
+   "size_source": "hosted stated (gog-unlocked, 62.78 MB)",
    "req_tier": "below"
   },
   {
@@ -6207,8 +6205,8 @@
    "subgenres": [
     "physics"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 200,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -6257,8 +6255,8 @@
    "subgenres": [
     "physics"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 750,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -7928,8 +7926,8 @@
    "subgenres": [
     "physics"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 7,
+   "size_source": "installer-research (legacy popcap mirrors: malavida 7 MB, instalki 9 MB)",
    "req_tier": "below"
   },
   {
@@ -7978,8 +7976,8 @@
    "subgenres": [
     "physics"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 2,
+   "size_source": "installer-research (freedownloadscenter legacy installer 2.2 MB)",
    "req_tier": "below"
   },
   {
@@ -8578,9 +8576,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2008-01-01",
+   "developers": [
+    "Elefun Games"
+   ],
+   "publishers": [
+    "Elefun Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -8589,11 +8591,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -8601,12 +8602,11 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "arcade",
     "puzzle",
-    "platformer"
+    "arcade"
    ],
    "subgenres": [
-    "physics"
+    "marble shooter"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -8887,9 +8887,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2012-11-01",
+   "developers": [
+    "King"
+   ],
+   "publishers": [
+    "King"
+   ],
    "platforms": [
     "windows"
    ],
@@ -8898,25 +8902,23 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "apps.microsoft.com"
+   ],
    "notes": "",
    "genres": [
-    "puzzle",
-    "casual"
+    "puzzle"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "match-3"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -8970,8 +8972,8 @@
     "marble popper",
     "card"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 7,
+   "size_source": "installer-research (legacy popcap installer mirrors: filehorse 6.93 MB, softonic 7.26 MB, uptodown 7.19 MB)",
    "req_tier": "below"
   },
   {
@@ -9022,8 +9024,8 @@
     "marble popper",
     "card"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 107,
+   "size_source": "hosted stated (gog-unlocked, 106.89 MB)",
    "req_tier": "below"
   },
   {
@@ -9037,9 +9039,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2006-11-28",
+   "developers": [
+    "PopCap Games"
+   ],
+   "publishers": [
+    "PopCap Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9048,25 +9054,25 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Bookworm_Adventures"
+   ],
    "notes": "",
    "genres": [
     "puzzle",
-    "casual"
+    "word game"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "rpg",
+    "letter tiles"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9083,9 +9089,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2004-06-15",
+   "developers": [
+    "PopCap Games"
+   ],
+   "publishers": [
+    "PopCap Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9094,25 +9104,24 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/3340"
+   ],
    "notes": "",
    "genres": [
     "puzzle",
-    "casual"
+    "arcade"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "match-3"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9129,9 +9138,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2002-01-01",
+   "developers": [
+    "PopCap Games"
+   ],
+   "publishers": [
+    "PopCap Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9140,11 +9153,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -9152,13 +9164,10 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "puzzle",
-    "casual"
+    "puzzle"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "molecule matching"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9175,9 +9184,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2004-01-01",
+   "developers": [
+    "PopCap Games"
+   ],
+   "publishers": [
+    "PopCap Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9186,11 +9199,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -9198,13 +9210,10 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "puzzle",
-    "casual"
+    "puzzle"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "tessellation"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9221,9 +9230,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2005-01-01",
+   "developers": [
+    "Skunk Studios"
+   ],
+   "publishers": [
+    "Skunk Studios"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9232,11 +9245,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -9245,12 +9257,10 @@
    "notes": "",
    "genres": [
     "puzzle",
-    "casual"
+    "arcade"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "whirled clearing"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9267,9 +9277,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2003-01-01",
+   "developers": [
+    "PopCap Games"
+   ],
+   "publishers": [
+    "PopCap Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9278,11 +9292,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -9291,12 +9304,10 @@
    "notes": "",
    "genres": [
     "puzzle",
-    "casual"
+    "strategy"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "naval maze"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9313,9 +9324,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2003-01-01",
+   "developers": [
+    "PopCap Games"
+   ],
+   "publishers": [
+    "PopCap Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9324,11 +9339,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -9336,13 +9350,10 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "puzzle",
-    "casual"
+    "puzzle"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "block sliding"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9359,9 +9370,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2004-01-01",
+   "developers": [
+    "PopCap Games"
+   ],
+   "publishers": [
+    "PopCap Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9370,11 +9385,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -9382,13 +9396,10 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "puzzle",
-    "casual"
+    "puzzle"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "match-3"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9405,9 +9416,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2003-09-01",
+   "developers": [
+    "PopCap Games"
+   ],
+   "publishers": [
+    "PopCap Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9416,11 +9431,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -9428,13 +9442,11 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "puzzle",
-    "casual"
+    "puzzle"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "falling block",
+    "match-3"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9676,14 +9688,18 @@
    "list": "casual",
    "class": "normal",
    "category": "🔮 MARBLE POPPERS, MATCH-3, BUBBLES & CARDS",
-   "series": null,
-   "series_part": null,
+   "series": "sparkle",
+   "series_part": 1,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2007-01-01",
+   "developers": [
+    "10tons Ltd"
+   ],
+   "publishers": [
+    "10tons Ltd"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9692,11 +9708,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -9705,12 +9720,10 @@
    "notes": "",
    "genres": [
     "puzzle",
-    "casual"
+    "action"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "marble shooter"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9722,14 +9735,18 @@
    "list": "casual",
    "class": "normal",
    "category": "🔮 MARBLE POPPERS, MATCH-3, BUBBLES & CARDS",
-   "series": null,
-   "series_part": null,
+   "series": "sparkle",
+   "series_part": 4,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2016-12-02",
+   "developers": [
+    "10tons Ltd"
+   ],
+   "publishers": [
+    "10tons Ltd"
+   ],
    "platforms": [
     "windows"
    ],
@@ -9738,25 +9755,24 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/550450"
+   ],
    "notes": "",
    "genres": [
     "puzzle",
-    "casual"
+    "action"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "marble shooter"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9819,7 +9835,7 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
+   "release": "2008-01-01",
    "developers": [],
    "publishers": [],
    "platforms": [
@@ -9830,11 +9846,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -9842,13 +9857,10 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "puzzle",
-    "casual"
+    "puzzle"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "marble shooter"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -9957,7 +9969,7 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
+   "release": "2008-01-01",
    "developers": [],
    "publishers": [],
    "platforms": [
@@ -9968,11 +9980,10 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -9980,13 +9991,10 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "puzzle",
-    "casual"
+    "puzzle"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "marble shooter"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -10279,9 +10287,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2002-01-01",
+   "developers": [
+    "PopCap Games"
+   ],
+   "publishers": [
+    "PopCap Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -10290,25 +10302,23 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/3360"
+   ],
    "notes": "",
    "genres": [
-    "puzzle",
-    "casual"
+    "puzzle"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "coin clearing"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -11010,14 +11020,18 @@
    "list": "casual",
    "class": "normal",
    "category": "🔮 MARBLE POPPERS, MATCH-3, BUBBLES & CARDS",
-   "series": null,
-   "series_part": null,
+   "series": "luxor",
+   "series_part": 1,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2004-01-01",
+   "developers": [
+    "MumboJumbo"
+   ],
+   "publishers": [
+    "MumboJumbo"
+   ],
    "platforms": [
     "windows"
    ],
@@ -11026,25 +11040,24 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Luxor_(video_game)"
+   ],
    "notes": "",
    "genres": [
     "puzzle",
-    "casual"
+    "action"
    ],
    "subgenres": [
-    "match-3",
-    "marble popper",
-    "card"
+    "marble shooter"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -11098,8 +11111,8 @@
     "marble popper",
     "card"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 241,
+   "size_source": "installed size, measured (shouldiremoveit: 241.17 MB installed)",
    "req_tier": "below"
   },
   {
@@ -11379,8 +11392,8 @@
     "shoot 'em up",
     "runner"
    ],
-   "size_est_mb": 500,
-   "size_source": "band:casual",
+   "size_est_mb": 8,
+   "size_source": "installer-research (legacy installer mirrors: programy 8 MB, wmouse 8620 KB)",
    "req_tier": "below"
   },
   {
@@ -11532,9 +11545,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2013-01-01",
+   "developers": [
+    "Future Games of London"
+   ],
+   "publishers": [
+    "Ubisoft"
+   ],
    "platforms": [
     "windows"
    ],
@@ -11543,25 +11560,25 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "apps.microsoft.com",
+    "owner-provided mediafire archive"
+   ],
    "notes": "",
    "genres": [
-    "shooter",
-    "arcade"
+    "arcade",
+    "action"
    ],
    "subgenres": [
-    "light-gun",
-    "shoot 'em up",
-    "runner"
+    "survival eating"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -12638,9 +12655,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2012-01-01",
+   "developers": [
+    "Fingersoft"
+   ],
+   "publishers": [
+    "Fingersoft"
+   ],
    "platforms": [
     "windows"
    ],
@@ -12649,24 +12670,24 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "apps.microsoft.com"
+   ],
    "notes": "",
    "genres": [
     "racing",
-    "sports",
-    "arcade"
+    "physics"
    ],
    "subgenres": [
-    "side-scroller"
+    "side-scrolling driving"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -12678,14 +12699,18 @@
    "list": "casual",
    "class": "normal",
    "category": "🏎️ ARCADE RACING, SPORTS & SIDE-SCROLLERS",
-   "series": null,
+   "series": "crazy-taxi",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2002-12-12",
+   "developers": [
+    "Hitmaker"
+   ],
+   "publishers": [
+    "SEGA"
+   ],
    "platforms": [
     "windows"
    ],
@@ -12694,24 +12719,24 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Crazy_Taxi_3:_High_Roller"
+   ],
    "notes": "",
    "genres": [
     "racing",
-    "sports",
     "arcade"
    ],
    "subgenres": [
-    "side-scroller"
+    "taxi driving"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -12728,9 +12753,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2000-01-01",
+   "developers": [
+    "Software Dynamics"
+   ],
+   "publishers": [
+    "Hasbro Interactive"
+   ],
    "platforms": [
     "windows"
    ],
@@ -12738,25 +12767,25 @@
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "www.myabandonware.com/game/nascar-racers-4cw",
+    "en.wikipedia.org/wiki/NASCAR_Racers"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "sports",
-    "arcade"
+    "racing"
    ],
    "subgenres": [
-    "side-scroller"
+    "arcade racer"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -13133,9 +13162,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2006-12-01",
+   "developers": [
+    "Neko Entertainment"
+   ],
+   "publishers": [
+    "Turtle Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -13143,25 +13176,24 @@
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Crazy_Frog_Racer_2"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "sports",
-    "arcade"
+    "racing"
    ],
    "subgenres": [
-    "side-scroller"
+    "kart racing"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -13268,9 +13300,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2018-01-01",
+   "developers": [
+    "Vector Unit"
+   ],
+   "publishers": [
+    "Vector Unit"
+   ],
    "platforms": [
     "windows"
    ],
@@ -13278,25 +13314,24 @@
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/944930"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "sports",
-    "arcade"
+    "racing"
    ],
    "subgenres": [
-    "side-scroller"
+    "kart racing"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -13313,9 +13348,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "1999-02-01",
+   "developers": [
+    "Midway Games"
+   ],
+   "publishers": [
+    "Midway Games"
+   ],
    "platforms": [
     "windows"
    ],
@@ -13323,25 +13362,24 @@
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Hydro_Thunder"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "sports",
-    "arcade"
+    "racing"
    ],
    "subgenres": [
-    "side-scroller"
+    "boat racing"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -13358,9 +13396,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2016-07-26",
+   "developers": [
+    "Vector Unit"
+   ],
+   "publishers": [
+    "Vector Unit"
+   ],
    "platforms": [
     "windows"
    ],
@@ -13368,25 +13410,24 @@
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/443860"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "sports",
-    "arcade"
+    "racing"
    ],
    "subgenres": [
-    "side-scroller"
+    "boat racing"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -13538,9 +13579,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2015-07-30",
+   "developers": [
+    "Rovio Entertainment"
+   ],
+   "publishers": [
+    "Rovio Entertainment"
+   ],
    "platforms": [
     "windows"
    ],
@@ -13549,24 +13594,24 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "apps.microsoft.com"
+   ],
    "notes": "",
    "genres": [
-    "simulation",
-    "casual"
+    "puzzle",
+    "arcade"
    ],
    "subgenres": [
-    "virtual world",
-    "pets"
+    "slingshot physics"
    ],
    "size_est_mb": 500,
    "size_source": "band:casual",
@@ -14283,8 +14328,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 3072,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -14375,8 +14420,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 8192,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -14424,8 +14469,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 8192,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -14812,8 +14857,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": 15360,
-   "size_source": "band:big-size",
+   "size_est_mb": 35840,
+   "size_source": "store-stated disk requirement",
    "req_tier": "above"
   },
   {
@@ -14969,8 +15014,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 9216,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -15196,32 +15241,39 @@
    ],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2004-10-05",
+   "developers": [
+    "High Voltage Software"
+   ],
+   "publishers": [
+    "Vivendi Universal Games"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Leisure_Suit_Larry:_Magna_Cum_Laude"
+   ],
    "notes": "",
    "genres": [
-    "action",
-    "shooter"
+    "adventure"
    ],
    "subgenres": [
-    "survival"
+    "dating sim",
+    "comedy"
    ],
    "size_est_mb": null,
    "size_source": null,
@@ -15240,20 +15292,25 @@
    ],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-01-01",
+   "developers": [
+    "Illusion"
+   ],
+   "publishers": [
+    "Illusion"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -15261,11 +15318,10 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "action",
-    "shooter"
+    "simulation"
    ],
    "subgenres": [
-    "survival"
+    "adult sim"
    ],
    "size_est_mb": null,
    "size_source": null,
@@ -15316,8 +15372,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 4096,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -15533,8 +15589,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 12288,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -15583,8 +15639,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 2867,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -15758,8 +15814,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 6500,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -15856,8 +15912,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 8192,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -16619,8 +16675,8 @@
    "subgenres": [
     "survival"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 13312,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -17814,8 +17870,8 @@
     "roguelike",
     "musou"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 34816,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -18175,8 +18231,8 @@
     "roguelike",
     "musou"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 3072,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -18314,8 +18370,8 @@
     "roguelike",
     "musou"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 15360,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -18673,8 +18729,8 @@
     "roguelike",
     "musou"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 3840,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -18724,8 +18780,8 @@
     "roguelike",
     "musou"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 2252,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -19928,8 +19984,8 @@
     "roguelike",
     "musou"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 8192,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -20517,34 +20573,39 @@
    ],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2007-10-29",
+   "developers": [
+    "Rockstar London"
+   ],
+   "publishers": [
+    "Rockstar Games"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Manhunt_2"
+   ],
    "notes": "",
    "genres": [
     "action",
-    "platformer"
+    "stealth"
    ],
    "subgenres": [
-    "hack 'n slash",
-    "roguelike",
-    "musou"
+    "survival horror"
    ],
    "size_est_mb": null,
    "size_source": null,
@@ -20597,8 +20658,8 @@
     "roguelike",
     "musou"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 27648,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -21044,8 +21105,8 @@
     "roguelike",
     "musou"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 8192,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -21627,8 +21688,8 @@
     "tactics",
     "jrpg"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 850,
+   "size_source": "store-stated disk requirement",
    "req_tier": "below"
   },
   {
@@ -21732,34 +21793,40 @@
    ],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-01-25",
+   "developers": [
+    "Cyberlore Studios"
+   ],
+   "publishers": [
+    "Ubisoft"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Playboy:_The_Mansion",
+    "www.myabandonware.com"
+   ],
    "notes": "",
    "genres": [
-    "strategy",
     "simulation",
-    "rpg"
+    "strategy"
    ],
    "subgenres": [
-    "tactics",
-    "jrpg"
+    "management sim"
    ],
    "size_est_mb": null,
    "size_source": null,
@@ -21778,34 +21845,39 @@
    ],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-06-01",
+   "developers": [
+    "Monte Cristo"
+   ],
+   "publishers": [
+    "Deep Silver"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/7_Sins_(video_game)"
+   ],
    "notes": "",
    "genres": [
-    "strategy",
-    "simulation",
-    "rpg"
+    "adventure",
+    "simulation"
    ],
    "subgenres": [
-    "tactics",
-    "jrpg"
+    "social climbing"
    ],
    "size_est_mb": null,
    "size_source": null,
@@ -22738,8 +22810,8 @@
     "tactics",
     "jrpg"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 6144,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -22876,8 +22948,8 @@
     "open world",
     "crime"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 10240,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -22926,8 +22998,8 @@
     "open world",
     "crime"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 10240,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -22980,37 +23052,44 @@
    "class": "normal",
    "category": "🏙️ OPEN WORLD, CRIME & NARRATIVE ACTION",
    "series": "gta",
-   "series_part": null,
+   "series_part": 5,
    "content_walls": [],
    "big_size": true,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2015-04-14",
+   "developers": [
+    "Rockstar North"
+   ],
+   "publishers": [
+    "Rockstar Games"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/3240220"
+   ],
    "notes": "big-size per owner tag; verify vs +15GB law",
    "genres": [
     "action",
-    "adventure"
+    "open world"
    ],
    "subgenres": [
-    "open world",
-    "crime"
+    "crime",
+    "third-person shooter"
    ],
    "size_est_mb": 15360,
    "size_source": "band:big-size",
@@ -23725,33 +23804,41 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2004-06-07",
+   "developers": [
+    "Rockstar North"
+   ],
+   "publishers": [
+    "Rockstar Games"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas",
+    "en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City"
+   ],
    "notes": "",
    "genres": [
     "action",
-    "adventure"
+    "open world"
    ],
    "subgenres": [
-    "open world",
-    "crime"
+    "crime",
+    "third-person shooter"
    ],
    "size_est_mb": null,
    "size_source": null,
@@ -23768,9 +23855,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2002-10-31",
+   "developers": [
+    "Capcom"
+   ],
+   "publishers": [
+    "Capcom"
+   ],
    "platforms": [
     "ps2"
    ],
@@ -23778,23 +23869,26 @@
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Auto_Modellista"
+   ],
    "notes": "owner's 'cel-shaded' list note describes the art style, not part of the title; ps2 console dig",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "arcade racer",
+    "cel-shaded"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -23812,31 +23906,41 @@
    ],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2002-11-26",
+   "developers": [
+    "Z-Axis"
+   ],
+   "publishers": [
+    "Acclaim Entertainment"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/BMX_XXX"
+   ],
    "notes": "",
    "genres": [
-    "racing",
+    "sports",
     "action"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "bmx",
+    "adult comedy"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -23886,8 +23990,8 @@
     "action"
    ],
    "subgenres": [],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 3584,
+   "size_source": "store-stated disk requirement",
    "req_tier": "at"
   },
   {
@@ -23901,20 +24005,25 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2001",
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2001-01-01",
+   "developers": [
+    "Kalisto Entertainment"
+   ],
+   "publishers": [
+    "Wanadoo Edition"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -23922,10 +24031,11 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "futuristic racing"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -23941,31 +24051,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "1997-06-30",
+   "developers": [
+    "Psygnosis"
+   ],
+   "publishers": [
+    "Psygnosis"
+   ],
+   "platforms": [
+    "ps1"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Overboard!"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "action",
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "naval combat"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -23981,20 +24100,25 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2001-01-01",
+   "developers": [
+    "Lankhor"
+   ],
+   "publishers": [
+    "Xicat Interactive"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -24002,10 +24126,11 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "stunt driving"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24021,31 +24146,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2012",
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2012-10-30",
+   "developers": [
+    "Criterion Games"
+   ],
+   "publishers": [
+    "Electronic Arts"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/1262560"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "street racing",
+    "arcade racer"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24056,36 +24190,44 @@
    "list": "non-casual",
    "class": "normal",
    "category": "🏎 RACING & VEHICULAR ACTION",
-   "series": null,
+   "series": "hot-wheels",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2003-01-01",
+   "developers": [
+    "Pacific Coast Power & Light"
+   ],
+   "publishers": [
+    "THQ"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Hot_Wheels:_Stunt_Track_Challenge"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "stunt racing"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24101,20 +24243,25 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2007",
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2007-01-01",
+   "developers": [
+    "Torus Games"
+   ],
+   "publishers": [
+    "Activision Value"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
@@ -24122,10 +24269,11 @@
    "sources": [],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "monster truck"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24141,31 +24289,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2004-11-15",
+   "developers": [
+    "EA Black Box"
+   ],
+   "publishers": [
+    "Electronic Arts"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Need_for_Speed:_Underground_2"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "street racing",
+    "arcade racer"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24181,31 +24338,39 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": "2006",
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-02-21",
+   "developers": [
+    "Sonic Team USA"
+   ],
+   "publishers": [
+    "SEGA"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Sonic_Riders"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "hoverboard racing"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24221,31 +24386,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2003-07-22",
+   "developers": [
+    "Incog Inc."
+   ],
+   "publishers": [
+    "Sony Computer Entertainment"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Downhill_Domination"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "downhill biking",
+    "extreme sports"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24261,31 +24435,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2011-09-06",
+   "developers": [
+    "Ubisoft Reflections"
+   ],
+   "publishers": [
+    "Ubisoft"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Driver:_San_Francisco"
+   ],
    "notes": "",
    "genres": [
     "racing",
     "action"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "open world driving"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24301,31 +24484,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2009-02-05",
+   "developers": [
+    "Criterion Games"
+   ],
+   "publishers": [
+    "Electronic Arts"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/1238080"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "arcade racer",
+    "open world"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24341,31 +24533,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-11-15",
+   "developers": [
+    "EA Black Box"
+   ],
+   "publishers": [
+    "Electronic Arts"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Need_for_Speed:_Most_Wanted_(2005_video_game)"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "street racing",
+    "arcade racer"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24381,31 +24582,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2010-05-25",
+   "developers": [
+    "Bizarre Creations"
+   ],
+   "publishers": [
+    "Activision"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Blur_(video_game)"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "combat racing",
+    "arcade racer"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24421,31 +24631,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "1999-07-31",
+   "developers": [
+    "Acclaim Studios Teesside"
+   ],
+   "publishers": [
+    "Acclaim Entertainment"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": true
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/287310"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "rc car racing",
+    "combat racing"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24461,31 +24680,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2000-01-01",
+   "developers": [
+    "Attention to Detail"
+   ],
+   "publishers": [
+    "Psygnosis"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Rollcage_Stage_II"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "combat racing",
+    "sci-fi racer"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -24536,36 +24764,45 @@
    "list": "non-casual",
    "class": "normal",
    "category": "🏎 RACING & VEHICULAR ACTION",
-   "series": null,
+   "series": "walt-disney-world-quest",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2000-03-14",
+   "developers": [
+    "Crystal Dynamics"
+   ],
+   "publishers": [
+    "Eidos Interactive"
+   ],
+   "platforms": [
+    "ps1"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Walt_Disney_World_Quest:_Magical_Racing_Tour"
+   ],
    "notes": "",
    "genres": [
-    "racing",
-    "action"
+    "racing"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "kart racing",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -25287,30 +25524,39 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-11-16",
+   "developers": [
+    "Behaviour Interactive"
+   ],
+   "publishers": [
+    "Buena Vista Games"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Kim_Possible:_What's_the_Switch%3F"
+   ],
    "notes": "",
    "genres": [
-    "casual"
+    "platformer"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -26379,30 +26625,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2007-11-06",
+   "developers": [
+    "Behaviour Interactive"
+   ],
+   "publishers": [
+    "Disney Interactive Studios"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Power_Rangers:_Super_Legends"
+   ],
    "notes": "",
    "genres": [
-    "casual"
+    "action"
    ],
-   "subgenres": [],
+   "subgenres": [
+    "beat-em-up",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -26543,32 +26799,39 @@
    ],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2015-01-01",
+   "developers": [
+    "Tetchi"
+   ],
+   "publishers": [
+    "Tetchi"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "gamesdb.launchbox-app.com"
+   ],
    "notes": "",
    "genres": [
     "fighting"
    ],
    "subgenres": [
-    "arena brawler",
-    "mugen"
+    "mugen",
+    "adult fighting"
    ],
    "size_est_mb": null,
    "size_source": null,
@@ -26629,32 +26892,38 @@
    ],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-01-01",
+   "developers": [
+    "Illusion"
+   ],
+   "publishers": [
+    "Illusion"
+   ],
+   "platforms": [
+    "windows"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Battle_Raper"
+   ],
    "notes": "",
    "genres": [
     "fighting"
    ],
    "subgenres": [
-    "arena brawler",
-    "mugen"
+    "adult fighting"
    ],
    "size_est_mb": null,
    "size_source": null,
@@ -26748,7 +27017,7 @@
     "mugen"
    ],
    "size_est_mb": 20480,
-   "size_source": "band:big-size",
+   "size_source": "store-stated disk requirement",
    "req_tier": "above"
   },
   {
@@ -27053,33 +27322,44 @@
    "list": "non-casual",
    "class": "normal",
    "category": "🕹️ PSP & HANDHELD EXCLUSIVES",
-   "series": null,
+   "series": "kingdom-hearts",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2010-01-09",
+   "developers": [
+    "Square Enix"
+   ],
+   "publishers": [
+    "Square Enix"
+   ],
+   "platforms": [
+    "psp"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Kingdom_Hearts_Birth_by_Sleep"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action rpg"
+   ],
+   "subgenres": [
+    "disney crossover"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27095,28 +27375,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2010-03-01",
+   "developers": [
+    "Visceral Games",
+    "Artificial Mind and Movement"
+   ],
+   "publishers": [
+    "Electronic Arts"
+   ],
+   "platforms": [
+    "psp"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Dante's_Inferno_(video_game)"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "character action"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27169,28 +27461,41 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2008-03-04",
+   "developers": [
+    "Ready at Dawn"
+   ],
+   "publishers": [
+    "Sony Computer Entertainment"
+   ],
+   "platforms": [
+    "psp"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/God_of_War:_Chains_of_Olympus",
+    "en.wikipedia.org/wiki/God_of_War:_Ghost_of_Sparta"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "character action",
+    "mythology"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27206,28 +27511,41 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2010-12-23",
+   "developers": [
+    "HexaDrive",
+    "Square Enix"
+   ],
+   "publishers": [
+    "Square Enix"
+   ],
+   "platforms": [
+    "psp"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/The_3rd_Birthday"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "third-person shooter",
+    "rpg"
+   ],
+   "subgenres": [
+    "parasite eve"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27238,33 +27556,44 @@
    "list": "non-casual",
    "class": "normal",
    "category": "🕹️ PSP & HANDHELD EXCLUSIVES",
-   "series": null,
+   "series": "bleach",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2010-09-02",
+   "developers": [
+    "Eighting"
+   ],
+   "publishers": [
+    "Sony Computer Entertainment"
+   ],
+   "platforms": [
+    "psp"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Bleach:_Heat_the_Soul_7"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "fighting"
+   ],
+   "subgenres": [
+    "anime fighting"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27280,28 +27609,39 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2009-12-10",
+   "developers": [
+    "CyberConnect2"
+   ],
+   "publishers": [
+    "Bandai Namco Games"
+   ],
+   "platforms": [
+    "psp"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Naruto_Shippūden:_Ultimate_Ninja_Heroes_3"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "fighting"
+   ],
+   "subgenres": [
+    "anime fighting"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27317,28 +27657,39 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2009-08-27",
+   "developers": [
+    "Project Soul"
+   ],
+   "publishers": [
+    "Namco Bandai Games"
+   ],
+   "platforms": [
+    "psp"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Soulcalibur:_Broken_Destiny"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "fighting"
+   ],
+   "subgenres": [
+    "weapons fighting"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27350,32 +27701,43 @@
    "class": "normal",
    "category": "🕹️ PSP & HANDHELD EXCLUSIVES",
    "series": "tekken",
-   "series_part": null,
+   "series_part": 6,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2009-11-24",
+   "developers": [
+    "Bandai Namco Games"
+   ],
+   "publishers": [
+    "Bandai Namco Games"
+   ],
+   "platforms": [
+    "psp"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Tekken_6"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "fighting"
+   ],
+   "subgenres": [
+    "3d fighting"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27391,9 +27753,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2010-11-21",
+   "developers": [
+    "Retro Studios"
+   ],
+   "publishers": [
+    "Nintendo"
+   ],
    "platforms": [
     "wii"
    ],
@@ -27401,20 +27767,25 @@
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Donkey_Kong_Country_Returns"
+   ],
    "notes": "platforms per owner line: wii",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "platformer"
+   ],
+   "subgenres": [
+    "2d platformer"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27430,9 +27801,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2010-05-23",
+   "developers": [
+    "Nintendo EAD Tokyo"
+   ],
+   "publishers": [
+    "Nintendo"
+   ],
    "platforms": [
     "wii"
    ],
@@ -27440,20 +27815,25 @@
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Super_Mario_Galaxy_2"
+   ],
    "notes": "platforms per owner line: wii",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "platformer"
+   ],
+   "subgenres": [
+    "3d platformer"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27469,28 +27849,39 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2009-11-11",
+   "developers": [
+    "Nintendo EAD"
+   ],
+   "publishers": [
+    "Nintendo"
+   ],
+   "platforms": [
+    "wii"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/New_Super_Mario_Bros._Wii"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "platformer"
+   ],
+   "subgenres": [
+    "2d platformer"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27506,28 +27897,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-11-19",
+   "developers": [
+    "Nintendo EAD"
+   ],
+   "publishers": [
+    "Nintendo"
+   ],
+   "platforms": [
+    "wii"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess",
+    "en.wikipedia.org/wiki/The_Legend_of_Zelda:_Skyward_Sword"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action adventure"
+   ],
+   "subgenres": [
+    "dungeon crawler"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27538,33 +27941,45 @@
    "list": "non-casual",
    "class": "normal",
    "category": "🐬 DOLPHIN EMU EXCLUSIVES (WII / GAMECUBE)",
-   "series": null,
+   "series": "bleach",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-12-09",
+   "developers": [
+    "Polygon Magic"
+   ],
+   "publishers": [
+    "Sega"
+   ],
+   "platforms": [
+    "wii"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Bleach:_Shattered_Blade"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "fighting"
+   ],
+   "subgenres": [
+    "weapons fighting",
+    "anime fighting"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27580,9 +27995,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2004-09-28",
+   "developers": [
+    "Traveller's Tales"
+   ],
+   "publishers": [
+    "Vivendi Universal Games"
+   ],
    "platforms": [
     "ps2"
    ],
@@ -27591,19 +28010,24 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Crash_Twinsanity"
+   ],
    "notes": "platforms per owner line: ps2",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "platformer"
+   ],
+   "subgenres": [
+    "comedy"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27619,9 +28043,13 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
+   "release": "2011-02-22",
+   "developers": [
+    "Papaya Studio"
+   ],
+   "publishers": [
+    "D3 Publisher"
+   ],
    "platforms": [
     "ps2"
    ],
@@ -27630,19 +28058,25 @@
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Ben_10_Ultimate_Alien:_Cosmic_Destruction"
+   ],
    "notes": "platforms per owner line: ps2",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "beat-em-up",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27658,28 +28092,41 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-03-22",
+   "developers": [
+    "Santa Monica Studio"
+   ],
+   "publishers": [
+    "Sony Computer Entertainment"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/God_of_War_(2005_video_game)",
+    "en.wikipedia.org/wiki/God_of_War_II"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "character action",
+    "mythology"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27695,28 +28142,39 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-10-18",
+   "developers": [
+    "Team Ico"
+   ],
+   "publishers": [
+    "Sony Computer Entertainment"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Shadow_of_the_Colossus"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action adventure"
+   ],
+   "subgenres": [
+    "boss rush"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27732,28 +28190,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-12-07",
+   "developers": [
+    "Ryu Ga Gotoku Studio"
+   ],
+   "publishers": [
+    "Sega"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Yakuza_2"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action adventure"
+   ],
+   "subgenres": [
+    "crime drama",
+    "beat-em-up"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27764,33 +28234,45 @@
    "list": "non-casual",
    "class": "normal",
    "category": "🎮 PS2 / CONSOLE EXCLUSIVES",
-   "series": null,
+   "series": "shinobido",
    "series_part": null,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-11-10",
+   "developers": [
+    "Acquire"
+   ],
+   "publishers": [
+    "Spike"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Shinobido:_Way_of_the_Ninja"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "stealth",
+    "action"
+   ],
+   "subgenres": [
+    "ninja sim"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27806,28 +28288,38 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2001-11-16",
+   "developers": [
+    "Atomic Planet Entertainment"
+   ],
+   "publishers": [
+    "Sony Computer Entertainment Europe"
+   ],
+   "platforms": [
+    "ps1"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "owner-listed",
    "sources": [],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "beat-em-up",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27843,28 +28335,38 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2000-11-22",
+   "developers": [
+    "Warthog"
+   ],
+   "publishers": [
+    "NewKidCo"
+   ],
+   "platforms": [
+    "ps1"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "owner-listed",
    "sources": [],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "trap puzzle",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27880,28 +28382,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-09-25",
+   "developers": [
+    "Midway Games"
+   ],
+   "publishers": [
+    "Midway Games"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/The_Grim_Adventures_of_Billy_%26_Mandy_(video_game)"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "fighting"
+   ],
+   "subgenres": [
+    "arena brawler",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27917,28 +28431,39 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2004-10-26",
+   "developers": [
+    "Artificial Mind and Movement"
+   ],
+   "publishers": [
+    "Global Star Software"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Scaler_(video_game)"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "platformer"
+   ],
+   "subgenres": [
+    "creature feature"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27954,28 +28479,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-10-24",
+   "developers": [
+    "High Voltage Software"
+   ],
+   "publishers": [
+    "2K Games"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Family_Guy_Video_Game!"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "comedy",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -27991,28 +28528,37 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-12-07",
+   "developers": [
+    "Magical Company"
+   ],
+   "publishers": [
+    "Activision Value"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "owner-listed",
    "sources": [],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "platformer"
+   ],
+   "subgenres": [
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -28023,33 +28569,44 @@
    "list": "non-casual",
    "class": "normal",
    "category": "🎮 PS2 / CONSOLE EXCLUSIVES",
-   "series": null,
-   "series_part": null,
+   "series": "kingdom-hearts",
+   "series_part": 2,
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-12-22",
+   "developers": [
+    "Square Enix"
+   ],
+   "publishers": [
+    "Square Enix"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Kingdom_Hearts_II"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action rpg"
+   ],
+   "subgenres": [
+    "disney crossover"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -28065,28 +28622,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-06-27",
+   "developers": [
+    "Eurocom"
+   ],
+   "publishers": [
+    "Buena Vista Games"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_The_Legend_of_Jack_Sparrow"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action adventure"
+   ],
+   "subgenres": [
+    "beat-em-up",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -28102,28 +28671,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2007-02-13",
+   "developers": [
+    "Climax Studios"
+   ],
+   "publishers": [
+    "2K Games"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Ghost_Rider_(video_game)"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "beat-em-up",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -28139,28 +28720,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2005-06-27",
+   "developers": [
+    "7 Studios"
+   ],
+   "publishers": [
+    "Activision"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "local_multi": true,
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Fantastic_Four_(2005_video_game)"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "beat-em-up",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -28176,28 +28769,39 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2006-07-14",
+   "developers": [
+    "Artificial Mind and Movement"
+   ],
+   "publishers": [
+    "THQ"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Monster_House_(video_game)"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action adventure"
+   ],
+   "subgenres": [
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -28213,28 +28817,40 @@
    "content_walls": [],
    "big_size": false,
    "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
+   "release": "2007-10-30",
+   "developers": [
+    "1st Playable Productions"
+   ],
+   "publishers": [
+    "D3 Publisher"
+   ],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
     "online_coop": false,
     "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
+    "online_multi": false
    },
-   "buyable": null,
-   "download_kind": null,
+   "buyable": false,
+   "download_kind": "archive",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Ben_10:_Protector_of_Earth"
+   ],
    "notes": "",
-   "genres": [],
-   "subgenres": [],
+   "genres": [
+    "action"
+   ],
+   "subgenres": [
+    "beat-em-up",
+    "licensed game"
+   ],
    "size_est_mb": null,
    "size_source": null,
    "req_tier": null
@@ -30762,7 +31378,7 @@
     "co-op"
    ],
    "size_est_mb": 80,
-   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
+   "size_source": "store-stated disk requirement",
    "req_tier": "below",
    "version_of": "chicken-invaders-2-the-next-wave",
    "remaster": "chicken-invaders-2-the-next-wave-remastered",
@@ -30820,7 +31436,7 @@
     "co-op"
    ],
    "size_est_mb": 170,
-   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
+   "size_source": "store-stated disk requirement",
    "req_tier": "below",
    "version_of": "chicken-invaders-3-revenge-of-the-yolk",
    "remaster": "chicken-invaders-episodes",
@@ -30878,7 +31494,7 @@
     "co-op"
    ],
    "size_est_mb": 170,
-   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
+   "size_source": "store-stated disk requirement",
    "req_tier": "below",
    "version_of": "chicken-invaders-3-revenge-of-the-yolk",
    "remaster": "chicken-invaders-episodes",
@@ -30936,7 +31552,7 @@
     "co-op"
    ],
    "size_est_mb": 210,
-   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
+   "size_source": "store-stated disk requirement",
    "req_tier": "below",
    "version_of": "chicken-invaders-4-ultimate-omelette",
    "remaster": "chicken-invaders-episodes",
@@ -30994,7 +31610,7 @@
     "co-op"
    ],
    "size_est_mb": 220,
-   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
+   "size_source": "store-stated disk requirement",
    "req_tier": "below",
    "version_of": "chicken-invaders-4-ultimate-omelette",
    "remaster": "chicken-invaders-episodes",
@@ -31052,7 +31668,7 @@
     "co-op"
    ],
    "size_est_mb": 220,
-   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
+   "size_source": "store-stated disk requirement",
    "req_tier": "below",
    "version_of": "chicken-invaders-4-ultimate-omelette",
    "remaster": "chicken-invaders-episodes",
@@ -31110,7 +31726,7 @@
     "co-op"
    ],
    "size_est_mb": 220,
-   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
+   "size_source": "store-stated disk requirement",
    "req_tier": "below",
    "version_of": "chicken-invaders-5-cluck-of-the-dark-side",
    "remaster": "chicken-invaders-episodes",
@@ -31168,7 +31784,7 @@
     "co-op"
    ],
    "size_est_mb": 220,
-   "size_source": "steam-stated (edition page storage line, verified 2026-10-09)",
+   "size_source": "store-stated disk requirement",
    "req_tier": "below",
    "version_of": "chicken-invaders-5-cluck-of-the-dark-side",
    "remaster": "chicken-invaders-episodes",
@@ -31642,8 +32258,8 @@
     "hidden object",
     "puzzle"
    ],
-   "size_est_mb": null,
-   "size_source": null,
+   "size_est_mb": 40,
+   "size_source": "store-stated (steam listing)",
    "req_tier": "below"
   },
   {
@@ -31827,22 +32443,263 @@
     "local_multi": true,
     "online_multi": true
    },
-   "buyable": false,
-   "download_kind": "archive",
+   "buyable": true,
+   "download_kind": "official",
    "test_status": "not-tested",
    "target_os": "windows-10",
    "haswell_igpu_ok": null,
    "confidence": "verified",
    "sources": [
-    "en.wikipedia.org/wiki/Split/Second:_Velocity"
+    "store.steampowered.com/app/297860"
    ],
    "notes": "",
    "genres": [
-    "racing",
+    "racing"
+   ],
+   "subgenres": [
+    "combat racing",
+    "arcade racer"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
+  },
+  {
+   "slug": "luxor-amun-rising",
+   "title": "Luxor Amun Rising",
+   "list": "casual",
+   "class": "normal",
+   "category": "Puzzle & Marble Shooters",
+   "series": "luxor",
+   "series_part": 2,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2005-01-01",
+   "developers": [
+    "MumboJumbo"
+   ],
+   "publishers": [
+    "MumboJumbo"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false
+   },
+   "buyable": true,
+   "download_kind": "official",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/15910"
+   ],
+   "notes": "",
+   "genres": [
+    "puzzle",
     "action"
    ],
    "subgenres": [
-    "arcade-racer"
+    "marble shooter"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
+  },
+  {
+   "slug": "luxor-2",
+   "title": "Luxor 2",
+   "list": "casual",
+   "class": "normal",
+   "category": "Puzzle & Marble Shooters",
+   "series": "luxor",
+   "series_part": 3,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2006-01-01",
+   "developers": [
+    "MumboJumbo"
+   ],
+   "publishers": [
+    "MumboJumbo"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false
+   },
+   "buyable": true,
+   "download_kind": "official",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/15920"
+   ],
+   "notes": "",
+   "genres": [
+    "puzzle",
+    "action"
+   ],
+   "subgenres": [
+    "marble shooter"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
+  },
+  {
+   "slug": "luxor-3",
+   "title": "Luxor 3",
+   "list": "casual",
+   "class": "normal",
+   "category": "Puzzle & Marble Shooters",
+   "series": "luxor",
+   "series_part": 4,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2007-01-01",
+   "developers": [
+    "MumboJumbo"
+   ],
+   "publishers": [
+    "MumboJumbo"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false
+   },
+   "buyable": true,
+   "download_kind": "official",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "store.steampowered.com/app/15930"
+   ],
+   "notes": "",
+   "genres": [
+    "puzzle",
+    "action"
+   ],
+   "subgenres": [
+    "marble shooter"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
+  },
+  {
+   "slug": "luxor-quest-for-the-afterlife",
+   "title": "Luxor Quest For The Afterlife",
+   "list": "casual",
+   "class": "normal",
+   "category": "Puzzle & Marble Shooters",
+   "series": "luxor",
+   "series_part": 5,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2008-01-01",
+   "developers": [
+    "MumboJumbo"
+   ],
+   "publishers": [
+    "MumboJumbo"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false
+   },
+   "buyable": false,
+   "download_kind": "archive",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "notes": "",
+   "genres": [
+    "puzzle",
+    "action"
+   ],
+   "subgenres": [
+    "marble shooter"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
+  },
+  {
+   "slug": "luxor-5th-passage",
+   "title": "Luxor 5Th Passage",
+   "list": "casual",
+   "class": "normal",
+   "category": "Puzzle & Marble Shooters",
+   "series": "luxor",
+   "series_part": 6,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2010-01-01",
+   "developers": [
+    "MumboJumbo"
+   ],
+   "publishers": [
+    "MumboJumbo"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": false,
+    "online_multi": false
+   },
+   "buyable": false,
+   "download_kind": "archive",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "owner-listed",
+   "sources": [],
+   "notes": "",
+   "genres": [
+    "puzzle",
+    "action"
+   ],
+   "subgenres": [
+    "marble shooter"
    ],
    "size_est_mb": null,
    "size_source": null,

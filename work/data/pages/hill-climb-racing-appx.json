@@ -1,0 +1,62 @@
+{
+ "slug": "hill-climb-racing-appx",
+ "caption": "bill newton's neck-defying physics climb - gas, brake, and a very fragile head.",
+ "about": [
+  "Hill climb racing is the two-pedal physics runner: gas and brake, undulating hills, and a driver whose neck snaps if the landing goes wrong. Coins buy vehicles and stage unlocks, upgrades genuinely change the physics, and the loop is honest about what it is - the best five-minute drive in the windows store.",
+  "The store listing is free, and store.rg-adguard mirrors the appx package for offline installs."
+ ],
+ "characters": [
+  "Bill Newton"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below target - casual 2d physics; the bar is a formality."
+ },
+ "genres": [
+  "racing",
+  "physics"
+ ],
+ "subgenres": [
+  "side-scrolling driving"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/04dIYYHjdJw/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/04dIYYHjdJw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/R0NflHb4UTM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/TB-3JhatuZE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/DW9u0SwTLaI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zdNXbJcKtVo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/vxZZzWdbxQk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/gzZ-oelU16E/hqdefault.jpg",
+   "https://i.ytimg.com/vi/h610REGQtH8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/lXk-vmeaJOQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/8E5BXWrpgmA/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "04dIYYHjdJw",
+    "title": ""
+   },
+   {
+    "id": "R0NflHb4UTM",
+    "title": ""
+   },
+   {
+    "id": "TB-3JhatuZE",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Microsoft Store - Hill Climb Racing",
+    "url": "https://apps.microsoft.com/detail/9wzdncrfj0p9"
+   }
+  ],
+  "official_note": "free on the microsoft store - the windows appx route.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

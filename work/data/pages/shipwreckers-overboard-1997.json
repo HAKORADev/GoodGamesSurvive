@@ -1,0 +1,57 @@
+{
+ "slug": "shipwreckers-overboard-1997",
+ "caption": "psygnosis' pirate gunboat romp - turn-based-free naval chaos on the high seas, 1997 style.",
+ "about": [
+  "Shipwreckers! (overboard! in europe, 1997) is psygnosis' naval action game: sail a pirate gunboat through top-down islands, broadside enemy ships, upgrade the hull and rescue the princess with a straight face. The two-player versus mode and the cartoon naval physics make it a genuine ps1 oddity worth keeping afloat.",
+  "No windows build exists, so the platform is ps1 - played through duckstation, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Captain Redtortuga"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps1 build runs through duckstation within the haswell bar."
+ },
+ "genres": [
+  "action",
+  "racing"
+ ],
+ "subgenres": [
+  "naval combat"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/ld_m5yPlFwM/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/ld_m5yPlFwM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/bNUDVUbmPZk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/4X3oCypBfP8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/b1kmFgo_OnI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/nXh8JsfyDZ0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/A70Q6U6j8eU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Uv6Hv50YVYg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/nidRuaIEATI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/wtQgK72Z7tQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/jmcLtRVGsoE/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "ld_m5yPlFwM",
+    "title": ""
+   },
+   {
+    "id": "bNUDVUbmPZk",
+    "title": ""
+   },
+   {
+    "id": "4X3oCypBfP8",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps1 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps1 rom lives on the rom source below - details land as verified."
+ }
+}

@@ -1541,6 +1541,57 @@
      "part": null
     }
    ]
+  },
+  {
+   "key": "luxor",
+   "title": "Luxor",
+   "members": [
+    {
+     "slug": "luxor",
+     "title": "Luxor",
+     "part": 1
+    },
+    {
+     "slug": "luxor-amun-rising",
+     "title": "Luxor: Amun Rising",
+     "part": 2
+    },
+    {
+     "slug": "luxor-2",
+     "title": "Luxor 2",
+     "part": 3
+    },
+    {
+     "slug": "luxor-3",
+     "title": "Luxor 3",
+     "part": 4
+    },
+    {
+     "slug": "luxor-quest-for-the-afterlife",
+     "title": "Luxor: Quest for the Afterlife",
+     "part": 5
+    },
+    {
+     "slug": "luxor-5th-passage",
+     "title": "Luxor: 5th Passage",
+     "part": 6
+    }
+   ]
+  },
+  {
+   "key": "kingdom-hearts",
+   "title": "Kingdom Hearts",
+   "members": [
+    {
+     "slug": "kingdom-hearts-birth-by-sleep",
+     "title": "Kingdom Hearts Birth by Sleep"
+    },
+    {
+     "slug": "kingdom-hearts-ii",
+     "title": "Kingdom Hearts II",
+     "part": 2
+    }
+   ]
   }
  ],
  "members_sort_law": "order by part, then y, then title - kind remaster/rebrand rides without a part"

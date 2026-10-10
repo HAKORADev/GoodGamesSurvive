@@ -1,0 +1,57 @@
+{
+ "slug": "naruto-shippuden-ultimate-ninja-heroes-3-and-akatsuki-rising",
+ "caption": "the psp naruto pair - heroes 3's roster war and akatsuki rising's beat-em-up story mode in one row.",
+ "about": [
+  "This row carries the two psp naruto shippuden action games western players actually got. Ultimate ninja heroes 3 (2009) is the roster fighter: over fifty characters, 4-player ad-hoc battles and the series' support-character system. Akatsuki rising (2009) takes the same cast into a side-scrolling beat-em-up with akatsuki as playable unlockables - the closest the franchise came to a proper action brawler on handheld.",
+  "No windows builds exist, so the platform is psp - played through ppsspp, roms sourced from romsfun."
+ ],
+ "characters": [
+  "Naruto Uzumaki",
+  "Sasuke Uchiha"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the psp builds run through ppsspp within the haswell bar."
+ },
+ "genres": [
+  "fighting"
+ ],
+ "subgenres": [
+  "anime fighting"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/zrAdXgBbjbo/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/zrAdXgBbjbo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Ib56C7wLQJs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JepZYXPOF7U/hqdefault.jpg",
+   "https://i.ytimg.com/vi/OToVgDs543A/hqdefault.jpg",
+   "https://i.ytimg.com/vi/RZnCDAIkzN8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/0-P3aiIsQQI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/xNh2B-hOplM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ESRcKYPrPow/hqdefault.jpg",
+   "https://i.ytimg.com/vi/i_HIVr42Dis/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QIHAfc66H9A/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "zrAdXgBbjbo",
+    "title": ""
+   },
+   {
+    "id": "Ib56C7wLQJs",
+    "title": ""
+   },
+   {
+    "id": "JepZYXPOF7U",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows builds exist - the psp releases are the dug platform.",
+  "anyway": [],
+  "anyway_note": "the psp roms live on the rom source below - details land as verified."
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "jackie-chan-adventures",
+ "caption": "the talisman hunt as a beat-em-up - jackie's improvised combat and jade's camera work.",
+ "about": [
+  "Jackie chan adventures (2001) adapts the animated series into a beat-em-up with the show's improvised-combat hook: grab ladders, chairs and anything else the room offers, chase the dark hand's talismans and let jade narrate. The environmental-weapon law matches the show's choreography better than its budget suggested.",
+  "No windows build exists, so the platform is ps1 - played through duckstation, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Jackie Chan",
+  "Jade Chan"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps1 build runs through duckstation within the haswell bar."
+ },
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "beat-em-up",
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/Cg2NyNTHcvA/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/Cg2NyNTHcvA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/e6p309HViGg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Pan5SeyvRsY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/XK_u5Xs8VeA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WXaYNhjJA_g/hqdefault.jpg",
+   "https://i.ytimg.com/vi/L4IMc5d9_dg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/42xxB4GGZAE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/lcYlmK03Fnw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/FWJJbnJ35gE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/bqU1Fa9Jg5Q/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "Cg2NyNTHcvA",
+    "title": ""
+   },
+   {
+    "id": "e6p309HViGg",
+    "title": ""
+   },
+   {
+    "id": "Pan5SeyvRsY",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps1 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps1 rom lives on the rom source below - details land as verified."
+ }
+}

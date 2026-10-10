@@ -1,0 +1,61 @@
+{
+ "slug": "re-volt",
+ "caption": "the rc car racer that outlived its publisher - souped-up toy cars, ball-bearing physics, garden warfare.",
+ "about": [
+  "Re-volt (1999) races remote-control cars through kitchens, gardens, museums and supermarkets with honest toy-scale physics: bouncy, twitchy, momentum-driven, and more demanding than its box art ever admitted. Twenty-eight cars across four classes, track-editor support and a pickup arsenal kept the community modding it for two decades after acclaim died.",
+  "The current steam listing is the restored official door for the windows build - one of the few 1999 racers that never actually left."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 1999 rc racer; the bar is a formality."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "rc car racing",
+  "combat racing"
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_63e3e24ed240a3e64affe7df896c683129821f8b.1920x1080.jpg?t=1782962156",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_63e3e24ed240a3e64affe7df896c683129821f8b.1920x1080.jpg?t=1782962156",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_d60454a84f3b15ad43e4090cb74e412f10418334.1920x1080.jpg?t=1782962156",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_286d2c56c4c3418da676f122ebfc6fa8c9cdeffd.1920x1080.jpg?t=1782962156",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_587209b849d9e4eac5e622c999c0d88892f3bf40.1920x1080.jpg?t=1782962156",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_055cc0473fd5632afd7a4b6583bc94970110d2fa.1920x1080.jpg?t=1782962156",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_1c87e493a948aa9df9be3b51691d771896b8758b.1920x1080.jpg?t=1782962156",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_6c11341921ee719c4f4eb2448836e8f2ade82e48.1920x1080.jpg?t=1782962156",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_9f3e63a09a81ce58c95a0a17a9e9664e22715d47.1920x1080.jpg?t=1782962156",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_c1acdd4e71dc0f34e0dccd870490b62c2911e3f4.1920x1080.jpg?t=1782962156",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287310/ss_b7a9b5565e63000c56fa0b383b738625674b05aa.1920x1080.jpg?t=1782962156"
+  ],
+  "videos": [
+   {
+    "id": "El-rCXDwYpo",
+    "title": ""
+   },
+   {
+    "id": "4qK6vlE-KiI",
+    "title": ""
+   },
+   {
+    "id": "hn6SjF0Vw9A",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Re-Volt",
+    "url": "https://store.steampowered.com/app/287310/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the restored official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

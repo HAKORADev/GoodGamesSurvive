@@ -1,0 +1,57 @@
+{
+ "slug": "crash-twinsanity",
+ "caption": "crash and cortex, chained - the comedy platformer where the villain is the second player character.",
+ "about": [
+  "Crash twinsanity (2004) is the series' cult comedy chapter: cortex as unwilling partner, the two rolled into a human snowball, humiliskate down the mountain and a musical score that has been beloved ever since. The platforming bends the series' corridor law into open-island exploration, and the joke density holds up better than almost any licensed platformer of the era.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Crash Bandicoot",
+  "Cortex"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "platformer"
+ ],
+ "subgenres": [
+  "comedy"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/wksPxu6o3VM/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/wksPxu6o3VM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/wHNBa19D_Uc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/oexDWX7updI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/KBqmvasjmB0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/C6ZNEGe8520/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ZCvZPNXp4i4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/moUfHL5eFOI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WXwKX_6a7Ic/hqdefault.jpg",
+   "https://i.ytimg.com/vi/6TEZ7i9tAQg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/UnXIznvtCQo/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "wksPxu6o3VM",
+    "title": ""
+   },
+   {
+    "id": "wHNBa19D_Uc",
+    "title": ""
+   },
+   {
+    "id": "oexDWX7updI",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

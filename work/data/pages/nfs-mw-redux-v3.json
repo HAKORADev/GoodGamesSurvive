@@ -1,0 +1,39 @@
+{
+ "slug": "nfs-mw-redux-v3",
+ "caption": "the 2005 blacklist rebuilt - redux v3's graphics overhaul and 100+ car pack, the first mod on this shelf.",
+ "about": [
+  "Nfs most wanted redux v3 is the graphics-and-roster modpack for the 2005 classic: a full visual overhaul - textures, lighting, reshade-style grading tuned for 4k captures - plus an expanded car list of one hundred-plus modern vehicles dropped into the 2005 physics. The official release showcase runs the blacklisted city end to end in 4k, and the install guides on the shelf handle the setup step by step.",
+  "It is the first mod entry in this catalogue and the template for the mods+patches shelf: modpacks carry their creator, a likely date, size and the exact target game they bolt onto - here the base 2005 windows build of most wanted. The download route lives on the creator's release page and lands here the moment it verifies."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - the 2005 base engine is light; the redux texture load is the heavy part."
+ },
+ "thumbnail": "https://i.ytimg.com/vi/9nnmeXzm1oQ/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/9nnmeXzm1oQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/5p4OtxnKINo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/rxGxh0YK0YQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_5eUemHMTnc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Mp4InvLIuJs/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "9nnmeXzm1oQ",
+    "title": "official release showcase"
+   },
+   {
+    "id": "5p4OtxnKINo",
+    "title": "install guide"
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": null,
+  "anyway": [],
+  "anyway_note": "the download route lives on the creator's release page - the link lands here once it verifies. the showcase and install-guide videos above walk the whole setup."
+ }
+}

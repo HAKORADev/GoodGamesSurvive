@@ -1,0 +1,61 @@
+{
+ "slug": "astropop-deluxe",
+ "caption": "popcap's chain puzzle with a shotgun twist - grab, queue and blast the falling blocks in four alien worlds.",
+ "about": [
+  "Astropop deluxe is the forgotten gem of popcap's mid-decade run: blocks drift down a chamber, you grab any block into a queue and fire it back to build match-3 chains, and the twist is that the queue itself is a weapon - a full magazine triggers a screwin' blast that clears a whole column. Four pilots with different powers, bonus rounds and a survival mode keep the board from ever settling.",
+  "The steam listing is the deluxe build still sold under popcap's ea-era catalog, which makes this one of the few grab-and-blast puzzles of the era that never went dark. It runs on anything and the loop still feels sharper than most of what it inspired."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2004 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle",
+  "arcade"
+ ],
+ "subgenres": [
+  "match-3"
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3340/0000000540.1920x1080.jpg?t=1776958556",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3340/0000000540.1920x1080.jpg?t=1776958556",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3340/0000000541.1920x1080.jpg?t=1776958556",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3340/0000000542.1920x1080.jpg?t=1776958556",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3340/0000000543.1920x1080.jpg?t=1776958556",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3340/0000000544.1920x1080.jpg?t=1776958556",
+   "https://i.ytimg.com/vi/HrDNIFl5NwQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/DqThjK_EuSs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/nm2qN67D4YM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/CCBvIrt08JI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/8zOTFevqbyw/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "HrDNIFl5NwQ",
+    "title": ""
+   },
+   {
+    "id": "DqThjK_EuSs",
+    "title": ""
+   },
+   {
+    "id": "nm2qN67D4YM",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - AstroPop Deluxe",
+    "url": "https://store.steampowered.com/app/3340/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

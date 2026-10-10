@@ -1,0 +1,55 @@
+{
+ "slug": "walt-disney-world-quest-magical-racing-tour",
+ "caption": "kart racing through the theme park - space mountain as a track is exactly as good as it sounds.",
+ "about": [
+  "Walt disney world quest: magical racing tour (2000) is the rare theme-park kart racer done with care: crystal dynamics built tracks out of the parks themselves - space mountain, splash mountain, test track - with ride-accurate theming and honest kart handling. The park-faithful track design remains the game's whole magic trick.",
+  "No windows build exists, so the platform is ps1 - played through duckstation, rom sourced from romsfun."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps1 build runs through duckstation within the haswell bar."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "kart racing",
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/aG-asu8puWs/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/aG-asu8puWs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/5IWTaCPiXqE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/NIn5SGI-3u0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/jbJPX5Hf1Ac/hqdefault.jpg",
+   "https://i.ytimg.com/vi/yMCNPUAhreo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/r7TS47CLpR0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/BsrOaktiqlg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/4Ax_6_WI_yA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/rHPA-bOzekc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/gc7MBo35dH8/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "aG-asu8puWs",
+    "title": ""
+   },
+   {
+    "id": "5IWTaCPiXqE",
+    "title": ""
+   },
+   {
+    "id": "NIn5SGI-3u0",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps1 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps1 rom lives on the rom source below - details land as verified."
+ }
+}

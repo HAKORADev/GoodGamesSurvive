@@ -1,0 +1,56 @@
+{
+ "slug": "bmx-xxx",
+ "caption": "the dave mirra spin-off that made the news - bmx tricking wrapped in early-2000s shock comedy.",
+ "about": [
+  "Bmx xxx (2002) is the infamous z-axis bmx game: the dave mirra trick engine under a wall of early-2000s shock humor, live-action cutaways and the censorship saga that made headlines on three continents. The actual trick system is competent - the engine was proven - and the controversy is the historical document here.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "sports",
+  "action"
+ ],
+ "subgenres": [
+  "bmx",
+  "adult comedy"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/DLeII1PGQqY/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/DLeII1PGQqY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/D2RjZQp8WOw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/D942jDJc0pM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/M2TXnoN7j-o/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Jrilpio-IqI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/iQBN0007Wmc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/GQH_ocjdRNY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/uFtSoNu4EAQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/r6lwA-6g8xs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WzRJrjGp-Gw/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "DLeII1PGQqY",
+    "title": ""
+   },
+   {
+    "id": "D2RjZQp8WOw",
+    "title": ""
+   },
+   {
+    "id": "D942jDJc0pM",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

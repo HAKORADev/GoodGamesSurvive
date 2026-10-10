@@ -1,0 +1,51 @@
+{
+ "slug": "ppsspp",
+ "caption": "the psp emulator - henrik rydgård's psp-in-a-window, the door for this site's whole psp vault.",
+ "about": [
+  "Ppsspp is the playstation portable emulator every psp page in this catalogue plays through: install it, point it at the rom, and the handheld's library runs upscaled on windows at resolutions the original screen never dreamed of. It needs no bios - the psp firmware handling is built in - and the per-game settings cover the handful of titles that need special handling.",
+  "The official download page always serves the current stable build, so the link here stays semi-direct: no version pinned, no stale installer. The getting-started docs carry the setup path."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - psp emulation is far under the haswell bar."
+ },
+ "thumbnail": "https://i.ytimg.com/vi/1xyOEnNUc-s/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/1xyOEnNUc-s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/qWkvT7RVIog/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WqWffSpDbBU/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "1xyOEnNUc-s",
+    "title": ""
+   },
+   {
+    "id": "qWkvT7RVIog",
+    "title": ""
+   },
+   {
+    "id": "WqWffSpDbBU",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "PPSSPP - download",
+    "url": "https://www.ppsspp.org/download/",
+    "note": "official download page - current stable build, never version-pinned"
+   },
+   {
+    "label": "PPSSPP - getting started",
+    "url": "https://www.ppsspp.org/docs/getting-started/",
+    "note": "official setup docs"
+   }
+  ],
+  "official_note": "bios: none needed - ppsspp ships without a bios requirement by design.",
+  "anyway": []
+ }
+}

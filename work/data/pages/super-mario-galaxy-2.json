@@ -1,0 +1,58 @@
+{
+ "slug": "super-mario-galaxy-2",
+ "caption": "the galaxy engine's second act - yoshi, cloud mario and the highest-rated platformer of its decade.",
+ "about": [
+  "Super mario galaxy 2 (2010) takes the first game's gravity engine and goes further: cloud, rock and spring suits, yoshi with his own fruit-driven power set, and level design so tight the game is routinely cited as the best 3d platformer ever rated. The starship freighter hub replaces the observatory, and the green-star hunt gives perfectionists their mountain.",
+  "No windows build exists, so the platform is wii - played through dolphin, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Mario",
+  "Lubba",
+  "Yoshi"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the wii build runs through dolphin within the haswell bar."
+ },
+ "genres": [
+  "platformer"
+ ],
+ "subgenres": [
+  "3d platformer"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/5Hu8lGw7RE0/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/5Hu8lGw7RE0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/q-sl7oRrg5c/hqdefault.jpg",
+   "https://i.ytimg.com/vi/co0OKXKItj4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/uGX8u8OGlzc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/cE0lp3m33XY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/L0K4pPFdysY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zx1w3oworew/hqdefault.jpg",
+   "https://i.ytimg.com/vi/OWl-ikWpNMU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/edbC_mb7-B0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Eq99iA2LJu0/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "5Hu8lGw7RE0",
+    "title": ""
+   },
+   {
+    "id": "q-sl7oRrg5c",
+    "title": ""
+   },
+   {
+    "id": "co0OKXKItj4",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the wii release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the wii rom lives on the rom source below - details land as verified."
+ }
+}

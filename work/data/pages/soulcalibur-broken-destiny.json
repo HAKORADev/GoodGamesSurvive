@@ -1,0 +1,58 @@
+{
+ "slug": "soulcalibur-broken-destiny",
+ "caption": "soulcalibur's pocket proof - the soul engine at 60fps with kratos as the guest blade.",
+ "about": [
+  "Soulcalibur: broken destiny (2009) compresses the soul engine onto psp without dropping the frame rate: the soulcalibur iv combat system, a trimmed roster plus god of war's kratos as the guest fighter, and the quick-match gauntlet mode built for handheld sessions. It remains the best weapons fighter the handheld ever carried.",
+  "No windows build exists, so the platform is psp - played through ppsspp, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Siegfried",
+  "Nightmare",
+  "Kratos"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the psp build runs through ppsspp within the haswell bar."
+ },
+ "genres": [
+  "fighting"
+ ],
+ "subgenres": [
+  "weapons fighting"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/v3LlR31l0c4/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/v3LlR31l0c4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_o1Zzo3GYls/hqdefault.jpg",
+   "https://i.ytimg.com/vi/M03JvXnR1MU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/7rtbh8rFof0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/VZELYx9CqNw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/6TeFktE_lms/hqdefault.jpg",
+   "https://i.ytimg.com/vi/FdducSF3Lq0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/GRzlZVK_Pfw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/RWFvOoWB1LA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/b9zZNvKtgms/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "v3LlR31l0c4",
+    "title": ""
+   },
+   {
+    "id": "_o1Zzo3GYls",
+    "title": ""
+   },
+   {
+    "id": "M03JvXnR1MU",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the psp release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the psp rom lives on the rom source below - details land as verified."
+ }
+}

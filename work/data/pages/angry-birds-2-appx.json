@@ -1,0 +1,65 @@
+{
+ "slug": "angry-birds-2-appx",
+ "caption": "the flock returns with card-boosted slingshots - the sequel the store still carries.",
+ "about": [
+  "Angry birds 2 rebuilt the slingshot formula: multi-stage levels, a spell-card boost system and a flock you pick per shot instead of a fixed order. The destructibility physics stayed the soul of the game, and the windows store build runs the same saga as every other platform.",
+  "The store listing is free with the usual boost monetization, and store.rg-adguard mirrors the appx package for offline installs."
+ ],
+ "characters": [
+  "Red",
+  "Chuck",
+  "Bomb",
+  "The Blues"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below target - casual 2d physics; the bar is a formality."
+ },
+ "genres": [
+  "puzzle",
+  "arcade"
+ ],
+ "subgenres": [
+  "slingshot physics"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/OV1EXWyLj9Q/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/OV1EXWyLj9Q/hqdefault.jpg",
+   "https://i.ytimg.com/vi/GoCyqbmKMew/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zmIuVarh0Ag/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_fMz8l3sXhs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/2Wyb2AEDBXY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/pOE3odTt47U/hqdefault.jpg",
+   "https://i.ytimg.com/vi/7VpS1UzvqSg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Pqvfza81Hyk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ohZLF_KurZg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ysKW5YSWdvY/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "OV1EXWyLj9Q",
+    "title": ""
+   },
+   {
+    "id": "GoCyqbmKMew",
+    "title": ""
+   },
+   {
+    "id": "zmIuVarh0Ag",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Microsoft Store - Angry Birds 2",
+    "url": "https://apps.microsoft.com/detail/9nblggh51wgp"
+   }
+  ],
+  "official_note": "free on the microsoft store - the windows appx route.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

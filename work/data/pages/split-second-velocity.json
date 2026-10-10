@@ -1,0 +1,61 @@
+{
+ "slug": "split-second-velocity",
+ "caption": "the powerplay racer - drift to charge, detonate the whole airport, win by demolition.",
+ "about": [
+  "Split/Second: velocity (2010) is black rock studio's demolition racer: drifting and drafting charge a powerplay meter, and the meter detonates the track itself - crumbling cooling towers, dropping bridges, a plane landing across the circuit. Season mode is structured reality-tv style, and the two-level powerplay system remains the genre's smartest track-interaction idea.",
+  "Disney delisted the game for years; the current steam listing restored the official door for the windows build, which keeps the track demolition playable legally."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - 2010 racer; the haswell igpu holds reduced settings."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "combat racing",
+  "arcade racer"
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/297860/ss_b7a279601cf7b9ce2332e2286d48149dc3579dd4.1920x1080.jpg?t=1741811299",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/297860/ss_b7a279601cf7b9ce2332e2286d48149dc3579dd4.1920x1080.jpg?t=1741811299",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/297860/ss_e2a9020183325906ed0d019da91828bbb63b3b2c.1920x1080.jpg?t=1741811299",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/297860/ss_120f1a89fe4ccccb3e835314665945f4f7ced658.1920x1080.jpg?t=1741811299",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/297860/ss_c9126c12ab66cf28bb4f2a72e696c1b0168639a7.1920x1080.jpg?t=1741811299",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/297860/ss_cd5b5b7050e0d6cdebd24c3eae007bf1ecae26d1.1920x1080.jpg?t=1741811299",
+   "https://i.ytimg.com/vi/6w2E94AbfXA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/tT-78grqHOw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/CHdYug8MZAw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/q-accCaF8-g/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ZRs4yBhvyT8/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "6w2E94AbfXA",
+    "title": ""
+   },
+   {
+    "id": "tT-78grqHOw",
+    "title": ""
+   },
+   {
+    "id": "CHdYug8MZAw",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Split/Second",
+    "url": "https://store.steampowered.com/app/297860/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the restored official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "slug": "pixelus-deluxe",
+ "caption": "popcap's mosaic puzzle - lay tiles to finish the god's floor, greek-island style.",
+ "about": [
+  "Pixelus is popcap's take on tessellation puzzles: a broken mosaic floor, a tray of tiles, and the goal of filling every hole so the pattern seals. Every level is a small spatial promise - the pieces always fit, the question is in which order - and the island-hopping frame gives the difficulty curve a place to live. It is gentler than the studio's arcade staples and all the better for it.",
+  "The deluxe pc build is another pre-merger popcap that never made it to the modern stores, so the archive route is the way in. Puzzle purists keep it around precisely because no one has copied its niche since."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2004 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle"
+ ],
+ "subgenres": [
+  "tessellation"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/49CBgZ5z2LA/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/49CBgZ5z2LA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/VDXqmYJqq6U/hqdefault.jpg",
+   "https://i.ytimg.com/vi/3p6_Rvg6iXM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/rWHsiH68Er4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/qNYaiEB4HIw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/6Qart91-R9w/hqdefault.jpg",
+   "https://i.ytimg.com/vi/maBxo1EcdUY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/xpb2Qj2Ci-A/hqdefault.jpg",
+   "https://i.ytimg.com/vi/JYY13t_29Xc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/qqkD8pwfBoQ/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "49CBgZ5z2LA",
+    "title": ""
+   },
+   {
+    "id": "VDXqmYJqq6U",
+    "title": ""
+   },
+   {
+    "id": "3p6_Rvg6iXM",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - the pre-merger popcap catalog never reached the current stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

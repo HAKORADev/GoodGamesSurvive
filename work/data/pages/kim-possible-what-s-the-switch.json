@@ -1,0 +1,57 @@
+{
+ "slug": "kim-possible-what-s-the-switch",
+ "caption": "the licensed oddity that works - shego playable, monkey fist shenanigans, actual co-op.",
+ "about": [
+  "Kim possible: what's the switch? (2005) is the rare licensed platformer that respects its license: kim and a playable shego chase drakken's monkey-master plan across levels that mix combat, gadgets and actual co-op challenges. The show's comedic timing survives the translation, which is more than most disney-adjacent games of the era managed.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Kim Possible",
+  "Shego"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "platformer"
+ ],
+ "subgenres": [
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/n3pnVCzL74I/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/n3pnVCzL74I/hqdefault.jpg",
+   "https://i.ytimg.com/vi/sl14EDkXf78/hqdefault.jpg",
+   "https://i.ytimg.com/vi/a_yZszKpgXU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/z978WMo11z4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/yR-1_gOEquA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/U9C2IP45zd8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/UUgegJ5hJ20/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ux5cUouIv84/hqdefault.jpg",
+   "https://i.ytimg.com/vi/a5lRJzE4Mgo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/RQvdpLGxZIs/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "n3pnVCzL74I",
+    "title": ""
+   },
+   {
+    "id": "sl14EDkXf78",
+    "title": ""
+   },
+   {
+    "id": "a_yZszKpgXU",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

@@ -1,8 +1,97 @@
 {
  "_meta": {
-  "schema": "ggs.v1",
-  "updated": "2026-10-09",
-  "note": "empty until the software pass. fields and rules in README.md beside this file."
+  "schema": "ggs.v2",
+  "updated": "2026-10-11",
+  "note": "software shelf source of truth - official emulators first. links stay semi-direct (official download pages, never version-pinned)."
  },
- "tools": []
+ "tools": [
+  {
+   "release": "2012-11-01",
+   "developers": [
+    "Henrik Rydgård"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": "below",
+   "test_status": "not-tested",
+   "buyable": false,
+   "download_kind": "official",
+   "confidence": "verified",
+   "target_os": "windows-10",
+   "sources": [
+    "www.ppsspp.org/download/"
+   ],
+   "slug": "ppsspp",
+   "title": "PPSSPP"
+  },
+  {
+   "release": "2002-03-23",
+   "developers": [
+    "PCSX2 Team"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": "at",
+   "test_status": "not-tested",
+   "buyable": false,
+   "download_kind": "official",
+   "confidence": "verified",
+   "target_os": "windows-10",
+   "sources": [
+    "pcsx2.net/downloads/"
+   ],
+   "slug": "pcsx2",
+   "title": "PCSX2"
+  },
+  {
+   "release": "2003-09-22",
+   "developers": [
+    "Dolphin Emulator Project"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": "at",
+   "test_status": "not-tested",
+   "buyable": false,
+   "download_kind": "official",
+   "confidence": "verified",
+   "target_os": "windows-10",
+   "sources": [
+    "dolphin-emu.org/download/"
+   ],
+   "slug": "dolphin",
+   "title": "Dolphin"
+  },
+  {
+   "release": "2019-09-11",
+   "developers": [
+    "Stenzek"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": "below",
+   "test_status": "not-tested",
+   "buyable": false,
+   "download_kind": "official",
+   "confidence": "verified",
+   "target_os": "windows-10",
+   "sources": [
+    "www.duckstation.org/"
+   ],
+   "slug": "duckstation",
+   "title": "DuckStation"
+  }
+ ]
 }

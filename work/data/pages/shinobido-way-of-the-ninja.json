@@ -1,0 +1,55 @@
+{
+ "slug": "shinobido-way-of-the-ninja",
+ "caption": "the amnesiac ninja's sandbox - three warlords, contract jobs and acquire's honest stealth law.",
+ "about": [
+  "Shinobido: way of the ninja (2005) is acquire's follow-up to tenchu's stealth law: an amnesiac ninja sells contract work to three feuding warlords, and every mission is a sandbox of rooftops, guards and honest line-of-sight stealth. The mission editor and the loyalty economy gave it replay depth the genre still rarely matches.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "stealth",
+  "action"
+ ],
+ "subgenres": [
+  "ninja sim"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/aS2lvQQJ7Ds/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/aS2lvQQJ7Ds/hqdefault.jpg",
+   "https://i.ytimg.com/vi/4PT1UhZPWVM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/lTEp81_FBLs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/flvj5iefQH4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/S9mgRbeE8fY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/_kJmZw19xko/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zstZO5KCTz4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/gxmCUbdK_dk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PNuCsNHlNDA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/KV40BZ4Z3Cg/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "aS2lvQQJ7Ds",
+    "title": ""
+   },
+   {
+    "id": "4PT1UhZPWVM",
+    "title": ""
+   },
+   {
+    "id": "lTEp81_FBLs",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

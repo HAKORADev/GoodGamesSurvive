@@ -1,8 +1,39 @@
 {
  "_meta": {
-  "schema": "ggs.v1",
-  "updated": "2026-10-09",
-  "note": "empty until the mods pass. fields and rules in README.md beside this file."
+  "schema": "ggs.v2",
+  "updated": "2026-10-11",
+  "note": "mods+patches source of truth. type: modpack (a pack of mods) / mod (single mod) / patch / patchpack (multi fixes). template fields: type, creators, release (+date_likelihood when likely), size_est_mb/source, target_game, compat."
  },
- "mods": []
+ "mods": [
+  {
+   "slug": "nfs-mw-redux-v3",
+   "title": "Need for Speed: Most Wanted Redux V3",
+   "type": "modpack",
+   "creators": [
+    "KryZeePlays"
+   ],
+   "release": "2025",
+   "date_likelihood": "likely",
+   "size_est_mb": null,
+   "size_source": null,
+   "target_game": "need-for-speed-most-wanted-2005-underground-1-carbon",
+   "compat": "base Need for Speed: Most Wanted (2005) windows build",
+   "buyable": false,
+   "download_kind": "archive",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "platforms": [
+    "windows"
+   ],
+   "confidence": "verified",
+   "sources": [
+    "youtube.com/watch?v=9nnmeXzm1oQ",
+    "youtube.com/watch?v=5p4OtxnKINo"
+   ],
+   "notes": "creator line follows the official release showcase channel (oembed-verified); download routes live on the creator's release page - linked when verified.",
+   "genres": [
+    "modpack"
+   ]
+  }
+ ]
 }

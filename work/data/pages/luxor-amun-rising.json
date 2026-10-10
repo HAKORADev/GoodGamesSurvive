@@ -1,0 +1,61 @@
+{
+ "slug": "luxor-amun-rising",
+ "caption": "the luxor follow-up - same rolling chains, sharper difficulty and a shrine of new power balls.",
+ "about": [
+  "Luxor: Amun Rising (2005) is the direct sequel to the original marble line: same winged shooter, same rolling chains, new temple tracks tuned harder and a wider spread of power balls to earn. It is the bridge chapter between the first game's rules and luxor 2's rebuild - the formula at its purest, before the series started adding systems.",
+  "The steam listing still sells the pc build, which makes this the one luxor chapter with a live official door alongside luxor 2 and luxor 3."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2005 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle",
+  "action"
+ ],
+ "subgenres": [
+  "marble shooter"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/ppR-glO8K5M/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/ppR-glO8K5M/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ygAGLfZ_i_0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/B9RBp7z08HU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Mp-qYp0DxqU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/iO9Pi2MEFVQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/PL-0kHDU1B8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/3QLatm6YAQg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ApZ4e9EQNx0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/BVMHMq3Wy4s/hqdefault.jpg",
+   "https://i.ytimg.com/vi/hKA7_UV_fuY/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "ppR-glO8K5M",
+    "title": ""
+   },
+   {
+    "id": "ygAGLfZ_i_0",
+    "title": ""
+   },
+   {
+    "id": "B9RBp7z08HU",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Luxor Amun Rising",
+    "url": "https://store.steampowered.com/app/15910/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

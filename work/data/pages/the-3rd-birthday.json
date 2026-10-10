@@ -1,0 +1,57 @@
+{
+ "slug": "the-3rd-birthday",
+ "caption": "aya brea's overdose - body-hopping shooter mechanics wrapped in a time-collapsed new york.",
+ "about": [
+  "The 3rd birthday (2010) is the parasite eve spin-off that traded survival horror for third-person shooting with a twist: aya brea projects her soul into soldiers on the field, which doubles as the game's respawn, its puzzle tool and its narrative device. The time-collapsed manhattan setting gives the shooting a mood the series never revisited.",
+  "No windows build exists, so the platform is psp - played through ppsspp, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Aya Brea"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the psp build runs through ppsspp within the haswell bar."
+ },
+ "genres": [
+  "third-person shooter",
+  "rpg"
+ ],
+ "subgenres": [
+  "parasite eve"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/JgfqVPRzMHE/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/JgfqVPRzMHE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/V5Oijk_fAK8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ihXAstmEl3M/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Rr99sjU-JWs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/84fgX4fpCwA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/O924RGOLSTg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/-s2fbUDbekM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ThLRMWtuH24/hqdefault.jpg",
+   "https://i.ytimg.com/vi/2mCVNqN_8Y4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/vFK2eAQaHRw/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "JgfqVPRzMHE",
+    "title": ""
+   },
+   {
+    "id": "V5Oijk_fAK8",
+    "title": ""
+   },
+   {
+    "id": "ihXAstmEl3M",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the psp release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the psp rom lives on the rom source below - details land as verified."
+ }
+}

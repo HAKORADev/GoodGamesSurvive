@@ -1,0 +1,55 @@
+{
+ "slug": "luxor-5th-passage",
+ "caption": "the luxor encore - a greatest-hits track pack that closed the mainline series.",
+ "about": [
+  "Luxor: 5th Passage (2010) is the series' send-off: a track pack that remixes the best stages of the line with a handful of new mechanics and the usual power-ball toolbox. It plays as both encore and argument that the formula never needed saving - the chains still roll, the gap shot still decides everything.",
+  "The pc build is off the current stores, carried by archive routes. The mainline luxor line ends here - six entries, all documented in this catalogue."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2010 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle",
+  "action"
+ ],
+ "subgenres": [
+  "marble shooter"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/mbJNcCAv9ak/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/mbJNcCAv9ak/hqdefault.jpg",
+   "https://i.ytimg.com/vi/xHEEI2ZW5mI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/edop2Lt8QcQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/89T3LB_U5B4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ayaBjqABonQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/mnK7SYGrU9o/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ejFShGhOIxM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/3VCZWhb-nwM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/9Y8kdBJI6bo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Lr7Jmu3mG9c/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "mbJNcCAv9ak",
+    "title": ""
+   },
+   {
+    "id": "xHEEI2ZW5mI",
+    "title": ""
+   },
+   {
+    "id": "edop2Lt8QcQ",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - mumbojumbo's portal-era catalog is off the current stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

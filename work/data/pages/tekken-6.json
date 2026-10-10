@@ -1,0 +1,58 @@
+{
+ "slug": "tekken-6",
+ "caption": "the iron fist tournament in your pocket - the biggest tekken roster, ghost battles included.",
+ "about": [
+  "Tekken 6 (2009) holds the series' largest roster on any platform at its release - around forty fighters - and the psp port keeps all of them at full speed: the rage system, the scenario campaign's beat-em-up layer trimmed to handheld scope, and the ghost-battle grind that made the portable version a time sink of its own. It is the definitive tekken for handheld play.",
+  "No windows build exists for this port, so the platform is psp - played through ppsspp, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Jin Kazama",
+  "Kazuya Mishima",
+  "Lars Alexandersson"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the psp build runs through ppsspp within the haswell bar."
+ },
+ "genres": [
+  "fighting"
+ ],
+ "subgenres": [
+  "3d fighting"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/sdPLe8WUOUo/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/sdPLe8WUOUo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/CM8s5CujmF0/hqdefault.jpg",
+   "https://i.ytimg.com/vi/NWyxizGWsVk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/s4RLIvFkaNQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/I2HdSoatLaE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/9VyaalyO3XY/hqdefault.jpg",
+   "https://i.ytimg.com/vi/dgrXLX0jrRw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/t4aPUfJzowQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/cY73T3nYVoE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Cbp54M5dOOY/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "sdPLe8WUOUo",
+    "title": ""
+   },
+   {
+    "id": "CM8s5CujmF0",
+    "title": ""
+   },
+   {
+    "id": "NWyxizGWsVk",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows port of the psp build exists - the psp release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the psp rom lives on the rom source below - details land as verified."
+ }
+}

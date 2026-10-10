@@ -1,0 +1,61 @@
+{
+ "slug": "burnout-paradise",
+ "caption": "paradise city, one road at a time - the crash-physics racer that made every intersection a start line.",
+ "about": [
+  "Burnout paradise (2008 consoles, 2009 pc) rebuilt the crash-physics racer as an open city: events start at any traffic light, races route themselves across real streets, and every crash is a physics lesson. The ultimate box pc package carried the party mode, bikes and all the islands; the 2020 remastered door on steam keeps the whole city alive at modern resolutions.",
+  "The current official door is burnout paradise remastered - a straight rebuild of the same game, not a different one. The original ultimate box build is delisted."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "at",
+  "note": "at target - the 2020 remastered build scales down well; the haswell igpu holds playable settings."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "arcade racer",
+  "open world"
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238080/ss_99a41070a24edee74d8d1cad94bf390a427978aa.1920x1080.jpg?t=1779987578",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238080/ss_99a41070a24edee74d8d1cad94bf390a427978aa.1920x1080.jpg?t=1779987578",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238080/ss_0ede399d2c0a7ad1bd4416bef9a4da22f840df75.1920x1080.jpg?t=1779987578",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238080/ss_c584613cd8b78f2395783b911631898ec44a6eda.1920x1080.jpg?t=1779987578",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238080/ss_6b49979c197ee247719a607e3a2b5b23eb1e837f.1920x1080.jpg?t=1779987578",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238080/ss_2b620c52d66c2c05a0e63b55787c46c224ee906d.1920x1080.jpg?t=1779987578",
+   "https://i.ytimg.com/vi/v6zCtzQajtA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/vNZoF7HGo3k/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zExjskoclIc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/a3wwLM_su14/hqdefault.jpg",
+   "https://i.ytimg.com/vi/FLQZhgPnrlY/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "v6zCtzQajtA",
+    "title": ""
+   },
+   {
+    "id": "vNZoF7HGo3k",
+    "title": ""
+   },
+   {
+    "id": "zExjskoclIc",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Burnout Paradise Remastered",
+    "url": "https://store.steampowered.com/app/1238080/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the remastered rebuild is the current official door.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

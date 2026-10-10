@@ -1,0 +1,57 @@
+{
+ "slug": "need-for-speed-underground-2",
+ "caption": "bayview at night - the deepest visual tuner the series ever shipped, suvs and all.",
+ "about": [
+  "Need for Speed: Underground 2 (2004) is the customization peak of the series: an open bayview city of five districts, discovery-based event unlocks, and a visual editor that could consume whole evenings before a single race. Drift, drag, street x and url circuits cycle under the same car, and the suv and tuner catalogs remain unmatched by anything the franchise shipped after.",
+  "The windows build is delisted with the rest of the classic nfs line, so the archive route keeps bayview lit."
+ ],
+ "characters": [
+  "Caleb Reece"
+ ],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2004 street racer; the haswell igpu bar is a formality."
+ },
+ "genres": [
+  "racing"
+ ],
+ "subgenres": [
+  "street racing",
+  "arcade racer"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/uFcjz-L2cc4/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/uFcjz-L2cc4/hqdefault.jpg",
+   "https://i.ytimg.com/vi/pBefLyPXuII/hqdefault.jpg",
+   "https://i.ytimg.com/vi/K5Uo5OPdo9w/hqdefault.jpg",
+   "https://i.ytimg.com/vi/5DgKQAN4T9U/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ViJf61U05KE/hqdefault.jpg",
+   "https://i.ytimg.com/vi/RhQCVvNpeQk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/SPyLUR60Xzw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/1mFeIqAk9fQ/hqdefault.jpg",
+   "https://i.ytimg.com/vi/8SjSe6avvrk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/74LVJhyN-5U/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "uFcjz-L2cc4",
+    "title": ""
+   },
+   {
+    "id": "pBefLyPXuII",
+    "title": ""
+   },
+   {
+    "id": "K5Uo5OPdo9w",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "delisted - ea retired the classic nfs builds from all stores.",
+  "anyway": [],
+  "anyway_note": "archive routes carry the pc build - links land as verified."
+ }
+}

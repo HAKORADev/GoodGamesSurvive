@@ -1,0 +1,66 @@
+{
+ "slug": "grand-theft-auto-v",
+ "caption": "los santos at full scale - three criminals, one tapestry of heists, and the online city that never closed.",
+ "about": [
+  "Grand Theft Auto V rotates three protagonists through a satirical los santos: michael, the retired bank robber with a witness-protection mansion; franklin, the repo man climbing toward real scores; trevor, the unfiltered desert lunatic. Heists are planned two ways - loud or smart - and the open world between them carries yoga, stock markets, stunt planes and the internet's worst corners. The switch-on-the-fly structure turned every mission into a small heist film.",
+  "On pc the game landed in april 2015, a year and a half after consoles, with a replay director, a first-person mode added later, and gta online - the persistent multiplayer city that carried the game through the decade. The current steam door is grand theft auto v enhanced, the 2025 rebuild; the legacy build stays the one this archive's older machines care about."
+ ],
+ "characters": [
+  "Michael De Santa",
+  "Franklin Clinton",
+  "Trevor Philips"
+ ],
+ "req": {
+  "tier": "above",
+  "note": "above target - 2015 open world wants a real gpu; the haswell igpu bar bends here."
+ },
+ "genres": [
+  "action",
+  "open world"
+ ],
+ "subgenres": [
+  "crime",
+  "third-person shooter"
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.1920x1080.jpg?t=1781187782",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.1920x1080.jpg?t=1781187782",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/8340fd391012e12be7e4c02e65801a2648a6b60e/ss_8340fd391012e12be7e4c02e65801a2648a6b60e.1920x1080.jpg?t=1781187782",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/f2e70b5823510daa062293ff0b03821e1dee2d37/ss_f2e70b5823510daa062293ff0b03821e1dee2d37.1920x1080.jpg?t=1781187782",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/6959cc5d64cce82cb68a27457cfa46fb4d50f897/ss_6959cc5d64cce82cb68a27457cfa46fb4d50f897.1920x1080.jpg?t=1781187782",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/0231bf16835cd4f6d83523d76aa8d91cb2dfef9b/ss_0231bf16835cd4f6d83523d76aa8d91cb2dfef9b.1920x1080.jpg?t=1781187782",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/60690d0fdbd022ab1527ba6d080d42c1812a0f39/ss_60690d0fdbd022ab1527ba6d080d42c1812a0f39.1920x1080.jpg?t=1781187782",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/cf15774bb38c9b74f9e98c985228510c97df80b6/ss_cf15774bb38c9b74f9e98c985228510c97df80b6.1920x1080.jpg?t=1781187782",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/808b550269f898e227dae2c64b5e026f90da85f9/ss_808b550269f898e227dae2c64b5e026f90da85f9.1920x1080.jpg?t=1781187782",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/85ff4a9fad2064c201c00c27d8d28c28fa03c481/ss_85ff4a9fad2064c201c00c27d8d28c28fa03c481.1920x1080.jpg?t=1781187782",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/f4a6f63b4f7cb42262152449ba5e5c5837f20ff4/ss_f4a6f63b4f7cb42262152449ba5e5c5837f20ff4.1920x1080.jpg?t=1781187782"
+  ],
+  "videos": [
+   {
+    "id": "xv3wFGGeIsI",
+    "title": ""
+   },
+   {
+    "id": "tC-bpNuxdow",
+    "title": ""
+   },
+   {
+    "id": "51ZkwgUEs3o",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Grand Theft Auto V Enhanced",
+    "url": "https://store.steampowered.com/app/3240220/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the enhanced rebuild is the current official door.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

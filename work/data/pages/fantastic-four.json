@@ -1,0 +1,60 @@
+{
+ "slug": "fantastic-four",
+ "caption": "four powers, one couch - the 2005 movie tie-in where the co-op is the whole fantastic law.",
+ "about": [
+  "Fantastic four (2005) ties into the first movie and builds everything around the team: four-player couch co-op where each member's power opens a different route, combo fusions between powers, and doctor doom as the closing act. As a movie tie-in it overachieved - the co-op design is a genuine 2005 highlight.",
+  "No windows build exists, so the platform is ps2 - played through pcsx2, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Mister Fantastic",
+  "Invisible Woman",
+  "Human Torch",
+  "The Thing"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the ps2 build runs through pcsx2 within the haswell bar."
+ },
+ "genres": [
+  "action"
+ ],
+ "subgenres": [
+  "beat-em-up",
+  "licensed game"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/T-3tYE2G7w8/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/T-3tYE2G7w8/hqdefault.jpg",
+   "https://i.ytimg.com/vi/pjVx4rskJek/hqdefault.jpg",
+   "https://i.ytimg.com/vi/SzhCsRmuo-w/hqdefault.jpg",
+   "https://i.ytimg.com/vi/WV5tDBW0fME/hqdefault.jpg",
+   "https://i.ytimg.com/vi/aKMmOawIHnc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/moaNturKIPs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zdL7thG69tw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/RLXCJpsDNdU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/wBFrOsXP0fg/hqdefault.jpg",
+   "https://i.ytimg.com/vi/IvSeQDa5rNw/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "T-3tYE2G7w8",
+    "title": ""
+   },
+   {
+    "id": "pjVx4rskJek",
+    "title": ""
+   },
+   {
+    "id": "SzhCsRmuo-w",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the ps2 release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the ps2 rom lives on the rom source below - details land as verified."
+ }
+}

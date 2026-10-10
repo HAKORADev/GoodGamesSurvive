@@ -1,0 +1,61 @@
+{
+ "slug": "sparkle-unleashed",
+ "caption": "the marble line's modern peak - trifle trident aiming, glowing caverns and a 108-track campaign.",
+ "about": [
+  "Sparkle unleashed (2016) is 10tons' marble shooter at full modern power: a two-orb trifle trident to aim with, chains that split across the screen's full width, and a hundred-plus track campaign tuned like a bullet-hell in slow motion. The power system returns as collectible trident upgrades, and the difficulty ranks remain the fairest in the genre.",
+  "The steam listing still sells the windows build - the live door for the modern half of the sparkle line."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2016 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle",
+  "action"
+ ],
+ "subgenres": [
+  "marble shooter"
+ ],
+ "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550450/ss_a7469b8d4ebee6ac91df6c98ea69ee24c5c034e3.1920x1080.jpg?t=1572299538",
+ "gallery": {
+  "images": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550450/ss_a7469b8d4ebee6ac91df6c98ea69ee24c5c034e3.1920x1080.jpg?t=1572299538",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550450/ss_8ab3fc8558456f2be8bb3856db634876de068956.1920x1080.jpg?t=1572299538",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550450/ss_def29b6ded18685e43f585367dab20f0c3ddffe2.1920x1080.jpg?t=1572299538",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550450/ss_f2baedd6416c45d8cafffc2c11b51418862ef4dc.1920x1080.jpg?t=1572299538",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550450/ss_41960632ad895644813949100f79a0a5673640d2.1920x1080.jpg?t=1572299538",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550450/ss_29998f6f3f756a894327ffd115f312e655c78f05.1920x1080.jpg?t=1572299538",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550450/ss_d598d9001e64c5158b2b86b84ecd6c3156e7b21c.1920x1080.jpg?t=1572299538",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550450/ss_bf6e8694beada814434183799bb7b5c5c28e36dc.1920x1080.jpg?t=1572299538",
+   "https://i.ytimg.com/vi/R0TO0-BE5Do/hqdefault.jpg",
+   "https://i.ytimg.com/vi/v5cKzZ6sMCA/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "R0TO0-BE5Do",
+    "title": ""
+   },
+   {
+    "id": "v5cKzZ6sMCA",
+    "title": ""
+   },
+   {
+    "id": "Vb-kyTwxo30",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Sparkle Unleashed",
+    "url": "https://store.steampowered.com/app/550450/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "slug": "luxor-3",
+ "caption": "the third luxor - customizable gods, catchable upgrades and the longest campaign of the line.",
+ "about": [
+  "Luxor 3 (2007) adds the series' deepest progression: between tracks you buy upgrades, dress your shooter's powers and collect scarabs that unlock the gods' favor. The track design leans on split paths and catch-and-carry upgrades, and the campaign stretches to eighty-eight stages. It is the marble line at its most systematic.",
+  "The steam listing still sells the pc build - the third of three luxor chapters with a live official door."
+ ],
+ "characters": [],
+ "req": {
+  "tier": "below",
+  "note": "below target - 2007 casual 2d; the bar is a formality."
+ },
+ "genres": [
+  "puzzle",
+  "action"
+ ],
+ "subgenres": [
+  "marble shooter"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/uVn4xol_H14/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/uVn4xol_H14/hqdefault.jpg",
+   "https://i.ytimg.com/vi/dtZG_AS8ukA/hqdefault.jpg",
+   "https://i.ytimg.com/vi/UVsQFzGq7oM/hqdefault.jpg",
+   "https://i.ytimg.com/vi/MuRbhDSFFlo/hqdefault.jpg",
+   "https://i.ytimg.com/vi/owNX_MCB8Nw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/cfFOcumf3Pk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ZfAKpVkJ0MI/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Z8T1idCmGOU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/G3HvmP3CuMw/hqdefault.jpg",
+   "https://i.ytimg.com/vi/Bc2dSV8RQqI/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "uVn4xol_H14",
+    "title": ""
+   },
+   {
+    "id": "dtZG_AS8ukA",
+    "title": ""
+   },
+   {
+    "id": "UVsQFzGq7oM",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [
+   {
+    "label": "Steam - Luxor 3",
+    "url": "https://store.steampowered.com/app/15930/",
+    "note": "still sold - the current official door"
+   }
+  ],
+  "official_note": "still sold on steam - the current official door for the pc build.",
+  "anyway": [],
+  "anyway_note": null
+ }
+}

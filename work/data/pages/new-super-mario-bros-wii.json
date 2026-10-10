@@ -1,0 +1,58 @@
+{
+ "slug": "new-super-mario-bros-wii",
+ "caption": "four players, one mushroom, zero cooperation - the couch law that made 2d mario a party again.",
+ "about": [
+  "New super mario bros. wii (2009) put four players into the same 2d level at once and discovered that chaos is content: bouncing off each other's heads, stealing the propeller suit, dying on purpose out of pure spite. The propeller and penguin suits round out the classic kit, and the co-op law became the template for every 2d mario since.",
+  "No windows build exists, so the platform is wii - played through dolphin, rom sourced from romsfun."
+ ],
+ "characters": [
+  "Mario",
+  "Luigi",
+  "Toad"
+ ],
+ "req": {
+  "tier": "at",
+  "note": "at target - the wii build runs through dolphin within the haswell bar."
+ },
+ "genres": [
+  "platformer"
+ ],
+ "subgenres": [
+  "2d platformer"
+ ],
+ "thumbnail": "https://i.ytimg.com/vi/ZpEYpT458ek/hqdefault.jpg",
+ "gallery": {
+  "images": [
+   "https://i.ytimg.com/vi/ZpEYpT458ek/hqdefault.jpg",
+   "https://i.ytimg.com/vi/zXfiIA2u2YU/hqdefault.jpg",
+   "https://i.ytimg.com/vi/5yOQVYyEFDs/hqdefault.jpg",
+   "https://i.ytimg.com/vi/ovax61zfi18/hqdefault.jpg",
+   "https://i.ytimg.com/vi/jYsupLWznBc/hqdefault.jpg",
+   "https://i.ytimg.com/vi/4bakzNXqJFk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/mVLBG71HMfk/hqdefault.jpg",
+   "https://i.ytimg.com/vi/QaMIHSLUZac/hqdefault.jpg",
+   "https://i.ytimg.com/vi/7x6ZIwFld0U/hqdefault.jpg",
+   "https://i.ytimg.com/vi/9ko6t2YrDLg/hqdefault.jpg"
+  ],
+  "videos": [
+   {
+    "id": "ZpEYpT458ek",
+    "title": ""
+   },
+   {
+    "id": "zXfiIA2u2YU",
+    "title": ""
+   },
+   {
+    "id": "5yOQVYyEFDs",
+    "title": ""
+   }
+  ]
+ },
+ "links": {
+  "official": [],
+  "official_note": "no windows build exists - the wii release is the dug platform.",
+  "anyway": [],
+  "anyway_note": "the wii rom lives on the rom source below - details land as verified."
+ }
+}
