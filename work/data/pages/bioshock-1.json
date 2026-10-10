@@ -8,7 +8,9 @@
  "subgenres": [
   "survival"
  ],
- "characters": [],
+ "characters": [
+  "Jack"
+ ],
  "req": {
   "tier": "at",
   "note": "at - 2007 unreal 2.5 shooter; haswell igpu holds playable 720p-900p."

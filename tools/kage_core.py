@@ -457,8 +457,12 @@ class Engine:
                 "now": m["slug"] == slug,
                 "y": m.get("y") or year_of((row or {}).get("release")),
             })
-        members.sort(key=lambda m: (m["part"] is None, m["part"] or 0,
-                                    m["y"] or "9999", m["title"].casefold()))
+        def part_key(m):
+            p = m.get("part")
+            if isinstance(p, int):
+                return (0, p)
+            return (1, 0)
+        members.sort(key=lambda m: (part_key(m), str(m["y"] or "9999"), m["title"].casefold()))
         return {"key": ser, "title": SERIES_TITLES.get(ser, s.get("title", ser)), "members": members}
 
     def facts_of(self, slug):

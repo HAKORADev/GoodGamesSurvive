@@ -14380,8 +14380,8 @@
    "req_tier": "at"
   },
   {
-   "title": "Borderlands 1 (Cel-Shaded)",
-   "slug": "borderlands-1-cel-shaded",
+   "title": "Borderlands",
+   "slug": "borderlands",
    "list": "non-casual",
    "class": "normal",
    "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
@@ -14416,7 +14416,7 @@
    "sources": [
     "store.steampowered.com/app/8980"
    ],
-   "notes": "",
+   "notes": "owner's 'cel-shaded' list note describes the art style, not part of the title",
    "genres": [
     "action",
     "shooter"
@@ -23758,8 +23758,8 @@
    "req_tier": null
   },
   {
-   "title": "Auto Modellista (PS2 - Cel-Shaded)",
-   "slug": "auto-modellista-ps2-cel-shaded",
+   "title": "Auto Modellista",
+   "slug": "auto-modellista",
    "list": "non-casual",
    "class": "normal",
    "category": "🏎 RACING & VEHICULAR ACTION",
@@ -23771,7 +23771,9 @@
    "release": null,
    "developers": [],
    "publishers": [],
-   "platforms": [],
+   "platforms": [
+    "ps2"
+   ],
    "players": {
     "single": true,
     "local_coop": false,
@@ -23787,7 +23789,7 @@
    "haswell_igpu_ok": null,
    "confidence": "owner-listed",
    "sources": [],
-   "notes": "",
+   "notes": "owner's 'cel-shaded' list note describes the art style, not part of the title; ps2 console dig",
    "genres": [
     "racing",
     "action"
@@ -24100,86 +24102,6 @@
    "big_size": false,
    "big_size_gb": null,
    "release": "2007",
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
-   "players": {
-    "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
-   },
-   "buyable": null,
-   "download_kind": null,
-   "test_status": "not-tested",
-   "target_os": "windows-10",
-   "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
-   "notes": "",
-   "genres": [
-    "racing",
-    "action"
-   ],
-   "subgenres": [],
-   "size_est_mb": null,
-   "size_source": null,
-   "req_tier": null
-  },
-  {
-   "title": "Split",
-   "slug": "split",
-   "list": "non-casual",
-   "class": "normal",
-   "category": "🏎 RACING & VEHICULAR ACTION",
-   "series": null,
-   "series_part": null,
-   "content_walls": [],
-   "big_size": false,
-   "big_size_gb": null,
-   "release": null,
-   "developers": [],
-   "publishers": [],
-   "platforms": [],
-   "players": {
-    "single": true,
-    "local_coop": false,
-    "online_coop": false,
-    "local_multi": false,
-    "online_multi": false,
-    "max_local": 1
-   },
-   "buyable": null,
-   "download_kind": null,
-   "test_status": "not-tested",
-   "target_os": "windows-10",
-   "haswell_igpu_ok": null,
-   "confidence": "owner-listed",
-   "sources": [],
-   "notes": "",
-   "genres": [
-    "racing",
-    "action"
-   ],
-   "subgenres": [],
-   "size_est_mb": null,
-   "size_source": null,
-   "req_tier": null
-  },
-  {
-   "title": "Second",
-   "slug": "second",
-   "list": "non-casual",
-   "class": "normal",
-   "category": "🏎 RACING & VEHICULAR ACTION",
-   "series": null,
-   "series_part": null,
-   "content_walls": [],
-   "big_size": false,
-   "big_size_gb": null,
-   "release": null,
    "developers": [],
    "publishers": [],
    "platforms": [],
@@ -31876,6 +31798,55 @@
    "size_source": null,
    "req_tier": "below",
    "version_of": "cooking-dash-3-thrills-and-spills"
+  },
+  {
+   "slug": "split-second-velocity",
+   "title": "Split/Second: Velocity",
+   "list": "non-casual",
+   "class": "normal",
+   "category": "🏎 RACING & VEHICULAR ACTION",
+   "series": null,
+   "series_part": null,
+   "content_walls": [],
+   "big_size": false,
+   "big_size_gb": null,
+   "release": "2010-05-18",
+   "developers": [
+    "Black Rock Studio"
+   ],
+   "publishers": [
+    "Disney Interactive Studios"
+   ],
+   "platforms": [
+    "windows"
+   ],
+   "players": {
+    "single": true,
+    "local_coop": false,
+    "online_coop": false,
+    "local_multi": true,
+    "online_multi": true
+   },
+   "buyable": false,
+   "download_kind": "archive",
+   "test_status": "not-tested",
+   "target_os": "windows-10",
+   "haswell_igpu_ok": null,
+   "confidence": "verified",
+   "sources": [
+    "en.wikipedia.org/wiki/Split/Second:_Velocity"
+   ],
+   "notes": "",
+   "genres": [
+    "racing",
+    "action"
+   ],
+   "subgenres": [
+    "arcade-racer"
+   ],
+   "size_est_mb": null,
+   "size_source": null,
+   "req_tier": null
   }
  ]
 }

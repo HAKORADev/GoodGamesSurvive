@@ -210,6 +210,17 @@ the backend lives in `work/lists/`. the frontend serves a distilled copy in `dat
 
 ## 12. platform notes
 
+### 12.1 the one-platform law (owner law, 2026-10-10 round — console games)
+
+- **each game is added as ONE platform to play on — the one this archive digs — never "all platforms it existed on".**
+- if the game has a **native windows version, that wins and every console version is ignored** (e.g. Sonic Riders digs windows, not its ps2/gc/xbox builds; Metal Slug X digs its windows build).
+- no native windows build → the game digs on the **one emulated console** the archive supports for it (played on windows through the official emulators in the software shelf).
+- **supported emulated consoles**: ps1 (duckstation), ps2 (pcsx2), psp (ppsspp), gamecube + wii (dolphin). the platform row says the console; the target OS stays windows 10.
+- **NOT supported, never list, never dig**: wii u, ps3, ps4, any xbox, xbox 360, xbox one, switch, android, iOS, phone anything, android emulators. a game that only exists on those stays out (the hitman hd remasters stay the documented exception: real pages, no windows build, honest empty download sections).
+- one platform per page also means the facts "platform" row shows exactly that one value — no platform lists, no multi-console rows.
+
+### 12.2 hosting
+
 - hosting: **GitHub Pages** from `main` root (`https://hakoradev.github.io/GoodGamesSurvive/`).
 - repo is **code-only**: images/videos hot-linked from the web, videos via embeds. github soft limit 100GB — we'll never approach it since we serve only code.
 - work style: **multi-pass commits**, verify live page after each pass, no comments in code (diagnostic markers are the exception).

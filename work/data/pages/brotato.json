@@ -9,7 +9,9 @@
  "subgenres": [
   "physics"
  ],
- "characters": [],
+ "characters": [
+  "Brotato"
+ ],
  "req": {
   "tier": "below",
   "note": "below - light 2d pixel action; far under the bar."

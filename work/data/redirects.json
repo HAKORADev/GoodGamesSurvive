@@ -4,6 +4,16 @@
   "law": "aliases: from -> to. engine emits meta-refresh pages. tested with dummies, then emptied."
  },
  "redirects": [
-  {"from": "chicken-invaders-5", "to": "chicken-invaders-5-cluck-of-the-dark-side", "sec": "games", "note": "old live URL from the first dig"}
+  {
+   "from": "chicken-invaders-5",
+   "to": "chicken-invaders-5-cluck-of-the-dark-side",
+   "sec": "games",
+   "note": "old live URL from the first dig"
+  },
+  {
+   "sec": "games",
+   "from": "borderlands-1-cel-shaded",
+   "to": "borderlands"
+  }
  ]
 }

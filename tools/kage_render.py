@@ -219,7 +219,7 @@ def game_page(eng, slug):
         facts_rows.append('<tr><td class="k">characters</td><td class="v">' + " · ".join(
             '<a href="' + rel("", "pages/games.html", depth) + '?character=' + keyify(c) + '">' + esc(c) + '</a>' for c in f["characters"]) + '</td></tr>')
     if f["series"]:
-        st = (eng.series_line(slug) or {}).get("title") or f["series"]
+        st = (eng.series_line(slug) or {}).get("title") or str(f["series"]).replace("-", " ").title()
         cell = '<a href="' + rel("", "pages/games.html", depth) + '?series=' + esc(f["series"]) + '">' + esc(st) + '</a>'
         facts_rows.append('<tr><td class="k">series</td><td class="v">' + cell + '</td></tr>')
     if f["walls"]:

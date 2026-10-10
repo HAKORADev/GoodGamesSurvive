@@ -8,7 +8,10 @@
   "hidden object",
   "puzzle"
  ],
- "characters": [],
+ "characters": [
+  "Bernie",
+  "Flo"
+ ],
  "req": {
   "tier": "below",
   "note": "2009 hidden-object 2d. the lowest tier of the ladder - anything post-xp runs it."

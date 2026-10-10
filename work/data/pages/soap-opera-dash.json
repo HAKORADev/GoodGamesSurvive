@@ -6,7 +6,11 @@
  "subgenres": [
   "time management"
  ],
- "characters": [],
+ "characters": [
+  "Rosie",
+  "Flo",
+  "Quinn"
+ ],
  "req": {
   "tier": "below",
   "note": "2008 casual 2d, 63 MB hosted build. far below the target bar."

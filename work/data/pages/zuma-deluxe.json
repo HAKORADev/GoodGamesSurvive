@@ -10,7 +10,9 @@
   "marble popper",
   "card"
  ],
- "characters": [],
+ "characters": [
+  "Zuma"
+ ],
  "req": {
   "tier": "below",
   "note": "below - 2006 casual 2d; the bar is a formality."

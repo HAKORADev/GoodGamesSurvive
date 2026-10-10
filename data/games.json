@@ -1265,8 +1265,8 @@
    "caption": "rapture under the fathoms - the 2007 immersive shooter that made would-you-kindly a genre phrase."
   },
   {
-   "title": "Borderlands 1 (Cel-Shaded)",
-   "slug": "borderlands-1-cel-shaded",
+   "title": "Borderlands",
+   "slug": "borderlands",
    "list": "non-casual",
    "class": "normal",
    "category": "🎯 ACTION, SHOOTERS, SURVIVAL & HARDCORE",
@@ -1312,8 +1312,8 @@
    "sources": [
     "store.steampowered.com/app/8980"
    ],
-   "notes": "",
-   "page_url": "pages/game/borderlands-1-cel-shaded.html",
+   "notes": "owner's 'cel-shaded' list note describes the art style, not part of the title",
+   "page_url": "pages/game/borderlands.html",
    "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/header.jpg",
    "caption": "the cel-shaded looter-shooter origin - pandora, four vault hunters and a billion guns."
   },

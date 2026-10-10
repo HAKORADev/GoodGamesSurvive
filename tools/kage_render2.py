@@ -234,35 +234,45 @@ def main_page(eng):
         "mods": "the mods+patches shelf stands ready - the first mod or patch page lights it up.",
     }
     blocks = []
+    home_secs = []
     for key, label, d in secs:
         rows = [r for r in eng.rows if r["sec"] == key and r.get("page") and not r.get("kind")]
-        order = {s: i for i, s in enumerate(eng.dig_order())}
-        rows.sort(key=lambda r: order.get(r["s"], 999))
         head_links = ['<a class="jump" href="' + rel("", "pages/%s.html" % key, depth) + '">THE FULL SHELF &#8594;</a>']
         if any(x.get("section") == key for x in eng.collections) or any(m.get("_sec") == key for m in eng.multis):
             head_links.append('<a class="jump jump-dim" href="' + rel("", "pages/%s/collections.html" % key, depth) + '">COLLECTIONS &#8594;</a>')
         if rows:
-            items = []
-            for r in rows[:10]:
-                r_th = eng.thumb_at(r.get("th"), depth)
-                th = ('<span class="dir-thumb"><img loading="lazy" alt="" src="' + esc(r_th) + '" onerror="this.parentNode.classList.add(\'dead\');this.remove()"></span>' if r_th else '<span class="dir-thumb dead"></span>')
-                items.append('<a class="dir-row" href="' + rel("", "pages/" + r["page"], depth) + '">' + th +
-                             '<span class="dir-main"><span class="dir-name">' + esc(r["t"]) + '</span>' +
-                             ('<span class="dir-cap">' + esc(r["cap"]) + '</span>' if r.get("cap") else '') +
-                             '<span class="dir-meta">' + esc(r.get("y") or "") + '</span></span>'
-                             '<span class="dir-go">OPEN &#8594;</span></a>')
-            digs = ('<p class="latest-note">latest digs - ' + str(len(rows[:10])) + ' of ' + str(dug[key]) + ' pages, dug order</p>'
-                    if dug[key] > 10 else '')
-            blocks.append('<section class="latest-sec"><div class="latest-head">'
+            home_secs.append((key, label, len(rows)))
+            blocks.append('<section class="latest-sec" data-home-shelf="' + key + '"><div class="latest-head">'
                           '<h2 class="sec-title">' + label + '</h2>'
                           '<span class="latest-links">' + "".join(head_links) + '</span></div>'
-                          + digs +
-                          '<div class="dir">' + "".join(items) + '</div></section>')
+                          '<p class="latest-note">rolling 10 of ' + str(len(rows)) + ' pages...</p>'
+                          '<div class="dir"></div></section>')
         else:
             blocks.append('<section class="latest-sec"><div class="latest-head">'
                           '<h2 class="sec-title">' + label + '</h2>'
                           '<span class="latest-links">' + "".join(head_links) + '</span></div>'
                           '<p class="dir-note">' + esc(ready_note.get(key, "")) + '</p></section>')
+    home_js = ""
+    if home_secs:
+        home_js = ('<script>(function(){'
+                   'function esc(s){return String(s==null?"":s).replace(/[&<>"\']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;","\\"":"&quot;","\'":"&#39;"}[c]})}'
+                   'function pick(a,n){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a.slice(0,n);}'
+                   'document.querySelectorAll("[data-home-shelf]").forEach(function(el){'
+                   'var sec=el.getAttribute("data-home-shelf");'
+                   'fetch("data/shelf-"+sec+".json?v=' + BUILD_V + '").then(function(r){return r.json()}).then(function(d){'
+                   'var rows=(d.rows||[]).filter(function(r){return r.page;});'
+                   'var out=el.querySelector(".dir"),note=el.querySelector(".latest-note");'
+                   'if(!rows.length){if(note)note.textContent="";return;}'
+                   'var picks=pick(rows,10);'
+                   'out.innerHTML=picks.map(function(r){'
+                   'var th=r.th?(\'<span class="dir-thumb"><img loading="lazy" alt="" src="\'+esc(r.th)+\'" onerror="this.parentNode.classList.add(\\\'dead\\\');this.remove()"></span>\'):\'<span class="dir-thumb dead"></span>\';'
+                   'return \'<a class="dir-row" href="pages/\'+esc(r.page)+\'">\'+th+'
+                   '\'<span class="dir-main"><span class="dir-name">\'+esc(r.t)+\'</span>\'+'
+                   '(r.cap?\'<span class="dir-cap">\'+esc(r.cap)+\'</span>\':\'\')+'
+                   '\'<span class="dir-meta">\'+esc(r.y||"")+\'</span></span>\'+'
+                   '\'<span class="dir-go">OPEN &#8594;</span></a>\';}).join("");'
+                   'if(note)note.textContent="10 of "+rows.length+" pages, rolled fresh on every refresh";'
+                   '}).catch(function(){});});})();</script>')
     stats = ('<section class="stats-line"><span>' + str(c["games"]) + ' games catalogued</span>'
              '<span>' + str(dug["games"]) + ' game pages dug</span>'
              '<span>' + str(len(eng.page_by_slug)) + ' pages live</span>'
@@ -272,7 +282,7 @@ def main_page(eng):
             '<div class="brand-mark" role="img" aria-label="WASTED - TED struck through, IT written over it">'
             '<span class="mark-word">WAS<span class="mark-ted">TED<span class="mark-it">IT</span></span></span></div>'
             '<p class="hero-caption">a memory no longer buried</p></section>'
-            + "".join(blocks) + stats + '</main>')
+            + "".join(blocks) + stats + '</main>' + home_js)
     return (head("GOODGAMES SURVIVE — a memory no longer buried",
                  "Good games that outlived their era. Downloads, cracks for the un-buyable, mods, patches, upgrade paths.",
                  depth) + topbar(eng, depth, None) + body + foot_site(depth) + '</body></html>')

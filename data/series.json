@@ -1,7 +1,7 @@
 {
  "_meta": {
   "schema": "ggs.v1",
-  "updated": "2026-10-09",
+  "updated": "2026-10-11",
   "law": "data/ is the public copy: only page-backed, verified rows live here. the full database (owner-listed rows included) is work/lists/."
  },
  "series": [
@@ -406,6 +406,1139 @@
      "title": "Zuma's Revenge!",
      "part": 2,
      "y": "2009"
+    }
+   ]
+  },
+  {
+   "key": "chocolatier",
+   "title": "Chocolatier",
+   "members": [
+    {
+     "slug": "chocolatier-series-chocolatier-1-chocolatier-2-secret-ingredients-chocolatier-decadence-by-design",
+     "title": "Chocolatier Series (Chocolatier 1, Chocolatier 2: Secret Ingredients, Chocolatier: Decadence by Design)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "royal-envoy",
+   "title": "Royal Envoy",
+   "members": [
+    {
+     "slug": "royal-envoy-2",
+     "title": "Royal Envoy 2",
+     "part": null
+    },
+    {
+     "slug": "royal-envoy-series",
+     "title": "Royal Envoy Series",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "papas",
+   "title": "Papas",
+   "members": [
+    {
+     "slug": "papa-s-deluxe-series-papa-s-freezeria-deluxe-papa-s-pizzeria-deluxe-papa-s-mocharia-deluxe",
+     "title": "Papa's Deluxe Series (Papa's Freezeria Deluxe, Papa's Pizzeria Deluxe, Papa's Mocharia Deluxe)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "farm-frenzy",
+   "title": "Farm Frenzy",
+   "members": [
+    {
+     "slug": "farm-frenzy-series-1-4-farm-frenzy-gone-fishing",
+     "title": "Farm Frenzy Series (1-4, Farm Frenzy: Gone Fishing)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "youda",
+   "title": "Youda",
+   "members": [
+    {
+     "slug": "youda-series-youda-farmer-1-3-youda-fisherman-youda-survivor-2",
+     "title": "Youda Series (Youda Farmer 1-3, Youda Fisherman, Youda Survivor 2)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "janes",
+   "title": "Janes",
+   "members": [
+    {
+     "slug": "jane-s-series-jane-s-hotel-jane-s-hotel-mania-jane-s-zoo",
+     "title": "Jane's Series (Jane's Hotel, Jane's Hotel Mania, Jane's Zoo)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "turbo",
+   "title": "Turbo",
+   "members": [
+    {
+     "slug": "turbo-series-turbo-pizza-turbo-fiesta-turbo-subs",
+     "title": "Turbo Series (Turbo Pizza, Turbo Fiesta, Turbo Subs)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "supermarket",
+   "title": "Supermarket",
+   "members": [
+    {
+     "slug": "supermarket-mania-1-and-2",
+     "title": "Supermarket Mania 1 & 2",
+     "part": null
+    },
+    {
+     "slug": "supermarket-management-1-and-2",
+     "title": "Supermarket Management 1 & 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "stand-o-food",
+   "title": "Stand O Food",
+   "members": [
+    {
+     "slug": "stand-o-food-1-2-and-3",
+     "title": "Stand O'Food 1, 2 & 3",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "cake-mania",
+   "title": "Cake Mania",
+   "members": [
+    {
+     "slug": "cake-mania-1-2-and-3",
+     "title": "Cake Mania 1, 2 & 3",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "farm-mania",
+   "title": "Farm Mania",
+   "members": [
+    {
+     "slug": "farm-mania-2",
+     "title": "Farm Mania 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "ranch-rush",
+   "title": "Ranch Rush",
+   "members": [
+    {
+     "slug": "ranch-rush-1-and-2",
+     "title": "Ranch Rush 1 & 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "kingdom-rush",
+   "title": "Kingdom Rush",
+   "members": [
+    {
+     "slug": "kingdom-rush-series",
+     "title": "Kingdom Rush Series",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "tasty-planet",
+   "title": "Tasty Planet",
+   "members": [
+    {
+     "slug": "tasty-planet",
+     "title": "Tasty Planet",
+     "part": null
+    },
+    {
+     "slug": "tasty-planet-back-for-the-seconds",
+     "title": "Tasty Planet: Back for the Seconds",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "snowy",
+   "title": "Snowy",
+   "members": [
+    {
+     "slug": "snowy-the-bear-collection-snowy-space-trip-fish-frenzy-lunch-rush-treasure-hunt-1-3-puzzle-islands",
+     "title": "Snowy the Bear Collection (Snowy Space Trip, Fish Frenzy, Lunch Rush, Treasure Hunt 1-3, Puzzle Islands)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "super-granny",
+   "title": "Super Granny",
+   "members": [
+    {
+     "slug": "super-granny-1-6",
+     "title": "Super Granny (1-6)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "peggle",
+   "title": "Peggle",
+   "members": [
+    {
+     "slug": "peggle",
+     "title": "Peggle",
+     "part": null
+    },
+    {
+     "slug": "peggle-nights",
+     "title": "Peggle Nights",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "worms",
+   "title": "Worms",
+   "members": [
+    {
+     "slug": "worms-blast",
+     "title": "Worms Blast",
+     "part": null
+    },
+    {
+     "slug": "worms-4-mayhem",
+     "title": "Worms 4: Mayhem",
+     "part": null
+    },
+    {
+     "slug": "worms-forts-under-siege",
+     "title": "Worms Forts: Under Siege",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "turtle-odyssey",
+   "title": "Turtle Odyssey",
+   "members": [
+    {
+     "slug": "turtle-odyssey-1-and-2",
+     "title": "Turtle Odyssey 1 & 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "fishdom",
+   "title": "Fishdom",
+   "members": [
+    {
+     "slug": "fishdom-3",
+     "title": "Fishdom 3",
+     "part": null
+    },
+    {
+     "slug": "fishdom-series",
+     "title": "Fishdom Series",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "seven-wonders",
+   "title": "Seven Wonders",
+   "members": [
+    {
+     "slug": "7-wonders-series-7-wonders-ii-magical-mystery-tower",
+     "title": "7 Wonders Series (7 Wonders II, Magical Mystery Tower)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "yugioh",
+   "title": "Yugioh",
+   "members": [
+    {
+     "slug": "yu-gi-oh-power-of-chaos-trilogy-yugi-kaiba-joey",
+     "title": "Yu-Gi-Oh! Power of Chaos Trilogy (Yugi, Kaiba, Joey)",
+     "part": null
+    },
+    {
+     "slug": "yu-gi-oh-battle-city-finals-v2",
+     "title": "Yu-Gi-Oh! Battle City Finals v2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "hotline-miami",
+   "title": "Hotline Miami",
+   "members": [
+    {
+     "slug": "hotline-miami-1-and-2",
+     "title": "Hotline Miami 1 & 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "ricochet",
+   "title": "Ricochet",
+   "members": [
+    {
+     "slug": "ricochet",
+     "title": "Ricochet",
+     "part": null
+    },
+    {
+     "slug": "ricochet-xtreme",
+     "title": "Ricochet Xtreme",
+     "part": null
+    },
+    {
+     "slug": "ricochet-lost-worlds",
+     "title": "Ricochet Lost Worlds",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "zombie-shooter",
+   "title": "Zombie Shooter",
+   "members": [
+    {
+     "slug": "zombie-shooter-1-and-2",
+     "title": "Zombie Shooter 1 & 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "feeding-frenzy",
+   "title": "Feeding Frenzy",
+   "members": [
+    {
+     "slug": "feeding-frenzy-1-and-2",
+     "title": "Feeding Frenzy 1 & 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "watch-dogs",
+   "title": "Watch Dogs",
+   "members": [
+    {
+     "slug": "watch-dogs",
+     "title": "Watch Dogs",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "dead-space",
+   "title": "Dead Space",
+   "members": [
+    {
+     "slug": "dead-space-2",
+     "title": "Dead Space 2",
+     "part": null
+    },
+    {
+     "slug": "dead-space",
+     "title": "Dead Space",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "fear",
+   "title": "Fear",
+   "members": [
+    {
+     "slug": "f-e-a-r-fear-1-and-expansions",
+     "title": "F.E.A.R. (FEAR 1 & Expansions)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "borderlands",
+   "title": "Borderlands",
+   "members": [
+    {
+     "slug": "borderlands",
+     "title": "Borderlands",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "fallout",
+   "title": "Fallout",
+   "members": [
+    {
+     "slug": "fallout-3",
+     "title": "Fallout 3",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "silent-hill",
+   "title": "Silent Hill",
+   "members": [
+    {
+     "slug": "silent-hill-homecoming",
+     "title": "Silent Hill: Homecoming",
+     "part": null
+    },
+    {
+     "slug": "silent-hill-shattered-memories",
+     "title": "Silent Hill: Shattered Memories",
+     "part": null
+    },
+    {
+     "slug": "silent-hill-4-the-room",
+     "title": "Silent Hill 4: The Room",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "max-payne",
+   "title": "Max Payne",
+   "members": [
+    {
+     "slug": "max-payne-3",
+     "title": "Max Payne 3",
+     "part": null
+    },
+    {
+     "slug": "max-payne-2",
+     "title": "Max Payne 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "far-cry",
+   "title": "Far Cry",
+   "members": [
+    {
+     "slug": "far-cry-3",
+     "title": "Far Cry 3",
+     "part": null
+    },
+    {
+     "slug": "far-cry-2",
+     "title": "Far Cry 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "crysis",
+   "title": "Crysis",
+   "members": [
+    {
+     "slug": "crysis-2",
+     "title": "Crysis 2",
+     "part": null
+    },
+    {
+     "slug": "crysis",
+     "title": "Crysis",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "wolfenstein",
+   "title": "Wolfenstein",
+   "members": [
+    {
+     "slug": "wolfenstein",
+     "title": "Wolfenstein",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "postal",
+   "title": "Postal",
+   "members": [
+    {
+     "slug": "postal-2-full-collection-apocalypse-weekend",
+     "title": "Postal 2 (Full Collection / Apocalypse Weekend)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "half-life",
+   "title": "Half-Life",
+   "members": [
+    {
+     "slug": "half-life-2",
+     "title": "Half-Life 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "portal",
+   "title": "Portal",
+   "members": [
+    {
+     "slug": "portal",
+     "title": "Portal",
+     "part": null
+    },
+    {
+     "slug": "portal-2",
+     "title": "Portal 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "resident-evil",
+   "title": "Resident Evil",
+   "members": [
+    {
+     "slug": "resident-evil-4-and-5",
+     "title": "Resident Evil 4 & 5",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "left-4-dead",
+   "title": "Left 4 Dead",
+   "members": [
+    {
+     "slug": "left-4-dead-2",
+     "title": "Left 4 Dead 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "call-of-duty",
+   "title": "Call Of Duty",
+   "members": [
+    {
+     "slug": "call-of-duty-modern-warfare-2",
+     "title": "Call of Duty: Modern Warfare 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "medal-of-honor",
+   "title": "Medal Of Honor",
+   "members": [
+    {
+     "slug": "medal-of-honor-airborne",
+     "title": "Medal of Honor: Airborne",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "battlefield",
+   "title": "Battlefield",
+   "members": [
+    {
+     "slug": "battlefield-2",
+     "title": "Battlefield 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "halo",
+   "title": "Halo",
+   "members": [
+    {
+     "slug": "halo-combat-evolved-and-halo-2",
+     "title": "Halo: Combat Evolved & Halo 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "alien-shooter",
+   "title": "Alien Shooter",
+   "members": [
+    {
+     "slug": "alien-shooter-2",
+     "title": "Alien Shooter 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "devil-may-cry",
+   "title": "Devil May Cry",
+   "members": [
+    {
+     "slug": "devil-may-cry-trilogy-dmc-1-2-3",
+     "title": "Devil May Cry Trilogy (DMC 1, 2, 3)",
+     "part": null
+    },
+    {
+     "slug": "devil-may-cry-4",
+     "title": "Devil May Cry 4",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "lord-of-the-rings",
+   "title": "Lord Of The Rings",
+   "members": [
+    {
+     "slug": "the-lord-of-the-rings-conquest",
+     "title": "The Lord of the Rings: Conquest",
+     "part": null
+    },
+    {
+     "slug": "the-lord-of-the-rings-war-in-the-north",
+     "title": "The Lord of the Rings: War in the North",
+     "part": null
+    },
+    {
+     "slug": "the-lord-of-the-rings-the-return-of-the-king",
+     "title": "The Lord of the Rings: The Return of the King",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "transformers",
+   "title": "Transformers",
+   "members": [
+    {
+     "slug": "transformers-devastation-cel-shaded",
+     "title": "Transformers: Devastation (Cel-Shaded)",
+     "part": null
+    },
+    {
+     "slug": "transformers-war-for-cybertron",
+     "title": "Transformers: War for Cybertron",
+     "part": null
+    },
+    {
+     "slug": "transformers-the-game",
+     "title": "Transformers: The Game",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "sonic",
+   "title": "Sonic",
+   "members": [
+    {
+     "slug": "sonic-adventure-2",
+     "title": "Sonic Adventure 2",
+     "part": null
+    },
+    {
+     "slug": "sonic-adventure-dx",
+     "title": "Sonic Adventure DX",
+     "part": null
+    },
+    {
+     "slug": "sonic-riders",
+     "title": "Sonic Riders",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "dynasty-warriors",
+   "title": "Dynasty Warriors",
+   "members": [
+    {
+     "slug": "dynasty-warriors-6",
+     "title": "Dynasty Warriors 6",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "samurai-warriors",
+   "title": "Samurai Warriors",
+   "members": [
+    {
+     "slug": "samurai-warriors",
+     "title": "Samurai Warriors",
+     "part": null
+    },
+    {
+     "slug": "samurai-warriors-2",
+     "title": "Samurai Warriors 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "star-wars",
+   "title": "Star Wars",
+   "members": [
+    {
+     "slug": "star-wars-the-force-unleashed-ii",
+     "title": "Star Wars: The Force Unleashed II",
+     "part": null
+    },
+    {
+     "slug": "star-wars-knights-of-the-old-republic-kotor",
+     "title": "Star Wars: Knights of the Old Republic (KOTOR)",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "tmnt",
+   "title": "Tmnt",
+   "members": [
+    {
+     "slug": "tmnt-out-of-the-shadows",
+     "title": "TMNT: Out of the Shadows",
+     "part": null
+    },
+    {
+     "slug": "tmnt-ubisoft-2007",
+     "title": "TMNT (Ubisoft 2007)",
+     "part": null
+    },
+    {
+     "slug": "tmnt-2003-and-tmnt-2",
+     "title": "TMNT (2003) & TMNT 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "spider-man",
+   "title": "Spider Man",
+   "members": [
+    {
+     "slug": "spider-man-web-of-shadows",
+     "title": "Spider-Man: Web of Shadows",
+     "part": null
+    },
+    {
+     "slug": "spider-man-friend-or-foe",
+     "title": "Spider-Man: Friend or Foe",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "rayman",
+   "title": "Rayman",
+   "members": [
+    {
+     "slug": "rayman-origins",
+     "title": "Rayman Origins",
+     "part": null
+    },
+    {
+     "slug": "rayman-raving-rabbids",
+     "title": "Rayman Raving Rabbids",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "prince-of-persia",
+   "title": "Prince of Persia",
+   "members": [
+    {
+     "slug": "prince-of-persia-the-forgotten-sands",
+     "title": "Prince of Persia: The Forgotten Sands",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "tomb-raider",
+   "title": "Tomb Raider",
+   "members": [
+    {
+     "slug": "tomb-raider-underworld",
+     "title": "Tomb Raider: Underworld",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "assassins-creed",
+   "title": "Assassins Creed",
+   "members": [
+    {
+     "slug": "assassin-s-creed-series-ac-1-ezio-collection-ac-iii-ac-iv-black-flag",
+     "title": "Assassin's Creed Series (AC 1, Ezio Collection, AC III, AC IV: Black Flag )",
+     "part": null
+    },
+    {
+     "slug": "assassin-s-creed-iv-black-flag",
+     "title": "Assassin's Creed IV: Black Flag",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "tales-of",
+   "title": "Tales Of",
+   "members": [
+    {
+     "slug": "tales-of-berseria",
+     "title": "Tales of Berseria",
+     "part": null
+    },
+    {
+     "slug": "tales-of-zestiria",
+     "title": "Tales of Zestiria",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "stronghold",
+   "title": "Stronghold",
+   "members": [
+    {
+     "slug": "stronghold-crusader-1-and-hd-extreme",
+     "title": "Stronghold Crusader 1 (and HD / Extreme)",
+     "part": null
+    },
+    {
+     "slug": "stronghold-crusader-2",
+     "title": "Stronghold Crusader 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "diablo",
+   "title": "Diablo",
+   "members": [
+    {
+     "slug": "diablo-ii",
+     "title": "Diablo II",
+     "part": null
+    },
+    {
+     "slug": "diablo-ii-lord-of-destruction",
+     "title": "Diablo II: Lord of Destruction",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "rollercoaster-tycoon",
+   "title": "Rollercoaster Tycoon",
+   "members": [
+    {
+     "slug": "rollercoaster-tycoon-3",
+     "title": "RollerCoaster Tycoon 3",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "zoo-tycoon",
+   "title": "Zoo Tycoon",
+   "members": [
+    {
+     "slug": "zoo-tycoon-1-and-2",
+     "title": "Zoo Tycoon 1 & 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "command-conquer",
+   "title": "Command Conquer",
+   "members": [
+    {
+     "slug": "command-and-conquer-red-alert-2-yuri-s-revenge",
+     "title": "Command & Conquer: Red Alert 2 - Yuri's Revenge",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "age-of-empires",
+   "title": "Age Of Empires",
+   "members": [
+    {
+     "slug": "age-of-empires-iii",
+     "title": "Age of Empires III",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "arkham",
+   "title": "Arkham",
+   "members": [
+    {
+     "slug": "batman-arkham-city",
+     "title": "Batman: Arkham City",
+     "part": null
+    },
+    {
+     "slug": "batman-arkham-asylum",
+     "title": "Batman: Arkham Asylum",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "saints-row",
+   "title": "Saints Row",
+   "members": [
+    {
+     "slug": "saints-row-the-third-saints-row-3",
+     "title": "Saints Row: The Third (Saints Row 3)",
+     "part": null
+    },
+    {
+     "slug": "saints-row-iv-saints-row-4",
+     "title": "Saints Row IV (Saints Row 4)",
+     "part": null
+    },
+    {
+     "slug": "saints-row-2",
+     "title": "Saints Row 2",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "gta",
+   "title": "Grand Theft Auto",
+   "members": [
+    {
+     "slug": "grand-theft-auto-san-andreas-and-vice-city",
+     "title": "Grand Theft Auto: San Andreas & Vice City",
+     "part": "bundle"
+    },
+    {
+     "slug": "grand-theft-auto-iv",
+     "title": "Grand Theft Auto IV",
+     "part": 4
+    },
+    {
+     "slug": "grand-theft-auto-v",
+     "title": "Grand Theft Auto V",
+     "part": 5
+    },
+    {
+     "slug": "gta-1",
+     "title": "Grand Theft Auto",
+     "y": 1997,
+     "kind": "out of the catalogue"
+    },
+    {
+     "slug": "gta-2",
+     "title": "Grand Theft Auto 2",
+     "y": 1999,
+     "kind": "out of the catalogue"
+    },
+    {
+     "slug": "gta-3",
+     "title": "Grand Theft Auto III",
+     "y": 2001,
+     "kind": "out of the catalogue"
+    },
+    {
+     "slug": "gta-vice-city",
+     "title": "Grand Theft Auto: Vice City",
+     "y": 2002,
+     "kind": "standalone, bundled on this site"
+    },
+    {
+     "slug": "gta-san-andreas",
+     "title": "Grand Theft Auto: San Andreas",
+     "y": 2004,
+     "kind": "standalone, bundled on this site"
+    }
+   ]
+  },
+  {
+   "key": "just-cause",
+   "title": "Just Cause",
+   "members": [
+    {
+     "slug": "just-cause-2",
+     "title": "Just Cause 2",
+     "part": null
+    },
+    {
+     "slug": "just-cause",
+     "title": "Just Cause",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "need-for-speed",
+   "title": "Need for Speed",
+   "members": [
+    {
+     "slug": "need-for-speed-most-wanted",
+     "title": "Need for Speed: Most Wanted",
+     "part": null
+    },
+    {
+     "slug": "need-for-speed-underground-2",
+     "title": "Need for Speed: Underground 2",
+     "part": null
+    },
+    {
+     "slug": "need-for-speed-most-wanted-2005-underground-1-carbon",
+     "title": "Need for Speed: Most Wanted (2005), Underground 1, Carbon",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "ben-10",
+   "title": "Ben 10",
+   "members": [
+    {
+     "slug": "ben-10-power-trip",
+     "title": "Ben 10: Power Trip",
+     "part": null
+    },
+    {
+     "slug": "ben-10-ultimate-alien-cosmic-destruction",
+     "title": "Ben 10 Ultimate Alien: Cosmic Destruction",
+     "part": null
+    },
+    {
+     "slug": "ben-10-protector-of-earth",
+     "title": "Ben 10: Protector of Earth",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "guilty-gear",
+   "title": "Guilty Gear",
+   "members": [
+    {
+     "slug": "guilty-gear-xx-accent-core-plus-r",
+     "title": "Guilty Gear XX Accent Core Plus R",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "tekken",
+   "title": "Tekken",
+   "members": [
+    {
+     "slug": "tekken-3",
+     "title": "Tekken 3",
+     "part": null
+    },
+    {
+     "slug": "tekken-5",
+     "title": "Tekken 5",
+     "part": null
+    },
+    {
+     "slug": "tekken-6",
+     "title": "Tekken 6",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "mortal-kombat",
+   "title": "Mortal Kombat",
+   "members": [
+    {
+     "slug": "mortal-kombat-x",
+     "title": "Mortal Kombat X",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "god-of-war",
+   "title": "God of War",
+   "members": [
+    {
+     "slug": "god-of-war-chains-of-olympus-and-ghost-of-sparta",
+     "title": "God of War: Chains of Olympus & Ghost of Sparta",
+     "part": null
+    },
+    {
+     "slug": "god-of-war-ps2-and-god-of-war-ii",
+     "title": "God of War (PS2) & God of War II",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "the-sims",
+   "title": "The Sims",
+   "members": [
+    {
+     "slug": "the-sims-3-complete-collection",
+     "title": "The Sims 3 Complete Collection",
+     "part": null
+    }
+   ]
+  },
+  {
+   "key": "dream-chronicles",
+   "title": "Dream Chronicles",
+   "members": [
+    {
+     "slug": "dream-chronicles",
+     "title": "Dream Chronicles",
+     "part": null
+    },
+    {
+     "slug": "dream-chronicles-the-chosen-child",
+     "title": "Dream Chronicles: The Chosen Child",
+     "part": null
+    },
+    {
+     "slug": "dream-chronicles-the-book-of-air",
+     "title": "Dream Chronicles: The Book of Air",
+     "part": null
     }
    ]
   }

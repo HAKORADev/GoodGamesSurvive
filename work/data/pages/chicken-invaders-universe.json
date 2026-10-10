@@ -7,7 +7,9 @@
  "subgenres": [
   "fixed shooter"
  ],
- "characters": [],
+ "characters": [
+  "The Hero"
+ ],
  "req": {
   "tier": "below",
   "note": "DirectX 11, 1 GB RAM, 700 MB of disk and a broadband line per the Steam page. the MMO is the real requirement - this one does not exist offline."

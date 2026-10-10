@@ -8,7 +8,12 @@
  "subgenres": [
   "survival"
  ],
- "characters": [],
+ "characters": [
+  "Coach",
+  "Nick",
+  "Rochelle",
+  "Ellis"
+ ],
  "req": {
   "tier": "below",
   "note": "below - source 2009; trivially under the bar."
